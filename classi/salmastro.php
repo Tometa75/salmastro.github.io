@@ -28,7 +28,8 @@ class Salmastro {
     }
 
     function draw() {
-        echo 'Oggi è: '.$this->info['today'];
+        echo '<div>Oggi è: '.$this->info['today'].'</div>';
+        echo '<div>'.json_encode($this->cal->getCal()).'</div>';
     }
 
 }
