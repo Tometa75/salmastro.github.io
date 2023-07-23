@@ -105,11 +105,11 @@ class calnav {
             }
         echo '">';
         
-            echo '<div class="calnavTitleDiv" style="width:30%;">';
+            echo '<div class="calnavTitleDiv" style="width:20%;">';
                 $this->drawLeftRight('L');
             echo '</div>';
 
-            echo '<div class="calnavTitleDiv" style="width:40%;text-align:center;font-weight:bold;">';
+            echo '<div class="calnavTitleDiv" style="width:60%;text-align:center;font-weight:bold;">';
                 echo '<u ';
                     if ($this->config['div']) {
                         echo 'style="cursor:pointer;" onclick="window._calnav_'.$this->config['index'].'.setDiv();"';
@@ -122,11 +122,11 @@ class calnav {
                 echo '</div>';
 
                 if ($this->config['now']) {
-                    echo '<img class="calnavNavNow" src="http://'.$_SERVER['SERVER_ADDR'].'/nebula/core/calendario/img/now.png" onclick="window._calnav_'.$this->config['index'].'.execute(\''.date('Ymd').'\');" />';
+                    echo '<img class="calnavNavNow" src="'.SITE_URL.'/core/calendario/img/now.png" onclick="window._calnav_'.$this->config['index'].'.setToday(\''.date('Ymd').'\');" />';
                 }
             echo '</div>';
 
-            echo '<div class="calnavTitleDiv" style="width:30%;">';
+            echo '<div class="calnavTitleDiv" style="width:20%;">';
                 echo $this->drawLeftRight('R');
             echo '</div>';
         
@@ -222,13 +222,13 @@ class calnav {
             echo '<div class="calnavNavIconDiv" style="float:'.$float.';" onclick="window._calnav_'.$this->config['index'].'.setToday(\''.$dns.'\');" >';
 
 
-                echo '<div class="calnavNavDayDiv" style="float:'.$float.';background-image: url(\'http://'.$_SERVER['SERVER_ADDR'].'/nebula/core/calendario/img/calicon.png\');" >';
+                echo '<div class="calnavNavDayDiv" style="float:'.$float.';background-image: url('.SITE_URL.'/core/calendario/img/calicon.png\');" >';
                     echo '<div class="calnavNavDayTxt" >'; 
                         echo $txt;
                     echo '</div>';
                 echo '</div>';
                 echo '<div class="calnavNavDayDiv" style="float:'.$float.';text-align:'.$float.';" >';
-                    echo '<img class="calnavNavArrow" style="" src="http://'.$_SERVER['SERVER_ADDR'].'/nebula/core/calendario/img/'.$i.$lato.'.png" />';
+                    echo '<img class="calnavNavArrow" style="" src="'.SITE_URL.'/core/calendario/img/'.$i.$lato.'.png" />';
                 echo '</div>';
 
             echo '</div>';
@@ -373,7 +373,6 @@ class calnav {
                             if ($gray) echo 'color:#bbbbbb;';
                             else echo 'cursor:pointer;';
 
-                            if ($d['chiusura']==1) echo 'color:blue;';
                             if ($d['festa']==1 || $d['wd']==0) echo 'color:red;';
 
                         echo '" onclick="';

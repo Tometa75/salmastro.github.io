@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato/Lato-Bold.ttf);
+    font-weight:bold;
+}
+
+html {
+    font-size:10pt;
+}
+
+body {
+    width:100%;
+}
+
+#salmain {
+    position:relative;
+    width:1200px;
+    height:600px;
+    left:50%;
+    transform:translate(-50%,0);
+}

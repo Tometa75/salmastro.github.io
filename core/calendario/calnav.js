@@ -27,7 +27,7 @@ function calnav(indice,risoluzione,today,config) {
         if (this.config.disabled) return;
 
         if (this.divOpt) {
-            $('#calnavOpt_'+indice).hide();
+            $('#calnavOpt_'+this.indice).hide();
             this.divOpt=false;
         }
         else {
@@ -41,11 +41,11 @@ function calnav(indice,risoluzione,today,config) {
 
     this.animateDiv=function(indice) {
         //essendo chiamata da setInterval perde il riferimento THIS
-        //console.log(indice);
+        console.log(indice);
         window['calnavY_'+indice]=window['calnavY_'+indice]+2;
         if (window['calnavY_'+indice]>=0) clearInterval(window['calnavInterv_'+indice]);
         else {
-            document.getElementById('calnavInnerOpt_'+indice).style.top=window['calnavY_'+indice];
+            document.getElementById('calnavInnerOpt_'+indice).style.top=window['calnavY_'+indice]+'px';
             //$('#calnavInnerOpt_'+this.indice).css("top",window['calnavY_'+this.indice]+"px");
         }
     }
@@ -103,21 +103,26 @@ function calnav(indice,risoluzione,today,config) {
         var indice=this.indice;
 
         $.ajax({
-            "url": "http://"+location.host+"/nebula/core/calendario/refresh_opt.php",
+            "url": location.protocol + '//' + location.host + location.pathname+"/refresh_opt.php",
             "async": true,
             "cache": false,
             "data": { "param": param },
             "type": "POST",
             "success": function(ret) {
-
+                console.log(ret);
                 $('#calnavInnerOpt_'+indice).html(ret);   
+            },
+            "error": function(ret) {
+                console.log(ret);
             }
         });
 
     }
 
     this.customExecute=function() {
-        //questo metodo va sovrascritto in base alle necesità dell'applicazione che instanzia la classe 
+        let url = location.protocol + '//' + location.host + location.pathname;   
+        url += '?today='+this.today;
+        window.location.href = url;
     }
 
 }
