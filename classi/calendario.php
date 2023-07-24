@@ -8,7 +8,9 @@ class Calendario {
 	protected $info=array(
 		"today"=>"",
 		"anno"=>"",
+		"capo"=>"",
 		"battesimo"=>"",
+		"ceneri"=>"",
 		"qua1"=>"",
 		"palme"=>"",
 		"pasqua"=>"",
@@ -17,9 +19,13 @@ class Calendario {
 		"pentecoste"=>"",
 		"re"=>"",
 		"avv1"=>"",
+		"natale"=>"",
+		"fine"=>"",
 		"annoLit"=>"",
 		"pari"=>false
 	);
+
+	protected $map=array();
 
 	protected $anni=array('A','B','C');
 	protected $rifAnno=1999;
@@ -49,11 +55,61 @@ class Calendario {
 		"1226"=>"Santo Stefano",
 		"1229"=>"Festa della Sacra Famiglia"
 	);
+
+	//fine è escluso dal periodo
+	protected $tempi=array(
+		array(
+			"codice"=>"N",
+			"nome"=>"Tempo di Natale",
+			"colore"=>"white",
+			"fine"=>"battesimo"
+		),
+		array(
+			"codice"=>"O",
+			"nome"=>"Tempo Ordinario",
+			"colore"=>"#85d985",
+			"fine"=>"ceneri"
+		),
+		array(
+			"codice"=>"Q",
+			"nome"=>"Tempo di Quaresima",
+			"colore"=>"violet",
+			"fine"=>"pasqua"
+		),
+		array(
+			"codice"=>"P",
+			"nome"=>"Tempo di Pasqua",
+			"colore"=>"white",
+			"fine"=>"pentecoste"
+		),
+		array(
+			"codice"=>"O",
+			"nome"=>"Tempo Ordinario",
+			"colore"=>"#85d985",
+			"fine"=>"avv1"
+		),
+		array(
+			"codice"=>"A",
+			"nome"=>"Tempo di Avvento",
+			"colore"=>"violet",
+			"fine"=>"natale"
+		),
+		array(
+			"codice"=>"N",
+			"nome"=>"Tempo di Natale",
+			"colore"=>"white",
+			"fine"=>"fine"
+		)
+	);
 	
 	function __construct($d) {
 
 		$this->info['today']=$d;
 		$this->info['anno']=substr($d,0,4);
+
+		$this->info['capo']=$this->info['anno'].'0101';
+		$this->info['natale']=$this->info['anno'].'1225';
+		$this->info['fine']=($this->info['anno']+1).'0101';
 
 		$pasqua=$this->pasqua($this->info['anno']);
 
@@ -61,7 +117,8 @@ class Calendario {
 		$this->festa[substr($this->info['angelo'],4,4)]="Lunedì dell'Angelo";
 		$this->info['palme']=date('Ymd',strtotime("-7 day",$pasqua));
 		$this->festa[substr($this->info['palme'],4,4)]="Domenica delle Palme";
-		$this->info['qua1']=date('Ymd',strtotime("-35 day",$pasqua));
+		$this->info['qua1']=date('Ymd',strtotime("-42 day",$pasqua));
+		$this->info['ceneri']=date('Ymd',strtotime("-46 day",$pasqua));
 		$this->info['ascensione']=date('Ymd',strtotime("+42 day",$pasqua));
 		$this->festa[substr($this->info['ascensione'],4,4)]="Ascensione di Gesù";
 		$this->info['pentecoste']=date('Ymd',strtotime("+49 day",$pasqua));
@@ -84,11 +141,83 @@ class Calendario {
 		if ( ((int)substr($d,0,4)%2)==0 ) $this->info['pari']=true;
 
 		$this->info['annoLit']=$this->annoLit($this->info['anno']);
+
+		$this->buildMap();
 		
 	}
 
 	function getCal() {
 		return $this->info;
+	}
+
+	function getMap() {
+		return $this->map;
+	}
+
+	function BuildMap() {
+
+		//evento è un momento specifico del periodo come "ceneri", "settimana santa"...
+		//settimana ha senso solo per il tempo Ordinario
+		$m=array(
+			"tempo"=>$this->getTempo(),
+			"anno"=>$this->getAnno(),
+			"settimana"=>"",
+			"quarto"=>"",
+			"pari"=>$this->info['pari'],
+			"festa"=>"",
+			"memoria"=>array(),
+			"evento"=>"",
+			"errore"=>false
+		);
+
+		if (!$m['tempo']) {
+			$m['errore']=true;
+			return $m;
+		}
+
+		if ($m['tempo']['codice']=='O') {
+
+			if ($this->info['today']<$this->info['ceneri']) {
+				$rif=mainFunc::gab_tots($this->info['battesimo']);
+				$sett=0;
+				while ($this->info['today']>=date('Ymd',$rif)) {
+					$sett++;
+					$rif=strtotime("+7 days",$rif);
+				}
+			}
+			else {
+				$rif=mainFunc::gab_tots($this->info['re']);
+				$sett=34;
+				while ($this->info['today']<date('Ymd',$rif)) {
+					$sett--;
+					$rif=strtotime("-7 days",$rif);
+				}
+			}
+
+			$m['settimana']=$sett;
+
+			$temp=$sett%4;
+
+			$m['quarto']=($temp==0)?4:$temp;
+		}
+
+		$this->map=$m;
+	}
+
+	function getTempo() {
+
+		foreach ($this->tempi as $k=>$t) {
+			if ($this->info['today']<$this->info[$t['fine']]) {
+				return $t;
+			}
+		}
+
+		return false;
+	}
+
+	function getAnno() {
+		if ($this->info['today']<$this->info['avv1']) return $this->info['annoLit'];
+		else return $this->annoLit($this->info['anno']+1);
 	}
 
 	function battesimo($anno) {

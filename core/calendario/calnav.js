@@ -73,7 +73,8 @@ function calnav(indice,risoluzione,today,config) {
             txt+=((d.getDate()+1)>9)?(d.getDate()):'0'+(d.getDate());
         }
         else {
-            txt=""+$('#calnav_anno_'+this.indice).val()+$('#calnav_mese_'+this.indice).val()+arg;
+            //txt=""+$('#calnav_anno_'+this.indice).val()+$('#calnav_mese_'+this.indice).val()+arg;
+            txt=arg;
         }
 
         return txt;

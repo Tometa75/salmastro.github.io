@@ -368,18 +368,19 @@ class calnav {
                             }
                         }
 
-                        echo '<td style="width:13.5%;';
+                        echo '<td style="width:13.5%;cursor:pointer;';
                             
                             if ($gray) echo 'color:#bbbbbb;';
-                            else echo 'cursor:pointer;';
+                            //else echo 'cursor:pointer;';
 
                             if ($d['festa']==1 || $d['wd']==0) echo 'color:red;';
 
                         echo '" onclick="';
                             //se il giorno appartiene al mese in corso
-                            if (!$gray) {
-                                echo 'window._calnav_'.$this->config['index'].'.execute(\''.substr($d['tag'],6,2).'\');';
-                            }
+                            //if (!$gray) {
+                                //echo 'window._calnav_'.$this->config['index'].'.execute(\''.substr($d['tag'],6,2).'\');';
+                                echo 'window._calnav_'.$this->config['index'].'.execute(\''.$d['tag'].'\');';
+                            //}
                         echo '">'.substr($d['tag'],6,2).'</td>';
                     }
 
