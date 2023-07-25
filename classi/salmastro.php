@@ -9,6 +9,9 @@ class Salmastro {
     );
 
     protected $map=array();
+    protected $vig=array();
+
+    protected $giornoSett=array('Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato');
 
     protected $cal=false;
     protected $calnav=false;
@@ -25,6 +28,10 @@ class Salmastro {
 
         $this->cal=new Calendario($this->info['today']);
         $this->map=$this->cal->getMap();
+
+        $temp=new Calendario(date('Ymd',strtotime('+1 day',mainFunc::gab_tots($this->info['today']))));
+        $this->vig=$temp->getMap();
+        unset($temp);
 
         $config=array(
             "index"=>"salmastro",
@@ -81,14 +88,7 @@ class Salmastro {
                         echo '" >';
                             echo $this->map['tempo']['nome'];
                             if ($this->map['tempo']['codice']=='O') {
-                                echo ' ( Settimana: '.$this->map['settimana'].' - ';
-                                switch ($this->map['quarto']) {
-                                    case 1: echo 'I';break;
-                                    case 2: echo 'II';break;
-                                    case 3: echo 'III';break;
-                                    case 4: echo 'IV';break;
-                                }
-                                echo ' )';
+                                echo ' ( Settimana: '.$this->map['settimana'].' )';
                             }
                         echo '</div>';
 
@@ -96,13 +96,55 @@ class Salmastro {
 
                 echo '</div>';
 
-                echo '<div style="position:relative;display:inline-block;vertical-align:top;width:45%;font-weight:bold;font-size: 1.2em;padding: 3px;padding-left: 10px;box-sizing:border-box;" >';
-                    echo 'Anno: '.$this->map['anno'];
+                echo '<div style="position:relative;display:inline-block;vertical-align:top;width:10%;font-weight:bold;font-size: 1.2em;padding: 3px;padding-left: 10px;box-sizing:border-box;" >';
+                    echo '<div>Anno: '.$this->map['anno'].'</div>';
+
+                    echo '<div>'.$this->giornoSett[$this->map['weekDay']].'</div>';
+
+                    echo '<div>';
+                        switch ($this->map['quarto']) {
+                            case 1: echo 'I';break;
+                            case 2: echo 'II';break;
+                            case 3: echo 'III';break;
+                            case 4: echo 'IV';break;
+                        }
+                    echo '</div>';
+
+                echo '</div>';
+
+                echo '<div style="position:relative;display:inline-block;vertical-align:top;width:54%;font-weight:bold;font-size: 1.2em;padding: 3px;padding-left: 10px;box-sizing:border-box;" >';
+                    
+                    $this->writeRicorrenza('E',$this->map['evento']);
+                    $this->writeRicorrenza('F',$this->map['festa']);
+                    
                 echo '</div>';
 
             echo '</div>';
 
         echo '</div>';
+    }
+
+    function writeRicorrenza($flag,$a) {
+
+        foreach ($a as $k=>$r) {
+
+            $color='black';
+
+            switch ($r['tipo']) {
+                case 'X': $color='#787575';break;
+                case 'F': $color='red';break;
+                case 'S': $color='red';break;
+                case 'M': $color='blue';break;
+                case 'R': $color='#7889cd';break;
+            }
+
+            if ($flag=='F' && $color=='red' && count($this->map['evento'])>0) $color='blue';
+            if ($flag=='F' && $color=='blue' && count($this->map['evento'])>0) $color='#7889cd';
+
+            echo '<div style="color:'.$color.';">';
+                echo $r['titolo'];
+            echo '</div>';
+        }
     }
 
 }

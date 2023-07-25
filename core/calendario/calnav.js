@@ -92,7 +92,7 @@ function calnav(indice,risoluzione,today,config) {
     this.refreshOpt=function() {
         //viene usata solo se la risoluzione è != Y
 
-        var txt=this.build('01');
+        var txt=this.build((this.risoluzione=='D')?$('#calnav_anno_'+this.indice).val()+$('#calnav_mese_'+this.indice).val()+'01':'01');
         $('#calnavInnerOpt_'+this.indice).html('');
 
         var param={
