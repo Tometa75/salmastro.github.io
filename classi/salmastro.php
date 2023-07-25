@@ -139,7 +139,7 @@ class Salmastro {
             }
 
             if ($flag=='F' && $color=='red' && count($this->map['evento'])>0) $color='blue';
-            if ($flag=='F' && $color=='blue' && count($this->map['evento'])>0) $color='#7889cd';
+            elseif ($flag=='F' && $color=='blue' && count($this->map['evento'])>0) $color='#7889cd';
 
             echo '<div style="color:'.$color.';">';
                 echo $r['titolo'];

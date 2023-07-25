@@ -40,9 +40,7 @@ class Calendario {
 		"0425"=>"Festa della liberazione",
 		"0501"=>"Festa dei lavoratori",
 		"0602"=>"Festa della Repubblica",
-		"0806"=>"Trasfigurazione del Signore",
 		"0815"=>"Assunzione della Beata Vergine Maria",
-		"0908"=>"Natività della Beata Vergine Maria",
 		"0912"=>"Santissimo nome di Maria",
 		"0914"=>"Esaltazione della Santa Croce",
 		"1101"=>"Solennità di tutti i Santi",
@@ -624,6 +622,682 @@ class Calendario {
 				"tipo"=>"R"
 			)
 		),
+		"0703"=>array(
+			"0703a"=>array(
+				"titolo"=>"San Tommaso apostolo",
+				"tipo"=>"F"
+			)
+		),
+		"0704"=>array(
+			"0704a"=>array(
+				"titolo"=>"Santa Elisabettya di Portogallo",
+				"tipo"=>"R"
+			)
+		),
+		"0705"=>array(
+			"0705a"=>array(
+				"titolo"=>"Sant'Antonio Maria Zaccaria (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"0706"=>array(
+			"0706a"=>array(
+				"titolo"=>"Santa Maria Goretti (Vergine e martire)",
+				"tipo"=>"R"
+			)
+		),
+		"0711"=>array(
+			"0711a"=>array(
+				"titolo"=>"Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa",
+				"tipo"=>"S"
+			)
+		),
+		"0712"=>array(
+			"0712a"=>array(
+				"titolo"=>"San Giovanni Gualberto (Abate)",
+				"tipo"=>"M"
+			)
+		),
+		"0713"=>array(
+			"0713a"=>array(
+				"titolo"=>"Sant'Enrico",
+				"tipo"=>"R"
+			)
+		),
+		"0714"=>array(
+			"0714a"=>array(
+				"titolo"=>"San Camillo de Lellis (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"0715"=>array(
+			"0715a"=>array(
+				"titolo"=>"San Bonaventura (Vescovo e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"0716"=>array(
+			"0716a"=>array(
+				"titolo"=>"Beata Vergine Maria del monte Carmelo",
+				"tipo"=>"R"
+			)
+		),
+		"0721"=>array(
+			"0721a"=>array(
+				"titolo"=>"San Lorenzo da Brindisi (Sacerdote e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"0722"=>array(
+			"0722a"=>array(
+				"titolo"=>"Santa Maria Maddalena",
+				"tipo"=>"M"
+			)
+		),
+		"0723"=>array(
+			"0723a"=>array(
+				"titolo"=>"Santa Brigida (Religiosa)",
+				"tipo"=>"R"
+			)
+		),
+		"0725"=>array(
+			"0725a"=>array(
+				"titolo"=>"San Giacomo apostolo",
+				"tipo"=>"F"
+			)
+		),
+		"0729"=>array(
+			"0729a"=>array(
+				"titolo"=>"Santi Marta, Maria e Lazzaro (Ospiti del Signore)",
+				"tipo"=>"M"
+			)
+		),
+		"0730"=>array(
+			"0730a"=>array(
+				"titolo"=>"San Pietro Crisologo (Vescovo e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"0731"=>array(
+			"0731a"=>array(
+				"titolo"=>"Sant'Ignazio di Loyola (Sacerdote)",
+				"tipo"=>"M"
+			)
+		),
+		"0801"=>array(
+			"0801a"=>array(
+				"titolo"=>"Sant'Alfonso Maria de' Liguori (Vescovo e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"0802"=>array(
+			"0802a"=>array(
+				"titolo"=>"Sant'Eusebio di Vercelli (Vescovo)",
+				"tipo"=>"R"
+			)
+		),
+		"0804"=>array(
+			"0804a"=>array(
+				"titolo"=>"San Giovanni Maria Vianney (Sacerdote)",
+				"tipo"=>"M"
+			)
+		),
+		"0805"=>array(
+			"0805a"=>array(
+				"titolo"=>"Dedicazione dela Basilica di Santa Maria Maggiore",
+				"tipo"=>"R"
+			)
+		),
+		"0806"=>array(
+			"0806a"=>array(
+				"titolo"=>"Trasfigurazione del Signore",
+				"tipo"=>"F"
+			)
+		),
+		"0807"=>array(
+			"0807a"=>array(
+				"titolo"=>"San Sisto II (Papa) e Compoagni (Martiri)",
+				"tipo"=>"R"
+			),
+			"0807b"=>array(
+				"titolo"=>"San Gaetano (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"0808"=>array(
+			"0808a"=>array(
+				"titolo"=>"San Domenico (Sacerdote)",
+				"tipo"=>"M"
+			)
+		),
+		"0810"=>array(
+			"0810a"=>array(
+				"titolo"=>"San Lorenzo (Diacono e martire)",
+				"tipo"=>"F"
+			)
+		),
+		"0811"=>array(
+			"0811a"=>array(
+				"titolo"=>"Santa Chiara (Vergine)",
+				"tipo"=>"M"
+			)
+		),
+		"0813"=>array(
+			"0813a"=>array(
+				"titolo"=>"Santi Ponziano (Papa) e Ippollito (Sacerdote) martiri",
+				"tipo"=>"R"
+			)
+		),
+		"0814"=>array(
+			"0814a"=>array(
+				"titolo"=>"San Massimiliano Maria Kolbe (Sacerdote e martire)",
+				"tipo"=>"M"
+			)
+		),
+		"0815"=>array(
+			"0815a"=>array(
+				"titolo"=>"Assunzione della Beata Vergine Maria",
+				"tipo"=>"S"
+			)
+		),
+		"0816"=>array(
+			"0816a"=>array(
+				"titolo"=>"San Stefano di Ungheria",
+				"tipo"=>"R"
+			)
+		),
+		"0819"=>array(
+			"0819a"=>array(
+				"titolo"=>"San Bernardo Tolomei (Abate)",
+				"tipo"=>"M"
+			),
+			"0819b"=>array(
+				"titolo"=>"San Giovanni EWudes (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"0820"=>array(
+			"0820a"=>array(
+				"titolo"=>"San Bernardo (Abate e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"0821"=>array(
+			"0821a"=>array(
+				"titolo"=>"San Pio X (Papa)",
+				"tipo"=>"M"
+			)
+		),
+		"0822"=>array(
+			"0822a"=>array(
+				"titolo"=>"Beata Vergine Maria Regina",
+				"tipo"=>"R"
+			)
+		),
+		"0823"=>array(
+			"0823a"=>array(
+				"titolo"=>"Santa Rosa da Lima (Vergine)",
+				"tipo"=>"R"
+			)
+		),
+		"0824"=>array(
+			"0824a"=>array(
+				"titolo"=>"San Bartolomeo apostolo",
+				"tipo"=>"F"
+			)
+		),
+		"0825"=>array(
+			"0825a"=>array(
+				"titolo"=>"San Ludovico",
+				"tipo"=>"R"
+			),
+			"0825b"=>array(
+				"titolo"=>"San Giuseppe Calansazio (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"0827"=>array(
+			"0820a"=>array(
+				"titolo"=>"Santa Monica",
+				"tipo"=>"M"
+			)
+		),
+		"0828"=>array(
+			"0828a"=>array(
+				"titolo"=>"Sant'Agostino (Vescovo e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"0829"=>array(
+			"0829a"=>array(
+				"titolo"=>"Martirio di San Giovanni Battista",
+				"tipo"=>"M"
+			)
+		),
+		"0903"=>array(
+			"0903a"=>array(
+				"titolo"=>"San Gregorio Magno (Papa e dottore della Chiesa)",
+				"tipo"=>"F"
+			)
+		),
+		"0908"=>array(
+			"0908a"=>array(
+				"titolo"=>"Natività della Beata Vergine Maria",
+				"tipo"=>"R"
+			)
+		),
+		"0913"=>array(
+			"0913a"=>array(
+				"titolo"=>"San Giovanni Crisostomo (Vescovo e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"0914"=>array(
+			"0914a"=>array(
+				"titolo"=>"Esaltazione della Santa Croce",
+				"tipo"=>"F"
+			)
+		),
+		"0915"=>array(
+			"0915a"=>array(
+				"titolo"=>"Beata Vergine Maria addolorata",
+				"tipo"=>"M"
+			)
+		),
+		"0916"=>array(
+			"0916a"=>array(
+				"titolo"=>"Santi Cornelio (Papa) e Cipriano (Vescovo) martiri",
+				"tipo"=>"M"
+			)
+		),
+		"0917"=>array(
+			"0917a"=>array(
+				"titolo"=>"Santa Ildegarde (Vergine)",
+				"tipo"=>"R"
+			),
+			"0917b"=>array(
+				"titolo"=>"San Roberto Bellarmino (Vescovo e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"0918"=>array(
+			"0918a"=>array(
+				"titolo"=>"Beato Vittore III (Papa)",
+				"tipo"=>"M"
+			)
+		),
+		"0919"=>array(
+			"0919a"=>array(
+				"titolo"=>"San Gennaro (Vescovo e martire)",
+				"tipo"=>"R"
+			)
+		),
+		"0921"=>array(
+			"0921a"=>array(
+				"titolo"=>"San Matteo apostolo ed evangelista",
+				"tipo"=>"F"
+			)
+		),
+		"0926"=>array(
+			"0926a"=>array(
+				"titolo"=>"Santi Cosma e Damiano (Martiri)",
+				"tipo"=>"R"
+			)
+		),
+		"0927"=>array(
+			"0927a"=>array(
+				"titolo"=>"San Vincenzo de' Paoli (Sacerdote)",
+				"tipo"=>"M"
+			)
+		),
+		"0928"=>array(
+			"0928a"=>array(
+				"titolo"=>"San Venceslao (Martire)",
+				"tipo"=>"R"
+			)
+		),
+		"0929"=>array(
+			"0929a"=>array(
+				"titolo"=>"San Michele e tutti i Santi Angeli",
+				"tipo"=>"F"
+			)
+		),
+		"0930"=>array(
+			"0930a"=>array(
+				"titolo"=>"San Girolamo (Sacerdote e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"1001"=>array(
+			"1001a"=>array(
+				"titolo"=>"Santa Teresa di Gesù Bambino (Vergine)",
+				"tipo"=>"M"
+			)
+		),
+		"1002"=>array(
+			"1002a"=>array(
+				"titolo"=>"Santi Angeli custodi",
+				"tipo"=>"M"
+			)
+		),
+		"1004"=>array(
+			"1004a"=>array(
+				"titolo"=>"San Francesco d'Assisi - Patrono d'Italia",
+				"tipo"=>"F"
+			)
+		),
+		"1006"=>array(
+			"1006a"=>array(
+				"titolo"=>"San Bruno (Eremita)",
+				"tipo"=>"M"
+			)
+		),
+		"1007"=>array(
+			"1007a"=>array(
+				"titolo"=>"Beata Vergine Maria del rosario",
+				"tipo"=>"M"
+			)
+		),
+		"1008"=>array(
+			"1008a"=>array(
+				"titolo"=>"Santa Giustina (Vergine e martire)",
+				"tipo"=>"M"
+			)
+		),
+		"1009"=>array(
+			"1009a"=>array(
+				"titolo"=>"San Dionigi (Vescovo) e compagni (Martiri)",
+				"tipo"=>"R"
+			),
+			"1009b"=>array(
+				"titolo"=>"San Giovanni Leonardi (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"1014"=>array(
+			"1014a"=>array(
+				"titolo"=>"San Callisto I (Papa e martire)",
+				"tipo"=>"R"
+			)
+		),
+		"1015"=>array(
+			"1015a"=>array(
+				"titolo"=>"Santa Teresa d'Avila (Vergine e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"1016"=>array(
+			"1016a"=>array(
+				"titolo"=>"Santa Edvige (Religiosa)",
+				"tipo"=>"R"
+			),
+			"1016b"=>array(
+				"titolo"=>"Santa Margherita Maria Alacoque (Vergine)",
+				"tipo"=>"R"
+			)
+		),
+		"1017"=>array(
+			"1017a"=>array(
+				"titolo"=>"Sant'Ignazio di Antiochia (Vescovo e martire)",
+				"tipo"=>"M"
+			)
+		),
+		"1018"=>array(
+			"1018a"=>array(
+				"titolo"=>"San Luca evangelista",
+				"tipo"=>"F"
+			)
+		),
+		"1019"=>array(
+			"1019a"=>array(
+				"titolo"=>"Santi Giovanni de Brebeuf e Isacco Jogues (Sacerdoti) e compagni (martiri)",
+				"tipo"=>"R"
+			),
+			"1019b"=>array(
+				"titolo"=>"San Paolo della Croce (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"1023"=>array(
+			"1023a"=>array(
+				"titolo"=>"San Giovanni da Capestrano (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
+		"1024"=>array(
+			"1024a"=>array(
+				"titolo"=>"Sant'Antonio Maria Claret (Vescovo)",
+				"tipo"=>"R"
+			)
+		),
+		"1028"=>array(
+			"1028a"=>array(
+				"titolo"=>"Santi Simone e Giuda apostoli",
+				"tipo"=>"F"
+			)
+		),
+		"1101"=>array(
+			"1101a"=>array(
+				"titolo"=>"Tutti i Santi",
+				"tipo"=>"S"
+			)
+		),
+		"1102"=>array(
+			"1102a"=>array(
+				"titolo"=>"Commemorazione di tutti i fedeli defunti",
+				"tipo"=>"M"
+			)
+		),
+		"1103"=>array(
+			"1103a"=>array(
+				"titolo"=>"San Martino de Porres (Religioso)",
+				"tipo"=>"R"
+			)
+		),
+		"1104"=>array(
+			"1104a"=>array(
+				"titolo"=>"San Carlo Borromeo (Vescovo)",
+				"tipo"=>"M"
+			)
+		),
+		"1107"=>array(
+			"1107a"=>array(
+				"titolo"=>"San Willibrordo (Vescovo)",
+				"tipo"=>"R"
+			)
+		),
+		"1109"=>array(
+			"1109a"=>array(
+				"titolo"=>"Dedicazione della Basilica Lateranense",
+				"tipo"=>"F"
+			)
+		),
+		"1110"=>array(
+			"1110a"=>array(
+				"titolo"=>"San Leone Magno (Papa e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"1111"=>array(
+			"1111a"=>array(
+				"titolo"=>"San Martino di Tours (Vescovo)",
+				"tipo"=>"F"
+			)
+		),
+		"1112"=>array(
+			"1112a"=>array(
+				"titolo"=>"San Teodoro studita (Abate)",
+				"tipo"=>"R"
+			),
+			"1112b"=>array(
+				"titolo"=>"San Giosafat (Vescovo e martire)",
+				"tipo"=>"R"
+			)
+		),
+		"1113"=>array(
+			"1113a"=>array(
+				"titolo"=>"Tutti i Santi Monaci",
+				"tipo"=>"F"
+			)
+		),
+		"1114"=>array(
+			"1114a"=>array(
+				"titolo"=>"Commemorazione dei monaci defunti",
+				"tipo"=>"M"
+			)
+		),
+		"1115"=>array(
+			"1115a"=>array(
+				"titolo"=>"Sant'Alberto Magno (Vescovo e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"1116"=>array(
+			"1116a"=>array(
+				"titolo"=>"Santa Geltrude (Vergine)",
+				"tipo"=>"M"
+			)
+		),
+		"1117"=>array(
+			"1117a"=>array(
+				"titolo"=>"Santa Margherita di Scozia",
+				"tipo"=>"R"
+			),
+			"1117b"=>array(
+				"titolo"=>"Santa Elisabetta d'Ungheria (Religiosa)",
+				"tipo"=>"R"
+			)
+		),
+		"1118"=>array(
+			"1118a"=>array(
+				"titolo"=>"Dedicazione delle Basiliche dei Santi Pietro e Paolo apostoli",
+				"tipo"=>"R"
+			)
+		),
+		"1119"=>array(
+			"1119a"=>array(
+				"titolo"=>"Santa Metilde (Vergine)",
+				"tipo"=>"R"
+			)
+		),
+		"1120"=>array(
+			"1120a"=>array(
+				"titolo"=>"Beata Maria Fortunata Viti (Vergine)",
+				"tipo"=>"M"
+			)
+		),
+		"1121"=>array(
+			"1121a"=>array(
+				"titolo"=>"Presentazione della Beata Vergine Maria",
+				"tipo"=>"M"
+			)
+		),
+		"1122"=>array(
+			"1122a"=>array(
+				"titolo"=>"Santa Cecilia (Vergine e martire)",
+				"tipo"=>"M"
+			)
+		),
+		"1123"=>array(
+			"1123a"=>array(
+				"titolo"=>"San Clemente I (Papa e martire)",
+				"tipo"=>"R"
+			)
+		),
+		"1124"=>array(
+			"1124a"=>array(
+				"titolo"=>"San Colombano (Abate)",
+				"tipo"=>"M"
+			)
+		),
+		"1126"=>array(
+			"1126a"=>array(
+				"titolo"=>"San Silvestro (Abate)",
+				"tipo"=>"M"
+			)
+		),
+		"1130"=>array(
+			"1130a"=>array(
+				"titolo"=>"Sant'Andrea apostolo",
+				"tipo"=>"F"
+			)
+		),
+		"1203"=>array(
+			"1203a"=>array(
+				"titolo"=>"San Francesco Saverio (Sacerdote)",
+				"tipo"=>"M"
+			)
+		),
+		"1204"=>array(
+			"1204a"=>array(
+				"titolo"=>"San Giovanni Damasceno (Sacerdote e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"1205"=>array(
+			"1205a"=>array(
+				"titolo"=>"Beato Placido Riccardi (Monaco e sacerdote)",
+				"tipo"=>"M"
+			),
+			"1205b"=>array(
+				"titolo"=>"San Saba (Abate)",
+				"tipo"=>"R"
+			)
+		),
+		"1206"=>array(
+			"1206a"=>array(
+				"titolo"=>"San Nicola (Vescovo)",
+				"tipo"=>"R"
+			)
+		),
+		"1207"=>array(
+			"1207a"=>array(
+				"titolo"=>"Sant'Ambrogio (Vescovo e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"1208"=>array(
+			"1208a"=>array(
+				"titolo"=>"Immacolata concezione della Beata Vergine Maria",
+				"tipo"=>"S"
+			)
+		),
+		"1211"=>array(
+			"1211a"=>array(
+				"titolo"=>"San Damaso I (Papa)",
+				"tipo"=>"R"
+			)
+		),
+		"1212"=>array(
+			"1212a"=>array(
+				"titolo"=>"Santa Giovanna Francesca de Chantal (Religiosa)",
+				"tipo"=>"R"
+			)
+		),
+		"1213"=>array(
+			"1213a"=>array(
+				"titolo"=>"Santa Lucia (Vergine e martire)",
+				"tipo"=>"M"
+			)
+		),
+		"1214"=>array(
+			"1214a"=>array(
+				"titolo"=>"San Giovanni della Croce (Sacerdote e dottore della Chiesa)",
+				"tipo"=>"M"
+			)
+		),
+		"1221"=>array(
+			"1221a"=>array(
+				"titolo"=>"San Pietro Canisio (Sacerdote e dottore della Chiesa)",
+				"tipo"=>"R"
+			)
+		),
+		"1223"=>array(
+			"1223a"=>array(
+				"titolo"=>"San Giovanni da Kety (Sacerdote)",
+				"tipo"=>"R"
+			)
+		),
 		"1226"=>array(
 			"1226a"=>array(
 				"titolo"=>"Santo Stefano (Promartire)",
@@ -831,6 +1505,13 @@ class Calendario {
 				$m['evento']['BAT']=array(
 					"titolo"=>"Battesimo del Signore",
 					"tipo"=>"F"
+				);
+			}
+			elseif ($day==$this->info['pentecoste']) {
+				$m['evento']=array();
+				$m['evento']['PEN']=array(
+					"titolo"=>"Domenica di Pentecoste",
+					"tipo"=>"S"
 				);
 			}
 			elseif ($day==$this->info['cuore']) {
