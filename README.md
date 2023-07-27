@@ -10,3 +10,6 @@ just opened the github repository
 
 22.07.2023 Basics
 Starting Building Calendar
+
+27.07.2023 Basics
+Calendar made

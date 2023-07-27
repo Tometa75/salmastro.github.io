@@ -369,11 +369,17 @@ class calnav {
                         }
 
                         echo '<td style="width:13.5%;cursor:pointer;';
-                            
-                            if ($gray) echo 'color:#bbbbbb;';
-                            //else echo 'cursor:pointer;';
 
-                            if ($d['festa']==1 || $d['wd']==0) echo 'color:red;';
+                            $temp='color:black;';
+                            
+                            if ($gray) $temp='color:#979494;';
+                            //else echo 'cursor:pointer;';
+                            //elseif (isset($d['tempo']) && ($d['tempo']['codice']=='Q' || $d['tempo']['codice']=='A')) $temp='color:'.$d['tempo']['colore'].';';
+                            elseif (isset($d['tempo'])) $temp='color:'.$d['tempo']['colore'].';';
+
+                            if ($d['festa']==1 || $d['wd']==0) $temp='color:red;';
+
+                            echo $temp;
 
                         echo '" onclick="';
                             //se il giorno appartiene al mese in corso

@@ -12,9 +12,18 @@ class Calendario {
 		"battesimo"=>"",
 		"ceneri"=>"",
 		"qua1"=>"",
+		"qua2"=>"",
+		"qua3"=>"",
+		"qua4"=>"",
+		"qua5"=>"",
 		"palme"=>"",
 		"pasqua"=>"",
 		"angelo"=>"",
+		"pas2"=>"",
+		"pas3"=>"",
+		"pas4"=>"",
+		"pas5"=>"",
+		"pas6"=>"",
 		"ascensione"=>"",
 		"pentecoste"=>"",
 		"trinita"=>"",
@@ -22,6 +31,9 @@ class Calendario {
 		"cuore"=>"",
 		"re"=>"",
 		"avv1"=>"",
+		"avv2"=>"",
+		"avv3"=>"",
+		"avv4"=>"",
 		"natale"=>"",
 		"fine"=>"",
 		"annoLit"=>"",
@@ -30,6 +42,7 @@ class Calendario {
 
 	protected $map=array();
 
+	protected $giornoSett=array('Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato');
 	protected $anni=array('A','B','C');
 	protected $rifAnno=1999;
 
@@ -41,14 +54,10 @@ class Calendario {
 		"0501"=>"Festa dei lavoratori",
 		"0602"=>"Festa della Repubblica",
 		"0815"=>"Assunzione della Beata Vergine Maria",
-		"0912"=>"Santissimo nome di Maria",
-		"0914"=>"Esaltazione della Santa Croce",
 		"1101"=>"Solennità di tutti i Santi",
-		"1102"=>"Commemorazione dei defunti",
 		"1208"=>"Immacolata Concezione",
 		"1225"=>"Natale del Signore",
-		"1226"=>"Santo Stefano",
-		"1229"=>"Festa della Sacra Famiglia"
+		"1226"=>"Santo Stefano"
 	);
 
 	//sonoi le feste per il Breviaro
@@ -1355,13 +1364,13 @@ class Calendario {
 		array(
 			"codice"=>"O",
 			"nome"=>"Tempo Ordinario",
-			"colore"=>"#85d985",
+			"colore"=>"#68b368",
 			"fine"=>"ceneri"
 		),
 		array(
 			"codice"=>"Q",
 			"nome"=>"Tempo di Quaresima",
-			"colore"=>"violet",
+			"colore"=>"#d760d7",
 			"fine"=>"pasqua"
 		),
 		array(
@@ -1373,13 +1382,13 @@ class Calendario {
 		array(
 			"codice"=>"O",
 			"nome"=>"Tempo Ordinario",
-			"colore"=>"#85d985",
+			"colore"=>"#68b368",
 			"fine"=>"avv1"
 		),
 		array(
 			"codice"=>"A",
 			"nome"=>"Tempo di Avvento",
-			"colore"=>"violet",
+			"colore"=>"#d760d7",
 			"fine"=>"natale"
 		),
 		array(
@@ -1406,7 +1415,16 @@ class Calendario {
 		$this->info['palme']=date('Ymd',strtotime("-7 day",$pasqua));
 		$this->festa[substr($this->info['palme'],4,4)]="Domenica delle Palme";
 		$this->info['qua1']=date('Ymd',strtotime("-42 day",$pasqua));
+		$this->info['qua2']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['qua1'])));
+		$this->info['qua3']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['qua2'])));
+		$this->info['qua4']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['qua3'])));
+		$this->info['qua5']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['qua4'])));
 		$this->info['ceneri']=date('Ymd',strtotime("-46 day",$pasqua));
+		$this->info['pas2']=date('Ymd',strtotime('+7 days',$pasqua));
+		$this->info['pas3']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['pas2'])));
+		$this->info['pas4']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['pas3'])));
+		$this->info['pas5']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['pas4'])));
+		$this->info['pas6']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['pas5'])));
 		$this->info['ascensione']=date('Ymd',strtotime("+42 day",$pasqua));
 		$this->festa[substr($this->info['ascensione'],4,4)]="Ascensione di Gesù";
 		$this->info['pentecoste']=date('Ymd',strtotime("+49 day",$pasqua));
@@ -1417,7 +1435,7 @@ class Calendario {
 		$temp=strtotime("+56 day",$pasqua);
 		$this->info['trinita']=date('Ymd',$temp);
 		//$this->festa[date('md',$temp)]="Solennità della Santissima Trinità";
-		$temp=strtotime("+61 day",$pasqua);
+		$temp=strtotime("+68 day",$pasqua);
 		$this->info['cuore']=date('Ymd',$temp);
 		$temp=strtotime("+63 day",$pasqua);
 		$this->info['corpus']=date('Ymd',$temp);
@@ -1427,6 +1445,9 @@ class Calendario {
 		$this->festa[substr($this->info['battesimo'],4,4)]="Battesimo del Signore";
 
 		$this->info['avv1']=$this->avvento($this->info['anno']);
+		$this->info['avv2']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['avv1'])));
+		$this->info['avv3']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['avv2'])));
+		$this->info['avv4']=date('Ymd',strtotime('+7 days',mainFunc::gab_tots($this->info['avv3'])));
 		$this->info['re']=date('Ymd',strtotime('-7 days',mainFunc::gab_tots($this->info['avv1'])));
 		$this->festa[substr($this->info['re'],4,4)]="Solennità di Cristo Re";
 
@@ -1434,7 +1455,7 @@ class Calendario {
 
 		$this->info['annoLit']=$this->annoLit($this->info['anno']);
 
-		$this->buildMap($this->info['today']);
+		$this->map=$this->buildMap($this->info['today']);
 		
 	}
 
@@ -1446,13 +1467,13 @@ class Calendario {
 		return $this->map;
 	}
 
-	function BuildMap($day) {
+	function buildMap($day) {
 
 		//evento è un momento specifico del periodo come "ceneri", "settimana santa"...
 		//settimana ha senso solo per il tempo Ordinario
 		$m=array(
 			"today"=>$day,
-			"tempo"=>$this->getTempo(),
+			"tempo"=>$this->getTempo($day),
 			"anno"=>$this->getAnno(),
 			"settimana"=>"",
 			"quarto"=>"",
@@ -1460,6 +1481,7 @@ class Calendario {
 			"pari"=>$this->info['pari'],
 			"festa"=>array(),
 			"evento"=>array(),
+			"rocho"=>false,
 			"errore"=>false
 		);
 
@@ -1467,7 +1489,7 @@ class Calendario {
 			$m['errore']=true;
 			return $m;
 		}
-
+		///////////////////////////////////////////////////////////////////////
 		if ($m['tempo']['codice']=='O') {
 
 			if ($day<$this->info['ceneri']) {
@@ -1513,6 +1535,8 @@ class Calendario {
 					"titolo"=>"Domenica di Pentecoste",
 					"tipo"=>"S"
 				);
+				$m['settimana']="";
+				$m['rocho']=true;
 			}
 			elseif ($day==$this->info['cuore']) {
 				$m['evento']=array();
@@ -1543,8 +1567,8 @@ class Calendario {
 				);
 			}
 		}
-
-		if ($m['tempo']['codice']=='N') {
+		///////////////////////////////////////////////////////////////////////
+		elseif ($m['tempo']['codice']=='N') {
 
 			//Natale
 			if (substr($day,4,4)=='1225') {
@@ -1587,17 +1611,310 @@ class Calendario {
 				);
 			}
 		}
+		///////////////////////////////////////////////////////////////////////
+		elseif ($m['tempo']['codice']=='A') {
+
+			if ($day>=$this->info['avv1'] && $day<$this->info['avv2']) {
+				$m['settimana']=1;
+				if ($day==$this->info['avv1']) {
+					$m['evento']['AV1']=array(
+						"titolo"=>"Prima Domenica di Avvento",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['A1'.$m['weekDay']]=array(
+						"titolo"=>"1° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['avv2'] && $day<$this->info['avv3']) {
+				$m['settimana']=2;
+				if ($day==$this->info['avv2']) {
+					$m['evento']['AV2']=array(
+						"titolo"=>"Seconda Domenica di Avvento",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['A2'.$m['weekDay']]=array(
+						"titolo"=>"2° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['avv3'] && $day<$this->info['avv4']) {
+				$m['settimana']=3;
+				if ($day==$this->info['avv3']) {
+					$m['evento']['AV3']=array(
+						"titolo"=>"Terza Domenica di Avvento",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['A3'.$m['weekDay']]=array(
+						"titolo"=>"3° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['avv4']) {
+				$m['settimana']=4;
+				if ($day==$this->info['avv4']) {
+					$m['evento']['AV4']=array(
+						"titolo"=>"Quarta Domenica di Avvento",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['A4'.$m['weekDay']]=array(
+						"titolo"=>"4° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+
+			//giorni speciali
+			if (substr($day,4,4)>='1218' && substr($day,4,4)<='1224' && $day!=$this->info['avv4']) {
+				$m['evento']=array();
+				$m['evento']['A12'.substr($day,6,2)]=array(
+					"titolo"=>"Avvento - ".substr($day,6,2)." Dicembre",
+					"tipo"=>"F"
+				);
+			}
+		}
+		///////////////////////////////////////////////////////////////////////
+		elseif ($m['tempo']['codice']=='Q') {
+
+			if ($day>=$this->info['ceneri'] && $day<$this->info['qua1']) {
+				$m['settimana']="";
+				if ($day==$this->info['ceneri']) {
+					$m['evento']['CEN']=array(
+						"titolo"=>"Mercoledì delle Ceneri",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['QC'.$m['weekDay']]=array(
+						"titolo"=>$this->giornoSett[$m['weekDay']]." dopo le Ceneri",
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['qua1'] && $day<$this->info['qua2']) {
+				$m['settimana']=1;
+				if ($day==$this->info['qua1']) {
+					$m['evento']['QU1']=array(
+						"titolo"=>"1° domenica di Quaresima",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['Q1'.$m['weekDay']]=array(
+						"titolo"=>"1° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['qua2'] && $day<$this->info['qua3']) {
+				$m['settimana']=2;
+				if ($day==$this->info['qua2']) {
+					$m['evento']['QU2']=array(
+						"titolo"=>"2° domenica di Quaresima",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['Q2'.$m['weekDay']]=array(
+						"titolo"=>"2° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['qua3'] && $day<$this->info['qua4']) {
+				$m['settimana']=3;
+				if ($day==$this->info['qua3']) {
+					$m['evento']['QU3']=array(
+						"titolo"=>"3° domenica di Quaresima",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['Q3'.$m['weekDay']]=array(
+						"titolo"=>"3° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['qua4'] && $day<$this->info['qua5']) {
+				$m['settimana']=4;
+				if ($day==$this->info['qua4']) {
+					$m['evento']['QU4']=array(
+						"titolo"=>"4° domenica di Quaresima",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['Q4'.$m['weekDay']]=array(
+						"titolo"=>"4° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['qua5'] && $day<$this->info['palme']) {
+				$m['settimana']=5;
+				if ($day==$this->info['qua5']) {
+					$m['evento']['QU5']=array(
+						"titolo"=>"5° domenica di Quaresima",
+						"tipo"=>"F"
+					);
+				}
+				else {
+					$m['evento']['Q5'.$m['weekDay']]=array(
+						"titolo"=>"5° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['palme'] && $day<$this->info['pasqua']) {
+				$m['settimana']="Santa";
+				if ($day==$this->info['palme']) {
+					$m['evento']['PAL']=array(
+						"titolo"=>"Domenica delle Palme",
+						"tipo"=>"F"
+					);
+					$m['rocho']=true;
+				}
+				else {
+					$m['evento']['SS'.$m['weekDay']]=array(
+						"titolo"=>$this->giornoSett[$m['weekDay']].' Santo',
+						"tipo"=>"F"
+					);
+					if ($m['weekDay']==5) $m['rocho']=true;
+				}
+			}
+		}
+		///////////////////////////////////////////////////////////////////////
+		elseif ($m['tempo']['codice']=='P') {
+
+			if ($day>=$this->info['pasqua'] && $day<$this->info['pas2']) {
+				$m['settimana']=1;
+				if ($day==$this->info['pasqua']) {
+					$m['evento']['PAS']=array(
+						"titolo"=>"Domenica di Pasqua - Risurrezione del Signore",
+						"tipo"=>"S"
+					);
+				} 
+				else {
+					$m['evento']['PA1'.$m['weekDay']]=array(
+						"titolo"=>$this->giornoSett[$m['weekDay']]." dell'ottava di Pasqua",
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['pas2'] && $day<$this->info['pas3']) {
+				$m['settimana']=2;
+				if ($day==$this->info['pas2']) {
+					$m['evento']['PA2']=array(
+						"titolo"=>"2° Domenica di Pasqua - Domenica dell'ottava",
+						"tipo"=>"F"
+					);
+				} 
+				else {
+					$m['evento']['PA2'.$m['weekDay']]=array(
+						"titolo"=>"2° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['pas3'] && $day<$this->info['pas4']) {
+				$m['settimana']=3;
+				if ($day==$this->info['pas3']) {
+					$m['evento']['PA3']=array(
+						"titolo"=>"3° Domenica di Pasqua",
+						"tipo"=>"F"
+					);
+				} 
+				else {
+					$m['evento']['PA3'.$m['weekDay']]=array(
+						"titolo"=>"3° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['pas4'] && $day<$this->info['pas5']) {
+				$m['settimana']=4;
+				if ($day==$this->info['pas4']) {
+					$m['evento']['PA4']=array(
+						"titolo"=>"4° Domenica di Pasqua",
+						"tipo"=>"F"
+					);
+				} 
+				else {
+					$m['evento']['PA4'.$m['weekDay']]=array(
+						"titolo"=>"4° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['pas5'] && $day<$this->info['pas6']) {
+				$m['settimana']=5;
+				if ($day==$this->info['pas5']) {
+					$m['evento']['PA5']=array(
+						"titolo"=>"5° Domenica di Pasqua",
+						"tipo"=>"F"
+					);
+				} 
+				else {
+					$m['evento']['PA5'.$m['weekDay']]=array(
+						"titolo"=>"5° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['pas6'] && $day<$this->info['ascensione']) {
+				$m['settimana']=6;
+				if ($day==$this->info['pas6']) {
+					$m['evento']['PA6']=array(
+						"titolo"=>"6° Domenica di Pasqua",
+						"tipo"=>"F"
+					);
+				} 
+				else {
+					$m['evento']['PA6'.$m['weekDay']]=array(
+						"titolo"=>"6° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+			elseif ($day>=$this->info['ascensione'] && $day<$this->info['pentecoste']) {
+				$m['settimana']=7;
+				if ($day==$this->info['ascensione']) {
+					$m['evento']['ASC']=array(
+						"titolo"=>"Ascensione del Signore",
+						"tipo"=>"S"
+					);
+				} 
+				else {
+					$m['evento']['PA7'.$m['weekDay']]=array(
+						"titolo"=>"7° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
+						"tipo"=>"F"
+					);
+				}
+			}
+		}
 
 		///////////////////////////////////////////////////////////////
 		if (array_key_exists(substr($day,4,4),$this->ricorrenza)) $m['festa']=$this->ricorrenza[substr($day,4,4)];
 
-		$this->map=$m;
+		return $m;
 	}
 
-	function getTempo() {
+	function getTempo($day) {
 
 		foreach ($this->tempi as $k=>$t) {
-			if ($this->info['today']<$this->info[$t['fine']]) {
+			if ($day<$this->info[$t['fine']]) {
 				return $t;
 			}
 		}
@@ -1735,13 +2052,15 @@ class Calendario {
 
 	function newDay($index,$d) {
 
-		$day=array("tag"=>date('Ymd',$index),"wd"=>$d,"festa"=>0,"testo"=>"");
+		$day=array("tag"=>date('Ymd',$index),"wd"=>$d,"festa"=>0,"testo"=>"","tempo"=>"");
 				
 		$md=date("md",$index);
 		if(array_key_exists($md,$this->festa)) {
 			$day["festa"]=1;
 			$day["testo"]=$this->festa[$md];
 		}
+
+		$day['tempo']=$this->getTempo($day['tag']);
 		
 		return $day;
 	}

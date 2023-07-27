@@ -44,7 +44,7 @@ class Salmastro {
             "disabled"=>false
         );
         $css=array(
-            "background-color"=>"#f2d29f",
+            "background-color"=>"#f1d6ab",
             "font-size"=>"1.4em"
         );
     
@@ -84,11 +84,20 @@ class Salmastro {
                     echo '<div style="position:relative;text-align:center;">';
 
                         echo '<div class="tempodiv" style="';
-                            echo 'background-color:'.$this->map['tempo']['colore'].';';
+                            if ($this->map['rocho']) {
+                                echo 'background-color:#f85050;';
+                            }
+                            else {
+                                echo 'background-color:'.$this->map['tempo']['colore'].';';
+                            }
                         echo '" >';
-                            echo $this->map['tempo']['nome'];
-                            if ($this->map['tempo']['codice']=='O') {
-                                echo ' ( Settimana: '.$this->map['settimana'].' )';
+                            if (array_key_exists('PEN',$this->map['evento'])) echo 'Pentecoste';
+                            else {
+                                echo $this->map['tempo']['nome'];
+                                //if ($this->map['tempo']['codice']=='O' || $this->map['tempo']['codice']=='A' || $this->map['tempo']['codice']=='Q') {
+                                if ($this->map['settimana']!="") {
+                                    echo ' ( Settimana: '.$this->map['settimana'].' )';
+                                }
                             }
                         echo '</div>';
 
