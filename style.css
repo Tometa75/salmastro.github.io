@@ -60,3 +60,13 @@ body {
     font-weight:bold;
     opacity:0.8;
 }
+
+.salBottomHead {
+    position:relative;
+    width:98%;
+    left:50%;
+    transform: translate(-50%,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}

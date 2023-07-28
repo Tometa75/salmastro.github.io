@@ -1,5 +1,6 @@
 <?php
 require_once('calendario.php');
+require_once('litio.php');
 require_once('core/calendario/calnav.php');
 
 class Salmastro {
@@ -15,6 +16,7 @@ class Salmastro {
 
     protected $cal=false;
     protected $calnav=false;
+    protected $litio=false;
 
     function __construct($param) {
 
@@ -54,14 +56,19 @@ class Salmastro {
 
     function build() {
 
+        $this->litio=new Litio($this->map,$this->vig);
+
     }
 
     function draw() {
 
         $this->drawHead();
 
-        echo '<div>Oggi è: '.$this->info['today'].'</div>';
-        echo '<div>'.json_encode($this->cal->getCal()).'</div>';
+        echo '<div style="position:relative;width:100%;height:80%;">';
+            if ($this->litio) {
+                $this->litio->drawHead();
+            }
+        echo '</div>';
     }
 
     function drawHead() {

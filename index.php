@@ -7,6 +7,7 @@ $param=array();
 if (isset($_REQUEST['today'])) $param['today']=$_REQUEST['today'];
 
 $sal=new Salmastro($param);
+$sal->build();
 
 ?>
 <!DOCTYPE html>
