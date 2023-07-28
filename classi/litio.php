@@ -135,7 +135,8 @@ class Litio {
 
     function drawHead() {
 
-        echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #777777;background-image:url(\''.SITE_URL.'/img/backBottomHead.png\');" >';
+        //echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #777777;background-image:url(\''.SITE_URL.'/img/backBottomHead.png\');" >';
+        echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #a4a138;" >';
 
             echo '<div style="position:relative;display:inline-block;width:20%;vertical-align:top;padding:5px;box-sizing:border-box;">';
 
@@ -181,6 +182,10 @@ class Litio {
 
             echo '</div>';
 
+        echo '</div>';
+
+        echo '<div id="salTesto" style="position:relative;height:90%;width:100%;padding:20px;box-sizing:border-box;overflow:scroll;overflow-x:hidden;" >';
+            
         echo '</div>';
 
     }  

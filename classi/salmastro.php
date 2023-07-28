@@ -64,7 +64,10 @@ class Salmastro {
 
         $this->drawHead();
 
-        echo '<div style="position:relative;width:100%;height:80%;">';
+        echo '<div class="salBottom" style="height:80%;">';
+
+            echo '<img style="position:absolute;left:0px;top:0px;width:100%;height:100%;opacity:0.7;" src="'.SITE_URL.'/img/backTesto.jpg" />';
+            
             if ($this->litio) {
                 $this->litio->drawHead();
             }
