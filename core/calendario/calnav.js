@@ -104,7 +104,7 @@ function calnav(indice,risoluzione,today,config) {
         var indice=this.indice;
 
         $.ajax({
-            "url": location.protocol + '//' + location.host + location.pathname+"/refresh_opt.php",
+            "url": location.protocol + '//' + location.host + location.pathname+"func/refresh_opt.php",
             "async": true,
             "cache": false,
             "data": { "param": param },

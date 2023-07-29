@@ -1,7 +1,7 @@
 <?php
 require_once('calendario.php');
 require_once('litio.php');
-require_once('core/calendario/calnav.php');
+require_once(SITE_ROOT.'/core/calendario/calnav.php');
 
 class Salmastro {
 
@@ -60,6 +60,10 @@ class Salmastro {
 
     }
 
+    function load() {
+        $this->litio->draw();
+    }
+
     function draw() {
 
         $this->drawHead();
@@ -67,11 +71,15 @@ class Salmastro {
         echo '<div class="salBottom" style="height:80%;">';
 
             echo '<img style="position:absolute;left:0px;top:0px;width:100%;height:100%;opacity:0.7;" src="'.SITE_URL.'/img/backTesto.jpg" />';
-            
+
             if ($this->litio) {
                 $this->litio->drawHead();
             }
         echo '</div>';
+
+        echo '<script type="text/javascript" >';
+            echo 'window._salmastro=new salmastro();';
+        echo '</script>';
     }
 
     function drawHead() {

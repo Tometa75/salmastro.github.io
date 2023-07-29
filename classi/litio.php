@@ -66,25 +66,45 @@ class Litio {
     );
 
     protected $salterio=array(
-        array(
-            "PI"=>"",
-            "INNO"=>array("inno_S_0_1","inno_S_0_2"),
-            "S1"=>array("salmo_92"),
-            "S2"=>array("salmo_3"),
-            "S3"=>array("salmo_29"),
-            "CA"=>array("cantico_AT_47","cantico_AT_48"),
-            "S5"=>array("salmo_146_147"),
-            "LB"=>array("lettura_S_0"),
-            "RB"=>array("resp_S_0"),
-            "ZAC"=>array("cantico_ZAC"),
-            "PN"=>array("padrenostro"),
-            "OR"=>array("oraz_S_0"),
-            "PC"=>""
+        "lodi"=>array(
+            array(
+                "PI"=>"inizio",
+                "INNO"=>array("inno_S_0_1","inno_S_0_2"),
+                "S1"=>array("salmo_92"),
+                "S2"=>array("salmo_3"),
+                "S3"=>array("salmo_29"),
+                "CA"=>array("cantico_AT_47","cantico_AT_48"),
+                "S5"=>array("salmo_146_147"),
+                "LB"=>array("lettura_S_0"),
+                "RB"=>array("resp_S_0"),
+                "ZAC"=>array("cantico_ZAC"),
+                "PN"=>array("padrenostro"),
+                "OR"=>array("oraz_S_0"),
+                "PC"=>"fine"
+            ),
+            array(
+                "PI"=>"inizio",
+                "INNO"=>array("inno_S_1_1"),
+                "S1"=>array("salmo_99"),
+                "S2"=>array("salmo_62"),
+                "S3"=>array("salmo_100"),
+                "CA"=>array("cantico_AT_4","cantico_AT_16"),
+                "S5"=>array("salmo_134"),
+                "LB"=>array("lettura_S_1"),
+                "RB"=>array("resp_S_1"),
+                "ZAC"=>array("cantico_ZAC"),
+                "PN"=>array("padrenostro"),
+                "OR"=>array("oraz_S_1"),
+                "PC"=>"fine"
+            )
         )
     );
 
     protected $map;
     protected $vig;
+
+    //è l'insieme di oggetti che disegneranno la preghiera
+    protected $res=array();
 
     function __construct($map,$vig) {
 
@@ -130,17 +150,36 @@ class Litio {
                 unset($this->map['actual']['ves2']);
             }
         }
+    }
 
+    function build($a,$config) {
+        /*
+        //STEP 1 - attribuzione di COMUNE
+        if ($a['tempo']['codice']=='O') {
+            foreach ($a['actual'])
+            foreach ($this->salterio[$config['ora']][$a['weekDay']] as $k=>$o) {
+                if (array_key_exists($k,$this->map['actual'])) {
+
+                }
+            }
+        }
+
+        //STEP 2 - modifica PROPRIO
+        */
+    }
+
+    function link() {
+        //link degli oggetti
     }
 
     function drawHead() {
 
-        //echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #777777;background-image:url(\''.SITE_URL.'/img/backBottomHead.png\');" >';
-        echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #a4a138;" >';
+        echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #777777;background-image:url(\''.SITE_URL.'/img/backBottomHead.png\');" >';
+        //echo '<div class="salBottomHead" style="height:10%;border-bottom:1px solid #a4a138;" >';
 
             echo '<div style="position:relative;display:inline-block;width:20%;vertical-align:top;padding:5px;box-sizing:border-box;">';
 
-                echo '<select id="sal_tempo" style="position:relative;width:95%;font-size:1.2em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
+                echo '<select id="sal_ora" style="position:relative;width:95%;font-size:1.2em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
                     foreach ($this->map['actual'] as $k=>$a) {
                         echo '<option value="'.$k.'" >'.$a['titolo'].'</option>';
                     }
@@ -149,7 +188,7 @@ class Litio {
             echo '</div>';
 
             echo '<div style="position:relative;display:inline-block;width:50%;vertical-align:top;padding:5px;box-sizing:border-box;">';
-
+                 
                 echo '<select id="sal_festa" style="position:relative;width:98%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
                     echo '<option value="">Scegli una memoria...</option>';
                     foreach ($this->map['festa'] as $k=>$f) {
@@ -178,14 +217,14 @@ class Litio {
 
             echo '<div style="position:relative;display:inline-block;width:10%;vertical-align:top;padding:5px;box-sizing:border-box;text-align:center;">';
 
-                echo '<img style="width:40px;height:40px;cursor:pointer;" src="'.SITE_URL.'/img/book.png" />';
+                echo '<img style="width:40px;height:40px;cursor:pointer;" src="'.SITE_URL.'/img/book.png" onclick="window._salmastro.load();"/>';
 
             echo '</div>';
 
         echo '</div>';
 
         echo '<div id="salTesto" style="position:relative;height:90%;width:100%;padding:20px;box-sizing:border-box;overflow:scroll;overflow-x:hidden;" >';
-            
+            //echo __DIR__;
         echo '</div>';
 
     }  

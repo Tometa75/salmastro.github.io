@@ -19,6 +19,7 @@ $sal->build();
    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
    <script type="text/javascript" src="core/calendario/calnav.js?v=<?php echo time(); ?>"></script>
    <script type="text/javascript" src="jquery-1.10.2.js"></script>
+   <script type="text/javascript" src="code.js?v=<?php echo time(); ?>"></script>
    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>" >
    <link rel="stylesheet" href="core/calendario/calnav.css?v=<?php echo time(); ?>" >
 </head>

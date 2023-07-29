@@ -1,7 +1,7 @@
 <?php
-include ('baseline.php');
-require_once('classi/calendario.php');
-require_once('core/calendario/calnav.php');
+include (__DIR__.'/../baseline.php');
+require_once(SITE_ROOT.'/classi/calendario.php');
+require_once(SITE_ROOT.'/core/calendario/calnav.php');
 
 $param=$_POST['param'];
 
