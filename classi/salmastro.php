@@ -6,7 +6,8 @@ require_once(SITE_ROOT.'/core/calendario/calnav.php');
 class Salmastro {
 
     protected $info=array(
-        "today"=>""
+        "today"=>"",
+        "config"=>array()
     );
 
     protected $map=array();
@@ -56,7 +57,7 @@ class Salmastro {
 
     function build() {
 
-        $this->litio=new Litio($this->map,$this->vig);
+        $this->litio=new Litio($this->map,$this->vig,$this->info['config']);
 
     }
 

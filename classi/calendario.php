@@ -65,40 +65,14 @@ class Calendario {
 	protected $ricorrenza=array(
 		"0102"=>array(
 			"0102a"=>array(
-				"titolo"=>"Ferie prima dell'Epifania",
-				"tipo"=>"F"
-			),
-			"0102b"=>array(
 				"titolo"=>"Santi Basiglio Magno e Gregorio Nazianzeno (Vescovi e Dottori della Chiesa)",
 				"tipo"=>"M"
 			)
 		),
 		"0103"=>array(
 			"0103a"=>array(
-				"titolo"=>"Ferie prima dell'Epifania",
-				"tipo"=>"F"
-			),
-			"0103b"=>array(
 				"titolo"=>"Santissimo nome di Gesù",
 				"tipo"=>"X"
-			)
-		),
-		"0104"=>array(
-			"0104a"=>array(
-				"titolo"=>"Ferie prima dell'Epifania",
-				"tipo"=>"F"
-			)
-		),
-		"0105"=>array(
-			"0105a"=>array(
-				"titolo"=>"Ferie prima dell'Epifania",
-				"tipo"=>"F"
-			)
-		),
-		"0106"=>array(
-			"EPI"=>array(
-				"titolo"=>"Epifania del Signore",
-				"tipo"=>"S"
 			)
 		),
 		"0107"=>array(
@@ -193,12 +167,6 @@ class Calendario {
 				"tipo"=>"M"
 			)
 		),
-		"0202"=>array(
-			"0202a"=>array(
-				"titolo"=>"Presentazione del Signore",
-				"tipo"=>"F"
-			)
-		),
 		"0203"=>array(
 			"0203a"=>array(
 				"titolo"=>"Sant'Ansgario - Oscar (Vescovo)",
@@ -225,12 +193,6 @@ class Calendario {
 			"0208a"=>array(
 				"titolo"=>"San Girolamo Emiliani",
 				"tipo"=>"R"
-			)
-		),
-		"0210"=>array(
-			"0210a"=>array(
-				"titolo"=>"Santa Scolastica (Vergine)",
-				"tipo"=>"S"
 			)
 		),
 		"0211"=>array(
@@ -309,28 +271,10 @@ class Calendario {
 				"tipo"=>"R"
 			)
 		),
-		"0319"=>array(
-			"0319a"=>array(
-				"titolo"=>"San Giuseppe sposo della B.V. Maria",
-				"tipo"=>"S"
-			)
-		),
-		"0321"=>array(
-			"0321a"=>array(
-				"titolo"=>"Transito del N.S. Padre Benedetto Abate",
-				"tipo"=>"F"
-			)
-		),
 		"0323"=>array(
 			"0323a"=>array(
 				"titolo"=>"San Turibio di Mongrovejo (Vescovo)",
 				"tipo"=>"R"
-			)
-		),
-		"0325"=>array(
-			"0325a"=>array(
-				"titolo"=>"Annunciazione del Signore",
-				"tipo"=>"S"
 			)
 		),
 		"0402"=>array(
@@ -595,12 +539,6 @@ class Calendario {
 				"tipo"=>"R"
 			)
 		),
-		"0624"=>array(
-			"0624a"=>array(
-				"titolo"=>"Natività di San Giovanni Battista",
-				"tipo"=>"S"
-			)
-		),
 		"0625"=>array(
 			"0611a"=>array(
 				"titolo"=>"San Guglielmo (Abate)",
@@ -617,12 +555,6 @@ class Calendario {
 			"0628a"=>array(
 				"titolo"=>"Sant'Ireneo (Vescovo e martire)",
 				"tipo"=>"M"
-			)
-		),
-		"0629"=>array(
-			"0629a"=>array(
-				"titolo"=>"Santi Pietro e Paolo apostoli",
-				"tipo"=>"S"
 			)
 		),
 		"0630"=>array(
@@ -653,12 +585,6 @@ class Calendario {
 			"0706a"=>array(
 				"titolo"=>"Santa Maria Goretti (Vergine e martire)",
 				"tipo"=>"R"
-			)
-		),
-		"0711"=>array(
-			"0711a"=>array(
-				"titolo"=>"Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa",
-				"tipo"=>"S"
 			)
 		),
 		"0712"=>array(
@@ -757,12 +683,6 @@ class Calendario {
 				"tipo"=>"R"
 			)
 		),
-		"0806"=>array(
-			"0806a"=>array(
-				"titolo"=>"Trasfigurazione del Signore",
-				"tipo"=>"F"
-			)
-		),
 		"0807"=>array(
 			"0807a"=>array(
 				"titolo"=>"San Sisto II (Papa) e Compoagni (Martiri)",
@@ -801,12 +721,6 @@ class Calendario {
 			"0814a"=>array(
 				"titolo"=>"San Massimiliano Maria Kolbe (Sacerdote e martire)",
 				"tipo"=>"M"
-			)
-		),
-		"0815"=>array(
-			"0815a"=>array(
-				"titolo"=>"Assunzione della Beata Vergine Maria",
-				"tipo"=>"S"
 			)
 		),
 		"0816"=>array(
@@ -899,12 +813,6 @@ class Calendario {
 			"0913a"=>array(
 				"titolo"=>"San Giovanni Crisostomo (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M"
-			)
-		),
-		"0914"=>array(
-			"0914a"=>array(
-				"titolo"=>"Esaltazione della Santa Croce",
-				"tipo"=>"F"
 			)
 		),
 		"0915"=>array(
@@ -1085,12 +993,6 @@ class Calendario {
 				"tipo"=>"F"
 			)
 		),
-		"1101"=>array(
-			"1101a"=>array(
-				"titolo"=>"Tutti i Santi",
-				"tipo"=>"S"
-			)
-		),
 		"1102"=>array(
 			"1102a"=>array(
 				"titolo"=>"Commemorazione di tutti i fedeli defunti",
@@ -1263,12 +1165,6 @@ class Calendario {
 			"1207a"=>array(
 				"titolo"=>"Sant'Ambrogio (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M"
-			)
-		),
-		"1208"=>array(
-			"1208a"=>array(
-				"titolo"=>"Immacolata concezione della Beata Vergine Maria",
-				"tipo"=>"S"
 			)
 		),
 		"1211"=>array(
@@ -1518,22 +1414,123 @@ class Calendario {
 			if ($m['weekDay']==0) {
 				$m['evento']['D'.$sett]=array(
 					"titolo"=>$sett."° Domenica del tempo ordinario",
-					"tipo"=>"F"
+					"tipo"=>"F",
+					"ppvv"=>true
 				);
 			}
 
-			if ($day==$this->info['battesimo']) {
+			if (substr($day,4,4)=='0202') {
+				$m['evento']=array();
+				$m['evento']['0202a']=array(
+					"titolo"=>"Presentazione del Signore",
+					"tipo"=>"F",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario Santa Scolastica è una Solennità che ha la priorità
+			elseif (substr($day,4,4)=='0210') {
+				$m['evento']=array();
+				$m['evento']['0210a']=array(
+					"titolo"=>"Santa Scolastica (Vergine)",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario Santa Giuseppe è una Solennità che ha la priorità
+			elseif (substr($day,4,4)=='0319') {
+				$m['evento']=array();
+				$m['evento']['0319a']=array(
+					"titolo"=>"San Giuseppe sposo della B.V. Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario l'Annunciazione è una Solennità che ha la priorità
+			elseif (substr($day,4,4)=='0325') {
+				$m['evento']=array();
+				$m['evento']['0325a']=array(
+					"titolo"=>"Annunciazione del Signore",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la natività del Battista è una Solennità che ha la priorità
+			elseif (substr($day,4,4)=='0624') {
+				$m['evento']=array();
+				$m['evento']['0624a']=array(
+					"titolo"=>"Natività di San Giovanni Battista",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Solennità ha la priorità
+			elseif (substr($day,4,4)=='0629') {
+				$m['evento']=array();
+				$m['evento']['0629a']=array(
+					"titolo"=>"Santi Pietro e Paolo apostoli",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Solennità ha la priorità
+			elseif (substr($day,4,4)=='0711') {
+				$m['evento']=array();
+				$m['evento']['0711a']=array(
+					"titolo"=>"Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Solennità ha la priorità
+			elseif (substr($day,4,4)=='0815') {
+				$m['evento']=array();
+				$m['evento']['0815a']=array(
+					"titolo"=>"Assunzione della Beata Vergine Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Solennità ha la priorità
+			elseif (substr($day,4,4)=='1101') {
+				$m['evento']=array();
+				$m['evento']['1101a']=array(
+					"titolo"=>"Tutti i Santi",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Festa del Signore ha la priorità
+			elseif (substr($day,4,4)=='0806') {
+				$m['evento']=array();
+				$m['evento']['0806a']=array(
+					"titolo"=>"Trasfigurazione del Signore",
+					"tipo"=>"F",
+					"ppvv"=>true
+				);
+			}
+			//se il tempo è ordinario la Festa del Signore ha la priorità
+			elseif (substr($day,4,4)=='0914') {
+				$m['evento']=array();
+				$m['evento']['0914a']=array(
+					"titolo"=>"Esaltazione della Santa Croce",
+					"tipo"=>"F",
+					"ppvv"=>true
+				);
+			}
+			elseif ($day==$this->info['battesimo']) {
 				$m['evento']=array();
 				$m['evento']['BAT']=array(
 					"titolo"=>"Battesimo del Signore",
-					"tipo"=>"F"
+					"tipo"=>"F",
+					"ppvv"=>true
 				);
 			}
 			elseif ($day==$this->info['pentecoste']) {
 				$m['evento']=array();
 				$m['evento']['PEN']=array(
 					"titolo"=>"Domenica di Pentecoste",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 				$m['settimana']="";
 				$m['rocho']=true;
@@ -1542,28 +1539,50 @@ class Calendario {
 				$m['evento']=array();
 				$m['evento']['SCG']=array(
 					"titolo"=>"Sacratissimo Cuore di Gesù",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 			}
 			elseif ($day==$this->info['trinita']) {
 				$m['evento']=array();
 				$m['evento']['TRI']=array(
 					"titolo"=>"Solennità della Santissima Trinità",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 			}
 			elseif ($day==$this->info['corpus']) {
 				$m['evento']=array();
 				$m['evento']['COD']=array(
 					"titolo"=>"Santissimo Corpo e Sangue di Cristo",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 			}
 			elseif ($day==$this->info['re']) {
 				$m['evento']=array();
 				$m['evento']['GRE']=array(
 					"titolo"=>"Nostro Signore Gesù Cristo Re dell'Universo",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+
+			//nel tempo ordinario il Transito non può accavallarsi ad una domenica
+			if (substr($day,4,4)=='0321' && $m['weekDay']!=0) {
+				$m['evento']=array();
+				$m['evento']['0321a']=array(
+					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
+					"tipo"=>"F",
+					"ppvv"=>true
+				);
+			}
+			elseif (substr($day,4,4)=='0322' && $m['weekDay']==1) {
+				$m['evento']=array();
+				$m['evento']['0321a']=array(
+					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
+					"tipo"=>"F",
+					"ppvv"=>true
 				);
 			}
 		}
@@ -1574,7 +1593,8 @@ class Calendario {
 			if (substr($day,4,4)=='1225') {
 				$m['evento']['NAT']=array(
 					"titolo"=>"Natale del Signore",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 			}
 
@@ -1582,12 +1602,22 @@ class Calendario {
 			if (substr($day,4,4)=='0101') {
 				$m['evento']['MSS']=array(
 					"titolo"=>"Maria SS. Madre di Dio",
-					"tipo"=>"S"
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+
+			//ferie prima dell'Epifania
+			if (substr($day,4,4)>'0101' && substr($day,4,4)<'0106') {
+				$m['evento']['F'.substr($day,4,4)]=array(
+					"titolo"=>"Ferie prima dell'Epifania",
+					"tipo"=>"F",
 				);
 			}
 
 			//seconda domenica dopo natale
-			elseif (substr($day,4,4)>='0102' && substr($day,4,4)<='0105' && $m['weekDay']==0) {
+			if (substr($day,4,4)>='0102' && substr($day,4,4)<='0105' && $m['weekDay']==0) {
+				$m['evento']=array();
 				$m['evento']['2DN']=array(
 					"titolo"=>"Seconda Domenica dopo Natale",
 					"tipo"=>"F"
@@ -1598,7 +1628,8 @@ class Calendario {
 			elseif ( (date('w',mainFunc::gab_tots($this->info['natale']))==0 && substr($day,4,4)=='1230') || (substr($day,4,4)>'1225' && substr($day,4,4)<='1231' && $m['weekDay']==0) ) {
 				$m['evento']['SAF']=array(
 					"titolo"=>"Santa Famiglia di Gesù Maria e Giuseppe",
-					"tipo"=>"F"
+					"tipo"=>"F",
+					"ppvv"=>true
 				);
 			}
 
@@ -1607,7 +1638,16 @@ class Calendario {
 
 				$m['evento']['F'.substr($day,4,4)]=array(
 					"titolo"=>"Ferie dopo l'Epifania",
-					"tipo"=>"F"
+					"tipo"=>"F",
+				);
+			}
+
+			//Epifania
+			elseif (substr($day,4,4)=='0106') {
+
+				$m['evento']['EPI']=array(
+					"titolo"=>"Epifania del Signore",
+					"tipo"=>"S"
 				);
 			}
 		}
@@ -1681,6 +1721,16 @@ class Calendario {
 				$m['evento']['A12'.substr($day,6,2)]=array(
 					"titolo"=>"Avvento - ".substr($day,6,2)." Dicembre",
 					"tipo"=>"F"
+				);
+			}
+
+			//Questa solennità è equiparata ad una Solennità del Signore
+			if (substr($day,4,4)=='1208') {
+				$m['evento']=array();
+				$m['evento']['1208a']=array(
+					"titolo"=>"Immacolata concezione della Beata Vergine Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
 				);
 			}
 		}
@@ -1794,6 +1844,70 @@ class Calendario {
 					if ($m['weekDay']==5) $m['rocho']=true;
 				}
 			}
+
+			//se il tempo è di Quaresima Santa Scolastica non può cadere il mercoledì delle ceneri o domenica
+			if (substr($day,4,4)=='0210' && $day!=$this->info['ceneri'] && $m['weekDay']!=0) {
+				$m['evento']=array();
+				$m['evento']['0210a']=array(
+					"titolo"=>"Santa Scolastica (Vergine)",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			elseif (substr($day,4,4)=='0211' && (substr($this->info['ceneri'],4,4)=='0210' || $m['weekDay']==1) ){
+				$m['evento']=array();
+				$m['evento']['0210a']=array(
+					"titolo"=>"Santa Scolastica (Vergine)",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+
+			//se il tempo è di Quaresima Santa Giuseppe è una Solennità che non può cadere di domenica e viene posticipato
+			//o dalle Palme alla seconda di Pasqua e viene anticipato
+			if (substr($day,4,4)=='0319' && $m['weekDay']!=0 && $day<$this->info['palme']) {
+				$m['evento']=array();
+				$m['evento']['0319a']=array(
+					"titolo"=>"San Giuseppe sposo della B.V. Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			elseif (substr($day,4,4)=='0320' && $m['weekDay']==1 && $day<$this->info['palme']) {
+				$m['evento']=array();
+				$m['evento']['0319a']=array(
+					"titolo"=>"San Giuseppe sposo della B.V. Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			elseif ($day=date('Ymd',strtotime("-1 day",mainFunc::gab_tots($this->info['palme']))) && substr($this->info['palme'],4,4)<='0319' && substr($this->info['pasqua'],4,4)>='0319') {
+				$m['evento']=array();
+				$m['evento']['0319a']=array(
+					"titolo"=>"San Giuseppe sposo della B.V. Maria",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+
+			//se il tempo è di Quaresima Annunciazione è una Solennità che non può cadere di domenica e viene posticipato
+			//o dalle Palme alla seconda di Pasqua e viene posticipato
+			if (substr($day,4,4)=='0325' && $m['weekDay']!=0 && $day<$this->info['palme']) {
+				$m['evento']=array();
+				$m['evento']['0325a']=array(
+					"titolo"=>"Annunciazione del Signore",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			elseif (substr($day,4,4)=='0326' && $m['weekDay']==1 && $day<$this->info['palme']) {
+				$m['evento']=array();
+				$m['evento']['0325a']=array(
+					"titolo"=>"Annunciazione del Signore",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
 		}
 		///////////////////////////////////////////////////////////////////////
 		elseif ($m['tempo']['codice']=='P') {
@@ -1893,7 +2007,8 @@ class Calendario {
 				if ($day==$this->info['ascensione']) {
 					$m['evento']['ASC']=array(
 						"titolo"=>"Ascensione del Signore",
-						"tipo"=>"S"
+						"tipo"=>"S",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -1902,6 +2017,25 @@ class Calendario {
 						"tipo"=>"F"
 					);
 				}
+			}
+
+			//se il tempo è di Pasqua Annunciazione è una Solennità che non può cadere di domenica e viene posticipato
+			//o dalle Palme alla seconda di Pasqua e viene posticipato
+			if (substr($day,4,4)=='0326' && $m['weekDay']==1 && $day>$this->info['pas2']) {
+				$m['evento']=array();
+				$m['evento']['0325a']=array(
+					"titolo"=>"Annunciazione del Signore",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
+			}
+			elseif ($day=date('Ymd',strtotime("+1 day",mainFunc::gab_tots($this->info['pas2']))) && substr($this->info['palme'],4,4)<='0325' && substr($this->info['pas2'],4,4)>='0325') {
+				$m['evento']=array();
+				$m['evento']['0325a']=array(
+					"titolo"=>"Annunciazione del Signore",
+					"tipo"=>"S",
+					"ppvv"=>true
+				);
 			}
 		}
 

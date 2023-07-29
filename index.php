@@ -5,6 +5,10 @@ include_once ('classi/salmastro.php');
 $param=array();
 
 if (isset($_REQUEST['today'])) $param['today']=$_REQUEST['today'];
+if (isset($_REQUEST['ora'])) $param['config']['ora']=$_REQUEST['ora'];
+if (isset($_REQUEST['festa'])) $param['config']['festa']=$_REQUEST['festa'];
+if (isset($_REQUEST['mix'])) $param['config']['mix']=$_REQUEST['mix'];
+if (isset($_REQUEST['contesto'])) $param['config']['contesto']=$_REQUEST['contesto'];
 
 $sal=new Salmastro($param);
 $sal->build();

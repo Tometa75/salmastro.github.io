@@ -102,14 +102,16 @@ class Litio {
 
     protected $map;
     protected $vig;
+    protected $config=array();
 
     //è l'insieme di oggetti che disegneranno la preghiera
     protected $res=array();
 
-    function __construct($map,$vig) {
+    function __construct($map,$vig,$config) {
 
         $this->map=$map;
         $this->vig=$vig;
+        $this->config=$config;
 
         $this->map['invitatorio']=$this->invitatorio;
         $this->map['actual']=$this->base;
@@ -130,6 +132,13 @@ class Litio {
         //Verifica in base agli eventi se ci sono i PRIMI ed i SECONDI VESPRI
         $this->map['ssvv']=false;
         $this->vig['ppvv']=false;
+
+        foreach ($this->vig['evento'] as $k=>$e) {
+            if ($k==$this->config['festa'] && $e['ppvv']) $this->map['ssvv']=true;
+        }
+        foreach ($this->map['evento'] as $k=>$e) {
+            if ($k==$this->config['festa'] && $e['ppvv']) $this->map['ssvv']=true;
+        }
         //################################
 
         //se domani è domenica o è una solennità ci sono i Primi Vespri e la compieta1
@@ -181,7 +190,9 @@ class Litio {
 
                 echo '<select id="sal_ora" style="position:relative;width:95%;font-size:1.2em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
                     foreach ($this->map['actual'] as $k=>$a) {
-                        echo '<option value="'.$k.'" >'.$a['titolo'].'</option>';
+                        echo '<option value="'.$k.'" ';
+                            if (isset($this->config['ora']) && $this->config['ora']==$k) echo 'selected';
+                        echo '>'.$a['titolo'].'</option>';
                     }
                 echo '</select>';
 
@@ -190,9 +201,21 @@ class Litio {
             echo '<div style="position:relative;display:inline-block;width:50%;vertical-align:top;padding:5px;box-sizing:border-box;">';
                  
                 echo '<select id="sal_festa" style="position:relative;width:98%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
-                    echo '<option value="">Scegli una memoria...</option>';
+                    if (count($this->map['evento'])>0) {
+                        foreach ($this->map['evento'] as $k=>$f) {
+                            echo '<option value="'.$k.'" ';
+                                if (isset($this->config['festa']) && $this->config['festa']==$k) echo 'selected';
+                            echo '>'.$f['titolo'].'</option>';
+                        }
+                    }
+                    else {
+                        echo '<option value="">Scegli una memoria...</option>';
+                    }
                     foreach ($this->map['festa'] as $k=>$f) {
-                        echo '<option value="'.$k.'" >'.$f['titolo'].'</option>';
+                        if ($f['tipo']=='X') continue;
+                        echo '<option value="'.$k.'" ';
+                            if (isset($this->config['festa']) && $this->config['festa']==$k) echo 'selected';
+                        echo '>'.$f['titolo'].'</option>';
                     }
                 echo '</select>';
 
@@ -200,17 +223,25 @@ class Litio {
 
             echo '<div style="position:relative;display:inline-block;width:6%;vertical-align:top;padding:5px;box-sizing:border-box;margin-top:5px;">';
 
-                echo '<input id="sal_mix" type="checkbox" />';
+                echo '<input id="sal_mix" type="checkbox" '.((isset($this->config['mix']) && $this->config['mix']==1)?'checked':'').'/>';
                 echo '<span style="font-size:1.2em;font-weight:bold;margin-left:5px;">Mix</span>'; 
 
             echo '</div>';
 
             echo '<div style="position:relative;display:inline-block;width:12%;vertical-align:top;padding:5px;box-sizing:border-box;">';
+                
+                $temp=array(
+                    "solo"=>"Personale",
+                    "comune"=>"Comunità",
+                    "liturgia"=>"Sacerdote"
+                );
 
                 echo '<select id="sal_contesto" style="position:relative;width:95%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
-                    echo '<option value="solo">Personale</option>';
-                    echo '<option value="comune">Comunità</option>';
-                    echo '<option value="liturgia">Sacerdote</option>';
+                    foreach ($temp as $k=>$f) {
+                        echo '<option value="'.$k.'" ';
+                            if (isset($this->config['contesto']) && $this->config['contesto']==$k) echo 'selected';
+                        echo '>'.$f.'</option>';
+                    }
                 echo '</select>';
 
             echo '</div>';

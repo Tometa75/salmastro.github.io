@@ -123,6 +123,14 @@ function calnav(indice,risoluzione,today,config) {
     this.customExecute=function() {
         let url = location.protocol + '//' + location.host + location.pathname;   
         url += '?today='+this.today;
+
+        var arr=window._salmastro.getConfig();
+        if (arr!=='undefined') {
+            for (var x in arr) {
+                url=url+'&'+x+'='+arr[x];
+            }
+        }
+
         window.location.href = url;
     }
 
