@@ -131,18 +131,22 @@ class Litio {
         //################################
         //Verifica in base agli eventi se ci sono i PRIMI ed i SECONDI VESPRI
         $this->map['ssvv']=false;
-        $this->vig['ppvv']=false;
+        $this->map['ppvv']=false;
 
         foreach ($this->vig['evento'] as $k=>$e) {
-            if ($k==$this->config['festa'] && $e['ppvv']) $this->map['ssvv']=true;
+            if (isset($e['ppvv']) && $e['ppvv']) $this->map['ppvv']=true;
         }
         foreach ($this->map['evento'] as $k=>$e) {
-            if ($k==$this->config['festa'] && $e['ppvv']) $this->map['ssvv']=true;
+            //if ($k==$this->config['festa'] && isset($e['ppvv']) && $e['ppvv']) $this->map['ssvv']=true;
+            if (isset($e['ppvv']) && $e['ppvv']) $this->map['ssvv']=true;
         }
+
+        if ($this->map['weekDay']==0 && !$this->map['ppvv']) $this->map['ssvv']=true;
         //################################
 
         //se domani è domenica o è una solennità ci sono i Primi Vespri e la compieta1
-        if ($this->vig['weekDay']==0 || $this->vig['ppvv']) {
+        //if ($this->vig['weekDay']==0 || (isset($this->vig['ppvv']) && $this->vig['ppvv']) ) {
+        if ($this->map['ppvv']) {
             unset($this->map['actual']['ves']);
             unset($this->map['actual']['ves2']);
             unset($this->map['actual']['comp']);
@@ -152,7 +156,8 @@ class Litio {
             unset($this->map['actual']['comp1']);
 
             //se oggi è domenica o è una solennità ci sono i secondi vespri
-            if ($this->map['weekDay']==0 || $this->map['ssvv']) {
+            //if ($this->map['weekDay']==0 || (isset($this->map['ssvv']) && $this->map['ssvv'])) {
+            if ($this->map['ssvv']) {
                 unset($this->map['actual']['ves']);
             }
             else {
@@ -201,7 +206,7 @@ class Litio {
             echo '<div style="position:relative;display:inline-block;width:50%;vertical-align:top;padding:5px;box-sizing:border-box;">';
                  
                 echo '<select id="sal_festa" style="position:relative;width:98%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
-                    if (count($this->map['evento'])>0) {
+                    /*if (count($this->map['evento'])>0) {
                         foreach ($this->map['evento'] as $k=>$f) {
                             echo '<option value="'.$k.'" ';
                                 if (isset($this->config['festa']) && $this->config['festa']==$k) echo 'selected';
@@ -210,7 +215,10 @@ class Litio {
                     }
                     else {
                         echo '<option value="">Scegli una memoria...</option>';
-                    }
+                    }*/
+
+                    echo '<option value="">Scegli una memoria...</option>';
+                    
                     foreach ($this->map['festa'] as $k=>$f) {
                         if ($f['tipo']=='X') continue;
                         echo '<option value="'.$k.'" ';

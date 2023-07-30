@@ -1436,7 +1436,7 @@ class Calendario {
 					"ppvv"=>true
 				);
 			}
-			//se il tempo è ordinario Santa Giuseppe è una Solennità che ha la priorità
+			//se il tempo è ordinario San Giuseppe è una Solennità che ha la priorità
 			elseif (substr($day,4,4)=='0319') {
 				$m['evento']=array();
 				$m['evento']['0319a']=array(
@@ -1620,7 +1620,8 @@ class Calendario {
 				$m['evento']=array();
 				$m['evento']['2DN']=array(
 					"titolo"=>"Seconda Domenica dopo Natale",
-					"tipo"=>"F"
+					"tipo"=>"F",
+					"ppvv"=>true
 				);
 			}
 
@@ -1659,7 +1660,8 @@ class Calendario {
 				if ($day==$this->info['avv1']) {
 					$m['evento']['AV1']=array(
 						"titolo"=>"Prima Domenica di Avvento",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1674,7 +1676,8 @@ class Calendario {
 				if ($day==$this->info['avv2']) {
 					$m['evento']['AV2']=array(
 						"titolo"=>"Seconda Domenica di Avvento",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1689,7 +1692,8 @@ class Calendario {
 				if ($day==$this->info['avv3']) {
 					$m['evento']['AV3']=array(
 						"titolo"=>"Terza Domenica di Avvento",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1704,7 +1708,8 @@ class Calendario {
 				if ($day==$this->info['avv4']) {
 					$m['evento']['AV4']=array(
 						"titolo"=>"Quarta Domenica di Avvento",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1757,7 +1762,8 @@ class Calendario {
 				if ($day==$this->info['qua1']) {
 					$m['evento']['QU1']=array(
 						"titolo"=>"1° domenica di Quaresima",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1772,7 +1778,8 @@ class Calendario {
 				if ($day==$this->info['qua2']) {
 					$m['evento']['QU2']=array(
 						"titolo"=>"2° domenica di Quaresima",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1787,7 +1794,8 @@ class Calendario {
 				if ($day==$this->info['qua3']) {
 					$m['evento']['QU3']=array(
 						"titolo"=>"3° domenica di Quaresima",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1802,7 +1810,8 @@ class Calendario {
 				if ($day==$this->info['qua4']) {
 					$m['evento']['QU4']=array(
 						"titolo"=>"4° domenica di Quaresima",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1817,7 +1826,8 @@ class Calendario {
 				if ($day==$this->info['qua5']) {
 					$m['evento']['QU5']=array(
 						"titolo"=>"5° domenica di Quaresima",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				}
 				else {
@@ -1832,7 +1842,8 @@ class Calendario {
 				if ($day==$this->info['palme']) {
 					$m['evento']['PAL']=array(
 						"titolo"=>"Domenica delle Palme",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 					$m['rocho']=true;
 				}
@@ -1863,7 +1874,7 @@ class Calendario {
 				);
 			}
 
-			//se il tempo è di Quaresima Santa Giuseppe è una Solennità che non può cadere di domenica e viene posticipato
+			//se il tempo è di Quaresima San Giuseppe è una Solennità che non può cadere di domenica e viene posticipato
 			//o dalle Palme alla seconda di Pasqua e viene anticipato
 			if (substr($day,4,4)=='0319' && $m['weekDay']!=0 && $day<$this->info['palme']) {
 				$m['evento']=array();
@@ -1881,7 +1892,7 @@ class Calendario {
 					"ppvv"=>true
 				);
 			}
-			elseif ($day=date('Ymd',strtotime("-1 day",mainFunc::gab_tots($this->info['palme']))) && substr($this->info['palme'],4,4)<='0319' && substr($this->info['pasqua'],4,4)>='0319') {
+			elseif ($day==date('Ymd',strtotime("-1 day",mainFunc::gab_tots($this->info['palme']))) && substr($this->info['palme'],4,4)<='0319' && substr($this->info['pasqua'],4,4)>='0319') {
 				$m['evento']=array();
 				$m['evento']['0319a']=array(
 					"titolo"=>"San Giuseppe sposo della B.V. Maria",
@@ -1932,7 +1943,8 @@ class Calendario {
 				if ($day==$this->info['pas2']) {
 					$m['evento']['PA2']=array(
 						"titolo"=>"2° Domenica di Pasqua - Domenica dell'ottava",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -1947,7 +1959,8 @@ class Calendario {
 				if ($day==$this->info['pas3']) {
 					$m['evento']['PA3']=array(
 						"titolo"=>"3° Domenica di Pasqua",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -1962,7 +1975,8 @@ class Calendario {
 				if ($day==$this->info['pas4']) {
 					$m['evento']['PA4']=array(
 						"titolo"=>"4° Domenica di Pasqua",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -1977,7 +1991,8 @@ class Calendario {
 				if ($day==$this->info['pas5']) {
 					$m['evento']['PA5']=array(
 						"titolo"=>"5° Domenica di Pasqua",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -1992,7 +2007,8 @@ class Calendario {
 				if ($day==$this->info['pas6']) {
 					$m['evento']['PA6']=array(
 						"titolo"=>"6° Domenica di Pasqua",
-						"tipo"=>"F"
+						"tipo"=>"F",
+						"ppvv"=>true
 					);
 				} 
 				else {
@@ -2029,7 +2045,7 @@ class Calendario {
 					"ppvv"=>true
 				);
 			}
-			elseif ($day=date('Ymd',strtotime("+1 day",mainFunc::gab_tots($this->info['pas2']))) && substr($this->info['palme'],4,4)<='0325' && substr($this->info['pas2'],4,4)>='0325') {
+			elseif ($day==date('Ymd',strtotime("+1 day",mainFunc::gab_tots($this->info['pas2']))) && substr($this->info['palme'],4,4)<='0325' && substr($this->info['pas2'],4,4)>='0325') {
 				$m['evento']=array();
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
