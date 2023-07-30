@@ -62,6 +62,7 @@ class Salmastro {
     }
 
     function load() {
+        $this->litio->build();
         $this->litio->draw();
     }
 

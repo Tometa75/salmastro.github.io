@@ -168,7 +168,7 @@ class Litio {
             }
         }
 
-        $this->build();
+        //$this->build();
     }
 
     function build() {

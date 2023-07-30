@@ -1,5 +1,9 @@
 const salmastro=class {
 
+    setWaiter() {
+        return '<div style="text-align:center;"><img style="width:100px;height:100px;" src="'+location.protocol + '//' + location.host + location.pathname+'img/busy.gif" /></div>';
+    }
+
     getConfig() {
 
         var config={
@@ -20,6 +24,8 @@ const salmastro=class {
         }
 
         //console.log(JSON.stringify(param));
+
+        $('#salTesto').html(this.setWaiter());
 
         $.ajax({
             "url": location.protocol + '//' + location.host + location.pathname+"func/load.php",
