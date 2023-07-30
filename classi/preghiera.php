@@ -1,0 +1,150 @@
+<?php
+
+
+class Preghiera {
+
+    protected $info=array(
+        "tipo"=>"inizio",
+        "titolo"=>"",
+        "testo"=>false
+    );
+
+    protected $litio;
+
+    function __construct($tipo,$caller) {
+
+        //inizio || fine
+        $this->info['tipo']=$tipo;
+        $this->litio=$caller;
+
+        $this->info['testo']=new Saltesto();
+
+        if ($this->info['tipo']=='inizio') $this->setInizio();
+        elseif ($this->info['tipo']=='fine') $this->setFine();
+
+        
+    }
+
+    function setInizio() {
+
+        $this->info['titolo']='Preghiera Iniziale';
+
+        $b=array(
+            array('ebd','','O Dio, vieni a salvarmi.'),
+            array('ris','','Signore, vieni preto in mio aiuto.')
+        );
+        $this->info['testo']->addBlock($b);
+
+        $b=array(
+            array('','','Gloria al Padre e al Figlio'),
+            array('','2','e allo Spirito Santo.'),
+            array('','','Come era nel principio, e ora e sempre,'),
+            array('','2','nei secoli dei secoli. Amen.')
+        );
+        $this->info['testo']->addBlock($b);
+
+        if ($this->litio->map['tempo']['codice']!='Q') {
+            $b=array(
+                array('','','Alleluia.')
+            );
+            $this->info['testo']->addBlock($b);
+        }
+    }
+
+    function setFine() {
+
+        $this->info['titolo']='Preghiera Conclusiva';
+
+        $ora=$this->litio->config['ora'];
+
+        if ($ora=='terza' || $ora=='sesta' || $ora=='nona') {
+
+            $b=array(
+                array('ebd','','Benediciamo il Signore.'),
+                array('ris','','Rendiamo grazie a Dio.')
+            );
+            $this->info['testo']->addBlock($b);
+        }
+        elseif ($ora=='compieta') {
+
+            $b=array(
+                array('ebd','','Il Signore ci conceda una notte serena e un riposo tranquillo.'),
+                array('ris','','Amen.')
+            );
+            $this->info['testo']->addBlock($b);
+        }
+        else {
+
+            if ($this->litio->config['contesto']=='solo') {
+
+                $b=array(
+                    array('','','Il Signore ci benedica, ci preservi da ogni male, e ci conduca alla vita eterna, con i nostri fratelli assenti. Amen')
+                );
+                $this->info['testo']->addBlock($b);
+            }
+            elseif ($this->litio->config['contesto']=='prete') {
+
+                $b=array(
+                    array('sac','','Il Signore sia con voi.'),
+                    array('ris','','E con il tuo spirito.')
+                );
+                $this->info['testo']->addBlock($b);
+
+                $b=array(
+                    array('sac','','Vi benedica Dio onnipotente, §Padre e Figlio e Spirito Santo.'),
+                    array('ris','','Amen.')
+                );
+                $this->info['testo']->addBlock($b);
+            }
+            else {
+
+                $b=array(
+                    array('sac','','Il Signore sia con voi.'),
+                    array('ris','','E con il tuo spirito.')
+                );
+                $this->info['testo']->addBlock($b);
+
+                $b=array(
+                    array('sac','','Benediciamo il Signore.'),
+                    array('ris','','Rendiamo grazie a Dio.')
+                );
+                $this->info['testo']->addBlock($b);
+
+                $b=array(
+                    array('sac','',"L'aiuto del Signore resti sempre c0n noi."),
+                    array('ris','','E con i nostri fratelli assenti. Amen.')
+                );
+                $this->info['testo']->addBlock($b);
+
+                $flag=false;
+
+                if (substr($ora,0,3)=='ves') {
+                    foreach ($this->litio->map['evento'] as $k=>$e) {
+                        if (substr($k,0,3)=='PA1') {
+                            $flag=true;
+                            break;
+                        }
+                    }
+                }
+
+                if ( ($ora=='ves' && array_key_exists('CEN',$this->litio->vig['evento'])) || ($ora=='ves2' && array_key_exists('PEN',$this->litio->map['evento'])) || $flag) {
+                    $b=array(
+                        array('','','Alleluia. Alleluia.')
+                    );
+                    $this->info['testo']->addBlock($b);
+                }
+            }
+        }
+    }
+
+    function draw() {
+
+        echo '<div>'.json_encode($this->litio->map).'</div>';
+        echo '<div>'.json_encode($this->litio->vig).'</div>';
+        echo '<div>'.json_encode($this->litio->config).'</div>';
+    }
+
+
+    
+}
+?>

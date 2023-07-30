@@ -78,3 +78,7 @@ body {
     background-size: cover;
     background-position: left;
 }
+
+.salBottomHead select {
+    height: 22px;
+}

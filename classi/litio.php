@@ -1,4 +1,6 @@
 <?php
+require_once('preghiera.php');
+require_once('testo.php');
 
 class Litio {
 
@@ -100,9 +102,9 @@ class Litio {
         )
     );
 
-    protected $map;
-    protected $vig;
-    protected $config=array();
+    public $map;
+    public $vig;
+    public $config=array();
 
     //è l'insieme di oggetti che disegneranno la preghiera
     protected $res=array();
@@ -164,9 +166,19 @@ class Litio {
                 unset($this->map['actual']['ves2']);
             }
         }
+
+        $this->build();
     }
 
-    function build($a,$config) {
+    function build() {
+
+        foreach ($this->map['actual'][$this->config['ora']]['st'] as $k=>$o) {
+
+            switch ($o) {
+                case 'PI': $this->res['PI']=new Preghiera('inizio',$this);break;
+            }
+        }
+
         /*
         //STEP 1 - attribuzione di COMUNE
         if ($a['tempo']['codice']=='O') {
@@ -180,10 +192,6 @@ class Litio {
 
         //STEP 2 - modifica PROPRIO
         */
-    }
-
-    function link() {
-        //link degli oggetti
     }
 
     function drawHead() {
@@ -218,7 +226,7 @@ class Litio {
                     }*/
 
                     echo '<option value="">Scegli una memoria...</option>';
-                    
+
                     foreach ($this->map['festa'] as $k=>$f) {
                         if ($f['tipo']=='X') continue;
                         echo '<option value="'.$k.'" ';
@@ -241,7 +249,7 @@ class Litio {
                 $temp=array(
                     "solo"=>"Personale",
                     "comune"=>"Comunità",
-                    "liturgia"=>"Sacerdote"
+                    "prete"=>"Sacerdote"
                 );
 
                 echo '<select id="sal_contesto" style="position:relative;width:95%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
@@ -269,8 +277,15 @@ class Litio {
     }  
 
     function draw() {
-        echo '<div>'.json_encode($this->map).'</div>';
-        echo '<div>'.json_encode($this->vig).'</div>';
+
+        foreach ($this->res as $k=>$o) {
+            echo '<div>'.$k.'</div>';
+            echo '<div>'.$o->draw().'</div>';
+        }
+       
+        //echo '<div>'.json_encode($this->map).'</div>';
+        //echo '<div>'.json_encode($this->vig).'</div>';
+        //echo '<div>'.json_encode($this->map['actual'][$this->config['ora']]).'</div>';
     }
 
 }
