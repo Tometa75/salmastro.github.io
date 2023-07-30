@@ -8,7 +8,7 @@ class Saltesto {
     }
 
     function addBlock($b) {
-        $testo[]=$b;
+        $this->testo[]=$b;
     }
 
     /*
@@ -29,6 +29,31 @@ class Saltesto {
     */
 
     function draw() {
+
+        foreach ($this->testo as $k=>$b) {
+
+            echo '<div class="salTextBlock" >';
+
+                foreach ($b as $x=>$t) {
+                    echo '<div class="salTextBody" style="';
+                        if ($t[1]!='') {
+                            if ($t[1]=='2') echo 'padding-left:30px;';
+                        }
+                    echo '">';
+
+                        if ($t[0]!='') {
+                            echo '<img class="salTextCapo" src="'.SITE_URL.'/img/';
+                                if ($t[0]=='ris') echo 'r.png';
+                                elseif($t[0]=='ebd' || $t[0]=='sac') echo 'v.png';
+                            echo '" />';
+                        }
+
+                        echo $t[2];
+                    echo '</div>';
+                }
+
+            echo '</div>';
+        }
 
     }
 

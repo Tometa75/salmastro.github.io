@@ -31,7 +31,7 @@ class Preghiera {
 
         $b=array(
             array('ebd','','O Dio, vieni a salvarmi.'),
-            array('ris','','Signore, vieni preto in mio aiuto.')
+            array('ris','','Signore, vieni presto in mio aiuto.')
         );
         $this->info['testo']->addBlock($b);
 
@@ -65,7 +65,7 @@ class Preghiera {
             );
             $this->info['testo']->addBlock($b);
         }
-        elseif ($ora=='compieta') {
+        elseif ($ora=='comp' || $ora=='comp1') {
 
             $b=array(
                 array('ebd','','Il Signore ci conceda una notte serena e un riposo tranquillo.'),
@@ -91,7 +91,7 @@ class Preghiera {
                 $this->info['testo']->addBlock($b);
 
                 $b=array(
-                    array('sac','','Vi benedica Dio onnipotente, §Padre e Figlio e Spirito Santo.'),
+                    array('sac','','Vi benedica Dio onnipotente, Padre e Figlio e Spirito Santo.'),
                     array('ris','','Amen.')
                 );
                 $this->info['testo']->addBlock($b);
@@ -111,7 +111,7 @@ class Preghiera {
                 $this->info['testo']->addBlock($b);
 
                 $b=array(
-                    array('sac','',"L'aiuto del Signore resti sempre c0n noi."),
+                    array('sac','',"L'aiuto del Signore resti sempre con noi."),
                     array('ris','','E con i nostri fratelli assenti. Amen.')
                 );
                 $this->info['testo']->addBlock($b);
@@ -139,9 +139,21 @@ class Preghiera {
 
     function draw() {
 
-        echo '<div>'.json_encode($this->litio->map).'</div>';
+        echo '<div class="salResBlockTitle" >';
+            echo $this->info['titolo'];
+        echo '</div>';
+
+        echo '<div class="salResBlockBody" >';
+            if ($this->info['testo']) {
+                echo $this->info['testo']->draw();
+            }
+        echo '</div>';
+
+
+        /*echo '<div>'.json_encode($this->litio->map).'</div>';
         echo '<div>'.json_encode($this->litio->vig).'</div>';
-        echo '<div>'.json_encode($this->litio->config).'</div>';
+        echo '<div>'.json_encode($this->litio->config).'</div>';*/
+        
     }
 
 

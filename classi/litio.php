@@ -1,5 +1,6 @@
 <?php
 require_once('preghiera.php');
+require_once('inno.php');
 require_once('testo.php');
 
 class Litio {
@@ -18,19 +19,19 @@ class Litio {
         ),
         "terza"=>array(
             "titolo"=>"Ora Terza",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','AC'),
+            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
             "i"=>'08:30',
             'f'=>'11:00'
         ),
         "sesta"=>array(
             "titolo"=>"Ora Sesta",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','AC'),
+            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
             "i"=>'11:00',
             'f'=>'14:00'
         ),
         "nona"=>array(
             "titolo"=>"Ora Nona",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','AC'),
+            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
             "i"=>'14:00',
             'f'=>'17:00'
         ),
@@ -176,6 +177,8 @@ class Litio {
 
             switch ($o) {
                 case 'PI': $this->res['PI']=new Preghiera('inizio',$this);break;
+                case 'INNO': $this->res['INNO']=new Inno($this);break;
+                case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }
         }
 
@@ -269,9 +272,13 @@ class Litio {
             echo '</div>';
 
         echo '</div>';
+        
+        echo '<div class="salTestoContainer" style="" >';
 
-        echo '<div id="salTesto" style="position:relative;height:90%;width:100%;padding:20px;box-sizing:border-box;overflow:scroll;overflow-x:hidden;" >';
-            //echo __DIR__;
+            echo '<div id="salTesto" style="" >';
+                //echo __DIR__;
+            echo '</div>';
+
         echo '</div>';
 
     }  
@@ -279,8 +286,10 @@ class Litio {
     function draw() {
 
         foreach ($this->res as $k=>$o) {
-            echo '<div>'.$k.'</div>';
-            echo '<div>'.$o->draw().'</div>';
+            //echo '<div>'.$k.'</div>';
+            echo '<div class="salResBlock" >';
+                $o->draw();
+            echo '</div>';
         }
        
         //echo '<div>'.json_encode($this->map).'</div>';

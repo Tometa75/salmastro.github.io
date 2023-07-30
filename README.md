@@ -16,3 +16,4 @@ Calendar made
 
 30.07.2023 Basics
 Calendar issues fixed
+Starting prayer structure
