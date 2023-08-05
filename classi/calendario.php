@@ -1424,7 +1424,7 @@ class Calendario {
 				$m['evento']['0202a']=array(
 					"titolo"=>"Presentazione del Signore",
 					"tipo"=>"F",
-					"ppvv"=>true
+					"ppvv"=>(date('w',mainFunc::gab_tots($day))==0)?true:false
 				);
 			}
 			//se il tempo è ordinario Santa Scolastica è una Solennità che ha la priorità
@@ -1514,7 +1514,7 @@ class Calendario {
 				$m['evento']['0914a']=array(
 					"titolo"=>"Esaltazione della Santa Croce",
 					"tipo"=>"F",
-					"ppvv"=>true
+					"ppvv"=>(date('w',mainFunc::gab_tots($day))==0)?true:false
 				);
 			}
 			elseif ($day==$this->info['battesimo']) {

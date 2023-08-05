@@ -136,12 +136,17 @@ class Litio {
         $this->map['ssvv']=false;
         $this->map['ppvv']=false;
 
+        $this->map['evCode']="";
+        $this->vig['evCode']="";
+
         foreach ($this->vig['evento'] as $k=>$e) {
             if (isset($e['ppvv']) && $e['ppvv']) $this->map['ppvv']=true;
+            $this->vig['evCode']=$k;
         }
         foreach ($this->map['evento'] as $k=>$e) {
             //if ($k==$this->config['festa'] && isset($e['ppvv']) && $e['ppvv']) $this->map['ssvv']=true;
             if (isset($e['ppvv']) && $e['ppvv']) $this->map['ssvv']=true;
+            $this->map['evCode']=$k;
         }
 
         if ($this->map['weekDay']==0 && !$this->map['ppvv']) $this->map['ssvv']=true;

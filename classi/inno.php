@@ -735,13 +735,174 @@ class Inno {
                 array('','',"nei secoli dei secoli."),
                 array('','2','Amen.')
             )
+        ),
+        "p1651"=>array(
+            array(
+                array('','',"Gerusalemme nuova,"),
+                array('','',"immagine di pace,"),
+                array('','',"costruita per sempre"),
+                array('','',"nell'amore del Padre.")
+            ),
+            array(
+                array('','',"Tu discendi dal cielo"),
+                array('','',"come vergine sposa,"),
+                array('','',"per congiungerti a Cristo"),
+                array('','',"nelle nozze eterne.")
+            ),
+            array(
+                array('','',"Dentro le tue mura,"),
+                array('','',"risplendenti di luce,"),
+                array('','',"si radunano in festa"),
+                array('','',"gli amici del Signore:")
+            ),
+            array(
+                array('','',"pietre vive e preziose,"),
+                array('','',"scolpite dallo Spirito"),
+                array('','',"con la croce e il martirio"),
+                array('','',"per la città dei santi.")
+            ),
+            array(
+                array('','',"Sia onore al Padre e al Figlio"),
+                array('','',"e allo Spirito Santo,"),
+                array('','',"al Dio trino ed unico"),
+                array('','',"nei secoli sia gloria."),
+                array('','2','Amen.')
+            )
+        ),
+        "p1661"=>array(
+            array(
+                array('','',"O Cristo, Verbo del Padre,"),
+                array('','',"glorioso re delle vergini,"),
+                array('','',"luce e salvezza del mondo,"),
+                array('','',"in te crediamo.")
+            ),
+            array(
+                array('','',"Cibo e bevanda di vita,"),
+                array('','',"balsamo, veste, dimora,"),
+                array('','',"forza, rifugio, conforto,"),
+                array('','',"in te speriamo.")
+            ),
+            array(
+                array('','',"Illumina col tuo Spirito"),
+                array('','',"l'oscura notte del male,"),
+                array('','',"orienta il nostro cammino"),
+                array('','',"incontro al Padre."),
+                array('','2','Amen.')
+            )
         )
 
     );
 
+    protected $proprio=array(
+        "ves_0202a"=>array(
+            array(
+                array('','',"O Gesù salvatore,"),
+                array('','',"immagine del Padre,"),
+                array('','',"re immortale dei secoli,")
+            ),
+            array(
+                array('','',"luce d'eterna luce,"),
+                array('','',"speranza inestinguibile,"),
+                array('','',"ascolta la preghiera.")
+            ),
+            array(
+                array('','',"Tu che da MAria Vergine,"),
+                array('','',"prendi forma mortale,"),
+                array('','',"ricordati di noi!")
+            ),
+            array(
+                array('','',"Redenti dal tuo sangue,"),
+                array('','',"adoriamo il tuo nome,"),
+                array('','',"cantiamo iun canto nuovo.")
+            ),
+            array(
+                array('','',"A te sia gloria, o Cristo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_0319a"=>array(
+            array(
+                array('','',"Santa e dolce dimora"),
+                array('','',"dove Gesù fanciullo"),
+                array('','',"nasconde la sua gloria!")
+            ),
+            array(
+                array('','',"Giuseppe addestra all'umile"),
+                array('','',"arte del falegname"),
+                array('','',"il Figlio dell'Altissimo.")
+            ),
+            array(
+                array('','',"Accanto a lui Maria"),
+                array('','',"fa lieta la sua casa"),
+                array('','',"di una limpida gioia.")
+            ),
+            array(
+                array('','',"La mano del Signore"),
+                array('','',"li guida e li protegge"),
+                array('','',"nei giorni della prova.")
+            ),
+            array(
+                array('','',"O famiglia di Nazareth,"),
+                array('','',"esperta del soffrire,"),
+                array('','',"dona al mondo la pace.")
+            ),
+            array(
+                array('','',"A te sia lode, o Cristo,"),
+                array('','',"al Padre ed allo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "ves_PAL"=>array(
+            array(
+                array('','',"Ecco il vessillo dela croce,"),
+                array('','',"mistero di morte e di gloria:"),
+                array('','',"l'artefice di tutto il creato"),
+                array('','',"è appeso ad un patibolo.")
+            ),
+            array(
+                array('','',"Un colpo di lancia trafigge,"),
+                array('','',"il cuore del Figlio di Dio;"),
+                array('','',"sgorga acqua e sangue, un torrente"),
+                array('','',"che lava i peccati del mondo.")
+            ),
+            array(
+                array('','',"O albero fecondo e glorioso,"),
+                array('','',"ornato d'un manto regale,"),
+                array('','',"talamo, trono ed altare"),
+                array('','',"al corpo di Cristo Signore.")
+            ),
+            array(
+                array('','',"O croce beata che apristi"),
+                array('','',"le braccia a Gesù redentore,"),
+                array('','',"bilancia del grande riscatto"),
+                array('','',"che tolse la preda all'inferno.")
+            ),
+            array(
+                array('','',"Ave, o croce, unica speranza,"),
+                array('','',"in questo tempo di passione"),
+                array('','',"accresci ai fedeli la grazia,"),
+                array('','',"ottieni alle genti la pace."),
+                array('','2','Amen.')
+            )
+        )
+    );
+
     protected $litio;
 
-    protected $actual=array();
+    protected $actual=array(
+        "ora"=>"",
+        "tempo"=>"",
+        "weekDay"=>"",
+        "evento"=>"",
+        "evCode"=>"",
+        "festa"=>"",
+        "fesCode"=>"",
+        "inno"=>"",
+        "proprio"=>""
+    );
 
     function __construct($caller) {
 
@@ -749,25 +910,6 @@ class Inno {
 
         $this->info['testo']=new Saltesto();
 
-        //se l'ora esiste nel salterio del giorno
-        if (isset($this->salterio[$this->litio->map['weekDay']][$this->litio->config['ora']])) {
-            $this->actual=$this->salterio[$this->litio->map['weekDay']][$this->litio->config['ora']];
-        }
-
-        //ves1 e comp1 sono in VIGILIA
-        if ($this->litio->config['ora']=='ves1' || $this->litio->config['ora']=='comp1') {
-            if (isset($this->salterio[$this->litio->vig['weekDay']][$this->litio->config['ora']])) {
-                $this->actual=$this->salterio[$this->litio->vig['weekDay']][$this->litio->config['ora']];
-            }
-        }
-
-        $this->build();
-    }
-
-    function build() {
-
-        //############################
-        //modifiche del salterio in base al tempo e agli eventi
         /*MAP
         $m=array(
 			"today"=>$day,
@@ -791,11 +933,79 @@ class Inno {
             "contesto":$('#sal_contesto').val(),
         }
         */
-        //#############################
 
-        if (isset($this->inni[$this->actual])) {
-            foreach ($this->inni[$this->actual] as $k=>$t) {
-                $this->info['testo']->addBlock($t);
+        $this->actual['ora']=$this->litio->config['ora'];
+
+        if ($this->litio->config['ora']=='ves1' || $this->litio->config['ora']=='comp1') {
+            $this->actual['tempo']=$this->litio->vig['tempo']['codice'];
+            $this->actual['weekDay']=$this->litio->vig['weekDay'];
+            $this->actual['evento']=$this->litio->vig['evento'];
+            $this->actual['evCode']=$this->litio->vig['evCode'];
+        }
+        else {
+            $this->actual['tempo']=$this->litio->map['tempo']['codice'];
+            $this->actual['weekDay']=$this->litio->map['weekDay'];
+            $this->actual['evento']=$this->litio->map['evento'];
+            $this->actual['evCode']=$this->litio->map['evCode'];
+        }
+
+        $this->build();
+    }
+
+    function build() {
+
+        //di default attribuisco il salterio
+        if (isset($this->salterio[$this->actual['weekDay']][$this->actual['ora']])) {
+            $this->actual['inno']=$this->salterio[$this->actual['weekDay']][$this->actual['ora']];
+        }
+
+        if ($this->actual['tempo']=='O') {
+
+            //di base corrisponde al salterio
+
+            //Presentazione del Signore
+            if ($this->actual['evCode']=='0202a') {
+                if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_0202a';
+                elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_0202a';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='lodi_1';
+            }
+            //santa Scolastica
+            elseif ($this->actual['evCode']=='0210a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1651';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1661';
+            }
+            //San Giuseppe sposo della B.V. Maria
+            elseif ($this->actual['evCode']=='0319a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
+            }
+            //Annunciazione del Signore
+
+
+            
+            //Esaltazione della Santa Croce
+            elseif ($this->actual['evCode']=='0914a') {
+                if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_PAL';
+                elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_PAL';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
+            }
+        }
+
+        
+
+        //----------------------------------------------------------------------------
+
+        if ($this->actual['proprio']!='') {
+            if (isset($this->proprio[$this->actual['proprio']])) {
+                foreach ($this->proprio[$this->actual['proprio']] as $k=>$t) {
+                    $this->info['testo']->addBlock($t);
+                }
+            }
+        }
+        else {
+            if (isset($this->inni[$this->actual['inno']])) {
+                foreach ($this->inni[$this->actual['inno']] as $k=>$t) {
+                    $this->info['testo']->addBlock($t);
+                }
             }
         }
     }
