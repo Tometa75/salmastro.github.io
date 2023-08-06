@@ -736,6 +736,148 @@ class Inno {
                 array('','2','Amen.')
             )
         ),
+        "p10"=>array(
+            array(
+                array('','',"Accogli nel tuo grembo,"),
+                array('','',"o Vergine Maria,"),
+                array('','',"il Verbo di Dio Padre.")
+            ),
+            array(
+                array('','',"Su te il divino Spirito"),
+                array('','',"distende la sua ombra,"),
+                array('','',"o Madre del Signore.")
+            ),
+            array(
+                array('','',"Porta santa del tempio,"),
+                array('','',"inbtatta ed inviolabile,"),
+                array('','',"ti apri al re della gloria.")
+            ),
+            array(
+                array('','',"Predetto dai profeti,"),
+                array('','',"annunziato da un angelo,"),
+                array('','',"nasce Gesù salvatore.")
+            ),
+            array(
+                array('','',"A te Cristo, sia lode,"),
+                array('','',"al Padre e al Santo Spirito,"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "p1498"=>array(
+            array(
+                array('','',"O donna gloriosa,"),
+                array('','',"alta sopra le stelle,"),
+                array('','',"tu nutri sul tuo seno"),
+                array('','',"il Dio che ti ha creato.")
+            ),
+            array(
+                array('','',"La gioia che Eva ci tolse"),
+                array('','',"ci rendi nel tuo figlio"),
+                array('','',"e dischiudi il cammino"),
+                array('','',"verso il regno dei cieli.")
+            ),
+            array(
+                array('','',"Sei la via della pace,"),
+                array('','',"sei la porta regale:"),
+                array('','',"ti acclamino le genti"),
+                array('','',"redente dal tuo Figlio.")
+            ),
+            array(
+                array('','',"A Dio Padre sia lode"),
+                array('','',"al Figlio e allo Spirito,"),
+                array('','',"che ti hanno adornata"),
+                array('','',"di una veste di grazia."),
+                array('','2','Amen.')
+            )
+        ),
+        "p1527"=>array(
+            array(
+                array('','',"Esulti di gioia il cielo,"),
+                array('','',"risuoni sulla terra"),
+                array('','',"la lode degli apostoli.")
+            ),
+            array(
+                array('','',"Voi giudici del mondo,"),
+                array('','',"araldi del Vangelo,"),
+                array('','',"udite la preghiera.")
+            ),
+            array(
+                array('','',"Voi che aprite e chiudete"),
+                array('','',"le porte della vita,"),
+                array('','',"spezzate i nostri vincoli.")
+            ),
+            array(
+                array('','',"A un cenno vi obbediscono"),
+                array('','',"le potenze del male:,"),
+                array('','',"rinnovate i prodigi.")
+            ),
+            array(
+                array('','',"Quando verrà il Signore"),
+                array('','',"alla fine dei tempi,"),
+                array('','',"ci unisca nella gloria.")
+            ),
+            array(
+                array('','',"Sia lodel al Padre e al Figlio"),
+                array('','',"e allo Spirito Santo,"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "p1622"=>array(
+            array(
+                array('','',"Gesù, premio e corona"),
+                array('','',"dei tuoi servi fedeli,"),
+                array('','',"glorifica il tuo nome.")
+            ),
+            array(
+                array('','',"Concedi alla tua Chiesa,"),
+                array('','',"che venera san Bendedetto,"),
+                array('','',"la vittoria sul male.")
+            ),
+            array(
+                array('','',"Seguendo le tue orme,"),
+                array('','',"sulla via della croce,"),
+                array('','',"egli piacque a Dio Padre.")
+            ),
+            array(
+                array('','',"Sapiente e vigilante,"),
+                array('','',"testimoniò il Vangelo"),
+                array('','',"in parole ed in opere.")
+            ),
+            array(
+                array('','',"Dalla città dei santi,"),
+                array('','',"dove regna glorioso,"),
+                array('','',"ci guidi e ci protegga.")
+            ),
+            array(
+                array('','',"A te, Cristo, sia lode,"),
+                array('','',"al Padre ed allo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "p1631"=>array(
+            array(
+                array('','',"O Cristo, Verbo del Padre,"),
+                array('','',"re glorioso fra i santi,"),
+                array('','',"luce e salvezza del mondo,"),
+                array('','',"in te crediamo.")
+            ),
+            array(
+                array('','',"Cibo e bevanda di vita,"),
+                array('','',"balsamo, veste, dimora,"),
+                array('','',"forza, rifugio, conforto,"),
+                array('','',"in te speriamo.")
+            ),
+            array(
+                array('','',"Illumina col tuo Spirito"),
+                array('','',"l'oscura notte del male,"),
+                array('','',"orienta il nostro cammino"),
+                array('','',"incontro al Padre."),
+                array('','2','Amen.')
+            )
+        ),
         "p1651"=>array(
             array(
                 array('','',"Gerusalemme nuova,"),
@@ -887,7 +1029,168 @@ class Inno {
                 array('','',"ottieni alle genti la pace."),
                 array('','2','Amen.')
             )
+        ),
+        "lodi_0325a"=>array(
+            array(
+                array('','',"Dal sorgere del sole"),
+                array('','',"s'irradi sulla terra"),
+                array('','',"il canto della lode.")
+            ),
+            array(
+                array('','',"Il Creatore dei secoli"),
+                array('','',"prende forma mortale"),
+                array('','',"per redimere gli uomini.")
+            ),
+            array(
+                array('','',"Maria, Vergine Madre,"),
+                array('','',"porta un segreto arcano"),
+                array('','',"nell'ombra dello Spirito.")
+            ),
+            array(
+                array('','',"Dimora pura e santa,"),
+                array('','',"tempio del Dio vivente,"),
+                array('','',"concepisce il Figlio.")
+            ),
+            array(
+                array('','',"A te sia lode, o Cristo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "ves_0624a"=>array(
+            array(
+                array('','',"Risuoni nella Chiesa,"),
+                array('','',"unanime e festoso,"),
+                array('','',"l'inno delle tue lodi,"),
+                array('','',"o Giovanni Battista.")
+            ),
+            array(
+                array('','',"Negli arcani silenzi"),
+                array('','',"del temkpio d'Israele"),
+                array('','',"un angelo di Dio"),
+                array('','',"svela al padre il tuo nome.")
+            ),
+            array(
+                array('','',"Tu profeta fanciullo"),
+                array('','',"riconosci nel grembo"),
+                array('','',"della Vergine Madre"),
+                array('','',"l'atteso delle genti.")
+            ),
+            array(
+                array('','',"Tu sorgi dal deserto"),
+                array('','',"con il fuoco di Elia"),
+                array('','',"a convocare gli umili"),
+                array('','',"nel regno del Signore.")
+            ),
+            array(
+                array('','',"Sia lode e onore a Cristo,"),
+                array('','',"Parola del Dio vivo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_0624a"=>array(
+            array(
+                array('','',"Testimone fedele"),
+                array('','',"che congiungi nel Cristo,"),
+                array('','',"vera luce del mondo,"),
+                array('','',"l'antico e il nuovo patto!")
+            ),
+            array(
+                array('','',"Tu immergi nel Giordano"),
+                array('','',"il figlio dell'Altissimo"),
+                array('','',"e nei cieli riaperti"),
+                array('','',"contempli la sua gloria.")
+            ),
+            array(
+                array('','',"Tu guidi i penitenti"),
+                array('','',"all'umile sequela"),
+                array('','',"dell'Agnello che toglie"),
+                array('','',"il peccato del mondo.")
+            ),
+            array(
+                array('','',"Intercedei per noi"),
+                array('','',"pellegrini nel tempo"),
+                array('','',"e guida i nostri passi"),
+                array('','',"sulla via della pace.")
+            ),
+            array(
+                array('','',"Sia lode e onore a Cristo,"),
+                array('','',"Parola del Dio vivo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_0629a"=>array(
+            array(
+                array('','',"Uniti nel martirio"),
+                array('','',"gli aspostoli di Cristo"),
+                array('','',"sigillano nel sangue"),
+                array('','',"l'annunzio del Vangelo.")
+            ),
+            array(
+                array('','',"Con l'inerme potenza"),
+                array('','',"dello Spirito Santo"),
+                array('','',"radunano le genti"),
+                array('','',"nel regno del Signore.")
+            ),
+            array(
+                array('','',"Maestri di sapienza"),
+                array('','',"e padri nella fede"),
+                array('','',"come fiaccole splendono"),
+                array('','',"al popolo di Dio.")
+            ),
+            array(
+                array('','',"O Gesù, re di gloria,"),
+                array('','',"nel nome degli apostoli"),
+                array('','',"proteggi la tua Chiesa"),
+                array('','',"pellegrina nel tempo.")
+            ),
+            array(
+                array('','',"Il tio braccio potente"),
+                array('','',"ci liberi dal male"),
+                array('','',"e ci guidi a un approdo"),
+                array('','',"di salvezza e di pace.")
+            ),
+            array(
+                array('','',"A te sia lode, o Cristo,"),
+                array('','',"vera luce del mondo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "ves_0815a"=>array(
+            array(
+                array('','',"Ave, speranza nostra,"),
+                array('','',"ave, benigna pia,"),
+                array('','',"ave, piena di grazia,"),
+                array('','',"o Vergine Maria.")
+            ),
+            array(
+                array('','',"Ave, fulgida rosa,"),
+                array('','',"roveto sempre ardente,"),
+                array('','',"ave, pianta fiorita,"),
+                array('','',"dalla stirpe di Iesse.")
+            ),
+            array(
+                array('','',"In te vinta è la morte,"),
+                array('','',"la schiavitù è redenta,"),
+                array('','',"ridonata la pace,"),
+                array('','',"aperto il paradiso.")
+            ),
+            array(
+                array('','',"O Trinità santissima,"),
+                array('','',"a te l'inno di grazie,"),
+                array('','',"per Maria nostra Madre,"),
+                array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
         )
+
     );
 
     protected $litio;
@@ -979,14 +1282,40 @@ class Inno {
                 if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
             }
             //Annunciazione del Signore
-
-
-            
+            elseif ($this->actual['evCode']=='0325a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0325a';
+            }
+            //Natività di San Giovanni Battista
+            elseif ($this->actual['evCode']=='0624a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_0624a';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0624a';
+            }
+            //Santi Pietro e Paolo apostoli
+            elseif ($this->actual['evCode']=='0629a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1527';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0629a';
+            }
+            //Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa
+            elseif ($this->actual['evCode']=='0711a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1622';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1631';
+            }
+            //Assunzione della Beata Vergine Maria
+            elseif ($this->actual['evCode']=='0815a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_0815a';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1498';
+            }
             //Esaltazione della Santa Croce
             elseif ($this->actual['evCode']=='0914a') {
                 if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_PAL';
                 elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_PAL';
                 elseif ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
+            }
+            //Tutti i Santi
+            elseif ($this->actual['evCode']=='1101a') {
+                //l'inno indicato è p1682 ma è uguale a quello a p1631
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['inno']='p1631';
             }
         }
 
