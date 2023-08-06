@@ -1505,7 +1505,7 @@ class Calendario {
 				$m['evento']['0806a']=array(
 					"titolo"=>"Trasfigurazione del Signore",
 					"tipo"=>"F",
-					"ppvv"=>true
+					"ppvv"=>(date('w',mainFunc::gab_tots($day))==0)?true:false
 				);
 			}
 			//se il tempo è ordinario la Festa del Signore ha la priorità
