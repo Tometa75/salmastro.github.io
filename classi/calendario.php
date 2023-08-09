@@ -1378,6 +1378,7 @@ class Calendario {
 			"festa"=>array(),
 			"evento"=>array(),
 			"rocho"=>false,
+			"ASC"=>$this->info['ascensione'],
 			"errore"=>false
 		);
 
@@ -1721,7 +1722,7 @@ class Calendario {
 			}
 
 			//giorni speciali
-			if (substr($day,4,4)>='1218' && substr($day,4,4)<='1224' && $day!=$this->info['avv4']) {
+			if (substr($day,4,4)>='1217' && substr($day,4,4)<='1224' && $day!=$this->info['avv4']) {
 				$m['evento']=array();
 				$m['evento']['A12'.substr($day,6,2)]=array(
 					"titolo"=>"Avvento - ".substr($day,6,2)." Dicembre",

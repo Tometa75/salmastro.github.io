@@ -736,6 +736,39 @@ class Inno {
                 array('','2','Amen.')
             )
         ),
+        "p9"=>array(
+            array(
+                array('','',"Creatore degli astri,"),
+                array('','',"Verbo eterno del Padre,"),
+                array('','',"la Chiesa a te consacra"),
+                array('','',"il suo canto di lode.")
+            ),
+            array(
+                array('','',"Cielo e terra si prostrano"),
+                array('','',"dinanzi a te, Signore;"),
+                array('','',"tutte le creature"),
+                array('','',"adorano il tuo nome.")
+            ),
+            array(
+                array('','',"Per redimere il mondo"),
+                array('','',"travolto dal peccato,"),
+                array('','',"nascesti dalla Vergine,"),
+                array('','',"salisti sulla croce.")
+            ),
+            array(
+                array('','',"Nell'avvento glorioso,"),
+                array('','',"alla fine dei tempi,"),
+                array('','',"ci salvi dal nemico"),
+                array('','',"la tua misericordia.")
+            ),
+            array(
+                array('','',"Sia lode al Cristo Signore,"),
+                array('','',"al Padre e al Santo Spirito,"),
+                array('','',"com'era nel principio,"),
+                array('','',"ora e nei secoli eterni."),
+                array('','2','Amen.')
+            )
+        ),
         "p10"=>array(
             array(
                 array('','',"Accogli nel tuo grembo,"),
@@ -761,6 +794,78 @@ class Inno {
                 array('','',"A te Cristo, sia lode,"),
                 array('','',"al Padre e al Santo Spirito,"),
                 array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "p16"=>array(
+            array(
+                array('','',"Chiara una voce dal cielo"),
+                array('','',"si diffonde nella notte:"),
+                array('','',"fuggano i sogni e le angosce,"),
+                array('','',"splende la luce di Cristo.")
+            ),
+            array(
+                array('','',"Si desti il cuore dal sonno"),
+                array('','',"non più turbato dal male:"),
+                array('','',"un astro nuovo rifulge"),
+                array('','',"fra le tenebre del mondo.")
+            ),
+            array(
+                array('','',"Ecco l'Agnello di Dio,"),
+                array('','',"prezzo del nostro riscatto:"),
+                array('','',"con fede viva imploriamo"),
+                array('','',"il suo perdono e la pace.")
+            ),
+            array(
+                array('','',"Quando alla fine dei tempi"),
+                array('','',"Cristo verrà nella gloria,"),
+                array('','',"dal suo tremendo giudizio"),
+                array('','',"ci salvi la grazia divina.")
+            ),
+            array(
+                array('','',"Sia lode al Cristo Signore,"),
+                array('','',"al Padre e al Santo Spirito,"),
+                array('','',"com'era nel principio,"),
+                array('','',"ora e nei secoli eterni."),
+                array('','2','Amen.')
+            )
+        ),
+        "p17"=>array(
+            array(
+                array('','',"Le voci dei profeti"),
+                array('','',"annunziano il Signore,"),
+                array('','',"che reca a tutti gli uomini"),
+                array('','',"il dono della pace.")
+            ),
+            array(
+                array('','',"Ecco una luce nuova"),
+                array('','',"s'accende nel mattino,"),
+                array('','',"una voce risuona:"),
+                array('','',"viene il re della gloria.")
+            ),
+            array(
+                array('','',"Nel suo primo avvento,"),
+                array('','',"Cristo venne a salvarci,"),
+                array('','',"a guarir le ferite"),
+                array('','',"del corpo e dello spirito.")
+            ),
+            array(
+                array('','',"Alla fine dei tempi,"),
+                array('','',"tornerà come giudice;"),
+                array('','',"darà il regno promesso"),
+                array('','',"ai suoi servi fedeli.")
+            ),
+            array(
+                array('','',"Or sul nostro cammino"),
+                array('','',"la sua luce risplende:"),
+                array('','',"Gesù, sole di grazia,"),
+                array('','',"ci chiama a vita nuova.")
+            ),
+            array(
+                array('','',"Te, Cristo, noi cerchiamo;"),
+                array('','',"te vogliamo conoscere,"),
+                array('','',"per lodarti in eterno"),
+                array('','',"nella patria beata."),
                 array('','2','Amen.')
             )
         ),
@@ -1071,6 +1176,39 @@ class Inno {
                 array('','',"in questo tempo di passione"),
                 array('','',"accresci ai fedeli la grazia,"),
                 array('','',"ottieni alle genti la pace."),
+                array('','2','Amen.')
+            )
+        ),
+        "terza_PAL"=>array(
+            array(
+                array('','',"Il mondo fedele giubili"),
+                array('','',"per la gioia dell'immensa salvezza:"),
+                array('','',"Gesù, redentore del mondo,"),
+                array('','',"ha annientato il principe della morte.")
+            ),
+            array(
+                array('','',"Il popolo, recando per la via"),
+                array('','',"rami di palma e di olivo,"),
+                array('','',"grida a gran voce:"),
+                array('','','"Osanna al Figlio di David".')
+            ),
+            array(
+                array('','',"Perciò noi tutti corriamo"),
+                array('','',"incontro all'eccelso Re;"),
+                array('','',"cantando dolci gloriose melodie,"),
+                array('','',"teniamo in mano le palme del gaudio.")
+            ),
+            array(
+                array('','',"Egli elevi con i suoi doni di grazia"),
+                array('','',"il nostro pericoloso cammino,"),
+                array('','',"così che possiamo manifestare in ogni momento"),
+                array('','',"a lui la dovuta gratitudine.")
+            ),
+            array(
+                array('','',"Sia gloria Dio Padre"),
+                array('','',"e al suo Figlio Unigenito"),
+                array('','',"con lo Spirito Paraclito"),
+                array('','','nei secoli eterni.'),
                 array('','2','Amen.')
             )
         ),
@@ -1521,6 +1659,180 @@ class Inno {
                 array('','2','Amen.')
             )
         ),
+        "ves_QU0"=>array(
+            array(
+                array('','',"Accogli, o Dio pietoso,"),
+                array('','',"le preghiere e le lacrime"),
+                array('','',"che il tuo popolo effonde"),
+                array('','',"in questo tempo santo.")
+            ),
+            array(
+                array('','',"Tu che scruti e conosci"),
+                array('','',"i segreti dei cuori,"),
+                array('','',"concedi ai penitenti"),
+                array('','',"la grazia del perdono.")
+            ),
+            array(
+                array('','',"Grande è il nostro peccsto,"),
+                array('','',"ma più grande è il tuo amore:"),
+                array('','',"cancella i nostri debiti"),
+                array('','',"a gloria del tuo nome.")
+            ),
+            array(
+                array('','',"Risplenda la tua lampada"),
+                array('','',"sopra il nostro cammino,"),
+                array('','',"la tua mano ci guidi"),
+                array('','',"alla meta pasquale.")
+            ),
+            array(
+                array('','',"Ascolta, o Padre altissimo,"),
+                array('','',"tu che regni nei secoli"),
+                array('','',"con il Cristo tuo Figlio"),
+                array('','',"e lo Spirito Santo."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_QU0"=>array(
+            array(
+                array('','',"Nella santa assemblea,"),
+                array('','',"o nel segreto dell'anima,"),
+                array('','',"prostriamoci e imploriamo"),
+                array('','',"la divina clemenza.")
+            ),
+            array(
+                array('','',"Dall'ira del giudizio"),
+                array('','',"liberaci, o Padre buono;"),
+                array('','',"non togliere ai tuoi figli"),
+                array('','',"il segno della tua gloria.")
+            ),
+            array(
+                array('','',"Ricorda che ci plasmasti"),
+                array('','',"col soffio del tuo Spirito:"),
+                array('','',"siam tua vigna, tuo popolo,"),
+                array('','',"e opera delle tue mani.")
+            ),
+            array(
+                array('','',"Perdona i nostri errori,"),
+                array('','',"sana le nostre ferite,"),
+                array('','',"guidaci con la tua grazia"),
+                array('','',"alla vittoria pasquale.")
+            ),
+            array(
+                array('','',"Ascolta, o Padre altissimo,"),
+                array('','',"al Figlio e al Santo Spirito"),
+                array('','',"com'era nel principio,"),
+                array('','',"ora e nei secoli eterni."),
+                array('','2','Amen.')
+            )
+        ),
+        "ves_QU1"=>array(
+            array(
+                array('','',"Tu nuda radice divelta"),
+                array('','',"dall'arido suolo riarso,"),
+                array('','',"ci mostri il tuo volto sconvolto"),
+                array('','',"dal lungo patir per amore.")
+            ),
+            array(
+                array('','',"Tu solo, o Santo che soffri,"),
+                array('','',"ti carichi il nostro dolore"),
+                array('','',"e fai che in te ora divenga"),
+                array('','',"fecondo per sempre di gloria.")
+            ),
+            array(
+                array('','',"Dal cuore di pietra dell'uomo"),
+                array('','',"sgorghi una fonte di pianto,"),
+                array('','',"ne lavi le colpe segrete,"),
+                array('','',"lo renda capace d'amore.")
+            ),
+            array(
+                array('','',"O Cristo, fratello che soffri,"),
+                array('','',"accogli la lode perenne"),
+                array('','',"di chi in te solo può dire"),
+                array('','','"Padre" al Santo dei Santi.'),
+                array('','2','Amen.')
+            )
+        ),
+        "terza_QU0"=>array(
+            array(
+                array('','',"Nella fede in Dio, di cui viviamo,"),
+                array('','',"nella speranza per cui costantemente crediamo,"),
+                array('','',"per un dono d'amore"),
+                array('','',"cantiamo la gloria di Cristo.")
+            ),
+            array(
+                array('','',"Che condotto all'ora terza"),
+                array('','',"come vittima alla passione,"),
+                array('','',"portando il patibolo della croce"),
+                array('','',"ha redento il gregge perduto.")
+            ),
+            array(
+                array('','',"Supplici preghiamo, dunque,"),
+                array('','',"resi liberi dalla redenzione,"),
+                array('','',"che Egli strappi dalle vanità del mondo"),
+                array('','',"quelli che ha liberato dalla condanna.")
+            ),
+            array(
+                array('','',"Supplichiamo Cristo e il Padre,"),
+                array('','',"lo Spirito del Padre e del Figlio;"),
+                array('','',"o Trinità, Dio unico e onnipotente,"),
+                array('','','proteggi quelli che ti pregano.'),
+                array('','2','Amen.')
+            )
+        ),
+        "sesta_QU0"=>array(
+            array(
+                array('','',"Nell'ora in cui Cristo ebbe sete"),
+                array('','',"e in cui salì sulla croce,"),
+                array('','',"Cristo accresca la sete di giustizia"),
+                array('','',"in quelli che amano pregare in quest'ora.")
+            ),
+            array(
+                array('','',"Contemporanemente per questi ci sia,"),
+                array('','',"una fame che Egli stesso sazi di sé;"),
+                array('','',"affinché il peccato procuri disgusto"),
+                array('','',"e la virtù desiderio.")
+            ),
+            array(
+                array('','',"Il dono dello Spirito Santo"),
+                array('','',"scenda su coloro che pregano,"),
+                array('','',"affinché si raffreddi l'ardore delle passioni"),
+                array('','',"e si infervori la mente.")
+            ),
+            array(
+                array('','',"Supplichiamo Cristo e il Padre,"),
+                array('','',"lo Spirito del Padre e del Figlio;"),
+                array('','',"o Trinità, Dio unico e onnipotente,"),
+                array('','',"infiamma d'amore quelli che pregano"),
+                array('','2','Amen.')
+            )
+        ),
+        "nona_QU0"=>array(
+            array(
+                array('','',"L'ora di nona si effonde"),
+                array('','',"sacra su di noi,"),
+                array('','',"e nel santo nome di Gesù"),
+                array('','',"impetriamo il beneficio del perdono.")
+            ),
+            array(
+                array('','',"Ecco, la confessione del ladrone"),
+                array('','',"merita la grazia di Cristo,"),
+                array('','',"la nostra lode e preghiera"),
+                array('','',"ci meriti indulgenza.")
+            ),
+            array(
+                array('','',"La morte finisce ora per mezzo della croce,"),
+                array('','',"e dopo le tenewbre ritorna la luce;"),
+                array('','',"si squarci l'orrore dei peccati,"),
+                array('','',"risplenda la purezza delle menti.")
+            ),
+            array(
+                array('','',"Supplichiamo Cristo e il Padre,"),
+                array('','',"lo Spirito del Padre e del Figlio;"),
+                array('','',"o Trinità, Dio unico e onnipotente,"),
+                array('','',"infiamma d'amore quelli che pregano"),
+                array('','2','Amen.')
+            )
+        ),
         "ves_SS4"=>array(
             array(
                 array('','',"O pane vivo, memoriale"),
@@ -1539,6 +1851,63 @@ class Inno {
                 array('','',"nella patria beata del cielo,"),
                 array('','',"con il Padre e lo Spirito Santo"),
                 array('','',"nei secoli dei secoli."),
+                array('','2','Amen.')
+            )
+        ),
+        "terza_SS5"=>array(
+            array(
+                array('','',"Salva, o Redentore, la tua nobile creatura,"),
+                array('','',"segnata dalla santa luce della tua immagine,"),
+                array('','',"affinché non perisca per inganno del demonio"),
+                array('','',"chi salvasti a prezzo della morte.")
+            ),
+            array(
+                array('','',"Ti dispiaccia che i tuoi servi non son liberi,"),
+                array('','',"assolvi i colpevoli, solleva gli schiavi,"),
+                array('','',"e fa', o Re buono, che coloro che hai redento col tuo sangue"),
+                array('','',"siano eternamente felici con te."),
+                array('','2','Amen.')
+            )
+        ),
+        "sesta_SS5"=>array(
+            array(
+                array('','',"O croce, benedizione del mondo,"),
+                array('','',"speranza e sicura redenzione,"),
+                array('','',"una volta portatrice dell'inferno"),
+                array('','',"ora illustre porta del cielo.")
+            ),
+            array(
+                array('','',"Su di te è innalzata come vittima,"),
+                array('','',"colui che attirò a se ogni creatura,"),
+                array('','',"che il principe del mondo assale"),
+                array('','',"e niente di suo trova.")
+            ),
+            array(
+                array('','',"Al Padre, a te e al Paraclito"),
+                array('','',"sia eguale gloria, o Gesù,"),
+                array('','',"che concedi a noi di godere"),
+                array('','',"per sempre della vittoria della croce."),
+                array('','2','Amen.')
+            )
+        ),
+        "nona_SS5"=>array(
+            array(
+                array('','',"Per la croce, o Cristo ti chiediamo,"),
+                array('','',"conduci al premio della vita"),
+                array('','',"quelli che tu, sospeso allo stipite del legno,"),
+                array('','',"ti sei degnato di redimere.")
+            ),
+            array(
+                array('','',"Lo statuto della tua legge"),
+                array('','',"cancella l'antica condanna;"),
+                array('','',"muore l'antica servitù,"),
+                array('','',"è restituita la libertà vera.")
+            ),
+            array(
+                array('','',"Al Padre, a te e al Paraclito"),
+                array('','',"sia eguale gloria, o Gesù,"),
+                array('','',"che concedi a noi di godere"),
+                array('','',"per sempre della vittoria della croce."),
                 array('','2','Amen.')
             )
         ),
@@ -1812,6 +2181,7 @@ class Inno {
     protected $litio;
 
     protected $actual=array(
+        "today"=>"",
         "ora"=>"",
         "tempo"=>"",
         "weekDay"=>"",
@@ -1852,7 +2222,7 @@ class Inno {
             "contesto":$('#sal_contesto').val(),
         }
         */
-
+        $this->actual['today']=$this->litio->map['today'];
         $this->actual['ora']=$this->litio->config['ora'];
 
         if ($this->litio->config['ora']=='ves1' || $this->litio->config['ora']=='comp1') {
@@ -1980,6 +2350,25 @@ class Inno {
         }
 
         //////////////////////////////////////////////////////////
+        elseif ($this->actual['tempo']=='A') {
+
+            if (substr($this->actual['today'],4,4)<'1217') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p9';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p16';
+            }
+            else {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p10';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p17';
+            }
+
+            if ($this->actual['evCode']=='1208a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p1502';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1498';
+            }
+            
+        }
+
+        //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='N') {
 
             if ($this->actual['evCode']=='NAT') {
@@ -2014,6 +2403,67 @@ class Inno {
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='Q') {
+
+            if ($this->actual['weekDay']==0) {
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2') {
+                    if ($this->actual['evCode']=='PAL') $this->actual['proprio']='ves_PAL';
+                    else $this->actual['proprio']='ves_QU0';
+                }
+                elseif ($this->actual['ora']=='lodi') {
+                    if ($this->actual['evCode']=='PAL') $this->actual['inno']='ves_5';
+                    else $this->actual['proprio']='lodi_QU0';
+                }
+            }
+            else {
+                if ($this->actual['ora']=='lodi') {
+                    if (substr($this->actual['evCode'],0,2)=='SS') $this->actual['inno']='ves_5';
+                    else $this->actual['proprio']='lodi_QU0';
+                }
+                elseif ($this->actual['ora']=='ves') {
+                    if (substr($this->actual['evCode'],0,2)=='SS') $this->actual['proprio']='ves_PAL';
+                    else $this->actual['proprio']='ves_QU1';
+                }
+            }
+
+            if ($this->actual['ora']=='terza') $this->actual['proprio']='terza_QU0';
+            elseif ($this->actual['ora']=='sesta') $this->actual['proprio']='sesta_QU0';
+            elseif ($this->actual['ora']=='nona') $this->actual['proprio']='nona_QU0';
+
+            if ($this->actual['evCode']=='PAL') {
+                if ($this->actual['ora']=='terza' || $this->actual['ora']=='sesta' || $this->actual['ora']=='nona') {
+                    $this->actual['proprio']='terza_PAL';
+                }
+            }
+
+            if ($this->actual['evCode']=='SS4' && $this->actual['ora']=='ves') $this->actual['proprio']='ves_SS4';
+
+            if ($this->actual['evCode']=='SS5' || $this->actual['evCode']=='SS6') {
+                if ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
+                elseif ($this->actual['ora']=='terza') $this->actual['proprio']='terza_SS5';
+                elseif ($this->actual['ora']=='sesta') $this->actual['proprio']='sesta_SS5';
+                elseif ($this->actual['ora']=='nona') $this->actual['proprio']='nona_SS5';
+                elseif ($this->actual['ora']=='ves') $this->actual['proprio']='ves_PAL';
+            }
+
+            //santa Scolastica
+            if ($this->actual['evCode']=='0210a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1651';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1661';
+            }
+            //San Giuseppe sposo della B.V. Maria
+            elseif ($this->actual['evCode']=='0319a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
+            }
+            //Annunciazione del Signore
+            elseif ($this->actual['evCode']=='0325a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0325a';
+            }
+
+        }
+        //////////////////////////////////////////////////////////
+        elseif ($this->actual['tempo']=='P') {
+            //!!!!!! in MAP, l'indice ASC indica la data dell'ascensione !!!!!!!!
         }
 
         //----------------------------------------------------------------------------
