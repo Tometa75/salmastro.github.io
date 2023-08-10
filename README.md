@@ -17,3 +17,9 @@ Calendar made
 30.07.2023 Basics
 Calendar issues fixed
 Starting prayer structure
+
+10.08.2023 Hymn
+Class "inno" build (exept for saints)
+Need to check for bugs
+
+

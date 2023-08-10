@@ -66,7 +66,8 @@ class Calendario {
 		"0102"=>array(
 			"0102a"=>array(
 				"titolo"=>"Santi Basiglio Magno e Gregorio Nazianzeno (Vescovi e Dottori della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0103"=>array(
@@ -78,267 +79,313 @@ class Calendario {
 		"0107"=>array(
 			"0107a"=>array(
 				"titolo"=>"San Raimondo di Pegñafort (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0110"=>array(
 			"0110a"=>array(
 				"titolo"=>"San Gregorio di Nissa (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0113"=>array(
 			"0113a"=>array(
 				"titolo"=>"Sant'Ilario (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0115"=>array(
 			"0115a"=>array(
 				"titolo"=>"Santi Mauro e Placido (Discepoli del N.S.P. Benedetto)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"monaci"
 			)
 		),
 		"0117"=>array(
 			"0117a"=>array(
 				"titolo"=>"Sant'Antonio (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0120"=>array(
 			"0120a"=>array(
 				"titolo"=>"San Fabiano (Papa e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			),
 			"0120b"=>array(
 				"titolo"=>"San Sebastiano (Martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0121"=>array(
 			"0121a"=>array(
 				"titolo"=>"Sant'Agnese (Vergine e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"vergini"
 			)
 		),
 		"0122"=>array(
 			"0122a"=>array(
 				"titolo"=>"San Vincenzo (Diacono e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0124"=>array(
 			"0124a"=>array(
 				"titolo"=>"San Francesco di Sales (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0125"=>array(
 			"0125a"=>array(
 				"titolo"=>"Conversione di San Paolo apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0126"=>array(
 			"0126a"=>array(
 				"titolo"=>"Santi Roberto, Alberico e Stefano (Abati di Citeaux)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"monaci"
 			)
 		),
 		"0127"=>array(
 			"0127a"=>array(
 				"titolo"=>"Santi Timoteo e Tito (Vescovi)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			),
 			"0127b"=>array(
 				"titolo"=>"Sant'Angela Merici (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"vergini"
 			)
 		),
 		"0128"=>array(
 			"0128a"=>array(
 				"titolo"=>"San Tommaso d'Aquino (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"dottori"
 			)
 		),
 		"0131"=>array(
 			"0131a"=>array(
 				"titolo"=>"San Giovanni Bosco (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0203"=>array(
 			"0203a"=>array(
 				"titolo"=>"Sant'Ansgario - Oscar (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			),
 			"0203b"=>array(
 				"titolo"=>"San Biagio (Vescovo e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0205"=>array(
 			"0205a"=>array(
 				"titolo"=>"Sant'Agata (Vergine e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0206"=>array(
 			"0206a"=>array(
 				"titolo"=>"San Paolo Miki e compagni (martiri)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martiri"
 			)
 		),
 		"0208"=>array(
 			"0208a"=>array(
 				"titolo"=>"San Girolamo Emiliani",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"educatori"
 			)
 		),
 		"0211"=>array(
 			"0211a"=>array(
 				"titolo"=>"San Benedetto di Aniano (Abate)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"monaci"
 			),
 			"0211b"=>array(
 				"titolo"=>"Beata Vergine Maria di Lourdes",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"BVM"
 			)
 		),
 		"0214"=>array(
 			"0214a"=>array(
 				"titolo"=>"San Cirillo (Monaco) e Metodio (Vescovo) - Patroni D'Europa",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"pastori"
 			)
 		),
 		"0217"=>array(
 			"0217a"=>array(
 				"titolo"=>"Sette santi fondatori dell'ordine dei servi della B.V. Maria",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiosi"
 			)
 		),
 		"0221"=>array(
 			"0221a"=>array(
 				"titolo"=>"San Pier Damiani (Vescovo e dorttore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0222"=>array(
 			"0222a"=>array(
 				"titolo"=>"Cattedra di San Pietro apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0223"=>array(
 			"0223a"=>array(
 				"titolo"=>"San Policarpo (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0304"=>array(
 			"0304a"=>array(
 				"titolo"=>"San Casimiro",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"santi"
 			)
 		),
 		"0307"=>array(
 			"0307a"=>array(
 				"titolo"=>"Sante Perpetua e Felicita (Martiri)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martiri"
 			)
 		),
 		"0308"=>array(
 			"0308a"=>array(
 				"titolo"=>"San Giovanni di Dio (Religioso)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiosi"
 			)
 		),
 		"0309"=>array(
 			"0309a"=>array(
 				"titolo"=>"Santa Francersca romana (Religiosa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"religiose"
 			)
 		),
 		"0317"=>array(
 			"0317a"=>array(
 				"titolo"=>"San Patrizio (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0318"=>array(
 			"0318a"=>array(
 				"titolo"=>"San Cirillo di Gerusalemme (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0323"=>array(
 			"0323a"=>array(
 				"titolo"=>"San Turibio di Mongrovejo (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0402"=>array(
 			"0402a"=>array(
 				"titolo"=>"San Francesco da Paola (Eremita)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiosi"
 			)
 		),
 		"0404"=>array(
 			"0404a"=>array(
 				"titolo"=>"Sant'Isidoro (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0405"=>array(
 			"0405a"=>array(
 				"titolo"=>"San Vincenzo Ferrer (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0407"=>array(
 			"0407a"=>array(
 				"titolo"=>"San Giovanni Battista de la Salle (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0411"=>array(
 			"0411a"=>array(
 				"titolo"=>"Santo Stanislao (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0413"=>array(
 			"0413a"=>array(
 				"titolo"=>"San Martino I (Papa e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0421"=>array(
 			"0421a"=>array(
 				"titolo"=>"Sant'Anselmo (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0423"=>array(
 			"0423a"=>array(
 				"titolo"=>"Sant'Adalberto (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			),
 			"0423b"=>array(
 				"titolo"=>"San Giorgio (Martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0424"=>array(
 			"0424a"=>array(
 				"titolo"=>"San Fedele da Sigmaringen (Sacerdote e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0425"=>array(
 			"0425a"=>array(
 				"titolo"=>"San Marco Evangelista",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			),
 			"0425b"=>array(
 				"titolo"=>"Festa della Liberazione",
@@ -348,25 +395,29 @@ class Calendario {
 		"0428"=>array(
 			"0428a"=>array(
 				"titolo"=>"San Pietro Chanel (Sacerdote e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0429"=>array(
 			"0429a"=>array(
 				"titolo"=>"Santa Caterina da Siena (Vergine e dottore della Chiesa) - Patrona d'Italia",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"vergini"
 			)
 		),
 		"0430"=>array(
 			"0430a"=>array(
 				"titolo"=>"San Pio V (Papa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0501"=>array(
 			"0501a"=>array(
 				"titolo"=>"San Giuseppe lavoratore",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"SG"
 			),
 			"0501b"=>array(
 				"titolo"=>"Festa dei lavoratori",
@@ -376,105 +427,123 @@ class Calendario {
 		"0502"=>array(
 			"0502a"=>array(
 				"titolo"=>"Sant'Atanasio (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0503"=>array(
 			"0503a"=>array(
 				"titolo"=>"Santi Filippo e Giacomo apostoli",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0511"=>array(
 			"0511a"=>array(
 				"titolo"=>"Santi Oddone, Maiolo, Odilone, Ugo e Beato Pietro il venerabile (abati di Cluny)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0512"=>array(
 			"0512a"=>array(
 				"titolo"=>"Santi Nereo e Achilleo (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"0512b"=>array(
 				"titolo"=>"San Pancrazio (Martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0514"=>array(
 			"0514a"=>array(
 				"titolo"=>"San Mattia apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0515"=>array(
 			"0515a"=>array(
 				"titolo"=>"San Pacomio (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0518"=>array(
 			"0518a"=>array(
 				"titolo"=>"San Giovanni I (Papa e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0519"=>array(
 			"0519a"=>array(
 				"titolo"=>"San Pietro Celestino (Papa ed eremita)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0520"=>array(
 			"0520a"=>array(
 				"titolo"=>"San Bernardino da Siena (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0524"=>array(
 			"0524a"=>array(
 				"titolo"=>"San Gregorio VII (Papa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0525"=>array(
 			"0525a"=>array(
 				"titolo"=>"San Beda il venerabile (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0526"=>array(
 			"0526a"=>array(
 				"titolo"=>"San Filippo Neri (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			),
 			"0526b"=>array(
 				"titolo"=>"Santa Maria Maddalena de' Pazzi (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"vergini"
 			)
 		),
 		"0527"=>array(
 			"0527a"=>array(
 				"titolo"=>"Sant'Agostino di Canterbury (Vescovo)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0531"=>array(
 			"0531a"=>array(
 				"titolo"=>"Visitazione della Beata Vergine Maria",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"BVM"
 			)
 		),
 		"0601"=>array(
 			"0601a"=>array(
 				"titolo"=>"San Giustino (Martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0602"=>array(
 			"0602a"=>array(
 				"titolo"=>"Santi Marcellino e Pietro (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"0602b"=>array(
 				"titolo"=>"Festa della Repubblica",
@@ -484,767 +553,899 @@ class Calendario {
 		"0603"=>array(
 			"0603a"=>array(
 				"titolo"=>"San Carlo Lwanga e compagni (martiri)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martiri"
 			)
 		),
 		"0605"=>array(
 			"0605a"=>array(
 				"titolo"=>"San Bonifacio (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0606"=>array(
 			"0603a"=>array(
 				"titolo"=>"San Norberto (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0609"=>array(
 			"0609a"=>array(
 				"titolo"=>"Sant'Efrem (Diacono e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"dottori"
 			)
 		),
 		"0611"=>array(
 			"0611a"=>array(
 				"titolo"=>"San Barnaba (Apostolo)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"apostoli"
 			)
 		),
 		"0613"=>array(
 			"0613a"=>array(
 				"titolo"=>"Sant'Antonio di Padova (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0619"=>array(
 			"0619a"=>array(
 				"titolo"=>"San Romualdo (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0621"=>array(
 			"0611a"=>array(
 				"titolo"=>"San Luigi Gonzaga (Religioso)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"religiosi"
 			)
 		),
 		"0622"=>array(
 			"0622a"=>array(
 				"titolo"=>"Santi Giovanni Fisher (Vescovo) e Tommaso More (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"0622b"=>array(
 				"titolo"=>"San Paolino da Nola (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0625"=>array(
 			"0611a"=>array(
 				"titolo"=>"San Guglielmo (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0627"=>array(
 			"0627a"=>array(
 				"titolo"=>"San Cirillo d'Alessandria (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0628"=>array(
 			"0628a"=>array(
 				"titolo"=>"Sant'Ireneo (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0630"=>array(
 			"0630a"=>array(
 				"titolo"=>"Santi primi Martiri della Chiesa di Roma",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			)
 		),
 		"0703"=>array(
 			"0703a"=>array(
 				"titolo"=>"San Tommaso apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0704"=>array(
 			"0704a"=>array(
 				"titolo"=>"Santa Elisabettya di Portogallo",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"sante"
 			)
 		),
 		"0705"=>array(
 			"0705a"=>array(
 				"titolo"=>"Sant'Antonio Maria Zaccaria (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0706"=>array(
 			"0706a"=>array(
 				"titolo"=>"Santa Maria Goretti (Vergine e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0712"=>array(
 			"0712a"=>array(
 				"titolo"=>"San Giovanni Gualberto (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0713"=>array(
 			"0713a"=>array(
 				"titolo"=>"Sant'Enrico",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"santi"
 			)
 		),
 		"0714"=>array(
 			"0714a"=>array(
 				"titolo"=>"San Camillo de Lellis (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"santi"
 			)
 		),
 		"0715"=>array(
 			"0715a"=>array(
 				"titolo"=>"San Bonaventura (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0716"=>array(
 			"0716a"=>array(
 				"titolo"=>"Beata Vergine Maria del monte Carmelo",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"BVM"
 			)
 		),
 		"0721"=>array(
 			"0721a"=>array(
 				"titolo"=>"San Lorenzo da Brindisi (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0722"=>array(
 			"0722a"=>array(
 				"titolo"=>"Santa Maria Maddalena",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"sante"
 			)
 		),
 		"0723"=>array(
 			"0723a"=>array(
 				"titolo"=>"Santa Brigida (Religiosa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiose"
 			)
 		),
 		"0725"=>array(
 			"0725a"=>array(
 				"titolo"=>"San Giacomo apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0729"=>array(
 			"0729a"=>array(
 				"titolo"=>"Santi Marta, Maria e Lazzaro (Ospiti del Signore)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"santi"
 			)
 		),
 		"0730"=>array(
 			"0730a"=>array(
 				"titolo"=>"San Pietro Crisologo (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0731"=>array(
 			"0731a"=>array(
 				"titolo"=>"Sant'Ignazio di Loyola (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0801"=>array(
 			"0801a"=>array(
 				"titolo"=>"Sant'Alfonso Maria de' Liguori (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0802"=>array(
 			"0802a"=>array(
 				"titolo"=>"Sant'Eusebio di Vercelli (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0804"=>array(
 			"0804a"=>array(
 				"titolo"=>"San Giovanni Maria Vianney (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0805"=>array(
 			"0805a"=>array(
 				"titolo"=>"Dedicazione dela Basilica di Santa Maria Maggiore",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"BVM"
 			)
 		),
 		"0807"=>array(
 			"0807a"=>array(
 				"titolo"=>"San Sisto II (Papa) e Compoagni (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"0807b"=>array(
 				"titolo"=>"San Gaetano (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0808"=>array(
 			"0808a"=>array(
 				"titolo"=>"San Domenico (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0810"=>array(
 			"0810a"=>array(
 				"titolo"=>"San Lorenzo (Diacono e martire)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"martire"
 			)
 		),
 		"0811"=>array(
 			"0811a"=>array(
 				"titolo"=>"Santa Chiara (Vergine)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"vergini"
 			)
 		),
 		"0813"=>array(
 			"0813a"=>array(
 				"titolo"=>"Santi Ponziano (Papa) e Ippollito (Sacerdote) martiri",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			)
 		),
 		"0814"=>array(
 			"0814a"=>array(
 				"titolo"=>"San Massimiliano Maria Kolbe (Sacerdote e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0816"=>array(
 			"0816a"=>array(
 				"titolo"=>"San Stefano di Ungheria",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"santi"
 			)
 		),
 		"0819"=>array(
 			"0819a"=>array(
 				"titolo"=>"San Bernardo Tolomei (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			),
 			"0819b"=>array(
 				"titolo"=>"San Giovanni EWudes (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0820"=>array(
 			"0820a"=>array(
 				"titolo"=>"San Bernardo (Abate e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"0821"=>array(
 			"0821a"=>array(
 				"titolo"=>"San Pio X (Papa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0822"=>array(
 			"0822a"=>array(
 				"titolo"=>"Beata Vergine Maria Regina",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"BVM"
 			)
 		),
 		"0823"=>array(
 			"0823a"=>array(
 				"titolo"=>"Santa Rosa da Lima (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"vergini"
 			)
 		),
 		"0824"=>array(
 			"0824a"=>array(
 				"titolo"=>"San Bartolomeo apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0825"=>array(
 			"0825a"=>array(
 				"titolo"=>"San Ludovico",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"santi"
 			),
 			"0825b"=>array(
 				"titolo"=>"San Giuseppe Calansazio (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0827"=>array(
 			"0820a"=>array(
 				"titolo"=>"Santa Monica",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"sante"
 			)
 		),
 		"0828"=>array(
 			"0828a"=>array(
 				"titolo"=>"Sant'Agostino (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0829"=>array(
 			"0829a"=>array(
 				"titolo"=>"Martirio di San Giovanni Battista",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"0903"=>array(
 			"0903a"=>array(
 				"titolo"=>"San Gregorio Magno (Papa e dottore della Chiesa)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"pastori"
 			)
 		),
 		"0908"=>array(
 			"0908a"=>array(
 				"titolo"=>"Natività della Beata Vergine Maria",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"BVM"
 			)
 		),
 		"0913"=>array(
 			"0913a"=>array(
 				"titolo"=>"San Giovanni Crisostomo (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0915"=>array(
 			"0915a"=>array(
 				"titolo"=>"Beata Vergine Maria addolorata",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"BVM"
 			)
 		),
 		"0916"=>array(
 			"0916a"=>array(
 				"titolo"=>"Santi Cornelio (Papa) e Cipriano (Vescovo) martiri",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martiri"
 			)
 		),
 		"0917"=>array(
 			"0917a"=>array(
 				"titolo"=>"Santa Ildegarde (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"monaci"
 			),
 			"0917b"=>array(
 				"titolo"=>"San Roberto Bellarmino (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"0918"=>array(
 			"0918a"=>array(
 				"titolo"=>"Beato Vittore III (Papa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0919"=>array(
 			"0919a"=>array(
 				"titolo"=>"San Gennaro (Vescovo e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0921"=>array(
 			"0921a"=>array(
 				"titolo"=>"San Matteo apostolo ed evangelista",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"0926"=>array(
 			"0926a"=>array(
 				"titolo"=>"Santi Cosma e Damiano (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			)
 		),
 		"0927"=>array(
 			"0927a"=>array(
 				"titolo"=>"San Vincenzo de' Paoli (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"0928"=>array(
 			"0928a"=>array(
 				"titolo"=>"San Venceslao (Martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"0929"=>array(
 			"0929a"=>array(
 				"titolo"=>"San Michele e tutti i Santi Angeli",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"MIC"
 			)
 		),
 		"0930"=>array(
 			"0930a"=>array(
 				"titolo"=>"San Girolamo (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"dottori"
 			)
 		),
 		"1001"=>array(
 			"1001a"=>array(
 				"titolo"=>"Santa Teresa di Gesù Bambino (Vergine)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"vergini"
 			)
 		),
 		"1002"=>array(
 			"1002a"=>array(
 				"titolo"=>"Santi Angeli custodi",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"ANG"
 			)
 		),
 		"1004"=>array(
 			"1004a"=>array(
 				"titolo"=>"San Francesco d'Assisi - Patrono d'Italia",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"religiosi"
 			)
 		),
 		"1006"=>array(
 			"1006a"=>array(
 				"titolo"=>"San Bruno (Eremita)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"1007"=>array(
 			"1007a"=>array(
 				"titolo"=>"Beata Vergine Maria del rosario",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"BVM"
 			)
 		),
 		"1008"=>array(
 			"1008a"=>array(
 				"titolo"=>"Santa Giustina (Vergine e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"1009"=>array(
 			"1009a"=>array(
 				"titolo"=>"San Dionigi (Vescovo) e compagni (Martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"1009b"=>array(
 				"titolo"=>"San Giovanni Leonardi (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1014"=>array(
 			"1014a"=>array(
 				"titolo"=>"San Callisto I (Papa e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"1015"=>array(
 			"1015a"=>array(
 				"titolo"=>"Santa Teresa d'Avila (Vergine e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"vergini"
 			)
 		),
 		"1016"=>array(
 			"1016a"=>array(
 				"titolo"=>"Santa Edvige (Religiosa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiose"
 			),
 			"1016b"=>array(
 				"titolo"=>"Santa Margherita Maria Alacoque (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"vergini"
 			)
 		),
 		"1017"=>array(
 			"1017a"=>array(
 				"titolo"=>"Sant'Ignazio di Antiochia (Vescovo e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"1018"=>array(
 			"1018a"=>array(
 				"titolo"=>"San Luca evangelista",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"1019"=>array(
 			"1019a"=>array(
 				"titolo"=>"Santi Giovanni de Brebeuf e Isacco Jogues (Sacerdoti) e compagni (martiri)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martiri"
 			),
 			"1019b"=>array(
 				"titolo"=>"San Paolo della Croce (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1023"=>array(
 			"1023a"=>array(
 				"titolo"=>"San Giovanni da Capestrano (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1024"=>array(
 			"1024a"=>array(
 				"titolo"=>"Sant'Antonio Maria Claret (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1028"=>array(
 			"1028a"=>array(
 				"titolo"=>"Santi Simone e Giuda apostoli",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"1102"=>array(
 			"1102a"=>array(
 				"titolo"=>"Commemorazione di tutti i fedeli defunti",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"DEF"
 			)
 		),
 		"1103"=>array(
 			"1103a"=>array(
 				"titolo"=>"San Martino de Porres (Religioso)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiosi"
 			)
 		),
 		"1104"=>array(
 			"1104a"=>array(
 				"titolo"=>"San Carlo Borromeo (Vescovo)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"1107"=>array(
 			"1107a"=>array(
 				"titolo"=>"San Willibrordo (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1109"=>array(
 			"1109a"=>array(
 				"titolo"=>"Dedicazione della Basilica Lateranense",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"dedica"
 			)
 		),
 		"1110"=>array(
 			"1110a"=>array(
 				"titolo"=>"San Leone Magno (Papa e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"1111"=>array(
 			"1111a"=>array(
 				"titolo"=>"San Martino di Tours (Vescovo)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"pastori"
 			)
 		),
 		"1112"=>array(
 			"1112a"=>array(
 				"titolo"=>"San Teodoro studita (Abate)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			),
 			"1112b"=>array(
 				"titolo"=>"San Giosafat (Vescovo e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"1113"=>array(
 			"1113a"=>array(
 				"titolo"=>"Tutti i Santi Monaci",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"monaci"
 			)
 		),
 		"1114"=>array(
 			"1114a"=>array(
 				"titolo"=>"Commemorazione dei monaci defunti",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"DEF"
 			)
 		),
 		"1115"=>array(
 			"1115a"=>array(
 				"titolo"=>"Sant'Alberto Magno (Vescovo e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1116"=>array(
 			"1116a"=>array(
 				"titolo"=>"Santa Geltrude (Vergine)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"1117"=>array(
 			"1117a"=>array(
 				"titolo"=>"Santa Margherita di Scozia",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"sante"
 			),
 			"1117b"=>array(
 				"titolo"=>"Santa Elisabetta d'Ungheria (Religiosa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"sante"
 			)
 		),
 		"1118"=>array(
 			"1118a"=>array(
 				"titolo"=>"Dedicazione delle Basiliche dei Santi Pietro e Paolo apostoli",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"dedica"
 			)
 		),
 		"1119"=>array(
 			"1119a"=>array(
 				"titolo"=>"Santa Metilde (Vergine)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"monaci"
 			)
 		),
 		"1120"=>array(
 			"1120a"=>array(
 				"titolo"=>"Beata Maria Fortunata Viti (Vergine)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"1121"=>array(
 			"1121a"=>array(
 				"titolo"=>"Presentazione della Beata Vergine Maria",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"BVM"
 			)
 		),
 		"1122"=>array(
 			"1122a"=>array(
 				"titolo"=>"Santa Cecilia (Vergine e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"1123"=>array(
 			"1123a"=>array(
 				"titolo"=>"San Clemente I (Papa e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"1124"=>array(
 			"1124a"=>array(
 				"titolo"=>"San Colombano (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"1126"=>array(
 			"1126a"=>array(
 				"titolo"=>"San Silvestro (Abate)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			)
 		),
 		"1130"=>array(
 			"1130a"=>array(
 				"titolo"=>"Sant'Andrea apostolo",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"1203"=>array(
 			"1203a"=>array(
 				"titolo"=>"San Francesco Saverio (Sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"1204"=>array(
 			"1204a"=>array(
 				"titolo"=>"San Giovanni Damasceno (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1205"=>array(
 			"1205a"=>array(
 				"titolo"=>"Beato Placido Riccardi (Monaco e sacerdote)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"monaci"
 			),
 			"1205b"=>array(
 				"titolo"=>"San Saba (Abate)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"monaci"
 			)
 		),
 		"1206"=>array(
 			"1206a"=>array(
 				"titolo"=>"San Nicola (Vescovo)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1207"=>array(
 			"1207a"=>array(
 				"titolo"=>"Sant'Ambrogio (Vescovo e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"pastori"
 			)
 		),
 		"1211"=>array(
 			"1211a"=>array(
 				"titolo"=>"San Damaso I (Papa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1212"=>array(
 			"1212a"=>array(
 				"titolo"=>"Santa Giovanna Francesca de Chantal (Religiosa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"religiose"
 			)
 		),
 		"1213"=>array(
 			"1213a"=>array(
 				"titolo"=>"Santa Lucia (Vergine e martire)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"martire"
 			)
 		),
 		"1214"=>array(
 			"1214a"=>array(
 				"titolo"=>"San Giovanni della Croce (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"M"
+				"tipo"=>"M",
+				"comune"=>"dottori"
 			)
 		),
 		"1221"=>array(
 			"1221a"=>array(
 				"titolo"=>"San Pietro Canisio (Sacerdote e dottore della Chiesa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1223"=>array(
 			"1223a"=>array(
 				"titolo"=>"San Giovanni da Kety (Sacerdote)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		),
 		"1226"=>array(
 			"1226a"=>array(
 				"titolo"=>"Santo Stefano (Promartire)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"martire"
 			)
 		),
 		"1227"=>array(
 			"1227a"=>array(
 				"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"apostoli"
 			)
 		),
 		"1228"=>array(
 			"1228a"=>array(
 				"titolo"=>"Santi innocenti martiri",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"martiri"
 			)
 		),
 		"1229"=>array(
 			"1229a"=>array(
 				"titolo"=>"Quinto giorno dell'ottava di Natale",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"5ON"
 			),
 			"1229b"=>array(
 				"titolo"=>"San Tommaso Becket (Vescovo e martire)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"martire"
 			)
 		),
 		"1230"=>array(
 			"1230a"=>array(
 				"titolo"=>"Sesto giorno dell'ottava di Natale",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"6ON"
 			)
 		),
 		"1231"=>array(
 			"1231a"=>array(
 				"titolo"=>"Settimo giorno dell'ottava di Natale",
-				"tipo"=>"F"
+				"tipo"=>"F",
+				"comune"=>"7ON"
 			),
 			"1231b"=>array(
 				"titolo"=>"San Silvestro I (Papa)",
-				"tipo"=>"R"
+				"tipo"=>"R",
+				"comune"=>"pastori"
 			)
 		)
 	);

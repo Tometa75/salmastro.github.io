@@ -1911,6 +1911,105 @@ class Inno {
                 array('','2','Amen.')
             )
         ),
+        "ves_P01"=>array(
+            array(
+                array('','',"Alla cena dell'Agnello,"),
+                array('','',"avvolti in bianche vesti,"),
+                array('','',"attraversato il Mar Rosso"),
+                array('','',"cantiamo a Cristo Signore.")
+            ),
+            array(
+                array('','',"Il suo corpo arso d'amore"),
+                array('','',"sulla mensa è pane vivo;"),
+                array('','',"il suo sangue sull'altare"),
+                array('','',"calice del nuovo patto.")
+            ),
+            array(
+                array('','',"In questo vespro mirabile"),
+                array('','',"tornan gli antichi prodigi:"),
+                array('','',"un braccio potente ci salva"),
+                array('','',"dall'angelo distruttore.")
+            ),
+            array(
+                array('','',"Mite agnello immolato,"),
+                array('','',"Cristo è la nostra Pasqua;"),
+                array('','',"il suo corpo adorabile"),
+                array('','',"è il vero pane azzimo.")
+            ),
+            array(
+                array('','',"Irradia sulla tua Chiesa"),
+                array('','',"la gioia pasquale, o Signore;"),
+                array('','',"unisci alla tua vittoria"),
+                array('','',"i rinati nel battesimo.")
+            ),
+            array(
+                array('','',"Sia lode e onore a Cristo,"),
+                array('','',"vincitore della morte,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"ora e nei secoli eterni."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_P01"=>array(
+            array(
+                array('','',"Sfolgora il sole di Pasqua,"),
+                array('','',"risuona il cielo di canti,"),
+                array('','',"esulta di gioia la terra.")
+            ),
+            array(
+                array('','',"Dagli abissi della morte"),
+                array('','',"Cristo ascende vittorioso"),
+                array('','',"insieme agli antichi padri.")
+            ),
+            array(
+                array('','',"Accanto al sepolcro vuoto"),
+                array('','',"invano veglia il custode:"),
+                array('','',"il Signore è risorto.")
+            ),
+            array(
+                array('','',"O Gesù, re immortale, "),
+                array('','',"unisci alla tua vittoria"),
+                array('','',"i rinati nel battesimo.")
+            ),
+            array(
+                array('','',"Irradia sulla tua Chiesa,"),
+                array('','',"pegno d'amore e di pace,"),
+                array('','',"la luce della tua Pasqua.")
+            ),
+            array(
+                array('','',"Sia gloria e onore a Cristo,"),
+                array('','',"al Padre e al Santo Spirito"),
+                array('','',"ora e nei secoli eterni."),
+                array('','2','Amen.')
+            )
+        ),
+        "lodi_P02"=>array(
+            array(
+                array('','',"È asceso il buon pastore"),
+                array('','',"alla destra del Padre,"),
+                array('','',"veglia il piccolo gregge"),
+                array('','',"con Maria nel cenacolo.")
+            ),
+            array(
+                array('','',"Dagli splendori eterni"),
+                array('','',"scende il crisma profetico"),
+                array('','',"che consacra gli apostoli"),
+                array('','',"araldi del Vangelo.")
+            ),
+            array(
+                array('','',"Vieni, o divino Spirito,"),
+                array('','',"con i tuoi santi doni"),
+                array('','',"e rendi i nostri cuori"),
+                array('','',"tempio della tua gloria.")
+            ),
+            array(
+                array('','',"O luce di sapienza,"),
+                array('','',"rivelaci il mistero"),
+                array('','',"del Dio trino ed unico,"),
+                array('','',"fonte d'eterno amore."),
+                array('','2','Amen.')
+            )
+        ),
         "ves_0202a"=>array(
             array(
                 array('','',"O Gesù salvatore,"),
@@ -2464,6 +2563,24 @@ class Inno {
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='P') {
             //!!!!!! in MAP, l'indice ASC indica la data dell'ascensione !!!!!!!!
+            if (substr($this->actual['today'],4,4)<substr($this->actual['ASC'],4,4)) {
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves') $this->actual['proprio']='ves_P01';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_P01';
+            }
+            elseif (substr($this->actual['today'],4,4)==substr($this->actual['ASC'],4,4)) {
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves') $this->actual['proprio']='lodi_P02';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_P01';
+            }
+            else {
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves') $this->actual['proprio']='ves_PEN';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_P02';
+            }
+
+            //Annunciazione del Signore
+            if ($this->actual['evCode']=='0325a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';
+                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0325a';
+            }
         }
 
         //----------------------------------------------------------------------------
@@ -2507,6 +2624,10 @@ class Inno {
                 $this->actual['proprio']='lodi_NAT';
             }
         }
+
+        //###################################
+        //pastori,dottori,martiri,martire,religiosi,religiose,santi,sante,dedica,apostoli,BVM,SG,MIC,ANG,DEF,5ON,6ON,7ON
+        //###################################
         //----------------------------------------------------------------------------
 
         if ($this->actual['proprio']!='') {
