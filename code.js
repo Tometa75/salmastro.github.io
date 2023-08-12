@@ -23,7 +23,7 @@ const salmastro=class {
             "config":this.getConfig()
         }
 
-        //console.log(JSON.stringify(param));
+        console.log(JSON.stringify(param));
 
         $('#salTesto').html(this.setWaiter());
 

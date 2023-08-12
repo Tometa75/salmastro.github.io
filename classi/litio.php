@@ -107,6 +107,17 @@ class Litio {
     public $vig;
     public $config=array();
 
+    public $actual=array(
+        "today"=>"",
+        "ora"=>"",
+        "tempo"=>"",
+        "weekDay"=>"",
+        "evento"=>"",
+        "evCode"=>"",
+        "festa"=>"",
+        "fesCode"=>""
+    );
+
     //è l'insieme di oggetti che disegneranno la preghiera
     protected $res=array();
 
@@ -178,9 +189,54 @@ class Litio {
         }
 
         //$this->build();
+
     }
 
     function build() {
+
+        /*MAP
+        $m=array(
+			"today"=>$day,
+			"tempo"=>$this->getTempo($day),
+			"anno"=>$this->getAnno(),
+			"settimana"=>"",
+			"quarto"=>"",
+			"weekDay"=>date('w',mainFunc::gab_tots($day)),
+			"pari"=>$this->info['pari'],
+			"festa"=>array(),
+			"evento"=>array(),
+			"rocho"=>false,
+			"errore"=>false
+		);
+        */
+        /*CONFIG
+        var config={
+            "ora":$('#sal_ora').val(),
+            "festa":$('#sal_festa').val(),
+            "mix":$('#sal_mix').prop('checked')?1:0,
+            "contesto":$('#sal_contesto').val(),
+        }
+        */
+        $this->actual['today']=$this->map['today'];
+        $this->actual['ora']=$this->config['ora'];
+
+        if ($this->config['ora']=='ves1' || $this->config['ora']=='comp1') {
+            $this->actual['tempo']=$this->vig['tempo']['codice'];
+            $this->actual['weekDay']=$this->vig['weekDay'];
+            $this->actual['evento']=$this->vig['evento'];
+            $this->actual['evCode']=$this->vig['evCode'];
+        }
+        else {
+            $this->actual['tempo']=$this->map['tempo']['codice'];
+            $this->actual['weekDay']=$this->map['weekDay'];
+            $this->actual['evento']=$this->map['evento'];
+            $this->actual['evCode']=$this->map['evCode'];
+        }
+
+        $this->actual['festa']=$this->map['festa'];
+        $this->actual['fesCode']=$this->config['festa'];
+
+        ///////////////////////////////////////////////////////////
 
         foreach ($this->map['actual'][$this->config['ora']]['st'] as $k=>$o) {
 

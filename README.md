@@ -19,7 +19,7 @@ Calendar issues fixed
 Starting prayer structure
 
 10.08.2023 Hymn
-Class "inno" build (exept for saints)
+Class "inno" build
 Need to check for bugs
 
 

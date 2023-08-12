@@ -214,7 +214,7 @@ class Calendario {
 			"0208a"=>array(
 				"titolo"=>"San Girolamo Emiliani",
 				"tipo"=>"R",
-				"comune"=>"educatori"
+				"comune"=>"santi"
 			)
 		),
 		"0211"=>array(
@@ -1041,7 +1041,7 @@ class Calendario {
 			"1004a"=>array(
 				"titolo"=>"San Francesco d'Assisi - Patrono d'Italia",
 				"tipo"=>"F",
-				"comune"=>"religiosi"
+				"comune"=>"SFA"
 			)
 		),
 		"1006"=>array(
@@ -1421,7 +1421,7 @@ class Calendario {
 			"1229a"=>array(
 				"titolo"=>"Quinto giorno dell'ottava di Natale",
 				"tipo"=>"F",
-				"comune"=>"5ON"
+				"comune"=>""
 			),
 			"1229b"=>array(
 				"titolo"=>"San Tommaso Becket (Vescovo e martire)",
@@ -1433,14 +1433,14 @@ class Calendario {
 			"1230a"=>array(
 				"titolo"=>"Sesto giorno dell'ottava di Natale",
 				"tipo"=>"F",
-				"comune"=>"6ON"
+				"comune"=>""
 			)
 		),
 		"1231"=>array(
 			"1231a"=>array(
 				"titolo"=>"Settimo giorno dell'ottava di Natale",
 				"tipo"=>"F",
-				"comune"=>"7ON"
+				"comune"=>""
 			),
 			"1231b"=>array(
 				"titolo"=>"San Silvestro I (Papa)",

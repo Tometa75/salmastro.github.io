@@ -1,6 +1,7 @@
 <?php
 class Saltesto {
 
+    protected $head="";
     protected $testo=array();
 
     function __construct() {
@@ -9,6 +10,10 @@ class Saltesto {
 
     function addBlock($b) {
         $this->testo[]=$b;
+    }
+
+    function addHead($txt) {
+        $this->head=$txt;
     }
 
     /*
@@ -29,6 +34,8 @@ class Saltesto {
     */
 
     function draw() {
+
+        echo '<div class="salTextBlock" style="font-size:1em;" >'.$this->head.'</div>';
 
         foreach ($this->testo as $k=>$b) {
 
