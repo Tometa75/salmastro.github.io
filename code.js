@@ -4,6 +4,10 @@ const salmastro=class {
         return '<div style="text-align:center;"><img style="width:100px;height:100px;" src="'+location.protocol + '//' + location.host + location.pathname+'img/busy.gif" /></div>';
     }
 
+    refresh() {
+        location.href=location.protocol + '//' + location.host + location.pathname;
+    }
+
     getConfig() {
 
         var config={

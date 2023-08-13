@@ -130,19 +130,20 @@ body {
 
 .salTextBlock {
     margin-bottom: 10px;
-    font-size:1.2em;
+    font-size:23px;
 }
 
 .salTextBody {
     box-sizing: border-box;
-    line-height: 22px;
-    height: 25px;
+    line-height: 25px;
+    min-height: 25px;
+    margin-bottom:2px;
 }
 
 .salTextCapo {
     position: relative;
     width: 16px;
-    height:16px;
+    min-height:16px;
     margin-right:10px;
 }
 

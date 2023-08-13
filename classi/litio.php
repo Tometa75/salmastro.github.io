@@ -1,6 +1,7 @@
 <?php
 require_once('preghiera.php');
 require_once('inno.php');
+require_once('orazione.php');
 require_once('testo.php');
 
 class Litio {
@@ -111,6 +112,8 @@ class Litio {
         "today"=>"",
         "ora"=>"",
         "tempo"=>"",
+        "quarto"=>"",
+        "settimana"=>"",
         "weekDay"=>"",
         "evento"=>"",
         "evCode"=>"",
@@ -225,12 +228,16 @@ class Litio {
             $this->actual['weekDay']=$this->vig['weekDay'];
             $this->actual['evento']=$this->vig['evento'];
             $this->actual['evCode']=$this->vig['evCode'];
+            $this->actual['quarto']=$this->vig['quarto'];
+            $this->actual['settimana']=$this->vig['settimana'];
         }
         else {
             $this->actual['tempo']=$this->map['tempo']['codice'];
             $this->actual['weekDay']=$this->map['weekDay'];
             $this->actual['evento']=$this->map['evento'];
             $this->actual['evCode']=$this->map['evCode'];
+            $this->actual['quarto']=$this->map['quarto'];
+            $this->actual['settimana']=$this->map['settimana'];
         }
 
         $this->actual['festa']=$this->map['festa'];
@@ -243,6 +250,7 @@ class Litio {
             switch ($o) {
                 case 'PI': $this->res['PI']=new Preghiera('inizio',$this);break;
                 case 'INNO': $this->res['INNO']=new Inno($this);break;
+                case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }
         }

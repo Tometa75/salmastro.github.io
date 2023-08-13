@@ -3,6 +3,7 @@ class Saltesto {
 
     protected $head="";
     protected $testo=array();
+    protected $ending=array('','','');
 
     function __construct() {
         
@@ -14,6 +15,10 @@ class Saltesto {
 
     function addHead($txt) {
         $this->head=$txt;
+    }
+
+    function addEnding($a) {
+        $this->ending=$a;
     }
 
     /*
@@ -42,9 +47,13 @@ class Saltesto {
             echo '<div class="salTextBlock" >';
 
                 foreach ($b as $x=>$t) {
+
+                    if ($t[0]=='ending') $t=$this->ending;
+                    //echo '<div>'.json_encode($t).'</div>';
+
                     echo '<div class="salTextBody" style="';
                         if ($t[1]!='') {
-                            if ($t[1]=='2') echo 'padding-left:30px;';
+                            if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
                         }
                     echo '">';
 

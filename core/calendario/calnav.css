@@ -20,6 +20,7 @@
     height:25px;
     line-height: 25px;
     cursor:pointer;
+    top:-3px;
 }
 
 .calnavNavIcon {
@@ -62,7 +63,7 @@
     position: relative;
     height: 16px;
     width: 16px;
-    margin-top:-8px; 
+    top:-2px; 
 }
 
 .calnavOptDiv {

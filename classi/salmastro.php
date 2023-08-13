@@ -89,7 +89,7 @@ class Salmastro {
         echo '<div style="position:relative;width:100%;height:20%;">';
 
             echo '<div class="salHeadLine" style="">';
-                echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;" src="'.SITE_URL.'/img/medaglia.png" />';
+                echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;cursor:pointer;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
                 echo 'Liturgia delle ore benedettina';
             echo '</div>';
 
