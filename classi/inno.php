@@ -91,8 +91,7 @@ class Inno {
                 array('','',"Sia onore al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
                 array('','',"al Dio trino ed unico"),
-                array('','',"nei secoli sia gloria."),
-                array('','2','Amen.')
+                array('','',"nei secoli sia gloria.")
             )
         ),
         "comp_0"=>array(
@@ -124,8 +123,7 @@ class Inno {
                 array('','',"a te sia gloria, o Cristo"),
                 array('','',"nato da Maria Vergine,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "comp_1"=>array(
@@ -145,8 +143,7 @@ class Inno {
                 array('','',"Onnipotente, ascoltaci:"),
                 array('','',"per noi Cristo ti supplica,"),
                 array('','',"che regna in tutti i secoli"),
-                array('','',"con te e il Santo Spirito."),
-                array('','2','Amen.')
+                array('','',"con te e il Santo Spirito.")
             )
         ),
         "ves1_0"=>array(
@@ -160,8 +157,7 @@ class Inno {
                 array('','','Te lodiamo al mattino,'),
                 array('','','te nel vespro imploriamo,'),
                 array('','','te canteremo unanimi,'),
-                array('','','nel giorno che non muore.'),
-                array('','2','Amen.')
+                array('','','nel giorno che non muore.')
             )
         ),
         "lodi_0"=>array(
@@ -193,8 +189,7 @@ class Inno {
             array(
                 array('','',"A te la gloria, o Cristo,"),
                 array('','',"la potenza e l'onore,"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             ),
         ),
         "terza_0"=>array(
@@ -214,8 +209,7 @@ class Inno {
                 array('','',"O luce di sapienza,"),
                 array('','',"rivelaci il mistero"),
                 array('','',"del Dio trino e unico,"),
-                array('','',"fonte di eterno Amore."),
-                array('','2','Amen.')
+                array('','',"fonte di eterno Amore.")
             )  
         ),
         "sesta_0"=>array(
@@ -235,8 +229,7 @@ class Inno {
                 array('','',"Sia gloria al Padre e al Figlio,"),
                 array('','',"sia onore allo Spirito Santo,"),
                 array('','',"all'unico e trino Signore"),
-                array('','',"sia lode nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"sia lode nei secoli eterni.")
             )  
         ),
         "nona_0"=>array(
@@ -256,8 +249,7 @@ class Inno {
                 array('','',"Sia lode al Padre altissimo,"),
                 array('','',"al Figlio e al Santo Spirito,"),
                 array('','',"com'era nel principio,"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )  
         ),
         "ves2_0"=>array(
@@ -295,8 +287,7 @@ class Inno {
                 array('','',"Con canti sinceri, inni nuovi,"),
                 array('','',"per sempre sia gloria a te, Padre,"),
                 array('','',"al Figlio che tu ci hai donato"),
-                array('','',"e gloria allo Spirito Santo."),
-                array('','2','Amen.')
+                array('','',"e gloria allo Spirito Santo.")
             )
         ),
         "lodi_1"=>array(
@@ -322,8 +313,7 @@ class Inno {
                 array('','',"Sia Cristo il nostro cibo,"),
                 array('','',"sia Cristo l'acqua viva:"),
                 array('','',"in lui gustiamo sobrii"),
-                array('','',"l'ebbrezza dello Spirito."),
-                array('','2','Amen.')
+                array('','',"l'ebbrezza dello Spirito.")
             )
         ),
         "terza_1"=>array(
@@ -343,8 +333,7 @@ class Inno {
                 array('','',"Rendiamo gloria unanimi"),
                 array('','',"al Padre e all'Unigenito,"),
                 array('','',"e gloria al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "sesta_1"=>array(
@@ -364,8 +353,7 @@ class Inno {
                 array('','',"Rendiamo gloria unanimi"),
                 array('','',"al Padre e all'Unigenito,"),
                 array('','',"e gloria al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "nona_1"=>array(
@@ -385,8 +373,7 @@ class Inno {
                 array('','',"Rendiamo gloria unanimi"),
                 array('','',"al Padre e all'Unigenito,"),
                 array('','',"e gloria al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_1"=>array(
@@ -412,8 +399,7 @@ class Inno {
                 array('','',"Ascolta, o Padre altissimo,"),
                 array('','',"tu che regni nei secoli,"),
                 array('','',"con il Cristo tuo Figlio"),
-                array('','',"e lo Spirito Santo."),
-                array('','2','Amen.')
+                array('','',"e lo Spirito Santo.")
             )
         ),
         "lodi_2"=>array(
@@ -427,8 +413,7 @@ class Inno {
                 array('','',"O Padre santo, fonte d'ogni bene,"),
                 array('','',"effondi la rugiada del tuo amore"),
                 array('','',"sulla Chiesa raccolta dal tuo Figlio"),
-                array('','',"nel Santo Spirito."),
-                array('','2','Amen.')
+                array('','',"nel Santo Spirito.")
             )
         ),
         "ves_2"=>array(
@@ -460,8 +445,7 @@ class Inno {
             array(
                 array('','',"A te sia lode, o Padre,"),
                 array('','',"al Figlio e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_3"=>array(
@@ -488,8 +472,7 @@ class Inno {
             array(
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"al Padre e al Santo Spirito,"),
-                array('','',"oggi e sempre nei secoli."),
-                array('','2','Amen.')
+                array('','',"oggi e sempre nei secoli.")
             )
         ),
         "terza_3"=>array(
@@ -515,8 +498,7 @@ class Inno {
                 array('','',"Sia lode al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
                 array('','',"al Dio trino ed unico,"),
-                array('','',"nei secoli sia gloria."),
-                array('','2','Amen.')
+                array('','',"nei secoli sia gloria.")
             )
         ),
         "sesta_3"=>array(
@@ -542,8 +524,7 @@ class Inno {
                 array('','',"Sia lode al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
                 array('','',"al Dio trino ed unico,"),
-                array('','',"nei secoli sia gloria."),
-                array('','2','Amen.')
+                array('','',"nei secoli sia gloria.")
             )
         ),
         "nona_3"=>array(
@@ -569,8 +550,7 @@ class Inno {
                 array('','',"Ascolta, Padre altissimo,"),
                 array('','',"tu che regni in eterno,"),
                 array('','',"con il Figlio e lo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_3"=>array(
@@ -596,8 +576,7 @@ class Inno {
                 array('','',"Te la voce proclami,"),
                 array('','',"o Dio trino ed unico,"),
                 array('','',"te canti il nostro cuore,"),
-                array('','',"te adori il nostro spirito."),
-                array('','2','Amen.')
+                array('','',"te adori il nostro spirito.")
             )
         ),
         "lodi_4"=>array(
@@ -624,8 +603,7 @@ class Inno {
             array(
                 array('','',"A te sia gloria, o Padre,"),
                 array('','',"al Figlio e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_4"=>array(
@@ -651,8 +629,7 @@ class Inno {
                 array('','',"Te la voce proclami,"),
                 array('','',"o Dio trino ed unico,"),
                 array('','',"te canti il nostro cuore,"),
-                array('','',"te adori il nostro spirito."),
-                array('','2','Amen.')
+                array('','',"te adori il nostro spirito.")
             )
         ),
         "lodi_5"=>array(
@@ -678,8 +655,7 @@ class Inno {
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"speranza delle genti,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_5"=>array(
@@ -705,8 +681,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"speranza delle genti,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_6"=>array(
@@ -732,8 +707,7 @@ class Inno {
                 array('','',"Sia gloria al Padre altissimo"),
                 array('','',"e a Cristo l'unigenito,"),
                 array('','',"sia lode al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p9"=>array(
@@ -765,8 +739,7 @@ class Inno {
                 array('','',"Sia lode al Cristo Signore,"),
                 array('','',"al Padre e al Santo Spirito,"),
                 array('','',"com'era nel principio,"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "p10"=>array(
@@ -793,8 +766,7 @@ class Inno {
             array(
                 array('','',"A te Cristo, sia lode,"),
                 array('','',"al Padre e al Santo Spirito,"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p16"=>array(
@@ -826,8 +798,7 @@ class Inno {
                 array('','',"Sia lode al Cristo Signore,"),
                 array('','',"al Padre e al Santo Spirito,"),
                 array('','',"com'era nel principio,"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "p17"=>array(
@@ -865,8 +836,7 @@ class Inno {
                 array('','',"Te, Cristo, noi cerchiamo;"),
                 array('','',"te vogliamo conoscere,"),
                 array('','',"per lodarti in eterno"),
-                array('','',"nella patria beata."),
-                array('','2','Amen.')
+                array('','',"nella patria beata.")
             )
         ),
         "p1474"=>array(
@@ -898,8 +868,7 @@ class Inno {
                 array('','',"Sia onore al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
                 array('','',"al Dio trino ed unico"),
-                array('','',"nei secoli sia gloria."),
-                array('','2','Amen.')
+                array('','',"nei secoli sia gloria.")
             )
         ),
         "p1498"=>array(
@@ -925,8 +894,7 @@ class Inno {
                 array('','',"A Dio Padre sia lode"),
                 array('','',"al Figlio e allo Spirito,"),
                 array('','',"che ti hanno adornata"),
-                array('','',"di una veste di grazia."),
-                array('','2','Amen.')
+                array('','',"di una veste di grazia.")
             )
         ),
         "p1513"=>array(
@@ -964,8 +932,7 @@ class Inno {
                 array('','',"Sia gloria eterna a Cristo,"),
                 array('','',"che vi fece annunziatori del Padre"),
                 array('','',"e vi riempì della benefica"),
-                array('','',"potenza dello Spirito Santo."),
-                array('','2','Amen.')
+                array('','',"potenza dello Spirito Santo.")
             )
         ),
         "p1502"=>array(
@@ -1009,8 +976,7 @@ class Inno {
                 array('','',"Lode all'altissimo Padre,"),
                 array('','',"gloria al Cristo Signore,"),
                 array('','',"salga allo Spirito Santo"),
-                array('','',"l'inno di fede e di amore."),
-                array('','2','Amen.')
+                array('','',"l'inno di fede e di amore.")
             )
         ),
         "p1523"=>array(
@@ -1036,8 +1002,7 @@ class Inno {
                 array('','',"Su voi, resi saldi in eterno,"),
                 array('','',"s'edifica e innalza la Chiesa"),
                 array('','',"che eterna, riversa sul mondo"),
-                array('','',"da Dio, come un fiume, la pace."),
-                array('','2','Amen.')
+                array('','',"da Dio, come un fiume, la pace.")
             )
         ),
         "p1524"=>array(
@@ -1069,8 +1034,7 @@ class Inno {
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"che distrutto il regno della morte,"),
                 array('','',"manifestasti per mezzo degli apostoli"),
-                array('','',"i sentieri della vita e della luce."),
-                array('','2','Amen.')
+                array('','',"i sentieri della vita e della luce.")
             )
         ),
         "p1527"=>array(
@@ -1102,8 +1066,7 @@ class Inno {
             array(
                 array('','',"Sia lode al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1528"=>array(
@@ -1141,8 +1104,7 @@ class Inno {
                 array('','',"A te sia gloria, o Signore,"),
                 array('','',"che sei risorto dai morti,"),
                 array('','',"con il Padre e lo Spirito Santo"),
-                array('','',"nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"nei secoli eterni.")
             )
         ),
         "p1553"=>array(
@@ -1164,8 +1126,7 @@ class Inno {
             array(
                 array('','',"Sia onore al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1574"=>array(
@@ -1197,8 +1158,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"Parola del Dio vivo,"),
                 array('','',"che sveli nel martirio"),
-                array('','',"la forza del tuo Spirito."),
-                array('','2','Amen.')
+                array('','',"la forza del tuo Spirito.")
             )
         ),
         "p1594"=>array(
@@ -1236,8 +1196,7 @@ class Inno {
                 array('','',"Concedicelo, o Padre pietosissimo,"),
                 array('','',"e tu, Unigenito uguale al Padre,"),
                 array('','',"che con lo Spirito Santo regnate"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1604"=>array(
@@ -1269,8 +1228,7 @@ class Inno {
                 array('','',"E il giusto, che ora si celebra, interceda con istanza"),
                 array('','',"perché tu, conceda al tuo popolo,"),
                 array('','',"di progredire per le vie amene della vita"),
-                array('','',"fino a quando non canterà a te inni nella visione perfetta."),
-                array('','2','Amen.')
+                array('','',"fino a quando non canterà a te inni nella visione perfetta.")
             )
         ),
         "p1609"=>array(
@@ -1302,8 +1260,7 @@ class Inno {
             array(
                 array('','',"A te, Cristo, sia lode,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1622"=>array(
@@ -1335,8 +1292,7 @@ class Inno {
             array(
                 array('','',"A te, Cristo, sia lode,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1631"=>array(
@@ -1356,8 +1312,7 @@ class Inno {
                 array('','',"Illumina col tuo Spirito"),
                 array('','',"l'oscura notte del male,"),
                 array('','',"orienta il nostro cammino"),
-                array('','',"incontro al Padre."),
-                array('','2','Amen.')
+                array('','',"incontro al Padre.")
             )
         ),
         "p1651"=>array(
@@ -1389,8 +1344,7 @@ class Inno {
                 array('','',"Sia onore al Padre e al Figlio"),
                 array('','',"e allo Spirito Santo,"),
                 array('','',"al Dio trino ed unico"),
-                array('','',"nei secoli sia gloria."),
-                array('','2','Amen.')
+                array('','',"nei secoli sia gloria.")
             )
         ),
         "p1661"=>array(
@@ -1410,8 +1364,7 @@ class Inno {
                 array('','',"Illumina col tuo Spirito"),
                 array('','',"l'oscura notte del male,"),
                 array('','',"orienta il nostro cammino"),
-                array('','',"incontro al Padre."),
-                array('','2','Amen.')
+                array('','',"incontro al Padre.")
             )
         ),
         "p1683"=>array(
@@ -1443,8 +1396,7 @@ class Inno {
                 array('','',"Risuoni la lode al sommo Padre,"),
                 array('','',"a te, principe Cristo e ugualmente allo Spirito Santo,"),
                 array('','',"che donate con cuore magnanimo"),
-                array('','',"il centuplo a colui che dà piccole cose."),
-                array('','2','Amen.')
+                array('','',"il centuplo a colui che dà piccole cose.")
             )
         ),
         "p1705"=>array(
@@ -1464,8 +1416,7 @@ class Inno {
                 array('','',"Illumina col tuo Spirito"),
                 array('','',"l'oscura notte del male,"),
                 array('','',"orienta il nostro cammino"),
-                array('','',"incontro al Padre."),
-                array('','2','Amen.')
+                array('','',"incontro al Padre.")
             )
         ),
         "p1709"=>array(
@@ -1492,8 +1443,7 @@ class Inno {
             array(
                 array('','',"A te, Gesù, sia gloria,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "p1731"=>array(
@@ -1525,8 +1475,7 @@ class Inno {
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"speranza delle genti,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         )
     );
@@ -1561,8 +1510,7 @@ class Inno {
                 array('','',"Ave, o croce, unica speranza,"),
                 array('','',"in questo tempo di passione"),
                 array('','',"accresci ai fedeli la grazia,"),
-                array('','',"ottieni alle genti la pace."),
-                array('','2','Amen.')
+                array('','',"ottieni alle genti la pace.")
             )
         ),
         "terza_PAL"=>array(
@@ -1594,8 +1542,7 @@ class Inno {
                 array('','',"Sia gloria Dio Padre"),
                 array('','',"e al suo Figlio Unigenito"),
                 array('','',"con lo Spirito Paraclito"),
-                array('','','nei secoli eterni.'),
-                array('','2','Amen.')
+                array('','','nei secoli eterni.')
             )
         ),
         "ves_BAT"=>array(
@@ -1627,8 +1574,7 @@ class Inno {
             array(
                 array('','',"Sia gloria a Cristo Signore,"),
                 array('','',"al Padre e al Santo Spirito,"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "lodi_PEN"=>array(
@@ -1666,8 +1612,7 @@ class Inno {
                 array('','',"O luce di sapienza,"),
                 array('','',"rivelaci il mistero"),
                 array('','',"del Dio trino ed unico,"),
-                array('','',"fonte d'eterno amore."),
-                array('','2','Amen.')
+                array('','',"fonte d'eterno amore.")
             )
         ),
         "ves_PEN"=>array(
@@ -1705,8 +1650,7 @@ class Inno {
                 array('','',"Luce d'eterna sapienza,"),
                 array('','',"svelaci il grande mistero"),
                 array('','',"di Dio OPadre e del Figlio"),
-                array('','',"uniti in un solo Amore."),
-                array('','2','Amen.')
+                array('','',"uniti in un solo Amore.")
             )
         ),
         "ves_SCG"=>array(
@@ -1726,8 +1670,7 @@ class Inno {
                 array('','',"Sia lode e onore a te, pastore buono,"),
                 array('','',"luce radiosa dell'eterna luce,"),
                 array('','',"che vivi con il Padre e il Santo Spirito,"),
-                array('','',"nei secoli dei secoli glorioso."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli glorioso.")
             )
         ),
         "ves1_TRI"=>array(
@@ -1753,8 +1696,7 @@ class Inno {
                 array('','',"A te la nostra lode,"),
                 array('','',"o Trinità dolcissima e beata,"),
                 array('','',"che sempre sgorghi e sempre rifluisci"),
-                array('','',"nel quieto mare del tuo stesso Amore."),
-                array('','2','Amen.')
+                array('','',"nel quieto mare del tuo stesso Amore.")
             )
         ),
         "lodi_TRI"=>array(
@@ -1780,8 +1722,7 @@ class Inno {
                 array('','',"O principio e sorgente"),
                 array('','',"della vita immortale,"),
                 array('','',"rivelaci il tuo volto"),
-                array('','',"nella gloria dei cieli."),
-                array('','2','Amen.')
+                array('','',"nella gloria dei cieli.")
             )
         ),
         "ves_COD"=>array(
@@ -1801,8 +1742,7 @@ class Inno {
                 array('','',"O Cristo, pastore glorioso,"),
                 array('','',"a te la potenza e l'onore,"),
                 array('','',"col Padre e lo Spirito Santo"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_GRE"=>array(
@@ -1822,8 +1762,7 @@ class Inno {
                 array('','',"Illumina col tuo Spirito"),
                 array('','',"l'oscura notte del male,"),
                 array('','',"orienta il nostro cammino"),
-                array('','',"incontro al Padre."),
-                array('','2','Amen.')
+                array('','',"incontro al Padre.")
             )
         ),
         "ves_GRE"=>array(
@@ -1849,8 +1788,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"speranza delle genti,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_NAT"=>array(
@@ -1887,8 +1825,7 @@ class Inno {
             array(
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_NAT"=>array(
@@ -1930,8 +1867,7 @@ class Inno {
             array(
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_SAF"=>array(
@@ -1963,8 +1899,7 @@ class Inno {
             array(
                 array('','',"A te, Cristo, sia lode,"),
                 array('','',"al Padre ed allo Spirito,"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_EPI"=>array(
@@ -2008,8 +1943,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"nato da Maria Vergine,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_EPI"=>array(
@@ -2041,8 +1975,7 @@ class Inno {
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"che ti sveli alle genti,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_QU0"=>array(
@@ -2074,8 +2007,7 @@ class Inno {
                 array('','',"Ascolta, o Padre altissimo,"),
                 array('','',"tu che regni nei secoli"),
                 array('','',"con il Cristo tuo Figlio"),
-                array('','',"e lo Spirito Santo."),
-                array('','2','Amen.')
+                array('','',"e lo Spirito Santo.")
             )
         ),
         "lodi_QU0"=>array(
@@ -2107,8 +2039,7 @@ class Inno {
                 array('','',"Ascolta, o Padre altissimo,"),
                 array('','',"al Figlio e al Santo Spirito"),
                 array('','',"com'era nel principio,"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "ves_QU1"=>array(
@@ -2134,8 +2065,7 @@ class Inno {
                 array('','',"O Cristo, fratello che soffri,"),
                 array('','',"accogli la lode perenne"),
                 array('','',"di chi in te solo può dire"),
-                array('','','"Padre" al Santo dei Santi.'),
-                array('','2','Amen.')
+                array('','','"Padre" al Santo dei Santi.')
             )
         ),
         "terza_QU0"=>array(
@@ -2161,8 +2091,7 @@ class Inno {
                 array('','',"Supplichiamo Cristo e il Padre,"),
                 array('','',"lo Spirito del Padre e del Figlio;"),
                 array('','',"o Trinità, Dio unico e onnipotente,"),
-                array('','','proteggi quelli che ti pregano.'),
-                array('','2','Amen.')
+                array('','','proteggi quelli che ti pregano.')
             )
         ),
         "sesta_QU0"=>array(
@@ -2188,8 +2117,7 @@ class Inno {
                 array('','',"Supplichiamo Cristo e il Padre,"),
                 array('','',"lo Spirito del Padre e del Figlio;"),
                 array('','',"o Trinità, Dio unico e onnipotente,"),
-                array('','',"infiamma d'amore quelli che pregano"),
-                array('','2','Amen.')
+                array('','',"infiamma d'amore quelli che pregano")
             )
         ),
         "nona_QU0"=>array(
@@ -2215,8 +2143,7 @@ class Inno {
                 array('','',"Supplichiamo Cristo e il Padre,"),
                 array('','',"lo Spirito del Padre e del Figlio;"),
                 array('','',"o Trinità, Dio unico e onnipotente,"),
-                array('','',"infiamma d'amore quelli che pregano"),
-                array('','2','Amen.')
+                array('','',"infiamma d'amore quelli che pregano")
             )
         ),
         "ves_SS4"=>array(
@@ -2236,8 +2163,7 @@ class Inno {
                 array('','',"Fa' ch'io contempli il tuo volto"),
                 array('','',"nella patria beata del cielo,"),
                 array('','',"con il Padre e lo Spirito Santo"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "terza_SS5"=>array(
@@ -2251,8 +2177,7 @@ class Inno {
                 array('','',"Ti dispiaccia che i tuoi servi non son liberi,"),
                 array('','',"assolvi i colpevoli, solleva gli schiavi,"),
                 array('','',"e fa', o Re buono, che coloro che hai redento col tuo sangue"),
-                array('','',"siano eternamente felici con te."),
-                array('','2','Amen.')
+                array('','',"siano eternamente felici con te.")
             )
         ),
         "sesta_SS5"=>array(
@@ -2272,8 +2197,7 @@ class Inno {
                 array('','',"Al Padre, a te e al Paraclito"),
                 array('','',"sia eguale gloria, o Gesù,"),
                 array('','',"che concedi a noi di godere"),
-                array('','',"per sempre della vittoria della croce."),
-                array('','2','Amen.')
+                array('','',"per sempre della vittoria della croce.")
             )
         ),
         "nona_SS5"=>array(
@@ -2293,8 +2217,7 @@ class Inno {
                 array('','',"Al Padre, a te e al Paraclito"),
                 array('','',"sia eguale gloria, o Gesù,"),
                 array('','',"che concedi a noi di godere"),
-                array('','',"per sempre della vittoria della croce."),
-                array('','2','Amen.')
+                array('','',"per sempre della vittoria della croce.")
             )
         ),
         "ves_P01"=>array(
@@ -2332,8 +2255,7 @@ class Inno {
                 array('','',"Sia lode e onore a Cristo,"),
                 array('','',"vincitore della morte,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "lodi_P01"=>array(
@@ -2365,8 +2287,7 @@ class Inno {
             array(
                 array('','',"Sia gloria e onore a Cristo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"ora e nei secoli eterni."),
-                array('','2','Amen.')
+                array('','',"ora e nei secoli eterni.")
             )
         ),
         "lodi_P02"=>array(
@@ -2392,8 +2313,7 @@ class Inno {
                 array('','',"O luce di sapienza,"),
                 array('','',"rivelaci il mistero"),
                 array('','',"del Dio trino ed unico,"),
-                array('','',"fonte d'eterno amore."),
-                array('','2','Amen.')
+                array('','',"fonte d'eterno amore.")
             )
         ),
         "ves_0202a"=>array(
@@ -2420,8 +2340,7 @@ class Inno {
             array(
                 array('','',"A te sia gloria, o Cristo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_0319a"=>array(
@@ -2453,8 +2372,7 @@ class Inno {
             array(
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"al Padre ed allo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_0325a"=>array(
@@ -2481,8 +2399,7 @@ class Inno {
             array(
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_0624a"=>array(
@@ -2514,8 +2431,7 @@ class Inno {
                 array('','',"Sia lode e onore a Cristo,"),
                 array('','',"Parola del Dio vivo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_0624a"=>array(
@@ -2547,8 +2463,7 @@ class Inno {
                 array('','',"Sia lode e onore a Cristo,"),
                 array('','',"Parola del Dio vivo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_0629a"=>array(
@@ -2586,8 +2501,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"vera luce del mondo,"),
                 array('','',"al Padre e al Santo Spirito"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_0815a"=>array(
@@ -2613,8 +2527,7 @@ class Inno {
                 array('','',"O Trinità santissima,"),
                 array('','',"a te l'inno di grazie,"),
                 array('','',"per Maria nostra Madre,"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "ves_0914a"=>array(
@@ -2636,8 +2549,7 @@ class Inno {
             array(
                 array('','',"A te la gloria e il regno,"),
                 array('','',"la potenza e l'onore"),
-                array('','',"nei secoli dei secoli."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli.")
             )
         ),
         "lodi_1228a"=>array(
@@ -2657,8 +2569,7 @@ class Inno {
                 array('','',"Eterna gloria a te, Cristo Signore,"),
                 array('','',"nato nel tempo da Maria Vergine,"),
                 array('','',"al Padre onnipotente e al Santo Spirito,"),
-                array('','',"nei secoli dei secoli sia lode."),
-                array('','2','Amen.')
+                array('','',"nei secoli dei secoli sia lode.")
             )
         ),
         "lodi_ANG"=>array(
@@ -2696,8 +2607,7 @@ class Inno {
                 array('','',"Sia gloria a Dio Padre,"),
                 array('','',"colui il cui Figlio ci ha salvati"),
                 array('','',"e il cui Spirito Santo ci ha uniti;"),
-                array('','',"ci custodisca per mezzo dei suoi angeli."),
-                array('','2','Amen.')
+                array('','',"ci custodisca per mezzo dei suoi angeli.")
             )
         ),
         "ves_ANG"=>array(
@@ -2723,8 +2633,7 @@ class Inno {
                 array('','',"Continuamwente ci sia una pia lode"),
                 array('','',"per la Santa Trinità, dalla cui perpetua volontà"),
                 array('','',"è retta questa triplice macchina"),
-                array('','',"e la cui gloria regna per tutti i secoli."),
-                array('','2','Amen.')
+                array('','',"e la cui gloria regna per tutti i secoli.")
             )
         ),
         "lodi_SFA"=>array(
@@ -2791,8 +2700,7 @@ class Inno {
             ),
             array(
                 array('','',"Laudate et benedicete mi' Signore et rengratiate"),
-                array('','',"et servitelo cum grande humilitate."),
-                array('','2','Amen.')
+                array('','',"et servitelo cum grande humilitate.")
             )
         ),
         "ves_SFA"=>array(
@@ -2824,8 +2732,7 @@ class Inno {
                 array('','',"A te sia lode, o Cristo,"),
                 array('','',"Parola del Dio vivo,"),
                 array('','',"che sveli nei tuoi santi"),
-                array('','',"la gioia dell'amore."),
-                array('','2','Amen.')
+                array('','',"la gioia dell'amore.")
             )
         ),
         "lodi_MIC"=>array(
@@ -2851,8 +2758,7 @@ class Inno {
                 array('','',"Al Padre facciamo risuonare gloria,"),
                 array('','',"con voci melodiose cantiamo gloria a Cristo,"),
                 array('','',"gloria al Paraclito, che, Dio trino ed unico,"),
-                array('','',"esisti prima dei secoli."),
-                array('','2','Amen.')
+                array('','',"esisti prima dei secoli.")
             )
         ),
         "ves_MIC"=>array(
@@ -2878,8 +2784,7 @@ class Inno {
                 array('','',"O Cristo, onore dei santi angeli,"),
                 array('','',"il loro coro ci assista sempre,"),
                 array('','',"affinché insieme, alla fine,tributiamo"),
-                array('','',"canti alla Trinità per sempre."),
-                array('','2','Amen.')
+                array('','',"canti alla Trinità per sempre.")
             )
         )
     );
@@ -3430,6 +3335,8 @@ class Inno {
                 }
             }
         }
+
+        $this->info['testo']->addBlock(array(array('','2',"Amen.")));
     }
 
     function draw() {

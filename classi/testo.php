@@ -3,7 +3,7 @@ class Saltesto {
 
     protected $head="";
     protected $testo=array();
-    protected $ending=array('','','');
+    protected $label=array();
 
     function __construct() {
         
@@ -17,8 +17,8 @@ class Saltesto {
         $this->head=$txt;
     }
 
-    function addEnding($a) {
-        $this->ending=$a;
+    function addLabel($l,$a) {
+        $this->label[$l]=$a;
     }
 
     /*
@@ -48,7 +48,7 @@ class Saltesto {
 
                 foreach ($b as $x=>$t) {
 
-                    if ($t[0]=='ending') $t=$this->ending;
+                    if (count($t)==1 && $t[0]!='') $t=$this->label[$t[0]];
                     //echo '<div>'.json_encode($t).'</div>';
 
                     echo '<div class="salTextBody" style="';

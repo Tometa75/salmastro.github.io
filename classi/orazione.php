@@ -231,7 +231,8 @@ class Orazione {
                 array('','',"Signore Gesù Cristo, mite e umile di cuore, che rendi soave il giogo e lieve il peso dei tuoi fedeli, accogli i propositi e le opere di questa giornata e fa' che il riposo della notte ci renda più generosi nel tuo servizio."),
                 array('','',"Tu che vivi e regni nei secoli dei secoli.")
             )
-        ),"lodi_4_1"=>array(
+        ),
+        "lodi_4_1"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, esaudidci le èreghiere della tua Chiesa che al mattino, a mezzogiorno e alla sera celebra le tue lodi; disperdi dal nostro cuore le tenebre del male, perché procediamo sicuri verso Cristo, vera luce che non tramonta."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
@@ -302,6 +303,120 @@ class Orazione {
                 array('','',"Signore Dio noistro, donaci un sonno tranquillo, perché ristorati dalle fatiche del giorno, ci dedichiamo corpo e anima al tuo servizio."),
                 array('','',"Per Cristo nostro Signore.")
             )
+        ),
+        "lodi_5_1"=>array(
+            array(
+                array('','',"O Dio, che con la luce del tuo Figlio, Parola di verità, disperdi le tenebre dell'ignoranza, accresci in noi il vigore della fede, perché nessuna tentazione possa estinguere quella fiamma che la tua grazia ha acceso nei nostri cuori."),
+                array('ending')
+            )
+        ),
+        "lodi_5_2"=>array(
+            array(
+                array('','',"Accogli, Dio onnipotente, la nostra lode del mattinol e fa' che ci uniamo un giorno al coro dei tuoi santi per cantare in eterno la tua gloria."),
+                array('ending')
+            )
+        ),
+        "lodi_5_3"=>array(
+            array(
+                array('','',"Donaci, o Padre buono, di godere sempre della presenza del Figlio tuo, percgé seguendo lui, nostro pastore e guida, progrediamo nella via dei tuoi comandamenti."),
+                array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_5_4"=>array(
+            array(
+                array('','',"Concedi al tuo popolo, o Dio, l'abbondanza dei tuoi doni, perché dia sempre fedele agli impegni del suo Battesimo, e vivia nella prosperità e nella pace in attresa della gioia eterna."),
+                array('ending')
+            )
+        ),
+        "terza_5"=>array(
+            array(
+                array('','',"Signore Gesùà Cristo, che all'ora terza fosti condotto al supplizio della croce per la redenzione del mondo, nella tua bontà perdona le nostre colpe passate e preservaci da quelle future."),
+                array('','',"Tu che vivi e regni nei secoli dei secoli.")
+            )
+        ),
+        "sesta_5"=>array(
+            array(
+                array('','',"Signore Gesù Cristo, che all'ora sesta, mentre le tenebre avvolgevano il mondo, fosti inchiodato sulla croce, vittima innocente per la nostra salvezza, donaci sempre qualla luce, che guida gli uomini sulla via della vita eterna."),
+                array('','',"Tu che vivi e regni nei secoli dei secoli.")
+            )
+        ),
+        "nona_5"=>array(
+            array(
+                array('','',"Signore Gesù Cristo, che al ladrone pentito facesti la grazia di passare dalla crice alla gloria del tuo regno, ricevi l'umile confessione delle nostre colpe e nell'ora della morte apri anche a noi la porta del tuo paradiso."),
+                array('','',"Tu che vivi e regni nei secoli dei secoli.")
+            )
+        ),
+        "ves_5_1"=>array(
+            array(
+                array('','',"Concediai tuoi fedeli, o Signore, la sapienza della croce, paerché illuminati dalla passione del tuo Figlio portiuamo generosamente il suo giogo soave."),
+                array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ves_5_2"=>array(
+            array(
+                array('','',"O Dio, che hai rivlòeato il mistero della tua sapienza nella follia della croce, donaci di riconoscere nella passione la gloria del tuo Figlio, perché la sua croce sia sempre per noi fonte di speranza e di pace."),
+                array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ves_5_3"=>array(
+            array(
+                array('','',"Dio Padre onnipotente, che ci hai donato il tuo unico Figlio come prezzo della nostra salvezza, fa' che vivendo in comunione con le sue sofferenze, opartecipiamo un giorno alla gloria della sua risurrezione."),
+                array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ves_5_4"=>array(
+            array(
+                array('','',"Padre misericordioso, che hai redento il mondo con la passione del tuo figlio, fa' che la tua chiesa si offra a te come sacrificio vivo e santo e sperimanti sempre la pienezzs del tuo amore."),
+                array('ending')
+            )
+        ),
+        "comp_5"=>array(
+            array(
+                array('','',"Donaci, o Padre, di unirci nella fede alla norte e sepoltura del tuo Figlio per risorgere con lui alla vita nuova."),
+                array('','',"Egli vive e regna nei secoli dei secoli.")
+            )
+        ),
+        "lodi_6_1"=>array(
+            array(
+                array('','',"Risplenda sempre, o Dio, nei nostriquori la luce del Figlio tuo risorto, perché liberi dalle tenebre del peccato, possiamo giungere alla pienezza della tua gloria."),
+                array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_6_2"=>array(
+            array(
+                array('','',"Ti lodi, o Signore la nostra voce, ti lodi il nostro spirito, e poiché il nostro essere è dono del tuo amore, tutta la nostra vita si trasformi in perenne liturgia di lode."),
+                array('ending')
+            )
+        ),
+        "lodi_6_3"=>array(
+            array(
+                array('','',"O Dio, principio e sorgente della nostra salvezza, fa' che tutta la nostra vita sia una testimonianza del tuo amore, perché possiamo un giorno cantare, la tua lode nell'assemblea festosa dei santi."),
+                array('ending')
+            )
+        ),
+        "lodi_6_4"=>array(
+            array(
+                array('','',"O Dio, verla luce e giorno senza tramonto, accogli la lode mattutina del tuo popolo e fa' che il nostro spirito, libero dalle tenebre della colpa, risplenda nel fulgore della tua venuta."),
+                array('ending')
+            )
+        ),
+        "terza_6"=>array(
+            array(
+                array('','',"Dio, Padre onnipotente, dona la luce dello Spirito Santo a questa tua famiglia riunita nel tuo nome, perché sicura dalle insidie del nemico, di allieti sempre nella tua lode."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "sesta_6"=>array(
+            array(
+                array('','',"O Signore, fiamma di carità, donaci l'ardore del tuo Spirito perché amiamo te sopra ogni cosa e i nostri fratelli nel vicolo del tuo amore."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "nona_6"=>array(
+            array(
+                array('','',"Ascolta Signore, la nostra preghiera per intrcessione della Beata Vergine Maria, e donaci la tua vera pace, perché in tutti i giorni della nostra vita possiamo dedicarci con gioia al tuo servizio e giungere alla beatitudine del tuo regno."),
+                array('','',"Per Cristo nostro Signore.")
+            )
         )
         
     );
@@ -321,7 +436,7 @@ class Orazione {
         $this->actual['proprio']="";
 
         $this->info['testo']=new Saltesto();
-        $this->info['testo']->addEnding($this->ending);
+        $this->info['testo']->addLabel('ending',$this->ending);
 
         $this->build();
     }
@@ -345,9 +460,14 @@ class Orazione {
             else $this->actual['orazione']=$this->actual['ora'].'_'.$this->actual['weekDay'].'_'.$this->actual['quarto'];
         }
 
+        //###############################
+        //domeniche
+        //###############################
+
+
         if ($this->actual['tempo']=='O') {
 
-            //domeniche
+            
         }
 
         /*
@@ -876,6 +996,8 @@ class Orazione {
                 }
             }
         }
+
+        $this->info['testo']->addBlock(array(array('','2',"Amen.")));
     }
 
     function draw() {

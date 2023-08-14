@@ -78,7 +78,8 @@ class Preghiera {
             if ($this->litio->config['contesto']=='solo') {
 
                 $b=array(
-                    array('','','Il Signore ci benedica, ci preservi da ogni male, e ci conduca alla vita eterna, con i nostri fratelli assenti. Amen.')
+                    array('','','Il Signore ci benedica, ci preservi da ogni male, e ci conduca alla vita eterna, con i nostri fratelli assenti.'),
+                    array('','2',"Amen.")
                 );
                 $this->info['testo']->addBlock($b);
             }
