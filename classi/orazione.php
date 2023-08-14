@@ -159,6 +159,149 @@ class Orazione {
                 array('','',"Illumina questa notte, o Signore, perché dopo un sonno tranquillo ci risvegliamo alla luce del nuovo giorno, per camminare lieti nel tuo nome."),
                 array('','',"Per Cristo nostro Signore.")
             )
+        ),
+        "lodi_3_1"=>array(
+            array(
+                array('','',"O Dio, nostra salvezza, che ci hai fatto figli della luce, guidaci nel nostro cammino, perché diventiamo operatori di verità e testimoni del tuo Vangelo."),
+                array('ending')
+            )
+        ),
+        "lodi_3_2"=>array(
+            array(
+                array('','',"Risplende su di noi, Signore, la luce della tua sapienza, perché liberi da ogni compromesso col peccato camminiamo sempre nella via dei tuoi comandamenti."),
+                array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_3_3"=>array(
+            array(
+                array('','',"Illumina, Signore, i nostri sensi con la luce del tuo Spirito, perchùè possiamo sempre essere fedeli a te, che con la tua sapoenza ci hai creati e con la tua provvidenza ci guidi."),
+                array('ending')
+            )
+        ),
+        "lodi_3_4"=>array(
+            array(
+                array('','',"Ricordati, o Dio, della tua alleanza, rinnovata sulla croce col sangue dell'Agnello, e fa' che il tuo popolo, libero da ogni colpa, oprogradisca sempre nella via della salvezza."),
+                array('ending')
+            )
+        ),
+        "terza_3"=>array(
+            array(
+                array('','',"Signiore, §Pa dre santo, Dio fedele, che hai mandato lo Spirito Santo promesso dal tuo Figlio, per riunire l'umanità dispersa a causa del peccato, donaci di essere nel mondo operatori di unità e di pace."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "sesta_3"=>array(
+            array(
+                array('','',"O Dio grande e misericordioso, che ci doni una sosta nella fatica quotidiana, didtie ìni la nostra debolezza, e aiutaci a èprtare a termine il lavoro che abbiamo iniziato."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "nona_3"=>array(
+            array(
+                array('','',"Signore Gesù Cristo, che per la salvezza di tutti gli uomini hai steso le braccia sulla croce, accogli l'offerta delle nostre azioni e fa' che tutta la nostra vita sia segno e testimonianza della tua redenzione."),
+                array('','',"Tu che vivi e regni nei secoli dei secoli.")
+            )
+        ),
+        "ves_3_1"=>array(
+            array(
+                array('','',"Accogli, o Dio, le nostre preghiere, e donaci notte e giorno la tua protezione, perché nelle vicende della vita siamo sorretti dalla forza immutabile del tuo amore."),
+                array('ending')
+            )
+        ),
+        "ves_3_2"=>array(
+            array(
+                array('','',"Santo è il tuo nome, Signore, e la tua misericordia è benedetta nei secoli; guarda con benevolenza il tuo popolo in preghiera e fa' che la sua lode si unisca alla liturgia dei santi nel cielo."),
+                array('ending')
+            )
+        ),
+        "ves_3_3"=>array(
+            array(
+                array('','',"Salga a te, o Dio misericordioso, la voce della tua Chiesa e fa' che il tuo popolo, libero dalla schiavitù del pecato, ti serva per amore e viva sicuro nella tua protezione."),
+                array('ending')
+            )
+        ),
+        "ves_3_4"=>array(
+            array(
+                array('','',"O Dio misericordioso, che colmi dei tuoi beni coloro che hanno fame e sete di giustizia, ricordati della tua famiglia raccolta in preghiera e trasforma lanostra povertà nella ricdhezza del tuo amore."),
+                array('ending')
+            )
+        ),
+        "comp_3"=>array(
+            array(
+                array('','',"Signore Gesù Cristo, mite e umile di cuore, che rendi soave il giogo e lieve il peso dei tuoi fedeli, accogli i propositi e le opere di questa giornata e fa' che il riposo della notte ci renda più generosi nel tuo servizio."),
+                array('','',"Tu che vivi e regni nei secoli dei secoli.")
+            )
+        ),"lodi_4_1"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, esaudidci le èreghiere della tua Chiesa che al mattino, a mezzogiorno e alla sera celebra le tue lodi; disperdi dal nostro cuore le tenebre del male, perché procediamo sicuri verso Cristo, vera luce che non tramonta."),
+                array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_4_2"=>array(
+            array(
+                array('','',"O Dio, vera luce e sorgente della luce, ascolta la nostra preghiera del mattino e fa' che meditando con perseveranza la tua legge, viviamo sempre illuminati dallo splendore della tua verità."),
+                array('ending')
+            )
+        ),
+        "lodi_4_3"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, guarda benigno i popoli ancora immersi nell'ombra della morte, fa' risplendere su di essi il sole di giustizia, che ci ah visitato sorgendo dall'alto, Gesù Cristo nostro Signore."),
+                array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_4_4"=>array(
+            array(
+                array('','',"Donaci, o Dio, una profonda conoscenza del tuo mistero di salvezza, perché senza timore, liberati sall'oppressione dei nostri nemici, ti serviamo in santità e giustizia tutti i nostri giorni."),
+                array('ending')
+            )
+        ),
+        "terza_4"=>array(
+            array(
+                array('','',"O Dio, che all'ora terza hai effuso lo Spirito Santo sugli apostoli, riuniti in preghiera, concedi anche a noi di partecipare al dono della sua grazia."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "sesta_4"=>array(
+            array(
+                array('','',"O Dio onnipotente ed eterrno, in cui non è oscurità né tenebre, fa' risplendere su di noi la tua luce, perché illuminati dalla tua parola, camminiamo verso te con cuore generoso e fedele."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "nona_4"=>array(
+            array(
+                array('','',"Ascolta, o Dio, le niostre preghiere, e donaci di imitare la passione del tuo Figlio per portare con serena fortezza la nostra croce quotidiana."),
+                array('','',"Per Cristo nostro Signore.")
+            )
+        ),
+        "ves_4_1"=>array(
+            array(
+                array('','',"O Dio, che illumini ka notte più oscura e dopo le tenebre fai sorgere nel mondo la luce, donaci di trascorrere quasta notte lontano dalle insidie del maligno, perché all'alba del nuovo giorno èpssoamo cnatare con la Chiesa le tue lodi."),
+                array('ending')
+            )
+        ),
+        "ves_4_2"=>array(
+            array(
+                array('','',"Accogli, Signore misericordioso, la nostra lode della sera: fa' che il nostro cuore non si stanchi mai di meditare la tua legge, perché otteniamo il premio promesso ai tuoi fedeli nella vita eterna."),
+                array('ending')
+            )
+        ),
+        "ves_4_3"=>array(
+            array(
+                array('','',"Accogli, Signore, al tramonto di questo giorno, il nopstro umile ringraziamento, e nella tua misericordia dimentica le colpe da noi commesse per la fragilità della condizione umana."),
+                array('ending')
+            )
+        ),
+        "ves_4_4"=>array(
+            array(
+                array('','',"Accogli, o Dio, la nostra preghiera al tramonto di questo giorno e fa' che seguendo con perseveranza l'esempio del tuo Figlio, raccogliamo frutti di giustizia e di pace."),
+                array('','',"Egli è Dio e vive e regna con te nei decoli dei secoli.")
+            )
+        ),
+        "comp_4"=>array(
+            array(
+                array('','',"Signore Dio noistro, donaci un sonno tranquillo, perché ristorati dalle fatiche del giorno, ci dedichiamo corpo e anima al tuo servizio."),
+                array('','',"Per Cristo nostro Signore.")
+            )
         )
         
     );
