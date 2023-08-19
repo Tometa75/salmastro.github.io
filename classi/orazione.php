@@ -16,6 +16,17 @@ class Orazione {
                 array('','',"Per Cristo nostro Signore")
             )
         ),
+        "comp1_0"=>array(
+            array(
+                array('','',"Veglia su di noi in questa notte, o Signore: la tua mano ci ridesti al nuovo giorno perché possiamo celebrare con gioia la risurrezione del tuo Figlio, che vive e regna nei secoli dei secoli."),
+            )
+        ),
+        "comp_0"=>array(
+            array(
+                array('','',"Salga te, o Padre, la nostra preghiera al termine di questo mondo, memoriale della risurrezione de Signore: la tua grazia ci conceda di riposare in pace, sicuri da ogni male, e di risvegliarci nella gioia, per cantare la tua lode."),
+                array('','',"Per Cristo nostro Signore")
+            )
+        ),
         "lodi_1_1"=>array(
             array(
                 array('','',"Ispira le nostre azioni, Signore, e accompagnale con il tuo aiuto: perché ogni nosra attività abbia da te il suo inizio e in te il suo compimento."),
@@ -417,7 +428,157 @@ class Orazione {
                 array('','',"Ascolta Signore, la nostra preghiera per intrcessione della Beata Vergine Maria, e donaci la tua vera pace, perché in tutti i giorni della nostra vita possiamo dedicarci con gioia al tuo servizio e giungere alla beatitudine del tuo regno."),
                 array('','',"Per Cristo nostro Signore.")
             )
-        )
+        ),
+        "sun_1"=>array(
+            array(
+                array('','',"Ispira nella tua paterna bontà, o Signore, i pensieri e i propositi del tuo popolo in preghiera, perché veda ciò che deve fare e abbia la forza di compiere ciò che ha veduto."),
+                array('ending',)
+            )
+        ),
+        "sun_2"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che governi il cielo e la terra, ascolta con bontà le preghuere dek tuo popolo e dona ai nostri giorni la tua pace."),
+                array('ending',)
+            )
+        ),
+        "sun_3"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, guida i nostri atti secondo la tua voklontà, perché nel nome del tuo diletto Figlio portiamo frutti generosi di opore buone."),
+                array('ending',)
+            )
+        ),
+        "sun_4"=>array(
+            array(
+                array('','',"Dio grande e misericordioso, concedi a noi tuoi fedeli di adorarti con tutta l'anima e di amare i nistri fratelli nella carità del Cristo."),
+                array('','',"Egli è Dio e vive e regna con te nei secoli dei secoli.",)
+            )
+        ),
+        "sun_5"=>array(
+            array(
+                array('','',"Custodisci sempre con paterna bontà la tua famiglia, Signore, e poiché unico fondamento della nostra speranza è la grazia che viene da te, aiutaci sempre con la tua protezione."),
+                array('ending',)
+            )
+        ),
+        "sun_6"=>array(
+            array(
+                array('','',"O Dio, Che hai promesso di essere presente in coloro chje ti amano e con cuore retto e sincero custodiscono la tua parola, rendici degni di diventare tua stabile dimora."),
+                array('ending',)
+            )
+        ),
+        "sun_7"=>array(
+            array(
+                array('','',"Il tuo aiuto, Padre misericordioso, ci rnda sempre attenti alla voce dello Spirito, perché possiamo conoscere ciò che è conforme alla tua volontà e attuarlo nelle parole e nelle opere."),
+                array('ending',)
+            )
+        ),
+        "sun_8"=>array(
+            array(
+                array('','',"Concedi, Signore, che il corso degli eventi nel mondo si svolga secondo la tua volontà nella giustizia e nella pace, e la tua Chiesa si dedichi con serena fiducia al tuo servizio."),
+                array('ending',)
+            )
+        ),
+        "sun_9"=>array(
+            array(
+                array('','',"O Dio, che nella tua provvidenza tutto disponi seconso il tuo disegno di salvezza, allontana da noi ogni male e dona ciò che giova al nostro vero bene."),
+                array('ending',)
+            )
+        ),
+        "sun_10"=>array(
+            array(
+                array('','',"O Dio, sorgente di ogni bene, ispiraci propositi giusti e santi e donaci il tuo aiuto, perché possiamo attuarli nella nostra vita."),
+                array('ending',)
+            )
+        ),
+        "sun_11"=>array(
+            array(
+                array('','',"O Dio, fortezza di chi spera in te, ascolta benigno le nostre invocazioni, e poiché nella nostra debolezza nulla possizmo senza il tuo aiuto, soccorrici con la tua grazia, perché fedeli ai tuoi comandamenti possiamo piacerti nelle intenzioni e nelle opere."),
+                array('ending',)
+            )
+        ),
+        "sun_12"=>array(
+            array(
+                array('','',"Dona al tuo popolo , o Padre, di vivere sempre nella venerazione e nell'amore per il tuo santo nome, poiché tu noin privi mai della tua guida coloro che hai stabilito sulla roccia del tuo amore."),
+                array('ending',)
+            )
+        ),
+        "sun_13"=>array(
+            array(
+                array('','',"O Dio, che ci hai resi figli della lucecon il tuo Spirito di adozione, fa' che non ricadiamo nelle tenebre dell'errore, ma che restiamo sempre luminosi nello splendore della verità."),
+                array('ending',)
+            )
+        ),
+        "sun_14"=>array(
+            array(
+                array('','',"O Dio, che cion l'umiliazione del tuo Figlio hai risollevato l'umanità dalla sua caduta, sonaci una rinnovata gioia pasquale, perché liberi dall'oppressione della colpa, partecipiamo alla felicità eterna."),
+                array('ending',)
+            )
+        ),
+        "sun_15"=>array(
+            array(
+                array('','',"O Dio, che mostri agli erranti la luce della tua verità, perché possano tornare sulla retta via, concedi a tutti coloro che si professano cristiani di respingere ciò che è contrario a quasto nome e di seguire ciò che gli è conforme."),
+                array('ending',)
+            )
+        ),
+        "sun_16"=>array(
+            array(
+                array('','',"Sii propizio a noi tuoi fedeli, Signore, e donaci i tespri della tua grazia, perché ardenti di speranza, fede e carità, restiamo sempre fedeli ai tuoi comandamenti."),
+                array('ending',)
+            )
+        ),
+        "sun_17"=>array(
+            array(
+                array('','',"O Dio, nostra forza e nostra speranza, senza di te nulla esiste di valido e di santo; effondi su di noi la tua misericordia perché, da te sorretti e guidati, usiamo saggiamente dei beni terreni nella continua ricerca dei beni eterni."),
+                array('ending',)
+            )
+        ),
+        "sun_18"=>array(
+            array(
+                array('','',"Mostraci la tua continua benevolenza, o Padre, e assisti il tuo popolo, che ti riconosce suo pastore e guida; rinnova l'opera della tua creazione e custodisci ciò che hai rinnovato."),
+                array('ending',)
+            )
+        ),
+        "sun_19"=>array(
+            array(
+                array('','',"Dio onnipotente e d eterno, che ci dai il privilegio di chiamarti Padre, fa' crescere in n oi lo spirito di figli adottivi, perché possiamo entrare nell'eredità che ci hai promesso."),
+                array('ending',)
+            )
+        ),
+        "sun_20"=>array(
+            array(
+                array('','',"O Dio, che hai preparato beni invisibili per coloro che ti amano, infondi in noi la dolcezza del tuo amore, perché amandoti in ogni cosa e sopra ogni cosa, otteniamo i beni da te promessi, che superano ogni desiderio."),
+                array('ending',)
+            )
+        ),
+        "sun_21"=>array(
+            array(
+                array('','',"O Dio, che unisci in un solo volere le menti dei fedeli, concedi al tuo popolo di amare ciò che comandi e desiderare ciò che prometti, perché tra le vicende del mondo là siano fissi i nostri cuori dove è la vera gioia."),
+                array('ending',)
+            )
+        ),
+        "sun_22"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, unaca fonte di ogni dono perfetto, suscita in noi l'amore per te e ravviva la nostra fede, perché si sviluppi in noi il germe del bene e con il tuo aiuto maturi fino alla sua pienezza."),
+                array('ending',)
+            )
+        ),
+        "sun_23"=>array(
+            array(
+                array('','',"O Padre, che ci hai donato il salvatore e lo Spirito Santo, guarda con benevolenza i tuoi figli di adozione, perché a tutti i credenti in Cristo sia data la vera libertà e l'eredità eterna."),
+                array('ending',)
+            )
+        ),
+        "sun_24"=>array(
+            array(
+                array('','',"O Dio, che hai creato e governi l'universo, fa' che spoerimentiamo la potenza della tua misericordia, per dedicarci con tutte le forze al tuo servizio."),
+                array('ending',)
+            )
+        ),
+        "sun_25"=>array(
+            array(
+                array('','',"O Dio, che nell'amore verso di te e verso il prossimo hai posto il fondamento di tutta la legge, fa' che osservando i tuoi comandamenti  meritiamo di entrare nella vita eterna."),
+                array('ending',)
+            )
+        ),
         
     );
 
@@ -449,19 +610,38 @@ class Orazione {
             elseif ($this->actual['ora']=='sesta') $this->actual['orazione']='sesta_'.$this->actual['weekDay'];
             elseif ($this->actual['ora']=='nona') $this->actual['orazione']='nona_'.$this->actual['weekDay'];
             elseif ($this->actual['ora']=='comp' || $this->actual['ora']=='comp2') {
-                if ($this->actual['fesCode']!="" && $this->actual['festa'][$this->actual['fesCode']]['tipo']=='S') {
+                if ( ($this->actual['evCode']!="" && $this->actual['evento'][$this->actual['evCode']]['tipo']=='S') || ($this->actual['fesCode']!="" && $this->actual['festa'][$this->actual['fesCode']]['tipo']=='S')) {
                     $this->actual['orazione']='comp_S';
                 }
                 else {
                     $this->actual['orazione']='comp_'.$this->actual['weekDay'];
                 }
-
             }
             else $this->actual['orazione']=$this->actual['ora'].'_'.$this->actual['weekDay'].'_'.$this->actual['quarto'];
         }
 
         //###############################
         //domeniche
+        else {
+            if ($this->actual['ora']=='comp1') {
+                if ( ($this->actual['evCode']!="" && $this->actual['evento'][$this->actual['evCode']]['tipo']=='S') || ($this->actual['fesCode']!="" && $this->actual['festa'][$this->actual['fesCode']]['tipo']=='S')) {
+                    $this->actual['orazione']='comp_S';
+                }
+                else {
+                    $this->actual['orazione']='comp1_'.$this->actual['weekDay'];
+                }
+            }
+            elseif ($this->actual['ora']=='comp') {
+                if ( ($this->actual['evCode']!="" && $this->actual['evento'][$this->actual['evCode']]['tipo']=='S') || ($this->actual['fesCode']!="" && $this->actual['festa'][$this->actual['fesCode']]['tipo']=='S')) {
+                    $this->actual['orazione']='comp_S';
+                }
+                else {
+                    $this->actual['orazione']='comp_'.$this->actual['weekDay'];
+                }
+            }
+            else $this->actual['orazione']='sun_'.$this->actual['settimana'];
+
+        }
         //###############################
 
 
