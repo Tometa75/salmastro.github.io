@@ -579,10 +579,213 @@ class Orazione {
                 array('ending',)
             )
         ),
-        
+        "sun_26"=>array(
+            array(
+                array('','',"O Dio, che riveli la tua onnipotenza soprattutto con la midericordia e il perdono, continia a effojndere su di noi la tua grazia, perché, camminando verso i beni da te promessi, diventiamo partecipi della felicità eterna."),
+                array('ending',)
+            )
+        ),
+        "sun_27"=>array(
+            array(
+                array('','',"O Dio, fonte di ogni bene, che esaudisci le preghiere del tuo popolo al di la di ogni desiderio e di ogni merito, effondi su di noi la tua misericordia: perdona ciò che la coscenza teme e aggiungi ciò che la preghiera nnon osa sperare."),
+                array('ending',)
+            )
+        ),
+        "sun_28"=>array(
+            array(
+                array('','',"Ci precede a ci accompagni sempre la tua grazia, Signore, perché, sorretti dal tuo eterno aiuto, non ci stanchiamo mai di operare il bene."),
+                array('ending',)
+            )
+        ),
+        "sun_29"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, crea in noi un cuore generoso e fedele, perché possiamo sempre servirti con lealtà e purezza di spirito."),
+                array('ending',)
+            )
+        ),
+        "sun_30"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, accresci in noi la fede, la speranza e la carità, e perché possiamo ottrenere ciò che prpmetti, fa' che amiamo ciò che comandi."),
+                array('ending',)
+            )
+        ),
+        "sun_31"=>array(
+            array(
+                array('','',"Dio onnipotente e misericordioso, tu ssolo puoi dare ai tuoi fedeli il dono di servirti in modo lodevole e degno; fa' che camminiamo senza ostascoli verso i beni da te promessi."),
+                array('ending',)
+            )
+        ),
+        "sun_32"=>array(
+            array(
+                array('','',"Dio grande e misericordioso, allontana ogni ostacolo nel nostro cammino verso di te, perché, nella serenità del corpo e dello spirito, possiamo dedicarci liberamente al tuo servizio."),
+                array('ending',)
+            )
+        ),
+        "sun_33"=>array(
+            array(
+                array('','',"Il tuo aiuto, Signore, ci renda sempre lieti nel tuo servizio, perché solo nella dedizione a te, fonte di ogni bene, possiamo avere felicità piena e duratura."),
+                array('ending',)
+            )
+        ),
+        "sun_34"=>array(
+            array(
+                array('','',"Ridesta, Signore, la volontà dei tuoi fedeli perché, collaborando con impegno alla tua opera di salvezza, ottengano in misura sempre più abbondante i doni della tua misericordia."),
+                array('ending',)
+            )
+        ),
+        "A_1_0"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, susciata in noi la volontà di andare inconrtro con le buone opere al tuo Cristo che viene, perché egli ci chiami accanto a sé nella gloria a possedere il regno dei cieli."),
+                array('ending',)
+            )
+        ),
+        "A_1_1"=>array(
+            array(
+                array('','',"Il tuo aiuto, o Padre, ci renda perseveranti nel bene in attesa del Cristo tuo Figlio; quando egli verrà e busserà alla porta ci trovi vigilanti nella preghiera, operosi nella carità fraterna ed esultanti nella lode."),
+                array('ending',)
+            )
+        ),
+        "A_1_2"=>array(
+            array(
+                array('','',"Accogli, o Padre, le preghiere della tua Chiesa e soccorrici nelle fatiche enelle prove della vita; la venuta del Cristo tuo Figlio ci liberi dal male antico che è in noi e ci conforti con la sua presenza."),
+                array('ending',)
+            )
+        ),
+        "A_1_3"=>array(
+            array(
+                array('','',"Dio grande e misericordioso, prepara con la tua potenza il nostro cuore a incontrare i Cristo che viene, perché ci trovi degni di partecipare al banchetto della vita e ci serva egli stesso nel suo avvento glorioso."),
+                array('ending',)
+            )
+        ),
+        "A_1_4"=>array(
+            array(
+                array('','',"Ridesta la tua potenza, Signore, e con grande forza soccorri i tuoi fedeli; la tua grazia vinca le resistenze del peccato e affretti il momento della salvezza."),
+                array('ending',)
+            )
+        ),
+        "A_1_5"=>array(
+            array(
+                array('','',"Ridesta la tua potenza e vieni, Signore: nei pericoli che ci minacciano a causa dei nostri peccati la tua protezione ci liberi, il tuo soccorso ci salvi."),
+                array('','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A_1_6"=>array(
+            array(
+                array('','',"O Dio, che hai mandato in quasto mondo il tuo unico Figlio a liberare l'uomo dalla schiavitù del peccato, cincedi a noi, che attnediamo con fede il dono del tuo amore, di raggiungerre il premio della vera libertà."),
+                array('ending')
+            )
+        )
     );
 
     protected $proprio=array(
+        "BAT"=>array(
+            array(
+                array('','',"Padre onnipotente ed eterno, che dopo il battesimo nel fiume Giordano proclamasti il Cristo tuo diletto Figlio, mentra discdendeva su di lui lo Spirito Santo, concedi ai tuoi figli, rinati dall'acqua e dallo Spirito, di vivere sempre nel tuo amore."),
+                array('ending',)
+            )
+        ),
+        "PEN"=>array(
+            array(
+                array('','',"O Padre, che nel mistero della Pentecoste sasntifichi la tua Chiesa in ogni popolo e nazione, diffondi fino ai confini della terra i doni dello Spirito Santo, e continua oggi, nella comunità dei credenti, i prodigi che hai operato agli inizi della predecazione del Vangelo."),
+                array('ending',)
+            )
+        ),
+        "SCG"=>array(
+            array(
+                array('','',"O Padre, che nel Cuore del tuo dilettissimo Figlio ci dai la gioia di celebrare le grandi opere del tuo amore per noi, fa' ìche da quasta fonte inedauribile attingiamo l'abbondanza dei tuoi doni."),
+                array('ending',)
+            )
+        ),
+        "TRI"=>array(
+            array(
+                array('','',"O Dio Padre, che hai mandato nel mondo il tuo Figlio, Parola di verità, e lo Spirito santificatore per rivelare agli uomini il mistero della tua vita, fa' che nalla professione della vera fede riconosciamo la gloria della Trinità e adoriamo l'unico Dio in tre persone."),
+                array('ending',)
+            )
+        ),
+        "COD"=>array(
+            array(
+                array('','',"Signiore Gesù Cristo, che nel mirabikle sacramento dellEucaristia ci hai lasciato il memoriale della tua Pasqua, fa' che adoriamo con viva fede il danto mistero del tuo Corpo e del tuo Sangue, per sentire dsempre in noi i benefici della rendenzione."),
+                array('','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "GRE"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che hai voluto rinnovare tutte le cose in Cristo tuo Figlio Re dell'universo, fa' che ogni creatura, libera dalla schiavitù del peccato, ti serva e ti lodi senza fine."),
+                array('ending',)
+            )
+        ),
+        "0202a"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, guarda i tuoi fedeli riuniti nella festa della Presentazione al tempio del tuo unico Figlio fatto uomo, e concedi anche a noi di essere presentati a te pienamente rinnovati nello spirito."),
+                array('ending',)
+            )
+        ),
+        "0210a"=>array(
+            array(
+                array('','',"O Dio, che hai rivestito di luminosa innocenza la santa vergine Scolastica, fa' che possiamo anche noi piacerti nella trasparente fedeltà quotidiana della vita monastica, per poter godere di te un giorno nel cielo, con l'esultante coro delle vergini."),
+                array('ending',)
+            )
+        ),
+        "0319a"=>array(
+            array(
+                array('','',"Dio onnipotente, che hai voluto affidare gli inizi della nostra redenzione alla custidia premurosa di san Giuseppe, per sua intercessione concedi alla tua Chiesa di cooperare fedelmente al compimento dell'opera di salvezza."),
+                array('ending',)
+            )
+        ),
+        "0321a"=>array(
+            array(
+                array('','',"O Dio, che nel santo abate Benedetto hai fatto un maestro insigne di perfezione evangelica, ricolmandolo dello Spirito del tuo Figlio, concedi a noi, che celebroamo il suo glorioso transito, di anelare con tutte le forze alla pienezza della carità e della vita eterna."),
+                array('ending',)
+            )
+        ),
+        "0325a"=>array(
+            array(
+                array('','',"O Padre, tu hai voluto che il tuo Verbo si facesse uomo nel grmbo della Vergine Maria: concedi a noi, che adoriamo il mistero del nostro Redentore, vero Dio e vero uomo, di essere paertecipi della sua vita immortale."),
+                array('ending',)
+            )
+        ),
+        "0624a"=>array(
+            array(
+                array('','',"O Padre, che hai mandato san Giovanni Battista a preparare a Cristo Signiore un popolo ben sisposto, allieta la tua Chiesa con l'abbondanza dei dponi dello Aòirito, e guidala sulla vua della salvezza e della pace."),
+                array('ending',)
+            )
+        ),
+        "0629a"=>array(
+            array(
+                array('','',"O Dio, che allieti la tua Chiesa cona la solennità dei santi Pietro e Paolo, fa' che al tua Chiesa segua sempre l'insegnamento degli apostoli dai quali ha ricevuto il primo annunzio della fede."),
+                array('ending',)
+            )
+        ),
+        "0711a"=>array(
+            array(
+                array('','',"O Dio, che hai scelto san Benedetto abate e lo hai costituito maestro di coloro che dedicano la vita al tuo servizio, concedi anche a noi di non anteporre nulla all'amore del Cristo e di correre con cuore libero e ardente nella via dei tuoi precetti."),
+                array('ending',)
+            )
+        ),
+        "0806a"=>array(
+            array(
+                array('','',"O Dio, che nella gloriosa Trasfigurazione del Cristo Signore, ha iconfermato i misteri della fede cona la testimonianza della legge e dei profeti e hai mirabilmente preannunziato la nostra definitiva adozione a tuoi figli, fa' che ascoltiamo la parola del tuo amatissimo Figlio per diventare coeredi della sua vita immortale."),
+                array('ending',)
+            )
+        ),
+        "0815a"=>array(
+            array(
+                array('','',"O Dio onnipotente ed eterno, che hai innalzato alla gloria del cielo in corpo ed anima l'immacolata Vergine Maria, madre di Cristo tuo Figlio, fa' che viviamo in questo mondo costantemente rivolti ai beni eterni, per condividere la sua stessa gloria."),
+                array('ending',)
+            )
+        ),
+        "0914a"=>array(
+            array(
+                array('','',"O Padre, che ahi voluto salvare gli uomini con la Croce del Cristo tuo Figlio, concedi a noi cha abbiamo conosciuto in terra il suo mistero d'amore, di godere in cielo i frutti della redenzione."),
+                array('ending',)
+            )
+        ),
+        "1101a"=>array(
+            array(
+                array('','',"Dio onniportente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'uniaca festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri, fratelli l'abbondanza della tua misericordia."),
+                array('ending',)
+            )
+        )
         
     );
 
@@ -647,111 +850,89 @@ class Orazione {
 
         if ($this->actual['tempo']=='O') {
 
-            
-        }
-
-        /*
-
-        
-
-            //di base corrisponde al salterio
-
-            //Presentazione del Signore
+            //presentazione del Signore
             if ($this->actual['evCode']=='0202a') {
-                if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_0202a';
-                elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_0202a';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='lodi_1';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0202a';
             }
             //santa Scolastica
             elseif ($this->actual['evCode']=='0210a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1651';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1661';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0210a';
             }
             //San Giuseppe sposo della B.V. Maria
             elseif ($this->actual['evCode']=='0319a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0319a';
             }
             //Transito S. Benedetto
             elseif ($this->actual['evCode']=='0321a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1622';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1631';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0321a';
             }
             //Annunciazione del Signore
             elseif ($this->actual['evCode']=='0325a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0325a';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0325a';
             }
             //Natività di San Giovanni Battista
             elseif ($this->actual['evCode']=='0624a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_0624a';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0624a';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0624a';
             }
             //Santi Pietro e Paolo apostoli
             elseif ($this->actual['evCode']=='0629a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1527';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0629a';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0629a';
             }
             //Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa
             elseif ($this->actual['evCode']=='0711a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1622';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1631';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0711a';
             }
             //Trasfigurazione del Signore
             elseif ($this->actual['evCode']=='0806a') {
-                if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_0914a';
-                elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_0914a';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0806a';
             }
             //Assunzione della Beata Vergine Maria
             elseif ($this->actual['evCode']=='0815a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_0815a';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1498';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0815a';
             }
             //Esaltazione della Santa Croce
             elseif ($this->actual['evCode']=='0914a') {
-                if ($this->actual['ora']=='ves2') $this->actual['proprio']='ves_PAL';
-                elseif ($this->actual['ora']=='ves1' && $this->actual['weekDay']==0) $this->actual['proprio']='ves_PAL';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='lodi_1';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0914a';
             }
             //Tutti i Santi
             elseif ($this->actual['evCode']=='1101a') {
-                //l'inno indicato è p1682 ma è uguale a quello a p1631
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['inno']='p1631';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='1101a';
             }
             //Battesimo del Signore
             elseif ($this->actual['evCode']=='BAT') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_BAT';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='ves_BAT';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='BAT';
             }
             //Pentecoste
             elseif ($this->actual['evCode']=='PEN') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_PEN';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_PEN';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='PEN';
             }
             //Sacratissimo cuore di Gesù
             elseif ($this->actual['evCode']=='SCG') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_SCG';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='SCG';
             }
             //Ss. Trinità
             elseif ($this->actual['evCode']=='TRI') {               
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_TRI';
-                elseif ($this->actual['ora']=='ves1') $this->actual['proprio']='ves1_TRI';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='TRI';
             }
             //Corpus Domini
             elseif ($this->actual['evCode']=='COD') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_COD';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='ves_SS4';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='COD';
             }
             //Nostro Signore Gesù Cristo Re dell'Universo
             elseif ($this->actual['evCode']=='GRE') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_GRE';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_GRE';
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='GRE';
             }
         }
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='A') {
+            $this->actual['orazione']='A_'.$this->actual['settimana'].'_'.$this->actual['weekDay'];
+        }
+
+        /*
+
+
+        
 
             if (substr($this->actual['today'],4,4)<'1217') {
                 if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p9';
