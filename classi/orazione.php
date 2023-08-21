@@ -432,19 +432,19 @@ class Orazione {
         "sun_1"=>array(
             array(
                 array('','',"Ispira nella tua paterna bontà, o Signore, i pensieri e i propositi del tuo popolo in preghiera, perché veda ciò che deve fare e abbia la forza di compiere ciò che ha veduto."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_2"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, che governi il cielo e la terra, ascolta con bontà le preghuere dek tuo popolo e dona ai nostri giorni la tua pace."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_3"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, guida i nostri atti secondo la tua voklontà, perché nel nome del tuo diletto Figlio portiamo frutti generosi di opore buone."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_4"=>array(
@@ -456,211 +456,211 @@ class Orazione {
         "sun_5"=>array(
             array(
                 array('','',"Custodisci sempre con paterna bontà la tua famiglia, Signore, e poiché unico fondamento della nostra speranza è la grazia che viene da te, aiutaci sempre con la tua protezione."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_6"=>array(
             array(
                 array('','',"O Dio, Che hai promesso di essere presente in coloro chje ti amano e con cuore retto e sincero custodiscono la tua parola, rendici degni di diventare tua stabile dimora."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_7"=>array(
             array(
                 array('','',"Il tuo aiuto, Padre misericordioso, ci rnda sempre attenti alla voce dello Spirito, perché possiamo conoscere ciò che è conforme alla tua volontà e attuarlo nelle parole e nelle opere."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_8"=>array(
             array(
                 array('','',"Concedi, Signore, che il corso degli eventi nel mondo si svolga secondo la tua volontà nella giustizia e nella pace, e la tua Chiesa si dedichi con serena fiducia al tuo servizio."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_9"=>array(
             array(
                 array('','',"O Dio, che nella tua provvidenza tutto disponi seconso il tuo disegno di salvezza, allontana da noi ogni male e dona ciò che giova al nostro vero bene."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_10"=>array(
             array(
                 array('','',"O Dio, sorgente di ogni bene, ispiraci propositi giusti e santi e donaci il tuo aiuto, perché possiamo attuarli nella nostra vita."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_11"=>array(
             array(
                 array('','',"O Dio, fortezza di chi spera in te, ascolta benigno le nostre invocazioni, e poiché nella nostra debolezza nulla possizmo senza il tuo aiuto, soccorrici con la tua grazia, perché fedeli ai tuoi comandamenti possiamo piacerti nelle intenzioni e nelle opere."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_12"=>array(
             array(
                 array('','',"Dona al tuo popolo , o Padre, di vivere sempre nella venerazione e nell'amore per il tuo santo nome, poiché tu noin privi mai della tua guida coloro che hai stabilito sulla roccia del tuo amore."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_13"=>array(
             array(
                 array('','',"O Dio, che ci hai resi figli della lucecon il tuo Spirito di adozione, fa' che non ricadiamo nelle tenebre dell'errore, ma che restiamo sempre luminosi nello splendore della verità."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_14"=>array(
             array(
                 array('','',"O Dio, che cion l'umiliazione del tuo Figlio hai risollevato l'umanità dalla sua caduta, sonaci una rinnovata gioia pasquale, perché liberi dall'oppressione della colpa, partecipiamo alla felicità eterna."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_15"=>array(
             array(
                 array('','',"O Dio, che mostri agli erranti la luce della tua verità, perché possano tornare sulla retta via, concedi a tutti coloro che si professano cristiani di respingere ciò che è contrario a quasto nome e di seguire ciò che gli è conforme."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_16"=>array(
             array(
                 array('','',"Sii propizio a noi tuoi fedeli, Signore, e donaci i tespri della tua grazia, perché ardenti di speranza, fede e carità, restiamo sempre fedeli ai tuoi comandamenti."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_17"=>array(
             array(
                 array('','',"O Dio, nostra forza e nostra speranza, senza di te nulla esiste di valido e di santo; effondi su di noi la tua misericordia perché, da te sorretti e guidati, usiamo saggiamente dei beni terreni nella continua ricerca dei beni eterni."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_18"=>array(
             array(
                 array('','',"Mostraci la tua continua benevolenza, o Padre, e assisti il tuo popolo, che ti riconosce suo pastore e guida; rinnova l'opera della tua creazione e custodisci ciò che hai rinnovato."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_19"=>array(
             array(
                 array('','',"Dio onnipotente e d eterno, che ci dai il privilegio di chiamarti Padre, fa' crescere in n oi lo spirito di figli adottivi, perché possiamo entrare nell'eredità che ci hai promesso."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_20"=>array(
             array(
                 array('','',"O Dio, che hai preparato beni invisibili per coloro che ti amano, infondi in noi la dolcezza del tuo amore, perché amandoti in ogni cosa e sopra ogni cosa, otteniamo i beni da te promessi, che superano ogni desiderio."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_21"=>array(
             array(
                 array('','',"O Dio, che unisci in un solo volere le menti dei fedeli, concedi al tuo popolo di amare ciò che comandi e desiderare ciò che prometti, perché tra le vicende del mondo là siano fissi i nostri cuori dove è la vera gioia."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_22"=>array(
             array(
                 array('','',"O Dio, nostro Padre, unaca fonte di ogni dono perfetto, suscita in noi l'amore per te e ravviva la nostra fede, perché si sviluppi in noi il germe del bene e con il tuo aiuto maturi fino alla sua pienezza."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_23"=>array(
             array(
                 array('','',"O Padre, che ci hai donato il salvatore e lo Spirito Santo, guarda con benevolenza i tuoi figli di adozione, perché a tutti i credenti in Cristo sia data la vera libertà e l'eredità eterna."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_24"=>array(
             array(
                 array('','',"O Dio, che hai creato e governi l'universo, fa' che spoerimentiamo la potenza della tua misericordia, per dedicarci con tutte le forze al tuo servizio."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_25"=>array(
             array(
                 array('','',"O Dio, che nell'amore verso di te e verso il prossimo hai posto il fondamento di tutta la legge, fa' che osservando i tuoi comandamenti  meritiamo di entrare nella vita eterna."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_26"=>array(
             array(
                 array('','',"O Dio, che riveli la tua onnipotenza soprattutto con la midericordia e il perdono, continia a effojndere su di noi la tua grazia, perché, camminando verso i beni da te promessi, diventiamo partecipi della felicità eterna."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_27"=>array(
             array(
                 array('','',"O Dio, fonte di ogni bene, che esaudisci le preghiere del tuo popolo al di la di ogni desiderio e di ogni merito, effondi su di noi la tua misericordia: perdona ciò che la coscenza teme e aggiungi ciò che la preghiera nnon osa sperare."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_28"=>array(
             array(
                 array('','',"Ci precede a ci accompagni sempre la tua grazia, Signore, perché, sorretti dal tuo eterno aiuto, non ci stanchiamo mai di operare il bene."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_29"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, crea in noi un cuore generoso e fedele, perché possiamo sempre servirti con lealtà e purezza di spirito."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_30"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, accresci in noi la fede, la speranza e la carità, e perché possiamo ottrenere ciò che prpmetti, fa' che amiamo ciò che comandi."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_31"=>array(
             array(
                 array('','',"Dio onnipotente e misericordioso, tu ssolo puoi dare ai tuoi fedeli il dono di servirti in modo lodevole e degno; fa' che camminiamo senza ostascoli verso i beni da te promessi."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_32"=>array(
             array(
                 array('','',"Dio grande e misericordioso, allontana ogni ostacolo nel nostro cammino verso di te, perché, nella serenità del corpo e dello spirito, possiamo dedicarci liberamente al tuo servizio."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_33"=>array(
             array(
                 array('','',"Il tuo aiuto, Signore, ci renda sempre lieti nel tuo servizio, perché solo nella dedizione a te, fonte di ogni bene, possiamo avere felicità piena e duratura."),
-                array('ending',)
+                array('ending')
             )
         ),
         "sun_34"=>array(
             array(
                 array('','',"Ridesta, Signore, la volontà dei tuoi fedeli perché, collaborando con impegno alla tua opera di salvezza, ottengano in misura sempre più abbondante i doni della tua misericordia."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_0"=>array(
             array(
                 array('','',"O Dio, nostro Padre, susciata in noi la volontà di andare inconrtro con le buone opere al tuo Cristo che viene, perché egli ci chiami accanto a sé nella gloria a possedere il regno dei cieli."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_1"=>array(
             array(
                 array('','',"Il tuo aiuto, o Padre, ci renda perseveranti nel bene in attesa del Cristo tuo Figlio; quando egli verrà e busserà alla porta ci trovi vigilanti nella preghiera, operosi nella carità fraterna ed esultanti nella lode."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_2"=>array(
             array(
                 array('','',"Accogli, o Padre, le preghiere della tua Chiesa e soccorrici nelle fatiche enelle prove della vita; la venuta del Cristo tuo Figlio ci liberi dal male antico che è in noi e ci conforti con la sua presenza."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_3"=>array(
             array(
                 array('','',"Dio grande e misericordioso, prepara con la tua potenza il nostro cuore a incontrare i Cristo che viene, perché ci trovi degni di partecipare al banchetto della vita e ci serva egli stesso nel suo avvento glorioso."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_4"=>array(
             array(
                 array('','',"Ridesta la tua potenza, Signore, e con grande forza soccorri i tuoi fedeli; la tua grazia vinca le resistenze del peccato e affretti il momento della salvezza."),
-                array('ending',)
+                array('ending')
             )
         ),
         "A_1_5"=>array(
@@ -674,6 +674,84 @@ class Orazione {
                 array('','',"O Dio, che hai mandato in quasto mondo il tuo unico Figlio a liberare l'uomo dalla schiavitù del peccato, cincedi a noi, che attnediamo con fede il dono del tuo amore, di raggiungerre il premio della vera libertà."),
                 array('ending')
             )
+        ),
+        "A_2_0"=>array(
+            array(
+                array('','',"Dio grande e misericordioso, fa' che il nostro impegno nel mondo non ci  ostacoli nel cammino verso il tuo Figlio, ma la sapienza che viene dal cielo ci guidi alla comunione con il Cristo, nostro Salvatore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A_2_1"=>array(
+            array(
+                array('','',"Salga a te, o Padre, la preghiera del tuo popolo, perché nell'attesa fervida e operosa si prepari a clebrare con vera fede il grande mistero dell'incarnazione del tuo unico Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A_2_2"=>array(
+            array(
+                array('','',"O Dio, che hai fatto giungere ai confini della terra il lieto annunzio del Salvartore, fa' che tutti gli uomini accolgano con sincera esultanza la gloria del suo Natale."),
+                array('ending')
+            )
+        ),
+        "A_2_3"=>array(
+            array(
+                array('','',"Dio onnipotente, che ci chiami a preparare la via al Cristo Sognore, fa' che per la debolezza della nostra fede non ci stanchiamo di attendere la consolante presenza del medico celeste."),
+                array('ending')
+            )
+        ),
+        "A_2_4"=>array(
+            array(
+                array('','',"Risveglia, o Dio, la fede del tuo popolo perché prepari le vie del tuo unico Figlio, e per il mistero della sua venuta possa servirti con la santità della vita."),
+                array('ending')
+            )
+        ),
+        "A_2_5"=>array(
+            array(
+                array('','',"Rafforza, o Padre, la nostra vigilanza nell'attesa del tuo Figlio, perché, illuminati dalla sua èarola di salvezza, andiamo incontro a lui con le lampade accese."),
+                array('ending')
+            )
+        ),
+        "A_2_6"=>array(
+            array(
+                array('','',"Sorga in noi, Dio onnipotente, lo splendore della tua gloria, Cristo tuo unico Figlio; la sua venuta vinca le tenebre del male e ci riveli al mondo come figli della luce."),
+                array('ending')
+            )
+        ),
+        "A_3_0"=>array(
+            array(
+                array('','',"Guarda, o Padre, il tuo popolo, che attende cona fede il Natale del Signore, e fa' che giunga a celebrare con rinnovata esultanza il grande mistero della salvezza."),
+                array('ending')
+            )
+        ),
+        "A_3_1"=>array(
+            array(
+                array('','',"Ascolta, o Padre, la nostra preghiera, e con la luce del tuo Figlio che viene a visitarci, rischiara le tenebre del nostro cuore."),
+                array('ending')
+            )
+        ),
+        "A_3_2"=>array(
+            array(
+                array('','',"O Padre, che per mezzo del tuo unico Figlio hai fatto di noi una nuova creaturak guarda all'opera del tuo amore misericordioso, e con la venuta del redentore salvaci dalle conseguenze del peccato."),
+                array('ending')
+            )
+        ),
+        "A_3_3"=>array(
+            array(
+                array('','',"Concedi, Dio onnipotente, che la festa ormai vicina del nostro Redentore ci sostenga nelle fatiche di ogni giorno e ci dia il possesso dei beni eterni."),
+                array('ending')
+            )
+        ),
+        "A_3_4"=>array(
+            array(
+                array('','',"La coscienza della nostra colpa ci rattrista, o Padre, e ci fa sentire indegni di servire a te; donaci la tua gioia e salvaci con la venuta del Redentore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A_3_5"=>array(
+            array(
+                array('','',"Ci preceda e ci accompagni sempre la tua grazia, Dio onnipotente; la venuta del tuo unico Figlio, che attendiamo con intenso desiderio, ci ottenga la salvezza per la vita presente e per la futura."),
+                array('ending')
+            )
         )
     );
 
@@ -681,25 +759,25 @@ class Orazione {
         "BAT"=>array(
             array(
                 array('','',"Padre onnipotente ed eterno, che dopo il battesimo nel fiume Giordano proclamasti il Cristo tuo diletto Figlio, mentra discdendeva su di lui lo Spirito Santo, concedi ai tuoi figli, rinati dall'acqua e dallo Spirito, di vivere sempre nel tuo amore."),
-                array('ending',)
+                array('ending')
             )
         ),
         "PEN"=>array(
             array(
                 array('','',"O Padre, che nel mistero della Pentecoste sasntifichi la tua Chiesa in ogni popolo e nazione, diffondi fino ai confini della terra i doni dello Spirito Santo, e continua oggi, nella comunità dei credenti, i prodigi che hai operato agli inizi della predecazione del Vangelo."),
-                array('ending',)
+                array('ending')
             )
         ),
         "SCG"=>array(
             array(
                 array('','',"O Padre, che nel Cuore del tuo dilettissimo Figlio ci dai la gioia di celebrare le grandi opere del tuo amore per noi, fa' ìche da quasta fonte inedauribile attingiamo l'abbondanza dei tuoi doni."),
-                array('ending',)
+                array('ending')
             )
         ),
         "TRI"=>array(
             array(
                 array('','',"O Dio Padre, che hai mandato nel mondo il tuo Figlio, Parola di verità, e lo Spirito santificatore per rivelare agli uomini il mistero della tua vita, fa' che nalla professione della vera fede riconosciamo la gloria della Trinità e adoriamo l'unico Dio in tre persone."),
-                array('ending',)
+                array('ending')
             )
         ),
         "COD"=>array(
@@ -711,79 +789,140 @@ class Orazione {
         "GRE"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, che hai voluto rinnovare tutte le cose in Cristo tuo Figlio Re dell'universo, fa' che ogni creatura, libera dalla schiavitù del peccato, ti serva e ti lodi senza fine."),
-                array('ending',)
+                array('ending')
+            )
+        ),
+        ,
+        "AV4"=>array(
+            array(
+                array('','',"Infondi nel nostro spirito la tua grazia, o Padre; tu che nell'annunzio dell'angelo ci hai rivelato l'incarnazione del tuo Figlio, per la sua passione e la sua croce guidaci alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "A1217"=>array(
+            array(
+                array('','',"Dio creatore e redentore, che hai rinnovato il mondo nel tuo Verbo, fatto uomo nel grembo di una Madre sempre vergine, concedi che il tuo unico Figlio, primogenito di una moltitudine di fratelli, ci unisca a sé in comunione di vita."),
+                array('ending')
+            )
+        ),
+        "A1218"=>array(
+            array(
+                array('','',"Oppressi a lungo sotto il giogo del èeccato, aspettiamo o Padre, la nostra redenzione; la nuova nascita del tuo unico Figlio ci liberi dalla schiavitù antica."),
+                array('ending')
+            )
+        ),
+        "A1219"=>array(
+            array(
+                array('','',"O Dio, cha hai rivelato al mondo con il parto della Vergine lo splendore della tua gloria, concedi al tuo popolo di venerare con fede viva e di celebrare con sincero amore il grande mistero dell'incarnazione."),
+                array('ending')
+            )
+        ),
+        "A1220"=>array(
+            array(
+                array('','',"Tu hai voluto, o Padre, che all'annunzio dell'angelo la Vergine immacolata concepisse il tuo Verbo eterno, e avvolta dalla lucd dello Spirito Santo divenisse tempio della nuova alleanza: fa' che aderiamo umilmente al tuo volere, come la vergine si affidò alla tua parola."),
+                array('ending')
+            )
+        ),
+        "A1221"=>array(
+            array(
+                array('','',"Ascolta, o Padre, le preghiere del tuo popolo in attesa del tuo Figlio che viene nell'umiltà della condizione umana: la nostra gioia si compia alla fine dei tempi quando egli verrà nella gloria."),
+                array('ending')
+            )
+        ),
+        "A1222"=>array(
+            array(
+                array('','',"O Dio, che nella venuta del tuo Figlio hai risollevato l'uomo dal dominio del peccato e della morte, concedi a noi, che professiamo la fede nella sua incarnazione, di partecipare alla sua vita immortale."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A1223"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterrno, è ormai davanti a noi il Natale del tuo Figlio: ci soccorra nella nostra indegnità il Verbo che si è fatto uomo nel seno della Vergine Maria e di è degnato di abitare fra noi."),
+                array('ending','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "A1224"=>array(
+            array(
+                array('','',"Affrèttati, non tardare, Signore Gesù: la tua venuta dia conforto e speranza a coloro che confidano nel tuo amore misericordioso."),
+                array('ending','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "0202a"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, guarda i tuoi fedeli riuniti nella festa della Presentazione al tempio del tuo unico Figlio fatto uomo, e concedi anche a noi di essere presentati a te pienamente rinnovati nello spirito."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0210a"=>array(
             array(
                 array('','',"O Dio, che hai rivestito di luminosa innocenza la santa vergine Scolastica, fa' che possiamo anche noi piacerti nella trasparente fedeltà quotidiana della vita monastica, per poter godere di te un giorno nel cielo, con l'esultante coro delle vergini."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0319a"=>array(
             array(
                 array('','',"Dio onnipotente, che hai voluto affidare gli inizi della nostra redenzione alla custidia premurosa di san Giuseppe, per sua intercessione concedi alla tua Chiesa di cooperare fedelmente al compimento dell'opera di salvezza."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0321a"=>array(
             array(
                 array('','',"O Dio, che nel santo abate Benedetto hai fatto un maestro insigne di perfezione evangelica, ricolmandolo dello Spirito del tuo Figlio, concedi a noi, che celebroamo il suo glorioso transito, di anelare con tutte le forze alla pienezza della carità e della vita eterna."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0325a"=>array(
             array(
                 array('','',"O Padre, tu hai voluto che il tuo Verbo si facesse uomo nel grmbo della Vergine Maria: concedi a noi, che adoriamo il mistero del nostro Redentore, vero Dio e vero uomo, di essere paertecipi della sua vita immortale."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0624a"=>array(
             array(
                 array('','',"O Padre, che hai mandato san Giovanni Battista a preparare a Cristo Signiore un popolo ben sisposto, allieta la tua Chiesa con l'abbondanza dei dponi dello Aòirito, e guidala sulla vua della salvezza e della pace."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0629a"=>array(
             array(
                 array('','',"O Dio, che allieti la tua Chiesa cona la solennità dei santi Pietro e Paolo, fa' che al tua Chiesa segua sempre l'insegnamento degli apostoli dai quali ha ricevuto il primo annunzio della fede."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0711a"=>array(
             array(
                 array('','',"O Dio, che hai scelto san Benedetto abate e lo hai costituito maestro di coloro che dedicano la vita al tuo servizio, concedi anche a noi di non anteporre nulla all'amore del Cristo e di correre con cuore libero e ardente nella via dei tuoi precetti."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0806a"=>array(
             array(
                 array('','',"O Dio, che nella gloriosa Trasfigurazione del Cristo Signore, ha iconfermato i misteri della fede cona la testimonianza della legge e dei profeti e hai mirabilmente preannunziato la nostra definitiva adozione a tuoi figli, fa' che ascoltiamo la parola del tuo amatissimo Figlio per diventare coeredi della sua vita immortale."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0815a"=>array(
             array(
                 array('','',"O Dio onnipotente ed eterno, che hai innalzato alla gloria del cielo in corpo ed anima l'immacolata Vergine Maria, madre di Cristo tuo Figlio, fa' che viviamo in questo mondo costantemente rivolti ai beni eterni, per condividere la sua stessa gloria."),
-                array('ending',)
+                array('ending')
             )
         ),
         "0914a"=>array(
             array(
                 array('','',"O Padre, che ahi voluto salvare gli uomini con la Croce del Cristo tuo Figlio, concedi a noi cha abbiamo conosciuto in terra il suo mistero d'amore, di godere in cielo i frutti della redenzione."),
-                array('ending',)
+                array('ending')
             )
         ),
         "1101a"=>array(
             array(
                 array('','',"Dio onniportente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'uniaca festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri, fratelli l'abbondanza della tua misericordia."),
-                array('ending',)
+                array('ending')
+            )
+        ),
+        "1208a"=>array(
+            array(
+                array('','',"O Padre, che nell'Immacolata Concezione della Vergina hai preparato una degna dimora per il tuo Figlio, e in previsione della morte di lui l'hai preservata da ogni macchia di peccato, concedi anche a noi, per sua intercessione, di venire incontro a te in santità e purezza di spirito."),
+                array('ending')
             )
         )
         
@@ -927,31 +1066,38 @@ class Orazione {
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='A') {
             $this->actual['orazione']='A_'.$this->actual['settimana'].'_'.$this->actual['weekDay'];
-        }
 
-        /*
+            if ($this->actual['evCode']=='AV4') $this->actual['proprio']='AV4';
+            elseif (substr($this->actual['today'],4,4)=='1217') $this->actual['proprio']='A1217';
+            elseif (substr($this->actual['today'],4,4)=='1218') $this->actual['proprio']='A1218';
+            elseif (substr($this->actual['today'],4,4)=='1219') $this->actual['proprio']='A1219';
+            elseif (substr($this->actual['today'],4,4)=='1220') $this->actual['proprio']='A1220';
+            elseif (substr($this->actual['today'],4,4)=='1221') $this->actual['proprio']='A1221';
+            elseif (substr($this->actual['today'],4,4)=='1222') $this->actual['proprio']='A1222';
+            elseif (substr($this->actual['today'],4,4)=='1223') $this->actual['proprio']='A1223';
+            elseif (substr($this->actual['today'],4,4)=='1224') $this->actual['proprio']='A1224';
 
-
-        
-
-            if (substr($this->actual['today'],4,4)<'1217') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p9';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p16';
+            elseif ($this->actual['evCode']=='1208a') {
+                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='1208a';
             }
-            else {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p10';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p17';
-            }
-
-            if ($this->actual['evCode']=='1208a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='ves') $this->actual['inno']='p1502';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1498';
-            }
-            
         }
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='N') {
+
+            if (substr($this->actual['today'],4,4)=='1226') $this->actual['proprio']='N1226';
+            elseif (substr($this->actual['today'],4,4)=='1227') $this->actual['proprio']='N1227';
+            elseif (substr($this->actual['today'],4,4)=='1228') $this->actual['proprio']='N1228';
+            elseif (substr($this->actual['today'],4,4)=='1229') $this->actual['proprio']='N1229';
+            elseif (substr($this->actual['today'],4,4)=='1230') $this->actual['proprio']='N1230';
+
+            
+
+        }
+
+        /*
+
+        
 
             if ($this->actual['evCode']=='NAT') {
                 if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_NAT';
