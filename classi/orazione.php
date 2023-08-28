@@ -66,7 +66,7 @@ class Orazione {
         "nona_1"=>array(
             array(
                 array('','',"O Dio, che ci chiami a celebrare la tua lode nell'ora stessa in cui gli apostoli salivano al tempio, accogli la nostra preghiera nel nome del tuo Figlio e dona la tua salvezza a coloro che lo invocano."),
-                array('','',"Egli vive e regna nei secoli dei secoli.")
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "ves_1_1"=>array(
@@ -107,7 +107,7 @@ class Orazione {
         ),
         "lodi_2_2"=>array(
             array(
-                array('','',"O Dio, che hai mandato a noi la luce vera che guida tutti gli uomini alla salvezza, donaci la forza dello Spirito, perchè possiamo preparare davni aL Figkio tuo la via della giustizia e dell pace."),
+                array('','',"O Dio, che hai mandato a noi la luce vera che guida tutti gli uomini alla salvezza, donaci la forza dello Spirito, perchè possiamo preparare davanti al Figlio tuo la via della giustizia e dell pace."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -384,7 +384,7 @@ class Orazione {
         "comp_5"=>array(
             array(
                 array('','',"Donaci, o Padre, di unirci nella fede alla norte e sepoltura del tuo Figlio per risorgere con lui alla vita nuova."),
-                array('','',"Egli vive e regna nei secoli dei secoli.")
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "lodi_6_1"=>array(
@@ -792,7 +792,30 @@ class Orazione {
                 array('ending')
             )
         ),
-        ,
+        "SAF"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che nella Santa Famiglia ci hai dato un vero modello di vita, fa' che nelle nostre famiglie fioridcano le stesse virtù e lo stesso amore, perchè, riuniti insieme nella tua casa, possiamo godere la gioia senza fine."),
+                array('ending')
+            )
+        ),
+        "MSS"=>array(
+            array(
+                array('','',"O Dio, che nella verginità feconda di Maria hai donato agli uomini i beni della salvezza eterna, fa' che sperimentiamo la sua intercessione, poiché per mezzo di lei abbiamo ricevuto l'autore della vita, Cristo tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "2DN"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, luce dei credenti, riempi della tua gloria il mondo intero e rivelati a tutti i popoli nello splendore della tua verità."),
+                array('ending')
+            )
+        ),
+        "EPI"=>array(
+            array(
+                array('','',"O Dio, che in questo giorno, con la guida della stella, hai rivelato alle genti il tuo unico Figlio, conduci benigno anche noi, che già ti abbiamo conosciuto per la fede, a contemplare la grandezza della tua gloria."),
+                array('ending')
+            )
+        ),
         "AV4"=>array(
             array(
                 array('','',"Infondi nel nostro spirito la tua grazia, o Padre; tu che nell'annunzio dell'angelo ci hai rivelato l'incarnazione del tuo Figlio, per la sua passione e la sua croce guidaci alla gloria della risurrezione."),
@@ -838,13 +861,211 @@ class Orazione {
         "A1223"=>array(
             array(
                 array('','',"Dio onnipotente ed eterrno, è ormai davanti a noi il Natale del tuo Figlio: ci soccorra nella nostra indegnità il Verbo che si è fatto uomo nel seno della Vergine Maria e di è degnato di abitare fra noi."),
-                array('ending','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "A1224"=>array(
             array(
                 array('','',"Affrèttati, non tardare, Signore Gesù: la tua venuta dia conforto e speranza a coloro che confidano nel tuo amore misericordioso."),
-                array('ending','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+                array('','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ves1_NAT"=>array(
+            array(
+                array('','',"O Padre, che ogni anno ci fai vivere nella gioia quasta vigilia del Natale, concedi che possiamo guardare senza timore, quando verrà come giudice, il Cristo tuo Figlio che accogliamo in festa come Redentore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "lodi_NAT"=>array(
+            array(
+                array('','',"Signore, Dio onnipotente, che ci avvolgi della nuova luce del tuo Verbo fatto uomo, fa' che ridplenda nelle nostre opere il mistero della fede che rifulge nel nostro spirito."),
+                array('ending')
+            )
+        ),
+        "terza_NAT"=>array(
+            array(
+                array('','',"O Dio, che in modo mirabile ci hai creati a tua immagine, e in modo più mirabile ci hai rinnovati e redenti, fa' che possiamo condividere la vita divina del tuo Figlio, che oggi ha voluto assumere la nostra natura umana."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "N1226"=>array(
+            array(
+                array('','',"O Dio grande e misericordioso, la nuova nascita del tuo unico Figlio nella nostra carne mortale ci liberi dalla schiavitù antica, che ci tiene sotto il giogo del peccato."),
+                array('ending')
+            )
+        ),
+        "N1229"=>array(
+            array(
+                array('','',"Dio invisibile ed eterno, che nella venuta del Cristo vera luce ai ridchiarato le nostre tenebre, guarda con bontà quaesta tua famiglia, perché possa celebrare con lode unanime la nascita gloriosa del tuo unico Fignio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "N1231"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che nelòla nascita del tuo Figlio hai stabilito l'inizio e la pienezza della vera fede, accogli anche noi come membra del Cristo, che compendia in sé la salve<zza del mondo."),
+                array('ending')
+            )
+        ),
+        "F0102"=>array(
+            array(
+                array('','',"Rafforza la fede del tuo popolo, o Padre, perché creda e proclami il Cristo tuo unico Figlio, vero Dio, eterno con te nella gloria, e vero uomo nato dalla Vergine Madre; in quasta fede confermaci nelle prove della vita presente e guidaci alla gioia senza fine."),
+                array('ending')
+            )
+        ),
+        "F0103"=>array(
+            array(
+                array('','',"O Dio, tu hai voluto che l'umanità del Salvatore, nella sua mirabile nascita dalla Vergine Maria, non fosse sottoposta alla comune eredità dei nostri padri; fa' nche liberati dal contagio dell'antico male possiamo anche noi far parte delka nuova creazione, inixiata da Cristo tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "F0104"=>array(
+            array(
+                array('','',"Dio onnipotente, il Salvatore che tu hai mandato, luce nuova all'orizzonte del mondo, sorga ancora e risplenda su tutta la nostra vita."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "F0105"=>array(
+            array(
+                array('','',"O Dio, che nella nascita del tuo unico Figlio hai dato mirabile principio della nostra redenzione, rafforza la fede del tuo popolo, perché sotto la guida del Cristo giunga alla meta della gloria eterna."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "N0107"=>array(
+            array(
+                array('','',"Lo splendore della tua gloria illumini, Signore, i nostri cuori, perché attraverso le tenebre di questo mondo possiamo giungere alla luce della tua dimora."),
+                array('ending')
+            )
+        ),
+        "N0108"=>array(
+            array(
+                array('','',"O Padre, il cui unico Figlio si è manifestato nella nostra carne mortale, concedi a noi, che lo abbiamo conosciuto come vero uomo, di essere interirormente rinnovati a sua immagine."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "N0109"=>array(
+            array(
+                array('','',"O Dio, luce del mondo, concedi a tutte le genti il bene di una pace sicura e fa' risplendere nei nostri cuori quella luce radiosa che illuminò la mente dei nostri padri."),
+                array('ending')
+            )
+        ),
+        "N0110"=>array(
+            array(
+                array('','',"O Dio, che in Cristo tuo Figlio hai rivelato a tutti i popoli la sapienxa eterna, fa' riaplendere su di noi la gloria del nostro Redentore, perchP giungiamo alla luce che non ha tramonto."),
+                array('ending')
+            )
+        ),
+        "N0111"=>array(
+            array(
+                array('','',"Dio onnipotente, manifesta anche a noi il mistero della nascita del Salvatore rivelato ai magi dalla luce della stella, e cresca sempre più nel nostro spirito."),
+                array('ending')
+            )
+        ),
+        "N0112"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che nel Natale del Redentore hai fatto di noi una nuova creatura, trasformaci nel Cristo tuo Figlio, che ha congiunto per sempre a sè la nostra umanità."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0102a"=>array(
+            array(
+                array('','',"O Dio, che hai illuminato la tua Chiesa con l'insegnamento e l'esempio dei santi Basilio e Gregorio Nazianzeno, donaci uno spirito umile e ardente, per conoscere la tua verità e attuarla con un coraggioso programma di vita."),
+                array('ending')
+            )
+        ),
+        "0107a"=>array(
+            array(
+                array('','',"O Dio, che nel tuo sacerdote san Raimondo, pieno di bontà verso i peccatori e i prigionieri, hai dato alla tua Chiesa un modello di vita evangelica, fa' che per sua intercessione siamo liberati dalla schiavitù del peccato per servirti con libertà di figli."),
+                array('ending')
+            )
+        ),
+        "0110a"=>array(
+            array(
+                array('','',"Guardaci con bontà, o Signore Dio, per l'intercessione del santo vescovo Gregorio, che con la lucentezza della vita e della diottrina cantò mirabilmente le tue lodi: concedi che anche noi, dimentichi del passato e protesi verso il futuro, possiamo felicemente giungere al premio della divina chiamata."),
+                array('ending')
+            )
+        ),
+        "0113a"=>array(
+            array(
+                array('','',"Dio onnipotente e misericordioso, concedi al tuo popolo fi donodcere e professare, nella vera fede dei padri, la divinità del Cristo tuo Figlio, di cui il vescovo sant'Ilario fu tenace testimone e maestro."),
+                array('ending')
+            )
+        ),
+        "0115a"=>array(
+            array(
+                array('','',"Noi ti preghiamo, Signore Dio, che dopo averci dato nei santi Mauro e Placido un meraviglioso esempio di vita monastica, tu ci conceda anche di seguirne il cammino e di partecipare con loro al medesimo premio."),
+                array('ending')
+            )
+        ),
+        "0117a"=>array(
+            array(
+                array('','',"O Dio, che hai ispirato a sant'Antonio abate di ritirarsi nel deserto, per servirti in un nuovo modello di vita cristiana, concedi anche a noi per sua intercessione di superare i nostri egoismi per amare te sopra ogni cosa."),
+                array('ending')
+            )
+        ),
+        "0120a"=>array(
+            array(
+                array('','',"O Dio, gloria dei tuoi sacerdoti, concedi a noi tuoi fedeli, oper intercessione del papa e martire Fabiano, di crescere come comunità di fede e di amore."),
+                array('ending')
+            )
+        ),
+        "0120b"=>array(
+            array(
+                array('','',"Donaci, o Padre, il tuo Spirito di fortezza, perché, ammaestrati dal glorioso esempio del tuo mrtire Sebastiano, impariamo a obbedire a te piuttosto che agli uomini."),
+                array('ending')
+            )
+        ),
+        "0121a"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che scegli le creature miti e deboli per confondere le potenze del mondo, concedi a noi, che celebriamo la nascita al cielo di sant'Agnese vergine e martire, di imitare la sua eroica costanza nella fede."),
+                array('ending')
+            )
+        ),
+        "0122a"=>array(
+            array(
+                array('','',"O Dio, fonte di ogni bene, donaci la forza del tuo Spirito che animò il diacono e martire Vincenzo, e lo rede invincibile in mezzo ai tormenti, perché anche la nostra fragile umanità sia sostenuta dalla potenza del tuo amore."),
+                array('ending')
+            )
+        ),
+        "0124a"=>array(
+            array(
+                array('','',"O Dio, tu hai voluto he il santo vescovo Francesco di Sales si facesse tutto a tutti nella carità apostolica: concedi anche a noi di testimoniare sempre, nel servizio dei fratelli, la dolcezza del tuo amore."),
+                array('ending')
+            )
+        ),
+        "0125a"=>array(
+            array(
+                array('','',"O Dio, che hai illuminato tutte le genti con la parola dell'apostolo Paolo, concedei anche anoi, che oggi ricordiamo la sua conversione, di essere testimoni della tua verità e di camminare sempre nella via del Vangelo."),
+                array('ending')
+            )
+        ),
+        "0126a"=>array(
+            array(
+                array('','',"Nella esperienza dei tuoi santi, Signore, tu ci offri tedtimonianzas vissuta si consacrazione a te; fa' che formati alla loro scuola, ci impegnamo con la loro stessa fede ad amarti nell'esercizio delle buone opere."),
+                array('ending')
+            )
+        ),
+        "0127a"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che hai formato alla scuola degli Apostoli i santi vescovi Timòteo e Tito, concedi anche a noi per loro intercessione di vivere in questo mondo con giustizia e con amore di figli, per giungere alla gloria del tuo regno."),
+                array('ending')
+            )
+        ),
+        "0127b"=>array(
+            array(
+                array('','',"O Dio, Padre misericordioso, che in sant'Angela Merici hai dato alla tua Chiesa un modello di carità sapiente e coraggiosa, per il suo esempio e la sua intercessione donaci di comprendere e testimoniare kla forza rinnovatrice del Vangelo."),
+                array('ending')
+            )
+        ),
+        "0128a"=>array(
+            array(
+                array('','',"O Dio, che in san Tommaso d'Aquino hai dato alla tua Chiesa un midello sublime di santità e di dottrina, donaci la luce per comprendere i suoi insegnamenti e la fiorza per imitare i suoi esempi."),
+                array('ending')
+            )
+        ),
+        "0131a"=>array(
+            array(
+                array('','',"O Dio, che in san Giovanni Bosco hai dato alla tua Chiesa un padre e un maestro dei giovani, suscita anche in noi la stessa fiamma di carità a servizio della tua gloria per la salvezza dei fratelli."),
+                array('ending')
             )
         ),
         "0202a"=>array(
@@ -924,8 +1145,37 @@ class Orazione {
                 array('','',"O Padre, che nell'Immacolata Concezione della Vergina hai preparato una degna dimora per il tuo Figlio, e in previsione della morte di lui l'hai preservata da ogni macchia di peccato, concedi anche a noi, per sua intercessione, di venire incontro a te in santità e purezza di spirito."),
                 array('ending')
             )
-        )
-        
+        ),
+        "1226a"=>array(
+            array(
+                array('','',"Donaci, o Padre, di esprimere con la vita il mistero che celebriamo nel giorno natalizio di Santo Stefano primo martire e insegnaci ad amare anche i nostri nemici dull'esempio di colui che morendo pregò per i suoi persecutori."),
+                array('ending')
+            )
+        ),
+        "1227a"=>array(
+            array(
+                array('','',"O Dio, che per mezzo dell'apostolo Giovanni ci hai rivelato le misteriose profondità del tuo Verbo: donaci l'intelligienza penetrtante della Parola di vita, che egli ha fatto risuonare nella tua Chiesa."),
+                array('ending')
+            )
+        ),
+        "1228a"=>array(
+            array(
+                array('','',"Signore nostro Dio, che oggi nei santi Innocenti sei stato gloirificato non a parole, ma col sangue, concedi anche a noi di esprimere nella vita la fede che professiamo con le labbra."),
+                array('ending')
+            )
+        ),
+        "1229a"=>array(
+            array(
+                array('','',"O Dio, che hai dato al vescovo san Tommaso Becket il privilegio di versare il sangua per la giustizia e la libertà della Chiesa, concedi anche anoi di essere prontio, per amore del Cristo, a perdere la vita in questo mondo per ritrovarla nel regno dei cieli."),
+                array('ending')
+            )
+        ),
+        "1231a"=>array(
+            array(
+                array('','',"Assisti, Signore, il tuo popolo che confida nell'intercessione del papa san Silvestro I, perché, nel cammino della vita, goda sempre della tua guida e giunga felicemente alla città dei santi."),
+                array('ending')
+            )
+        )  
     );
 
     protected $litio;
@@ -991,75 +1241,75 @@ class Orazione {
 
             //presentazione del Signore
             if ($this->actual['evCode']=='0202a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0202a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0202a';
             }
             //santa Scolastica
             elseif ($this->actual['evCode']=='0210a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0210a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0210a';
             }
             //San Giuseppe sposo della B.V. Maria
             elseif ($this->actual['evCode']=='0319a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0319a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0319a';
             }
             //Transito S. Benedetto
             elseif ($this->actual['evCode']=='0321a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0321a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0321a';
             }
             //Annunciazione del Signore
             elseif ($this->actual['evCode']=='0325a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0325a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0325a';
             }
             //Natività di San Giovanni Battista
             elseif ($this->actual['evCode']=='0624a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0624a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0624a';
             }
             //Santi Pietro e Paolo apostoli
             elseif ($this->actual['evCode']=='0629a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0629a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0629a';
             }
             //Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa
             elseif ($this->actual['evCode']=='0711a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0711a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0711a';
             }
             //Trasfigurazione del Signore
             elseif ($this->actual['evCode']=='0806a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0806a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0806a';
             }
             //Assunzione della Beata Vergine Maria
             elseif ($this->actual['evCode']=='0815a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0815a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0815a';
             }
             //Esaltazione della Santa Croce
             elseif ($this->actual['evCode']=='0914a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='0914a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='0914a';
             }
             //Tutti i Santi
             elseif ($this->actual['evCode']=='1101a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='1101a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='1101a';
             }
             //Battesimo del Signore
             elseif ($this->actual['evCode']=='BAT') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='BAT';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='BAT';
             }
             //Pentecoste
             elseif ($this->actual['evCode']=='PEN') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='PEN';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='PEN';
             }
             //Sacratissimo cuore di Gesù
             elseif ($this->actual['evCode']=='SCG') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='SCG';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='SCG';
             }
             //Ss. Trinità
             elseif ($this->actual['evCode']=='TRI') {               
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='TRI';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='TRI';
             }
             //Corpus Domini
             elseif ($this->actual['evCode']=='COD') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='COD';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='COD';
             }
             //Nostro Signore Gesù Cristo Re dell'Universo
             elseif ($this->actual['evCode']=='GRE') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='GRE';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='GRE';
             }
         }
 
@@ -1078,56 +1328,64 @@ class Orazione {
             elseif (substr($this->actual['today'],4,4)=='1224') $this->actual['proprio']='A1224';
 
             elseif ($this->actual['evCode']=='1208a') {
-                if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='1208a';
+                /*if ($this->actual['ora']=='lodi' || substr($this->actual['ora'],0,3)=='ves')*/ $this->actual['proprio']='1208a';
             }
         }
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='N') {
 
-            if (substr($this->actual['today'],4,4)=='1226') $this->actual['proprio']='N1226';
-            elseif (substr($this->actual['today'],4,4)=='1227') $this->actual['proprio']='N1227';
-            elseif (substr($this->actual['today'],4,4)=='1228') $this->actual['proprio']='N1228';
-            elseif (substr($this->actual['today'],4,4)=='1229') $this->actual['proprio']='N1229';
-            elseif (substr($this->actual['today'],4,4)=='1230') $this->actual['proprio']='N1230';
+            if (substr($this->actual['today'],4,4)=='1225') {
+                if ($this->actual['ora']=='ves1') $this->actual['proprio']='ves1_NAT';
+                if ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_NAT';
+                if ($this->actual['ora']=='terza' || $this->actual['ora']=='sesta' || $this->actual['ora']=='nona') $this->actual['proprio']='terza_NAT';
+                if ($this->actual['ora']=='ves2') $this->actual['proprio']='terza_NAT';
+            }
+            elseif (substr($this->actual['today'],4,4)=='1229') {
+                $this->actual['proprio']='N1229';
+            }
+            elseif (substr($this->actual['today'],4,4)=='1230') {
+                $this->actual['proprio']='N1226';
+            }
+            elseif (substr($this->actual['today'],4,4)=='1231') {
+                $this->actual['proprio']='N1231';
+            }
 
-            
+            //////////////////////////////////////
+            if ($this->actual['fesCode']=='1226a') $this->actual['proprio']='1226a';
+            elseif ($this->actual['fesCode']=='1227a') $this->actual['proprio']='1227a';
+            elseif ($this->actual['fesCode']=='1228a') $this->actual['proprio']='1228a';
 
+            //////////////////////////////////////
+            if (substr($this->actual['today'],4,4)=='1226' && $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') $this->actual['proprio']='N1226';
+            if (substr($this->actual['today'],4,4)=='1227' && $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') $this->actual['proprio']='lodi_NAT';
+            if (substr($this->actual['today'],4,4)=='1228' && $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') $this->actual['proprio']='terza_NAT';
+
+            if ($this->actual['evCode']=='SAF') $this->actual['proprio']='SAF';
+            if ($this->actual['evCode']=='MSS') $this->actual['proprio']='MSS';
+            if ($this->actual['evCode']=='2DN') $this->actual['proprio']='2DN';
+
+            if ($this->actual['evCode']=='F0102') $this->actual['proprio']='F0102';
+            if ($this->actual['evCode']=='F0103') $this->actual['proprio']='F0103';
+            if ($this->actual['evCode']=='F0104') $this->actual['proprio']='F0104';
+            if ($this->actual['evCode']=='F0105') $this->actual['proprio']='F0105';
+            if ($this->actual['evCode']=='2DN') $this->actual['proprio']='EPI';
+
+            if (substr($this->actual['today'],4,4)>'0106') {
+                if (substr($this->actual['today'],4,4)=='0107' || $this->actual['weekDay']==1) $this->actual['proprio']='N0107';
+                if (substr($this->actual['today'],4,4)=='0108' || $this->actual['weekDay']==2) $this->actual['proprio']='N0108';
+                if (substr($this->actual['today'],4,4)=='0109' || $this->actual['weekDay']==3) $this->actual['proprio']='N0109';
+                if (substr($this->actual['today'],4,4)=='0110' || $this->actual['weekDay']==4) $this->actual['proprio']='N0110';
+                if (substr($this->actual['today'],4,4)=='0111' || $this->actual['weekDay']==5) $this->actual['proprio']='N0111';
+                if (substr($this->actual['today'],4,4)=='0112' || $this->actual['weekDay']==6) $this->actual['proprio']='N0112';
+            }
+
+            //////////////////////////////////////////////////////////
+            //FESTE
+            if ($this->actual['fesCode']!='') $this->actual['proprio']=$this->actual['fesCode'];
         }
 
         /*
-
-        
-
-            if ($this->actual['evCode']=='NAT') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_NAT';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_NAT';
-            }
-            elseif ($this->actual['evCode']=='SAF') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_SAF';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
-            }
-            elseif ($this->actual['evCode']=='MSS') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1502';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1498';
-            }
-            elseif ($this->actual['evCode']=='2DN') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_NAT';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_NAT';
-            }
-            elseif ($this->actual['evCode']>='F0102' && $this->actual['evCode']<='F0105') {
-                if ($this->actual['ora']=='ves') $this->actual['proprio']='ves_NAT';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_NAT';
-            }
-            elseif ($this->actual['evCode']=='EPI') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['proprio']='ves_EPI';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_EPI';
-            }
-            elseif ($this->actual['evCode']>='F0107') {
-                if ($this->actual['ora']=='ves') $this->actual['proprio']='ves_EPI';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_EPI';
-            }
-        }
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='Q') {
