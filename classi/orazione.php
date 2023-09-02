@@ -938,7 +938,7 @@ class Orazione {
         ),
         "N0108"=>array(
             array(
-                array('','',"O Padre, il cui unico Figlio si è manifestato nella nostra carne mortale, concedi a noi, che lo abbiamo conosciuto come vero uomo, di essere interirormente rinnovati a sua immagine."),
+                array('','',"O Padre, il cui unico Figlio si è manifestato nella nostra carne mortale, concedi a noi, che lo abbiamo conosciuto come vero uomo, di essere interiormente rinnovati a sua immagine."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -1074,9 +1074,117 @@ class Orazione {
                 array('ending')
             )
         ),
+        "0203a"=>array(
+            array(
+                array('','',"O Dio, che hai inviato ai popoli baltici il santo vescovo Oscar come aoistiki del Vangelo, concedi anche a noi per sua intercessione di camminare sempre nella luce della verità."),
+                array('ending')
+            )
+        ),
+        "0203b"=>array(
+            array(
+                array('','',"Esaudisci, Signore, la tua famiglia, riunita nel ricordo del martire dan Biagio, e donale pace e salute nella vita presente, perché giunga alla gioia dei beni eterni."),
+                array('ending')
+            )
+        ),
+        "0205a"=>array(
+            array(
+                array('','',"Donaci, Signore, la tua misericordia, per intercessione di sant'Agata, che risplende nella Chiesa per la gloria della verginità e del martirio."),
+                array('ending')
+            )
+        ),
+        "0206a"=>array(
+            array(
+                array('','',"O Dio, forza dei martiri, che hai chiamato alla gloria eterna san Paolo Miki e i suoi compagni attraverso i martiria della croce, concedi anche a noi per loro intercessione di testimoniare in vita e in morte la fede del nostro Battesimo."),
+                array('ending')
+            )
+        ),
+        "0208a"=>array(
+            array(
+                array('','',"O Dio, che in san Girolamo Emiliani, sostegno e padre degli orfani, hai dato alla Chiesa un segno della tua predilizione verso i piccoli e i poveri, dinaci di vivere e operare nello spirito di adozione per il quale ci chiamiamo e siamo relamente tuoi figli."),
+                array('ending')
+            )
+        ),
         "0210a"=>array(
             array(
                 array('','',"O Dio, che hai rivestito di luminosa innocenza la santa vergine Scolastica, fa' che possiamo anche noi piacerti nella trasparente fedeltà quotidiana della vita monastica, per poter godere di te un giorno nel cielo, con l'esultante coro delle vergini."),
+                array('ending')
+            )
+        ),
+        "0211a"=>array(
+            array(
+                array('','',"O Dio, che rinnovasto la vita monastica con la dottrina e gli esempi del santo abate Benedetto di Aniano, concedici, per sua intercessione, di conservare uno stile di vita in tutto conforma all'insegnamento di Cristo, tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0211b"=>array(
+            array(
+                array('','',"O Dio, Padre misericordioso, soxxorri la nostra debolezza, e per intercessione di Maria, MNAdre immacolata del tuo Figlio, fa' che risorgiamo dal peccato alla vita nuova."),
+                array('ending')
+            )
+        ),
+        "0214a"=>array(
+            array(
+                array('','',"O Dio, ricco di misericordia, che nella missione apostolica dei santi fratelli Cirillo e Metodio hai donato ai popoli slavi la luce del Vangelo, per la loro comune intercessione fa' che tutti gli uomini accolgano la tua Parola e formino il tuo popolo santo concorde nel testimoniare la vera fede."),
+                array('ending')
+            )
+        ),
+        "0217a"=>array(
+            array(
+                array('','',"Donaci, Signiore, la carità ardente dei Sette Santi Fondatori, che fraternamente uniti nel devoto servizio di Maria Madre di Dio hanno rianimato la fede del popolo cristiano."),
+                array('ending')
+            )
+        ),
+        "0221a"=>array(
+            array(
+                array('','',"Dio onnipotente, che in dan Pier Damiani ci hai dato un maestro e un modello di vita unteramente votata al tuo servizio nella santa Chiesa, fa' che non anteponiamo nulla all'amore del Cristo e camminiamo verso di te nella luce del Vangelo."),
+                array('ending')
+            )
+        ),
+        "0222a"=>array(
+            array(
+                array('','',"Concedi, Dio onnipotente, che tra gli sconvolgimenti del mondo non si turbi la tua Chiesa, che hai fondato sulla roccia con la professione di fede dell'apostolo Pietro."),
+                array('ending')
+            )
+        ),
+        "0223a"=>array(
+            array(
+                array('','',"O Dio, Signore, e Padre di tutti gli uomini, che hai unito alla schiera dei martiri il vescovo san Policarpo, concedi anche anoi per sua intercessione di bere al calice della passione del Cristo e si comunicare alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "0304a"=>array(
+            array(
+                array('','',"Dio onnipotente, che ci chiami a servirti per regnare con te, fa' che per intercessione di san Casimiro viviamo coastantemente al tuo servizio nella santità e nella giustizia."),
+                array('ending')
+            )
+        ),
+        "0307a"=>array(
+            array(
+                array('','',"O Dio, che hai sostenuto le sante martiri Perpetua e Felicita con ala forza invincibile della tua carità e le hai rese intrepide di fronte ai persecutori, concedi anche a noi, per loro intercessione, di perseverare nella fede e fi crescere nel tuo amore."),
+                array('ending')
+            )
+        ),
+        "0308a"=>array(
+            array(
+                array('','',"Signore, che in san Giovanni di Dio hai fatto risplendere la tua misericordia, concedi anche anoi di esprimere con le opere la sua carità verso i poveri e i malati per essere accolti fra gli eletti nel tuo regno."),
+                array('ending')
+            )
+        ),
+        "0309a"=>array(
+            array(
+                array('','',"O Dio, che in santa Francesca Romana ci hai offerto un modello di santità coniugale e di vita a te consacrata, fa' che in ogni circostanza siamo perseveranti nel tuo servizio e cmminiamo nella luce del tuo volto."),
+                array('ending')
+            )
+        ),
+        "0317a"=>array(
+            array(
+                array('','',"O Dio, che hai inviato ai polli dell'Irlanda il vescovo san Patrizio come apostolo del VAngelo, per sua intercessione concedi alle nostre coimunità di ridcoprire il dìsenso middionario della fede e di annunziare agli uomini le meraviglie del tuo amore."),
+                array('ending')
+            )
+        ),
+        "0318a"=>array(
+            array(
+                array('','',"O Dio, che con l'insegnamento di san Cirillo hai guidato la tua Chiesa a comprendere la profondità dei misteri cristiani, donaci, per sua intercessione, si conoscere te e colui che hai mandato, Gesù Cristo tuo Figlio, per possedere la pienezza della vita."),
                 array('ending')
             )
         ),
@@ -1092,15 +1200,105 @@ class Orazione {
                 array('ending')
             )
         ),
+        "0323a"=>array(
+            array(
+                array('','',"O Dio, che hai fesondato la tua Chiesa con le fatiche apostoliche del sant vescovo Turibio, suscita nel poplo cridtiano lo stesso ardore missionario per l'annunzio del Vangelo, perhé cresca e si rinnovi sempre nella fede e nella santità della vita."),
+                array('ending')
+            )
+        ),
         "0325a"=>array(
             array(
                 array('','',"O Padre, tu hai voluto che il tuo Verbo si facesse uomo nel grmbo della Vergine Maria: concedi a noi, che adoriamo il mistero del nostro Redentore, vero Dio e vero uomo, di essere paertecipi della sua vita immortale."),
                 array('ending')
             )
         ),
+        "0204a"=>array(
+            array(
+                array('','',"O Dio, grandezza delgli umili, che hai scelti san Francesco da Paola, minimo tra i fratelli, per innalzarlo ai vertici della santità, e lo hai proosto al tuo popolo come modello e protettore, donaci di seguire il suo esempio, per contividere con lui l'eredità promessa ai miti e umili di cuore."),
+                array('ending')
+            )
+        ),
+        "0404a"=>array(
+            array(
+                array('','',"Guarda, Signore, la tua Chiesa riunita nel devoto ricordo del vescovo san Isidoro: egli che la edificò con la santità e la dottrina lìaiuti cona la sua intercessione presso di te."),
+                array('ending')
+            )
+        ),
+        "0405a"=>array(
+            array(
+                array('','',"O Padre, che hai  suscitato nella Chiesa san Vincenzo Ferrer, predicatore infaticabile del Vangelo, per richiamare gli uomini all'attesa vigilante del giudizio, concedi anche a noi di preparerci alla venuta del tuo Figlio per contemplarlo nella gloria del suo regno."),
+                array('ending')
+            )
+        ),
+        "0407a"=>array(
+            array(
+                array('','',"O Dio, che hai scelto san Giovanni Battista del la Salle per l'educazione cristiana dei giovani, suscita sempre nella tua Chiesa educatori e maestri che s'impegnino generosamente al servizio delle nuove generazioni nella scuola e nella vita."),
+                array('ending')
+            )
+        ),
+        "0411a"=>array(
+            array(
+                array('','',"O Dio, che al santo vescovo Stanislao hai dato la forza di concludere con il martirio il suo servizio pastorale, concedi anche a noi, che lo veneriamo come intercessore, di perseverare, forti nella fede, per tutti i giorni della nostra vita."),
+                array('ending')
+            )
+        ),
+        "0413a"=>array(
+            array(
+                array('','',"Concedi al tuo popolo, Dio onnipotente, di affrontare le lotte e le avversità della vita con lo spirito di fortezza, che rese intrepido il papa san Martino I in mezzo alle minacce e alle sofferenze sostenute per la causa della fede."),
+                array('ending')
+            )
+        ),
+        "0421a"=>array(
+            array(
+                array('','',"O Dio, che hai dato al vescovo sant'anselmo il dono della sapienza per meditare e insegnare le profondità del tuo mistero, illumina il nostro intelletto con la luce della fede, perché ricerchiamo e amiamo sempre più la verità che ci hai rivelato."),
+                array('ending')
+            )
+        ),
+        "0423a"=>array(
+            array(
+                array('','',"O Dio, che hai chiamato il santo vescovo Adalberto al servizion della tua parola e lo hai consacrato a te col martirio, concedici di imitarlo nel diocile ascolto della tua parola e nell'annunziare il tuo Vangelo con le parole e con le opere."),
+                array('ending')
+            )
+        ),
+        "0423b"=>array(
+            array(
+                array('','',"O Dio, che hai unito alla passione del Cristo tuo Figlio il glorioso martire san Giorgio, per sua intercessione sostieni la nostra debolezza, e fa' risplendere su di noi la tua potenza."),
+                array('ending')
+            )
+        ),
+        "0424a"=>array(
+            array(
+                array('','',"O Padre, che al tuo sacerdote, san Fedele, ardente di carità, hai dato la grazia di testimoniare con il sangue l'annunzio missionario del Vangelo, per sua intercessione concedi anche a noi di essere radicati e fondati nell'amore di Cristo, per conoscere la gloria della sua risurrezione."),
+                array('ending')
+            )
+        ),
+        "0425a"=>array(
+            array(
+                array('','',"O Dio, che hai glorificato il tuo evengelista Marco con il dono della predicazione apostolica, fa' che alla scuola del Vangelo, impariamo anche noi a seguire fedelmente il Cristo Signore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0428a"=>array(
+            array(
+                array('','',"O Dio, che al tuo sacerdote san Pietro Chanel hai dato la grazia di coronare con il martirio l'annunzio missionario del Vangelo, concedi anche a noi, in questi giorni di gioia pasquale, di vivere pienamente il mistero di Cristo morto e risorto, per divenire testimoni della vita nuova."),
+                array('ending')
+            )
+        ),
+        "0429a"=>array(
+            array(
+                array('','',"O Dio, che in santa Caterina da Siena, ardente del tuo spirito d'amore, hai unito la contemplazione di Cristo crocifisso e il servizio della Chiesa, per sua intercessione concedi a noi tuoi fedeli, partecipi del mistero di Cristo, di esultare nella rivelazione della sua gloria."),
+                array('ending')
+            )
+        ),
+        "0430a"=>array(
+            array(
+                array('','',"O Dio, che hai scelto il Papa san Pio V per la difesa della fede e il rinnovamento del cultio liturgico, concedi anche a noi di partecipare con vera fede e carità ooperosa ai tuoi santi misteri."),
+                array('ending')
+            )
+        ),
         "0624a"=>array(
             array(
-                array('','',"O Padre, che hai mandato san Giovanni Battista a preparare a Cristo Signiore un popolo ben sisposto, allieta la tua Chiesa con l'abbondanza dei dponi dello Aòirito, e guidala sulla vua della salvezza e della pace."),
+                array('','',"O Padre, che hai mandato san Giovanni Battista a preparare a Cristo Signiore un popolo ben sisposto, allieta la tua Chiesa con l'abbondanza dei doni dello Spirito, e guidala sulla vua della salvezza e della pace."),
                 array('ending')
             )
         ),
@@ -1352,9 +1550,9 @@ class Orazione {
             }
 
             //////////////////////////////////////
-            if ($this->actual['fesCode']=='1226a') $this->actual['proprio']='1226a';
-            elseif ($this->actual['fesCode']=='1227a') $this->actual['proprio']='1227a';
-            elseif ($this->actual['fesCode']=='1228a') $this->actual['proprio']='1228a';
+            if ($this->actual['evCode']=='1226a') $this->actual['proprio']='1226a';
+            elseif ($this->actual['evCode']=='1227a') $this->actual['proprio']='1227a';
+            elseif ($this->actual['evCode']=='1228a') $this->actual['proprio']='1228a';
 
             //////////////////////////////////////
             if (substr($this->actual['today'],4,4)=='1226' && $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') $this->actual['proprio']='N1226';
@@ -1371,7 +1569,7 @@ class Orazione {
             if ($this->actual['evCode']=='F0105') $this->actual['proprio']='F0105';
             if ($this->actual['evCode']=='2DN') $this->actual['proprio']='EPI';
 
-            if (substr($this->actual['today'],4,4)>'0106') {
+            if (substr($this->actual['today'],4,4)>'0106' && substr($this->actual['today'],4,4)<'1225') {
                 if (substr($this->actual['today'],4,4)=='0107' || $this->actual['weekDay']==1) $this->actual['proprio']='N0107';
                 if (substr($this->actual['today'],4,4)=='0108' || $this->actual['weekDay']==2) $this->actual['proprio']='N0108';
                 if (substr($this->actual['today'],4,4)=='0109' || $this->actual['weekDay']==3) $this->actual['proprio']='N0109';
@@ -1380,10 +1578,11 @@ class Orazione {
                 if (substr($this->actual['today'],4,4)=='0112' || $this->actual['weekDay']==6) $this->actual['proprio']='N0112';
             }
 
-            //////////////////////////////////////////////////////////
-            //FESTE
-            if ($this->actual['fesCode']!='') $this->actual['proprio']=$this->actual['fesCode'];
         }
+
+        //////////////////////////////////////////////////////////
+        //FESTE
+        if ($this->actual['fesCode']!='') $this->actual['proprio']=$this->actual['fesCode'];
 
         /*
 

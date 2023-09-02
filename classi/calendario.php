@@ -1396,52 +1396,14 @@ class Calendario {
 				"comune"=>"pastori"
 			)
 		),
-		"1226"=>array(
-			"1226a"=>array(
-				"titolo"=>"Santo Stefano (Promartire)",
-				"tipo"=>"F",
-				"comune"=>"martire"
-			)
-		),
-		"1227"=>array(
-			"1227a"=>array(
-				"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
-				"tipo"=>"F",
-				"comune"=>"apostoli"
-			)
-		),
-		"1228"=>array(
-			"1228a"=>array(
-				"titolo"=>"Santi innocenti martiri",
-				"tipo"=>"F",
-				"comune"=>"martiri"
-			)
-		),
 		"1229"=>array(
-			"1229a"=>array(
-				"titolo"=>"Quinto giorno dell'ottava di Natale",
-				"tipo"=>"F",
-				"comune"=>""
-			),
 			"1229b"=>array(
 				"titolo"=>"San Tommaso Becket (Vescovo e martire)",
 				"tipo"=>"R",
 				"comune"=>"martire"
 			)
 		),
-		"1230"=>array(
-			"1230a"=>array(
-				"titolo"=>"Sesto giorno dell'ottava di Natale",
-				"tipo"=>"F",
-				"comune"=>""
-			)
-		),
 		"1231"=>array(
-			"1231a"=>array(
-				"titolo"=>"Settimo giorno dell'ottava di Natale",
-				"tipo"=>"F",
-				"comune"=>""
-			),
 			"1231b"=>array(
 				"titolo"=>"San Silvestro I (Papa)",
 				"tipo"=>"R",
@@ -1852,6 +1814,88 @@ class Calendario {
 					"titolo"=>"Epifania del Signore",
 					"tipo"=>"S"
 				);
+			}
+
+			/*
+			"1226"=>array(
+				"1226a"=>array(
+					"titolo"=>"Santo Stefano (Promartire)",
+					"tipo"=>"F",
+					"comune"=>"martire"
+				)
+			),
+			"1227"=>array(
+				"1227a"=>array(
+					"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
+					"tipo"=>"F",
+					"comune"=>"apostoli"
+				)
+			),
+			"1228"=>array(
+				"1228a"=>array(
+					"titolo"=>"Santi innocenti martiri",
+					"tipo"=>"F",
+					"comune"=>"martiri"
+				)
+			),
+			"1230"=>array(
+				"1230a"=>array(
+					"titolo"=>"Sesto giorno dell'ottava di Natale",
+					"tipo"=>"F",
+					"comune"=>""
+				)
+			),
+			//////////////////////////////////////////////////////
+			"1229a"=>array(
+				"titolo"=>"Quinto giorno dell'ottava di Natale",
+				"tipo"=>"F",
+				"comune"=>""
+			),
+			"1231a"=>array(
+				"titolo"=>"Settimo giorno dell'ottava di Natale",
+				"tipo"=>"F",
+				"comune"=>""
+			),
+		*/
+
+			if (count($m['evento'])==0) {
+
+				if (substr($day,4,4)=='1226') {
+					$m['evento']['1226a']=array(
+						"titolo"=>"Santo Stefano (Promartire)",
+						"tipo"=>"F"
+					);
+				}
+				elseif (substr($day,4,4)=='1227') {
+					$m['evento']['1227a']=array(
+						"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
+						"tipo"=>"F"
+					);
+				}
+				elseif (substr($day,4,4)=='1228') {
+					$m['evento']['1228a']=array(
+						"titolo"=>"Santi innocenti martiri",
+						"tipo"=>"F"
+					);
+				}
+				elseif (substr($day,4,4)=='1229') {
+					$m['evento']['1229a']=array(
+						"titolo"=>"Quinto giorno dell'ottava di Natale",
+						"tipo"=>"F"
+					);
+				}
+				elseif (substr($day,4,4)=='1230') {
+					$m['evento']['1230a']=array(
+						"titolo"=>"Sesto giorno dell'ottava di Natale",
+						"tipo"=>"F"
+					);
+				}
+				elseif (substr($day,4,4)=='1231') {
+					$m['evento']['1231a']=array(
+						"titolo"=>"Settimo giorno dell'ottava di Natale",
+						"tipo"=>"F"
+					);
+				}
 			}
 		}
 		///////////////////////////////////////////////////////////////////////

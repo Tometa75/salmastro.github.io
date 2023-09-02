@@ -2959,6 +2959,45 @@ class Inno {
                 if ($this->actual['ora']=='ves') $this->actual['proprio']='ves_EPI';
                 elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_EPI';
             }
+            elseif ($this->actual['evCode']=='1226a') {
+                if ($this->actual['ora']=='lodi') {
+                    $this->actual['inno']='p1574';
+                    $this->actual['proprio']='';
+                }
+                elseif ($this->actual['ora']=='ves') {
+                    $this->actual['proprio']='ves_NAT';
+                }
+            }
+            elseif ($this->actual['evCode']=='1227a') {
+                if ($this->actual['ora']=='lodi') {
+                    $this->actual['inno']='p1523';
+                    $this->actual['proprio']='';
+                }
+                elseif ($this->actual['ora']=='ves') {
+                    $this->actual['proprio']='ves_NAT';
+                }
+            }
+            elseif ($this->actual['evCode']=='1228a') {
+                if ($this->actual['ora']=='lodi') {
+                    $this->actual['proprio']='lodi_1228a';
+                }
+                elseif ($this->actual['ora']=='ves') {
+                    $this->actual['proprio']='ves_NAT';
+                }
+            }
+            elseif ($this->actual['evCode']=='1229a' || $this->actual['evCode']=='1230a') {
+                if ($this->actual['ora']=='lodi') {
+                    $this->actual['proprio']='lodi_NAT';
+                }
+                elseif ($this->actual['ora']=='ves') {
+                    $this->actual['proprio']='ves_NAT';
+                }
+            }
+            elseif ($this->actual['evCode']=='1231a') {
+                if ($this->actual['ora']=='lodi') {
+                    $this->actual['proprio']='lodi_NAT';
+                }
+            }
         }
 
         //////////////////////////////////////////////////////////
@@ -3046,7 +3085,7 @@ class Inno {
 
         //----------------------------------------------------------------------------
         //FESTE
-        if ($this->actual['fesCode']=='1226a') {
+        /*if ($this->actual['fesCode']=='1226a') {
             if ($this->actual['ora']=='lodi') {
                 $this->actual['inno']='p1574';
                 $this->actual['proprio']='';
@@ -3084,7 +3123,7 @@ class Inno {
             if ($this->actual['ora']=='lodi') {
                 $this->actual['proprio']='lodi_NAT';
             }
-        }
+        }*/
 
         //###################################
         //pastori,dottori,martiri,martire,monaci,religiosi,religiose,santi,sante,dedica,apostoli,BVM,SG,MIC,ANG,DEF
