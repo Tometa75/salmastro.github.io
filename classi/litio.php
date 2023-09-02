@@ -220,28 +220,32 @@ class Litio {
             "contesto":$('#sal_contesto').val(),
         }
         */
-        $this->actual['today']=$this->map['today'];
         $this->actual['ora']=$this->config['ora'];
 
         if ($this->config['ora']=='ves1' || $this->config['ora']=='comp1') {
+            $this->actual['today']=$this->vig['today'];
             $this->actual['tempo']=$this->vig['tempo']['codice'];
             $this->actual['weekDay']=$this->vig['weekDay'];
             $this->actual['evento']=$this->vig['evento'];
             $this->actual['evCode']=$this->vig['evCode'];
             $this->actual['quarto']=$this->vig['quarto'];
             $this->actual['settimana']=$this->vig['settimana'];
+            $this->actual['festa']=array();
+            $this->actual['fesCode']="";
         }
         else {
             $this->actual['tempo']=$this->map['tempo']['codice'];
+            $this->actual['today']=$this->map['today'];
             $this->actual['weekDay']=$this->map['weekDay'];
             $this->actual['evento']=$this->map['evento'];
             $this->actual['evCode']=$this->map['evCode'];
             $this->actual['quarto']=$this->map['quarto'];
             $this->actual['settimana']=$this->map['settimana'];
+            $this->actual['festa']=$this->map['festa'];
+            $this->actual['fesCode']=$this->config['festa'];
         }
 
-        $this->actual['festa']=$this->map['festa'];
-        $this->actual['fesCode']=$this->config['festa'];
+        
 
         ///////////////////////////////////////////////////////////
 

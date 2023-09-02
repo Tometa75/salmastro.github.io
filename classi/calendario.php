@@ -1510,6 +1510,18 @@ class Calendario {
 		$this->info['re']=date('Ymd',strtotime('-7 days',mainFunc::gab_tots($this->info['avv1'])));
 		$this->festa[substr($this->info['re'],4,4)]="Solennità di Cristo Re";
 
+		$temp=mainFunc::gab_tots($this->info['cuore']);
+		do {
+			$temp=strtotime('+1 day',$temp);
+		}
+		while (date('w',$temp)!=6);
+
+		$this->ricorrenza[date('md',$temp)]['CIBVM']=array(
+			"titolo"=>"Cuore Immacolato della Beata Vergine Maria",
+			"tipo"=>"R",
+			"comune"=>"BVM"
+		);
+
 		if ( ((int)substr($d,0,4)%2)==0 ) $this->info['pari']=true;
 
 		$this->info['annoLit']=$this->annoLit($this->info['anno']);
