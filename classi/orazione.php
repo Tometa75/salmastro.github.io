@@ -1512,10 +1512,136 @@ class Orazione {
                 array('ending')
             )
         ),
+        "0703a"=>array(
+            array(
+                array('','',"Esulti la tua Chiesa, o Dio, nostro Padre, nella festa dell'apostolo Tommaso; per la sua intercessine si accresca la nostra fede pr ché credendo abbiamo vita nel nome del Cristo, che fu da lui riconosciuto suo Signore e suo Dio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0704a"=>array(
+            array(
+                array('','',"Dio di amore e di pace, che hai dato a santa Elisabetta di Portogallo il dono mirabile di riconciliare fra loro i nemici, concedi anche anoi di essere sempre operatori di pace, perché possiamo chiamarci tuoi figli."),
+                array('ending')
+            )
+        ),
+        "0705a"=>array(
+            array(
+                array('','',"Concedi al tuo popolo, o Padre, la sublime scienza di Gesù Cristo, che nello spirito dell'apostolo Paolo illuminò la vita si sant'Antonio Maria Zaccaria, e lo rese instancabile predicatore del Vangelo."),
+                array('ending')
+            )
+        ),
+        "0706a"=>array(
+            array(
+                array('','',"O Dio, sostegno degli innocenti e gioia dei puri di cuore, che a santa Maria Goretti hai dato nel fiore della giovinezz< la grazia e la corona del martirio, fa' che perseveriamo con la stessa fede nella via dei tuoi precetti per godere la tua visione nel cielo."),
+                array('ending')
+            )
+        ),
         "0711a"=>array(
             array(
                 array('','',"O Dio, che hai scelto san Benedetto abate e lo hai costituito maestro di coloro che dedicano la vita al tuo servizio, concedi anche a noi di non anteporre nulla all'amore del Cristo e di correre con cuore libero e ardente nella via dei tuoi precetti."),
                 array('ending')
+            )
+        ),
+        "0712a"=>array(
+            array(
+                array('','',"Dio, autore e amante della pace, il conoscere te è vivere e il servire te è regnare: noi tui preghiamo che tu ci stabilisca nel tuo amore, perché sull'esempio del santo abate Giovanni Gualberto, rendendo bene per male e benedizioni per maledizioni, otteniamo da te perdono e pace."),
+                array('ending')
+            )
+        ),
+        "0713a"=>array(
+            array(
+                array('','',"O Dio, che hai colmato dei tuoi doni sant'Enrico e dalla regalità terrena lo hai innalzato alla corona eterna, assisti e proteggi i tuoi fedeli, perché tra le vicende del mondo corrano inciontro a te nella giustizia e nella santità."),
+                array('ending')
+            )
+        ),
+        "0714a"=>array(
+            array(
+                array('','',"O Padre, che nel santo sacerdote Camillo de Lellis hai fatto risplendere la carità di Cristo verso gli infermi, infondi in noi lo Spirito del tuo amore, perché sappiamo riconoscerti e servirti nei nostri fratelli, e nell'ora della morte opossiamo presentarci senza timore davanti a te."),
+                array('ending')
+            )
+        ),
+        "0715a"=>array(
+            array(
+                array('','',"Dio onnipotente, guarda a noi tuoi fedeli riuniti nel ricordo della nascita al cielo del vescovo san Bonaventura, e fa' che siamo illuminati dalla sua sapienza e s timolati dal suo serafico ardore."),
+                array('ending')
+            )
+        ),
+        "0716a"=>array(
+            array(
+                array('','',"Assisti i tuoi fedeli, Signore, nel cammino della vita, e per l'intercessione materna della beata Vergine Maria, fa' che giungiamo felicemente al tuo santo monte, Cristo Gesù, nostro Signore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0721a"=>array(
+            array(
+                array('','',"O Dio, che a gloria del tuo nome e a servizio dei fratelli hai dato al sacerdote san Lorenzo da Brindisi il tuo Spirito di consiglio e di fortezza, dona anche a noi la luce per conoscere la nostra missione e la forza per attuarla."),
+                array('ending')
+            )
+        ),
+        "0722a"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, il tuo Figlio ha voluto affidare a Maria Maddalena il primo annunzio della gioia pasquale; fa' che per il suo esempio e la sua intercessione proclamiamo al mondo il Signore risorto, per contemplarlo accanto a te nella gloria."),
+                array('ending')
+            )
+        ),
+        "0723a"=>array(
+            array(
+                array('','',"Signore, nostro Dio, che hai rivelato a santa Brigida la sapienza della croce nella contemplazione amorosa della passione del tuo Figlio, concedi a noi tuoi fedeli di esultare di gioia nella manifestazione gloiriosa del Signore risorto."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0725a"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, tu hai vouto che san Giacomo, primo fra gli Apostoli, sacrificasse la vita per il vangelo; per la sua gloriose testimonianza conferma nella fede la tua Chiesa e sostienila sempre con la tua protezione."),
+                array('ending')
+            )
+        ),
+        "0726a"=>array(
+            array(
+                array('','',"Dio dei nostri padri, che ai santi Gioacchino e Anna hai dato il privilegio di avere come figlia Maria, madre del Signore, per loro intercessione concedi ai tuoi fedeli di godere i beni della salvezza eterna."),
+                array('ending')
+            )
+        ),
+        "0729a"=>array(
+            array(
+                array('','',"O Dio, che nella casa di Betania facesti trovare al tuio Figlio l'affetto dell'amicizia, le premure dell'ospitalità e l'adorante silenzio dell'ascolto, donaci di seguire il M<estro nell'ardonre della contemplazione e nel fervore delle opere, perché un giorno egli stesso ci introduca come amici nelle dimore di pace del tuo regno."),
+                array('ending')
+            )
+        ),
+        "0730a"=>array(
+            array(
+                array('','',"O Dio, che nel vescovo sa Pietro Crisologo hai dato alla Chiesa un teologo insigne nell'incarnazione del Verbo, concedi a noi, che lo veneriamo protettore e maestro, di meditare nel cuore e di esprimere con le opere il suo mistero di salvezza."),
+                array('ending')
+            )
+        ),
+        "0731a"=>array(
+            array(
+                array('','',"O Dio, che a gloria del tuo nome hai suscitato nella Chiesa sant'Ignazio di Loyola, concedi anche anoi, con il suo aiuto e il suo esempiol di combattere la buona battaglia del Vangelo, per ricevere in cielo la corona dei santi."),
+                array('ending')
+            )
+        ),
+        "0801a"=>array(
+            array(
+                array('','',"O Dio, che proponi alla tua Chiesa modelli sempre nuovi di vita cristiana, fa' che imitiamo l'ardore apostolico del santo vescovo Alfonso Maria de'Liguori nel servizio dei frarelli, per ricevere con lui il premio riservato ai tuoi servi fedeli."),
+                array('ending')
+            )
+        ),
+        "0802a"=>array(
+            array(
+                array('','',"Dio onnipotente, concedi ai tuoi fedeli di imitare la fortezza del vescovo sant'Eusebio, assertore intrepido della divinità del Cristo, perché nella ferma adesione alla fede, di egli fu maestro e testimone, possiamo entrare in comunione di vita con il nostro Signiore Gesù Cristo, tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "0804a"=>array(
+            array(
+                array('','',"Dio onnipotente e misericordioso, che in san Giovanni Maria Vianney ci hai offerto un mirabile pastore, pienamente consacrato al servizio del tuo popolo, per la sua intercessione e il suo esempio fa' che dedichiamo la nostra vita per guadagnare a Cristo i fratelli e godere insieme con loro la gioia senza fine."),
+                array('ending')
+            )
+        ),
+        "0805a"=>array(
+            array(
+                array('','',"Perdona, o Padre, le colpe dei tuoi figli, e poiché non possiamo salvarci con le nostre opere, interceda per noi la Vergine Maria, madre del tuo Figlio e nostro Signore Gesù Cristo."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "0806a"=>array(
@@ -1524,9 +1650,129 @@ class Orazione {
                 array('ending')
             )
         ),
+        "0807a"=>array(
+            array(
+                array('','',"O Dio, che hai dato al papa san Sisto II e ai suoi compagni martiri la forza di rischiare la propria vita per l'annunzii del Vangelo, concedi anche a noi di essere interiormente rinnovati dalla potenza del tuo Spirito, per diventare docili discepoli e forti testimoni della fede."),
+                array('ending')
+            )
+        ),
+        "0807b"=>array(
+            array(
+                array('','',"Dio, Padre misericordioso, che al sacerdote san Gaetano hai ispirato il proposito di vivere secondo il modello della comunità apostolica, per il suo esempio e la sua inercessione concedi anche a noi di confidare pienamente nella tua provvidenza e di cercare sempre il tuo regno."),
+                array('ending')
+            )
+        ),
+        "0808a"=>array(
+            array(
+                array('','',"Guida e proteggi, Signore, la tua Chiesa per i meriti e gli insegnamenti di san Domenico: egli, che fu insigne predicatore della tua verità, interceda come nostro patrono davanti a te."),
+                array('ending')
+            )
+        ),
+        "0810a"=>array(
+            array(
+                array('','',"O Dio, che hai comunicato l'ardore della tua carità al diacono san Lorenzo e lo hai reso fedele nel ministero e glorioso nel martirio, fa' che il tuo popolo segua i suoi insegnamenti e lo imiti nell'amore di Cristo e dei fratelli."),
+                array('ending')
+            )
+        ),
+        "0811a"=>array(
+            array(
+                array('','',"Dio misericordioso, che hai ispirato a santa Chiara un ardente amore per la povertà evangelica, per sua intercessione concedi anche a noi di seguire Cristo povero e umile, per godere della sua visione nella perfetta letizia del tuo regno."),
+                array('ending')
+            )
+        ),
+        "0813a"=>array(
+            array(
+                array('','',"La preziosa passione dei tuoi santi martiri Ponziano papa e Ippolito sacerdote, ci ottenga, Signore, il sono della tua amicizia e l'incrollabile fermezza della fede."),
+                array('ending')
+            )
+        ),
+        "0814a"=>array(
+            array(
+                array('','',"O Dio, che hai dato alla Chiesa e al mondo san Massimiliano MAria Kolbe, sacerdote e martire, ardente di amore per la Vergine Immacolata, interamente dedito alla missione apostolica e al servizio eroico del prossimo, peer la sua intecessione concedi a noi, a gloria del tuo nome, di impegnarci senza riserva al bene dell'umanità per imitare, in vita e in morte, il Cristo tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
         "0815a"=>array(
             array(
                 array('','',"O Dio onnipotente ed eterno, che hai innalzato alla gloria del cielo in corpo ed anima l'immacolata Vergine Maria, madre di Cristo tuo Figlio, fa' che viviamo in questo mondo costantemente rivolti ai beni eterni, per condividere la sua stessa gloria."),
+                array('ending')
+            )
+        ),
+        "0816a"=>array(
+            array(
+                array('','',"Assisti, Signore, i tuoi fedeli, nel ricordo di santo Stefano, re di Ungheria; egli che guidò il suo popolo alla fede di Cristo sia nostro patrono presso di te nel cielo."),
+                array('ending')
+            )
+        ),
+        "0819a"=>array(
+            array(
+                array('','',"Signore Dio, che per opera del beato abate Bernardo Tolomei hai arricchito la tua Chiesa di una nuova famiglia monastica, fa' che, sosgenuti dal suo esempio e dal suo aiuto, raggiungiamo quanto hai preparato per coloro he credono in te."),
+                array('ending')
+            )
+        ),
+        "0819b"=>array(
+            array(
+                array('','',"O Dio, che hai scelto il sacerdote Giovanni Eudes per fa conoscere le insondabili ricchezze di Cristo, concedi anche a noi di crescere nella tua sapienza, per vivere nella luce del Vangelo."),
+                array('ending')
+            )
+        ),
+        "0820a"=>array(
+            array(
+                array('','',"O Dio che hai suscitato nella tua Chiesa san Bernardo abate, come lampada che arde e risplende, fa' che per sua intercessione camminiamo sempre con lo stesso fervore di spirito, come figli della luce."),
+                array('ending')
+            )
+        ),
+        "0821a"=>array(
+            array(
+                array('','',"O Dio, che per difendere la fede cattolica e unificare ogni cosa nel Cristo hai anikato del tuo Spirito di sapienza e di fortezza il papa san Pio X, fa' che alla luce dei suoi insegnamenti e del suo esempio, giungiamo al premio della vita eterna."),
+                array('ending')
+            )
+        ),
+        "0822a"=>array(
+            array(
+                array('','',"O Padre, che ci hai dato come nostra madre e regina le Vergine Maria, dalla quale nacque il Cirsto, tuo Figlio, per sua interessione donaci la gloria promessa ai tuoi figli nel regno dei cieli."),
+                array('ending')
+            )
+        ),
+        "0823a"=>array(
+            array(
+                array('','',"O Dio, che a santa Rosa da Lima, ardente del tuo amore, hai ispirato il proposito di rinunziare a un ideale terreno per dedicarsi interamente a te nell'austerità e nella preghiera, ioncedi anche a noi di seguire le vie della vita per dissetarci al torrente delle tue delizie."),
+                array('ending')
+            )
+        ),
+        "0824a"=>array(
+            array(
+                array('','',"Confermaci nella fede, o Padre, perché aderiamo a Cristo, tuo Figlio, con l'entusiasmo sincero di san Bartolomeo apostolo, e per sua intercessione fa' che la tua Chiesa si riveli al mondo come sacramento di salvezza."),
+                array('ending')
+            )
+        ),
+        "0825a"=>array(
+            array(
+                array('','',"O Dio, che hai colmato dei tuoi doni san Ludovico, e dalla regalità terrena lo hai innalzato alla corona eterna, fa' che per sua intercessione, cooperando all'edificazione della città terrena, teniamo viva la speranza della città eterna."),
+                array('ending')
+            )
+        ),
+        "0825b"=>array(
+            array(
+                array('','',"O Dio, che hai dato al tuo sacerdote san Giuseppe Calasazio doni straordinari di carità e di pazienza per consacrare la sua vita all'insegnamento e all'educazione dei giovani, concedi a noi, che lo veneriamo maestro di sapienza, di essere come lui cooperatori della tua verità."),
+                array('ending')
+            )
+        ),
+        "0827a"=>array(
+            array(
+                array('','',"O Dio, consolatore degli allfitti, he hai esaudito le pie lacrime di santa Monica con la conversione del figlio Agostino, per la loro comune preghiera donaci una viva contrizione dei nostri peccati perché gustiamo la dolcezza del tuo perdono."),
+                array('ending')
+            )
+        ),
+        "0828a"=>array(
+            array(
+                array('','',"Suscita sempre nella tua Chiesa, Signore, lo Spirito che animò il tuo vescovo Agostino, perché anche noi, assetati della vera sapienza, non ci stanchiamo di cercare te, fonte viva dell'eterno amore."),
+                array('ending')
+            )
+        ),
+        "0829a"=>array(
+            array(
+                array('','',"O Dio, che a Cristo tuo Figlio hai dato come precursore, nella nascita e nella morte, san Giovanni Battista, concedi anche a noi di impegnarci generosamente nella testimonianza del tuo Vangelo, come egli immolò la sua vita per la verità e la giustizia."),
                 array('ending')
             )
         ),
