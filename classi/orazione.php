@@ -389,7 +389,7 @@ class Orazione {
         ),
         "lodi_6_1"=>array(
             array(
-                array('','',"Risplenda sempre, o Dio, nei nostriquori la luce del Figlio tuo risorto, perché liberi dalle tenebre del peccato, possiamo giungere alla pienezza della tua gloria."),
+                array('','',"Risplenda sempre, o Dio, nei nostri cuori la luce del Figlio tuo risorto, perché liberi dalle tenebre del peccato, possiamo giungere alla pienezza della tua gloria."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -413,7 +413,7 @@ class Orazione {
         ),
         "terza_6"=>array(
             array(
-                array('','',"Dio, Padre onnipotente, dona la luce dello Spirito Santo a questa tua famiglia riunita nel tuo nome, perché sicura dalle insidie del nemico, di allieti sempre nella tua lode."),
+                array('','',"Dio, Padre onnipotente, dona la luce dello Spirito Santo a questa tua famiglia riunita nel tuo nome, perché sicura dalle insidie del nemico, si allieti sempre nella tua lode."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
@@ -557,7 +557,7 @@ class Orazione {
         ),
         "sun_22"=>array(
             array(
-                array('','',"O Dio, nostro Padre, unaca fonte di ogni dono perfetto, suscita in noi l'amore per te e ravviva la nostra fede, perché si sviluppi in noi il germe del bene e con il tuo aiuto maturi fino alla sua pienezza."),
+                array('','',"O Dio, nostro Padre, unica fonte di ogni dono perfetto, suscita in noi l'amore per te e ravviva la nostra fede, perché si sviluppi in noi il germe del bene e con il tuo aiuto maturi fino alla sua pienezza."),
                 array('ending')
             )
         ),
@@ -1776,15 +1776,219 @@ class Orazione {
                 array('ending')
             )
         ),
+        "0903a"=>array(
+            array(
+                array('','',"O Dio, che guidi il tuo popolo con la soavità e la forza del tuo amore, per intercessione del papa san Gregorio Magno dona il tuo Spirito di sapienza a xoloro che hai posto maestri e guide nella Chiesa, perché il progresso dei fedeli sia gioia eterna dei pastori."),
+                array('ending')
+            )
+        ),
+        "0908a"=>array(
+            array(
+                array('','',"Donaci, Signore, i tesori della tua misericordia e poiché la maternità della Vergine ha segnato l'inizio della nostra salvezza, la festa della sua Natività ci faccia crescere nell'unità e nella pace."),
+                array('ending')
+            )
+        ),
+        "0913a"=>array(
+            array(
+                array('','',"O Dio, sostegno e forza di chi spera in te, che ci hai dato in san Giovanni Crisòstomo un vescovo mirabile per l'eloquenza e per l'invitta costanza nelle persecuzioni, fa' che il popolo cristiano, illuminato dalla sua dottrina, sappia imitare la sua fortezza evangelica."),
+                array('ending')
+            )
+        ),
         "0914a"=>array(
             array(
                 array('','',"O Padre, che ahi voluto salvare gli uomini con la Croce del Cristo tuo Figlio, concedi a noi cha abbiamo conosciuto in terra il suo mistero d'amore, di godere in cielo i frutti della redenzione."),
                 array('ending')
             )
         ),
+        "0915a"=>array(
+            array(
+                array('','',"O Padre, che accanto al tuo Figlio, innalzato sulla croce, hai voluto presente la sua MAdre Addolorata: fa' che la santa Chiesa, associata con lei alla passione del Cristo, partecipi alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "0916a"=>array(
+            array(
+                array('','',"O Dio, che hai dato al tuo popolo i santi Cornelio e Cipriano, pastori generosi e martiri intrepidi, con il loro aiuto rendici forti e perseveranti nella fede, per collaborare assiduamente all'unità della Chiesa."),
+                array('ending')
+            )
+        ),
+        "0917a"=>array(
+            array(
+                array('','',"O Dio, che hai infiammato del tuo amore l'ardente desiderio della santa vergine Ildegarde per sollevarla alla contemplazione della tua luminosa maestà divina, concedi anche anoi, per sua intercessione, di crescere nella dottrina spirituale e nella perfezione della vita monastica."),
+                array('ending')
+            )
+        ),
+        "0917b"=>array(
+            array(
+                array('','',"O Dio, che per il rinnovamento spirituale della Chiesa ci hai dato nel vescovo san Roberto Bellarmino un maestro e modello di virtù cristiana, fa' che per sua intercessione possiamo custodire l'integrità della fede a cui egli dedicò tutta la sua vita."),
+                array('ending')
+            )
+        ),
+        "0918a"=>array(
+            array(
+                array('','',"O Dio, hai fatto rispledere di mirabili virtù il beato papa Vittore III nell'adempimento del compito abbaziale e nell'esercizio del supremo pontificato; per la sua intercessione concedi a noi un perseverante impegno nel tendere alla perfezione evangelica e le èromuovere la santificazione del popolo."),
+                array('ending')
+            )
+        ),
+        "0919a"=>array(
+            array(
+                array('','',"O Signore, concedi al tuo popolo che si allieta nel ricordo del martire san Gennaro, di godere in terra della sua protezione e di condividere ikl suo trionfo nel cielo."),
+                array('ending')
+            )
+        ),
+        "0921a"=>array(
+            array(
+                array('','',"O Dio, che nel disegno della tua misericordia hai scelto Matteo il pibblicano e lo ha costituito apostolo del Vangelo, concedi anche anoi, per il suo esempio e la sua intercessione, di corrispondere alla vocazione cristiana e di seguirti fedelmnente in tutti i giorni della nostra vita."),
+                array('ending')
+            )
+        ),
+        "0926a"=>array(
+            array(
+                array('','',"Ti glorifichi la Chiesa, Signore, nel santo ricordo dei martiri Cosma e Damiano; tu che hai dato loro la corona della gloria, nella tua provvidenza concedi a noi il conforto della loro protezione."),
+                array('ending')
+            )
+        ),
+        "0927a"=>array(
+            array(
+                array('','',"O Dio, che per il servizio dei poveri e la formazione dei tuoi ministri hai donato al tuo sacerdote san Vincenzo de'PAoli lo spirito degli Apostoli, fa' che, animati dallo stesso fervore, amiamo ciò che egli ha amato e mettiamo in pratica i suoi insegnamenti."),
+                array('ending')
+            )
+        ),
+        "0928a"=>array(
+            array(
+                array('','',"O Dio, che al martire san Venceslào hai dato il coraggio di anteporre il regno dei cieli al fadcino del potere terreno, per la sua intercessione concedi anche a noi di vincere ogni forma di egoismo per aderire a te con tutto il cuore."),
+                array('ending')
+            )
+        ),
+        "0929a"=>array(
+            array(
+                array('','',"O Dio, che chiami gli Angeli e gli uomini a cooperare al tuo disegno di salvezza, concedi a noi pellegrini sulla terra la protezione degli spiriti beati, che in cielio stanno davanti a te per servirti e contemplano la gloria del tuo volto."),
+                array('ending')
+            )
+        ),
+        "0930a"=>array(
+            array(
+                array('','',"O Dio, che hai dato al sacerdote san Girolamo una conoscenza viva e penetrante della Sacra Scrittura, fa che il tuo popolo si nutra sempre più largamente della tua parola, e trovi in essa una sorgente di vita."),
+                array('ending')
+            )
+        ),
+        "1001a"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che apri le porte del tuo regno agli umili e ai piccoli, fa' che seguiamo con serena fiducia la via tracciata da santa Teresa di Gesù Bambino, perché anche a noi si riveli la gloria del tuo volto."),
+                array('ending')
+            )
+        ),
+        "1002a"=>array(
+            array(
+                array('','',"O Dio, che nella tua misteriosa provvidenza mandi dal cielo i tuoi Angeli a nostra custodia e protezione, fa' che nel cammino della vita siamo sempre sorretti dal loro aiuto per essere uniti con loro nella gioia eterna."),
+                array('ending')
+            )
+        ),
+        "1004a"=>array(
+            array(
+                array('','',"O Dio, che in san Francesco d'Assisi, povero e umile, hai offerto alla tua Chiesa una viva immagine del Cristo, concedi anche anoi di seguire il tuo Figlio nella via del Vangelo e di unirci a te in carità e letizia."),
+                array('ending')
+            )
+        ),
+        "1006a"=>array(
+            array(
+                array('','',"O Dio, che hai chiamato san Bruno a servirti nel silenzio e nella solitudine, per la sua intercessione e il suo esempio donaci di conservare, nella dispersione della vita quotidiana, una continua unione con te."),
+                array('ending')
+            )
+        ),
+        "1007a"=>array(
+            array(
+                array('','',"Infondi nel nostro spirito la tua grazia, o Padre; tu che nell'annunzio dell'angelo ci hai rivelato l'incarnazione del tuo Figlio, per la sua passione e la sua croce, con l'intercessione della Beata Vergine Maria, guidaci alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "1008a"=>array(
+            array(
+                array('','',"Signore, ti preghiamo che, per l'intercessione della nostra particolare patrona santa Giustina, vergine e martire, tu ci conceda di imitare il suo fulgido esempio di castità e di fortezza."),
+                array('ending')
+            )
+        ),
+        "1009a"=>array(
+            array(
+                array('','',"O Dio, che hai mandato il vescovo san Dionigi e i suoi compagni a predicre il tuo Vangelo ai popoli pagani, e li hai resi intrepidi nella prova del martirio, concedi a noi, per loro intercessione, di non esaltarci nei successi e di non perderci d'animo nelle difficoltà della vita."),
+                array('ending')
+            )
+        ),
+        "1009b"=>array(
+            array(
+                array('','',"O Dio, fonte di ogni bene, che hai ispirato al sacertote san Giovanni Leonardi il vivo desiferio di portare a tutti i popoli il tuo Vangelo, fa' che per tua intercessione si diffonda sempre e in ogni luogo la vera fede di Cristo."),
+                array('ending')
+            )
+        ),
+        "1014a"=>array(
+            array(
+                array('','',"Ascolta, Signore, la preghiera che il popolo cristiano innalza a te nel glorioso ricordo di san Callisto papa e martire e per la sua intercessione guidaci e sostienici nel cammino della vita."),
+                array('ending')
+            )
+        ),
+        "1015a"=>array(
+            array(
+                array('','',"O Padre, che pr mezzo del tuo Spirito hai suscitato nella Chiesa santa Teresa d'Avila per indicare una via nuova nella ricerca della perfezione, concedi a noi, tuoi fedeli, di nutrirci spiritualmente della sua dottrina e di essere infiammati da un vivo desiderio di santità."),
+                array('ending')
+            )
+        ),
+        "1016a"=>array(
+            array(
+                array('','',"O Dio, che in santa Edvige hai dato al popolo cristiano un luminoso esempio di umiltà evangelica, per la sua gloriosa intercessione guidaci nel cammino verso la patria del cielo."),
+                array('ending')
+            )
+        ),
+        "1016b"=>array(
+            array(
+                array('','',"Effondi su di noi, Signore, lo spirito di santità che hai donato a santa Margherita Maria, perché ppssiamo conoscere l'amore del Cristo, che supera ogni conoscenza, e godere la pienezza della vita divina."),
+                array('ending')
+            )
+        ),
+        "1017a"=>array(
+            array(
+                array('','',"Dio onnipotente ed etrno, che nel sacrificio del martiri edifichi la tua Chiesa, mistico corpo del Cristo, fa' che la gloriosa passione che meritò a sant'Ignazio una corona immortale, ci renda sempre forti nella fede."),
+                array('ending')
+            )
+        ),
+        "1018a"=>array(
+            array(
+                array('','',"Signore Dio nostro, che hai scelto san Luca per rivelare al mondo con la predsicazione e con gli scritti il mistero della tua predilezione per i poveri, fa' che i cristiani forìmino un cuor solo e un'anima sola, e tutti i popoli vedano la tua salvezza."),
+                array('ending')
+            )
+        ),
+        "1019a"=>array(
+            array(
+                array('','',"O Dio, che hai consacrato le primizie della fede nelle regioni settentrionali dell'America, con la predicazione e il martirio dei santi Giovanni e Isacco e dei loro compagni, fa' che nel mistico campo della Chiesa il germe fecondato da loro sacrificio fruttifichi in larga messe di vita cristiana."),
+                array('ending')
+            )
+        ),
+        "1019b"=>array(
+            array(
+                array('','',"O Padre, che hai ispirato a san Paolo della Croce un grande amore per la passione del tuo Figlio, fa' che sorretti dal suo esempio e dalla sua intercessione non esitiamo ad abbracciare la nostra croce."),
+                array('ending')
+            )
+        ),
+        "1023a"=>array(
+            array(
+                array('','',"O Dio, che hai scelto san Giovanni da Capestrano per rincuorare il popolo cristiano nell'ora della prova, custodisci la tua Chiesa nella pace, e donale sempre il conforto della tua protezione."),
+                array('ending')
+            )
+        ),
+        "1024a"=>array(
+            array(
+                array('','',"O Dio, che nel vescovo sant'Antonio Maria Claret hjai dato alla tua Chiesa un mirabile esempio di carità e di pazienza, concedi anche a noi di cercare sempre il tuo regno e di lavorare alacremente per guadagnare i fratelli a Cristo Signore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "1028a"=>array(
+            array(
+                array('','',"O Dio, che per mezzo degli Apostoli ci hai fatto conoscere il tuo mistero di salvezza, per l'intercessione dei santi Simone e Giuda concedi alla tua Chiesa di crescere continuamente con l'adesione di nuovi popoli al Vangelo."),
+                array('ending')
+            )
+        ),
         "1101a"=>array(
             array(
-                array('','',"Dio onniportente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'uniaca festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri, fratelli l'abbondanza della tua misericordia."),
+                array('','',"Dio onniportente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'unica festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri, fratelli l'abbondanza della tua misericordia."),
                 array('ending')
             )
         ),
