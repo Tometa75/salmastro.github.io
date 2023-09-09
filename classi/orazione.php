@@ -1992,9 +1992,225 @@ class Orazione {
                 array('ending')
             )
         ),
+        "1102a"=>array(
+            array(
+                array('','',"Ascolta, o Dio, la preghiera che la comunità dei credenti innalza a te nella fede del Signore risorto, e conferma in nopi la beata speranza che insieme ai nostri fratelli defunti risorgeremo in Cristo a vita nuova."),
+                array('ending')
+            )
+        ),
+        "1103a"=>array(
+            array(
+                array('','',"O Dio, che attraverso una vita umile e nascosta hai guidato san Martino de Porres alla visione della tua gloria, donaci di seguire il suo esempio per essere uniti a lui nella luce dei santi."),
+                array('ending')
+            )
+        ),
+        "1104a"=>array(
+            array(
+                array('','',"Custodisci nel tui popolo, o Padre, lo spirito che animò il vescovo san Carlo, perché la sua Chiesa si rinnovi incessantemente, e sempre più conforme al modello evangelico manifesti al mondo il vero volto del Cristo Signore."),
+                array('ending')
+            )
+        ),
+        "1107a"=>array(
+            array(
+                array('','',"Dio, Signore nostro, che hai ispirato al santo vescovo Willibrordo di farsi, per amore di Cristo, apostolo itinerante del Vangelo, concedici per sua intercessione, di perseverare stabili nella fede e forti nella speranza."),
+                array('ending')
+            )
+        ),
+        "1109a"=>array(
+            array(
+                array('','',"O Padre, che prepari il tempio della tua gloria con pietre vive e scelte, effondi sulla Chiesa il tuo Santo Spirito, perché edifichi il popolo dei credenti che formerà la Gerusalemme del cielo."),
+                array('ending')
+            )
+        ),
+        "1110a"=>array(
+            array(
+                array('','',"O Dio, che non permetti alle potenze del male di prevalere contro la tua Chiesa, fondata sulla roccia di Pietro, per l'intercessione del papa san Leone Magno fa' che resti salda nella tua verità e proceda sicura nella pace."),
+                array('ending')
+            )
+        ),
+        "1111a"=>array(
+            array(
+                array('','',"O Dio, che hai fatto risplenere la tua gloria nella vita e nella morte del vescovo san Martino, rinnova in noi i prodigi della tua grazia, perché né morte né vita ci possano mai separare del tuo amore."),
+                array('ending')
+            )
+        ),
+        "1112a"=>array(
+            array(
+                array('','',"O Dio, che per mezzo del santo abate Teodoro hai dato nuovo impulso e splendore alla vita cenobitica, fa' che noi, conformandoci alla passione di Cristo nella perseveranza, meritiamo di essere partecipi del suo regno."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "1112b"=>array(
+            array(
+                array('','',"Suscita nella Chiesa, o Padre, il tuo Santo Spirito, che mosse il vescovo san Giòsafat a dare la vita per il suo popolo, perché fortificati dallo stesso Spirito, non esitiamo a donafe la nostra vita per i fratelli."),
+                array('ending')
+            )
+        ),
+        "1113a"=>array(
+            array(
+                array('','',"O Dio, nella scuola del servizio divino, tu hai fatto fiorire innumerevoli schiere di monaci nell'unica santità e nell'inesauribile varietà dei tuoi doni: fa' che anche noi, camminando nella stessa via, ne imitiamo gli esempi e un giorno, presso di te, ne condividiamo la gioia."),
+                array('ending')
+            )
+        ),
+        "1114a"=>array(
+            array(
+                array('','',"O Dio onnipotente ed eterno, che esaudisci chi ti prega con vera fede, abbi pietà dei nostri fratelli e delle nostre sorelle, che col nome di Cristo sulle labbra si sono congedati da noi, e uniscili alla comunità dei tuoi santi."),
+                array('ending')
+            )
+        ),
+        "1115a"=>array(
+            array(
+                array('','',"O Dio, che hai reso grande il vescovo sant'Alberto nel ricercare l'armonia tra la sapienza umana e la verità rivelata, fa' che illuminati dal suo insegnamento, attraverso il progresso scientifico possiamo crescere nella tua conoscenza e nel tuo amore."),
+                array('ending')
+            )
+        ),
+        "1116a"=>array(
+            array(
+                array('','',"O Dio, che ti sei preparato una degna dimora nel cuore di santa Geltrude vergine, rischiara le nostre tenebre, perché possiamo gustare la gioia della tua viva presenza nel nostro spirito."),
+                array('ending')
+            )
+        ),
+        "1117a"=>array(
+            array(
+                array('','',"O Dio, che in santa Margherita di Scozia hai dato alla tua Chiesa un grande esempio di carità verso i poveri, per sua intercessione fa' che anche noi esprimiamo, nei rapporti con i nostri fratelli, l'immagine viva del tuo amore."),
+                array('ending')
+            )
+        ),
+        "1117b"=>array(
+            array(
+                array('','',"O Dio, che in sant'Elisabetta hai dato la grazia di riconoscere e onorare Cristo nei poveri, concedi anche a noi, per sua intercessione, di servire con instancabile carità coloro che si trovano nella sofferenza e nel bisogno."),
+                array('ending')
+            )
+        ),
+        "1118a"=>array(
+            array(
+                array('','',"Guida e sostieni, Signore, la tua Chiesa, che dalla predicazione degli apostoli Pietro e Paolo ha ricevuto il primo annunzio del Vangelo, e fa' che per il loro patrocinio progredisca nella fede e nell'amore, sino alla fine dei tempi."),
+                array('ending')
+            )
+        ),
+        "1119a"=>array(
+            array(
+                array('','',"O Dio, che per amorevole dono della tua pietà rivelasti alla santa vergine Metilde gli splendori e le armonie del tuo mondo divino, concedi che anche noi un giorno possiamo godere, nella visione svelata del cielo, quelle realtà che ora possediamo nella certezza della fede."),
+                array('ending')
+            )
+        ),
+        "1120a"=>array(
+            array(
+                array('','',"O Dio, hai concesso alla beata vergine Maria Fortunata di servirti con cuore umile e semplice; per i suoi meriti e la sua intercessione, donaci la grazia di praticare sempre l'umiltà del Vangelo."),
+                array('ending')
+            )
+        ),
+        "1121a"=>array(
+            array(
+                array('','',"Guarda, Signore, il tuo popolo riunito nel ricordo della beata Vergine Maria; fa' che per sua intercessione partecipii alla pienezza della tua grazia."),
+                array('ending')
+            )
+        ),
+        "1122a"=>array(
+            array(
+                array('','',"Ascolta, Signore, la nostra preghiera e per intercessione di santa Cecilia, vergine e martire, rendici degni di cantare le tue lodi."),
+                array('ending')
+            )
+        ),
+        "1123a"=>array(
+            array(
+                array('','',"O Dio, mirabile nei tuoi santi, benedici e rallegra la tua Chiesa nel glorioso ricordo del papa san Clemente I, che, sacerdote e martire del tuo Figlio, testimoniò con il sangue il mistero che celebrava e confermò conla vita l'annunzio del Vangelo."),
+                array('ending')
+            )
+        ),
+        "1124a"=>array(
+            array(
+                array('','',"O Dio, che nell'abate san Colombano hai felicemente congiunto il servizio apostolico e la fedele osservanza della vita monastica, concedi anche a noi, che lo veneriamo maestro e intercessore, di cercare te sopra ogni cosa e di lavorare assiduamente per l'edificazione della tua Chiesa."),
+                array('ending')
+            )
+        ),
+        "1126a"=>array(
+            array(
+                array('','',"O Dio, nostro Signore, che ponesti nell'animo del santo abate Silvestro l'anelito per la dolcezza della solitudine nel contesto di una operosa vita cenobitica, fa' che anchenoi ti cerchiamo sempre con cuore sincero, e corriamo verso le dimore eterne nell'umile esercizio della carità fraterna."),
+                array('ending')
+            )
+        ),
+        "1130a"=>array(
+            array(
+                array('','',"Dio onnipotente, esaudisci la nostra preghiera nella festa dell'apostolo sant'Andrea; egli che fu annunziatore del Vangelo e pastore della tua Chiesa, sia sempre nostro intercessore nel cielo."),
+                array('ending')
+            )
+        ),
+        "1203a"=>array(
+            array(
+                array('','',"O Dio, che hai chiamato molti popoli dell'Oriente alla luce del Vangelo, con la predicazione apostolica di san Francesco Saverio, fa' che ogni comunità cristiana arda dello stesso fervore missionario, perché su tutta la terra la santa Chiesa si allieti di nuovi figli."),
+                array('ending')
+            )
+        ),
+        "1204a"=>array(
+            array(
+                array('','',"Signore, che in san Giovanni Damascenio hai dato alla tua Chiesa un insigne maestro della sapienza dei padri, fa' che la vera fede, che egli insegnò con gli scritti e con la vita, sia sempre nostra forza e nostra luce."),
+                array('ending')
+            )
+        ),
+        "1205a"=>array(
+            array(
+                array('','',"O Dio, che nell'abate san Saba donasti alla Chiesa un fervido fautore della vita monastica e un fermo assertore della vera dottrina, concedi a noi di vivere sempre la verità nella carità, e di servire te solo nella gioia inalterabile del tuo amore."),
+                array('ending')
+            )
+        ),
+        "1205b"=>array(
+            array(
+                array('','',"Signore, nostro Dio, fa' che imitiamo gli esempi del beato Placido Riccardi, monaco e sacerdote: così anche noi, partecipando con la pazienza alla passione del tuo Figlio, meriteremo di condividere la gloria del suo regno."),
+                array('ending')
+            )
+        ),
+        "1206a"=>array(
+            array(
+                array('','',"Assisti il tuo popolo, Dio misericordioso, e per l'intercessione del vescovo san Nicola, che veneriamo nostro protettore, salvaci da ogni pericolo nel cammino che conduce alla salvezza."),
+                array('ending')
+            )
+        ),
+        "1207a"=>array(
+            array(
+                array('','',"O Dio, che nel vescovo sant'Ambrogio ci hai dato un insigne maestro nella fede cattolica e un esempio di apostolica fortezza, suscita nella Chiesa uomini secondo il tuo cuore, che la guidino con coraggio e sapienza."),
+                array('ending')
+            )
+        ),
         "1208a"=>array(
             array(
                 array('','',"O Padre, che nell'Immacolata Concezione della Vergina hai preparato una degna dimora per il tuo Figlio, e in previsione della morte di lui l'hai preservata da ogni macchia di peccato, concedi anche a noi, per sua intercessione, di venire incontro a te in santità e purezza di spirito."),
+                array('ending')
+            )
+        ),
+        "1211a"=>array(
+            array(
+                array('','',"O Dio, fortezza e corona dei tuoi santi, concedi anche a noi, sull'esempio del papa san Damaso I, amoroso cultore delle memorie dei martiri, di onorare e imitare i gloriosi testimoni della nostra fede."),
+                array('ending')
+            )
+        ),
+        "1212a"=>array(
+            array(
+                array('','',"O Dio, che in santa Giovanna Francesca hai dato alla tua Chiesa unn luminoso esempio di altissima contemplazione e di fede intrepida, nella vita familiare e monastica, concedi anche a noi di vivere fedelmente la nostra vocazione, perché risplenda nelle nostre opere la tua luce."),
+                array('ending')
+            )
+        ),
+        "1213a"=>array(
+            array(
+                array('','',"Riempi di gioia e di luce il tuo popolo, Signore, per l'intercessione gloriosa della santa vergine e martire Lucia, perché noi, che festeggiamo la sua nascita al cielo, possiamo contemplare con i nostri occhi la tua gloria."),
+                array('ending')
+            )
+        ),
+        "1214a"=>array(
+            array(
+                array('','',"O Dio, che hai guidato san Giovanni della Croce alla santa montagna che p Cristo, attraverso la notte oscura della rinuncia e l'amore ardente della croce, concedi anoi di seguirlo come maestro di vita spirituale, per giungere alla contemplazione della tua gloria."),
+                array('ending')
+            )
+        ),
+        "1221a"=>array(
+            array(
+                array('','',"O Dio, che hai suscitato in mezzo al tuo popolo san Pietro Canisio, scerdote pieno di carità e sapienza, per confermare i fedeli nella dottrina cattolica, concedi a quanti cercano la verità, lagioia di trovarti e a coloro che credono, la perseveranza nella fede."),
+                array('ending')
+            )
+        ),
+        "1223a"=>array(
+            array(
+                array('','',"Concedi anoi, Signore, di progredire nella sapienza dei santi, sull'esempio del tuo sacerdote san Giovanni, perché, esercitando assiduamente la carità verso i nostri fratelli, nella sera della vita siamo accolti tra le braccia della tua misericordia."),
                 array('ending')
             )
         ),
@@ -2235,71 +2451,34 @@ class Orazione {
         }
 
         //////////////////////////////////////////////////////////
+        elseif ($this->actual['tempo']=='Q') {
+
+            if ($this->actual['evCode']=='CEN') $this->actual['proprio']='CEN';
+            elseif ($this->actual['evCode']=='QC4') $this->actual['proprio']='QC4';
+            elseif ($this->actual['evCode']=='QC5') $this->actual['proprio']='QC5';
+            elseif ($this->actual['evCode']=='QC6') $this->actual['proprio']='QC6';
+
+            //QU1 ... domeniche e Q11... lunedì prima settimana
+            elseif (substr($this->actual['evCode'],0,1)=='Q') $this->actual['proprio']=$this->actual['evCode'];
+
+            elseif ($this->actual['evCode']=='PAL') $this->actual['proprio']='PAL';
+            elseif (substr($this->actual['evCode'],0,2)=='SS') {
+                $this->actual['proprio']=$this->actual['evCode'];
+
+                if ($this->actual['evCode']=='SS4' && substr($this->actual['ora'],0,3)=='ves') $this->actual['proprio']='ves_SS4';
+            }
+
+            if ($this->actual['evCode']=='0210a') $this->actual['proprio']=$this->actual['evCode'];
+            elseif ($this->actual['evCode']=='0319a') $this->actual['proprio']=$this->actual['evCode'];
+            elseif ($this->actual['evCode']=='0325a') $this->actual['proprio']=$this->actual['evCode'];
+
+        }
+
+        //////////////////////////////////////////////////////////
         //FESTE
         if ($this->actual['fesCode']!='') $this->actual['proprio']=$this->actual['fesCode'];
 
         /*
-
-        //////////////////////////////////////////////////////////
-        elseif ($this->actual['tempo']=='Q') {
-
-            if ($this->actual['weekDay']==0) {
-                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2') {
-                    if ($this->actual['evCode']=='PAL') $this->actual['proprio']='ves_PAL';
-                    else $this->actual['proprio']='ves_QU0';
-                }
-                elseif ($this->actual['ora']=='lodi') {
-                    if ($this->actual['evCode']=='PAL') $this->actual['inno']='ves_5';
-                    else $this->actual['proprio']='lodi_QU0';
-                }
-            }
-            else {
-                if ($this->actual['ora']=='lodi') {
-                    if (substr($this->actual['evCode'],0,2)=='SS') $this->actual['inno']='ves_5';
-                    else $this->actual['proprio']='lodi_QU0';
-                }
-                elseif ($this->actual['ora']=='ves') {
-                    if (substr($this->actual['evCode'],0,2)=='SS') $this->actual['proprio']='ves_PAL';
-                    else $this->actual['proprio']='ves_QU1';
-                }
-            }
-
-            if ($this->actual['ora']=='terza') $this->actual['proprio']='terza_QU0';
-            elseif ($this->actual['ora']=='sesta') $this->actual['proprio']='sesta_QU0';
-            elseif ($this->actual['ora']=='nona') $this->actual['proprio']='nona_QU0';
-
-            if ($this->actual['evCode']=='PAL') {
-                if ($this->actual['ora']=='terza' || $this->actual['ora']=='sesta' || $this->actual['ora']=='nona') {
-                    $this->actual['proprio']='terza_PAL';
-                }
-            }
-
-            if ($this->actual['evCode']=='SS4' && $this->actual['ora']=='ves') $this->actual['proprio']='ves_SS4';
-
-            if ($this->actual['evCode']=='SS5' || $this->actual['evCode']=='SS6') {
-                if ($this->actual['ora']=='lodi') $this->actual['inno']='ves_5';
-                elseif ($this->actual['ora']=='terza') $this->actual['proprio']='terza_SS5';
-                elseif ($this->actual['ora']=='sesta') $this->actual['proprio']='sesta_SS5';
-                elseif ($this->actual['ora']=='nona') $this->actual['proprio']='nona_SS5';
-                elseif ($this->actual['ora']=='ves') $this->actual['proprio']='ves_PAL';
-            }
-
-            //santa Scolastica
-            if ($this->actual['evCode']=='0210a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1651';
-                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1661';
-            }
-            //San Giuseppe sposo della B.V. Maria
-            elseif ($this->actual['evCode']=='0319a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
-            }
-            //Annunciazione del Signore
-            elseif ($this->actual['evCode']=='0325a') {
-                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';
-                elseif ($this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0325a';
-            }
-
-        }
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='P') {
             //!!!!!! in MAP, l'indice ASC indica la data dell'ascensione !!!!!!!!
