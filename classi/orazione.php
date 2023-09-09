@@ -828,6 +828,18 @@ class Orazione {
                 array('ending')
             )
         ),
+        "CEN"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, concedi al popolo cristiano di iniziare con questo digiuno un cammino di vera conversione, per affrontare vittoriosamente con le armi della penitenza il combattimento contro lo spirito del male."),
+                array('ending')
+            )
+        ),
+        "PAL"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che hai dato come modello agli uomini il Cristo tuo Figlio, nostro Salvatore, fatto uomo e umiliato fino alla morte di croce, fa' che abbiamo sempre presente il grande insegnamento della sua passione, per partecipare alla gloria della risurrezione."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
         "A1217"=>array(
             array(
                 array('','',"Dio creatore e redentore, che hai rinnovato il mondo nel tuo Verbo, fatto uomo nel grembo di una Madre sempre vergine, concedi che il tuo unico Figlio, primogenito di una moltitudine di fratelli, ci unisca a sé in comunione di vita."),
@@ -969,6 +981,270 @@ class Orazione {
         "N0112"=>array(
             array(
                 array('','',"Dio onnipotente ed eterno, che nel Natale del Redentore hai fatto di noi una nuova creatura, trasformaci nel Cristo tuo Figlio, che ha congiunto per sempre a sè la nostra umanità."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "QC5"=>array(
+            array(
+                array('','',"Accompagna con la tua benevolenza, Padre misericordioso, i primi passi del nostro cammino penitenziale, perché all'osservanza esteriore corrisponda un profondo rinnovamento nello spirito."),
+                array('ending')
+            )
+        ),
+        "QC6"=>array(
+            array(
+                array('','',"Guarda con paterna bontà, Dio onnipotente, la debolezza dei tuoi figli, e a nostra protezione e difesa stendi il tuo braccio invincibile."),
+                array('ending')
+            )
+        ),
+        "QU1"=>array(
+            array(
+                array('','',"O Dio, nostro PAdre, con la celebrazione di questa Quaresima, segno sacramentale della nostra conversione, concedi a noi tuoi fedeli di crescere nella conoscenza del mistero di Cristo e di testimoniarlo con una degna condotta di vita."),
+                array('ending')
+            )
+        ),
+        "Q11"=>array(
+            array(
+                array('','',"Convertici a te, o Padre, nostra salvezza, e formaci alla scuola della tua sapienza, perché l'inpegno quaresimale lasci una traccia profonda nella nostra vita."),
+                array('ending')
+            )
+        ),
+        "Q12"=>array(
+            array(
+                array('','',"Volgi il tuo sguardo, Padre misericordioso, a questa tua famiglia, e fa' che superando ogni forma di egoismo risplenda ai tuoi occhi per il desiderio di te."),
+                array('ending')
+            )
+        ),
+        "Q13"=>array(
+            array(
+                array('','',"Guarda, o Padre, il popolo a te consacrato, e fa' che mortificando il corpo con l'astinenza si rinnovi nello spirito con il frutto delle buone opere."),
+                array('ending')
+            )
+        ),
+        "Q14"=>array(
+            array(
+                array('','',"Ispiraci, o PAdre, pensieri e propositi santi, e donaci il coraggio di attuarli, e poiché non possiamo esistere senza di te, fa che viviamo secondo la tua volontà."),
+                array('ending')
+            )
+        ),
+        "Q15"=>array(
+            array(
+                array('','',"Concedi, Signore, alla tua Chiesa di prepararsi interiormente alla celebrazione della Pasqua, perchP il comune impegno nella mortificazione corporale porti a tutti noi un vero rinnovamento dello spirito."),
+                array('ending')
+            )
+        ),
+        "Q16"=>array(
+            array(
+                array('','',"O Dio, Padre di eterna misericordia, fa' che si convertano a te i nostri cuori, perché nella ricerca dell'unico bene necessario e nelle oèere di carità fraterna siako sempre consacrati alla tua lode."),
+                array('ending')
+            )
+        ),
+        "QU2"=>array(
+            array(
+                array('','',"O Padre, che ci chiami ad ascoltare il tuo amato Figlio, nutri la nostra fede con la tua parola e purifica gli occhi del nostro spirito, perché possiamo godere la visione della tua gloria."),
+                array('ending')
+            )
+        ),
+        "Q21"=>array(
+            array(
+                array('','',"O Dio, che hai ordinato la penitenza del corpo come medicina dell'anima, fa che ci asteniamo da ogni peccato per aver la forza di osservare i comandamenti del tuo amore."),
+                array('ending')
+            )
+        ),
+        "Q22"=>array(
+            array(
+                array('','',"Custodisci, o Padre, la tua Chiesa con la tua continua benevolenza, e poiché, a causa della debolezza umana, non può sostenersi senza di te, il tuo aiuto la liberi sempre da ogni pericolo e la guidi alla salvezza eterna."),
+                array('ending')
+            )
+        ),
+        "Q23"=>array(
+            array(
+                array('','',"Sostieni sempre, o Padre, la tua famiglia nell'impegno delle buone opere; confortala con il tuo aiuto nel cammino di questa vita e guidala al possesso dei beni eterni."),
+                array('ending')
+            )
+        ),
+        "Q24"=>array(
+            array(
+                array('','',"O Dio, che ami l'innocenza, e la ridoni a chi l'ha perduta, volgi verso di te i nostri cuori e donaci il fervore del tuo Spirito, perché possiamo esser saldi nella fede e operosi nella carità."),
+                array('ending')
+            )
+        ),
+        "Q25"=>array(
+            array(
+                array('','',"Dio onnipotente e misericordioso, concedi ai tuoi fedeli di essere intimamente purificati dall'impegno penitenziale della Quaresima, per giungere con spirito nuovo alle prossime feste di Pasqua."),
+                array('ending')
+            )
+        ),
+        "Q26"=>array(
+            array(
+                array('','',"O Dio, che per mezzo dei sacramenti ci rendi partecipi del tuo mistero di gloria, guidaci attraverso le esperienze della vita, perché possiamo giungere alla splendida luce in cui è la tua dimora."),
+                array('ending')
+            )
+        ),
+        "QU3"=>array(
+            array(
+                array('','',"Dio misericordioso, fonte di ogni bene, tu ci hai propostoi a rimedio del pecczto il digiuno, la preghiera e le opere di carità fraterna; guarda a noi che riconosciamo la nostra miseria e, poiché ci opprime il peso delle nostre colpe, ci sollevi la tua misericordia."),
+                array('ending')
+            )
+        ),
+        "Q31"=>array(
+            array(
+                array('','',"Con la tua continua misericordia, o Padre, purifica e rafforza la tua Chiesa, e poiché non può sostenersi senza di te non privarla mai della tua guida."),
+                array('ending')
+            )
+        ),
+        "Q32"=>array(
+            array(
+                array('','',"Non ci abbandoni mai la tua grazia, o Padre, ci renda fedeli al tuo santo servizio e ci ottenga sempre il tuo aiuto."),
+                array('ending')
+            )
+        ),
+        "Q33"=>array(
+            array(
+                array('','',"Signore Dio nostro, fa' che i tuoi fedeli, formati nell'impegno delle buone opere e nell'ascolto della tua parola, ti servano con generosa dedizione liberi da ogni egoismo, e nella comune preghiera a te, nostro Padre, si riconoscano fratelli."),
+                array('ending')
+            )
+        ),
+        "Q34"=>array(
+            array(
+                array('','',"Dio grande e misericordioso, quanto più si avvicina la festa della nostra redenzione, tanto più cresca in noi il fervore per celebrare santamente la Pasqua del tuo Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "Q35"=>array(
+            array(
+                array('','',"Padre santo e misericordioso, infondi la tua grazia nei nostri cuori, perché possiamo saslvarci dagli sbandamenti umani e restare fedeli alla tua parola di vita eterna."),
+                array('ending')
+            )
+        ),
+        "Q36"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che nella celebrazione della Quaresima ci fai pregustare la gioia della Pasqua, donaci di approfondire e vivere i misteri della redenzione per gofìdere la puienezza dei suoi frutti."),
+                array('ending')
+            )
+        ),
+        "QU4"=>array(
+            array(
+                array('','',"O Padre, che per mezzo del tuo Figlio opero mirabilmente la nostra redenzione, concedi al popolo cristiano di affrettarsi con fede viva e generoso impegno verso la Pasqua ormai vicina."),
+                array('ending')
+            )
+        ),
+        "Q41"=>array(
+            array(
+                array('','',"O Dio, che rinnovi il mondo con i tuoi sacramenti, fa che la comunità dei tuoi figli si edifichi con quasti segni misteriosi della tua presenza e non resti priva del tuo aiuto per la vita di ogni giorno."),
+                array('ending')
+            )
+        ),
+        "Q42"=>array(
+            array(
+                array('','',"Dio fedele e misericordioso, in questo tempo di penitenza e di preghiera disponi i tuoi figli a vivere degnamente il mistero pasquale e a recare ai fratelli il lieto annunzio della tua salvezza."),
+                array('ending')
+            )
+        ),
+        "Q43"=>array(
+            array(
+                array('','',"O Pade, che dai la ricompensa ai giusti e non rifiuti il perdono ai peccatori pentiti, ascolta la nostra supplica: l'umile confessione delle nostre colpe ci ottrenga la tua misericordia."),
+                array('ending')
+            )
+        ),
+        "Q44"=>array(
+            array(
+                array('','',"O Padre, che ci hai dato la grazia di purificarci con la penitenza e di santificarci con le opere di carità fraterna, fa' che camminiamo fedelmente nella via dei tuoi èrecetti, per giungere rinnovati alle feste pasquali."),
+                array('ending')
+            )
+        ),
+        "Q45"=>array(
+            array(
+                array('','',"Padre santo, che nei tuoi sacramenti hai posto il rimedio alla nostra debolezza, fa' che accogliamo con gioia i frutti della redenzione e li manifestiamo nel rinnovamento della vita."),
+                array('ending')
+            )
+        ),
+        "Q46"=>array(
+            array(
+                array('','',"Signore onnipotente e misericordioso, attira verso di te in ostri cuori, poiché senza di te non possiamo piacere a te, sommo bene."),
+                array('ending')
+            )
+        ),
+        "QU5"=>array(
+            array(
+                array('','',"Vieni in nostro aiuto, Padre misericordioso, perché possiamo vivere e agire sempre in quella carità, che spinse il tuo Figlio a dare la vita per noi."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "Q51"=>array(
+            array(
+                array('','',"O Padre, che con il dono del tuo amore ci riempi di ogni benedizione, trasformaci in creature nuove, per esser preparati alla Pasqua gloriosa del tuo regno."),
+                array('ending')
+            )
+        ),
+        "Q52"=>array(
+            array(
+                array('','',"Il tiuo aiuto, Dio onnipotente, ci renda perseeranti nel tuo servizio, perché anche nle nostro tempo la tua Chiesa si accresca di nuovi menmbri e si rinnovi sempre nello spirito."),
+                array('ending')
+            )
+        ),
+        "Q53"=>array(
+            array(
+                array('','',"Risplenda la tua luce, Dio misericordioso, sui tuoi figli purificati dalla penitenza; tu che ci hai ispirato la volontà di servirti, porta a compimento l'opera da te iniziata."),
+                array('ending')
+            )
+        ),
+        "Q54"=>array(
+            array(
+                array('','',"Assisti e prioteggi sempre, Padre buono, questa tua famiglia che ha posto in te ogni speranza, perché liberata dalla corruzione del peccato resti fedele all'impegno del Battesimo, e ottenga in premio l'eredità promessa."),
+                array('ending')
+            )
+        ),
+        "Q55"=>array(
+            array(
+                array('','',"Perdona, Signore, i nostri peccati, e nella tua misericordia spezza le catene che ci tengono prigionieri a causa delle nostre colpe, e guidaci alla libertà che Cristo ci ha conquistata."),
+                array('ending')
+            )
+        ),
+        "Q56"=>array(
+            array(
+                array('','',"O Dio, che operi sempre per la nostra salvezza e in questi giorni ci allieti con un dono speciale della tua grazia, guarda con bontà alla tua famiglia, custodisci nel tuo amore chi attende il Battesimo e assisti chi è già rinato alla vita nuova."),
+                array('ending')
+            )
+        ),
+        "SS1"=>array(
+            array(
+                array('','',"Guarda, Dio onnipotente, l'umanità sfinita per la sua debolezza mortale, e fa' che riprenda vita per la passione del tuo unico Figlio."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "SS2"=>array(
+            array(
+                array('','',"Concedi a questa tua famiglia, o PAdre, di celebrare con fede i misteri della passione del tuo Figlio, per gustare la dolcezza del tuo perdono."),
+                array('ending')
+            )
+        ),
+        "SS3"=>array(
+            array(
+                array('','',"Padre misericordioso, tu hai voluto che il Cristo tuo Figlio subisse per noi il supplizio della croce per liberarci dal potere del nemico; donaci di giungere alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "SS4"=>array(
+            array(
+                array('','',"O Dio, vita e salvezza di chi ti ama, rendici ricchi dei tuoi doni: compi in noi ciò che speriamo per la morte del Figlio tuo, e fa' che partecipiamo alla gloria della sua risurrezione."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ves_SS4"=>array(
+            array(
+                array('','',"O Dio, che per la tua gloria e per la nostra salvezza, hai costituito sommo ed eterno sacerdote il Cristo tuo Figlio, concedia noi, divenuti tuo poolo mediante il suo sangue, di sperimentare, nella partrecipazione al sacrificio eucristico, la forza redentrice della croce e della risurrezione."),
+                array('ending')
+            )
+        ),
+        "SS5"=>array(
+            array(
+                array('','',"Guarda con amore, Padre, questa tua famiglia, per la quale il Signore nostro Gesù Cristo non esitò a consegnarsi nelle mani dei nemici e a subire il supplizio della croce."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "SS6"=>array(
+            array(
+                array('','',"O Dio eterno e onnipotente, che ci concedi di celebrare il mistero del Figlio tuo Unigenito disceso nelle viscere della terra, fa' che sepolti con lui nel Battesimo, risorgiamo con lui nella gloria della risurrezione."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -2454,7 +2730,7 @@ class Orazione {
         elseif ($this->actual['tempo']=='Q') {
 
             if ($this->actual['evCode']=='CEN') $this->actual['proprio']='CEN';
-            elseif ($this->actual['evCode']=='QC4') $this->actual['proprio']='QC4';
+            elseif ($this->actual['evCode']=='QC4') $this->actual['proprio']='lodi_1_1';
             elseif ($this->actual['evCode']=='QC5') $this->actual['proprio']='QC5';
             elseif ($this->actual['evCode']=='QC6') $this->actual['proprio']='QC6';
 
@@ -2472,6 +2748,10 @@ class Orazione {
             elseif ($this->actual['evCode']=='0319a') $this->actual['proprio']=$this->actual['evCode'];
             elseif ($this->actual['evCode']=='0325a') $this->actual['proprio']=$this->actual['evCode'];
 
+        }
+
+        //////////////////////////////////////////////////////////
+        elseif ($this->actual['tempo']=='P') {
         }
 
         //////////////////////////////////////////////////////////
