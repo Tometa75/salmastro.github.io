@@ -22,4 +22,7 @@ Starting prayer structure
 Class "inno" build
 Need to check for bugs
 
+10.09.2023
+End build "Orazioni"
+
 

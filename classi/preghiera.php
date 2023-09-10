@@ -105,10 +105,26 @@ class Preghiera {
                 );
                 $this->info['testo']->addBlock($b);
 
-                $b=array(
-                    array('sac','','Benediciamo il Signore.'),
-                    array('ris','','Rendiamo grazie a Dio.')
-                );
+                //ottava di Pasqua
+                if ($this->litio->actual['evCode']=='PAS') {
+                    $b=array(
+                        array('sac','','Voi, che dopo i giorni della Passione, celebrate con gioia la Pasqua del Signore, possiate giungere alla grande festa della Pasqua eterna.'),
+                        array('ris','','Amen.')
+                    );
+                }
+                elseif (substr($this->litio->actual['evCode'],0,3)=='PA1') {
+                    $b=array(
+                        array('sac','','Benediciamo il Signore, alleluia, alleluia.'),
+                        array('ris','','Rendiamo grazie a Dio, alleluia, alleluia.')
+                    );
+                }
+                else {
+                    $b=array(
+                        array('sac','','Benediciamo il Signore.'),
+                        array('ris','','Rendiamo grazie a Dio.')
+                    );
+                }
+                
                 $this->info['testo']->addBlock($b);
 
                 $b=array(

@@ -840,6 +840,18 @@ class Orazione {
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
+        "PAS"=>array(
+            array(
+                array('','',"O Padre, che in questo giorno, per mezzo del tuo unico Figlio, hai vinto la morte e ci hai aperto i passaggio alla vita eterna, concedi a noi, che celebriamo la Pasqua di risurrezione, di essere rinnovati nel tuo Spirito, per rinascere nella luce del Signore risorto."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "ASC"=>array(
+            array(
+                array('','',"Esulti di santa gioia la tua Chiesa, o Padre, per il mistero che celebra in questa liturgia di lode, poiché nel tuo Figlio asceso al cielo la nostra umanità è innalzata accanto a te, e noi, membra del suo corpo, viviamo nella speranza di raggiungere Cristo, nostro capo, nella gloria."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
         "A1217"=>array(
             array(
                 array('','',"Dio creatore e redentore, che hai rinnovato il mondo nel tuo Verbo, fatto uomo nel grembo di una Madre sempre vergine, concedi che il tuo unico Figlio, primogenito di una moltitudine di fratelli, ci unisca a sé in comunione di vita."),
@@ -1248,6 +1260,306 @@ class Orazione {
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
+        "PA11"=>array(
+            array(
+                array('','',"O Padre, che fai crescere la tua Chiesa, donandole senpre nuovi figli, concedi ai tuoi fedeli di esprimere nella vita il sacramento che hanno ricevuto nella fede."),
+                array('ending')
+            )
+        ),
+        "PA12"=>array(
+            array(
+                array('','',"O Dio, che nei scaramenti pasquali hai fato al tuo popolo la salvezza, effiondi su di noi l'abbondanza dei tuoi doni, perché raggiungiamoil bene della perfetta libertà e abbiamo in cielo qualla gioia che ora pregustiamo sulla terra."),
+                array('ending')
+            )
+        ),
+        "PA13"=>array(
+            array(
+                array('','',"O Dio, che nella liturgia pasquanle ci dai la gioia di rivivere ogni anno la risurrezione del Signore, fa' che l'esultanza di questi giorni raggiunga la sua pienezza nella Pasqua del cielo."),
+                array('ending')
+            )
+        ),
+        "PA14"=>array(
+            array(
+                array('','',"O Padre, che da ogni parte della terra hai riunito i popoli per lodare il tuo nome, concedi che tutti i tuoi figli, nati a nuova vita nelle acque del Battesimo e animati dall'unica fede, esprimano nelle opere l'unico amore."),
+                array('ending')
+            )
+        ),
+        "PA15"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che nella Pasqua di tuo Figlio hai offerto agli uomini il patto della riconciliazione e della pace, donaci di testimoniare nella vita il mistero che celebriamo nella fede."),
+                array('ending')
+            )
+        ),
+        "PA16"=>array(
+            array(
+                array('','',"O padre, che nella tua immensa bontà estendi a tutti i popoli il dono della fede, guarda i tuoi figli di elezione, perché coloro che sono rinati nel Battesimo ricevano al veste candida della vita immortale."),
+                array('ending')
+            )
+        ),
+        "PA2"=>array(
+            array(
+                array('','',"Dio di eterna misericordia che nella ricorrenza pasquale ravvivi la fede del tuo popolo, accresci in noi la grazia che ci hai dato, perché tutti comprendiamo l'inestimabile ricchezza del Battesimo chd ci ha purificati, dello Spirito che ci ha rigenerati, del sangue che ci ha redenti."),
+                array('ending')
+            )
+        ),
+        "PA21"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che ci dai il privilegio di chiamarti Padre, fa' crescere in noi lo spirito di figli adottivi, perché possiamo entrare nell'eredità che ci hai promesso."),
+                array('ending')
+            )
+        ),
+        "PA22"=>array(
+            array(
+                array('','',"Concedi al tuo popolo, Dio misericordioso, di proclamare la potenza del Signore risorto, perché in lui, sacramento universale di salvezza, manifesti al mondo la pienezza della vita nuova."),
+                array('ending')
+            )
+        ),
+        "PA23"=>array(
+            array(
+                array('','',"O Padre, che nella Pasqua del tuo Figlio hai ristabilito l'uomo nella dignità perduta e gli hai dato la speranza della risurrezione, fa' che accogliamo e viviamo nell'amore il mistero celebrato ogni anno nella fede."),
+                array('ending')
+            )
+        ),
+        "PA24"=>array(
+            array(
+                array('','',"Donaci, Padre misericordioso, di rendere presente in ogni momento della vita la fecindità della Pasqua, che si attua nei tuoi misteri."),
+                array('ending')
+            )
+        ),
+        "PA25"=>array(
+            array(
+                array('','',"Padre misericordioso, tu hai voluto che il tuo Figlio subisse per noi il supplizio della croce per liberarci dal potere del nemico, donaci di giungere alla gloria della risurrezione."),
+                array('ending')
+            )
+        ),
+        "PA26"=>array(
+            array(
+                array('','',"O Padre, che ci hai donato il Salvatore e lo Spirito Santo, guarda con benevolenza i tuoi figli di adozione, perché a tutti i credenti in Cristo sia data la vera libertà e l'eredità eterna."),
+                array('ending')
+            )
+        ),
+        "PA3"=>array(
+            array(
+                array('','',"Esulti sempre il tuo popolo, o Padre, per la rinnovata giovinezza dello spirito, e come oggi si allieta per il dono della dignità filiale, così pregusti nella speranza il giorno glorioso della risurrezione."),
+                array('ending')
+            )
+        ),
+        "PA31"=>array(
+            array(
+                array('','',"O Dio, che manifesti agli erranti la luce della tua verità, perché possano tornare sulla retta via, concedi a tutti coloro che si professano cristiano di respingere ciò che è contrario a questo nome e di seguire ciò che gli è conforme."),
+                array('ending')
+            )
+        ),
+        "PA32"=>array(
+            array(
+                array('','',"O Dio, che apri la porta del tuo regno agli uomini rinati dall'acqua e dallo Spirito Santo, accresci in noi la grazia del Battesimo, perché liberi da ogni colpa possiamo ereditare i beni da te promessi."),
+                array('ending')
+            )
+        ),
+        "PA33"=>array(
+            array(
+                array('','',"Assisti, o Dio nostro Padre, questa tua famiglia raccolta in preghiera: tu che ci hai dato la grazia della fede, donaci di avere parte all'eredità eterna per la risurrezione del Cristo tuo Figlio e nostro Signore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "PA34"=>array(
+            array(
+                array('','',"O Dio, che in questi giorni pasquali ci hai rivelato la grandezza del tuo amore, fa' che accogliamo pienamente il tuo dono, perché, liberi da ogni errore, aderiamo sempre più alla tua parola di verità."),
+                array('ending')
+            )
+        ),
+        "PA35"=>array(
+            array(
+                array('','',"Dio onnipotente, che ci hai dato la grazia di conoscere il lieto annunzio della risurrezione, fa' che rinasciamo a vita nuova per la forza del tuo Spirito di amore."),
+                array('ending')
+            )
+        ),
+        "PA36"=>array(
+            array(
+                array('','',"O Dio, che nell'acqua del Battesimo hai rigenerato coloro che credono in te, custodidci in noi la vita nuova, perché possiamo vincere ogni assalto del male e conservare fedelmente il dono del tuo amore."),
+                array('ending')
+            )
+        ),
+        "PA4"=>array(
+            array(
+                array('','',"Dio onnipotente e misericordioso, guidaci al possesso della gioia eterna, perché l'umile gregge dei tuoi fedeli giunga con sicurezza accanto a te, dove lo ha preceduto il Cristo, suo Pastore."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "PA41"=>array(
+            array(
+                array('','',"O Dio, che nell'umiliazione del tuo Figlio hai risollevato il mondo dalla sua caduta, donaci la santa gioia pasquale, perché liberi dall'oppressione della colpa, partecipiamo alla felicità eterna."),
+                array('ending')
+            )
+        ),
+        "PA42"=>array(
+            array(
+                array('','',"Dio Padre onnipotente, che ci dai la grazia di celebrare il mistero della risurrezione del tuo Figlio, concedi a noi di testimoniare con la vita la gioia di essere salvati."),
+                array('ending')
+            )
+        ),
+        "PA43"=>array(
+            array(
+                array('','',"O Dio, vita dei tuoi fedeli, gloria degli umili, beatitudine dei giusti, ascolta la preghiera del tuo popolo, e sazia con l'abbondanza dei tuoi doni la sete di coloro che sperano nelle tue promesse."),
+                array('ending')
+            )
+        ),
+        "PA44"=>array(
+            array(
+                array('','',"O Dio, che hai redento l'uomo e lo hai innalzato oltre l'antico splendore, guarda all'opera della tua misericordia, e nei tuoi figli, nati a vita nuova nel Battesimo, custodisci sempre i doni della tua grazia."),
+                array('ending')
+            )
+        ),
+        "PA45"=>array(
+            array(
+                array('','',"O Padre, principio della vera libertà e fonte di salvezza, ascolta la voce del tuo popolo e fa' che i redenti dal sangue del tuo Figlio vivano sempre in comunione con te e godano la felicità senza fine."),
+                array('ending')
+            )
+        ),
+        "PA46"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, rendi sempre operante in noi il mistero della Pasqua, perché nati a nuova vita nel Battesimo, con la tua protezione possiamo portare molto frutto e giungere alla pienezza della gioia eterna."),
+                array('ending')
+            )
+        ),
+        "PA5"=>array(
+            array(
+                array('','',"O Padre, che ci hai donato il Salvatore e lo Spirito Santo, guarda con benevolenza i tuoi figli di adozione, perché a tutti i credenti in Cristo sia data la vera libertà e l'eredità eterna."),
+                array('ending')
+            )
+        ),
+        "PA51"=>array(
+            array(
+                array('','',"O Padre, che unisci in un solo volere le menti dei fedeli, cincedi al tuo popolo di amare ciò che comandi e desiderare ciò che prometti, perché fra le vicende del mondo là siano fissi i nostri cuori dove è la vera gioia."),
+                array('ending')
+            )
+        ),
+        "PA52"=>array(
+            array(
+                array('','',"O Padre, che nella risurrezione del tuo Figlio ci hai aperto il passaggio alla vita eterna, rafforza in noi la fede e la speranza, perché non dubitiamo mai di raggiungere quei beni che tu ci hai rivelato e promesso."),
+                array('ending')
+            )
+        ),
+        "PA53"=>array(
+            array(
+                array('','',"O Dio, che salvi i peccatori e li rinnovi nella tua amicizia, volgi verso di te i nostri cuori: tu che ci hai liberato dalle tenebre con il dono della fede, non permettere che ci separiamo da te, luce di verità."),
+                array('ending')
+            )
+        ),
+        "PA54"=>array(
+            array(
+                array('','',"O Dio, che per la tua grazia, da peccatori ci fai giusti e da infelici ci rendi beati, custodisci in noi il tuo dono, perché, giustificati mediante la fede, perseveriamo nel tuo servizio."),
+                array('ending')
+            )
+        ),
+        "PA55"=>array(
+            array(
+                array('','',"Donaci, o Padre, di uniformare la nostra vita al mistero pasquale che celebriamo nella gioia, perché la potenza del Signore risorto ci protegga e ci salvi."),
+                array('ending')
+            )
+        ),
+        "PA56"=>array(
+            array(
+                array('','',"Dio onnipotente ed eterno, che nel Battesdimo ci hai comunicato la tua stessa vita, fa' che i tiui figli, rinati alla speranza dell'immortalità, giungano con il tuo aiuto alla pienezza della gloria."),
+                array('ending')
+            )
+        ),
+        "PA6"=>array(
+            array(
+                array('','',"Dio onnipotente, fa' che viviamo con rinnovato impegno questi giorni di letizia in onore del Cristo risorto, per testimoniare nelle opere il momoriale della Pasqua che celebriamo nella fede."),
+                array('ending')
+            )
+        ),
+        "PA61"=>array(
+            array(
+                array('','',"Donaci, Padre misericordioso, di rendere presente in ogni momento della vita la fecondità della Pasqua, che si attua nei tuoi misteri."),
+                array('ending')
+            )
+        ),
+        "PA62"=>array(
+            array(
+                array('','',"Esulti sempre il tuo popolo, o Padre, per la rinnovata giovinezza dello spirito, e come oggi si allieta per il dono della dignità filiale, così pregusti nella speranza il giorno glorioso della risurrezione."),
+                array('ending')
+            )
+        ),
+        "PA63"=>array(
+            array(
+                array('','',"O Dio, che ci chiami a celebrare nella fede la risurrezione del tuo Figlio, fa' che possiamo rallegrarci con lui insieme ai tuoi santi nel giorno della sua venuta."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
+        "PA64"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che ci hai reso partecipi dei doni della salvezza, fa' che professiamo con la fede e testimoniamo con le opere la gioia della risurrezione."),
+                array('ending')
+            )
+        ),
+        "PA65"=>array(
+            array(
+                array('','',"Si compia in ogni luogo, Signore, con la predicazione del Vangelo, la salvezza acquistata dal sacrificio del Cristo, e la moltitudine dei tuoi figli adottivi ottenga da lui, parola di verità, la vita nuova promessa tutti gli uomini."),
+                array('ending')
+            )
+        ),
+        "PA65b"=>array(
+            array(
+                array('','',"O Dio, che nella risurrezione del tuo Figlio ci hai aperto il passaggio alla vita eterna, innalza il nostro spirito verso il Salvatore che siede alla tua destra, perché, quando tornerà nella gloria, noi tutti, rinati nel Battesimo, riceviamo la veste candida della vita immortale."),
+                array('ending')
+            )
+        ),
+        "PA66"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, disponi sempre al bene i nostri cuori, perché, nel continuo desiderio di elevarci a te, possiamo vivere pienamente il mistero pasquale."),
+                array('ending')
+            )
+        ),
+        "PA66b"=>array(
+            array(
+                array('','',"O Padre, il tuo unico Figlio, prima di salire al cielo, promise ai suoi apostoli lo Spirito Santo: tu che hai dato a loro la multiforme ricchezza della sapienza eterna, concedi anche a noi di ricevere i doni del tuo Spirito."),
+                array('ending')
+            )
+        ),
+        "PA7"=>array(
+            array(
+                array('','',"Ascolta, o Padre, la preghiera dei tuoi figli, che professano la fede nel Cristo salvatore, asceso alla tua destra nella gloria, e fa' che, secondo la promessa, sentiamo la sua presenza in mezzo a noi, sino alla fine dei tempi."),
+                array('ending')
+            )
+        ),
+        "PA71"=>array(
+            array(
+                array('','',"Venga su di noi, o Padre, la potenza dello Spirito Santo, perché aderiamo piernamente alla tua volontà, per testimoniarla con amore di figli."),
+                array('ending')
+            )
+        ),
+        "PA72"=>array(
+            array(
+                array('','',"Padre onnipotente e misericordioso, fa' che lo Spirito Santo venga ad abitare in noi e ci trasformi in tempio della sua gloria."),
+                array('ending')
+            )
+        ),
+        "PA73"=>array(
+            array(
+                array('','',"Padre misericordioso, fa' che la tua Chiesa, riunita dallo Spirito Santo, ti serva con piena dedizione e formi in te un cuore solo e un'anima sola."),
+                array('ending')
+            )
+        ),
+        "PA74"=>array(
+            array(
+                array('','',"Venga, o Padre, il tuo Spirito e ci trasformi interiormente con i suoi doni; crei in noi un cuore nuovo, perché possiamo piacere a te e cooperare al tuo disegno di salvezza."),
+                array('ending')
+            )
+        ),
+        "PA75"=>array(
+            array(
+                array('','',"O Dio, nostro Padre, che ci hai aperto il passaggio aslla vita eterna con la glorificazione del tuo Figlio e con l'effusione dello Spirito Santo, fa' che, partecipi di così grandi doni, progrediamo nella fede e ci impegnamo sempre più nel tuo servizio."),
+                array('ending')
+            )
+        ),
+        "PA76"=>array(
+            array(
+                array('','',"Dio onnipoente ed eterno, che ci dai la gioia di portare a compimento i giorni della Pasqua, fa' che tutta la nostra vita sia una testimonianza del Signore risorto."),
+                array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
+            )
+        ),
         "0102a"=>array(
             array(
                 array('','',"O Dio, che hai illuminato la tua Chiesa con l'insegnamento e l'esempio dei santi Basilio e Gregorio Nazianzeno, donaci uno spirito umile e ardente, per conoscere la tua verità e attuarla con un coraggioso programma di vita."),
@@ -1262,7 +1574,7 @@ class Orazione {
         ),
         "0110a"=>array(
             array(
-                array('','',"Guardaci con bontà, o Signore Dio, per l'intercessione del santo vescovo Gregorio, che con la lucentezza della vita e della diottrina cantò mirabilmente le tue lodi: concedi che anche noi, dimentichi del passato e protesi verso il futuro, possiamo felicemente giungere al premio della divina chiamata."),
+                array('','',"Guardaci con bontà, o Signore Dio, per l'intercessione del santo vescovo Gregorio, che con la lucentezza della vita e della dottrina cantò mirabilmente le tue lodi: concedi che anche noi, dimentichi del passato e protesi verso il futuro, possiamo felicemente giungere al premio della divina chiamata."),
                 array('ending')
             )
         ),
@@ -2752,6 +3064,13 @@ class Orazione {
 
         //////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='P') {
+
+            if ($this->actual['evCode']!='') $this->actual['proprio']=$this->actual['evCode'];
+
+            if ( ($this->actual['evCode']=='PA65' || $this->actual['evCode']=='PA66') && substr($this->actual['today'],4,4)>substr($this->actual['ASC'],4,4) ) {
+                $this->actual['evCode'].='b';
+            }
+
         }
 
         //////////////////////////////////////////////////////////

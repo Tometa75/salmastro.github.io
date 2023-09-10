@@ -118,7 +118,8 @@ class Litio {
         "evento"=>"",
         "evCode"=>"",
         "festa"=>"",
-        "fesCode"=>""
+        "fesCode"=>"",
+        "ASC"=>""
     );
 
     //è l'insieme di oggetti che disegneranno la preghiera
@@ -245,7 +246,7 @@ class Litio {
             $this->actual['fesCode']=$this->config['festa'];
         }
 
-        
+        $this->actual['ASC']=$this->map['ASC'];
 
         ///////////////////////////////////////////////////////////
 
