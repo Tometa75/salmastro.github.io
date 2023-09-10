@@ -65,7 +65,15 @@ class Saltesto {
                         }
 
                         echo $t[2];
-                    echo '</div>';
+
+                        if ($t[1]!='') {
+                            if (strpos($t[1],'*',0)!==false) echo ' *';
+                            //else echo '</div>';
+                        }
+                    //else {
+                        echo '</div>';
+                    //}
+
                 }
 
             echo '</div>';

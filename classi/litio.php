@@ -1,6 +1,7 @@
 <?php
 require_once('preghiera.php');
 require_once('inno.php');
+require_once('salmodia.php');
 require_once('orazione.php');
 require_once('testo.php');
 
@@ -8,68 +9,68 @@ class Litio {
 
     protected $invitatorio=array(
         "titolo"=>"Invitatorio",
-        "st"=>array('P1','S1')
+        "st"=>array('P1','SAL')
     );
 
     protected $base=array(
         "lodi"=>array(
             "titolo"=>"Lodi Mattutine",
-            "st"=>array('PI','INNO','S1','S2','S3','CA','S5','LB','RB','ZAC','INV','PN','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RB','ZAC','INV','PN','OR','PC'),
             "i"=>'05:00',
             'f'=>'08:30'
         ),
         "terza"=>array(
             "titolo"=>"Ora Terza",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RBB','OR','PC'),
             "i"=>'08:30',
             'f'=>'11:00'
         ),
         "sesta"=>array(
             "titolo"=>"Ora Sesta",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RBB','OR','PC'),
             "i"=>'11:00',
             'f'=>'14:00'
         ),
         "nona"=>array(
             "titolo"=>"Ora Nona",
-            "st"=>array('PI','INNO','S1','LB','RBB','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RBB','OR','PC'),
             "i"=>'14:00',
             'f'=>'17:00'
         ),
         "ves"=>array(
             "titolo"=>"Vespri",
-            "st"=>array('PI','INNO','S1','S2','S3','S4','CA','LB','RB','MAG','INV','PN','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RB','MAG','INV','PN','OR','PC'),
             "i"=>'17:00',
             'f'=>'20:00'
         ),
         "ves1"=>array(
             "titolo"=>"Primi Vespri",
-            "st"=>array('PI','INNO','S1','S2','S3','S4','CA','LB','RB','MAG','INV','PN','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RB','MAG','INV','PN','OR','PC'),
             "i"=>'17:00',
             'f'=>'20:00'
         ),
         "ves2"=>array(
             "titolo"=>"Secondi Vespri",
-            "st"=>array('PI','INNO','S1','S2','S3','S4','CA','LB','RB','MAG','INV','PN','OR','PC'),
+            "st"=>array('PI','INNO','SAL','LB','RB','MAG','INV','PN','OR','PC'),
             "i"=>'17:00',
             'f'=>'20:00'
         ),
         "comp"=>array(
             "titolo"=>"Compieta",
-            "st"=>array('PI','SIL','AP','CAP','S1','S2','S3','LB','RB','SIM','OR','PC','BVM'),
+            "st"=>array('PI','SIL','AP','CAP','SAL','LB','RB','SIM','OR','PC','BVM'),
             "i"=>'20:00',
             'f'=>'23:59'
         ),
         "comp1"=>array(
             "titolo"=>"Compieta dopo Primi Vespri",
-            "st"=>array('PI','SIL','AP','CAP','S1','S2','S3','LB','RB','SIM','OR','PC','BVM'),
+            "st"=>array('PI','SIL','AP','CAP','SAL','LB','RB','SIM','OR','PC','BVM'),
             "i"=>'20:00',
             'f'=>'23:59'
         ),
 
     );
 
-    protected $salterio=array(
+    /*protected $salterio=array(
         "lodi"=>array(
             array(
                 "PI"=>"inizio",
@@ -102,7 +103,7 @@ class Litio {
                 "PC"=>"fine"
             )
         )
-    );
+    );*/
 
     public $map;
     public $vig;
@@ -255,6 +256,7 @@ class Litio {
             switch ($o) {
                 case 'PI': $this->res['PI']=new Preghiera('inizio',$this);break;
                 case 'INNO': $this->res['INNO']=new Inno($this);break;
+                case 'SAL': $this->res['SAL']=new Salmodia($this);break;
                 case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }
