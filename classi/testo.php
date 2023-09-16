@@ -78,8 +78,11 @@ class Saltesto {
 
                     echo '<div class="salTextBody" style="';
                         if ($t[1]!='') {
-                            if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
-                            if (strpos($t[1],'c',0)!==false) echo 'color:#916803;';
+                            if ($t[1]=='N') echo 'color:brown;font-size:0.9em;';
+                            else {
+                                if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
+                                if (strpos($t[1],'c',0)!==false) echo 'color:#916803;';
+                            }
                         }
                     echo '">';
 

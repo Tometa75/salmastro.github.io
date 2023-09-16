@@ -54,8 +54,8 @@ class Salmodia {
                         array('3','S','29','','G')
                     );
 
-                    if ($this->actual['settimana']%2!=0) $this->salmi[]=array('4','S','47','','G');
-                    else $this->salmi[]=array('4','S','48','','G');
+                    if ($this->actual['settimana']%2!=0) $this->salmi[]=array('4','C','AT47','','G');
+                    else $this->salmi[]=array('4','C','AT48','','G');
                     
                     $this->salmi[]=array('5','S','146','','');
                     $this->salmi[]=array('','S','147','','G');

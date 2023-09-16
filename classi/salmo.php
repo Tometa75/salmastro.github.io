@@ -100,16 +100,19 @@ class Salmo {
 
     function drawAntifona($flag) {
         //true = prima - false = dopo
+        //0 = prima - 1 = dopo (sono quasi sempre uguali ma non sempre)
+
+        $index=($flag)?0:1;
 
         if ($this->error) return;
 
         echo '<div style="position:relative;margin-top:5px;margin-bottom:10px;font-size:1.1em;" >';
             echo '<div class="salAntifona" >'.$this->pos.' ant.</div>';
             echo '<div style="position:relative;display:inline-block;vertical-align:top;" >';
-                echo $this->antifona[0];
+                echo $this->antifona[$index][0];
                 if ($flag) echo ' / ';
                 else echo ' ';
-                echo $this->antifona[1];
+                echo $this->antifona[$index][1];
             echo '</div>';
         echo '</div>';
     }

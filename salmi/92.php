@@ -3,18 +3,23 @@ $this->closure['load']=function() {
 
     $this->titolo='Salmo 92 Esaltazione della potenza di Dio creatore';
 
+    //lodi domenica
     if ($this->actual['tempo']=='P') {
-        $this->antifona=array(
+        $this->antifona[0]=array(
             "Alleluia,",
             "alleluia, alleluia."
         );
     }
     else {
-        $this->antifona=array(
+        $this->antifona[0]=array(
             "Tu sei re,",
             "Signore, ti sei cinto di forza."
         );
     }
+
+    $this->antifona[1]=$this->antifona[0];
+
+    ///////////////////////////////////////////////////////////////
 
     $this->testoBase=array(
         'all'=>array(
