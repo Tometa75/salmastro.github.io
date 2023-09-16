@@ -5,6 +5,8 @@ class Saltesto {
     protected $testo=array();
     protected $label=array();
 
+    protected $prop=array(false,false);
+
     function __construct() {
         
     }
@@ -19,6 +21,14 @@ class Saltesto {
 
     function addLabel($l,$a) {
         $this->label[$l]=$a;
+    }
+
+    function setProp($index,$se,$op,$txt) {
+        $this->prop[$index]=array(
+            "se"=>$se,
+            "op"=>$op,
+            "txt"=>$txt
+        );
     }
 
     /*
@@ -48,12 +58,28 @@ class Saltesto {
 
                 foreach ($b as $x=>$t) {
 
+                    if ($this->prop[0]) {
+                        if ($this->prop[0]['se']=='' || strpos($t[0],$this->prop[0]['se'],0)!==false) {
+                            if ($this->prop[0]['op']=='add') $t[0].=$this->prop[0]['txt'];
+                            elseif ($this->prop[0]['op']=='chg') $t[0]=$this->prop[0]['txt'];
+                        }
+                    }
+                    if ($this->prop[1]) {
+                        if ($this->prop[1]['se']=='' || strpos($t[1],$this->prop[1]['se'],0)!==false) {
+                            if ($this->prop[1]['op']=='add') $t[1].=$this->prop[1]['txt'];
+                            elseif ($this->prop[1]['op']=='chg') $t[1]=$this->prop[1]['txt'];
+                        }
+                    }
+
+                    ///////////////////////////////////////////////////
+
                     if (count($t)==1 && $t[0]!='') $t=$this->label[$t[0]];
                     //echo '<div>'.json_encode($t).'</div>';
 
                     echo '<div class="salTextBody" style="';
                         if ($t[1]!='') {
                             if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
+                            if (strpos($t[1],'c',0)!==false) echo 'color:#916803;';
                         }
                     echo '">';
 
@@ -67,8 +93,8 @@ class Saltesto {
                         echo $t[2];
 
                         if ($t[1]!='') {
-                            if (strpos($t[1],'*',0)!==false) echo ' *';
-                            //else echo '</div>';
+                            if (strpos($t[1],'*',0)!==false) echo '<img class="salTextEnd" src="'.SITE_URL.'/img/asterisk.png" />';
+                            if (strpos($t[1],'+',0)!==false) echo '<img class="salTextEnd" src="'.SITE_URL.'/img/cross.png" />';
                         }
                     //else {
                         echo '</div>';

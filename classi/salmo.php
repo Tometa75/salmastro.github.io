@@ -11,6 +11,7 @@ class Salmo {
     protected $antifona=array();
     protected $testoBase=array();
 
+    protected $actual;
     protected $res;
     protected $error=false;
 
@@ -19,6 +20,8 @@ class Salmo {
     protected $closure = array();
 
     function __construct($actual,$s) {
+
+        $this->actual=$actual;
 
         list($this->pos,$this->tipo,$this->tag,$this->parti,$this->gloria)=$s;
 
@@ -30,19 +33,26 @@ class Salmo {
 
         $this->set_closure();
 
+        //definito in CLOSURE
         $this->load();
 
         $this->res=new Saltesto();
+        //se esiste la propietà '2' all'indice '1' allora diventa '2c'
+        $this->res->setProp(1,'2','chg','2c');
 
         if ($this->parti=='') {
             foreach ($this->testoBase as $parte=>$p) {
-                $this->res->addBlock($p);
+                foreach ($p as $k=>$v) {
+                    $this->res->addBlock($v);
+                }
             }
         }
         else {
             foreach (explode(',',$this->parti) as $k=>$p) {
                 if (array_key_exists($p,$this->testoBase)) {
-                    $this->res->addBlock($this->testoBase[$p]);
+                    foreach ($this->testoBase[$p] as $k=>$v) {
+                        $this->res->addBlock($v);
+                    }
                 }
             }
         }
@@ -93,10 +103,14 @@ class Salmo {
 
         if ($this->error) return;
 
-        echo '<div>'.$this->pos.' ant.';
-            echo $this->antifona[0];
-            if ($flag) echo ' / ';
-            echo $this->antifona[1];
+        echo '<div style="position:relative;margin-top:5px;margin-bottom:10px;font-size:1.1em;" >';
+            echo '<div class="salAntifona" >'.$this->pos.' ant.</div>';
+            echo '<div style="position:relative;display:inline-block;vertical-align:top;" >';
+                echo $this->antifona[0];
+                if ($flag) echo ' / ';
+                else echo ' ';
+                echo $this->antifona[1];
+            echo '</div>';
         echo '</div>';
     }
 
