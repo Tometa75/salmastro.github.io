@@ -6,14 +6,14 @@ $this->closure['load']=function() {
     //primi vespri domenica
     if ($this->actual['tempo']=='P') {
         $this->antifona[0]=array(
-            "Il Signore Gesù",
-            "si è umiliato nella morte; e Dio lo ha innalzato nella gloria."
+            "Alleluia",
+            "alleluia, alleluia, alleluia."
         );
     }
     else {
         $this->antifona[0]=array(
-            "Alleluia",
-            "alleluia, alleluia, alleluia."
+            "Il Signore Gesù",
+            "si è umiliato nella morte; e Dio lo ha innalzato nella gloria."
         );
     }
 
