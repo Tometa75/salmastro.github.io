@@ -16,29 +16,23 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','',"Alleluia."),
-                array('','*',"Salvezza, gloria e potenza sono del nostro Dio;"),
-                array('','2',"veri e giusti sono i suoi giudizi."),
+                array('','*',"Cristo patì per voi, lasciandovi un esempio,"),
+                array('','2',"perché ne seguiate le orme:"),
+                array('','*',"egli non commise peccato"),
+                array('','2',"e non si trovò onganno sulla sua bocca;")
             ),
             array(
-                array('','',"Alleluia."),
-                array('','*',"Lodate il nostro Dio, voi tutti suoi servi,"),
-                array('','2',"voi che lo temete, piccoli e grandi."),
+                array('','*',"oltraggiato non rispondeva con oltraggi,"),
+                array('','2',"e soffrendo non minacciava vendetta,"),
+                array('','*',"ma rimetteva ka sua causa"),
+                array('','2',"a colui chd giudica con giustizia")
             ),
             array(
-                array('','',"Alleluia."),
-                array('','*',"Ha preso possesso del suo regno il Signore,"),
-                array('','2',"il nostro Dio, l'Onnipotente."),
-            ),
-            array(
-                array('','',"Alleluia."),
-                array('','*',"Rallegriamoci ed esultiamo,"),
-                array('','2',"rendiamo a lui gloria."),
-            ),
-            array(
-                array('','',"Alleluia."),
-                array('','*',"sono giunte le nozze dell'Agnello;"),
-                array('','2',"la sua sposa è pronta."),
+                array('','*',"Egli portò i nostri peccati nel suo corpo"),
+                array('','2',"sul legno della croce,"),
+                array('','+',"perché, non vivendo più per il peccato,"),
+                array('','*',"vivessimo per la giustizia;"),
+                array('','2',"dalle sua piaghe siamo stati guariti.")
             )
         )
     );
