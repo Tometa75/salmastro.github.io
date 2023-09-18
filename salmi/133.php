@@ -1,7 +1,7 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo="Salmo 133 Orazione notturna nel tempio.";
+    $this->titolo="Salmo 133 Orazione notturna nel tempio";
 
     //compieta domenica
     if ($this->actual['tempo']=='P') {
