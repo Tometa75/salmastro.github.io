@@ -126,11 +126,27 @@ $this->closure['load']=function() {
                 array('','2',"« Viva il loro cuore per sempre ».")
             ),
             array(
-                array('','*',""),
-                array('','2',""),
-                array('','*',""),
-                array('','2',"")
+                array('','*',"Ricorderanno e trorneranno al Signore"),
+                array('','2',"tutti i cpnfini della terra,"),
+                array('','*',"Si prostreranno dvanti a lui"),
+                array('','2',"tutte le famiglie dei popoli."),
+                array('','*',"Poiché il regno è del Signore,"),
+                array('','2',"egli domina su tutte le nazioni.")
             ),
+            array(
+                array('','*',"A lui lolo si prostreranno"),
+                array('','2',"quanti dormono sotto terra,"),
+                array('','*',"davanti a lui si curveranno"),
+                array('','2',"quanti discendono nella polvere.")
+            ),
+            array(
+                array('','*',"E io vivrò per lui,"),
+                array('','2',"lo servirà òa mia discendenza."),
+                array('','*',"Si palerà del Signore alla generazione che viene;"),
+                array('','2',"annunzieranno la sua giustizia;"),
+                array('','*',"al popolo che nascerà diranno:"),
+                array('','2',"« Ecco l'opera del Signore! ».")
+            )
         )
     );
 
