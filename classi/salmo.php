@@ -108,7 +108,7 @@ class Salmo {
 
         echo '<div style="position:relative;margin-top:5px;margin-bottom:10px;font-size:1.1em;" >';
             echo '<div class="salAntifona" >'.$this->pos.' ant.</div>';
-            echo '<div style="position:relative;display:inline-block;vertical-align:top;" >';
+            echo '<div class="salAntifona2" >';
                 echo $this->antifona[$index][0];
                 if ($flag) echo ' / ';
                 else echo ' ';
