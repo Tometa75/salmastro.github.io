@@ -1,9 +1,9 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo='Salmo 119 Fervido desiderio di pace';
+    $this->titolo='Salmo 122 La fiducia del popolo è nel Signore';
 
-    //nona lunedì
+    //nona martedì
     if ($this->actual['tempo']=='P') {
         $this->antifona[0]=array(
             "Alleluia,",
@@ -30,14 +30,14 @@ $this->closure['load']=function() {
     }
     else {
         $this->antifona[0]=array(
-            "Signore,",
-            "libera la mia vita dalle parole di menzogna."
+            "Pietà di noi,",
+            "o Dio: a te è rivolto il nostro sguardo."
         );
     }
 
     $this->antifona[1]=array(
-        "Signore,",
-        "libera la mia vita dalle parole di menzogna."
+        "Pietà di noi,",
+        "o Dio: a te è rivolto il nostro sguardo."
     );
 
     ///////////////////////////////////////////////////////////////
@@ -45,24 +45,18 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Nella mia angoscia ho gridato al Signore"),
-                array('','2',"ed egli mi ha risposto."),
-                array('','*',"Signore, libera la mia vita dalle labbra di menzogna,"),
-                array('','2',"dalla lingua ingannatrice.")
+                array('','*',"A te levo i miei occhi,"),
+                array('','2',"a te che abiti nei cieli."),
+                array('','*',"Ecco, come gli occhi dei servi alla mano dei loro padroni;"),
+                array('','2',"come gli occhi della schiava alla mano della sua padrona,"),
+                array('','*',"così i nostri occhi sono rivolti al Signore nostro Dio,"),
+                array('','2',"finché abbia pietà di noi.")
             ),
             array(
-                array('','*',"Che ti posso dare, come ripagarti,"),
-                array('','2',"lingua ingannatrice?"),
-                array('','*',"Frecce acute di un prode,"),
-                array('','2',"con carboni di ginepro.")
-            ),
-            array(
-                array('','*',"Me infelice: abito straniero in Mosoch,"),
-                array('','2',"dimoro tra le tende di Kedar!"),
-                array('','*',"Troppo io ho dimorato"),
-                array('','2',"con chi detesta la pace."),
-                array('','*',"Io sono per la pace"),
-                array('','2',"ma quando ne parlo, essi vogliono la guerra.")
+                array('','*',"Pietà di noi, Signore, pietà di noi,"),
+                array('','2',"già troppo ci hanno colmato di scherni,"),
+                array('','*',"noi siamo troppo sazi degli scherni dei gaudenti,"),
+                array('','2',"del disprezzo dei superbi.")
             )
         )
     );
