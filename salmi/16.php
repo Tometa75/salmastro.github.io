@@ -66,7 +66,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Sorgi, Signore, affrontalo, abbattilo;"),
                 array('','2',"con la tua spada scampami degli empi,"),
-                array('','*',"conla tua mano, Signore, dal regno dei morti"),
+                array('','*',"con la tua mano, Signore, dal regno dei morti"),
                 array('','2',"che non hanno più parte in questa vita.")
             ),
             array(
