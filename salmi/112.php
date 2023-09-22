@@ -17,7 +17,10 @@ $this->closure['load']=function() {
         );
     }
 
-    $this->antifona[1]=$this->antifona[0];
+    $this->antifona[1]=array(
+        "Dal sorgere del sole",
+        "al suo tramonto lodate il nome del Signore."
+    );
 
     ///////////////////////////////////////////////////////////////
 
