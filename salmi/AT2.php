@@ -24,68 +24,56 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"perché ha mirabilmente trionfato,"),
-                array('','2',"ha gettato in mare cavallo e cavalliere."),
-                array('','*',"Mia forza e mio canto è il Signore,"),
-                array('','2',"egli mi ha salvato."),
-                array('','*',"È il mio Dio e lo voglio lodare,"),
-                array('','2',"è il Dio di mio padre e lo voglio esaltare!")
+                array('','*',"Ascoltate, o cieli; io voglio parlare:"),
+                array('','2',"oda la terra le parole della mia bocca!"),
+                array('','*',"Stilli come pioggia la mia dottrina,"),
+                array('','2',"scenda come rugiada il miuo dire;"),
+                array('','*',"come scroscio sull'erba del prato,"),
+                array('','2',"come spruzzo dsugli steli di grano.")
             ),
             array(
-                array('','*',"Dio è prode in guerra,"),
-                array('','2',"si chiama Signore."),
-                array('','*',"I carri del faraone e il suo esercito li ha gettati nel mare."),
-                array('','2',"e i suoi combattenti scelti furono sommersi nel mare Rosso.")
+                array('','*',"Voglio proclamare il nome del Signore:"),
+                array('','2',"date gloria al nostro Dio!"),
+                array('','*',"Egli è la Roccia; perfetta è l'opera sua;"),
+                array('','2',"tutte le sue vie sono giustizia;"),
+                array('','*',"è un Dio verace e senza malizia;"),
+                array('','2',"egli è giusto e retto.")
             ),
             array(
-                array('','*',"Gli abissi li ricoprirono,"),
-                array('','2',"sprofondarono come pietra."),
-                array('','*',"La tua destra, Signore, terribile per la potenza,"),
-                array('','2',"la tua destra, Signore, annienta il nemico."),
-                array('','*',"Con sublime grandezza abbatti i tuoi avversari,"),
-                array('','2',"scateni il tuo furore che li divora come paglia.")
+                array('','*',"Peccarono contro di lui i figli degeneri,"),
+                array('','2',"generazione tortuosa e perversa."),
+                array('','*',"Così ripaghi il Signore,"),
+                array('','2',"o popolo stolto e insipiente?"),
+                array('','*',"Non è lui il padre che ti ha creato,"),
+                array('','2',"che ti ha fatto e ti ha costituito?")
             ),
             array(
-                array('','+',"Al soffio della tua ira si accumularono le acque,"),
-                array('','*',"si alzarono le onde come un argine,"),
-                array('','2',"si rappresero gli abissi in fondo al mare."),
-                array('','*',"Il nemico aveva detto:"),
-                array('','2',"Inseguirò, raggiungerò, sparitrò il bottino,"),
-                array('','*',"se ne sazierà la mia brama,"),
-                array('','2',"sfodererò la spada, li conquisterà la mia mano!")
+                array('','*',"Ricorda i giorni del tempo antico,"),
+                array('','2',"medita gli anni lontani."),
+                array('','*',"Interroga tuo padre e te lo farà sapere,"),
+                array('','2',"i tuoi vecchi e te lo diranno.")
             ),
             array(
-                array('','*',"Soffiasti con il tuo alito: li coprì il mare,"),
-                array('','2',"sprofondarono come piombo in acque profonde."),
-                array('','*',"Chi è come te fra gli dei,"),
-                array('','2',"chi è come te, maestoso in santità, Signore?"),
-                array('','*',"Chi è come te tremendo nelle imprese,"),
-                array('','2',"operatore di prodigi?")
+                array('','*',"Quando l'Altissimo divideva i popoli,"),
+                array('','2',"quando disperdeva i figli dell'uomo,"),
+                array('','*',"egli stabilì i cinfini delle genti"),
+                array('','2',"secondo il numero degli israeliti."),
+                array('','*',"Porzione del Signore è il suo popolo,"),
+                array('','2',"sua eredità è Giacobbe.")
             ),
             array(
-                array('','*',"Stendesti la destra:"),
-                array('','2',"li inghiottì oa terra."),
-                array('','*',"Guidasti con il tuo favore questo popolo che hai riscattato,"),
-                array('','2',"lo conducesti con forza alla tua santa dimora.")
+                array('','*',"Egli lo trovò in terra deserta,"),
+                array('','2',"in una landa di ululati solitari."),
+                array('','*',"Lo educò, ne ebbe cura,"),
+                array('','2',"lo custodì come pupilla del suo occhio.")
             ),
             array(
-                array('','*',"Hanno udito i popoli e tremano;"),
-                array('','2',"dolore incolse gli abitanti della Filistea."),
-                array('','+',"Già si spaventano i capi di Edom,"),
-                array('','*',"i potenti di Moab li prende il timore;"),
-                array('','2',"tremano tutti gli abitanti di Canaan.")
-            ),
-            array(
-                array('','*',"Piombano sopra di loro la paura e il terrore;"),
-                array('','2',"per la potenza del tuo braccio restano immobili come pietra,"),
-                array('','*',"finché sia passato il tuo popolo, Signore,"),
-                array('','2',"finché sia passato questo tuo popolo che ti se acquistato.")
-            ),
-            array(
-                array('','*',"Lo fai entrare e lo pianti sul monte della tua promessa,"),
-                array('','2',"luogo che per tua sede, Signore, hai preparato,"),
-                array('','*',"santuario che le tue mani, Siugnore, hanno fondato."),
-                array('','2',"Il Signore regna in eterno e per sempre!")
+                array('','*',"Come aquila che veglia la sua nidiata,"),
+                array('','2',"che vola sopra i suoi nati,"),
+                array('','*',"egli spiegò le ali e lo prese,"),
+                array('','2',"lo sollevò sulle sue ali."),
+                array('','*',"Il Signore lo guidò da solo,"),
+                array('','2',"non c'era con lui alcun dio straniero.")
             )
         )
     );
