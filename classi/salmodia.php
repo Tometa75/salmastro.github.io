@@ -278,8 +278,8 @@ class Salmodia {
                 case 'ves': 
                     $this->salmi=array(
                         array('1','S','110','','G'),
-                        array('2','S','22','A','G'),
-                        array('3','S','83','B','G'),
+                        array('2','S','22','','G'),
+                        array('3','S','83','','G'),
                         array('4','S','39','','G'),
                         array('5','C','NT20','','G')
                     );
