@@ -11,9 +11,9 @@ $this->closure['load']=function() {
         );
     }
     else {
-        $this->antifona[1]=array(
-            "Cantiamo",
-            "un inno al Signore nostro Dio, alleluia."
+        $this->antifona[0]=array(
+            "Nel fuoco,",
+            "con voce unanime, i tre giovani cantavano: Benedetto Dio, alleuia."
         );
     }
 
