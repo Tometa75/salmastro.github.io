@@ -374,6 +374,9 @@ class Salmodia {
             }
         }
 
+        //////////////////////////////////////////////////////////////////////////
+        //modifiche in base alla FESTA o al TEMPO LITURGICO
+
     }
 
     function build() {
