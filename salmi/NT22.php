@@ -1,7 +1,7 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo="Cantico NT 22 (Cf. AP 19,1-2. 5-7) Le nozze dell'Agnello";
+    $this->titolo="Cantico NT 22 (AP 19,1-2. 5-7) Le nozze dell'Agnello";
 
     //vespri2 domenica
     if ($this->actual['tempo']=='P') {
