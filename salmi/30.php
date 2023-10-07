@@ -81,6 +81,41 @@ $this->closure['load']=function() {
                 array('','2',"dalla stretta dei miei persecutori:"),
                 array('','*',"fa' splendere il tuo volto sul tuo servo,"),
                 array('','2',"salvami per la tua misericordia.")
+            ),
+            array(
+                array('','*',"Signore, ch'io non resti confuso, perché ti ho invocato;"),
+                array('','2',"siano confusi gli empi, tacciano negli inferi."),
+                array('','+',"Fa' tacere le labbra di menzogna,"),
+                array('','*',"che dicono insolenze contro il giusto"),
+                array('','2',"con orgoglio e disprezzo.")
+            ),
+            array(
+                array('','*',"Quanto è grande la tua bontà, Signore!"),
+                array('','2',"La riservi per coloro che ti temono,"),
+                array('','*',"ne ricolmi chi in te si rifugia"),
+                array('','2',"davanti agli occhi di tutti.")
+            ),
+            array(
+                array('','*',"Tu li nascondi al riparo del tuo volto,"),
+                array('','2',"lontano dagli intrighi degli uomini;"),
+                array('','*',"li metti al sicuro nella tua tenda,"),
+                array('','2',"lontano dalla rissa delle lingue.")
+            ),
+            array(
+                array('','+',"Benedetto il Signore,"),
+                array('','*',"che ha fatto per me meraviglie di grazia"),
+                array('','2',"in una fortezza inaccessibile."),
+                array('','*',"Io dicevo nel mio sgomento:"),
+                array('','2',"« Sono escluso dalla tua presenza »."),
+                array('','*',"Tu invece hai ascoltato la voce della mia preghiera"),
+                array('','2',"quando a te gridavo aiuto.")
+            ),
+            array(
+                array('','+',"Amate il Signore, voi tutti suoi santi;"),
+                array('','*',"il Signore protegge i suoi fedeli"),
+                array('','2',"e ripaga oltre misura l'orgoglioso."),
+                array('','*',"Siate forti, riprendete coraggio,"),
+                array('','2',"o voi tutti che sperate nel Signore.")
             )
         )
     );

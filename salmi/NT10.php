@@ -24,7 +24,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Benedetto si Dio, Padre del Signore nostro Gesù Cristo,"),
+                array('','*',"Benedetto sia Dio, Padre del Signore nostro Gesù Cristo,"),
                 array('','2',"che ci ha benedetti con ogni benedizione spirituale nei cieli, in Cristo."),
                 array('','*',"In lui ci ha scelti"),
                 array('','2',"prima della creazione del mondo,"),
