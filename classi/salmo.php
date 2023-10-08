@@ -90,6 +90,12 @@ class Salmo {
         }
     }
 
+    function setAntifona($a) {
+        //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
+        $this->antifona[0]=$a;
+        $this->antifona[1]=$this->antifona[0]; 
+    }
+
     function drawTitolo() {
 
         echo '<div class="salResBlockTitle" >';

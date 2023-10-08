@@ -78,8 +78,8 @@ class Salmodia {
                 case 'ves2': 
                     $this->salmi=array(
                         array('1','S','112','','G'),
-                        array('2','S','113','A','G'),
-                        array('3','S','113','B','G'),
+                        array('2','S','113A','','G'),
+                        array('3','S','113B','','G'),
                         array('4','S','114','',''),
                         array('','S','115','','G')
                     );
@@ -131,8 +131,8 @@ class Salmodia {
                 case 'ves': 
                     $this->salmi=array(
                         array('1','S','32','','G'),
-                        array('2','S','60','A','G'),
-                        array('3','S','27','B','G'),
+                        array('2','S','60','','G'),
+                        array('3','S','27','','G'),
                         array('4','S','47','','G'),
                         array('5','C','NT10','','G')
                     );
@@ -180,8 +180,8 @@ class Salmodia {
                 case 'ves': 
                     $this->salmi=array(
                         array('1','S','74','','G'),
-                        array('2','S','139','A','G'),
-                        array('3','S','25','B','G'),
+                        array('2','S','139','','G'),
+                        array('3','S','25','','G'),
                         array('4','S','144','','G'),
                         array('5','C','NT19','','G')
                     );
@@ -228,8 +228,8 @@ class Salmodia {
                 case 'ves': 
                     $this->salmi=array(
                         array('1','S','102','','G'),
-                        array('2','S','85','A','G'),
-                        array('3','S','84','B','G'),
+                        array('2','S','85','','G'),
+                        array('3','S','84','','G'),
                         array('4','S','86','','G'),
                         array('5','C','NT12','','G')
                     );
@@ -326,8 +326,8 @@ class Salmodia {
                 case 'ves': 
                     $this->salmi=array(
                         array('1','S','143','','G'),
-                        array('2','S','140','A','G'),
-                        array('3','S','141','B','G'),
+                        array('2','S','140','','G'),
+                        array('3','S','141','','G'),
                         array('4','S','26','','G'),
                         array('5','C','NT21','','G')
                     );
@@ -374,15 +374,86 @@ class Salmodia {
             }
         }
 
-        //////////////////////////////////////////////////////////////////////////
-        //modifiche in base alla FESTA o al TEMPO LITURGICO
-
     }
 
     function build() {
 
         foreach ($this->salmi as $k=>$s) {
             $this->res[$k]=new Salmo($this->actual,$s);
+
+            //////////////////////////////////////////////////////////////////////////
+            //modifica ANTIFONE in base al TEMPO LITURGICO
+
+            if ($this->actual['tempo']=='A') {
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves' || $this->actual['ora']=='lodi') {
+
+                    if (substr($this->actual['today'],4,4)>='1217' && substr($this->actual['today'],4,4)<='1223') {
+
+                        switch ($this->actual['weekDay']) {
+                            case 1:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "Ecco,",
+                                        "viene il Signore, il Re dei re della terra: beato chi è pronto per andargli incontro."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "Quando",
+                                        "il Figlio dell'uomo verrà, troverà ancora fede sulla terra?"
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "È venuta",
+                                        "la pienezza dei tempi: Dio manda il suo Figlio sulla terra."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "Attingerete con gioia",
+                                        "alle sorgenti della salvezza."
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Dal santuario del cielo",
+                                        "esce il Signore: viene a salvare il suo popolo."
+                                    ));
+                                    break;
+                                }
+                            break;
+
+                            case 2:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "O cieli,",
+                                        "stillate rugiada: le nubi piovano il Giusto; si apra la terra, e germogli il Salvatore."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "Manda, Signore,",
+                                        "l'Agnello, Dominatore del mondo; venga dal deserto al monte di Sion."
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "Sulla terra",
+                                        "si conosca la tua via, la tua salvezza in tutte le nazioni."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "Ricompensa, Signore,",
+                                        "quelli che sperano in te; i tuoi profeti siano degni di fede."
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Da Mosè",
+                                        "fu data la legge: da Gesù Cristo la grazia e la verità."
+                                    ));
+                                    break;
+                                }
+                            break;
+                        }
+                    }
+                }
+            }
         }
     }
 
