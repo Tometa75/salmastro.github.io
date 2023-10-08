@@ -386,9 +386,159 @@ class Salmodia {
 
             if ($this->actual['tempo']=='A') {
 
-                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves' || $this->actual['ora']=='lodi') {
+                if (substr($this->actual['today'],4,4)>='1224' && $this->actual['ora']=='lodi') {
+                    switch ($s[0]) {
+                        case 1: $this->res[$k]->setAntifona(array(
+                            "Giudea",
+                            "e Gerusalemme, non temete: domani sarete liberati e il Signore sarà con voi, alleluia."
+                        ));
+                        break;
+                        case 2: $this->res[$k]->setAntifona(array(
+                            "Tu, Betlemme,",
+                            "non sei l'ultima borgata di Giudea; da te uscirà un capo, il pastore d'Israele mio popolo."
+                        ));
+                        break;
+                        case 3: $this->res[$k]->setAntifona(array(
+                            "Oggi saprete",
+                            "che il Signore viene: col nuovo giorno vedrete la sua gloria."
+                        ));
+                        break;
+                        case 4: $this->res[$k]->setAntifona(array(
+                            "Viene il Signore:",
+                            "corretegli incontro acclamando: Grande è il suo potere, il suo regno non avrà fine; è Dio, il Forte, il Signore, il Principe della pace, alleluia."
+                        ));
+                        break;
+                        case 5: $this->res[$k]->setAntifona(array(
+                            "Domani",
+                            "verrà la vostra salvezza, dice il Signore, Dio dell'universo."
+                        ));
+                        break;
+                    }
+                }
 
-                    if (substr($this->actual['today'],4,4)>='1217' && substr($this->actual['today'],4,4)<='1223') {
+                elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves2' || $this->actual['ora']=='ves' || $this->actual['ora']=='lodi') {
+
+                    if ($this->actual['evCode']=='AV1') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Quel giorno",
+                                "le montagne stiulleranno vino nuovo, latte e miele scorrerà per le colline, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Rallegrati,",
+                                "città di Dio; grida di gioia, Gerusalemme, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Ecco,",
+                                "il Signore viene e con lui tutti i suoi santi: quel giorno brillerà una grande luce, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Venite alla sorgente,",
+                                "voi che avete sete; cercate il Signore: ora si fa trovare, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Ecco,",
+                                "verrà il grande Profeta, e rinnoverà Gerusalemme, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['evCode']=='AV2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Verrà",
+                                "il Signore sulle nubi del cielo, con grande potenza, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Tu nostra forza,",
+                                "città di Dio! Il Salvatore sarà per te muro e baluardo: aprite le porte, il Signore è con noi, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Ecco,",
+                                "il Signore verrà; se ritarda, attendilo con fiducia: egli non mancherà, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Montagne e colline",
+                                "canteranno a Dio, alberi e foreste applaudiranno: viene il Signore, il Dominatore, e regnerà in eterno, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Verrà",
+                                "con potenza il Signore, e sarà luce ai nostri occhi, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['evCode']=='AV3') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Viene",
+                                "il Signore, non tarderà: farà luce nel segreto delle tenebre, apparirà a tutte le nazioni, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Esulta di gioia,",
+                                "Gerusalemme: viene a te il Salvatore, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "In Sion",
+                                "darò la salvezza, stabilirò in Gerusalemme la mia gloria, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Montagne e colline",
+                                "si abbasseranno, le vie tortuose si faranno dritte. Vieni, Signore, non tardare, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "A chi è sfiduciato,",
+                                "dite: Coraggio! Viene il Signore nostro Dio."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['evCode']=='AV4') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Suonate",
+                                "la tromba in Sion: il giorno del Signore è vicino, egli viene per salvarci, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Ecco,",
+                                "L'Atteso dalle nazioni è vicino, la casa del Signore sarà piena di gloria, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Le vie tortuose",
+                                "si faranno dritte, le strade scoscese si appianeranno: vieni, Signore, non tardare, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Viene il Signore:",
+                                "corretegli incontro acclamando: Grande è il suo potere, il suo regno non avrà fine; è Dio, il Forte, il Signore, il principe della pace, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Dal trono regale",
+                                "dal cielo, Signore, verrà la tua Parola onnipotente, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif (substr($this->actual['today'],4,4)>='1217' && substr($this->actual['today'],4,4)<='1223') {
 
                         switch ($this->actual['weekDay']) {
                             case 1:
@@ -450,9 +600,137 @@ class Salmodia {
                                     break;
                                 }
                             break;
+
+                            case 3:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "I profeti",
+                                        "l'avevano annunziato: il Salvatore nascerà dalla Vergine Maria."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "Lo Spirito del Signore",
+                                        "è sopra di me: mi ha mandato ad annunziare ai poveri un lieto messaggio."
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "Per amore di Sion",
+                                        "non tacerò, finché non sorga la luce del suo Giusto."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "Ecco,",
+                                        "il Signore viene: starà fra i capi del suo popolo, sul trono di gloria."
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Date",
+                                        "l'annunzio ai popoli: Ecco, Dio viene, il nostro Salvatore."
+                                    ));
+                                    break;
+                                }
+
+                            break;
+
+                            case 4:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "Da Sion",
+                                        "viene il Signore onnipotente, viene a salvare il suo popolo."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "Volgiti un poco,",
+                                        "Signore, verso di noi, vieni dai tuoi servi, non tardare."
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "Viene da Sion",
+                                        "colui che regnerà: il Signore, l'Emmanuele, grande è il suo nome."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "Egli",
+                                        "è il mio Dio e lo voglio lodare, è il Dio di mio padre e lo voglio esaltare!"
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Il Signore",
+                                        "è nostra legge, il Signore è nostro re: egli viene, ci salverà."
+                                    ));
+                                    break;
+                                }
+                                
+                            break;
+
+                            case 5:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "Perseverate,",
+                                        "e vedrete su di voi l'aiuto del Signore."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "A te, Signore,",
+                                        "inalzo l'anima mia: vieni a liberarmi; Signore, in te mi rifugio."
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "Vieni, Signore,",
+                                        "non tardare: libera il tuo popolo dai suoi peccati."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "Dio",
+                                        "verrà dall'alto, e splenderà come il sole."
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Rivolgo",
+                                        "lo sguardo al Signore, aspetto Dio, mio salvatore."
+                                    ));
+                                    break;
+                                }
+                                
+                            break;
+
+                            case 6:
+                                switch ($s[0]) {
+                                    case 1: $this->res[$k]->setAntifona(array(
+                                        "Contemplate",
+                                        "la gloria del Signore: egli entra nel mondo per salvare i popoli."
+                                    ));
+                                    break;
+                                    case 2: $this->res[$k]->setAntifona(array(
+                                        "Grande",
+                                        "sarà il suo dominio, e la pace non avrà fine."
+                                    ));
+                                    break;
+                                    case 3: $this->res[$k]->setAntifona(array(
+                                        "Io, il Signore,",
+                                        "mi avvicino: la mia giustizia non è più lontana, la mia salvezza non tarderà."
+                                    ));
+                                    break;
+                                    case 4: $this->res[$k]->setAntifona(array(
+                                        "La parola del Signore",
+                                        "è attesa come la pioggia; come rugiada scenderà su di noi il nostro Dio."
+                                    ));
+                                    break;
+                                    case 5: $this->res[$k]->setAntifona(array(
+                                        "Preparati,",
+                                        "o Israele, ad incontrare il Signore: egli viene."
+                                    ));
+                                    break;
+                                }
+                                
+                            break;
                         }
                     }
                 }
+            }
+
+            /////////////////////////////////////////////////////////////////////////
+            elseif ($this->actual['tempo']=='N') {
             }
         }
     }
