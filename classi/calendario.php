@@ -2174,7 +2174,7 @@ class Calendario {
 			}
 
 			//giorni speciali
-			if (substr($day,4,4)>='1217' && substr($day,4,4)<='1224' && $day!=$this->info['avv4']) {
+			if (substr($day,4,4)>='1217' && substr($day,4,4)<='1224' && $day!=$this->info['avv4'] && $day!=$this->info['avv3']) {
 				$m['evento']=array();
 				$m['evento']['A12'.substr($day,6,2)]=array(
 					"titolo"=>"Avvento - ".substr($day,6,2)." Dicembre",
