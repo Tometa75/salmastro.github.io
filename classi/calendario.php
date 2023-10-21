@@ -1804,6 +1804,7 @@ class Calendario {
 				$m['evento']['0210a']=array(
 					"titolo"=>"Santa Scolastica (Vergine)",
 					"tipo"=>"S",
+					"comune"=>"vergini",
 					"ppvv"=>true
 				);
 			}
@@ -1813,6 +1814,7 @@ class Calendario {
 				$m['evento']['0319a']=array(
 					"titolo"=>"San Giuseppe sposo della B.V. Maria",
 					"tipo"=>"S",
+					"comune"=>"santi",
 					"ppvv"=>true
 				);
 			}
@@ -1822,6 +1824,7 @@ class Calendario {
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -1831,6 +1834,7 @@ class Calendario {
 				$m['evento']['0624a']=array(
 					"titolo"=>"Natività di San Giovanni Battista",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -1840,6 +1844,7 @@ class Calendario {
 				$m['evento']['0629a']=array(
 					"titolo"=>"Santi Pietro e Paolo apostoli",
 					"tipo"=>"S",
+					"comune"=>"apostoli",
 					"ppvv"=>true
 				);
 			}
@@ -1849,6 +1854,7 @@ class Calendario {
 				$m['evento']['0711a']=array(
 					"titolo"=>"Nostro Santo Padre Benedetto (Abate) - Patrono d'Europa",
 					"tipo"=>"S",
+					"comune"=>"monaci",
 					"ppvv"=>true
 				);
 			}
@@ -1858,6 +1864,7 @@ class Calendario {
 				$m['evento']['0815a']=array(
 					"titolo"=>"Assunzione della Beata Vergine Maria",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -1945,6 +1952,7 @@ class Calendario {
 				$m['evento']['0321a']=array(
 					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
 					"tipo"=>"F",
+					"comune"=>"monaci",
 					"ppvv"=>true
 				);
 			}
@@ -1953,6 +1961,7 @@ class Calendario {
 				$m['evento']['0321a']=array(
 					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
 					"tipo"=>"F",
+					"comune"=>"monaci",
 					"ppvv"=>true
 				);
 			}
@@ -2361,6 +2370,7 @@ class Calendario {
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -2369,6 +2379,7 @@ class Calendario {
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -2495,6 +2506,7 @@ class Calendario {
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
@@ -2503,6 +2515,7 @@ class Calendario {
 				$m['evento']['0325a']=array(
 					"titolo"=>"Annunciazione del Signore",
 					"tipo"=>"S",
+					"comune"=>"BVM",
 					"ppvv"=>true
 				);
 			}
