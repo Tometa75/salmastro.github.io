@@ -1461,6 +1461,14 @@ class Salmodia {
             }
         }
 
+        elseif ($this->actual['fesCode']=='1002a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
     }
 
     function build() {
@@ -7102,6 +7110,71 @@ class Salmodia {
                             "L'angelo Raffaele",
                             "fu inviato a Tobia e a Sara per guarirli."
                         ));
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1002a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il Signore",
+                                "manderà il suo angelo, per custodirti nel tuo cammino."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Lodiamo il Signore.",
+                                "I cherubini e i serafini proclamano con gli angeli: Santo, santo, santo!"
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "I loro angeli",
+                                "vedono sempre il volto del Padre mio che è nei cieli."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Benedetto il Signore!",
+                                "Egli manda il suo angelo e libera i suoi fedeli."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Dal cielo",
+                                "lodate il Signore, voi tutti suoi angeli, lodatelo voi tutte sue schiere."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Il Signore",
+                            "manderà il suo angelo, per custodirti nel tuo cammino."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Lodiamo il Signore.",
+                            "I cherubini e i serafini proclamano con gli angeli: Santo, santo, santo!"
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "I loro angeli",
+                                "vedono sempre il volto del Padre mio che è nei cieli."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Benedetto il Signore!",
+                                "Egli manda il suo angelo e libera i suoi fedeli."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Dal cielo",
+                                "lodate il Signore, voi tutti suoi angeli, lodatelo voi tutte sue schiere."
+                            ));
+                            break;
+                        }
                     }
                 }
 
