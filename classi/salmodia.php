@@ -1309,6 +1309,158 @@ class Salmodia {
             }
         }
 
+        /////////////////////////////////////////////////////////////////////////////////////////
+        //FESTE
+        /////////////////////////////////////////////////////////////////////////////////////////
+
+        if ($this->actual['fesCode']=='0115a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0121a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0125a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0214a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0222a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0425a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0503a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0511a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0531a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0722a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0725a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0726a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0729a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0810a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0829a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0903a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0908a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='0929a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=$this->festivi['ves'];
+            }
+        }
+
     }
 
     function build() {
@@ -5867,6 +6019,1092 @@ class Salmodia {
 
                 ///////////////////////////////////////////////////////////////////////////////////////////
                 //antifone proprie della Festa / Memoria
+
+                if ($this->actual['fesCode']=='0115a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "San Mauro,",
+                                "illustre per nobile famiglia, fin da fanciullo preferì l'umiliazione con Cristo Signore a tutti i tesori del mondo."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Sollevato",
+                                "sulle ali dell'obbedienza cammina sulle acque, nè può essere sommerso dalle onde colui che è portato dallo Spirito di Dio."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il beato Placido",
+                                "fin dall'infanzia è stato offerto a Dio come ostia pura."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Il servo di Dio",
+                                "Benedetto salì sul monte col piccolo Placido, pregò a lungo, e l'acqua sgorgò per i fratelli."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Sono stati scelti",
+                                "dal Signore per essere modello di vita ai monaci, e strumenti per l'osservanza dalla santa Regola."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "San Mauro,",
+                            "illustre per nobile famiglia, fin da fanciullo preferì l'umiliazione con Cristo Signore a tutti i tesori del mondo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Sollevato",
+                            "sulle ali dell'obbedienza cammina sulle acque, nè può essere sommerso dalle onde colui che è portato dallo Spirito di Dio."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il beato Placido",
+                                "fin dall'infanzia è stato offerto a Dio come ostia pura."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Il servo di Dio",
+                                "Benedetto salì sul monte col piccolo Placido, pregò a lungo, e l'acqua sgorgò per i fratelli."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Sono stati scelti",
+                                "dal Signore per essere modello di vita ai monaci, e strumenti per l'osservanza dalla santa Regola."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0121a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Agnese,",
+                                "nel luogo dell'infamia, trovò l'angelo del Signore pronto a difenderla."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Agnello",
+                                "più candido della neve, Cristo si pose al fianco di Agnese, e la consacrò martire e sposa."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Col suo anello",
+                                "mi ha unita a sé il mio Signore Gesù Cristo; come sposa ha posto sul mio capo una splendida corona."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Ti benedico,",
+                                "Padre: per Cristo tuo Figlio e mio Signore, ho vinto nell'ora del martirio."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Rallegratevi,",
+                                "fate festa con me, ora vivo accanto a lui nella splendida dimora dei santi."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0125a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Io ho piantato,",
+                                "Apollo ha irrigato, ma è Dio che ha fatto crescere."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Mi vanterò",
+                                "della mia debolezza, perché abiti in me la potenza di Cristo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "La grazia di Dio",
+                                "in me non fu vana, la grazia di Dio non mi abbandona."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "A Damasco,",
+                                "il governatore del re Areta voleva catturarmi; ma i fratelli mi calarono da una finestra per il muro, in una cesta, e così, nel nome del Signore, sfuggii alle sue mani."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Tre volte",
+                                "sono stato percosso con le verghe, una volta sono stato lapidato, tre volte ho fatto naufragio per il nome di Cristo."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Io ho piantato,",
+                            "Apollo ha irrigato, ma è Dio che ha fatto crescere."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Mi vanterò",
+                            "della mia debolezza, perché abiti in me la potenza di Cristo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "La grazia di Dio",
+                                "in me non fu vana, la grazia di Dio non mi abbandona."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "A Damasco,",
+                                "il governatore del re Areta voleva catturarmi; ma i fratelli mi calarono da una finestra per il muro, in una cesta, e così, nel nome del Signore, sfuggii alle sue mani."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Tre volte",
+                                "sono stato percosso con le verghe, una volta sono stato lapidato, tre volte ho fatto naufragio per il nome di Cristo."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0214a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Vidi",
+                                "davanti al trono una folla immensa, di ogni nazione, che nessuno poteva contare."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "loderano il tuo nome, Signore: i retti abiteranno alla tua presenza."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Voi",
+                                "avete lottato per me sulla terra: io sarò la vostra ricompensa."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Sacerdoti di Dio,",
+                                "benedite il Signore; servi del Signore, sciogliete inni a Dio."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "I popoli",
+                                "narrano la sapienza dei santi, e la Chiesa ne proclama le lodi."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "risplenderano come il sole nel regno del Padre loro, dice il Signore."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Beati voi,",
+                                "quando vi insulteranno e vi perseguiteranno a causa del Figlio dell'uomo: rallegratevi ed esultate, perché grande è la vostra ricompensa nei cieli."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Gioia nel cielo",
+                                "per gli amici di Dio: hanno seguito le orme di Cristo, hanno disprezzato il mondo per suo amore, con Cristo regneranno senza fine."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Santi del Signore,",
+                                "benedite in eterno il Signore."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Quanto è glorioso",
+                                "il regno dove con Cristo godono i santi; in candide vesti essi seguono l'Agnello ovunque vada."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Vidi",
+                            "davanti al trono una folla immensa, di ogni nazione, che nessuno poteva contare."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "I giusti",
+                            "loderano il tuo nome, Signore: i retti abiteranno alla tua presenza."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Voi",
+                                "avete lottato per me sulla terra: io sarò la vostra ricompensa."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Sacerdoti di Dio,",
+                                "benedite il Signore; servi del Signore, sciogliete inni a Dio."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "I popoli",
+                                "narrano la sapienza dei santi, e la Chiesa ne proclama le lodi."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0222a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Per comando di Dio",
+                                "sciogli, Pietro, le tue catene: tu che apri agli eletti le porte del cielo."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Voi",
+                                "che mi avete seguito, sederete su dodici troni per giudicare le dodici tribù d'Israele, dice il Signore."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Pietro",
+                                "era in catene, e una preghiera incessante saliva a Dio dalla Chiesa."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Chi mi vuol servire,",
+                                "mi segua: e dove sono io, là sarà anche il mio servo."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Tu sei Pietro,",
+                                "e su questa pietra edificherò la mia Chiesa."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Per comando di Dio",
+                            "sciogli, Pietro, le tue catene: tu che apri agli eletti le porte del cielo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Voi",
+                            "che mi avete seguito, sederete su dodici troni per giudicare le dodici tribù d'Israele, dice il Signore."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Pietro",
+                                "era in catene, e una preghiera incessante saliva a Dio dalla Chiesa."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Chi mi vuol servire,",
+                                "mi segua: e dove sono io, là sarà anche il mio servo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Tu sei Pietro,",
+                                "e su questa pietra edificherò la mia Chiesa."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0425a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Tutte",
+                                "le parole dei profeti sono giunte a compimento nel Vangelo di Cristo, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Con l'annunzio del Vangelo",
+                                "Dio ci chiama alla fede nela verità, perchè otteniamo la gloria del Signore Gesù Cristo, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Molti",
+                                "loderanno la sua sapienza: egli non sarà mai dimenticato, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Nel regno dei cieli",
+                                "è la dimora dei santi, nei secoli eterni il loro riposo, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "risplenderannno come il sole davanti al volto di Dio, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Dio",
+                                "mi ha fatto ministro del Vangelo, per la grazia che mi ha donato, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Tutto io faccio",
+                                "per annunziare il Vangelo, e avere parte anch'io dei suoi beni, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "A me",
+                                "è stata data la grazia di annunziare ai pagani le insondabili ricchezze di Cristo, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Con grande coraggio",
+                                "gli apostoli rendevano testimonianza della risurrezione del Signore Gesù, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "La sapienza",
+                                "risiede nel suo cuore, e la prudenza nella sua parola, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Tutte",
+                            "le parole dei profeti sono giunte a compimento nel Vangelo di Cristo, alleluia."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Con l'annunzio del Vangelo",
+                            "Dio ci chiama alla fede nela verità, perchè otteniamo la gloria del Signore Gesù Cristo, alleluia."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Molti",
+                                "loderanno la sua sapienza: egli non sarà mai dimenticato, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Nel regno dei cieli",
+                                "è la dimora dei santi, nei secoli eterni il loro riposo, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "risplenderannno come il sole davanti al volto di Dio, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0503a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Rivelaci il Padre,",
+                                "o Signore: questo ci basta, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Filippo,",
+                                "chi ha visto me, ha visto il Padre mio, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Da tanto tempo",
+                                "sono con voi, e tu, Filippo, non mi conosci ancora? Chi ha visto me, ha visto il Padre mio, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Se conoscete me,",
+                                "conoscerete anche il Padre mio; ora lo conoscete e lo avete veduto, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Se mi amate,",
+                                "osservate i miei comandamenti, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Rivelaci il Padre,",
+                            "o Signore: questo ci basta, alleluia."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Filippo,",
+                            "chi ha visto me, ha visto il Padre mio, alleluia."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Da tanto tempo",
+                                "sono con voi, e tu, Filippo, non mi conosci ancora? Chi ha visto me, ha visto il Padre mio, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Se conoscete me,",
+                                "conoscerete anche il Padre mio; ora lo conoscete e lo avete veduto, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Se mi amate,",
+                                "osservate i miei comandamenti, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0511a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Candidi",
+                                "più della neve sono i tuoi santi, Signore, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "I santi",
+                                "loderanno il tuo nome, e i giusti vivranno alla tua presenza, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "A voi,",
+                                "miei santi, che nel mondo avete sostenuto lotte e dolori, io do la ricompensa per le vostre fatiche, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Voi tutti,",
+                                "spiriti e anime dei giusti, inneggiate a Dio, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Voi",
+                                "siete santi, dice il Signore, e il vostro numero sarà da me moltiplicato, affinché in questa casa preghiate per il mio popolo, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Sorge Oddone,",
+                                "pieno di Spirito Santo, e in tutto il mondo l'Ordine monastico prende nuova vita e splendore, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Maiolo,",
+                                "ricolmo di carità e di grazia emiulo della santità degli angeli, era elevato per la potenza della sua virtù verso le superne realtà, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Grande carità",
+                                "ardeva nel cuore di Odilone: volle che ogni anno si sollevassero le pene dei defunti con un dolce refrigerio, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Partecipando",
+                                "alla celebrazione del Sabato santo, l'abate Ugo salutava la colonna della nuova luce e sospirando pregava di poter giungere felicemente alla terra promessa, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Un nome eterno",
+                                "darò ai miei santi, dice il Signore: saranno per sempre nel gaudio e nell'esultanza, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0531a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Maria si alzò",
+                                "e partì in fretta verso la montagna, per una città di Giuda."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Al saluto",
+                                "di Maria il bambino esultò nel grembo di Elisabetta, ed essa fu piena di Spirito Santo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Te beata,",
+                                "o Maria, che hai creduto: si compie in te la parola del Signore."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "L'anima mia",
+                                "magnifica il Signore perché ha guardato l'umiltà della sua serva."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Tutti i secoli",
+                                "mi diranno beata: grandi cose ha fatto in me l'Onnipotente."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Maria",
+                                "entrò nella casa di Zaccaria e salutò Elisabetta."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Ho udito",
+                                "il tuo saluto, e nel mio grembo il bambino ha trasalito di gioia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Benedetta",
+                                "sei tu fra le donne, e benedetto il frutto del tuo seno."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Per la mia piccolezza",
+                                "sono piaciuta al Signore, e dal mio grambo ho generato l'Uomo-Dio."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "L'Altissimo",
+                                "ti ha benedetta, figlia del nostro popolo: tu ci hai dato il frutto della vita."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Maria si alzò",
+                            "e partì in fretta verso la montagna, per una città di Giuda."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Al saluto",
+                            "di Maria il bambino esultò nel grembo di Elisabetta, ed essa fu piena di Spirito Santo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Te beata,",
+                                "o Maria, che hai creduto: si compie in te la parola del Signore."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "L'anima mia",
+                                "magnifica il Signore perché ha guardato l'umiltà della sua serva."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Tutti i secoli",
+                                "mi diranno beata: grandi cose ha fatto in me l'Onnipotente."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
+                }
+
+                if ($this->actual['fesCode']=='0722a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il giorno",
+                                "dopo il sabato, di buon mattino, quand'era ancora buio, Maria di Magdala venne al sepolcro, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Videro",
+                                "che il masso era stato rotolato via benché fosse molto grande, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Piangendo,",
+                                "Maria guardò nel sepolcro, e vide due angeli vestiti di luce, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Hanno portato via",
+                                "il mio Signore, e non so dove l'hanno deposto, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Arde il mio cuore:",
+                                "voglio vedere il mio Signore, e non so dove lo hanno posto, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0725a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Gesù",
+                                "camminando sulle rive del mare vide Giacomo e Giovanni suo fratello: e li chiamò."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Subito,",
+                                "lasciato il Padre e la barca, Giovanni e Giacomo seguirono Gesù."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il calice",
+                                "che io bevo, anche voi lo berrete; e il battesimo che io ricevo, anche voi lo riceverete."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Gesù",
+                                "si ritirò a pregare con Pietro, Giacomo e Giovanni e cominciò a sentire angoscia e paura."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Il re Erode",
+                                "perseguitava la Chiesa, e uccise Giacomo, fratello di Giovanni."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Gesù",
+                            "camminando sulle rive del mare vide Giacomo e Giovanni suo fratello: e li chiamò."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Subito,",
+                            "lasciato il Padre e la barca, Giovanni e Giacomo seguirono Gesù."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il calice",
+                                "che io bevo, anche voi lo berrete; e il battesimo che io ricevo, anche voi lo riceverete."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Gesù",
+                                "si ritirò a pregare con Pietro, Giacomo e Giovanni e cominciò a sentire angoscia e paura."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il re Erode",
+                                "perseguitava la Chiesa, e uccise Giacomo, fratello di Giovanni."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0726a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Un nome eterno",
+                                "darò ai miei santi, dice il Signore: saranno per sempre nel gaudio e nell'esultanza."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "I santi",
+                                "loderanno il tuo nome, e i giusti vivranno alla tua presenza."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Ai miei santi",
+                                "darò un posto d'onore nel regno del Padre mio, dice il Signore."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Voi tutti,",
+                                "spiriti e anime dei giusti, inneggiate a Dio, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "I popoli",
+                                "narrano la sapienza dei santi, e la Chiesa ne proclama le lodi."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0729a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Signore,",
+                                "se tu fossi stato qui, Lazzaro non sarebbe morto; ora è già da quattro giorni nel sepolcro."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Io sono la via,",
+                                "la verità e la vita: nessuno viene al Padre se non per me, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Non vi preoccupate,",
+                                "dicendo: Che cosa mangeremo? Che cosa berremo? Il Padre vostro celeste sa di che cosa avete bisogno, alleluia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Quanto è bello",
+                                "e soave che i fratelli vivano insieme!"
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Maria",
+                                "unse i piedi di Gesù, li asciugò con i suoi capelli, e tutta la casa si riempì del profumo dell'unguento."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0810a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Lorenzo entrò",
+                                "e i martiri confessarono  il nome del Signore Gesù Cristo."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "L'angelo del Signore",
+                                "mi ha liberato dalle fiamme, nella fornace ardente sono rimasto illeso."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "A te",
+                                "si stringe l'anima mia, o Dio, mentre il mio corpo brucia per te."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Il martire Lorenzo",
+                                "così pregava: Ti rendo grazie, Signore, che mi accogli nella tua casa."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Se nella terra",
+                                "il seme non muore, rimane solo."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0829a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Erode",
+                                "fece arrestare Giovanni e lo gettò in carcere, a motivo di Erodiade."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "O re,",
+                                "dammi su un piatto la testa di Giovanni."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Alla figlia che danzava",
+                                "la madre comandò: Chiedi la testa di Giovanni."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Giovanni",
+                                "rimproverava Erode a causa di Erodiade, moglie di Filippo, suo fratello."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Dammi su un piatto",
+                                "la testa di Giovanni Battista. Il re si rattristò a causa del giuramento."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0903a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Gregorio,",
+                                "elevato sulla cattedra di Pietro, realizzò nelle opere il suo nome di Vigilante."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Gregorio,",
+                                "guardando i giovani angli, disse: Hanno volto di angeli, e anche in cielo dovranno condividere la sorte degli angeli."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Mentre penetrava",
+                                "i misteri della Sacra Scrittura, apparve una colomba più bianca della neve."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Servi del Signore,",
+                                "benedite il Signore: Gregorio, servo dei servi di Dio, è asceso al cielo."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Gregorio,",
+                                "modello dei monaci, fu padre di Roma, gioia del mondo."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Gregorio,",
+                            "elevato sulla cattedra di Pietro, realizzò nelle opere il suo nome di Vigilante."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Gregorio,",
+                            "guardando i giovani angli, disse: Hanno volto di angeli, e anche in cielo dovranno condividere la sorte degli angeli."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Mentre penetrava",
+                                "i misteri della Sacra Scrittura, apparve una colomba più bianca della neve."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Servi del Signore,",
+                                "benedite il Signore: Gregorio, servo dei servi di Dio, è asceso al cielo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Gregorio,",
+                                "modello dei monaci, fu padre di Roma, gioia del mondo."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0908a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "È nata",
+                                "la gloriosa Vergine Maria, discendente di Abramo, della tribù di Giuda, della stirpe regale di Davide."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Nasce Maria,",
+                                "e la sua vita gloriosa illumina la Chiesa."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Sei splendida",
+                                "per la tua origine regale: con cuore devoto, Maria, invochiamo il tuo soccorso."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Nel gaudio",
+                                "cantiamo gloria a Cristo celebrando la festa di Maria sua Madre."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Con gioia",
+                                "celebriamo la tua nascita, o Maria; prega per noi il Signore Gesù."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "È nata",
+                            "la gloriosa Vergine Maria, discendente di Abramo, della tribù di Giuda, della stirpe regale di Davide."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Nasce Maria,",
+                            "e la sua vita gloriosa illumina la Chiesa."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Sei splendida",
+                                "per la tua origine regale: con cuore devoto, Maria, invochiamo il tuo soccorso."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Nel gaudio",
+                                "cantiamo gloria a Cristo celebrando la festa di Maria sua Madre."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Con gioia",
+                                "celebriamo la tua nascita, o Maria; prega per noi il Signore Gesù."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='0929a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Arcangelo Michele,",
+                                "ti ho posto a capo di tutte le anime che saranno accolte in cielo."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Un angelo",
+                                "apparve presso l'altare del tempio: aveva in mano un turibolo d'oro."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Egli",
+                                "darà ordine ai suoi angeli di custodirti in tutti i tuoi passi."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Angeli del Signore,",
+                                "benedite il Signore in eterno."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Lodate Dio,",
+                                "voi tutti suoi angeli: lodatelo voi tutte sue schiere."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Mentre",
+                                "l'arcangelo Michele combatteva contro il drago, si udì nel cielo la voce di coloro che cantavano: Gloria al nostro Dio, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "L'angelo Gabriele",
+                                "disse a Maria: Ave, piena di grazia, il Signore è con te; tu sei benedetta fra le donne."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Lodiamo il Signore.",
+                                "I cherubini e i serafini proclamano con gli angeli: Santo, santo, santo!"
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Canterò per te,",
+                                "mio Dio, alla presenza degli angeli."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Mentre Giovanni",
+                                "contemplava il sacro mistero, l'arcangelo Michele suonò la tromba: Perdona, Signore Dio nostro, tu che apri il libro e ne sciogli i sigilli, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Arcangelo Michele,",
+                            "ti ho posto a capo di tutte le anime che saranno accolte in cielo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "L'angelo Gabriele",
+                            "fu inviato alla sposa di Giuseppe, la Vergine Maria."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        $this->res[$k]->setAntifona(array(
+                            "L'angelo Raffaele",
+                            "fu inviato a Tobia e a Sara per guarirli."
+                        ));
+                    }
+                }
+
 
 
             }
