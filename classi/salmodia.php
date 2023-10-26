@@ -763,270 +763,6 @@ class Salmodia {
             }
         }
 
-        //###########################################################################
-        if ($this->actual['fesCode']=="") return;
-
-        foreach($this->actual['festa'] as $k=>$f) {
-            $this->festa=$f;
-        }
-
-        if ($this->festa['comune']=='pastori' || $this->festa['comune']=='dottori') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','131','','G'),
-                    array('5','C','NT21','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='monaci') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ( ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') && $this->actual['tempo']=='Q') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','115','','G'),
-                    array('5','C','NT21','','G')
-                );
-            }
-            elseif ($this->actual['ora']=='ves1') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','131','','G'),
-                    array('5','C','NT22','','G')
-                );
-            }
-            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','131','','G'),
-                    array('5','C','NT19','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='martiri') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','110','','G'),
-                    array('3','S','111','','G'),
-                    array('4','S','112','','G'),
-                    array('5','C','NT18','','G')
-                );
-            }
-            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','115','','G'),
-                    array('5','C','NT19','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='martire') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','115','','G'),
-                    array('5','C','NT18','','G')
-                );
-            }
-            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','111','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','115','','G'),
-                    array('5','C','NT19','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='vergini') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','112','','G'),
-                    array('3','S','121','','G'),
-                    array('4','S','126','','G'),
-                    array('5','C','NT10','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='santi' || $this->festa['comune']=='religiosi') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1') {
-                $this->salmi=$this->festivi['ves'];
-            }
-
-            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','110','','G'),
-                    array('3','S','111','','G'),
-                    array('4','S','112','','G'),
-                    array('5','C','NT21','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='apostoli') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1') {
-                $this->salmi=$this->festivi['ves'];
-            }
-
-            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','112','','G'),
-                    array('3','S','115','','G'),
-                    array('4','S','138','','G'),
-                    array('5','C','NT10','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='sante' || $this->festa['comune']=='religiose') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','121','','G'),
-                    array('3','S','126','','G'),
-                    array('4','S','147','','G'),
-                    array('5','C','NT10','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='dedica') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            elseif ( ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') && $this->actual['tempo']=='Q') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','110','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','147','','G'),
-                    array('5','C','NT21','','G')
-                );
-            }
-
-            elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','110','','G'),
-                    array('3','S','112','','G'),
-                    array('4','S','147','','G'),
-                    array('5','C','NT22','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='BVM') {
-
-            if ($this->actual['ora']=='lodi') {
-                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
-                else $this->salmi=$this->festivi['lodiP'];
-            }
-
-            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','109','','G'),
-                    array('2','S','112','','G'),
-                    array('3','S','121','','G'),
-                    array('4','S','126','','G'),
-                    array('5','C','NT10','','G')
-                );
-            }
-        }
-
-        elseif ($this->festa['comune']=='DEF') {
-
-            if ($this->actual['ora']=='lodi') {
-                $this->salmi=array(
-                    array('1','S','50','','G'),
-                    array('2','S','64','','G'),
-                    array('3','S','62','','G'),
-                    array('4','C','AT26','','G'),
-                    array('5','S','150','','G')
-                );
-            }
-
-            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->salmi=array(
-                    array('1','S','114','','G'),
-                    array('2','S','119','','G'),
-                    array('3','S','120','','G'),
-                    array('4','S','129','','G'),
-                    array('5','C','NT11','','G')
-                );
-            }
-        }
-
         //###################################################################################
         //presentazione del Signore
         if ($this->actual['evCode']=='0202a') {
@@ -1309,9 +1045,292 @@ class Salmodia {
             }
         }
 
+        if ($this->actual['evCode']=='1208a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','112','','G'),
+                    array('3','S','121','','G'),
+                    array('4','S','126','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+
+        }
+
         /////////////////////////////////////////////////////////////////////////////////////////
         //FESTE
         /////////////////////////////////////////////////////////////////////////////////////////
+        if ($this->actual['fesCode']=="") return;
+
+        foreach($this->actual['festa'] as $k=>$f) {
+            $this->festa=$f;
+        }
+
+        if ($this->festa['comune']=='pastori' || $this->festa['comune']=='dottori') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','131','','G'),
+                    array('5','C','NT21','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='monaci') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ( ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') && $this->actual['tempo']=='Q') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','115','','G'),
+                    array('5','C','NT21','','G')
+                );
+            }
+            elseif ($this->actual['ora']=='ves1') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','131','','G'),
+                    array('5','C','NT22','','G')
+                );
+            }
+            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','131','','G'),
+                    array('5','C','NT19','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='martiri') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','110','','G'),
+                    array('3','S','111','','G'),
+                    array('4','S','112','','G'),
+                    array('5','C','NT18','','G')
+                );
+            }
+            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','115','','G'),
+                    array('5','C','NT19','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='martire') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','115','','G'),
+                    array('5','C','NT18','','G')
+                );
+            }
+            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','111','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','115','','G'),
+                    array('5','C','NT19','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='vergini') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','112','','G'),
+                    array('3','S','121','','G'),
+                    array('4','S','126','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='santi' || $this->festa['comune']=='religiosi') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1') {
+                $this->salmi=$this->festivi['ves'];
+            }
+
+            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','110','','G'),
+                    array('3','S','111','','G'),
+                    array('4','S','112','','G'),
+                    array('5','C','NT21','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='apostoli') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1') {
+                $this->salmi=$this->festivi['ves'];
+            }
+
+            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','112','','G'),
+                    array('3','S','115','','G'),
+                    array('4','S','138','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='sante' || $this->festa['comune']=='religiose') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','121','','G'),
+                    array('3','S','126','','G'),
+                    array('4','S','147','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='dedica') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            elseif ( ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') && $this->actual['tempo']=='Q') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','110','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','147','','G'),
+                    array('5','C','NT21','','G')
+                );
+            }
+
+            elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','110','','G'),
+                    array('3','S','112','','G'),
+                    array('4','S','147','','G'),
+                    array('5','C','NT22','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='BVM') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','112','','G'),
+                    array('3','S','121','','G'),
+                    array('4','S','126','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+        }
+
+        elseif ($this->festa['comune']=='DEF') {
+
+            if ($this->actual['ora']=='lodi') {
+                $this->salmi=array(
+                    array('1','S','50','','G'),
+                    array('2','S','64','','G'),
+                    array('3','S','62','','G'),
+                    array('4','C','AT26','','G'),
+                    array('5','S','150','','G')
+                );
+            }
+
+            if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','114','','G'),
+                    array('2','S','119','','G'),
+                    array('3','S','120','','G'),
+                    array('4','S','129','','G'),
+                    array('5','C','NT11','','G')
+                );
+            }
+        }
+
+        //###########################################################################
 
         if ($this->actual['fesCode']=='0115a') {
 
@@ -1462,6 +1481,59 @@ class Salmodia {
         }
 
         elseif ($this->actual['fesCode']=='1002a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1007a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1018a') {
+
+            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->salmi=array(
+                    array('1','S','109','','G'),
+                    array('2','S','112','','G'),
+                    array('3','S','115','','G'),
+                    array('4','S','138','','G'),
+                    array('5','C','NT10','','G')
+                );
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1111a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1113a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1116a') {
+
+            if ($this->actual['ora']=='lodi') {
+                if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
+                else $this->salmi=$this->festivi['lodiP'];
+            }
+        }
+
+        elseif ($this->actual['fesCode']=='1130a') {
 
             if ($this->actual['ora']=='lodi') {
                 if ((int)$this->actual['settimana']%2!=0) $this->salmi=$this->festivi['lodiD'];
@@ -1841,6 +1913,59 @@ class Salmodia {
                         $this->res[$k]->setAntifona(array(
                             "Domani",
                             "verrà la vostra salvezza, dice il Signore, Dio dell'universo."
+                        ));
+                    }
+                }
+
+                if  ($this->actual['evCode']=='1208a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Tutta bella sei,",
+                                "o Maria, la colpa originale non ti ha sfiorata."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Bianca",
+                                "come neve la tua veste, il tuo volto, come il sole."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Tu gloria di Gerusalemme,",
+                                "tu letizia d'Israele, tu onore del nostro popolo."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Benedetta sei tu,",
+                                "Vergine Maria, dal Signore Dio altissimo, fra tutte le donne della terra."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Ti seguiamo,",
+                                "Vergine immacolata, attratti dalla fragranza della tua santità."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Lode",
+                            "al Dio vivente: ha realizzato in me il suo disegno di misericordia."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Il Signore",
+                            "ha posto in te la sua compiacenza: per te gioirà il tuo Dio."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        $this->res[$k]->setAntifona(array(
+                            "Nella santità",
+                            "Dio mi ha creata: mi ha presa per mano, e mi ha redenta."
                         ));
                     }
                 }
@@ -7177,6 +7302,464 @@ class Salmodia {
                         }
                     }
                 }
+
+                if ($this->actual['fesCode']=='1004a') {
+
+                    if ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Perfetto è l'amore",
+                            "in chi osseva la parola di Cristo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Chi fa la volontà",
+                            "del Padre mio che è nei cieli, entrerà nel suo regno."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        $this->res[$k]->setAntifona(array(
+                            "Nessuno",
+                            "ha mai udito né visto le meraviglie che hai preparato per chi confida in te, Signore."
+                        ));
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1007a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Rallegrati,",
+                                "Vergine Maria: Cristo è risorto dai morti, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Ascende Dio,",
+                                "tra canti di gioia, il Signore tra squilli di tromba, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Lo Spirito del Signore",
+                                "pervade l'universo, allelia."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Maria",
+                                "è assunta in cielo: godono gli angeli, lodano e benedicono il Signore, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Nella gloria del cielo,",
+                                "tra i cori degli angeli, la Vergine Maria è coronata di dodici stelle, alleluia."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "L'amgelo Gabriele",
+                                "portò l'annunzio a Maria: ed ella concepì dallo Spirito Santo, alleluia."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Ave, Maria,",
+                                "piena di grazia, il Signore è con te: benedetta tu fra le donne."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il mio cuore",
+                                "si fonde come cera, tremano tutte le mie ossa."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Le figlie di Sion",
+                                "l'hanno vista germogliare tra le rose e la proclamano beata."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Gesù",
+                                "disse alla madre: Donna, ecco tuo figlio! E al discepolo che egli amava: Ecco tua madre!"
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1018a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Tutte",
+                                "le parole dei profeti sono giunte a compimento nel Vangelo di Cristo."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Con l'annunzio del Vangelo",
+                                "Dio ci chiama alla fede nella verità, perché otteniamo la gloria del Signore Gesù Cristo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Molti",
+                                "loderanno la sua sapienza: egli non sarà mai dimenticato."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Nel regno dei cieli",
+                                "è la dimora dei santi, nei secoli eterni il loro riposo."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "risplenderanno come li sole davanti al volto di Dio."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Dio",
+                                "mi ha fatto ministro del Vangelo, per la grazia che mi ha donato."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Tutto io faccio",
+                                "per annunziare il Vangelo, e avere pate anch'io dei suoi beni."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "A me",
+                                "è stata data la grazia di annunziare ai pagani le insondabili richezze di Cristo."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Con grande coraggio",
+                                "gli apostoli rendevano testimonianza della risurrezione del Signore Gesù."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "La sapienza",
+                                "risiede nel suo cuore, e la prudenza nella sua parola."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Tutte",
+                            "le parole dei profeti sono giunte a compimento nel Vangelo di Cristo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Con l'annunzio del Vangelo",
+                            "Dio ci chiama alla fede nella verità, perché otteniamo la gloria del Signore Gesù Cristo."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Molti",
+                                "loderanno la sua sapienza: egli non sarà mai dimenticato."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Nel regno dei cieli",
+                                "è la dimora dei santi, nei secoli eterni il loro riposo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "I giusti",
+                                "risplenderanno come li sole davanti al volto di Dio."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1111a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Padre,",
+                                "perchè ci abbandoni? Perché ci lasci nella desolazione? Lupi rapaci invederannoil tuo gregge."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Signore,",
+                                "se sono ancora utile al tuo poòolo, non rifiuto la faica: sia fatta la tua volontà."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Uomo meraviglioso!",
+                                "Non lo vinse la ftica, né lo sgomentò la morte; non ha temuto di morire, non ha rifiutato di vivere."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Gli occhi e le mani",
+                                "sempre rivolti al cielo, infaticabile si dava alla preghiera, alleluia."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Martino,",
+                                "pieno di gioia, è accolto nel seno di Abramo: Martino, povero e piccolo sulla terra, entra ricco nel cielo, accolto da canti celesti."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Padre,",
+                            "perchè ci abbandoni? Perché ci lasci nella desolazione? Lupi rapaci invederannoil tuo gregge."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Signore,",
+                            "se sono ancora utile al tuo poòolo, non rifiuto la faica: sia fatta la tua volontà."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Uomo meraviglioso!",
+                                "Non lo vinse la ftica, né lo sgomentò la morte; non ha temuto di morire, non ha rifiutato di vivere."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Gli occhi e le mani",
+                                "sempre rivolti al cielo, infaticabile si dava alla preghiera, alleluia."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Martino,",
+                                "pieno di gioia, è accolto nel seno di Abramo: Martino, povero e piccolo sulla terra, entra ricco nel cielo, accolto da canti celesti."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1113a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Beati",
+                                "gli operatori di pace, beati i puri di cuore, perché vedranno Dio."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Coloro",
+                                "che ricevono la parola di Dio in un cuore ben disposto, portano frutto con perseveranza."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Dove due o tre",
+                                "sono riuniti nel mio nome, io sono in mezzo a loro, dice il Signore."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Benedite il Signore,",
+                                "voi tutti suoi eletti: celebrate la festa eterna del cielo, innalzate a lui la vostra lode."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "I santi",
+                                "per la fede conquistarono regni, vissero con giustizia, conseguirono le promesse."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Siate perfetti",
+                            "come perfetto è il Padre vostro celeste."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Non conformatevi",
+                            "alla mentalità del mondo, ma trasformatevi nella novità dello spirito."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        $this->res[$k]->setAntifona(array(
+                            "Occhio non vide,",
+                            "né orecchio udì quallo che hai preparato, Signore, per chi vive nella tua attesa."
+                        ));
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1116a') {
+
+                    if ($this->actual['ora']=='lodi') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Gioisci",
+                                "ed esulta, figlia di Sion! Ecco: io vengo ad abitare in mezzo a te, dice il Signore."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "O beata Anima!",
+                                "Meritò di diventare sede della divina sapienza, che si compiace di stare con gli uomini."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il mio Signore",
+                                "Gesù Cristo mi ha avvinta con sette anelli, e come sposa mi ha coronata col diadema."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Geltrude",
+                                "aveva il potere di aprire il cielo alla pioggia e di chiuderlo, perché la sua parola era diventata la chiave del cielo."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Ancella fedele",
+                                "e sposa diletta, Geltrude è entrata nel cuore e nella gioia del suo Signore, che amava di amore struggente."
+                            ));
+                            break;
+                        }
+                    }
+
+                    if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Mi troverete",
+                                "nel cuore di Geltrude, dice il Signore: ho posto in lei le mie compiacenze."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Geltrude,",
+                                "santissima sposa di Cristo, aderiva sempre al suo diletto, e formava con lui un solo spirito."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Bella",
+                                "e leggiadra sei Geltrude: in te Dio si è preparata una deliziosa dimora."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Cristo",
+                                "parlava a Geltrude faccia a faccia, come un amico suole parlare con il suo amico."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "L'anima",
+                                "della sposa diletta, libera dalla progionia del corpo, fu accolta da Cristo con infinito amore."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Gioisci",
+                            "ed esulta, figlia di Sion! Ecco: io vengo ad abitare in mezzo a te, dice il Signore."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "O beata Anima!",
+                            "Meritò di diventare sede della divina sapienza, che si compiace di stare con gli uomini."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il mio Signore",
+                                "Gesù Cristo mi ha avvinta con sette anelli, e come sposa mi ha coronata col diadema."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Geltrude",
+                                "aveva il potere di aprire il cielo alla pioggia e di chiuderlo, perché la sua parola era diventata la chiave del cielo."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Ancella fedele",
+                                "e sposa diletta, Geltrude è entrata nel cuore e nella gioia del suo Signore, che amava di amore struggente."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
+                if ($this->actual['fesCode']=='1130a') {
+
+                    if ($this->actual['ora']=='lodi' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Chi vuol venire",
+                                "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Salve,",
+                                "croce preziosa. Ricevi il discepolo di colui che in te fu sospeso, Cristo, mio maestro."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Il beato Andrea",
+                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Beato Andrea,",
+                                "servo di Cristo, degno apostolo di Dio! Come Pietro, suo fratello, hai subito il martirio."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "Nostra gloria",
+                                "è la croce del Signore Gesù."
+                            ));
+                            break;
+                        }
+                    }
+
+                    elseif ($this->actual['ora']=='terza') {
+                        $this->res[$k]->setAntifona(array(
+                            "Chi vuol venire",
+                            "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='sesta') {
+                        $this->res[$k]->setAntifona(array(
+                            "Salve,",
+                            "croce preziosa. Ricevi il discepolo di colui che in te fu sospeso, Cristo, mio maestro."
+                        ));
+                    }
+                    elseif ($this->actual['ora']=='nona') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Il beato Andrea",
+                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Beato Andrea,",
+                                "servo di Cristo, degno apostolo di Dio! Come Pietro, suo fratello, hai subito il martirio."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Nostra gloria",
+                                "è la croce del Signore Gesù."
+                            ));
+                            break;
+                        }
+                    }
+                }
+
 
 
 

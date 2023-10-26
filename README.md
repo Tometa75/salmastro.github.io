@@ -26,4 +26,8 @@ Need to check for bugs
 End build "Orazioni"
 Starting Psalm
 
+26.10.2023
+End Psalm
+Starting Readings
+
 
