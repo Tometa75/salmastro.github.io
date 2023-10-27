@@ -2762,7 +2762,7 @@ class Orazione {
         ),
         "1208a"=>array(
             array(
-                array('','',"O Padre, che nell'Immacolata Concezione della Vergina hai preparato una degna dimora per il tuo Figlio, e in previsione della morte di lui l'hai preservata da ogni macchia di peccato, concedi anche a noi, per sua intercessione, di venire incontro a te in santità e purezza di spirito."),
+                array('','',"O Padre, che nell'Immacolata Concezione della Vergine hai preparato una degna dimora per il tuo Figlio, e in previsione della morte di lui l'hai preservata da ogni macchia di peccato, concedi anche a noi, per sua intercessione, di venire incontro a te in santità e purezza di spirito."),
                 array('ending')
             )
         ),
