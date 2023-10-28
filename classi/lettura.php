@@ -454,7 +454,7 @@ class Lettura {
                         case 1:
                             $this->info=array(
                                 "titolo"=>"Gb 5,17-18",
-                                "testo"=>"Gelice l'uomo che è corretto da Dio: perciò tu non sdegnare la correzione dell'Onnipotente, perché egli fa la piaga e la fascia, ferisce e la sua mano risana."
+                                "testo"=>"Felice l'uomo che è corretto da Dio: perciò tu non sdegnare la correzione dell'Onnipotente, perché egli fa la piaga e la fascia, ferisce e la sua mano risana."
                             );
                         break;
                         case 2:
@@ -515,7 +515,154 @@ class Lettura {
         }
 
         elseif ($this->actual['weekDay']==3) {
-            
+            switch ($this->actual['ora']) {
+                case 'lodi': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"Tb 4,15a.16a.18-19a",
+                                "testo"=>"Non fare a nessuno ciò che non piace a te. Dà il tuo pane a chi ha fame e fa parte dei tuoi vestiti agli ignudi. Chiedi il parere ad ogni persona che si saggia e non disprezzare nessun buon consiglio. In ogni circostanza benedici il Signore e domanda che ti sia guida nelle tue vie e che i tuoi sentieri e i tuoi desideri giungano a buon fine."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Rm 8,35-37",
+                                "testo"=>"Chi ci separerà dall'amore di Cristo? forse la tribolazione, l'angoscia, la persecuzione, la fame, la nudità, il pericolo, la spada? Ma in tutte quaeste cose noi siamo più che vincitori per virtù di colui che ci ha amati."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Gb 1,21; 2,10b",
+                                "testo"=>"Nudo uscii dal seno di mia madre, e nudo vi ritornerò. Il Signore ha dato, il Signore ha tolto; come piacque al Signore, così è avvenuto: sia benedetto il nome del Signore! Se da Dio accettiamo il bene, perché non dovremmo accettare il male?."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"Dt 4,39-40a",
+                                "testo"=>"ùsappi oggi e conserva bene nel tuo cuore che il Signore è Dio lassù nei cieli e quaggiù sulla terra; e non ve n'è altro. Osserva dunque le sue leggi e i suoi comandi che oggi ti do."
+                            );
+                        break;
+                    }
+                break;
+                case 'terza': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"1Pt 1,13-14",
+                                "testo"=>"Dopo  aver preparato la vostra mente all'azione, siate vigilanti, fissate ogni speranza in quella grazia che vi sarà data quando Gesù Cristo si rivelerà. Come figli obbedienti, non conformatevi ai desideri d'un tempo, quando eravate nell'ignoranza."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Dt 1,16-17a",
+                                "testo"=>"In quel tempo diedi quest'ordine ai vostri giudici: Ascoltate le cause dei vostri fratelli e giudicae con giustizia le quastioni che uno può avere con il fratello o con lo straniero che sta presso di lui. Nei vostri giudizi non avrete riguardi personali, darete ascolto al piccolo come al grande; non temerete alcun uomo, poiché il giudizio appartiene a Dio."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"1Cor 13,4-7",
+                                "testo"=>"La cairtà è paziente, è benigna la carità; non è invidiosa la carità, non si vanta, non si gonfia,  non manca di rispetto, non cerca il suo interesse, non si adira, non tiene conto del male ricevuto, non gode dell'ingiustizia, ma si compiace della verità. Tutto copre, tutto crede, tutto spera, tutto sopporta."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"1Cor 10,24.31",
+                                "testo"=>"Nessuno cerchi l'utile proprio, ma quello altrui. Sia dunque che mangiate, sia che beviate, sia che facciate qualsiasi altra cosa, fate tutto per la gloria di Dio."
+                            );
+                        break;
+                    }
+                break;
+                case 'sesta': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"1Pt 1,15-16",
+                                "testo"=>"Ad immagine del Santo che vi ha chiamati, diventate santi anche voi in tutta la vostra condotta; poiché sta scritto: Voi sarete santi, perché io sono santo."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Is 55,8-9",
+                                "testo"=>"I miei pensieri non sono i vostri pensieri, le vostre vie non sono le mie vie, oracolo del Signore. Quanto il cielo sovrasta la terra, tanto le mie vie sovrastano le fostre vie, i miei pensieri sovrastano i vostri pensieri."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"1Cor 13,8-9.13",
+                                "testo"=>"La carità non avrà mai fine. Le profezie scompariranno; il dono delle lingue cesserà e la scienza svanirà. La nostra conoscenza è imperfetta e imperfetta la nostra profezia. Queste dunque le tre cose che rimangono: la fede, la speranza e la carità; ma di tutte più grande è la carità!"
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"Col 3,17",
+                                "testo"=>"Tutto quello che fate in parole ed opere, tutto si compia nel nome del Signore Gesù, rendendo per mezzo di lui grazie a Dio Padre."
+                            );
+                        break;
+                    }
+                break;
+                case 'nona': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"Gc 4,7-8a.10",
+                                "testo"=>"Sottomettetevi a Dio; resistete al diavolo, ed egli fuggirà da voi. Avvicinatevi a Dio ed egli si avvicinerà a voi. Umiliatevi davanti al Signore ed egli vi esalterà."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"1Sam 16,7",
+                                "testo"=>"Dice il Signore: Non guardate all'aspetto, né alla statura. Io non guardo ciò che guarda l'uomo. L'uomo guarda l'apparenza, il Signore guarda il cuore."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Col 3,14-15",
+                                "testo"=>"Al di sopra di tutto vi sia la carità, che è il vincolo della perfezione. E la pace di Cristo regni nei vostri cuori, perché ad essa siete stati chiamati in un solo corpo. E siate riconoscenti!"
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"Col 3,23-24",
+                                "testo"=>"Qualunque cosa facciate, fatela di cuore come per il Signore e non per gli uomini, sapendo che, come ricompensa, riceverete dal Signore l'eredità. Servite a Cristo Signore."
+                            );
+                        break;
+                    }
+                break;
+                case 'ves': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"Gc 1,22.25",
+                                "testo"=>"Siate di quelli che mettono in pratica la parola e non soltanto ascoltatori, illudendo voi stessi. Chi fissa lo sguardo sulla legge perfetta, la legge della libertà, e le resta fedele, non come un ascoltatore smemorato ma come uno che la mette in pratica, questi troverà la sua felicità nel praticarla."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"1Pt 5,5b-7",
+                                "testo"=>"Rivestitevi tutti di umiltà gli uni verso gli altri, perché Dio resiste ai superbi, ma dà grazia agli umili. Umiliatevi dunque sotto la potente mano di Dio, perché vi esalti al tempo opportuno, gettando in lui ogni vostra preoccupazione, perché egli ha cura di voi."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Ef 3,20-21",
+                                "testo"=>"A colui che in tutto ha potere di fare molto di più di quanto possiamo domandare o pensare, secondo la potenza che già opera in noi, a lui la gloria nella Chiesa e in Cristo Gesù per utte le generazioni, nei secoli dei secoli! Amen."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"1Gv 2,3-6",
+                                "testo"=>"Da questo sappiamo di aver conosciuto il Cristo: se osserviamo i suoi comandamenti. Chi dice: « Lo conosco » e non osseva i suoi comandamenti, è bugiardo e la verità non è in lui; ma chi osserva la sua parola, in lui l'amore di Dio è veramente perfetto. Da questo conosciamo di essere in lui. Chi dice di dimorare in Cristo, deve comportarsi come lui si è comportato."
+                            );
+                        break;
+                    }
+                break;
+                case 'comp': 
+                    $this->info=array(
+                        "titolo"=>"Ef 4,26-27.31-32",
+                        "testo"=>"Non peccate; non tramonti il sole sopra la vostra ira, e non date occasione al diavolo. Scompaia da voi ogni asprezza, sdegno, ira. Siate invece benevoli gli uni verso gli altri, misericordiosi, perdonandovi a vicenda come Dio ha perdonato a voi in Cristo."
+                    );
+                break;
+            }
         }
 
         elseif ($this->actual['weekDay']==4) {
