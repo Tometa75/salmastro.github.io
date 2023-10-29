@@ -822,26 +822,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"",
-                                "testo"=>""
+                                "titolo"=>"Ef 4,29-32",
+                                "testo"=>"Nessuna parola cattiva esca più dalla vostra bocca; ma piuttosto parole buone che posaano servire per la necessaria edificazione, giovando a quelli che ascoltano. E non vogliate rattristare lo Spirito Santo di Dio, col quale foste segnati per il giorno della redenzione. Scompaioa da voi ogni asprezza, sdegno, ira, clamore e maldicenza con ogni sorta di malignità. siate invece benevoli gli uni verso gli altri, misericordiosi, perdonandovi a vicenda come Dio ha perdonato a voi in Cristo."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Rm 14,17-19",
-                                "testo"=>"Il regno di Dio non è questione di cibo o di bevanda, ma è giustixia, pace e gioia nello Spirito Santo: chi serve il Cristo in queste cose, è bene accetto a Dio e stimato dagli uomini. Diamoci dunque alle opere della pace e alla edificazione vicenevole."
+                                "titolo"=>"Ef 2,13-16",
+                                "testo"=>"Ora, in Cristo Gesù, voi ch eun tempo eravate i lontani siete divntati i vicini grazie al sangue di Cristo. Egli infatti è la nostra pace, colui che ha fatto dei due un popolo solo, abbattedno il muro di separazione che era frammezzo, cioè l'inimicizia, annullando, per mezzo della sua carne, la legge fatta di prescrizioni e di decreti, per crere in sé stesso, dei due, un solo uomo nuovo, facendo la pace, e per riconciliare tutti e due con Dio in un solo corpo, per mezzo della croce, distruggendo in sé stesso l'inimicizia."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"1Pt 4,10-11",
-                                "testo"=>"Ciascuno viva secondo la grazia ricevuta, mettendola a servizio degli altri, come buoni amministratori di una muiltiforme grazia di Dio. Chi parla, lo faccia come con parole di Dio; chi esercita un ufficio, lo compia con l'energia ricevuta da Dio, perché in tutto venga glorificato Dio per mezzo di Gesù Cristo, al quale appartiene la gloria e la potenza nei secoli dei secoli. Amen!."
+                                "titolo"=>"2Cor 12,9b-10",
+                                "testo"=>"Mi vanterò ben volentieri delle mie debolezze, perché dimori in me la potenza di Cristo. Perciò mi compiaccio nelle mie infermità, negli oltraggi, nelle neessità, nelle persecuzioni, nelle angosce sofferte per Cristo: quando sono debole, è allora che sono forte."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"Rm 8,18-21",
-                                "testo"=>"Io ritengo che le sofferenze del momento presente non sono paragonabili alla gioia futura che dovrà esser rivelata in noi. La creazione stessa attende con impazienza la rivelazione dei figli di Dio; essa infatti è stata sottomessa alla caducità - non per suo volere, ma per volere di colui che l'ha sottomessa - e nutre la speranza di essere lei pure liberata dalla schiavitù della corruzione, per entrare nella libertà della gloria dei figli di Dio."
+                                "titolo"=>"Gal 2,20",
+                                "testo"=>"Sono stto crocifisso con Cristo e non sono più io che vivo, ma Cristo vive in me. Questa vita che vivo nella carne io la vivo nella fede del Figlio di Dio, che mi ha amato e ha dato sé stesso per me."
                             );
                         break;
                     }
@@ -850,26 +850,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"Am 4,13",
-                                "testo"=>"Ecco colui che forma i monti e crea i venti, che manifesta ll'uomo qual'è il suo pensiero, che fa l'alba ele tenebre e cammina sulle alture della terra, Signore, Dio degli eserciti è il suo nome."
+                                "titolo"=>"Fil 2,2-4",
+                                "testo"=>"Rendete piena la mia gioia con l'unione dei vostri spiriti, con la stessa carità, con i medesimi sentimenti. Non fate nulla per spirito di rivalità o per vanagloria, ma ognuno di voi, con tutta umiltà, consideri gli altri superiori a sé stesso. Non cerchi ciascuno il proprio interesse, ma piuttosto quello degli altri."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Gal 5,13-14",
-                                "testo"=>"Voi, fratelli, siete stati chiamati a libertà. Purché questa libertà non divenga un pretesto per vivere secondo la carne, ma mediante la carità siate a servizio gli uni degli altri. Tutta la legge trova infatti la sua pienezza in un solo preetto: amerai il prossimo tuo come te stesso."
+                                "titolo"=>"Dt 1,31b",
+                                "testo"=>"Il Signore tuo Dio ti ha portato, come un uomo porta il proprio figlio, per tutto il cammino che hai fatto."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"Sap 19,22",
-                                "testo"=>"In tutti i modi, o Signore, hai magnificato e reso glorioso il tuo popolo e non l'hai trascurato, assistendolo in ogni tempo e in ogni luogo."
+                                "titolo"=>"Rm 1,16b-17",
+                                "testo"=>"Il vangelo è potenza di Dio per la salvezza di chiunque crede, del Giudeo prima e poi del Greco. È in esso che si rivela la giustizia di Dio di fede in fde, come sta scritto: Il giusto vivrà mediante la fede."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"1Gv 3,23-24",
-                                "testo"=>"Questo è il comandamento di Dio: che crediamo nel nome del Figlio suo Gesù Cristo e ci amiamo gli uni gli altri, secondo il precetto che ci ha dato. Chi osserva i suoi comandamenti dimora in Dio ed egli in lui. E da questo conosciamo che dimora in noi: dallo Spirito che ci ha dato."
+                                "titolo"=>"Rm 12,17a.19b-20a.21",
+                                "testo"=>"Non rendete a nessuno male per male. Sta scritto infatti: A me la vendetta, sono io che ricambierò, dice il Signore. Al contrario, se il tuo nemico ha fame, dagli da mangiare; se ha sete, dagli da bere. Non lasciarti vincere dal male, ma vinci con il bene il male."
                             );
                         break;
                     }
@@ -878,26 +878,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"Am 5,8",
-                                "testo"=>"Colui che ha fatto le Plèiadi e Orione cambia il buio in chiarore del mattino e stende sul giorno l'oscurità della notte; colui che comanda alle acque del mare e le spande sulla terra, Signore è il suo nome."
+                                "titolo"=>"2Cor 13,4",
+                                "testo"=>"Cristo fu crocifisso per la sua debolezza, ma vive per la potenza di Dio. E anche noi che siamo deboli in lui, saremo vivi con lui per la potenza di Dio."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Gal 5,16-17",
-                                "testo"=>"Camminate secondo lo Spirito e non sarete portati a soddisfare i desideri della carne; la carne infatti ha desideri contrari allo Spirito e lo Spirito ha desideri contrari alla carne; queste cose si oppongono a vicenda, sicché voi non fate quello che vorreste."
+                                "titolo"=>"Bar 4,28-29",
+                                "testo"=>"Come pensate di allontanarvi da Dio, così ritornando decuplicate lo zelo per cercarlo, poiché chi vi ha afflitti con tante calamità vi darà anche, con la salvezza, una gioia perenne."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"Dt 4,7",
-                                "testo"=>"Nessuna grande nazione ha la divinità così vicina a sé, come il Signore nostro Dio è vicino a noi ogni volta che lo invochiamo."
+                                "titolo"=>"Rm 3,21-22a",
+                                "testo"=>"Ora, indipendentemente dalla legge, si è manifestata la giustizia di Dio, testimonita dalla legge e dai profeti; giustizia di Dio per mezzo della fede i Gesù Cristo, per tutt quelli che credono in lui."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"Sap 1,1-2",
-                                "testo"=>"Amate la giustizia, voi che governate sulla terra, rettamente pensate del Signore, cercatelo con cuore semplice. Egli infatti si lascia trovare da quanti non lo tentano, si mostra a coloro che non ricusano di credere in lui."
+                                "titolo"=>"1Gv 3,16",
+                                "testo"=>"Da questo abbiamo conosciuto l'amore di Dio: Egli ha dato la sua vita per noi; quindi anche noi dobbiamo dare la vita per i fratelli."
                             );
                         break;
                     }
@@ -906,26 +906,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"Am 9,6",
-                                "testo"=>"Egli costruisce nel cielo il suo soglio e fonda la sua volta sulla terra; egli chiama le acque del mare e le riversa sulla terra; Signore è il suo nome."
+                                "titolo"=>"Col 3,12-13",
+                                "testo"=>"Rivestitevi, come eletti di Dio, santi e amati, di sentimenti di misericordia, di bontà, di umiltà, di mansuetudine, di pazienza, sopportandovi a vicenda e perdonandovi scambievolmente, se qualcuno abbia di che lamentrsi nei riguardi degli altri. Come il Signore vi ha perdonato, così fate anche voi."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Gal 5,22.25",
-                                "testo"=>"Il frutto dello Spirito è amore, gioia, pace, pazienza, benevolenza, bontà fedeltà, mitezza, dominio di sé. Se pertanto viviamo dello Spirito, camminiamo anche secondo lo Spirito."
+                                "titolo"=>"Sap 1,13-15",
+                                "testo"=>"Dio non ha creato la morte e non gode per la rovina dei viventi. Egli infatti ha creto tutto per l'esistenza; le creture del mondo sono sane, in esse non c'è veleno di morte, né gli inferi regnano sulla terra, perché la giustizia è immortale."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"Est 10,3f",
-                                "testo"=>"La mia nazione è Israele, quelli cioè che avevano gridato a Dio e furono salvati. Sì, il Signore ha salvato il suo popolo, ci ha liberato da tutti questi mali e Dio ha operato segni e prodigi grandi quali mai erano avvenuti tra le nazioni."
+                                "titolo"=>"Ef 2,8-9",
+                                "testo"=>"Per grazia siete salvi mediante la fede; e ciò non viene da voi, ma è dono di Dio; né viene dalle opere, perché nessuno possa vantarsene."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"Eb 12,1b-2",
-                                "testo"=>"Deposto tutto ciò che è di peso e il peccato che ci intralcia, corriamo con perseferanza nella corsa, tenedo fisso lo sguardo su Gesù, autore e perfezionatore della fede. Egli in cambio della gioia che gli era posta innanzi, si sottopose alla croce, disprezzando l'ignominia, e si è assiso alla destra del trono di Dio."
+                                "titolo"=>"1Gv 4,9-11",
+                                "testo"=>"In questo si è manifestato l'amore di Dio per noi: Dio ha mandato il suo Figlio unigenito nel mondo, perché noi avessimo la vita per lui. In questo sta l'amore: non siamo stati noi ad amare Dio, ma è li che ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati. Carissimi, se Dio ci ha amato, anche noi dobbiamo amarci gli uni gli altri."
                             );
                         break;
                     }
@@ -934,41 +934,154 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"1Pt 1,6-9",
-                                "testo"=>"Siete ricolmi di gioia, anche se ora dovete essere per un po' di tempo afflitti da varie prove, perché il valore della vostra fede, molto più preziosa dell'oro, che pur destinato a perire, tuttavia si prova col fuoco, torni a vostra lode, gloria e onore nella manifestazione di Gesù Cristo: voi lo amate, pur senza averlo visto; e ora senza vederlo credete in lui. Perciò esultate di gioia indicibile e gloriosa, mentre conseguite la meta della vostra fede, cioè la salvezza delle anime."
+                                "titolo"=>"Rm 15,1-3",
+                                "testo"=>"Noi che siamo i forti abbiamo il divere di sopportare l'infermità dei deboli, senza compiacere noi stessi. Ciascuno di noi cerchi di compiacere io prossimo nel bene, per edificarlo. Cristo infatti non cercò di piacere a sé stesso, ma come sta scritto: gli insulti di coloro che ti insulatano sono caduti sopra di me."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"1Pt 1,22-23",
-                                "testo"=>"Dopo aver santificato le vostre anime con l'obbedienza alla verità, per amarvi sinceramente come fratelli, amatevi intensamente, di vero cuore, gli uni gli altri, essendo stati rigenerati non da un seme corruttibile, ma immortale, cioè dalla parola di Dio viva ed eterna."
+                                "titolo"=>"1Cor 2,7-10a",
+                                "testo"=>"Parliamo di una sapienza divina, misteriosa, che è rimasta nascosta, e che Dio ha preordinato prima dei secoli per la nostra gloria. Nessuno dei dominatori di questo mondo ha potuto conoscerla; se l'avessero conosciuta, non avrebbero crocifisso il Singore della gloria. Sta scritto infatti: Quelle cose che occhio non vide, né orecchio udì, né mai entrarono in cuore di uomo, queste ha preparato Dio per coloro che lo amano. Ma a noi Dio le ha rivelate per mezzo dello Spirito."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"1Pt 3,8-9",
-                                "testo"=>"Siate tutti concordi, partecipi delle gioie e dei dolori degli altri, animati da affetto fraterno, misericordiosi, umili; non rendete male per male, né ingiuria per ingiuria, ma, al contrario, rispondete benedicendo; poiché a questo siete stati chiamati per avere in eredità la benedizione."
+                                "titolo"=>"Gc 1,2-4",
+                                "testo"=>"Considerate perfetta letizia, miei fratelli, quando subite ogni sorta di prove, sapendo che la prova della vostra fede produce la pazienza. E la pazienza completi l'opera su di voi, perché siate perfetti e integri, senza mancare di nulla."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"Col 1,23a",
-                                "testo"=>"Rimanete fondati e fermi nella fede e non vi lasciate allontanare dalla speranza promessa nel vangelo che avete ascoltato, il quale è stato annunziato ad ogni creatura sotto il cielo."
+                                "titolo"=>"Rm 8,1-2",
+                                "testo"=>"Non c'è più nessuna condanna per quelli che sono in Cristo Gesù. Poiché la legge dello Spirito che dà vita in Cristo Gesù ti ha liberato dalla legge del peccato e della morte."
                             );
                         break;
                     }
                 break;
                 case 'comp': 
                     $this->info=array(
-                        "titolo"=>"1Ts 5,23",
-                        "testo"=>"Il Dio della pace vi santifichi fino alla perfezione, e tutto quello che è vostro, spirito, anima e corpo, si conservi irreprensibile per la venuta del Signore nostro Gesù Cristo."
+                        "titolo"=>"Ger 14,9b",
+                        "testo"=>"Tu sei in mezzo a noi, Signore, e noi siamo chiamati con il tuo nome: non abbandonarci, Signore Dio nostro."
                     );
                 break;
             }
         }
 
         elseif ($this->actual['weekDay']==6) {
-            
+            switch ($this->actual['ora']) {
+                case 'lodi': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"2Pt 1,10-11",
+                                "testo"=>"Fratelli, cercate di render sempre più sicura la vostra vocazione e la vostra elezione. Se farete questo non inciamperete mai. Così infatti vi sarà ampiamente aperto l'ingresso nel regno eterno del Signore nostro e salvatore Gesù Cristo."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Rm 12,14-16a",
+                                "testo"=>"Benedite coloro che vi perseguitano, benedite e non maledite. Rallegratevi con quelli che sono nella gioia, piangete con quelli che sono nel pianto. Abbiate i medesimi sentimenti gli uni verso gli altri; non aspirate a cose troppo alte, piegatevi invece a quelle umili."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Fil 2,14-15",
+                                "testo"=>"Fate tutto senza mornorazioni, e senza critiche, perché siate irreprensibili e semplici, figli di Dio immacolati in mezzo a una generazione perversa e degenere, nella quale dovete splendere come astri nel mondo."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"2Pt 3.13-15a",
+                                "testo"=>"Secondo la promessa del Signore, noi aspettiamo nuovi cieli e una terra nuova nei quali avrà stabile dimora la giustizia. Perciò, carissimi, nell'attesa di questi eventi, cercate d'essere senza macchia e irreprensibili davanti a Dio, in pace. La magnanimità ddl Signore nostro giudicatela come salvezza."
+                            );
+                        break;
+                    }
+                break;
+                case 'terza': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"1Re 8,60-61",
+                                "testo"=>"Tutti i popoli della terra sapranno che il Signore è Dio e che non ce n'è altri. Il vostr cuore sarà tutto dedito al Signore nostro Dio, perché cammini secondo i suoi decreti e osservi i suoi comandi."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Dt 8,5b-6",
+                                "testo"=>"Come un uomo corregge il figlio, così il Signore tuo Dio corregge te. Osserva i comandi del Signore tuo Dio camminando nelle sue vie e temendolo."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"1Sam 15,22",
+                                "testo"=>"Il Signore forse gradisce gli olocausti e i sacrifici come obbedire alla voce del Signore? Ecco, l'obbedire è meglio del sacrificio, l'essere docili è più del grasso degli arieti."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"Dn 6,27b-28a",
+                                "testo"=>"Il nostro Dio è il Dio vivente, che dura in eterno; il suo regno è tale che non sarà mai distrutto e il suo dominio non conosce fine. Egli salva e libera, fa prodigi e miracoli in cielo e in terra."
+                            );
+                        break;
+                    }
+                break;
+                case 'sesta': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"",
+                                "testo"=>""
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Bar 4,28-29",
+                                "testo"=>"Come pensate di allontanarvi da Dio, così ritornando decuplicate lo zelo per cercarlo, poiché chi vi ha afflitti con tante calamità vi darà anche, con la salvezza, una gioia perenne."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Rm 3,21-22a",
+                                "testo"=>"Ora, indipendentemente dalla legge, si è manifestata la giustizia di Dio, testimonita dalla legge e dai profeti; giustizia di Dio per mezzo della fede i Gesù Cristo, per tutt quelli che credono in lui."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"1Gv 3,16",
+                                "testo"=>"Da questo abbiamo conosciuto l'amore di Dio: Egli ha dato la sua vita per noi; quindi anche noi dobbiamo dare la vita per i fratelli."
+                            );
+                        break;
+                    }
+                break;
+                case 'nona': 
+                    switch ($this->actual['quarto']) {
+                        case 1:
+                            $this->info=array(
+                                "titolo"=>"Col 3,12-13",
+                                "testo"=>"Rivestitevi, come eletti di Dio, santi e amati, di sentimenti di misericordia, di bontà, di umiltà, di mansuetudine, di pazienza, sopportandovi a vicenda e perdonandovi scambievolmente, se qualcuno abbia di che lamentrsi nei riguardi degli altri. Come il Signore vi ha perdonato, così fate anche voi."
+                            );
+                        break;
+                        case 2:
+                            $this->info=array(
+                                "titolo"=>"Sap 1,13-15",
+                                "testo"=>"Dio non ha creato la morte e non gode per la rovina dei viventi. Egli infatti ha creto tutto per l'esistenza; le creture del mondo sono sane, in esse non c'è veleno di morte, né gli inferi regnano sulla terra, perché la giustizia è immortale."
+                            );
+                        break;
+                        case 3:
+                            $this->info=array(
+                                "titolo"=>"Ef 2,8-9",
+                                "testo"=>"Per grazia siete salvi mediante la fede; e ciò non viene da voi, ma è dono di Dio; né viene dalle opere, perché nessuno possa vantarsene."
+                            );
+                        break;
+                        case 4:
+                            $this->info=array(
+                                "titolo"=>"1Gv 4,9-11",
+                                "testo"=>"In questo si è manifestato l'amore di Dio per noi: Dio ha mandato il suo Figlio unigenito nel mondo, perché noi avessimo la vita per lui. In questo sta l'amore: non siamo stati noi ad amare Dio, ma è li che ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati. Carissimi, se Dio ci ha amato, anche noi dobbiamo amarci gli uni gli altri."
+                            );
+                        break;
+                    }
+                break;
+            }
         }
 
         /////////////////////////////////////////////////////////////////////////////
