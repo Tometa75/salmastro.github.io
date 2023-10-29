@@ -1029,26 +1029,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"",
-                                "testo"=>""
+                                "titolo"=>"Ger 17,9-10",
+                                "testo"=>"Più fallace di ogni altra cosa è il cuore e difficilmente guaribile; chi lo può conoscere? Io, il Signore, scruto la mente e saggio i cuori, per rendere a ciascuno secondo la sua condotta, secondo il frutto delle sue azioni."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Bar 4,28-29",
-                                "testo"=>"Come pensate di allontanarvi da Dio, così ritornando decuplicate lo zelo per cercarlo, poiché chi vi ha afflitti con tante calamità vi darà anche, con la salvezza, una gioia perenne."
+                                "titolo"=>"1Re 2,2b-3",
+                                "testo"=>"Tu sii forte e mostrati uomo. Osserva le legge del Sigonore tuo Dio, procedendo nelle sue vie ed eseguendo i duoi sttuti, i suoi comandi, i suoi decreti e le sue prescrizioni, perché tu riesca in ogni tua impresa e in ogni tuo progetto."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"Rm 3,21-22a",
-                                "testo"=>"Ora, indipendentemente dalla legge, si è manifestata la giustizia di Dio, testimonita dalla legge e dai profeti; giustizia di Dio per mezzo della fede i Gesù Cristo, per tutt quelli che credono in lui."
+                                "titolo"=>"Gal 5,26; 6,2",
+                                "testo"=>"Non cerchiamo la vanagloria, provocandoci e invidiandoci gli uni gli altri. Portate i pesi gli uni degli altri, così adempirete la legge di Cristo."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"1Gv 3,16",
-                                "testo"=>"Da questo abbiamo conosciuto l'amore di Dio: Egli ha dato la sua vita per noi; quindi anche noi dobbiamo dare la vita per i fratelli."
+                                "titolo"=>"Rm 15,5-7",
+                                "testo"=>"Il Dio della perseveranza e della consolazione vi concede di avere gli uni verso gli altri gli stessi sentimenti ad esempio di Cristo Gesù, perché con un solo animo e una voce sola rendiate gloria a Dio, Padre del Signore nostro Gesù Cristo. Accolgietevi perciò gli uni gli altri come Cristo accolse voi, per la gloria di Dio."
                             );
                         break;
                     }
@@ -1057,26 +1057,26 @@ class Lettura {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                "titolo"=>"Col 3,12-13",
-                                "testo"=>"Rivestitevi, come eletti di Dio, santi e amati, di sentimenti di misericordia, di bontà, di umiltà, di mansuetudine, di pazienza, sopportandovi a vicenda e perdonandovi scambievolmente, se qualcuno abbia di che lamentrsi nei riguardi degli altri. Come il Signore vi ha perdonato, così fate anche voi."
+                                "titolo"=>"Sap 7,27; 8,1",
+                                "testo"=>"La Sapienza di Dio può tutto; pur rimanendo in sé stessa, tutto rinnova e attraverso le età, entrando nelle anime sante, forma amici di Dio e profeti. Essa si estende da un confinr all'altro con forza, governa con bontà eccellente ogni cosa."
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                "titolo"=>"Sap 1,13-15",
-                                "testo"=>"Dio non ha creato la morte e non gode per la rovina dei viventi. Egli infatti ha creto tutto per l'esistenza; le creture del mondo sono sane, in esse non c'è veleno di morte, né gli inferi regnano sulla terra, perché la giustizia è immortale."
+                                "titolo"=>"Ger 6,16a",
+                                "testo"=>"Fermatevi nelle strade e guardate, informatevi circa i sentieri del passato, dove sta la strada buona e prendetelea, così troverete pace per le anime vostre."
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                "titolo"=>"Ef 2,8-9",
-                                "testo"=>"Per grazia siete salvi mediante la fede; e ciò non viene da voi, ma è dono di Dio; né viene dalle opere, perché nessuno possa vantarsene."
+                                "titolo"=>"Mi 6,8",
+                                "testo"=>"Iomo, ti è steato insegnto ciò che è buono e ciò che richiede il Signore da te: praticare la giustizia, amare la pietà, camminare umilmente con il tuo Dio."
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                "titolo"=>"1Gv 4,9-11",
-                                "testo"=>"In questo si è manifestato l'amore di Dio per noi: Dio ha mandato il suo Figlio unigenito nel mondo, perché noi avessimo la vita per lui. In questo sta l'amore: non siamo stati noi ad amare Dio, ma è li che ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati. Carissimi, se Dio ci ha amato, anche noi dobbiamo amarci gli uni gli altri."
+                                "titolo"=>"Fil 4,8-9b",
+                                "testo"=>"Fratelli, tutto quello che è vero, nobile, giusto, puro, amabile, onorato, quello che è virtù e merita lode, tutto questo sia oggetto dei vostri pensieri. E il Dio della pace sarà con voi!"
                             );
                         break;
                     }
@@ -1092,9 +1092,86 @@ class Lettura {
     function build() {
 
         //////////////////////////////////////////////////////////////////////////
-        //modifica ANTIFONE in base al TEMPO LITURGICO
+        //modifica Letture in base al TEMPO LITURGICO
 
         if ($this->actual['tempo']=='A') {
+
+            if (substr($this->actual['today'],4,4)<'1217') {
+
+                if ($this->actual['weekDay']==0) {
+
+                    if($this->actual['ora']=='ves1') {
+                        $this->info=array(
+                            "titolo"=>"1Ts 5,23-24",
+                            "testo"=>"Il Dio della pace vi santifichi fino alla perfezione, e tutto quello che è vostro, spirito, anima e corpo, si conservi irreprensibile per la venuta del Signore nostro Gesù Cristo. Colui che vi chiama è fedele e farà tutto questo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Rm 13,11-12",
+                            "testo"=>"È ormai tempo di svegliarvi dal sonno, perché la nostra salvezza è più vicina ora di quando diventammo credenti. La notte è avanzata, il giorno è vicino. Gettiamo via perciò le opere delle tenebre e indossiamo le armi della luce."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Rm 13,13-14a",
+                            "testo"=>"Comportiamici onestamente, come in pieno giorno: non in mezzo a gozzoviglie e ubriachezze, non fra impurità e licenze, non in contese e gelosie. Rivestitevi invece del Signore Gesù Cristo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Ts 3,12-13",
+                            "testo"=>"Il Signore vi faccia crescere e abbondare nell'amore vicendevole e verso tutti, per rendere saldi e irreprensibili i vostri cuori nella santità, davanti a Dio Padre nostro, al momento della venuta del Signore nostro Gesù con tutti i suoi santi."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"2Ts 1,6.7.10",
+                            "testo"=>"È proprio della giustizia di Dio rendere a voi, che ora siete afflitti, sollievo insieme a noi, quando si manifesterà il Signore Gesù dal cielo con gli angeli della sua potenza, quando egli verrà per esser glorificato nei suoi santi ed esser riconosciuto mirabile in tutti quelli che avranno creduto."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Fil 4,4-5",
+                            "testo"=>"Rallegratevi nel Signore, sempre; ve lo ripeto ancora, rallegratevi. La vostra affabilità sia nota a tutti gli uomini. Il Signore è vicino!"
+                        );
+                    }
+                }
+
+                elseif ($this->actual['weekDay']==1) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 2,3",
+                            "testo"=>"Venite, saliamo sul monte del Signore, al tempio del Dio di Giacobbe, perché ci indichi le sue vie e possiamo camminare per i suoi sentieri. Poiché da Sion uscirà la legge e da Gerusalemme la parola del Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Is 10,20-21",
+                            "testo"=>"In quel giorno: il resto di Israele e i superstiti della casa di Giacobbe si appoggeranno sul Signore, sul Santo di Israele, con lealtà. Tornerà il resto, il resto di Giacobbe, al Dio forte."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Is 10,24.27",
+                            "testo"=>"Così dice il Signore, dio degli eserciti: « Popolo mio, che abiti in Sion, non temere. In quel giorno sarà tolto il fardello dalla tua spalla e il giogo cesserà di pesare sul tuo collo »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Is 13,22; 14,1",
+                            "testo"=>"L'ora del Signore si avvicina, i suoi giorni non saranno prolungati. Il Signore infatti avrà pietà di Giacobbe e salverà Israele."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Fil 3,20b-21",
+                            "testo"=>"Aspettiamo come salvatore il Signore Gesù Cristo, il quale trasfigurerà il nostro misero corpo per conformarlo al suo corpo glorioso, in virtù del potere che ha di sottomettere a sé tutte le cose."
+                        );
+                    }
+                }
+            }
 
                 
         }
