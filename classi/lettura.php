@@ -1171,6 +1171,170 @@ class Lettura {
                         );
                     }
                 }
+
+                elseif ($this->actual['weekDay']==2) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Gen 49,10",
+                            "testo"=>"Non sarà tolto lo scettro da Giuda né il bastone del comando tra i suoi piedi, finché verrà colui al quale esso appartiene e a cui è dovuta l'obbdienza dei popoli."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Ger 23,5",
+                            "testo"=>"Ecco, verranno giorni - dice il Signore - nei quali susciterò a Davide un germoglio giusto, che regnerà da vero re e sarà saggio ed eserciterà il diritto e la giustizia sulla terra."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ger 23,6",
+                            "testo"=>"Nei suoi giorni Giuda sarà salvato e Israele starà sicuro nella sua dimora; questosarà il nome con cui lo chiameranno: Signore-nostra-giustizia."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ez 34,15-16",
+                            "testo"=>"Io stesso condurrò le mie pecore al pascolo e io le farò riposare. Oracolo del Signore Dio. Andrò in cerca della pecora perduta e ricondurrò all'ovile quella smarrita; fascerò quella feita e curerò quella malata, avrò cura della grassa e della forte; le pascerò con giustizia."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 1,7b-9",
+                            "testo"=>"Aspettiamo la manifestazione del Signore nostro Gesù Cristo. Egli ci confermerà sino alla fine, irreprensibili nel giorno del Signore nostro Gesù Cristo: frdele è Dio, dal quale siamo stati chiamati alla comunione del Figlio suo Gersù Cristo, Signore nostro!"
+                        );
+                    }
+                }
+
+                elseif ($this->actual['weekDay']==3) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 7,14b-15",
+                            "testo"=>"Ecco: la vergine concepirà e partorirà un figlio, che chiamerà Emmanuele. Egli mangerà panna e miele finché non imparerà a rigettare il male e a scegliere il bene."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Is 2,11",
+                            "testo"=>"L'uomo abbasserà gli occhi alteri, la superbia umana si piegherà; sarà esaltato il Signore, lui solo, in quel giorno."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Is 12,2",
+                            "testo"=>"Ecco, Dio è la mia salvezza; io confiderò, non avrò mai timore, perché mia forza e mio canto è il Signore; egli è stato la mia salvezza."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Dn 9,19",
+                            "testo"=>"Signore, ascolta; Signore, perdona; Signore, guarda e agisci senza indugio, per amore di te stesso, mio Dio, poiché il tuo nome è stato invocato sulla tua città e sul tuo popolo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 4,5",
+                            "testo"=>"Non vogliate giudicare nulla prima del tempo, finché venga il Signore. Egli metterà in luce i segreti delle tenebre e manifesterà le intenzioni dei cuori; allora ciascuno avrà la sua lode da Dio."
+                        );
+                    }
+                }
+
+                elseif ($this->actual['weekDay']==4) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 45,8",
+                            "testo"=>"Stillate, cieli, dall'alto e le nubi facciano piovere il Giusto; si apra la terra e produca la salvezza e germigli insieme la giustizia."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Mi 5,3-4a",
+                            "testo"=>"Egli starà là e pascerà conla forza del Signore, con la maestà del nome del Signore suo Dio. Abiteranno sicuri, perché egli allora sarà grande fino agli estremi confini della terra. Egli sarà la nostra pace."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ag 2,6.9",
+                            "testo"=>"Ancora un pò di tempo e io scuoterò il cielo e la terra, il mare e la terraferma. La gloria futura di questa casa sarà più grande di quella di una volta, dice il Signore degli eserciti; in questo luogo porrò la pace - oracolo del Signore degli eserciti -."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ml 3,20",
+                            "testo"=>"Per voi, cultori del mio nome, sorgerà con raggi benefici il sole di giustizia e voi uscirete saltellanti come vitelli dal chiuso."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Gc 5,7-8.9b",
+                            "testo"=>"Siate pazienti, fratelli, fino alla venuta del Signore. Guardate l'agricoltore: egli aspetta pazientemente il prezionso frutto della terra finché abbia ricevuto le piogge d'autunno e le piogge di primavera. Siate pazienti anche voi, rinfrancate i vostri cuori, perché la venuta del Signore è vicina. Ecco, il giudice è alle porte."
+                        );
+                    }
+                }
+
+                elseif ($this->actual['weekDay']==5) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ger 30,18.21.22",
+                            "testo"=>"Così dice il Signore: Il loro capo sarà uno di essi e da essi uscirà il loro comandante; io lo farò avvicinare ed egli si accosterà a me. Voi sarete il mio popolo e io sarò il vostro Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Ger 29,11.13",
+                            "testo"=>"Io conosco i progetti che ho fatto a vostro riguardo - dice il Signore - progetti di pace e non di sventura, per concedervi un futuro pieno di speranza. Voi mi cercherete e mi troverete, perché mi cercherete con tutto il cuore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ger 30,18-19a",
+                            "testo"=>"Così dice il Signore: Ecco restaurerò la sorte delle tende di Giacobbe e avrò compassione delle sue dimore. La città sarà ricostruita sulle sue rovine e il palazzo sorgerà di nuovo al suo posto. Ne usciranno inni di lode, voci di gente festante."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Bar 3,5-6a",
+                            "testo"=>"Non ricordare l'iniquità dei nostri padri, ma ricordati ora della tua potenza e del tuo nome, poiché tu sei il Signore nostro Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"2Pt 3,8b-9",
+                            "testo"=>"Davanti al Signore un giorno è come mille anni e mille anni come un giorno solo. Il Signore non ritarda nell'adempiere la sua promessa, come certni credono; ma usa pazienza verso di voi, non volendo che alcuno perisca, ma che tutti abbiano modo di pentirsi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual['weekDay']==6) {
+                    
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 11,1-2",
+                            "testo"=>"Un germoglio spunterà dal tronco di Iesse, un virgulto germoglierà dalle sue radici. Su di lui si poserà lo spirito del Signore, spirito di sapienza e di intelligenza, spirito di consiglio e di fortezza, spirito di conoscenza e di timore del Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Is 4,2",
+                            "testo"=>"In quel giorno il germoglio del Signore crescerà in onore e gloria e il frutto della terra sarà a magnificenza e ornamento per gli scampati di Israele."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Is 4,3",
+                            "testo"=>"In quel giorno: chiunque sarà rimasto in Sion e chi sarà superstite in Gerusalemme sarà chiamato santo, cioè quanti saranno iscritti per restare in vita in Gerusalemme."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Is 61,11",
+                            "testo"=>"Come la terra produce la vegetazione e come un giardino fa germogliare i semi, così il Signore Dio farà germogliare la giustizia e la lode davanti a tutti i popoli."
+                        );
+                    }
+                }
             }
 
                 
