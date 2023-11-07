@@ -1896,7 +1896,7 @@ class Lettura {
                 }
             }
 
-            elseif ($this->actual['evCode']=='1231a') {
+            elseif ($this->actual['evCode']=='1231a' || $this->actual['evCode']=='F0108') {
 
                 if($this->actual['ora']=='lodi') {
                     $this->info=array(
@@ -1964,8 +1964,244 @@ class Lettura {
                 }
             }
 
-            elseif ($this->actual['evCode']=='F0102') {
+            elseif ($this->actual['evCode']=='F0102' || $this->actual['evCode']=='F0109') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 49,8b-9a",
+                        "testo"=>"Ti ho formato e posto come alleanza per il popolo, per far risorgere il paese, per farti rioccupare l'eredità devastata, per dire ai prigionieri: Uscite, e a quanti sono nelle tenebre: Venite fuori."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"1Tm 1,15",
+                        "testo"=>"Questa parola è sicura e degna di essere da tutti accolta: Cristo Gesù è venuto nel mondo per salvare i peccatori."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ap 21,23-24",
+                        "testo"=>"La città non ha bisogno della luce del sole, né della luce della luna, perché la gloria di Dio la illumina e la sua lampada è l'Agnello. Le nazioni cammineranno alla sua luce e i re della terra a lei porteranno la loro magnificenza."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"1Gv 1,5",
+                        "testo"=>"Questo è il messaggio che abbiamo udito da lui e che ora vi annunziamo: Dio è luce e in lui non ci sono tenebre."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Col 1,13-15",
+                        "testo"=>"Dio ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del suo Figlio diletto, per opera del quale abbiamo la redenzione, la remissione dei peccati. Egli è l'immagine del Dio invisibile, generato prima di ogni creatura."
+                    );
+                }
             }
+
+            elseif ($this->actual['evCode']=='F0103' || $this->actual['evCode']=='F0110') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 62,11b-12a",
+                        "testo"=>"Dite alla figlia di Sion: Ecco, arriva il tuo salvatore; ecco, ha con sè la sua mercede, la sua ricompensa è davanti a lui. Li chiameranno popolo santo, redenti del Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Is 2,3b-4",
+                        "testo"=>"Da Sion uscirà la legge e da Gerusalemme la parola del Signore. Egli sarà giudice fra le genti e sarà arbitro fra molti popoli. Forgeranno le loro spade in vomeri, le loro lance in falci; un popolo non alzerà più la spada contro un altro poplo, non si eserciteranno più nell'arte della guerra."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Is 9,1",
+                        "testo"=>"Il popolo che camminava nelle tenebre vide una grande luce; su coloro che abitavano la terra tenebrosa una luce rifulse."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Is 60,4b-5",
+                        "testo"=>"I tuoi figli, Gerusalemme, vengono da lontano, le tue figlie sono portate in braccio. A quella vista sarai raggiante, palpiterà e si dilaterà il tuo cuore, perché le ricchezze del mare si riverseranno su di te, verranno a te i beni dei popoli."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Gv 1,5b.7",
+                        "testo"=>"Dio è luce e in lui non ci sono tenebre. Se camminiamo nella luce, come egli è nella luce, siamo in comunione gli uni con gli altri e il sangue di Gesù, suo Figlio, ci purifica da ogni peccato."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='F0104' || $this->actual['evCode']=='F0111') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 45,22-23",
+                        "testo"=>"Volgetevi a me e sarete salvi, paesi tutti della terra, perché io sono Dio; non ce n'è un altro. Lo giuro su me stesso, dalla mia bocca esce la verità, una parola irrevocabile: davanti a me si piegherà ogni ginocchio, per me giurerà ogni lingua."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ger 31,7-8a",
+                        "testo"=>"Così dice il Signore: Innalzate canti di gioia per Giacobbe, esultate per la prima delle nazioni, fate usire la vostra lode e dite: Il Signore ha salvato il suo popolo, un resto di Israele. Eccoli riconduco dal paese del settentrione e li raduno dall'estremità della terra."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ger 31,11-12a",
+                        "testo"=>"Il Signore ha redento Giacobbe, lo ha riscattato dalle mani del più forte di lui. Verranno e canteranno inni sull'altura di Sion, affluiranno verso i beni del Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Zc 8,7-8",
+                        "testo"=>"Così dice il Signore degli eserciti: Ecco, io salvo il mio popolo dalla terra d'oriente e d'occidente: li ricondurrò ad abitre in Gerusalemme; saranno il mio popolo ed io sarò il loro Dio, nella fedeltà e nella giustizia."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Rm 8,3b-4",
+                        "testo"=>"Dio, mandando il proprio Figlio in una carne simile a quella del peccato e in vista del peccato, ha condannato il peccato nella carne, perché la giustizia della legge si adempisse in noi, che non camminiamo secondo la carne ma secondo lo Spirito."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='F0105') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Sap 7,26-27",
+                        "testo"=>"La sapienza è un rilfesso della luce perenne, uno specchio senza macchia dell'attività di Dio e un'immagine della sua bontà. Sebbene unica, essa può tutto; pur rimanendo in se stessa, tutto rinnova e attraverso le età entrando nelle anime sante, forma amici di Dio e profeti."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ez 20,41-42a",
+                        "testo"=>"Io vi accetterò come soave profumo, quando vi avrò liberati dai popoli e vi avrò radunati dai paesi nei quali foste dispersi: mi mostrerò santo in voi agli occhi delle genti. Allora voi saprete che io sono il Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ez 34,11-12",
+                        "testo"=>"Così dice il Signore: Ecco, io steso cercherò le mie pecore e ne avrò cura. Come un pastore passa in rassegna il suo gregge quando si trova in mezzo alle sua pecore che erano state disperse, così io passerò in rassegna le mie pecore e le radunerò da tutti i luoghi dove erano disperse nei giorni nuvolosi e di caligine."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Mi 2,12",
+                        "testo"=>"Certo ti radunerò tutto, o Giacobbe, certo ti raccoglierò, resto di Israele. Li metterò insieme come pecore in un sicuro recinto, come una mandria in mezzo al pascolo."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Gv 5,20",
+                        "testo"=>"Sappiamo che il Figlio di Dio è venuto e ci ha dato l'intelligenza per conoscere il vero Dio. E noi siamo nel vero Dio e nel Figlio suo Gesù Cristo: egli è il vero Dio e la vita eterna."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='EPI') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"2Tm 1,9-10",
+                        "testo"=>"Dio ci ha salvati e ci ha chiamati con una vocazione santa, non già in base alle nostre opere, ma secondo il suo proposito e la sua grazia; grazia che ci è stata data in Cristo Gesù fin dall'eternità, ma è stata rivelata solo ora con l'apparizione del Salvatore nostro Cristo Gesù. Egli ha vinto la morte e ha fatto risplendere la vita e l'immortalità per mezzo del vangelo."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 52,7-10",
+                        "testo"=>"Come sono belli sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che annunzia la salvezza e che dice a Sion: « Regna il tuo Dio ». Senti? le tue sentinelle alzano la voce, insieme gridano di gioia, poiché vedono con gli occhi il ritorno del Signore in Sion. Prorompete insieme in canti di gioia, rovine di Gerusalemme, perché il Signore ha consolatoil suo popolo, ha riscattato Gerusalemme. Il Signore ha snudato il suo santo braccio davanti a tutti i popoli; tutti i confini della terra vedranno la salvezza del nostro Dio."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ap 15,4",
+                        "testo"=>"Chi non temerà, o Signore, e non glorificherà il tuo nome? Poiché tu solo sei santo. Tutte le genti verranno e si prostreranno danvanti a te."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Is 49,6",
+                        "testo"=>"Il Signore mi disse: È troppo poco che tu sia mio servo per restaurare le tribù di Giacobbe e ricondurre i superstiti di Israele. Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Zc 2,15",
+                        "testo"=>"Nazioni numerose aderiranno in quel giorno al Signore e diverranno suo popolo ed egli dimorerà in mezzo a te e tu saprai che il Signore degli eserciti mi ha inviato a te."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Tt 3,4-5",
+                        "testo"=>"Quando si sono manifestati la bontà di Dio, salvatore nostro, e il suo amore per gli uomini, egli ci ha salvati non in virtù di opere di giustizia da noi compiute, ma per sua misericordia mediante un lavacro di rigenerazione e di rinnovamento nello Spirito Santo."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='F0107') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 9,5",
+                        "testo"=>"Un bambino è nato per noi, ci è stato dato un figlio. Sulle sue spalle è il segno della sovranità ed è chiamato: Consigliere ammirabile, Dio potente, Padre per sempre, Principe della pace."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Dt 4,7",
+                        "testo"=>"Nessuna grande nazione ha la divinità così vicina a sé, come il Signore nostro Dio è vicino a noi ogni volta che lo invochiamo."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Is 12,5-6",
+                        "testo"=>"Cantate inni al Signore, perché ha fatto opere grandi, ciò sia noto in tutta la terra. Gridate giulivi ed esultate, abitanti di Sion, perché grande è in mezzo a voi è il Santo di Israele."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Tb 14,8-9",
+                        "testo"=>"I popoli abbandoneranno i loro idoli, verranno in Gerusalemme e vi abiteranno; in essa tutti i re della terra esulteranno adorando il re d'Israele."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"2Pt 1,3-4",
+                        "testo"=>"Cristo nella sua potenza divina ci ha fatto dono di ogni bene per quanto riguarda la vita e la pietà, mediante la conoscenza di colui che ci ha chiamati con la sua gloria e potenza. Con queste ci ha donato i beni grandissimi e preziosi che erano stati promessi, perché diventaste per loro mezzo partecipi della natura divina, essendo sfuggiti alla corruzione che è nel mondo a causa della concupiscenza."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='F0112') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Sap 7,26-27",
+                        "testo"=>"La sapienza è un rilfesso della luce perenne, uno specchio senza macchia dell'attività di Dio e un'immagine della sua bontà. Sebbene unica, essa può tutto; pur rimanendo in se stessa, tutto rinnova e attraverso le età entrando nelle anime sante, forma amici di Dio e profeti."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ez 20,41-42a",
+                        "testo"=>"Io vi accetterò come soave profumo, quando vi avrò liberati dai popoli e vi avrò radunati dai paesi nei quali foste dispersi: mi mostrerò santo in voi agli occhi delle genti. Allora voi saprete che io sono il Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ez 34,11-12",
+                        "testo"=>"Così dice il Signore: Ecco, io steso cercherò le mie pecore e ne avrò cura. Come un pastore passa in rassegna il suo gregge quando si trova in mezzo alle sua pecore che erano state disperse, così io passerò in rassegna le mie pecore e le radunerò da tutti i luoghi dove erano disperse nei giorni nuvolosi e di caligine."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Mi 2,12",
+                        "testo"=>"Certo ti radunerò tutto, o Giacobbe, certo ti raccoglierò, resto di Israele. Li metterò insieme come pecore in un sicuro recinto, come una mandria in mezzo al pascolo."
+                    );
+                }
+            }
+            
         }
 
         /////////////////////////////////////////////////////////////////////////
@@ -1983,7 +2219,39 @@ class Lettura {
         /////////////////////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='O') {
 
-                
+            if ($this->actual['evCode']=='BAT') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Is 61,1-2a",
+                        "testo"=>"Lo spirito del Signore Dio è su di me perché il Signore mi ha consacrato con l'unzione; mi ha mandato a portare il lieto annunzio ai poveri, a fasciare le piaghe dei cuori spezzati, a proclamare la libertà degli schiavi, la scarcerazione dei prigionieri, a promulgare l'anno di misericordia del Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Is 11,1-2",
+                        "testo"=>"Un germoglio spunterà dal tronco di Iesse, un virgulto germoglierà dalle sue radici. Su di lui si poserà lo spirito del Signore, spirito di sapienza e di intelligenza, spirito di consiglio e di fortezza, spirito di conoscenza e di timore del Signore."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Is 42,1",
+                        "testo"=>"Ecco il mio servo che io sostengo, il mio eletto in cui mi compiaccio. Ho posto il mio spirito su di lui; egli porterà il diritto alle nazioni."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Is 49,6",
+                        "testo"=>"Il Signore mi disse: È troppo poco che tu sia mio servo per restaurare le tribù di Giacobbe e ricondurre i superstiti di Israele. Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra."
+                    );
+                }
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"At 10,37-38",
+                        "testo"=>"Voi conoscete ciò che è accaduto in tutta la Giudea, incominciando dalla Galilea, dopo il battesimo predicato da Giovanni; cioè come Dio consacrò in Spirito Santo e potenza Gesù di Nazareth, il quale passò benificando e risanando tutti coloro che stavano sotto il potere del diavolo, perché Dio era con lui."
+                    );
+                }
+            }
         }
 
             
