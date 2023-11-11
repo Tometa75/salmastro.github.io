@@ -2720,6 +2720,113 @@ class Lettura {
         /////////////////////////////////////////////////////////////////////////
         elseif ($this->actual['tempo']=='P') {
 
+            if ($this->actual['weekDay']==0) {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"1Pt 2,9-10",
+                        "testo"=>"Voi siete la stirpe eletta, il sacerdozio regale, la nazione santa, il poplo che Dio si è acquistato perché proclami le opere meravigliose di lui che vi ha chiamato dalle tenebre alla sua ammirabile luce; voi ch un tempo eravate non-popolo, ora invece siete il popolo di Dio; voi, un tempo esclusi dalla misericordia, ora invece avete ottenuto misericordia."
+                    );
+                }
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"At 10,40-43",
+                        "testo"=>"Dio ha risuscitato Gesù al terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 15,3b-5",
+                        "testo"=>"Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e apparve a Cefa e quindi ai dodici."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ef 2,4-6",
+                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Rm 6,4",
+                        "testo"=>"Per mezzo del battesimo siamo dunque stati sepolti insieme a Cristo nella morte, perché come Cristo fu risuscitato dai morti per mezzo della gloria del Padre, così anche noi possiamo camminare in una vita nuova."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Eb 10,12-14",
+                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
+                    );
+                }
+            }
+
+            if ($this->actual['weekDay']==1) {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Rm 10,8b-10",
+                        "testo"=>"Vicino a te è la parola, sulla tua bocca e nel tuo cuore: cioè la parola della fede che noi predichiamo. Poiché se confesserai con la tua bocca che Gesù è il Signore, e crederai con il tuo cuore che Dio lo ha risuscitato dai morti, sarai salvo. Con il cuore infatti si crede per ottenere la giustizia e con la bocca si fa la professione di fede per avere la salvezza."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ap 1,17c-18",
+                        "testo"=>"Vidi il Figlio dell'uomo, che mi disse: Non temere! Io sono il Primo e l'Ultimo e il Vivente. Io eromorto, ma ora vivo per sempre e ho potere sopra la morte e sopra gli inferi."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Col 2,9-10a.12",
+                        "testo"=>"È in Cristo che abita corporalmente tutta la pienezza della divinità, e voi avete in lui parte alla sua pienezza. Con lui infatti siete stati sepolti insieme nel battedsimo. In lui siete stati anche insieme risuscitati per la fede nella potenza di Dio, che lo ha risuscitato dai morti."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"2Tm 2,8.11",
+                        "testo"=>"Ricordati che Gesù Cristo, della stirpe di Davide, è risuscitato dai morti, secondo il mio vangelo. Certa è questa parola: Se moriamo con lui, vivremo anche con lui."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Eb 8,1b-3a",
+                        "testo"=>"Noi abbiamo un sommo sacerdote così grande, che si è assiso alla destra del trono della maestà nei cieli, ministro del santuario e della vera tenda che ha costruito il Signore e non un uomo. Ogni sommo sacerdote infatti viene costituito per offrire doni e sacrifici."
+                    );
+                }
+            }
+
+            if ($this->actual['weekDay']==2) {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"At 13,30-33",
+                        "testo"=>"Dio ha risuscitato Gesù dai morti ed egli è apparso per molti giorni a quelli che erano saliti con lui dalla Galilea a Gerusalemme, e questi ora sono i suoi testimoni davanti al popolo. E noi vi annunziamo la buona novella che la promessa fatta ai padri si è compiuta, poiché Dio l'ha attuata per noi, loro figli, risuscitando Gesù, come anche sta sritto nel salmo secondo: Mio figlio sei tu, oggi ti ho generato."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Col 3,1-2",
+                        "testo"=>"Se siete risorti con Cristo, cercate le cose di lassù, dove si trova Cristo assiso alla destra di Dio; pensate alle cose di lassù, non a quelle della terra."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"1Pt 3,21-22a",
+                        "testo"=>"Il battesimo, che ora vi salva, non è rimozine di sporcizia del corpo, ma invocazione di salvezza rivolta a Dio da parte di una buona coscienza, in virtù della risurrezione di Gesù Cristo, il quale è alla destra di Dio."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"At 4,11-12",
+                        "testo"=>"Gesù Cristo è la pietra che, scartata da voi, costruttori, è diventata testata d'angolo. In nessun altro c'è salvezza; non vi è infatti altro nome dato agli uomini sotto il cielo nel quale sia stabilito che possiamo essere salvati."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Pt 2,4-5",
+                        "testo"=>"Stringendovi al Signore, pietra viva, rigettata dagli uomini, ma scelta e preziosa davanti a Dio, anche voi venite impiegati come pietre vive per la costruzione di un edificio spirituale, per un sacerdozio santo, per offrire sacrifici spirituali graditi a Dio, per mezzo di Gesù Cristo."
+                    );
+                }
+            }
                 
         }
 
