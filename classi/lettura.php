@@ -2731,7 +2731,7 @@ class Lettura {
                 if($this->actual['ora']=='lodi') {
                     $this->info=array(
                         "titolo"=>"At 10,40-43",
-                        "testo"=>"Dio ha risuscitato Gesù al terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
+                        "testo"=>"Dio ha risuscitato Gesù il terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
@@ -2964,37 +2964,75 @@ class Lettura {
 
                 if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"At 5,30-32",
-                        "testo"=>"Il Dio dei nostri padri ha risuscitato Gesù, che voi avevate ucciso appendendolo alla croce. Dio lo ha innalzato con la sua destra facendolo capo e salvatore, per dare a Israele la grazia della conversione e il perdono dei peccati. E di questi fatti siamo testimoni noi e lo Spirito Santo, che Dio ha dato a coloro che si sottomettono a lui."
+                        "titolo"=>"At 10,40-43",
+                        "testo"=>"Dio ha risuscitato Gesù il terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"At 2,32.36",
-                        "testo"=>"Dio ha risusitato Gesù e noi tutti ne siamo testimoni. Sappia dunque con certezza tutta la casa di Israele che Dio ha costituito Signore e Cristo quel Gesù che voi avete crocifisso!"
+                        "titolo"=>"1Cor 15,3b-5",
+                        "testo"=>"Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e apparve a Cefa e quindi ai dodici."
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Gal 3,27-28",
-                        "testo"=>"Quanti siete stati battezzati in Cristo, vi siete rivestiti di Cristo. Non c'è più Giudeo né Greco; non c'è più schiavo né libero; non c'è più uomo né donna, poiché tutti voi siete uno in Cristo Gesù."
+                        "titolo"=>"Ef 2,4-6",
+                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"1Cor 5,7-8",
-                        "testo"=>"Togliete via il lievito vecchio, per essere pasta nuova, poiché siete azzimi. E infatti Cristo, nostra Pasqua, è stato immolato! Celebriamo dunque la festa non con il lievito vecchio, né con il lievito di malizia e di perfersità, ma con azzimi di sincerità e di verità."
+                        "titolo"=>"Rm 6,4",
+                        "testo"=>"Per mezzo del battesimo siamo dunque stati sepolti insieme a Cristo nella morte, perché come Cristo fu risuscitato dai morti per mezzo della gloria del Padre, così anche noi possiamo camminare in una vita nuova."
                     );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"Eb 5,8-10",
-                        "testo"=>"Cristo, pur essendo Figlio, imparò l'obbedienza dalle cose che patì e, reso perfetto, divenne causa di salvezza eterna per tutti coloro che gli obbediscono, essendo stato proclamato da Dio sommo saerdote alla maniera di Melchisedek."
+                        "titolo"=>"Eb 10,12-14",
+                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
                     );
                 }
-                
             }
-                
+
+            if ($this->actual['evCode']=='ASC') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"Ef 2,4-6",
+                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Eb 10,12-14",
+                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ap 1,17c-18",
+                        "testo"=>"Vidi il Figlio dell'uomo, che mi disse: Non temere! Io sono il Primo e l'Ultimo e il Vivente. Io eromorto, ma ora vivo per sempre e ho potere sopra la morte e sopra gli inferi."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Eb 8,1b-3a",
+                        "testo"=>"Noi abbiamo un sommo sacerdote così grande, che si è assiso alla destra del trono della maestà nei cieli, ministro del santuario e della vera tenda che ha costruito il Signore e non un uomo. Ogni sommo sacerdote infatti viene costituito per offrire doni e sacrifici."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Col 3,1-2",
+                        "testo"=>"Se siete risorti con Cristo, cercate le cose di lassù, dove si trova Cristo assiso alla destra di Dio; pensate alle cose di lassù, non a quelle della terra."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Pt 3,18.22",
+                        "testo"=>"Cristo è morto una volta per sempre per i peccati, giusto per gli ingiusti, per ricondurvi a Dio; messo a morte nella carne, ma reso vivo nello spirito. Egli è alla destra di Dio, dopo essere salito al cielo e aver ottenuto la sovranità sugli angeli, i Principati e le Potenze."
+                    );
+                }
+            }        
         }
 
         /////////////////////////////////////////////////////////////////////////
@@ -3030,6 +3068,46 @@ class Lettura {
                     $this->info=array(
                         "titolo"=>"At 10,37-38",
                         "testo"=>"Voi conoscete ciò che è accaduto in tutta la Giudea, incominciando dalla Galilea, dopo il battesimo predicato da Giovanni; cioè come Dio consacrò in Spirito Santo e potenza Gesù di Nazareth, il quale passò benificando e risanando tutti coloro che stavano sotto il potere del diavolo, perché Dio era con lui."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='PEN') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"Rm 8,11",
+                        "testo"=>"Se lo Spirito di Dio che ha risuscitato Gesù dai morti abita in voi, colui che ha risuscitato Cristo dai morti darà la vita anche ai vostri corpi mortali per mezzo del suo Spirito che abita in voi."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"At 5,30-32",
+                        "testo"=>"Il Dio dei nostri padri ha risuscitato Gesù, che voi avevate ucciso appendendolo alla croce. Dio lo ha innalzato con la sua destra facendolo capo e salvatore, per dare a Israele la grazia della conversione e il perdono dei peccati. E di questi fatti siamo testimoni noi e lo Spirito Santo, che Dio ha dato a coloro che si sottomettono a lui."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 12,13",
+                        "testo"=>"Noi tutti siamo stati battezzati in un solo Spirito per formare un solo corpo, Giudei o Greci, schiavi o liberi; e tutti ci siamo abbeverati a un solo Spirito."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Tt 3,5b-7",
+                        "testo"=>"Dio ci ha salvati mediante un lavacro di rigenerazione e di rinnovamento nello Spirito Santo, effuso da lui su di noi abbondantemente per mezzo di Gesù Cristo, salvatore nostro, perché giustificati dalla sua grazia diventassimo eredi, secondo la speranza, della vita eterna."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"2Cor 1,21-22",
+                        "testo"=>"È Dio stesso che ci conferma, insieme a voi, in Cristo, e ci ha conferito l'unzione, ci ha impresso il sigillo e ci ha dato la caparra dello Spirito nei nostri cuori."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Ef 4,3-6",
+                        "testo"=>"Cercate di conservare l'unità dello spirito per mezzo del vincolo della pace. Un solo corpo, un solo spirito, come una sola è la speranza alla quale siete stati chiamati, quella della vostra vocazione; un solo Signore, una sola fede, un solo battesimo. Un solo Dio Padre di tutti, che è al di sopra di tutti, agisce per mezzo di tutti ed è presente in tutti."
                     );
                 }
             }
