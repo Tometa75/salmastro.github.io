@@ -3111,6 +3111,166 @@ class Lettura {
                     );
                 }
             }
+
+            if ($this->actual['evCode']=='TRI') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"Rm 11,33-36",
+                        "testo"=>"O profondità della ricchezza, della sapienza e della scienza di Dio! Quanto sono imperscrutabili i suoi giudizi e inaccessibili le sue vie! Infatti, chi mai ha potuto conoscere il pensiero del Signore? O chi mai è stato suo consigliere? O chi gli ha dato qualcosa per primo, sì che abbia a ricevere il contraccambio?"
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 12,4-6",
+                        "testo"=>"Vi sono diversità do carismi, ma uno solo è lo Spirito; vi sono diversità di ministeri, ma uno solo è il Signore; vi sono diversità di operazioni, ma uno solo è Dio, che opera tutto in tutti."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"2Cor 1,21-22",
+                        "testo"=>"È Dio stesso che ci conferma, insieme a voi, in Cristo, e ci ha conferito l'unzione, ci ha impresso il sigillo e ci ha dato la caparra dello Spirito nei nostri cuori."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Gal 4,4-6",
+                        "testo"=>"Dio mandò il suo Figlio, perché ricevessimo l'adozione a figli. E che voi siete figli ne è prova il fatto che Dio ha mandato nei nostri cuori lo Spirito del suo Figlio che grida: Abbà, Padre!."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Ap 7,12",
+                        "testo"=>"Amen! Lode, gloria, sapienza, azione di grazie, onore, potenza e forza al nostro Dio nei secoli dei secoli. Amen."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Ef 4,3-6",
+                        "testo"=>"Cercate di conservare l'unità dello spirito per mezzo del vincolo della pace. Un solo corpo, un solo spirito, come una sola è la speranza alla quale siete stati chiamati, quella della vostra vocazione; un solo Signore, una sola fede, un solo battesimo. Un solo Dio Padre di tutti, che è al di sopra di tutti, agisce per mezzo di tutti ed è presente in tutti."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='COD') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 10,16-17",
+                        "testo"=>"Il calice della benedizione che noi benediciamo, non è forse comunione con il sangue di Cristo? E il pane che noi spezziamo, non è forse comunione con il corpo di Cristo? Poiché c'è un solo pane, noi, pur essendo molti, siamo un corpo solo: tutti infatti partecipiamo all'unico pane."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Ml 1,11",
+                        "testo"=>"Dall'oriente all'occidente grande è il mio nome fra le genti e in ogni luogo è offerto incenso al mio nome e una oblazione pura, perché grande è il mio nome fra le genti, dice il Signore degli eserciti."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Sap 16,20",
+                        "testo"=>"Hai sfamato il tuo popolo, Signore, con il cibo degli angeli, dal cielo hai offerto loro un pane pronto senza fatica, pieno di ogni delizia e gradito a ogni gusto."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Pr 9,1-2",
+                        "testo"=>"La Sapienza si è costruita la casa, ha intagliato le sue sette colonne. Ha ucciso gli animali, ha preparato il vino e ha imbandito la tavola."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"At 2,42.47",
+                        "testo"=>"I credenti erano assidui nell'ascoltare l'insegnamento degli apostoli e nell'unione fraterna, nella frazione del pane e nelle preghiere, lodando Dio e godendo la stima di tutto il popolo."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 11,23-25",
+                        "testo"=>"Io, fratelli, ho ricevuto dal Signore quello che a mia volta vi ho trasmesso: il Signore Gesù, nella notte in cui veniva tradito, prexse del pane e, dopo aver reso grazie, lo spezzò e disse:« Questo è il mio corpo, che è per voi; fate questo in memoria di me ». Allo stesso modo, dopo aver cenato, prese anche il calice dicendo:« Questo calice è la Nuova Alleanza nel mio sangue; fate questo, ogni volta che ne bevete, in memoria di me »."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='SCG') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"Ef 5,25b-27",
+                        "testo"=>"Cristo ha amato la Chiesa e ha dato se stesso per lei, per renderla santa, purificandola per mezzo del lavacro dell'acqua accompagnato dalla parola, al fine di farsi comparire davanti la sua Chiesa tutta gloriosa, senza macchia né ruga o alcunché di simile, ma santa e immacolata."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Ger 31,33",
+                        "testo"=>"Questa sarà l'alleanza che io concluderò con la casa di Israele dopo quei giorni, dice il Signore: Porrò la mia legge nel loro animo, la scriverò sul loro cuore. Allora io sarò il loro Dio ed essi il mio popolo."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Ger 31,2-4a",
+                        "testo"=>"Così dice il Signore:« Ha trovato grazia nel deserto un popolo di scampati alla spada; Israele si avvia a una quieta dimora ». Da lontano gli è apparso il Signore:« Ti ho amato di amore eterno, per questo ti conservo ancora pietà. Ti edificherò di nuovo e tu sarai riedificata, vergine di Israele »."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Ger 32,40",
+                        "testo"=>"Concluderò con essi un'alleanza eterna e non mi allontanerò più da loro per beneficarli; metterò nei loro cuori il mio timore, perché non si distacchino da me."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Rm 5,8-9",
+                        "testo"=>"Dio dimostra il suo amore verso di noi perché, mentre eravamo ancora peccatori, Cristo è morto per noi. A maggior ragione ora, giustificati per il suo sangue, saremo salvati dall'ira per mezzo di lui."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"Ef 2,4-7",
+                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatto sedere nei cieli, in Cristo Gesù, per mostrare nei secoli futuri la straordinaria ricchezza della sua grazia mediante la sua bontà verso di noi in Cristo Gesù."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='GRE') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        "titolo"=>"Ef 1,20b-23",
+                        "testo"=>"Dio risuscitò Cristo dai morti e lo fece sedere alla sua destra nei cieli, al di sopra di ogni principato e autorità, di ogni potenza e dominazione e di ogni altro nome che si possa nominare non solo nel secolo presente, ma anche in quello futuro. Tutto infatti ha sottomesso ai suoi piedi e lo ha costituito su tutte le cose a capo della Chiesa, la quale è il suo corpo, la pienezza di colui che si realizza interamente in tutte le cose."
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        "titolo"=>"Ef 4,15-16",
+                        "testo"=>"Viviamo secondo la verità nella carità e cerchioamo di crescere in ogni cosa verso Cristo, che è il capo. Da lui tutto il corpo, ben compaginato e connesso, mendiante la collaborazione di ogni giuntura, secondo l'energia propria di ogni membro, riceve forza per crescere in modo da edificare se stesso nella carità."
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        "titolo"=>"Col 1,12-13",
+                        "testo"=>"Ringraziamo con gioia il Padre, che ci ha messi in grado di partecipare alla sorte dei santi nella luce. È lui infatti che ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del suo Figlio diletto."
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        "titolo"=>"Col 1,16b-18",
+                        "testo"=>"Tutte le cose sono state create per mezzo di Cristo e in vista di lui. Egli è prima di tutte le cose e tutte sussistono in lui. Egli è anche il capo del corpo, cioè della Chiesa; il principio, il primogenito di coloro che risuscitano dai morti, per ottenere il primato su tutte le cose."
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        "titolo"=>"Col 1,19-20",
+                        "testo"=>"Piacque a Dio di fare abitare in Cristo ogni pienezza e per mezzo di lui riconciliare a sé tutte le cose, rappacificando col il sangue della sua croce, cioé per mezzo di lui, le cose che stanno sulla terra  e quelle nei cieli."
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        "titolo"=>"1Cor 15,25-28",
+                        "testo"=>"Bisogna che Cristo regni finché non abbia posto tutti i nemici sotto i suoi piedi. L'ultimo nemico ad essere annientato sarà la morte, perché ogni cosa ha posto sotto i suoi piedi. Però quando dice che ogni cosa è stata sottoposta, è choaro che si deve eccettuare Colui che gli ha sottomesso ogni cosa. E quando tutto gli sarà stato sottomesso, anche lui, il Figlio, sarà sottomesso a Colui che gli ha sottomesso ogni cosa, perché Dio sia tutto in tutti."
+                    );
+                }
+            }
         }
 
             
