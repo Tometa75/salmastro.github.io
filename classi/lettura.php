@@ -1082,10 +1082,7 @@ class Lettura {
                     }
                 break;
             }
-        }
-
-        /////////////////////////////////////////////////////////////////////////////
-        
+        }        
 
     }
 
@@ -3273,6 +3270,169 @@ class Lettura {
             }
         }
 
+        //#########################################################################################
+        //PROPRIO DEI SANTI
+        if ($this->actual['fesCode']!='') {
+
+            foreach($this->actual['festa'] as $k=>$f) {
+            
+                if ($f['comune']=='dedica') {
+
+                    if($this->actual['ora']=='ves1') {
+                        $this->info=array(
+                            "titolo"=>"Ef 2,19-22",
+                            "testo"=>"Voi non siete più stranieri nè ospiti, ma siete concittadini dei santi e familiari di Dio, edificati sopra il findamento degli apostoli e dei profeti, e avendo come pietra angolare lo stesso Cristo Gesù. In lui ogni costruzione cresce ben ordinata per essere tempio santo nel Signore; in lui anche voi insieme con gli altri venite edificati per diventare dimora di Dio per mezzo dello Spirito."
+                        );
+                    }
+                    elseif($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 56,7",
+                            "testo"=>"Li condurrò sul mio monte santo e li colmerò di gioia nella mia casa di preghiera. I loro olocausti e i loro sacrifici saliranno graditi sul mio altare, perché il mio tempio si chiamerà casa di preghiera per tutti i popoli."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 3,16-17",
+                            "testo"=>"Non sapete che siete tempio di Dio e che lo Spirito di Dio abita in voi? Se uno distrugge il tempio di Dio, Dio distruggerà lui. Perché santo è il tempio di Dio, che siete voi."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 6,16b",
+                            "testo"=>"Noi siamo il tempio del Dio vivente, come Dio stesso ha detto: Abiterò in mezzo a loro e con loro camminerò e sarò il loro Dio, ed essi saranno il mio popolo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ger 7,2b.4-5a.7a",
+                            "testo"=>"Ascoltate la parola del Signore, voi tutti che attraversate queste porte per prostrarvi al Signore. Non confidate nelle parole menzognere di coloro che dicono: Tempio del Signore, tempio del Signore, tempio del Signore è questo! Poiché se veramente emenderete la vostra condotta e le vostre azioni, io vi farò abitare in questo luogo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ap 21,2-3.22.27",
+                            "testo"=>"Vidi la città santa, la nuova Gerusalemme, scendere dal cielo, da Dio, pronta come una sposa adorna per il suo sposo. Udii allora una voce potente che usciva dal trono: Ecco la dimora di Dio con gli uomini! Egli dimorerà tra di loro ed essi saranno suo popolo ed egli sarà il « Dio-con-loro ». Non vidi alcun tempio in essa perché il Signore Dio, l'Onnipotente, e l'Agnello sono il suo tempio. Non entrerà in essa nulla d'impuro, né chi commette abominio o falsità, ma solo quelli che sono scritti nel libro della vita dell'Agnello."
+                        );
+                    }
+                }
+
+                elseif ($f['comune']=='BVM') {
+
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 61,10",
+                            "testo"=>"Io gioisco pienamente nel Signore, la mia anima esulta nel mio Dio, perché mi ha rivestito delle vesti di salvezza, mi ha avvolto con il manto della giustizia, come una sposa che si adorna gi gioielli."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Sof 3,14.15b",
+                            "testo"=>"Gioisci, figlia di Dion, esulta, Israele, e rallegrati con tutto il cuore, figlia di Gerusalemme! Re d'Israele è il Signore in mezzo a te."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Zc 9,9a",
+                            "testo"=>"Esulta grandemente figlia di Sion, giubila, figlia di Gerusalemme! Ecco, a te viene il tuo re. Egli è giusto e vittorioso."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Gdt 13,31",
+                            "testo"=>"Benedetta tu dal tuo Dio, in tutte le tende di Giacobbe; perché in ogni popolo dove si udrà il tuo nome, sarà glorificato per te il Dio d'Israele."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Gal 4,4-5",
+                            "testo"=>"Quando venne la pienezza del tempo, Dio mandò il suo Figlio, nato da donna, nato sotto la legge, per riscattare coloro che erano sotto la legge, perché ricevessimo l'adozione a figli."
+                        );
+                    }
+                }
+
+                if ($f['comune']=='apostoli') {
+
+                    if($this->actual['ora']=='ves1') {
+                        $this->info=array(
+                            "titolo"=>"At 2,42-45",
+                            "testo"=>"Tutti erano assidui nell'ascoltare l'insegnamento degli apostoli e nell'unione fraterna, nella frazione del pane e nelle preghiere. Un senso di timore era in tutti e prodigi e segni avvenivano per opera degli apostoli. Tutti coloro che erano diventati credenti stavano insieme e tenevano ogni cosa in comune; chi aveva proprietò e sostanze le vendeva e ne faceva parte a tutti, secondo il bisogno di ciascuno."
+                        );
+                    }
+                    elseif($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ef 2,19-22",
+                            "testo"=>"Voi non siete più stranieri nè ospiti, ma siete concittadini dei santi e familiari di Dio, edificati sopra il findamento degli apostoli e dei profeti, e avendo come pietra angolare lo stesso Cristo Gesù. In lui ogni costruzione cresce ben ordinata per essere tempio santo nel Signore; in lui anche voi insieme con gli altri venite edificati per diventare dimora di Dio per mezzo dello Spirito."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 5,19-20",
+                            "testo"=>"È stato Dio a riconsiliare a sè il mondo in Cristo, non imputando agli uomini le loro colpe e affidando a noi la parola della riconciliazione. Noi fungiamo quindi da ambasciatori per Cristo, come se Dio esortasse per mezzo nostro. Vi supplichiamo in nome di Cristo: lasciaevi riconciliare con Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"At 5,12a.14",
+                            "testo"=>"Molti miracoli e prodigi avvenivano fra il popolo per opera degli apostoli. Intanto andava aumentando il numero degli uomini e delle donne che credevano nel Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"At 5,41-42",
+                            "testo"=>"Gli apostoli se ne andarono dal sinedrio lieti di essere stati oltraggiati per amore del nome di Gesù. E ogni giorno, nel tempio e a casa, non cessavano di insegnare e di portare il lieto annunzio che Gesù è il Cristo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ef 4,11-13",
+                            "testo"=>"È Cristo che ha stabilito alcuni come apostoli, altri come profeti, altri come evangelisti, altri come pastori e maestri, per rendere idonei i fratelli a compiere il ministero, al fine di edificare il corpo di Cristo, finché arriviamo tutti all'unità della fede e della conoscenza del Figlio di Dio, allo stato di uomo perfetto, nella misura che conviene alla piena maturità di Cristo."
+                        );
+                    }
+                }
+
+                if ($f['comune']=='martiri') {
+
+                    if($this->actual['ora']=='ves1') {
+                        $this->info=array(
+                            "titolo"=>"",
+                            "testo"=>"."
+                        );
+                    }
+                    elseif($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ef 2,19-22",
+                            "testo"=>"Voi non siete più stranieri nè ospiti, ma siete concittadini dei santi e familiari di Dio, edificati sopra il findamento degli apostoli e dei profeti, e avendo come pietra angolare lo stesso Cristo Gesù. In lui ogni costruzione cresce ben ordinata per essere tempio santo nel Signore; in lui anche voi insieme con gli altri venite edificati per diventare dimora di Dio per mezzo dello Spirito."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 5,19-20",
+                            "testo"=>"È stato Dio a riconsiliare a sè il mondo in Cristo, non imputando agli uomini le loro colpe e affidando a noi la parola della riconciliazione. Noi fungiamo quindi da ambasciatori per Cristo, come se Dio esortasse per mezzo nostro. Vi supplichiamo in nome di Cristo: lasciaevi riconciliare con Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"At 5,12a.14",
+                            "testo"=>"Molti miracoli e prodigi avvenivano fra il popolo per opera degli apostoli. Intanto andava aumentando il numero degli uomini e delle donne che credevano nel Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"At 5,41-42",
+                            "testo"=>"Gli apostoli se ne andarono dal sinedrio lieti di essere stati oltraggiati per amore del nome di Gesù. E ogni giorno, nel tempio e a casa, non cessavano di insegnare e di portare il lieto annunzio che Gesù è il Cristo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ef 4,11-13",
+                            "testo"=>"È Cristo che ha stabilito alcuni come apostoli, altri come profeti, altri come evangelisti, altri come pastori e maestri, per rendere idonei i fratelli a compiere il ministero, al fine di edificare il corpo di Cristo, finché arriviamo tutti all'unità della fede e della conoscenza del Figlio di Dio, allo stato di uomo perfetto, nella misura che conviene alla piena maturità di Cristo."
+                        );
+                    }
+                }
+
+            }
+
+        }
             
     }
 
