@@ -3759,6 +3759,166 @@ class Lettura {
                     }
                 }
 
+                //#######################################################################
+
+                if ($this->actual["fesCode"]=='0121a') {
+                    //sant'Agnese
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 1,3-5",
+                            "testo"=>"Sia benedetto Dio, Padre del Signore nostro Gesù Cristo, Padre misericordioso e Dio di ogni consolazione, il quale ci consola in ogni nostra tribolazione perché possiamo anche noi consolare qualli che si trovano in ogni genere di afflizione con la consolazione con cui siamo sonsolati noi stessi da Dio. Infatti, come abbondano le sofferenze di Cristo in noi, così, per mezzo di Cristo, abbonda anche la nostra consolazione."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 4,13-14",
+                            "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Beati voi, se venite insultati per il nome di Cristo, perché lo Spirito della gloria e lo Spirito di Dio riposa su di voi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0125a') {
+                    //conversione San Paolo
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"At 26,16b-18",
+                            "testo"=>"Ti sono apparso per costituirti ministro e testimone di quelle cose che hai visto e di quelle per cui ti apparirò ancora. Per questo ti libererò del popolo e dai pagani, ai quali ti mando per aprir loro gli occhi, perché passinmo dalle tenebre alla luce e dal potere di satana a Dio e ottengano la remissione dei peccati e l'eredità in mezzo a coloro che sono stati santificati per la fede in me."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"1Tm 1,12-13",
+                            "testo"=>"Rendo grazie a colui che mi ha dato la forza, Cristo Gesù Signore nostro, perché mi ha giudicato degno di fiducia chiamandomi al ministero: io che per l'innanzi ero stato un bestemmiatore, un persecutore e un violento. Ma mi è stata usata misericordia, perché agivo senza saperlo, lontano dalla fede."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Tm 1,14-15",
+                            "testo"=>"La grazia del Signore nostro ha sovrabbondato insieme alla fede e alla carità che è in Cristo Gesù. Questa parola è sicura e degna di essere da tutti accolta: Cristo Gesù è venuto nel mondo per salvare i peccatori e di questi il primo sono io."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"1Tm 1,16",
+                            "testo"=>"Ho ottenuto misericordia, perché Gesù Cristo ha voluto dimostrare in me, per primo, tutta la sua longanimità, a esempio di quanti avrebbero creduto in lui per avere la vita eterna."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 15,9-10",
+                            "testo"=>"Io sono l'infimo degli apostoli, e non sono degno neppure di essere chiamato apostolo, perché ho perseguitato la Chiesa di Dio. Per grazia di Dio però sono quello che sono, e la sua grazia in me non è stata vana; anzi ho faticato più di tutti loro, non io però, ma la grazia di Dio che è con me."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0202a') {
+                    //presentazione del Signore
+                    if($this->actual['ora']=='ves1') {
+                        $this->info=array(
+                            "titolo"=>"Eb 10,5-7",
+                            "testo"=>"Entrando nel mondo Cristo dice:« Tu non hai voluto né sacrificio né offerta, un corpo invece mi hai preparato. Non hai gradito né olocausti né sacrifici per il peccato. Allora ho detto: Ecco, io vengo - poiché di me sta scritto nel rotolo del libro - per fare, o Dio, la tua volontà »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ml 3,1",
+                            "testo"=>"Ecco, io manderò un mio messaggero a preparare la via davanti a me e subito entrerà nel suo tempio il Signore, che voi cercate; l'angelo dell'alleanza, che voi sospirate, ecco viene, dice il Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Is 8,13a.14",
+                            "testo"=>"Il Signore, lui solo ritenete santo. Egli sarà laccio e pietra d'inciampo e scoglio che fa cadere per le due case d'Israele, laccio e trabocchetto per chi abita in Gerusalemme."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Is 49,6",
+                            "testo"=>"Il Signore mi disse: È troppo poco che tu sia mio servo per restaurare le tribù di Giacobbe e ricondurre i superstiti di Israele. Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Is 12,5-6",
+                            "testo"=>"Cantate inni al Signore, perché ha fatto opere grandi, ciò sia noto in tutta la terra. Gridate giulivi ed esultate, abitanti di Sion, perché grande è in mezzo a voi è il Santo di Israele."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Eb 4,15-16",
+                            "testo"=>"Non abbiamo un sommo sacerdote che non sappia compatire le nostre infermità, essendo stato lui stesso provato in ogni cosa, come noi, escluso il peccato. Accostiamoci dunque con piena fiducia al trono della grazia, per ricevere misericordia e trovare grazia ed essere aiutati al momento opportuno."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0210a') {
+                    //santa Scolastica
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"1Gv 3,21-23",
+                            "testo"=>"Carissimi, se il nostro cuore non ci rimprovera nulla, abbiamo fiducia in Dio; e qualunque cosa chiediamo la riceviamo da lui perché osserviamo i suoi comandamenti e facciamo quel che è gradito a lui. Questo è il suo comandamento: che crediamo nel nonme del Figlio suo Gesù Cristo e ci amiamo gli uni gli altri, secondo il precetto che ci ha dato."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"1Gv 4,18",
+                            "testo"=>"Nell'amore non c'è timore, al contrario l'amore perfetto scaccia il timore, perché il timore suppone un castigo e chi teme non è perfetto nell'amore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Is 26,8a.9a",
+                            "testo"=>"Nella via dei tuoi giudizi, Signore, noi speriamo in te. La mia anima anela a te di notte, al mattino il mio spirito ti cerca."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Sir 2,17",
+                            "testo"=>"Coloro che temono il Signore tengono pronti i loro cuori e umiliano l'anima loro davanti a lui."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ct 2,13b-14",
+                            "testo"=>"Alzati, amica mia, mia bella, e vieni! O mia colomba, che stai nelle fenditure della roccia, nei nascondigli dei dirupi, mostrami il tuo viso, fammi sentire la tua voce, perché la tua voce è soave, il tuo viso è leggiadro."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0222a') {
+                    //Cattedra San Pietro
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"At 15,7b-9",
+                            "testo"=>"Dio ha fatto una scelta, perché i pagani ascoltassero per bocca mia la parola del vangelo e venissero alla fede. E Dio, che conosce i cuori, ha reso testimonianza in loro favore concedendo anche a loro lo Spirito Santo, come anoi; e non ha fatto nessuna discriminazione tra noi e loro, purificandone i cuori con la fede."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Is 22,22",
+                            "testo"=>"Gli porrò sulla spalla la chiave della casa di Davide; se egli apre, nessuno chiuderà; se egli chiude, nessuno potrà aprire."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 5,1-2a",
+                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: PAscete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri secondo Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"2Pt 1,16",
+                            "testo"=>"Non per essere andati dietro a favole artificiosamente inventate vi abbiamo fatto conoscere la potenza e la venuta del Signore nostro Gesù Cristo, ma perché siamo stati testimoni oculari della sua grandezza."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 1,3-5",
+                            "testo"=>"Sia benedetto Dio e Padre del Signore nostro Gesù Cristo: nella sua grande misericordia egli ci ha rigenerati, mediante la risurrezione di Gesù Cristo dai morti, per una speranza viva, per una eredità che non si corrompe, non si macchia e non marcisce. Essa è conservata nei cieli per voi, che dalla potenza di Dio siete custoditi mediante la fede, per la vostra salvezza, prossima a rivelarsi negli ultimi tempi."
+                        );
+                    }
+                }
+
             }
 
         }
