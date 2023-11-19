@@ -3270,6 +3270,115 @@ class Lettura {
             }
         }
 
+        //////////////////////////////////////////////////////////////////////////////////////////
+        if ($this->actual["evCode"]=='0202a') {
+            //presentazione del Signore
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Eb 10,5-7",
+                    "testo"=>"Entrando nel mondo Cristo dice:« Tu non hai voluto né sacrificio né offerta, un corpo invece mi hai preparato. Non hai gradito né olocausti né sacrifici per il peccato. Allora ho detto: Ecco, io vengo - poiché di me sta scritto nel rotolo del libro - per fare, o Dio, la tua volontà »."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Ml 3,1",
+                    "testo"=>"Ecco, io manderò un mio messaggero a preparare la via davanti a me e subito entrerà nel suo tempio il Signore, che voi cercate; l'angelo dell'alleanza, che voi sospirate, ecco viene, dice il Signore."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Is 8,13a.14",
+                    "testo"=>"Il Signore, lui solo ritenete santo. Egli sarà laccio e pietra d'inciampo e scoglio che fa cadere per le due case d'Israele, laccio e trabocchetto per chi abita in Gerusalemme."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Is 49,6",
+                    "testo"=>"Il Signore mi disse: È troppo poco che tu sia mio servo per restaurare le tribù di Giacobbe e ricondurre i superstiti di Israele. Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Is 12,5-6",
+                    "testo"=>"Cantate inni al Signore, perché ha fatto opere grandi, ciò sia noto in tutta la terra. Gridate giulivi ed esultate, abitanti di Sion, perché grande è in mezzo a voi è il Santo di Israele."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Eb 4,15-16",
+                    "testo"=>"Non abbiamo un sommo sacerdote che non sappia compatire le nostre infermità, essendo stato lui stesso provato in ogni cosa, come noi, escluso il peccato. Accostiamoci dunque con piena fiducia al trono della grazia, per ricevere misericordia e trovare grazia ed essere aiutati al momento opportuno."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0210a') {
+            //santa Scolastica
+            if($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"1Gv 3,21-23",
+                    "testo"=>"Carissimi, se il nostro cuore non ci rimprovera nulla, abbiamo fiducia in Dio; e qualunque cosa chiediamo la riceviamo da lui perché osserviamo i suoi comandamenti e facciamo quel che è gradito a lui. Questo è il suo comandamento: che crediamo nel nonme del Figlio suo Gesù Cristo e ci amiamo gli uni gli altri, secondo il precetto che ci ha dato."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"1Gv 4,18",
+                    "testo"=>"Nell'amore non c'è timore, al contrario l'amore perfetto scaccia il timore, perché il timore suppone un castigo e chi teme non è perfetto nell'amore."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Is 26,8a.9a",
+                    "testo"=>"Nella via dei tuoi giudizi, Signore, noi speriamo in te. La mia anima anela a te di notte, al mattino il mio spirito ti cerca."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Sir 2,17",
+                    "testo"=>"Coloro che temono il Signore tengono pronti i loro cuori e umiliano l'anima loro davanti a lui."
+                );
+            }
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Ct 2,13b-14",
+                    "testo"=>"Alzati, amica mia, mia bella, e vieni! O mia colomba, che stai nelle fenditure della roccia, nei nascondigli dei dirupi, mostrami il tuo viso, fammi sentire la tua voce, perché la tua voce è soave, il tuo viso è leggiadro."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0319a') {
+            //San Giuseppe sposo di Maria
+            if($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"2Sam 7,28-29",
+                    "testo"=>"Signore, tu sei Dio, le tue parole sono verità e hai promesso questo bene al tuo servo. Degnati dunque di benedire ora la casa del tuo servo, perché sussista sempre dinanzi a te! Piché tu, Signore, hai parlato e per la tua benedizione la casa del tuo servo sarà benedetta per sempre!."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Pr 2,7-8",
+                    "testo"=>"Dio riserva ai giusti la sua protezione, è scudo a coloro che agiscono con rettitudine, vegliando sui sentieri della giustizia e custodendo le vie dei suoi amici."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Sap 10,10",
+                    "testo"=>"La Sapienza condusse per diritti sentieri il giusto, gli mostrò il regno di Dio e gli diede la conoscenza delle cose sante; gli diede successo nelle sue fatiche e moltiplicò i frutti del suo lavoro."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Sir 2,15-16",
+                    "testo"=>"Coloro che temono il Signore non disobbediscono alle sue parole; e coloro che lo amano seguono le sue vie. Coloro che temono il Signore cercano di piacergli; e coloro che lo amano si saziano della legge."
+                );
+            }
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Col 3,23-24",
+                    "testo"=>"Qualunque coisa facciate, fatela di cuore come per il Signore e non per gli uomini, sapendo che, come ricompensa, riceverete dal Signore l'eredità. Servite a Cristo Signore."
+                );
+            }
+        }
+
         //#########################################################################################
         //PROPRIO DEI SANTI
         if ($this->actual['fesCode']!='') {
@@ -3807,80 +3916,6 @@ class Lettura {
                         $this->info=array(
                             "titolo"=>"1Cor 15,9-10",
                             "testo"=>"Io sono l'infimo degli apostoli, e non sono degno neppure di essere chiamato apostolo, perché ho perseguitato la Chiesa di Dio. Per grazia di Dio però sono quello che sono, e la sua grazia in me non è stata vana; anzi ho faticato più di tutti loro, non io però, ma la grazia di Dio che è con me."
-                        );
-                    }
-                }
-
-                elseif ($this->actual["fesCode"]=='0202a') {
-                    //presentazione del Signore
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"Eb 10,5-7",
-                            "testo"=>"Entrando nel mondo Cristo dice:« Tu non hai voluto né sacrificio né offerta, un corpo invece mi hai preparato. Non hai gradito né olocausti né sacrifici per il peccato. Allora ho detto: Ecco, io vengo - poiché di me sta scritto nel rotolo del libro - per fare, o Dio, la tua volontà »."
-                        );
-                    }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Ml 3,1",
-                            "testo"=>"Ecco, io manderò un mio messaggero a preparare la via davanti a me e subito entrerà nel suo tempio il Signore, che voi cercate; l'angelo dell'alleanza, che voi sospirate, ecco viene, dice il Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Is 8,13a.14",
-                            "testo"=>"Il Signore, lui solo ritenete santo. Egli sarà laccio e pietra d'inciampo e scoglio che fa cadere per le due case d'Israele, laccio e trabocchetto per chi abita in Gerusalemme."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"Is 49,6",
-                            "testo"=>"Il Signore mi disse: È troppo poco che tu sia mio servo per restaurare le tribù di Giacobbe e ricondurre i superstiti di Israele. Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Is 12,5-6",
-                            "testo"=>"Cantate inni al Signore, perché ha fatto opere grandi, ciò sia noto in tutta la terra. Gridate giulivi ed esultate, abitanti di Sion, perché grande è in mezzo a voi è il Santo di Israele."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Eb 4,15-16",
-                            "testo"=>"Non abbiamo un sommo sacerdote che non sappia compatire le nostre infermità, essendo stato lui stesso provato in ogni cosa, come noi, escluso il peccato. Accostiamoci dunque con piena fiducia al trono della grazia, per ricevere misericordia e trovare grazia ed essere aiutati al momento opportuno."
-                        );
-                    }
-                }
-
-                elseif ($this->actual["fesCode"]=='0210a') {
-                    //santa Scolastica
-                    if($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"1Gv 3,21-23",
-                            "testo"=>"Carissimi, se il nostro cuore non ci rimprovera nulla, abbiamo fiducia in Dio; e qualunque cosa chiediamo la riceviamo da lui perché osserviamo i suoi comandamenti e facciamo quel che è gradito a lui. Questo è il suo comandamento: che crediamo nel nonme del Figlio suo Gesù Cristo e ci amiamo gli uni gli altri, secondo il precetto che ci ha dato."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"1Gv 4,18",
-                            "testo"=>"Nell'amore non c'è timore, al contrario l'amore perfetto scaccia il timore, perché il timore suppone un castigo e chi teme non è perfetto nell'amore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"Is 26,8a.9a",
-                            "testo"=>"Nella via dei tuoi giudizi, Signore, noi speriamo in te. La mia anima anela a te di notte, al mattino il mio spirito ti cerca."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Sir 2,17",
-                            "testo"=>"Coloro che temono il Signore tengono pronti i loro cuori e umiliano l'anima loro davanti a lui."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Ct 2,13b-14",
-                            "testo"=>"Alzati, amica mia, mia bella, e vieni! O mia colomba, che stai nelle fenditure della roccia, nei nascondigli dei dirupi, mostrami il tuo viso, fammi sentire la tua voce, perché la tua voce è soave, il tuo viso è leggiadro."
                         );
                     }
                 }
