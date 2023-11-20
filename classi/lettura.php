@@ -1638,7 +1638,7 @@ class Lettura {
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
                         "titolo"=>"1Gv 1,1-3",
-                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunioìne è col Padre e col Figlio suo Gesù Cristo."
+                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunione è col Padre e col Figlio suo Gesù Cristo."
                     );
                 }
             }
@@ -1718,7 +1718,7 @@ class Lettura {
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
                         "titolo"=>"1Gv 1,1-3",
-                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunioìne è col Padre e col Figlio suo Gesù Cristo."
+                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunione è col Padre e col Figlio suo Gesù Cristo."
                     );
                 }
             }
@@ -1854,7 +1854,7 @@ class Lettura {
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
                         "titolo"=>"1Gv 1,1-3",
-                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunioìne è col Padre e col Figlio suo Gesù Cristo."
+                        "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi. La nostra comunione è col Padre e col Figlio suo Gesù Cristo."
                     );
                 }
             }
@@ -3379,6 +3379,114 @@ class Lettura {
             }
         }
 
+        elseif ($this->actual["evCode"]=='0321a') {
+            //transito San Benedetto
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Sir 50,6-7",
+                    "testo"=>"Ecco l'uomo di Dio: come un astro mattutino fra le nubi, come la luna nei giorni in cui è piena, come il sole sfolgorante sul tempio dell'Altissimo."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Rm 12,1-2",
+                    "testo"=>"Vi esorto, fratelli, per la misericordia di Dio, ad offrire i vostri corpi come sacrificio vivente, santo e gradito a Dio; è questo il vostro culto spirituale. Non conformatevi alla mentalità di questo secolo, ma trasformtevi rinnovando la vostra mente, per poter discernere la voltà di Dio, ciò che è buono, a lui gradito e perfetto."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Gal 6,7b-8",
+                    "testo"=>"Ciascuno raccoglierà quello che avrà seminato. Chi semina nella sua carne, dalla carne raccoglierà corruzione; chi semina nello Spirito, dallo Spirito raccoglierà vita eterna."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"1Cor 9,26-27a",
+                    "testo"=>"Io corro, ma non come chi è senza meta; faccio il pugilato, ma non come chi batte l'aria, anzi tratto duramente il mio corpo e lo trascino in schiavitù."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Fil 4,8-9b",
+                    "testo"=>"Fratelli, tutto quello che è vero, nobile, giusto, puro, amabile, onorato, quello che è virtù e merita lode, tutto questo sia oggetto dei vostri pensieri. E il Dio della pace sarà con voi!"
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Rm 8,28-30",
+                    "testo"=>"Noi sappiamo che tutto concorre al bene di coloro che amano Dio, che sono stati chiamati secondo il suo disegno. Poiché quelli che egli da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo, perché egli sia il primogenito tra molti fratelli; quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0325a') {
+            //Annunciazione
+            if($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Fil 2,6-8a",
+                    "testo"=>"Cristo Gesù, pur essendo di natura divina, non considerò un tesoro geloso la sua uguaglianza con Dio; ma spogliò se stesso, assumendo la condizione di servo e divenendo simile agli uomini; apparso in forma umana, umiliò se stesso."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Ef 1,9-10",
+                    "testo"=>"Dio ci ha fatto conoscere il mistero della sua volontà, secondo quanto nella sua benevolenza aveva in lui prestabilito per realizzarlo nella pienezza dei tempi:il disegno cioè di ricapitolare in Cristo tutte le cose, quelle del cielo come quelle della terra."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"1Gv 4,10",
+                    "testo"=>"In questo sta l'amore: non siamo stati noi ad amare Dio, ma è lui che ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"1Tm 2,5-6a",
+                    "testo"=>"Uno solo è Dio e uno solo il mediatore fra Dio e gli uomini, l'uomo Cristo Gesù, che ha dato se stesso in riscatto per tutti."
+                );
+            }
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"1Gv 1,1-3a",
+                    "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0624a') {
+            //Natività di San Giovanni Battista
+            if($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Ml 3,23-24",
+                    "testo"=>"Ecco, io invierò il profeta Elia prima che giunga il giorno grande e terribile del Signore, perché converta il cuore dei padri verso i figli e il cuore dei figli verso i padri; così che io venedo non colpisca il paese con lo sterminio."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Is 49,1",
+                    "testo"=>"Ascoltatemi, o isole, udite attentamente, nazioni lontane; il Signore dal seno materno mi ha chiamato, fino dal grembo di mia madre ha pronunziato il mio nome."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Is 49,5a.6b",
+                    "testo"=>"Disse il Signore che mi ha plasmato suo servo dal seno materno:« Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra »."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Is 49,7b",
+                    "testo"=>"I re vedranno e si alzeranno in piedi, i principi vedranno e si prostreranno, a causa del Signore che è fedele, a causa del Santo di Israele che ti ha scelto."
+                );
+            }
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"At 13,23-25",
+                    "testo"=>"Dalla discendenza di Davide, secondo la promessa, Dio trasse per Israele un salvatore, Gesù. Giovanni aveva preparato la sua venuta predicando un battesimo di penitenza a tutto il popolo d'Israele. Diceva Giovanni sul finire della sua missione: Io non sono ciò che voi pensate che io sia! Ecco, viene dopo di me uno, al quale io non sono degno di sciogliere i sandali."
+                );
+            }
+        }
+
         //#########################################################################################
         //PROPRIO DEI SANTI
         if ($this->actual['fesCode']!='') {
@@ -3950,6 +4058,140 @@ class Lettura {
                         $this->info=array(
                             "titolo"=>"1Pt 1,3-5",
                             "testo"=>"Sia benedetto Dio e Padre del Signore nostro Gesù Cristo: nella sua grande misericordia egli ci ha rigenerati, mediante la risurrezione di Gesù Cristo dai morti, per una speranza viva, per una eredità che non si corrompe, non si macchia e non marcisce. Essa è conservata nei cieli per voi, che dalla potenza di Dio siete custoditi mediante la fede, per la vostra salvezza, prossima a rivelarsi negli ultimi tempi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0425a') {
+                    //San Marco
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 15,1-2a.3-4",
+                            "testo"=>"Vi rendo noto, fratelli, il vangelo che vi ho annunziato e che voi avete ricevuto, nel quale restte saldi, e dal quale anche ricevete la salvezza. Vi ho trasmesso dunque, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Rm 1,16-17",
+                            "testo"=>"Io non mi vergogno del vangelo, poiché è potenza di Dio per la salvezza di chiunque crede, del Giudeo prima e poi del Greco. È in esso che si rivela la giustizia di Dio di fede in fede, come sta scritto: Il giusto vivrà mediante la fede."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Ts 2,2b-4",
+                            "testo"=>"Abbiamo avuto nel nostro Dio il coraggio di annunziarvi il vangelo di Dio in mezzo a molte lotte. E il nostro appello non è stato mosso da volontà di inganno, né da torbidi motivi, né abbiamo usato frode alcuna; ma come Dio ci ha trovati degni di affidarci il vangelo, così lo predichiamo, non cercando di piacere agli uomini, ma a Dio, che prova i nostri cuori."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"2Tm 1,8b-9",
+                            "testo"=>"Soffri anche tu insieme a me per il vangelo, aiutato dalla forza di Dio. Egli infatti ci ha salvati e ci ha chiamati con una vocazione santa, non già in base alle nostre opere, ma secondo il suo proposito e la sua grazia; grazia che ci è stata data in Cristo Gesù fin dall'eternità."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Col 1,3-6a",
+                            "testo"=>"Noi rendiamo continuamente grazie a Dio, Padre del Signore nostro Gesù Cristo, nelle nostre preghiere per voi, per le nostizie ricevute circa la vostra fede in Cristo Gesù, e la carità che avete verso tutti i santi, in vista della speranza che vi attende nei cieli. Di questa speranza voi avete già udito l'annunzio dalla parola di verità del vangelo che è giunto a voi, come pure in tutto il mondo fruttifica e si sviluppa."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0429a') {
+                    //Santa Caterina
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Sap 7,13-14",
+                            "testo"=>"Senza frode imparai la sapienza e senza invidia la dono, non nascondo le sue ricchezze. Essa è un tesoro inesauribile per gli uomini; quanti se lo procurano si attirano l'amicizia di Dio, sono a lui raccomandati per i doni del suo insegnamento."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Gc 3,17-18",
+                            "testo"=>"La sapienza che viene dall'alto è anzitutto pura; poi pacifica, mite, arrendevole, piena di misericordia e di buoni frutti, senza parzialità, senza ipocrisia. Un frutto di giustizia viene seminato nella pace per coloro che fanno opera di pace."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0511a') {
+                    //Oddone....
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Sir 17,6-8",
+                            "testo"=>"Dio li riempì di dottrina e d'intelligenza e indicò loro anche il bene e il male. Pose lo sguardo nei loro cuori per mostrar loro la grandezza delle sue opere. Loderanno il suo santo nome per narrare la grandezza delle sue opere."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 5,1-4",
+                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: Pascete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri, secondo Dio; non per vile interesse, ma di buon animo; non spadroneggiando sulle persone a voi affidate, ma facendovi modelli del gregge. E quando apparirà il pastore supremo, riceverete la corona della gloria che non appassisce."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0531a') {
+                    //Visitazione
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Gl 2,27;3,1a",
+                            "testo"=>"Voi riconoscewrete che i sono in mezzo ad Israele, e che sono io il Signore vostro Dio, e altro dio non c'è: mai più vergogna per il mio popolo. Dopo questo, io effonderò il mio spirito sopra ogni uomo e diverranno profeti i vostri figli e le vostre figlie."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Gdt 13,31",
+                            "testo"=>"Benedetta tu dal tuo Dio, in tutte le tende di Giacobbe; perché in ogni popolo dove si udrà il tuo nome, sarà glorificato per te il Dio d'Israele."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Tb 12,6b",
+                            "testo"=>"Benedite Dio e proclamate davanti a tutti i viventi il bene che vi ha fatto, perché sia benedetto e celebrato il suo nome. Fate conoscere a tutti gli uomini le opere di Dio, come è giusto, e non trascurate di ringraziarlo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Sap 7,27-28",
+                            "testo"=>"La sapienza, pur rimanendo in se stessa, tutto rinnova e attraverso le età entrando nelle anime sante, forma amici di Dio e profeti. Nulla infatti Dio ama se non chi vive con la sapienza."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 5,5b-7",
+                            "testo"=>"Rivestitevi tutti di umiltà gli uni verso gli altri, perché Dio resiste ai superbi, ma dà grazia agli umili. Umiliatevi dunque sotto la potente mano di Dio, perché vi esalti al tempo opportuno, gettando in lui ogni vostra preoccupazione, perché egli ha cura di voi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0611a') {
+                    //San Barnaba
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 15,1-2a.3-4",
+                            "testo"=>"Vi rendo noto, fratelli, il vangelo che vi ho annunziato e che voi avete ricevuto, nel quale restte saldi, e dal quale anche ricevete la salvezza. Vi ho trasmesso dunque, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Rm 1,16-17",
+                            "testo"=>"Io non mi vergogno del vangelo, poiché è potenza di Dio per la salvezza di chiunque crede, del Giudeo prima e poi del Greco. È in esso che si rivela la giustizia di Dio di fede in fede, come sta scritto: Il giusto vivrà mediante la fede."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Ts 2,2b-4",
+                            "testo"=>"Abbiamo avuto nel nostro Dio il coraggio di annunziarvi il vangelo di Dio in mezzo a molte lotte. E il nostro appello non è stato mosso da volontà di inganno, né da torbidi motivi, né abbiamo usato frode alcuna; ma come Dio ci ha trovati degni di affidarci il vangelo, così lo predichiamo, non cercando di piacere agli uomini, ma a Dio, che prova i nostri cuori."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"2Tm 1,8b-9",
+                            "testo"=>"Soffri anche tu insieme a me per il vangelo, aiutato dalla forza di Dio. Egli infatti ci ha salvati e ci ha chiamati con una vocazione santa, non già in base alle nostre opere, ma secondo il suo proposito e la sua grazia; grazia che ci è stata data in Cristo Gesù fin dall'eternità."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Col 1,3-6a",
+                            "testo"=>"Noi rendiamo continuamente grazie a Dio, Padre del Signore nostro Gesù Cristo, nelle nostre preghiere per voi, per le nostizie ricevute circa la vostra fede in Cristo Gesù, e la carità che avete verso tutti i santi, in vista della speranza che vi attende nei cieli. Di questa speranza voi avete già udito l'annunzio dalla parola di verità del vangelo che è giunto a voi, come pure in tutto il mondo fruttifica e si sviluppa."
                         );
                     }
                 }
