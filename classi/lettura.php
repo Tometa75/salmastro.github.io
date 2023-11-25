@@ -3487,6 +3487,200 @@ class Lettura {
             }
         }
 
+        elseif ($this->actual["evCode"]=='0629a') {
+            //Pietro e Paolo
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Rm 1,1-3a.7",
+                    "testo"=>"Paolo, servo di Cristo Gesù, apostolo per vocazione, prescelto per annunziare il vangelo di Dio, che egli aveva promesso per mezzo dei suoi profeti nelle sacre Scritture, riguardo al Figlio suo: a quanti sono in Roma amati da Dio e santi per vocazione, grazia a voi e pace da Dio, Padre nostro, e dal Signore Gesù Cristo."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"1Pt 4,13-14",
+                    "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Beati voi, se venite insultati per il nome di Cristo, perché lo Spirito della gloria e lo Spirito di Dio riposa su di voi."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"At 15,7-9",
+                    "testo"=>"Pietro si alzò e disse:« Fratelli, voi sapete che già da molto tempo Dio ha fatto una scelta fra voi, perché i pagani ascoltassero per bocca mia la parola del vangelo e venissero alla fede. E dio, che conosce i cuori, ha reso testimonianza in loro favore concedendo anche a loro lo Spirito Santo, come a noi; e non ha fatto nessuna discriminazione tra noi e loro, purificandone i cuori con la fede »."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Gal 1,15-16a.17b-18a",
+                    "testo"=>"Quando colui che mi scelse fin dal seno di mia madre e mi chiamò con la sua grazia si compiacque di rivelare a me suo Figlio perché lo annunziassi in mezzo ai pagani, mi recai in Arabia e poi ritornai a Damasco. In seguito, dopo tre anni andai a Gerusalemme per consultare Pietro."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"2Cor 4,13-14",
+                    "testo"=>"Animati tuttavia da quello stesso spirito di fede di cui sta scritto: Ho creduto, perciò ho parlato, anche noi crediamo e perciò parliamo, convinti che colui che ha risuscitato il Signore Gesù, risusciterà anche noi con Gesù e ci porrà accanto a lui insieme con voi."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"1Cor 15,3-5.8",
+                    "testo"=>"Vi ho trasmesso, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e che apparve a Cefa e quindi ai dodici. Ultimo fra tutti apparve anche a me."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0711a') {
+            //San Benedetto
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Sir 50,6-7",
+                    "testo"=>"Ecco l'uomo di Dio: come un astro mattutino fra le nubi, come la luna nei giorni in cui è piena, come il sole sfolgorante sul tempio dell'Altissimo."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Is 51,1-2",
+                    "testo"=>"Ascoltatemi, voi che siete in cerca di giustizia, voi che cercate il Signore; guardate alla roccia da cui siete stati tagliati, alla cava da cui siete stati estratti. Guardate ad Abramo vostro padre: poiché io chiamai lui solo, lo benedissi e lo moltiplicai."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Sap 18,21",
+                    "testo"=>"Un uomo incensurabile si affrettò a difendere i giusti con le armi del suo ministero: la preghiera e il sacrificio espiatorio dell'incenso, mostrando così di essere tuo servitore."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Sir 50,3-4",
+                    "testo"=>"A suo tempo fu scavato il deposito per le acque, un serbatoio ampio come il mare. Premuroso d'impedire la caduta del suo popolo, fortificò la città contro un assedio."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Sir 24,29b-32",
+                    "testo"=>"Ed ecco il mio canale è diventato un fiume, il mio fiume è diventato un mare: farò ancora splendere la mia dottrina come l'aurora; la farò brillare molto lontano. Riverserò ancora l'insegnamento come una profezia, lo lascerò per le generazioni future. Vedete, non ho lavorato solo per me, ma per quanti cercano la sapienza."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Sir 50,10.12b-13a",
+                    "testo"=>"Come un ulivo verdeggiante pieno di frutti e come un cipresso svettante tra le nuvole. Circondato dalla corona dei fratelli, come fronde di cedri nel Libano: lo circondavano come fusti di palme, tutti i figli di Aronne nella loro gloria."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0806a') {
+            //Trasfigurazione
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Fil 3,20-21",
+                    "testo"=>"La nostra patria è nei cieli e di là aspettiamo come salvatore il Signore Gesù Cristo, il quale trasfigurerà il nostro misero corpo per conformarlo al suo corpo glorioso, in virtù del potere che ha di sottomettere a sé tutte le cose."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Ap 21,10.23",
+                    "testo"=>"L'angelo mi trasportò in spirito su di un monte grande e alto, e mi mostrò la città santa, Gerusalemme, che scendeva dal cielo, da Dio, risplendente della gloria di Dio. La città non ha bisogno della luce del sole, né della luce della luna perché la gloria di Dio la illumina e la sua lampada è l'Agnello."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Es 19,9a",
+                    "testo"=>"Il Signore disse a Mosè:« Ecco, io sto per venire verso di te in una densa nube, perché il popolo senta quando io parlerò con te e credano sempre anche a te »."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Es 33,9.11a",
+                    "testo"=>"Quando Mosè entrava nella tenda scendeva la colonna di nube e restava all'ingresso della tenda. Allora il Signore parlava con Mosè. Così il Signore parlava con Mosè faccia a faccia, come un uomo parla con un altro."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"2Cor 3,18",
+                    "testo"=>"Noi tutti, a viso scoperto, riflettendo come in uno specchio la gloria del Signore, veniamo trasformati in quella medesima immagine, di glopria in gloria, secondo l'azione dello Spirito del Signore."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Rm 8,16-17",
+                    "testo"=>"Lo Spirito stesso attesta al nostro spirito che siamo figli di Dio. E se siamo figli, siamo anche eredi: eredi di Dio, coeredi di Cristo, se veramente partecipiamo alle sue sofferenze per partecipare anche alla sua gloria."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0815a') {
+            //Assunzione
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Rm 8,30",
+                    "testo"=>"Quelli che Dio ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Is 61,10",
+                    "testo"=>"Io gioisco pienamente nel Signore, la mia anima esulta nel mio Dio, perché mi ha rivestito delle vesti di salvezza, mi ha avvolto con il manto della giustizia, come una sposa che si adorna gi gioielli."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Gdt 13,22b.23b",
+                    "testo"=>"Il Signore con la sua potenza t'ha benedetta, e per tuo mezzo ha annientato i nostri nemici. Benedetta sei tu, figlia, davanti al Dio Altissimo, più di tutte le donne che vivono sulla terra."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Ap 12,1",
+                    "testo"=>"Nel cielo apparve un segno grandioso: una donna vestita di sole, con la luna sotto i suoi piedi e sul suo capo una corona di dodici stelle."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"2Cor 5,1",
+                    "testo"=>"Sappiamo che quando verrà disfatto questo corpo, nostra abitazione sulla terra, riceveremo una abitazione da Dio, una dimora eterna, non costruita da mani di uomo, nei cieli."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"1Cor 15,22-23",
+                    "testo"=>"Come tutti muoiono in Adamo, così tutti riceveranno la vita in Cristo. Ciascuno però nel suo ordine: prima Cristo, che è la primizia; poi, alla sua venuta, quelli che sono di Cristo."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='0914a') {
+            //Esaltazione della Santa Croce
+            if($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Eb 2,9b-10",
+                    "testo"=>"Vediamo Gesù coronato di gloria e di onore a causa della morte che ha sofferto, perché per la grazia di Dio egli sperimentasse la morte a vantaggio di tutti. Ed era ben giusto che colui, per il quale e dal quale sono tutte le cose, volendo portare molti figli alla gloria, rendesse perfetto mediante la sofferenza il capo che li guida alla salvezza."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Eb 5,7-9",
+                    "testo"=>"Cristo nei giorni della sua vita terrena offrì preghiere e suppliche con forti grida e lacrime a colui che poteva liberarlo da morte e fu esaudito per la sua pietà. Pur essendo Figlio, imparò l'obbedienza dalle cose che patì e, reso perfetto, divenne causa di salvezza eterna per tutti  coloro che gli obbediscono."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Ef 1,7-8",
+                    "testo"=>"In Cristo abbiamo la redenzione mediante il suo sangue, la remissione dei peccati secondo la richezza della sua grazia. Egli l'ha abbondantemente riversata su di noi con ogni sapienza e intelligenza."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"1Pt 1,18-19",
+                    "testo"=>"Voi sapete che non a prezzo di cose corruttibili, come l'argento e l'oro, foste liberati dalla vostra vuota condotta ereditata dai vostri padri, ma con il sangue prezioso di Cristo, come di agnello senza difetti e senza macchia."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"1Cor 1,23-24",
+                    "testo"=>"Noi predichiamo Cristo crocifisso, scandalo per i Giudei, stoltezza per i pagani; ma per coloro che sono chiamati, sia Giudei che Greci, predichiamo Cristo potenza di Dio e sapienza di Dio."
+                );
+            }
+        }
+
         //#########################################################################################
         //PROPRIO DEI SANTI
         if ($this->actual['fesCode']!='') {
@@ -4196,6 +4390,135 @@ class Lettura {
                     }
                 }
 
+                elseif ($this->actual["fesCode"]=='0722a') {
+                    //Santa Maria Maddalena
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Sap 1,1b-2",
+                            "testo"=>"Rettamente pensate del Signore, cercatelo con cuore semplice. Egli infatti si lascia trovare da quanti non lo tentano, si mostra a coloro che non ricusano di credere in lui."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Rm 8,28-30",
+                            "testo"=>"Noi sappiamo che tutto concorre al bene di coloro che amano Dio, che sono stati chiamati secondo il suo disegno. Poiché quelli che egli da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo, perché egli sia il primogenito tra molti fratelli; quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0726a') {
+                    //Gioacchino ed Anna
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 55,3",
+                            "testo"=>"Porgete l'orecchio e venite a me, ascoltate e voi vivrete. Io stabilirò per voi un'alleanza eterna, i favori assicurati a Davide."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Rm 9,4-5",
+                            "testo"=>"Essi sono Israeliti e possiedono l'adozione a figli, la gloria, le alleanze, la legislazione, il culto, le promesse, i patriarchi; da essi proviene Cristo secondo la carne, egli che è sopra ogni cosa, Dio benedetto nei secoli. Amen."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0729a') {
+                    //Gioacchino ed Anna
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ap 3,20",
+                            "testo"=>"Ecco, sto alla porta e busso. Se qualcuno ascolta la mia voce e mi apre la porta, io verrò da lui, cenerò con lui ed egli con me."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ez 37,13-14",
+                            "testo"=>"Riconoscerete che io sono il Signore, quando aprirò le vostre tombe e vi risusciterò dai vostri sepolcri; quando farò entrare in voi il mio spirito e rivivrete, saprete che io sono il Signore: l'ho detto e lo farò."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0810a') {
+                    //San Lorenzo
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 1,3-5",
+                            "testo"=>"Sia benedetto Dio, Padre del Signore nostro Gesù Cristo, Padre misericordioso e Dio di ogni consolazione, il quale ci consola in ogni nostra tribolazione perché possiamo anche noi consolare qualli che si trovano in ogni genere di afflizione con la consolazione con cui siamo sonsolati noi stessi da Dio. Infatti, come abbondano le sofferenze di Cristo in noi, così, per mezzo di Cristo, abbonda anche la nostra consolazione."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 4,13-14",
+                            "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Beati voi, se venite insultati per il nome di Cristo, perché lo Spirito della gloria e lo Spirito di Dio riposa su di voi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0829a') {
+                    //Martirio di Giovani battista
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 49,1b-2",
+                            "testo"=>"Il Signore dal seno materno mi ha chiamato, fino dal grembo di mia madre ha pronunziato il mio nome. Ha reso la mia bocca come spada affilata, mi ha nascosto all'ombra della sua mano, mi ha reso freccia appuntita, mi ha riposto nella sua faretra."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"At 13,23-25",
+                            "testo"=>"Dalla discendenza di Davide, secondo la promessa, Dio trasse per Israele un salvatore, Gesù. Giovanni aveva preparato la sua venuta predicando un battesimo di penitenza a tutto il popolo d'Israele. Diceva Giovanni sul finire della sua missione: Io non sono ciò che voi pensate che io sia! Ecco, viene dopo di me uno, al quale io non sono degno di sciogliere i sandali."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0903a') {
+                    //San Gregorio magno
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Sap 8,9a.11-13",
+                            "testo"=>"Avendo la sapienza a compagna della vita, sarò trovato acuto in giudizio, sarò ammirato di fronte ai potenti. Se tacerò, resteranno in attesa; se parlerò, mi presteranno attenzione; se prolungherò il discorso, si porteranno la mano alla bocca. Per essa otterrò l'immortalità, e lascerò un ricordo eterno ai miei successori."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 5,1-4",
+                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: Pascete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri, secondo Dio; non per vile interesse, ma di buon animo; non spadroneggiando sulle persone a voi affidate, ma facendovi modelli del gregge. E quando apparirà il pastore supremo, riceverete la corona della gloria che non appassisce."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0908a') {
+                    //Natività della beata Vergine
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Is 11,1-3a",
+                            "testo"=>"Un germoglio spunterà dal tronco di Iesse, un virgulto germoglierà dalle sue radici. Su di lui si poserà lo spirito del Signore, spirito di sapienza e di intelligenza, spirito di consiglio e di fortezza, spirito di conoscenza e di timore del Signore. Si compiacerà del timore del Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Ct 6,10",
+                            "testo"=>"Chi è costei che sorge come l'aurora, bella come la luna, fulgida come il sole, terribile come schiere a vessilli spiegati?"
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Gdt 13,24a.25a",
+                            "testo"=>"Benedetto il Signore, creatore del cielo e della terra; egli oggi ha reso così grande il tuo nome, che la lode tua non verrà mai meno sulle labbra degli uomini: essi ricorderanno in eterno la potenza del Signore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ap 21,3b",
+                            "testo"=>"Ecco la dimora di Dio con gli uomini! Egli dimorerà tra di loro ed essi saranno suo popolo ed egli sarà il « Dio-con-loro »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Rm 9,4-5",
+                            "testo"=>"Essi sono Israeliti e possiedono l'adozione a figli, la gloria, le alleanze, la legislazione, il culto, le promesse, i patriarchi; da essi proviene Cristo secondo la carne, egli che è sopra ogni cosa, Dio benedetto nei secoli. Amen."
+                        );
+                    }
+                }
             }
 
         }
