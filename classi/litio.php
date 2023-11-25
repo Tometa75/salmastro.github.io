@@ -4,6 +4,7 @@ require_once('inno.php');
 require_once('salmodia.php');
 require_once('lettura.php');
 require_once('orazione.php');
+require_once('responsorio.php');
 require_once('testo.php');
 
 class Litio {
@@ -259,6 +260,8 @@ class Litio {
                 case 'INNO': $this->res['INNO']=new Inno($this);break;
                 case 'SAL': $this->res['SAL']=new Salmodia($this);break;
                 case 'LB': $this->res['LB']=new Lettura($this);break;
+                case 'RB': $this->res['RB']=new Responsorio($this,'RB');break;
+                case 'RBB': $this->res['RBB']=new Responsorio($this,'RBB');break;
                 case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }

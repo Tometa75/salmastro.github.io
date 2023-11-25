@@ -30,4 +30,8 @@ Starting Psalm
 End Psalm
 Starting Readings
 
+26.11.2023
+End Readings
+Starting Short Prayer
+
 
