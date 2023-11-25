@@ -1751,8 +1751,8 @@ class Lettura {
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"1Gv 1,5b.7",
-                        "testo"=>"Dio è luce e in lui non ci sono tenebre. Se camminiamo nella luce, come egli è nella luce, siamo in comunione gli uni con gli altri e il sangue di Gesù, suo Figlio, ci purifica da ogni peccato."
+                        "titolo"=>"At 6,2b-5a",
+                        "testo"=>"Gli apostoli dissero: « Non è giusto che noi trascuriamo la parola di Dio per il servizio delle mense. Cercate dunque, fratelli, tra di voi sette uomini di buona reputazione, pieni di Spirito e di saggezza, ai quali affideremo quest'incarico. Noi, invece, ci dedicheremo alla preghiera e al ministero della parola ». Piacque questa proposta a tutto il gruppo ed elessero Stefano, uomo pieno di fede e di Spirito Santo."
                     );
                 }
             }
@@ -3681,6 +3681,86 @@ class Lettura {
             }
         }
 
+        elseif ($this->actual["evCode"]=='1101a') {
+            //Tutti i santi
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Eb 12,22-24",
+                    "testo"=>"Voi vi siete accostati al monte di Sion e alla città del Dio vivente, alla Gerusalemme celeste e a miriadi di angeli, all'adunanza festosa e all'assemblea dei primogeniti iscrittinei cieli, al Dio giudice di tutti e agli spiriti dei giusti portati alla perfezione, al Mediatore della Nuova Alleanza e al sangue dell'aspersione dalla voce più eloquente di quello di Abele."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Ef 1,17-18",
+                    "testo"=>"Fratelli, il Dio del Signore nostro Gesù Cristo, il Padre della gloria, vi dia uno spirito di sapienza e di rivelazione per una più profonda conoscenza di lui. Possa egli davvero illuminare gli occhi della vostra mente per farvi comprendere a quale speranza vi ha chiamati, quale tesoro di gloria racchiude la sua eredità fra i santi."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Is 65,18-19",
+                    "testo"=>"Si godrà e si gioirà sempre di quello che sto per creare, e farò di Gerusalemme una gioia, del suo popolo un gaudio. Io esulterò di Gerusalemme, godrò del mio popolo. Non si udranno più in essa voci di pianto, grida di angoscia."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"1Pt 1,15-16",
+                    "testo"=>"Ad immagine del Santo che vi ha chiamati, diventate santi anche voi in tutta la vostra condotta; poiché sta scritto: Voi sarete santi, perché io sono santo."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Ap 21,10-11;22,3b-4",
+                    "testo"=>"L'angelo mi trasportò in spirito su di un monte grande e alto, e mi mostrò la città santa, Gerusalemme, che scendeva dal cielo, da Dio, risplendere della gloria di Dio. Il suo splendore è simile a quello di una gemma preziozissima, come pietra di diaspro cristallino. Il trono di Dio e dell'Agnello sarà in mezzo a lei e i suoi servi lo adoreranno; vedranno la sua faccia e porteranno il suo nome sulla fronte."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"2Cor 6,16b:7,1",
+                    "testo"=>"Noi siamo il tempio del Dio vivente, come Dio stesso ha detto: Abiterò in mezzo a loro e con loro camminerò e sarò il loro Dio, ed essi saranno il mio popolo. In possesso dunque di queste promesse, carissimi, purifichiamoci da ogni macchia della carne e dello spirito, portando a compimento la nostra santificazione, nel timore di Dio."
+                );
+            }
+        }
+
+        elseif ($this->actual["evCode"]=='1208a') {
+            //Immacolata concezione
+            if($this->actual['ora']=='ves1') {
+                $this->info=array(
+                    "titolo"=>"Rm 8,29a.30",
+                    "testo"=>"Quelli che Dio da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo. Quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
+                );
+            }
+            elseif($this->actual['ora']=='lodi') {
+                $this->info=array(
+                    "titolo"=>"Pt 8,22-24a",
+                    "testo"=>"Il Signore mi ha creato all'inizio della sua attività, prima di ogni sua opera, fin d'allora. Dall'eternità sono stata costituita, fin dal principio, dagli inizi della terra. Quando non esistevano gli abissi, io fui generata."
+                );
+            }
+            elseif($this->actual['ora']=='terza') {
+                $this->info=array(
+                    "titolo"=>"Ef 1,4",
+                    "testo"=>"In Cristo, Dio ci ha scelti prima della creazione del mondo, per essere santi e immacolati al suo cospetto nella carità."
+                );
+            }
+            elseif($this->actual['ora']=='sesta') {
+                $this->info=array(
+                    "titolo"=>"Ef 1,11-12a",
+                    "testo"=>"In Cristo noi siamo stati predestinati secondo il piano di colui che tutto opera efficacemente conforme alla sua volontà, perché noi fossimo a lode della sua gloria."
+                );
+            }
+            elseif($this->actual['ora']=='nona') {
+                $this->info=array(
+                    "titolo"=>"Ef 5,25-27",
+                    "testo"=>"Cristo ha amato la Chiesa e ha dato se stesso per lei, per renderla santa, al fine di farsi comparire davanti la sua Chiesa tutta gloriosa, senza macchia né ruga o alcunché di simile, ma santa e immacolata."
+                );
+            }
+            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                $this->info=array(
+                    "titolo"=>"Rm 5,20b-21",
+                    "testo"=>"Laddove è abbondato il peccato, ha sovrabbondato la grazia, perché come il peccato aveva regnato con la morte, così regni anche la grazia con la giustizia per la vita eterna, per mezzo di Gesù Cristo nostro Signore."
+                );
+            }
+        }
+
         //#########################################################################################
         //PROPRIO DEI SANTI
         if ($this->actual['fesCode']!='') {
@@ -4618,6 +4698,84 @@ class Lettura {
                         $this->info=array(
                             "titolo"=>"Ap 8,3-4",
                             "testo"=>"Venne un angelo e si fermò all'altare, reggendo un incensiere d'oro. Gli furono dati molti profumi perché gli offrisse insieme con le preghiere di tutti i santi bruciandoli sull'altare d'oro, posto davanti al trono. E dalla mano dell'angelo il fumo degli aromi salì davanti a Dio, insieme con le preghiere dei santi."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='1018a') {
+                    //Angeli custodi
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"1Cor 15,1-2a.3-4",
+                            "testo"=>"Vi rendo noto, fratelli, il vangelo che vi ho annunziato e che voi avete ricevuto, nel quale restte saldi, e dal quale anche ricevete la salvezza. Vi ho trasmesso dunque, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Col 1,3-6a",
+                            "testo"=>"Noi rendiamo continuamente grazie a Dio, Padre del Signore nostro Gesù Cristo, nelle nostre preghiere per voi, per le nostizie ricevute circa la vostra fede in Cristo Gesù, e la carità che avete verso tutti i santi, in vista della speranza che vi attende nei cieli. Di questa speranza voi avete già udito l'annunzio dalla parola di verità del vangelo che è giunto a voi, come pure in tutto il mondo fruttifica e si sviluppa."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='1113a') {
+                    //Angeli custodi
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Col 3,15-16",
+                            "testo"=>"La pace di Cristo regni nei vostri cuori, perchè ad essa siete stati chiamati in un solo corpo. E siate riconoscenti! La parola di Cristo dimori tra voi abbondantemente; ammaestratevi e ammonitevi con ogni sapienza, cantando a Dio di cuore e con gratitudine salmi, inni e cantici spirituali."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 3,10-11",
+                            "testo"=>"Chi vuole amare la vita e vedere giorni felici, trattenga la sua lingua dal male e le sue labbra da parole d'inganno; eviti il male e faccia il bene, cerchi la pace e la segua."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"1Gv 2,15.17",
+                            "testo"=>"Non amate il mondo, né le opere del mondo! Se uno ama il mondo, l'amore del Padre non è in lui. Il mondo passa con la sua concupiscenza, ma chi fa la volontà di Dio rimane in eterno."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Col 3,2-4",
+                            "testo"=>"Pensate alle cose di lassù, non a quelle della terra. Voi infatti siete morti e la vostra vita è nascosta con Cristo in Dio. Quando si manifesterà Cristo, la vostra vita, allora anche voi sarete manifestati con lui nella gloria."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 3,8.9b",
+                            "testo"=>"Siate tutti concordi, partecipi delle gioie e dei dolori degli altri, animati da affetto fraterno, misericordiosi, umili, poiché a questo siete stati chiamati per avere in eredità la benedizione."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='1116a') {
+                    //Angeli custodi
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Ct 3,4b",
+                            "testo"=>"Trovai l'amato del mio cuore. Lo strinsi fortemente e non lo lascerò finché non l'abbia condotto in casa di mia madre, nella stanza della mia genetrice."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ct 8,6a",
+                            "testo"=>"Mettimi come sigillo nel tuo cuore, come sigillo sul tuo braccio, perché forte come la morte è l'amore."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ct 2,13b-14",
+                            "testo"=>"Alzati, amica mia, mia bella, e vieni! O mia colomba, che stai nelle fenditure della roccia, nei nascondigli dei dirupi, mostrami il tuo viso, fammi sentire la tua voce, perché la tua voce è soave e il tuo viso leggiadro."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ap 19,6b-7",
+                            "testo"=>"Ha preso possesso del suo regno il Signore, il nostro Dio, l'Onnipotente. Rallegriamoci ed esultiamo, rendiamo a lui gloria, perché sono giunte le nozze dell'Agnello; la sua sposa è pronta."
                         );
                     }
                 }
