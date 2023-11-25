@@ -4056,7 +4056,7 @@ class Lettura {
                     }
                 }
 
-                if ($f['comune']=='santi' || $f['comune']=='religiosi') {
+                if ($f['comune']=='santi' || $f['comune']=='religiosi' || $f['comune']=='SFA') {
 
                     if($this->actual['ora']=='ves1') {
                         $this->info=array(
@@ -4519,6 +4519,110 @@ class Lettura {
                         );
                     }
                 }
+
+                elseif ($this->actual["fesCode"]=='0915a') {
+                    //Natività della beata Vergine
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Col 1,24-25",
+                            "testo"=>"Sono lieto delle sofferenze che sopporto per voi e completo nella mia carne quello che manca ai patimenti di Cristo, a favore del suo corpo che è la Chiesa. Di essa sono diventato ministro, secondo la missione affidatami da Dio presso di voi: di realizzare la sua parola."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"2Cor 1,3-5",
+                            "testo"=>"Sia benedetto Dio, Padre del Signore nostro Gesù Cristo, Padre misericordioso e Dio di ogni consolazione, il quale ci consola in ogni nostra tribolazione perché possiamo anche noi consolare qualli che si trovano in ogni genere di afflizione con la consolazione con cui siamo sonsolati noi stessi da Dio. Infatti, come abbondano le sofferenze di Cristo in noi, così, per mezzo di Cristo, abbonda anche la nostra consolazione."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ct 8,6b-7a",
+                            "testo"=>"Forte come la morte è l'amore, tenace come gli inferi è la gelosia: le sua vampe son vampe do fuoco, una fiamma del Signore! Le grandi acque non possono spegnera l'amore né i fiumi travolgerlo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"1Pt 4,13.19",
+                            "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Perciò anche quelli che soffrono secondo il volere di Dio, si mettano nelle mani del loro Creatore fedele e continuino a fare il bene."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"2Tm 2,10-12a",
+                            "testo"=>"Sopporto ogni cosa per gli eletti , perché anch'essi raggiungano la salvezza che è in Cristo Gesù, insieme alla gloria eterna. Certa è questa parola: Se moriamo con lui, vivremo anche con lui; se con lui perseveriamo, con lui anche regneremo."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='0929a') {
+                    //San Michele e tutti gli angeli
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Gen 28,12-13a",
+                            "testo"=>"Giacobbe fece un sogno: una scala poggiava sulla terra, mentre la sua cima raggiungeva il cielo; ed ecco gli angeli di Dio salivano e scendevano su di essa. Ecco il Signore gli stava davanti e disse:« Io sono il Signore, il Dio di Abramo tuo padre e il Dio di Isacco »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"Ap 5,11-12",
+                            "testo"=>"Intesi le voci di molti angeli intorno al trono e agli esseri viventi e ai vegliardi. Il loro numero era miriadi di miriadi e migliaia di migliaia e dicevano a gran voce: Gloria al nostro Dio."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"Ap 1,1-2",
+                            "testo"=>"Rivelazione di Gesù Cristo che egli manifestò inviando il suo angelo al suo servo Giovanni. Questi attesta la parola di Dio e la testimonianza di Gesù, riferendo ciò che ha visto."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"Ap 12,7-8",
+                            "testo"=>"Scoppiò una guerra nel cielo: Michele e i suoi angeli combattevano contro il drago. Il drago combatteva insieme con i suoi angeli, ma non prevalsero e non ci fu più posto per essi in cielo."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ap 1,4b-5",
+                            "testo"=>"Grazia a voi e pace da Colui che è, che era e che viene, dai sette spiriti che stanno davanti al suo trono, e da Gesù Cristo, il testimone fedele, il primogenito dei morti e il principe dei re della terra, che ci ama e ci ha liberati dai nostri peccati con il suo sangue."
+                        );
+                    }
+                }
+
+                elseif ($this->actual["fesCode"]=='1002a') {
+                    //Angeli custodi
+                    if($this->actual['ora']=='lodi') {
+                        $this->info=array(
+                            "titolo"=>"Es 23,20-22",
+                            "testo"=>"Ecco, io mando un angelo davanti a te per custodirti sul cammino e per farti entrare nel luogo che ho preparato. Abbi rispetto della sua presenza, ascolta la sua voce e non ribellarti a lui; egli infatti non perdonerebbe la tua trasgressione perché il mio nome è in lui. Se tu ascolti la sua voce e fai quanto ti dirò, io sarò il nemico dei tuoi nemici e l'avversario dei tuoi avversari."
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            "titolo"=>"At 5,17-20",
+                            "testo"=>"Si alzò il sommo sacerdote con quelli della sua parte, cioè la setta dei sadducei; pieni di livore, fatti arrestare gli apostoli, li fecero gettare nella prigione pubblica. Ma durante la notte un angelo del Signore aprì le porte della prigione, li condusse fuori e disse:« Andate, e mettetevi a predicare al popolo nel tempio tutte queste parole di vita »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='sesta') {
+                        $this->info=array(
+                            "titolo"=>"At 12,7",
+                            "testo"=>"Ed ecco gli si presentò un angelo del Signore e una luce sfolgorò nella cella. Egli toccò il fianco di Pietro, lo destò e disse:« Alzati, in fretta! ». E le catene gli caddero dalle mani."
+                        );
+                    }
+                    elseif($this->actual['ora']=='nona') {
+                        $this->info=array(
+                            "titolo"=>"At 10,3-5",
+                            "testo"=>"Un giorno, verso le tre del pomeriggio, Cornelio vide chiaramente in visione un angelo di Dio venirgli incontro e chiamarlo:« Cornelio! ». Egli lo guardò e preso da timore disse:« Che c'è Signore? ». Gli rispose:« Le tue preghiere e le tue elemosine sono salite, in tua memoria, innanzi a Dio. E ora manda degli uomini a Giaffa e fa' venire un certo Simone detto anche Pietro »."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->info=array(
+                            "titolo"=>"Ap 8,3-4",
+                            "testo"=>"Venne un angelo e si fermò all'altare, reggendo un incensiere d'oro. Gli furono dati molti profumi perché gli offrisse insieme con le preghiere di tutti i santi bruciandoli sull'altare d'oro, posto davanti al trono. E dalla mano dell'angelo il fumo degli aromi salì davanti a Dio, insieme con le preghiere dei santi."
+                        );
+                    }
+                }
+
+                
             }
 
         }
