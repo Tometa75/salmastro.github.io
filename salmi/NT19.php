@@ -17,6 +17,8 @@ $this->closure['load']=function() {
         );
     }
 
+    $this->antifona[1]=$this->antifona[0];
+
     ///////////////////////////////////////////////////////////////
 
     $this->testoBase=array(

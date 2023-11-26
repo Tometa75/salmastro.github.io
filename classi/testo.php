@@ -90,6 +90,7 @@ class Saltesto {
                             echo '<img class="salTextCapo" src="'.SITE_URL.'/img/';
                                 if ($t[0]=='ris') echo 'r.png';
                                 elseif($t[0]=='ebd' || $t[0]=='sac') echo 'v.png';
+                                elseif($t[0]=='*') echo 'asterisk.png';
                             echo '" />';
                         }
 
