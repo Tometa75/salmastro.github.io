@@ -23,7 +23,7 @@ class Responsorio {
         /////////////
 
         $this->init();
-        //$this->build();
+        $this->build();
     }
 
     function init() {
@@ -792,26 +792,26 @@ class Responsorio {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                array('ebd','',"I sentieri del Signore sono verità e grazia"),
-                                array('ris','',"per chi osserva il suo patto e la sua legge."),
+                                array('ebd','',"Insegnami i tuoi sentieri,"),
+                                array('ris','',"guidami nella tua verità, o Signore."),
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                array('ebd','',"Con la tua parola sostienimi, e avrò la vita:"),
-                                array('ris','',"non deludermi nella mia speranza."),
+                                array('ebd','',"Il timore di Dio è puro, rimane per sempre;"),
+                                array('ris','',"i giudizi del Signore sono fedeli e giusti."),
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                array('ebd','',"In Dio gioisce il nostro cuore,"),
-                                array('ris','',"confidiamo nel suo santo nome."),
+                                array('ebd','',"Il sacrificio di lode è gradito a Dio;"),
+                                array('ris','',"chi cammina nella retta via avrà salvezza."),
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                array('ebd','',"La grazia del Signore è da sempre e per sempre"),
-                                array('ris','',"per il popolo che custodisce l'alleanza."),
+                                array('ebd','',"Venite, e vedete le opere del Signore,"),
+                                array('ris','',"santo e sublime fra tutte le nazioni."),
                             );
                         break;
                     }
@@ -820,26 +820,26 @@ class Responsorio {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                array('ebd','',"Sono affranto e sfinito, Signore:"),
-                                array('ris','',"per la tua parola fammi vivere."),
+                                array('ebd','',"Perdona, Signore, le mie colpe nascoste,"),
+                                array('ris','',"dall'orgoglio salva il tuo servo."),
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                array('ebd','',"Presso il Signore è l'amore,"),
-                                array('ris','',"e grande è la sua redenzione."),
+                                array('ebd','',"Guidami, o Dio, sulla tua strada:"),
+                                array('ris','',"i tuoi precetti mi sono cari."),
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                array('ebd','',"I decreti del Signore sono giusti, rallegrano il cuore;"),
-                                array('ris','',"il comando del Signore è limpido, illumina gli occhi."),
+                                array('ebd','',"È bello che i fratelli vivano insieme:"),
+                                array('ris','',"il Signore li ricolma di benedizioni."),
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                array('ebd','',"Rendete grazie al Signore: egli è buono,"),
-                                array('ris','',"eterna è la sua misericordia."),
+                                array('ebd','',"Il Signore ama il suo popolo,"),
+                                array('ris','',"agli umili dona la vittoria."),
                             );
                         break;
                     }
@@ -848,44 +848,28 @@ class Responsorio {
                     switch ($this->actual['quarto']) {
                         case 1:
                             $this->info=array(
-                                array('ebd','',"Buono e pietoso è il Signore,"),
-                                array('ris','',"lento all'ira e grande nell'amore."),
+                                array('ebd','',"Grandi sono le tue opere, o Signore,"),
+                                array('ris','',"profondi i tuoi pensieri!"),
                             );
                         break;
                         case 2:
                             $this->info=array(
-                                array('ebd','',"Mi hai liberato, Signore, dalla morte:"),
-                                array('ris','',"camminerò alla tua presenza nella terra dei viventi."),
+                                array('ebd','',"Mia eredità per sempre le tue parole:"),
+                                array('ris','',"sono gioia per il mio cuore."),
                             );
                         break;
                         case 3:
                             $this->info=array(
-                                array('ebd','',"Sulla terra si conosca la tua via,"),
-                                array('ris','',"la tua salvezza, in tutte le nazioni."),
+                                array('ebd','',"Nei tuoi decreti, Signore, è la mia gioia;"),
+                                array('ris','',"non dimentico la tua parola."),
                             );
                         break;
                         case 4:
                             $this->info=array(
-                                array('ebd','',"Guarda, o Dio, nostro scudo,"),
-                                array('ris','',"guarda il volto del tuo Cristo."),
+                                array('ebd','',"Ti esalto, mio Dio, mio re,"),
+                                array('ris','',"benedico il tuo nome per sempre."),
                             );
                         break;
-                    }
-                break;
-                case 'ves': 
-                    if ($this->actual['quarto']==1 || $this->actual['quarto']==2) {
-                        $this->info=array(
-                            array('ris','',"Cristo ci ama,"),
-                            array('ebd','','Ha fatto di noi un regno, e sacerdoti per il nostro Dio,'),
-                            array('*','2',"ci ha liberati con il suo sangue.")
-                        );
-                    }
-                    elseif ($this->actual['quarto']==3 || $this->actual['quarto']==4) {
-                        $this->info=array(
-                            array('ris','',"Cristo è morto per i nostri peccati"),
-                            array('ebd','',"Messo a morte nella carne, ma reso vivo nello spirito"),
-                            array('*','2',"per ricondurci al Padre.")
-                        );
                     }
                 break;
             }
@@ -921,40 +905,18 @@ class Responsorio {
 
                 if ($this->actual['weekDay']==0) {
 
-                    if($this->actual['ora']=='ves1') {
+                    if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"1Ts 5,23-24",
-                            "testo"=>"Il Dio della pace vi santifichi fino alla perfezione, e tutto quello che è vostro, spirito, anima e corpo, si conservi irreprensibile per la venuta del Signore nostro Gesù Cristo. Colui che vi chiama è fedele e farà tutto questo."
+                            array('ris','',"Cristo, Figlio del Dio vivo,"),
+                            array('ebd','','Tu che vieni nel mondo,'),
+                            array('*','2',"abbi pietà di noi.")
                         );
                     }
-                    elseif($this->actual['ora']=='lodi') {
+                    elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Rm 13,11-12",
-                            "testo"=>"È ormai tempo di svegliarvi dal sonno, perché la nostra salvezza è più vicina ora di quando diventammo credenti. La notte è avanzata, il giorno è vicino. Gettiamo via perciò le opere delle tenebre e indossiamo le armi della luce."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Rm 13,13-14a",
-                            "testo"=>"Comportiamici onestamente, come in pieno giorno: non in mezzo a gozzoviglie e ubriachezze, non fra impurità e licenze, non in contese e gelosie. Rivestitevi invece del Signore Gesù Cristo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Ts 3,12-13",
-                            "testo"=>"Il Signore vi faccia crescere e abbondare nell'amore vicendevole e verso tutti, per rendere saldi e irreprensibili i vostri cuori nella santità, davanti a Dio Padre nostro, al momento della venuta del Signore nostro Gesù con tutti i suoi santi."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"2Ts 1,6.7.10",
-                            "testo"=>"È proprio della giustizia di Dio rendere a voi, che ora siete afflitti, sollievo insieme a noi, quando si manifesterà il Signore Gesù dal cielo con gli angeli della sua potenza, quando egli verrà per esser glorificato nei suoi santi ed esser riconosciuto mirabile in tutti quelli che avranno creduto."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Fil 4,4-5",
-                            "testo"=>"Rallegratevi nel Signore, sempre; ve lo ripeto ancora, rallegratevi. La vostra affabilità sia nota a tutti gli uomini. Il Signore è vicino!"
+                            array('ris','',"Mostraci, Signore,"),
+                            array('ebd','','E donaci la tua salvezza,'),
+                            array('*','2',"la tua misericordia.")
                         );
                     }
                 }
