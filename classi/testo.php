@@ -73,8 +73,8 @@ class Saltesto {
 
                     ///////////////////////////////////////////////////
 
-                    if (count($t)==1 && $t[0]!='') $t=$this->label[$t[0]];
                     //echo '<div>'.json_encode($t).'</div>';
+                    if (count($t)==1 && $t[0]!='') $t=$this->label[$t[0]];
 
                     echo '<div class="salTextBody" style="';
                         if ($t[1]!='') {
@@ -91,6 +91,7 @@ class Saltesto {
                                 if ($t[0]=='ris') echo 'r.png';
                                 elseif($t[0]=='ebd' || $t[0]=='sac') echo 'v.png';
                                 elseif($t[0]=='*') echo 'asterisk.png';
+                                elseif($t[0]=='ant') echo 'ant.png';
                             echo '" />';
                         }
 
