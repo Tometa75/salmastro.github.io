@@ -1698,238 +1698,195 @@ class Responsorio {
             if ($this->actual['weekDay']==0) {
 
                 if($this->actual['ora']=='ves1') {
-                    $this->info=array(
-                        "titolo"=>"1Pt 2,9-10",
-                        "testo"=>"Voi siete la stirpe eletta, il sacerdozio regale, la nazione santa, il poplo che Dio si è acquistato perché proclami le opere meravigliose di lui che vi ha chiamato dalle tenebre alla sua ammirabile luce; voi ch un tempo eravate non-popolo, ora invece siete il popolo di Dio; voi, un tempo esclusi dalla misericordia, ora invece avete ottenuto misericordia."
-                    );
+
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ant','',"Questo è il giorno / che ha fatto il Signore, alleluia: rallegriamoci ed esultiamo, alleluia.")
+                        );
+                    }
+                    elseif($this->actual['today']<$this->actual['ASC']) {
+                        $this->info=array(
+                            array('ris','',"Il Signore è veramente risorto."),
+                            array('ebd','','Ed è apparso a Simone.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ris','',"Lo Spirito del Padre sarà con voi."),
+                            array('ebd','','Vi insegnerà ogni cosa.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
                 }
+
                 if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"At 10,40-43",
-                        "testo"=>"Dio ha risuscitato Gesù il terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
-                    );
+
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ant','',"Questo è il giorno / che ha fatto il Signore, alleluia: rallegriamoci ed esultiamo, alleluia.")
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ris','',"Cristo, Figlio del Dio vivo, abbi pietà di noi."),
+                            array('ebd','','Tu che sei risorto dai morti.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"1Cor 15,3b-5",
-                        "testo"=>"Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e apparve a Cefa e quindi ai dodici."
-                    );
+
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"Il Signore è veramente risorto, alleluia,"),
+                            array('ris','',"ed è apparso a Simone, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"Ef 2,4-6",
-                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
-                    );
+                    
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"I discepoli videro il Signore, alleluia,"),
+                            array('ris','',"e furono pieni di gioia, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"Rm 6,4",
-                        "testo"=>"Per mezzo del battesimo siamo dunque stati sepolti insieme a Cristo nella morte, perché come Cristo fu risuscitato dai morti per mezzo della gloria del Padre, così anche noi possiamo camminare in una vita nuova."
-                    );
+
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"Signore, rimani con noi, alleluia,"),
+                            array('ris','',"ormai si fa sera, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"Eb 10,12-14",
-                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
-                    );
+
+                    if ($this->actual['evCode']=='PA2') {
+                        $this->info=array(
+                            array('ant','',"Questo è il giorno / che ha fatto il Signore, alleluia: rallegriamoci ed esultiamo, alleluia.")
+                        );
+                    }
+                    elseif($this->actual['today']<$this->actual['ASC']) {
+                        $this->info=array(
+                            array('ris','',"Il Signore è veramente risorto."),
+                            array('ebd','','Ed è apparso a Simone.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ris','',"Attingete acqua con gioia."),
+                            array('ebd','','Alle sorgenti della salvezza.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
                 }
             }
 
-            elseif ($this->actual['weekDay']==1) {
+            elseif ($this->actual['weekDay']>=1 && $this->actual['weekDay']<=6) {
 
                 if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"Rm 10,8b-10",
-                        "testo"=>"Vicino a te è la parola, sulla tua bocca e nel tuo cuore: cioè la parola della fede che noi predichiamo. Poiché se confesserai con la tua bocca che Gesù è il Signore, e crederai con il tuo cuore che Dio lo ha risuscitato dai morti, sarai salvo. Con il cuore infatti si crede per ottenere la giustizia e con la bocca si fa la professione di fede per avere la salvezza."
-                    );
+
+                    if ($this->actual['evCode']=='PA2'.$this->actual['weekDay']) {
+                        $this->info=array(
+                            array('ant','',"Questo è il giorno / che ha fatto il Signore, alleluia: rallegriamoci ed esultiamo, alleluia.")
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ris','',"Cristo è risalito dagli abissi della terra."),
+                            array('ebd','',"Ha provato l'angoscia e la morte."),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"Ap 1,17c-18",
-                        "testo"=>"Vidi il Figlio dell'uomo, che mi disse: Non temere! Io sono il Primo e l'Ultimo e il Vivente. Io eromorto, ma ora vivo per sempre e ho potere sopra la morte e sopra gli inferi."
-                    );
+
+                    if ($this->actual['evCode']=='PA2'.$this->actual['weekDay']) {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"Il Signore è veramente risorto, alleluia,"),
+                            array('ris','',"ed è apparso a Simone, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"Col 2,9-10a.12",
-                        "testo"=>"È in Cristo che abita corporalmente tutta la pienezza della divinità, e voi avete in lui parte alla sua pienezza. Con lui infatti siete stati sepolti insieme nel battedsimo. In lui siete stati anche insieme risuscitati per la fede nella potenza di Dio, che lo ha risuscitato dai morti."
-                    );
+                    
+                    if ($this->actual['evCode']=='PA2'.$this->actual['weekDay']) {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"I discepoli videro il Signore, alleluia,"),
+                            array('ris','',"e furono pieni di gioia, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"2Tm 2,8.11",
-                        "testo"=>"Ricordati che Gesù Cristo, della stirpe di Davide, è risuscitato dai morti, secondo il mio vangelo. Certa è questa parola: Se moriamo con lui, vivremo anche con lui."
-                    );
+
+                    if ($this->actual['evCode']=='PA2'.$this->actual['weekDay']) {
+                        $this->info=array(
+                            array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                            array('ris','',"rallegriamoci ed esultiamo, alleluia."),
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ebd','',"Signore, rimani con noi, alleluia,"),
+                            array('ris','',"ormai si fa sera, alleluia."),
+                        );
+                    }
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"Eb 8,1b-3a",
-                        "testo"=>"Noi abbiamo un sommo sacerdote così grande, che si è assiso alla destra del trono della maestà nei cieli, ministro del santuario e della vera tenda che ha costruito il Signore e non un uomo. Ogni sommo sacerdote infatti viene costituito per offrire doni e sacrifici."
-                    );
-                }
-            }
 
-            elseif ($this->actual['weekDay']==2) {
-
-                if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"At 13,30-33",
-                        "testo"=>"Dio ha risuscitato Gesù dai morti ed egli è apparso per molti giorni a quelli che erano saliti con lui dalla Galilea a Gerusalemme, e questi ora sono i suoi testimoni davanti al popolo. E noi vi annunziamo la buona novella che la promessa fatta ai padri si è compiuta, poiché Dio l'ha attuata per noi, loro figli, risuscitando Gesù, come anche sta sritto nel salmo secondo: Mio figlio sei tu, oggi ti ho generato."
-                    );
-                }
-                elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"Col 3,1-2",
-                        "testo"=>"Se siete risorti con Cristo, cercate le cose di lassù, dove si trova Cristo assiso alla destra di Dio; pensate alle cose di lassù, non a quelle della terra."
-                    );
-                }
-                elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"1Pt 3,21-22a",
-                        "testo"=>"Il battesimo, che ora vi salva, non è rimozine di sporcizia del corpo, ma invocazione di salvezza rivolta a Dio da parte di una buona coscienza, in virtù della risurrezione di Gesù Cristo, il quale è alla destra di Dio."
-                    );
-                }
-                elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"At 4,11-12",
-                        "testo"=>"Gesù Cristo è la pietra che, scartata da voi, costruttori, è diventata testata d'angolo. In nessun altro c'è salvezza; non vi è infatti altro nome dato agli uomini sotto il cielo nel quale sia stabilito che possiamo essere salvati."
-                    );
-                }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"1Pt 2,4-5",
-                        "testo"=>"Stringendovi al Signore, pietra viva, rigettata dagli uomini, ma scelta e preziosa davanti a Dio, anche voi venite impiegati come pietre vive per la costruzione di un edificio spirituale, per un sacerdozio santo, per offrire sacrifici spirituali graditi a Dio, per mezzo di Gesù Cristo."
-                    );
-                }
-            }
-
-            elseif ($this->actual['weekDay']==3) {
-
-                if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"Rm 6,8-11",
-                        "testo"=>"Se siamo morti co Cristo, crediamo che anche vivremo con lui, sapendo che Cristo risuscitato dai morti non muore più; la morte non ha più potere su di lui. Per quanto riguarda la sua morte, egli morì al peccato una volta per tutte; ora invece per il fatto che egli vive, vive per Dio. Così anche voi consideratevi morti al peccato, ma viventi per Dio, in Cristo Gesù."
-                    );
-                }
-                elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"Rm 4,24b-25",
-                        "testo"=>"Noi crediamo in colui che ha risuscitato dai morti Gesù nostro Signore, il quale è stato messo a morte per i nostri peccati ed è stato risuscitato per la nostra giustificazione."
-                    );
-                }
-                elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"1Gv 5,5-6a",
-                        "testo"=>"Chi è che vince il mondo se non chi crede che Gesù è il Figlio di Dio? Questi è colui che è venuto con acqua e sangue, Gesù Cristo; non con acqua soltanto, ma con l'acqua e con il sangue."
-                    );
-                }
-                elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"Ef 4,23-24",
-                        "testo"=>"Dovete rinnovarvi nello spirito della vostra mente e rivestire l'uomo nuovo, creato secondo Dio nella giustizia e nella santità vera."
-                    );
-                }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"Eb 7,24-27",
-                        "testo"=>"Gesù, poiché resta per sempre, possiede un sacredozio cher non tramonta. Perciò può salvate perfettamente quelli che per mezzo di lui si accostano a Dio, essendo egli sempre vivo per intercedere a loro favore. Tale era infatti il sommo sacerdote che ci occorreva: santo, innocente, senza macchia, separato dai peccatori ed elevato sopra i cieli; egli non ha bisogno ogni giorno, come gli altri sommi sacredoti, di offrirte sacrifici prima per i propri peccati e poi per quelli del popolo, poiché egli ha fatto questo una volta per tutte, offrendo se stesso."
-                    );
-                }
-            }
-
-            elseif ($this->actual['weekDay']==4) {
-
-                if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"Rm 8,10-11",
-                        "testo"=>"Se Cristo è in voi, il vostro corpo è morto a causa del peccato, ma lo spirito è vita a causa della giustificazione. E se lo Spirito di colui che ha risuscitato Gesù dai morti abita in voi , colui che ha risuscitato Cristo dai morti darà la vita anche ai vostri corpi mortali per mezzo del suo Spirito che aita in voi."
-                    );
-                }
-                elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"1Cor 12,13",
-                        "testo"=>"Noi tutti siamo stati battezzati in un solo Spirito per formare un solo corpo, Giudei o Greci, schiavi o liberi; e tutti ci siamo abbeverati a un solo Spirito."
-                    );
-                }
-                elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"Tt 3,5b-7",
-                        "testo"=>"Dio ci ha salvati mediante un lavacro di rigenerazione e di rinnovamento nello Spirito Santo, effuso da lui su di noi abbondantemente per mezzo di Gesù Cristo, salvatore nostro, perché giustificati dalla sua grazia diventassimo eredi, secondo la speranza, della vita eterna."
-                    );
-                }
-                elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"Col 1,12-14",
-                        "testo"=>"Ringraziamo con gioia il Padre che ci ha messi in grado di partecipare alla sorte dei santi nella luce. È lui infatti che ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del suo Figlio diletto, per opera del quale abbiamo la redenzione, la remissione dei peccati."
-                    );
-                }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"1Pt 3,18.22",
-                        "testo"=>"Cristo è morto una volta per sempre per i peccati, giusto per gli ingiusti, per ricondurvi a Dio; messo a morte nella carne, ma reso vivo nello spirito. Egli è alla destra di Dio, dopo essere salito al cielo e aver ottenuto la sovranità sugli angeli, i Principati e le Potenze."
-                    );
-                }
-            }
-
-            elseif ($this->actual['weekDay']==5) {
-
-                if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"At 5,30-32",
-                        "testo"=>"Il Dio dei nostri padri ha risuscitato Gesù, che voi avevate ucciso appendendolo alla croce. Dio lo ha innalzato con la sua destra facendolo capo e salvatore, per dare a Israele la grazia della conversione e il perdono dei peccati. E di questi fatti siamo testimoni noi e lo Spirito Santo, che Dio ha dato a coloro che si sottomettono a lui."
-                    );
-                }
-                elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"At 2,32.36",
-                        "testo"=>"Dio ha risusitato Gesù e noi tutti ne siamo testimoni. Sappia dunque con certezza tutta la casa di Israele che Dio ha costituito Signore e Cristo quel Gesù che voi avete crocifisso!"
-                    );
-                }
-                elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"Gal 3,27-28",
-                        "testo"=>"Quanti siete stati battezzati in Cristo, vi siete rivestiti di Cristo. Non c'è più Giudeo né Greco; non c'è più schiavo né libero; non c'è più uomo né donna, poiché tutti voi siete uno in Cristo Gesù."
-                    );
-                }
-                elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"1Cor 5,7-8",
-                        "testo"=>"Togliete via il lievito vecchio, per essere pasta nuova, poiché siete azzimi. E infatti Cristo, nostra Pasqua, è stato immolato! Celebriamo dunque la festa non con il lievito vecchio, né con il lievito di malizia e di perfersità, ma con azzimi di sincerità e di verità."
-                    );
-                }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                    $this->info=array(
-                        "titolo"=>"Eb 5,8-10",
-                        "testo"=>"Cristo, pur essendo Figlio, imparò l'obbedienza dalle cose che patì e, reso perfetto, divenne causa di salvezza eterna per tutti coloro che gli obbediscono, essendo stato proclamato da Dio sommo saerdote alla maniera di Melchisedek."
-                    );
-                }
-            }
-
-            elseif ($this->actual['weekDay']==6) {
-
-                if($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"Rm 14,7-9",
-                        "testo"=>"Nessuno di noi vive per se stesso e nessuno muore per se stesso, perché se noi viviamo, viviamo per il Signore; se noi moriamo, moriamo per il Signore. Sia che viviamo sia che moriamo, siamo dunque del Signore. Per questo infatti Cristo è morto ed è ritornato alla vita: per essere il Signore dei morti e dei vivi."
-                    );
-                }
-                elseif($this->actual['ora']=='terza') {
-                    $this->info=array(
-                        "titolo"=>"Rm 5,10-11",
-                        "testo"=>"Se quand'eravamo nemici, siamo stati riconciliati con Dio per mezzo della morte del Figlio suo, molto più ora che siamo riconciliati, saremo salvati mediante la sua vita. Non solo, ma ci gloriamo pure in Dio, per mezzo del Signore nostro Gesù Cristo, dal quale ora abbiamo ottenuto la riconciliazione."
-                    );
-                }
-                elseif($this->actual['ora']=='sesta') {
-                    $this->info=array(
-                        "titolo"=>"1Cor 15,20-22",
-                        "testo"=>"Cristo è risuscitato dai morti, primizia di coloro che sono morti. Poiché se a causa di un uomo venne la morte , a causa di un uomo verrà anche la risurrezione dei morti: e come tutti muoiono in Adamo, così tutti riceveranno la vita in Cristo."
-                    );
-                }
-                elseif($this->actual['ora']=='nona') {
-                    $this->info=array(
-                        "titolo"=>"2Cor 5,14-15",
-                        "testo"=>"L'Amore del Cristo ci sospinge, al pensiero che uno è morto per tutti e quindi tutti sono morti. Ed egli è morto per tutti, perché quelli che vivono non vivano più per se stessi, ma per colui che è morto e risuscitato per loro."
-                    );
+                    if ($this->actual['evCode']=='PA2'.$this->actual['weekDay']) {
+                        $this->info=array(
+                            array('ant','',"Questo è il giorno / che ha fatto il Signore, alleluia: rallegriamoci ed esultiamo, alleluia.")
+                        );
+                    }
+                    elseif($this->actual['today']<$this->actual['ASC']) {
+                        $this->info=array(
+                            array('ris','',"I discepoli videro il Signore."),
+                            array('ebd','','E furono pienio di gioia.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
+                    else {
+                        $this->info=array(
+                            array('ris','',"Lo Spirito del Padre sarà con voi."),
+                            array('ebd','','Vi insegnerà ogni cosa.'),
+                            array('*','2',"Alleluia, alleluia.")
+                        );
+                    }
                 }
             }
 
@@ -1939,32 +1896,34 @@ class Responsorio {
 
                 if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"At 10,40-43",
-                        "testo"=>"Dio ha risuscitato Gesù il terzo giorno e volle che apparisse, non a tutto il popolo, ma a testimoni prescelti da Dio, a noi, che abbiamo mangiato e bevuto con lui dopo la sua risurrezione dai morti. E ci ha ordinato di annunziare al popolo e di attestare che egli è il giudice dei vivi e dei morti costituito da Dio. Tutti i profeti gli rendono questa testimonianza: chiunque crede in lui ottiene la remissione dei peccati per mezzo del suo nome."
+                        array('ris','',"Cristo, Figlio del Dio vivo, abbi pietà di noi."),
+                        array('ebd','','Tu che sei risorto dai morti.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"1Cor 15,3b-5",
-                        "testo"=>"Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e apparve a Cefa e quindi ai dodici."
+                        array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                        array('ris','',"rallegriamoci ed esultiamo, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Ef 2,4-6",
-                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
+                        array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                        array('ris','',"rallegriamoci ed esultiamo, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"Rm 6,4",
-                        "testo"=>"Per mezzo del battesimo siamo dunque stati sepolti insieme a Cristo nella morte, perché come Cristo fu risuscitato dai morti per mezzo della gloria del Padre, così anche noi possiamo camminare in una vita nuova."
+                        array('ebd','',"Questo è il giorno che ha fatto il Signore, alleluia:"),
+                        array('ris','',"rallegriamoci ed esultiamo, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"Eb 10,12-14",
-                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
+                        array('ris','',"Il Signore è veramente risorto."),
+                        array('ebd','','Ed è apparso a Simone.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
             }
@@ -1973,38 +1932,41 @@ class Responsorio {
 
                 if($this->actual['ora']=='ves1') {
                     $this->info=array(
-                        "titolo"=>"Ef 2,4-6",
-                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatti sedere nei cieli, in Cristo Gesù."
+                        array('ris','',"Ascendo al Padre mio e Padre vostro."),
+                        array('ebd','','Mio Dio, e Dio vostro.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
                 elseif($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"Eb 10,12-14",
-                        "testo"=>"Cristo, avendo offerto un solo sacrificio per i peccati una volta per sempre, si è assiso alla destra di Dio, aspettando ormai soltanto ch ei suoi nemici vengano posti sotto i suoi piedi. Poiché con un'unica oblazione egli ha resi perfetti per sempre quelli che vengono santificati."
+                        array('ris','',"Ascende Cristo nell'alto dei cieli."),
+                        array('ebd','','E guida i prigionieri liberati.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"Ap 1,17c-18",
-                        "testo"=>"Vidi il Figlio dell'uomo, che mi disse: Non temere! Io sono il Primo e l'Ultimo e il Vivente. Io eromorto, ma ora vivo per sempre e ho potere sopra la morte e sopra gli inferi."
+                        array('ebd','',"Non si turbi il vostro cuore, alleluia:"),
+                        array('ris','',"ora io vado al Padre, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Eb 8,1b-3a",
-                        "testo"=>"Noi abbiamo un sommo sacerdote così grande, che si è assiso alla destra del trono della maestà nei cieli, ministro del santuario e della vera tenda che ha costruito il Signore e non un uomo. Ogni sommo sacerdote infatti viene costituito per offrire doni e sacrifici."
+                        array('ebd','',"Il Signore è nei cieli, alleluia,"),
+                        array('ris','',"ha stabilito il suo trono, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"Col 3,1-2",
-                        "testo"=>"Se siete risorti con Cristo, cercate le cose di lassù, dove si trova Cristo assiso alla destra di Dio; pensate alle cose di lassù, non a quelle della terra."
+                        array('ebd','',"Esaltate Dio, nostro re, alleluia,"),
+                        array('ris','',"cantate un inno al Signore, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"1Pt 3,18.22",
-                        "testo"=>"Cristo è morto una volta per sempre per i peccati, giusto per gli ingiusti, per ricondurvi a Dio; messo a morte nella carne, ma reso vivo nello spirito. Egli è alla destra di Dio, dopo essere salito al cielo e aver ottenuto la sovranità sugli angeli, i Principati e le Potenze."
+                        array('ris','',"Ascendo al Padre mio e Padre vostro."),
+                        array('ebd','','Mio Dio, e Dio vostro.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
             }        
@@ -2051,120 +2013,108 @@ class Responsorio {
 
             if ($this->actual['evCode']=='PEN') {
 
-                if($this->actual['ora']=='ves1') {
+                if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"Rm 8,11",
-                        "testo"=>"Se lo Spirito di Dio che ha risuscitato Gesù dai morti abita in voi, colui che ha risuscitato Cristo dai morti darà la vita anche ai vostri corpi mortali per mezzo del suo Spirito che abita in voi."
-                    );
-                }
-                elseif($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"At 5,30-32",
-                        "testo"=>"Il Dio dei nostri padri ha risuscitato Gesù, che voi avevate ucciso appendendolo alla croce. Dio lo ha innalzato con la sua destra facendolo capo e salvatore, per dare a Israele la grazia della conversione e il perdono dei peccati. E di questi fatti siamo testimoni noi e lo Spirito Santo, che Dio ha dato a coloro che si sottomettono a lui."
+                        array('ris','',"Tutti furono pieni di Spirito Santo."),
+                        array('ebd','','E cantavano le meraviglie di Dio.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"1Cor 12,13",
-                        "testo"=>"Noi tutti siamo stati battezzati in un solo Spirito per formare un solo corpo, Giudei o Greci, schiavi o liberi; e tutti ci siamo abbeverati a un solo Spirito."
+                        array('ebd','',"L'amore di Dio è stato riversato nei nostri cuori, alleluia,"),
+                        array('ris','',"per mezzo dello Spirito Santo che dimora in noi, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Tt 3,5b-7",
-                        "testo"=>"Dio ci ha salvati mediante un lavacro di rigenerazione e di rinnovamento nello Spirito Santo, effuso da lui su di noi abbondantemente per mezzo di Gesù Cristo, salvatore nostro, perché giustificati dalla sua grazia diventassimo eredi, secondo la speranza, della vita eterna."
+                        array('ebd','',"Lo Spirito Santo sarà vostro maestro, alleluia:"),
+                        array('ris','',"vi ricorderà ogni mia parola, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"2Cor 1,21-22",
-                        "testo"=>"È Dio stesso che ci conferma, insieme a voi, in Cristo, e ci ha conferito l'unzione, ci ha impresso il sigillo e ci ha dato la caparra dello Spirito nei nostri cuori."
+                        array('ebd','',"In molte lingue gli apostoli proclamavano, alleluia,"),
+                        array('ris','',"le grandi opere di Dio, alleluia."),
                     );
                 }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"Ef 4,3-6",
-                        "testo"=>"Cercate di conservare l'unità dello spirito per mezzo del vincolo della pace. Un solo corpo, un solo spirito, come una sola è la speranza alla quale siete stati chiamati, quella della vostra vocazione; un solo Signore, una sola fede, un solo battesimo. Un solo Dio Padre di tutti, che è al di sopra di tutti, agisce per mezzo di tutti ed è presente in tutti."
+                        array('ris','',"Ascendo al Padre mio e Padre vostro."),
+                        array('ebd','','Mio Dio, e Dio vostro.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
             }
 
             if ($this->actual['evCode']=='TRI') {
 
-                if($this->actual['ora']=='ves1') {
+                if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"Rm 11,33-36",
-                        "testo"=>"O profondità della ricchezza, della sapienza e della scienza di Dio! Quanto sono imperscrutabili i suoi giudizi e inaccessibili le sue vie! Infatti, chi mai ha potuto conoscere il pensiero del Signore? O chi mai è stato suo consigliere? O chi gli ha dato qualcosa per primo, sì che abbia a ricevere il contraccambio?"
-                    );
-                }
-                elseif($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"1Cor 12,4-6",
-                        "testo"=>"Vi sono diversità do carismi, ma uno solo è lo Spirito; vi sono diversità di ministeri, ma uno solo è il Signore; vi sono diversità di operazioni, ma uno solo è Dio, che opera tutto in tutti."
+                        array('ris','',"A te lode, a te gloria,"),
+                        array('ebd','','A te grazie nei secoli,'),
+                        array('*','2',"o Santa Trinità.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"2Cor 1,21-22",
-                        "testo"=>"È Dio stesso che ci conferma, insieme a voi, in Cristo, e ci ha conferito l'unzione, ci ha impresso il sigillo e ci ha dato la caparra dello Spirito nei nostri cuori."
+                        array('ebd','',"Venite alle sue porte nella lode,"),
+                        array('ris','',"date gloria al Padre, al Figlio e allo Spirito."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Gal 4,4-6",
-                        "testo"=>"Dio mandò il suo Figlio, perché ricevessimo l'adozione a figli. E che voi siete figli ne è prova il fatto che Dio ha mandato nei nostri cuori lo Spirito del suo Figlio che grida: Abbà, Padre!."
+                        array('ebd','',"O beata, benedetta e gloriosa Trinità:"),
+                        array('ris','',"Padre e Figlio e Spirito Santo!"),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"Ap 7,12",
-                        "testo"=>"Amen! Lode, gloria, sapienza, azione di grazie, onore, potenza e forza al nostro Dio nei secoli dei secoli. Amen."
+                        array('ebd','',"Benedetto sei tu, Signore nell'alto dei cieli!"),
+                        array('ris','',"A te la lode e la gloria nei secoli."),
                     );
                 }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"Ef 4,3-6",
-                        "testo"=>"Cercate di conservare l'unità dello spirito per mezzo del vincolo della pace. Un solo corpo, un solo spirito, come una sola è la speranza alla quale siete stati chiamati, quella della vostra vocazione; un solo Signore, una sola fede, un solo battesimo. Un solo Dio Padre di tutti, che è al di sopra di tutti, agisce per mezzo di tutti ed è presente in tutti."
+                        array('ris','',"A Dio solo l'onore e la gloria:"),
+                        array('ebd','','Benedetto il Padre, il Figlio e lo Spirito Santo:'),
+                        array('*','2',"a lui, lode nei secoli.")
                     );
                 }
             }
 
             if ($this->actual['evCode']=='COD') {
 
-                if($this->actual['ora']=='ves1') {
+                if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"1Cor 10,16-17",
-                        "testo"=>"Il calice della benedizione che noi benediciamo, non è forse comunione con il sangue di Cristo? E il pane che noi spezziamo, non è forse comunione con il corpo di Cristo? Poiché c'è un solo pane, noi, pur essendo molti, siamo un corpo solo: tutti infatti partecipiamo all'unico pane."
-                    );
-                }
-                elseif($this->actual['ora']=='lodi') {
-                    $this->info=array(
-                        "titolo"=>"Ml 1,11",
-                        "testo"=>"Dall'oriente all'occidente grande è il mio nome fra le genti e in ogni luogo è offerto incenso al mio nome e una oblazione pura, perché grande è il mio nome fra le genti, dice il Signore degli eserciti."
+                        array('ris','',"Ci hai dato il pane, frutto della terra."),
+                        array('ebd','','E il vino che rallegra il nostro cuore.'),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"Sap 16,20",
-                        "testo"=>"Hai sfamato il tuo popolo, Signore, con il cibo degli angeli, dal cielo hai offerto loro un pane pronto senza fatica, pieno di ogni delizia e gradito a ogni gusto."
+                        array('ebd','',"Verrò all'altare di Dio, alleluia."),
+                        array('ris','',"Riceverò Cristo, che rinnova la mia giovinezza, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Pr 9,1-2",
-                        "testo"=>"La Sapienza si è costruita la casa, ha intagliato le sue sette colonne. Ha ucciso gli animali, ha preparato il vino e ha imbandito la tavola."
+                        array('ebd','',"Hai dato a noi, Signore, un pane dal cielo, alleluia,"),
+                        array('ris','',"che porta in sé ogni dolcezza, alleluia."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"At 2,42.47",
-                        "testo"=>"I credenti erano assidui nell'ascoltare l'insegnamento degli apostoli e nell'unione fraterna, nella frazione del pane e nelle preghiere, lodando Dio e godendo la stima di tutto il popolo."
+                        array('ebd','',"Signore, rimani con noi, alleluia,"),
+                        array('ris','',"ormai si fa sera, alleluia."),
                     );
                 }
-                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"1Cor 11,23-25",
-                        "testo"=>"Io, fratelli, ho ricevuto dal Signore quello che a mia volta vi ho trasmesso: il Signore Gesù, nella notte in cui veniva tradito, prexse del pane e, dopo aver reso grazie, lo spezzò e disse:« Questo è il mio corpo, che è per voi; fate questo in memoria di me ». Allo stesso modo, dopo aver cenato, prese anche il calice dicendo:« Questo calice è la Nuova Alleanza nel mio sangue; fate questo, ogni volta che ne bevete, in memoria di me »."
+                        array('ris','',"Ci ha dato un pane dal cielo."),
+                        array('ebd','',"Pane degli angeli, cibo dell'uomo."),
+                        array('*','2',"Alleluia, alleluia.")
                     );
                 }
             }
@@ -2173,38 +2123,41 @@ class Responsorio {
 
                 if($this->actual['ora']=='ves1') {
                     $this->info=array(
-                        "titolo"=>"Ef 5,25b-27",
-                        "testo"=>"Cristo ha amato la Chiesa e ha dato se stesso per lei, per renderla santa, purificandola per mezzo del lavacro dell'acqua accompagnato dalla parola, al fine di farsi comparire davanti la sua Chiesa tutta gloriosa, senza macchia né ruga o alcunché di simile, ma santa e immacolata."
+                        array('ris','',"Cristo ci ama"),
+                        array('ebd','',"Ha fatto di noi un regno, e sacerdoti per il nostro Dio,"),
+                        array('*','2',"e ci ha liberati con il suo sangue.")
                     );
                 }
-                elseif($this->actual['ora']=='lodi') {
+                if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"Ger 31,33",
-                        "testo"=>"Questa sarà l'alleanza che io concluderò con la casa di Israele dopo quei giorni, dice il Signore: Porrò la mia legge nel loro animo, la scriverò sul loro cuore. Allora io sarò il loro Dio ed essi il mio popolo."
+                        array('ris','',"Prendete il mio giogo su di voi,"),
+                        array('ebd','','Io sono mite ed umile di cuore:'),
+                        array('*','2',"imparate da me.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"Ger 31,2-4a",
-                        "testo"=>"Così dice il Signore:« Ha trovato grazia nel deserto un popolo di scampati alla spada; Israele si avvia a una quieta dimora ». Da lontano gli è apparso il Signore:« Ti ho amato di amore eterno, per questo ti conservo ancora pietà. Ti edificherò di nuovo e tu sarai riedificata, vergine di Israele »."
+                        array('ebd','',"Attingete acqua con gioia"),
+                        array('ris','',"alle sorgenti della salvezza."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Ger 32,40",
-                        "testo"=>"Concluderò con essi un'alleanza eterna e non mi allontanerò più da loro per beneficarli; metterò nei loro cuori il mio timore, perché non si distacchino da me."
+                        array('ebd','',"Ho sperato conforto, ma invano;"),
+                        array('ris','',"consolatori, ma non ne ho trovati."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"Rm 5,8-9",
-                        "testo"=>"Dio dimostra il suo amore verso di noi perché, mentre eravamo ancora peccatori, Cristo è morto per noi. A maggior ragione ora, giustificati per il suo sangue, saremo salvati dall'ira per mezzo di lui."
+                        array('ebd','',"Per le vostre colpe egli è stato trafitto;"),
+                        array('ris','',"e noi per le sue piaghe siamo stati guariti."),
                     );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"Ef 2,4-7",
-                        "testo"=>"Dio, ricco di misericordia, per il grande amore con il quale ci ha amati, da morti che eravamo per i peccati, ci ha fatti rivivere con Cristo: per grazia infatti siete stati salvati. Con lui ci ha anche risuscitati e ci ha fatto sedere nei cieli, in Cristo Gesù, per mostrare nei secoli futuri la straordinaria ricchezza della sua grazia mediante la sua bontà verso di noi in Cristo Gesù."
+                        array('ris','',"Cristo per amore ci ha lavati da ogni colpa"),
+                        array('ebd','',"Ha fatto di noi un popolo regale, sacerdoti per la gloria del Padre,"),
+                        array('*','2',"con il suo sangue.")
                     );
                 }
             }
@@ -2213,38 +2166,41 @@ class Responsorio {
 
                 if($this->actual['ora']=='ves1') {
                     $this->info=array(
-                        "titolo"=>"Ef 1,20b-23",
-                        "testo"=>"Dio risuscitò Cristo dai morti e lo fece sedere alla sua destra nei cieli, al di sopra di ogni principato e autorità, di ogni potenza e dominazione e di ogni altro nome che si possa nominare non solo nel secolo presente, ma anche in quello futuro. Tutto infatti ha sottomesso ai suoi piedi e lo ha costituito su tutte le cose a capo della Chiesa, la quale è il suo corpo, la pienezza di colui che si realizza interamente in tutte le cose."
+                        array('ris','',"A te gloria e potenza,"),
+                        array('ebd','',"A te il dominio su tutto l'universo,"),
+                        array('*','2',"a te il regno, Signore.")
                     );
                 }
-                elseif($this->actual['ora']=='lodi') {
+                if($this->actual['ora']=='lodi') {
                     $this->info=array(
-                        "titolo"=>"Ef 4,15-16",
-                        "testo"=>"Viviamo secondo la verità nella carità e cerchioamo di crescere in ogni cosa verso Cristo, che è il capo. Da lui tutto il corpo, ben compaginato e connesso, mendiante la collaborazione di ogni giuntura, secondo l'energia propria di ogni membro, riceve forza per crescere in modo da edificare se stesso nella carità."
+                        array('ris','',"Cantano i fedeli"),
+                        array('ebd','','Dicono le tue imprese,'),
+                        array('*','2',"la gloria del tuo regno.")
                     );
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                        "titolo"=>"Col 1,12-13",
-                        "testo"=>"Ringraziamo con gioia il Padre, che ci ha messi in grado di partecipare alla sorte dei santi nella luce. È lui infatti che ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del suo Figlio diletto."
+                        array('ebd','',"Cristo Signore regna per sempre,"),
+                        array('ris','',"benedice il suo popolo nella pace."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
-                        "titolo"=>"Col 1,16b-18",
-                        "testo"=>"Tutte le cose sono state create per mezzo di Cristo e in vista di lui. Egli è prima di tutte le cose e tutte sussistono in lui. Egli è anche il capo del corpo, cioè della Chiesa; il principio, il primogenito di coloro che risuscitano dai morti, per ottenere il primato su tutte le cose."
+                        array('ebd','',"Inneggiate al nostro Re, inneggiate,"),
+                        array('ris','',"Cristo è il Signore di tutta la terra."),
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
-                        "titolo"=>"Col 1,19-20",
-                        "testo"=>"Piacque a Dio di fare abitare in Cristo ogni pienezza e per mezzo di lui riconciliare a sé tutte le cose, rappacificando col il sangue della sua croce, cioé per mezzo di lui, le cose che stanno sulla terra  e quelle nei cieli."
+                        array('ebd','',"Acclamate al Signore, nostro Re."),
+                        array('ris','',"Egli viene a giudicare la terra."),
                     );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                     $this->info=array(
-                        "titolo"=>"1Cor 15,25-28",
-                        "testo"=>"Bisogna che Cristo regni finché non abbia posto tutti i nemici sotto i suoi piedi. L'ultimo nemico ad essere annientato sarà la morte, perché ogni cosa ha posto sotto i suoi piedi. Però quando dice che ogni cosa è stata sottoposta, è choaro che si deve eccettuare Colui che gli ha sottomesso ogni cosa. E quando tutto gli sarà stato sottomesso, anche lui, il Figlio, sarà sottomesso a Colui che gli ha sottomesso ogni cosa, perché Dio sia tutto in tutti."
+                        array('ris','',"Il tuo trono, o Dio,"),
+                        array('ebd','',"Scettro di giustizia, lo scettro del tuo regno,"),
+                        array('*','2',"nei secoli dei secoli.")
                     );
                 }
             }
