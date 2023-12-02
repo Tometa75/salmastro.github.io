@@ -2356,75 +2356,165 @@ class Responsorio {
 
         elseif ($this->actual["evCode"]=='0321a') {
             //transito San Benedetto
-            if($this->actual['ora']=='ves1') {
-                $this->info=array(
-                    "titolo"=>"Sir 50,6-7",
-                    "testo"=>"Ecco l'uomo di Dio: come un astro mattutino fra le nubi, come la luna nei giorni in cui è piena, come il sole sfolgorante sul tempio dell'Altissimo."
-                );
+            if ($this->actual['tempo']=='P') {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        array('ris','',"Il Signore l'ha amato e l'ha colmato di onore."),
+                        array('ebd','',"L'ha rivestito di gloria."),
+                        array('*','2',"Alleluia, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        array('ebd','',"Il Signore guida gli umili nella giustizia, alleluia,"),
+                        array('ris','',"insegna ai poveri le sue vie, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        array('ebd','',"Beato l'uomo che tu istruisci, Signore, alleluia,"),
+                        array('ris','',"e che ammaestri nella tua legge, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        array('ebd','',"Gioiscano quanti in te si rifugiano, Signore, alleluia,"),
+                        array('ris','',"esultino senza fine, o Dio, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        array('ris','',"Santo padre Benedetto, intercedi per noi."),
+                        array('ebd','',"Fa che siamo degni delle promesse di Cristo."),
+                        array('*','2',"Alleluia, alleluia.")
+                    );
+                }
             }
-            elseif($this->actual['ora']=='lodi') {
-                $this->info=array(
-                    "titolo"=>"Rm 12,1-2",
-                    "testo"=>"Vi esorto, fratelli, per la misericordia di Dio, ad offrire i vostri corpi come sacrificio vivente, santo e gradito a Dio; è questo il vostro culto spirituale. Non conformatevi alla mentalità di questo secolo, ma trasformtevi rinnovando la vostra mente, per poter discernere la voltà di Dio, ciò che è buono, a lui gradito e perfetto."
-                );
-            }
-            elseif($this->actual['ora']=='terza') {
-                $this->info=array(
-                    "titolo"=>"Gal 6,7b-8",
-                    "testo"=>"Ciascuno raccoglierà quello che avrà seminato. Chi semina nella sua carne, dalla carne raccoglierà corruzione; chi semina nello Spirito, dallo Spirito raccoglierà vita eterna."
-                );
-            }
-            elseif($this->actual['ora']=='sesta') {
-                $this->info=array(
-                    "titolo"=>"1Cor 9,26-27a",
-                    "testo"=>"Io corro, ma non come chi è senza meta; faccio il pugilato, ma non come chi batte l'aria, anzi tratto duramente il mio corpo e lo trascino in schiavitù."
-                );
-            }
-            elseif($this->actual['ora']=='nona') {
-                $this->info=array(
-                    "titolo"=>"Fil 4,8-9b",
-                    "testo"=>"Fratelli, tutto quello che è vero, nobile, giusto, puro, amabile, onorato, quello che è virtù e merita lode, tutto questo sia oggetto dei vostri pensieri. E il Dio della pace sarà con voi!"
-                );
-            }
-            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->info=array(
-                    "titolo"=>"Rm 8,28-30",
-                    "testo"=>"Noi sappiamo che tutto concorre al bene di coloro che amano Dio, che sono stati chiamati secondo il suo disegno. Poiché quelli che egli da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo, perché egli sia il primogenito tra molti fratelli; quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
-                );
+
+            else {
+
+                if($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        array('ris','',"Il Signore l'ha amato"),
+                        array('ebd','',"L'ha rivestito di gloria"),
+                        array('*','2',"e l'ha colmato di onore.")
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        array('ebd','',"Il Signore guida gli umili nella giustizia,"),
+                        array('ris','',"insegna ai poveri le sue vie.")
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        array('ebd','',"Beato l'uomo che tu istruisci, Signore,"),
+                        array('ris','',"e che ammaestri nella tua legge.")
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        array('ebd','',"Gioiscano quanti in te si rifugiano, Signore,"),
+                        array('ris','',"esultino senza fine, o Dio.")
+                    );
+                }
+                elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        array('ris','',"Santo padre Benedetto,"),
+                        array('ebd','',"Fa che siamo degni delle promesse di Cristo:"),
+                        array('*','2',"intercedi per noi.")
+                    );
+                }
             }
         }
 
         elseif ($this->actual["evCode"]=='0325a') {
             //Annunciazione
-            if($this->actual['ora']=='lodi') {
-                $this->info=array(
-                    "titolo"=>"Fil 2,6-8a",
-                    "testo"=>"Cristo Gesù, pur essendo di natura divina, non considerò un tesoro geloso la sua uguaglianza con Dio; ma spogliò se stesso, assumendo la condizione di servo e divenendo simile agli uomini; apparso in forma umana, umiliò se stesso."
-                );
+            if ($this->actual['tempo']=='P') {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        array('ris','',"Un germoglio spunterà da Iesse, una stella da Giacobbe."),
+                        array('ebd','',"Dalla Vergine nascerà il Salvatore."),
+                        array('*','2',"Alleluia, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        array('ris','',"Ave, Maria, piena di grazia, il Signore è con te."),
+                        array('ebd','',"Benedeta tu fra le donne, benedetto il frutto del tuo seno."),
+                        array('*','2',"Alleluia, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        array('ebd','',"L'angelo del Signore portò l'annunzio a Maria, alleluia,"),
+                        array('ris','',"e concepì dallo Spirito Santo, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        array('ebd','',"Io sono la serva del Signore, alleluia;"),
+                        array('ris','',"si compia in me la tua parola, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        array('ebd','',"Il Verbo di Dio si è fatto carne, alleluia;"),
+                        array('ris','',"è venuto ad abitare in mezzo a noi, alleluia.")
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        array('ris','',"Il Verbo di Dio, fatto uomo, è venuto ad abitare in mezzo a noi."),
+                        array('ebd','',"Egli era in principio presso Dio."),
+                        array('*','2',"Alleluia, alleluia.")
+                    );
+                }
             }
-            elseif($this->actual['ora']=='terza') {
-                $this->info=array(
-                    "titolo"=>"Ef 1,9-10",
-                    "testo"=>"Dio ci ha fatto conoscere il mistero della sua volontà, secondo quanto nella sua benevolenza aveva in lui prestabilito per realizzarlo nella pienezza dei tempi:il disegno cioè di ricapitolare in Cristo tutte le cose, quelle del cielo come quelle della terra."
-                );
-            }
-            elseif($this->actual['ora']=='sesta') {
-                $this->info=array(
-                    "titolo"=>"1Gv 4,10",
-                    "testo"=>"In questo sta l'amore: non siamo stati noi ad amare Dio, ma è lui che ha amato noi e ha mandato il suo Figlio come vittima di espiazione per i nostri peccati."
-                );
-            }
-            elseif($this->actual['ora']=='nona') {
-                $this->info=array(
-                    "titolo"=>"1Tm 2,5-6a",
-                    "testo"=>"Uno solo è Dio e uno solo il mediatore fra Dio e gli uomini, l'uomo Cristo Gesù, che ha dato se stesso in riscatto per tutti."
-                );
-            }
-            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                $this->info=array(
-                    "titolo"=>"1Gv 1,1-3a",
-                    "testo"=>"Vi annunziamo ciò che era fin dal principio, ciò che noi abbiamo udito, ciò che noi abbiamo verduto con i nostri occhi, ciò che noi abbiamo contemplato e ciò che le nostre mani hanno toccato, ossi il Verbo della vita. Poiché la vita si è fatta visibile, noi l'abbiamo veduta e di ciò rendiamo testimoinianza e vi annunziamo la vita eterna, che era presso il Padre e si è resa visibile a noi. Quello che abbiamo veduto e udito, noi lo annunziamo anche a voi, perché anche vi siate in comunione con noi."
-                );
+
+            else {
+
+                if($this->actual['ora']=='ves1') {
+                    $this->info=array(
+                        array('ris','',"Un germoglio spunterà da Iesse,"),
+                        array('ebd','',"Dalla Vergine nascerà il Salvatore,"),
+                        array('*','2',"una stella da Giacobbe.")
+                    );
+                }
+                elseif($this->actual['ora']=='lodi') {
+                    $this->info=array(
+                        array('ris','',"Ave, Maria, piena di grazia,"),
+                        array('ebd','',"Benedeta tu fra le donne, benedetto il frutto del tuo seno:"),
+                        array('*','2',"il Signore è con te.")
+                    );
+                }
+                elseif($this->actual['ora']=='terza') {
+                    $this->info=array(
+                        array('ebd','',"L'angelo del Signore portò l'annunzio a Maria,"),
+                        array('ris','',"e concepì dallo Spirito Santo.")
+                    );
+                }
+                elseif($this->actual['ora']=='sesta') {
+                    $this->info=array(
+                        array('ebd','',"Io sono la serva del Signore;"),
+                        array('ris','',"si compia in me la tua parola.")
+                    );
+                }
+                elseif($this->actual['ora']=='nona') {
+                    $this->info=array(
+                        array('ebd','',"Il Verbo di Dio si è fatto carne;"),
+                        array('ris','',"è venuto ad abitare in mezzo a noi.")
+                    );
+                }
+                elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->info=array(
+                        array('ris','',"Il Verbo di Dio, fatto uomo,"),
+                        array('ebd','',"Egli era in principio presso Dio:"),
+                        array('*','2',"è venuto ad abitare in mezzo a noi.")
+                    );
+                }
             }
         }
 
@@ -2432,112 +2522,106 @@ class Responsorio {
             //Natività di San Giovanni Battista
             if($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Ml 3,23-24",
-                    "testo"=>"Ecco, io invierò il profeta Elia prima che giunga il giorno grande e terribile del Signore, perché converta il cuore dei padri verso i figli e il cuore dei figli verso i padri; così che io venedo non colpisca il paese con lo sterminio."
+                    array('ris','',"Grande agli occhi del Signore,"),
+                    array('ebd','','Preparerà al Cristo un popolo ben disposto:'),
+                    array('*','2',"sarà pieno di Spirito Santo.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Is 49,1",
-                    "testo"=>"Ascoltatemi, o isole, udite attentamente, nazioni lontane; il Signore dal seno materno mi ha chiamato, fino dal grembo di mia madre ha pronunziato il mio nome."
+                    array('ebd','',"Ho visto lo Spirito discendere su Cristo:"),
+                    array('ris','',"egli battezzerà in Spirito Santo.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Is 49,5a.6b",
-                    "testo"=>"Disse il Signore che mi ha plasmato suo servo dal seno materno:« Io ti renderò luce delle nazioni perché porti la mia salvezza fino all'estremità della terra »."
+                    array('ebd','',"Dal seno materno il Signore mi ha chiamato:"),
+                    array('ris','',"fin dal grembo di mia madre ha pronunciato il mio nome.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"Is 49,7b",
-                    "testo"=>"I re vedranno e si alzeranno in piedi, i principi vedranno e si prostreranno, a causa del Signore che è fedele, a causa del Santo di Israele che ti ha scelto."
+                    array('ebd','',"Ecco, io metto le mie parole sulla tua bocca:"),
+                    array('ris','',"ti costituisco su popoli e regni.")
                 );
             }
             elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"At 13,23-25",
-                    "testo"=>"Dalla discendenza di Davide, secondo la promessa, Dio trasse per Israele un salvatore, Gesù. Giovanni aveva preparato la sua venuta predicando un battesimo di penitenza a tutto il popolo d'Israele. Diceva Giovanni sul finire della sua missione: Io non sono ciò che voi pensate che io sia! Ecco, viene dopo di me uno, al quale io non sono degno di sciogliere i sandali."
+                    array('ris','',"Raddrizzate i sentieri del Signore,"),
+                    array('ebd','',"Dopo di me viene uno, che era prima di me:"),
+                    array('*','2',"preparate le sue vie.")
                 );
             }
         }
 
         elseif ($this->actual["evCode"]=='0629a') {
             //Pietro e Paolo
-            if($this->actual['ora']=='ves1') {
+            if($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Rm 1,1-3a.7",
-                    "testo"=>"Paolo, servo di Cristo Gesù, apostolo per vocazione, prescelto per annunziare il vangelo di Dio, che egli aveva promesso per mezzo dei suoi profeti nelle sacre Scritture, riguardo al Figlio suo: a quanti sono in Roma amati da Dio e santi per vocazione, grazia a voi e pace da Dio, Padre nostro, e dal Signore Gesù Cristo."
-                );
-            }
-            elseif($this->actual['ora']=='lodi') {
-                $this->info=array(
-                    "titolo"=>"1Pt 4,13-14",
-                    "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Beati voi, se venite insultati per il nome di Cristo, perché lo Spirito della gloria e lo Spirito di Dio riposa su di voi."
+                    array('ris','',"Hanno dato la vita"),
+                    array('ebd','','Erano lieti di essere insultati'),
+                    array('*','2',"per il Signore Gesù.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"At 15,7-9",
-                    "testo"=>"Pietro si alzò e disse:« Fratelli, voi sapete che già da molto tempo Dio ha fatto una scelta fra voi, perché i pagani ascoltassero per bocca mia la parola del vangelo e venissero alla fede. E dio, che conosce i cuori, ha reso testimonianza in loro favore concedendo anche a loro lo Spirito Santo, come a noi; e non ha fatto nessuna discriminazione tra noi e loro, purificandone i cuori con la fede »."
+                    array('ebd','',"Nel mondo intero si è diffuso il loro annunzio,"),
+                    array('ris','',"ai confini della terra la loro parola.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Gal 1,15-16a.17b-18a",
-                    "testo"=>"Quando colui che mi scelse fin dal seno di mia madre e mi chiamò con la sua grazia si compiacque di rivelare a me suo Figlio perché lo annunziassi in mezzo ai pagani, mi recai in Arabia e poi ritornai a Damasco. In seguito, dopo tre anni andai a Gerusalemme per consultare Pietro."
+                    array('ebd','',"Hanno custodito gli insegnamenti di Cristo,"),
+                    array('ris','',"sono testimoni delle sue parole.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"2Cor 4,13-14",
-                    "testo"=>"Animati tuttavia da quello stesso spirito di fede di cui sta scritto: Ho creduto, perciò ho parlato, anche noi crediamo e perciò parliamo, convinti che colui che ha risuscitato il Signore Gesù, risusciterà anche noi con Gesù e ci porrà accanto a lui insieme con voi."
+                    array('ebd','',"Gioite ed esultate, dice il Signore:"),
+                    array('ris','',"i vostri nomi sono scritti nel cielo.")
                 );
             }
-            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"1Cor 15,3-5.8",
-                    "testo"=>"Vi ho trasmesso, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture, e che apparve a Cefa e quindi ai dodici. Ultimo fra tutti apparve anche a me."
+                    array('ris','',"Con grande franchezza"),
+                    array('ebd','',"Testimoni della risurrezione di Cristo,"),
+                    array('*','2',"annunziarono la parola di Dio.")
                 );
             }
         }
 
         elseif ($this->actual["evCode"]=='0711a') {
             //San Benedetto
-            if($this->actual['ora']=='ves1') {
+            if($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Sir 50,6-7",
-                    "testo"=>"Ecco l'uomo di Dio: come un astro mattutino fra le nubi, come la luna nei giorni in cui è piena, come il sole sfolgorante sul tempio dell'Altissimo."
-                );
-            }
-            elseif($this->actual['ora']=='lodi') {
-                $this->info=array(
-                    "titolo"=>"Is 51,1-2",
-                    "testo"=>"Ascoltatemi, voi che siete in cerca di giustizia, voi che cercate il Signore; guardate alla roccia da cui siete stati tagliati, alla cava da cui siete stati estratti. Guardate ad Abramo vostro padre: poiché io chiamai lui solo, lo benedissi e lo moltiplicai."
+                    array('ris','',"Il Signore l'ha amato"),
+                    array('ebd','',"L'ha rivestito di gloria"),
+                    array('*','2',"e l'ha colmato di onore.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Sap 18,21",
-                    "testo"=>"Un uomo incensurabile si affrettò a difendere i giusti con le armi del suo ministero: la preghiera e il sacrificio espiatorio dell'incenso, mostrando così di essere tuo servitore."
+                    array('ebd','',"Beato l'uomo che tu istruisci, Signore,"),
+                    array('ris','',"e che ammaestri nella tua legge.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Sir 50,3-4",
-                    "testo"=>"A suo tempo fu scavato il deposito per le acque, un serbatoio ampio come il mare. Premuroso d'impedire la caduta del suo popolo, fortificò la città contro un assedio."
+                    array('ebd','',"Il Signore lo elesse suo servo,"),
+                    array('ris','',"perché fosse pastore d'Israele, sua proprietà.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"Sir 24,29b-32",
-                    "testo"=>"Ed ecco il mio canale è diventato un fiume, il mio fiume è diventato un mare: farò ancora splendere la mia dottrina come l'aurora; la farò brillare molto lontano. Riverserò ancora l'insegnamento come una profezia, lo lascerò per le generazioni future. Vedete, non ho lavorato solo per me, ma per quanti cercano la sapienza."
+                    array('ebd','',"La legge del suo Dio è nel suo cuore:"),
+                    array('ris','',"i suoi passi non vacilleranno.")
                 );
             }
-            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"Sir 50,10.12b-13a",
-                    "testo"=>"Come un ulivo verdeggiante pieno di frutti e come un cipresso svettante tra le nuvole. Circondato dalla corona dei fratelli, come fronde di cedri nel Libano: lo circondavano come fusti di palme, tutti i figli di Aronne nella loro gloria."
+                    array('ris','',"Santo padre Benedetto,"),
+                    array('ebd','',"Fa che siamo degni delle promesse di Cristo:"),
+                    array('*','2',"intercedi per noi.")
                 );
             }
         }
@@ -2546,38 +2630,41 @@ class Responsorio {
             //Trasfigurazione
             if($this->actual['ora']=='ves1') {
                 $this->info=array(
-                    "titolo"=>"Fil 3,20-21",
-                    "testo"=>"La nostra patria è nei cieli e di là aspettiamo come salvatore il Signore Gesù Cristo, il quale trasfigurerà il nostro misero corpo per conformarlo al suo corpo glorioso, in virtù del potere che ha di sottomettere a sé tutte le cose."
+                    array('ris','',"Davanti al Padre sei apparso nella gloria."),
+                    array('ebd','',"Egli ti ha rivestito di splendore."),
+                    array('*','2',"Alleluia, alleluia.")
                 );
             }
             elseif($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Ap 21,10.23",
-                    "testo"=>"L'angelo mi trasportò in spirito su di un monte grande e alto, e mi mostrò la città santa, Gerusalemme, che scendeva dal cielo, da Dio, risplendente della gloria di Dio. La città non ha bisogno della luce del sole, né della luce della luna perché la gloria di Dio la illumina e la sua lampada è l'Agnello."
+                    array('ris','',"Signore, l'hai coronato di gloria e di onore."),
+                    array('ebd','',"L'hai innalzato di fronte all'universo."),
+                    array('*','2',"Alleluia, alleluia.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Es 19,9a",
-                    "testo"=>"Il Signore disse a Mosè:« Ecco, io sto per venire verso di te in una densa nube, perché il popolo senta quando io parlerò con te e credano sempre anche a te »."
+                    array('ebd','',"Tu sei il più bello tra i figli dell'uomo,"),
+                    array('ris','',"sulle tue labbra fiorisce la grazia.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Es 33,9.11a",
-                    "testo"=>"Quando Mosè entrava nella tenda scendeva la colonna di nube e restava all'ingresso della tenda. Allora il Signore parlava con Mosè. Così il Signore parlava con Mosè faccia a faccia, come un uomo parla con un altro."
+                    array('ebd','',"Guardate al Signore, e sarete raggianti:"),
+                    array('ris','',"non saranno confusi i vostri volti.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"2Cor 3,18",
-                    "testo"=>"Noi tutti, a viso scoperto, riflettendo come in uno specchio la gloria del Signore, veniamo trasformati in quella medesima immagine, di glopria in gloria, secondo l'azione dello Spirito del Signore."
+                    array('ebd','',"In te, Signore, la fonte della vita:"),
+                    array('ris','',"nella tua luce vediamo la luce.")
                 );
             }
             elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"Rm 8,16-17",
-                    "testo"=>"Lo Spirito stesso attesta al nostro spirito che siamo figli di Dio. E se siamo figli, siamo anche eredi: eredi di Dio, coeredi di Cristo, se veramente partecipiamo alle sue sofferenze per partecipare anche alla sua gloria."
+                    array('ris','',"Splendore e maestà dinanzi a Dio."),
+                    array('ebd','',"Forza e bellezza nel suo santuario."),
+                    array('*','2',"Alleluia, alleluia.")
                 );
             }
         }
@@ -2586,38 +2673,41 @@ class Responsorio {
             //Assunzione
             if($this->actual['ora']=='ves1') {
                 $this->info=array(
-                    "titolo"=>"Rm 8,30",
-                    "testo"=>"Quelli che Dio ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
+                    array('ris','',"È festa per gli angeli in cielo:"),
+                    array('ebd','',"Lode e onore al nostro Dio:"),
+                    array('*','2',"Maria è assunta nella gloria.")
                 );
             }
             elseif($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Is 61,10",
-                    "testo"=>"Io gioisco pienamente nel Signore, la mia anima esulta nel mio Dio, perché mi ha rivestito delle vesti di salvezza, mi ha avvolto con il manto della giustizia, come una sposa che si adorna gi gioielli."
+                    array('ris','',"Oggi la Vergine Maria"),
+                    array('ebd','',"Trionfa per sempre con Cristo,"),
+                    array('*','2',"è accolta nei cieli.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Gdt 13,22b.23b",
-                    "testo"=>"Il Signore con la sua potenza t'ha benedetta, e per tuo mezzo ha annientato i nostri nemici. Benedetta sei tu, figlia, davanti al Dio Altissimo, più di tutte le donne che vivono sulla terra."
+                    array('ebd','',"Maria è assunta in cielo: esultano gli angeli,"),
+                    array('ris','',"lodano e benedicono il Signore.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Ap 12,1",
-                    "testo"=>"Nel cielo apparve un segno grandioso: una donna vestita di sole, con la luna sotto i suoi piedi e sul suo capo una corona di dodici stelle."
+                    array('ebd','',"L'umile serva del Signore è innalzata"),
+                    array('ris','',"sopra gli angeli e i santi, nel regno dei cieli.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"2Cor 5,1",
-                    "testo"=>"Sappiamo che quando verrà disfatto questo corpo, nostra abitazione sulla terra, riceveremo una abitazione da Dio, una dimora eterna, non costruita da mani di uomo, nei cieli."
+                    array('ebd','',"Maria entra nella dimora del cielo,"),
+                    array('ris','',"siede con Cristo su un trono di stelle.")
                 );
             }
             elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"1Cor 15,22-23",
-                    "testo"=>"Come tutti muoiono in Adamo, così tutti riceveranno la vita in Cristo. Ciascuno però nel suo ordine: prima Cristo, che è la primizia; poi, alla sua venuta, quelli che sono di Cristo."
+                    array('ris','',"Maria è innalzata nel regno"),
+                    array('ebd','',"Benedetto il Signore che l'ha esaltata"),
+                    array('*','2',"sopra gli angeli e i santi.")
                 );
             }
         }
@@ -2626,32 +2716,34 @@ class Responsorio {
             //Esaltazione della Santa Croce
             if($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Eb 2,9b-10",
-                    "testo"=>"Vediamo Gesù coronato di gloria e di onore a causa della morte che ha sofferto, perché per la grazia di Dio egli sperimentasse la morte a vantaggio di tutti. Ed era ben giusto che colui, per il quale e dal quale sono tutte le cose, volendo portare molti figli alla gloria, rendesse perfetto mediante la sofferenza il capo che li guida alla salvezza."
+                    array('ris','',"Noi ti adoriamo,"),
+                    array('ebd','',"Con la tua croce hai redento il mondo:"),
+                    array('*','2',"ti benediciamo, o Cristo.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Eb 5,7-9",
-                    "testo"=>"Cristo nei giorni della sua vita terrena offrì preghiere e suppliche con forti grida e lacrime a colui che poteva liberarlo da morte e fu esaudito per la sua pietà. Pur essendo Figlio, imparò l'obbedienza dalle cose che patì e, reso perfetto, divenne causa di salvezza eterna per tutti  coloro che gli obbediscono."
+                    array('ebd','',"Noi ti adoriamo, o Cristo, e ti benediciamo:"),
+                    array('ris','',"con la tua croce hai redento il mondo.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Ef 1,7-8",
-                    "testo"=>"In Cristo abbiamo la redenzione mediante il suo sangue, la remissione dei peccati secondo la richezza della sua grazia. Egli l'ha abbondantemente riversata su di noi con ogni sapienza e intelligenza."
+                    array('ebd','',"Tutta la terra ti adori, Signore,"),
+                    array('ris','',"inneggi a te, e canti al tuo nome.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"1Pt 1,18-19",
-                    "testo"=>"Voi sapete che non a prezzo di cose corruttibili, come l'argento e l'oro, foste liberati dalla vostra vuota condotta ereditata dai vostri padri, ma con il sangue prezioso di Cristo, come di agnello senza difetti e senza macchia."
+                    array('ebd','',"Il segno della croce apparirà nel cielo,"),
+                    array('ris','',"quando il Signore tornerà per giudicare.")
                 );
             }
-            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"1Cor 1,23-24",
-                    "testo"=>"Noi predichiamo Cristo crocifisso, scandalo per i Giudei, stoltezza per i pagani; ma per coloro che sono chiamati, sia Giudei che Greci, predichiamo Cristo potenza di Dio e sapienza di Dio."
+                    array('ris','',"Regna su di te il Signore,"),
+                    array('ebd','',"Sul tuo legno lavò le nostre colpe nel sangue,"),
+                    array('*','2',"o croce gloriosa.")
                 );
             }
         }
@@ -2660,78 +2752,77 @@ class Responsorio {
             //Tutti i santi
             if($this->actual['ora']=='ves1') {
                 $this->info=array(
-                    "titolo"=>"Eb 12,22-24",
-                    "testo"=>"Voi vi siete accostati al monte di Sion e alla città del Dio vivente, alla Gerusalemme celeste e a miriadi di angeli, all'adunanza festosa e all'assemblea dei primogeniti iscrittinei cieli, al Dio giudice di tutti e agli spiriti dei giusti portati alla perfezione, al Mediatore della Nuova Alleanza e al sangue dell'aspersione dalla voce più eloquente di quello di Abele."
+                    array('ris','',"Esultano i giusti"),
+                    array('ebd','',"Perfetta letizia, gioia senza fine"),
+                    array('*','2',"alla presenza di Dio.")
                 );
             }
             elseif($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Ef 1,17-18",
-                    "testo"=>"Fratelli, il Dio del Signore nostro Gesù Cristo, il Padre della gloria, vi dia uno spirito di sapienza e di rivelazione per una più profonda conoscenza di lui. Possa egli davvero illuminare gli occhi della vostra mente per farvi comprendere a quale speranza vi ha chiamati, quale tesoro di gloria racchiude la sua eredità fra i santi."
+                    array('ris','',"Siate lieti nel Signore;"),
+                    array('ebd','',"Fedeli di Dio gridate di gioia;"),
+                    array('*','2',"esultate, o giusti.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Is 65,18-19",
-                    "testo"=>"Si godrà e si gioirà sempre di quello che sto per creare, e farò di Gerusalemme una gioia, del suo popolo un gaudio. Io esulterò di Gerusalemme, godrò del mio popolo. Non si udranno più in essa voci di pianto, grida di angoscia."
+                    array('ebd','',"Rallegratevi, esultate, voi santi:"),
+                    array('ris','',"grande è la vostra ricompensa nei cieli.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"1Pt 1,15-16",
-                    "testo"=>"Ad immagine del Santo che vi ha chiamati, diventate santi anche voi in tutta la vostra condotta; poiché sta scritto: Voi sarete santi, perché io sono santo."
+                    array('ebd','',"Cantate inni al Signore, suoi fedeli,"),
+                    array('ris','',"rendete grazie al suo santo nome.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"Ap 21,10-11;22,3b-4",
-                    "testo"=>"L'angelo mi trasportò in spirito su di un monte grande e alto, e mi mostrò la città santa, Gerusalemme, che scendeva dal cielo, da Dio, risplendere della gloria di Dio. Il suo splendore è simile a quello di una gemma preziozissima, come pietra di diaspro cristallino. Il trono di Dio e dell'Agnello sarà in mezzo a lei e i suoi servi lo adoreranno; vedranno la sua faccia e porteranno il suo nome sulla fronte."
+                    array('ebd','',"I giusti loderanno il tuo nome, Signore:"),
+                    array('ris','',"i retti abiteranno alla tua presenza.")
                 );
             }
             elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"2Cor 6,16b:7,1",
-                    "testo"=>"Noi siamo il tempio del Dio vivente, come Dio stesso ha detto: Abiterò in mezzo a loro e con loro camminerò e sarò il loro Dio, ed essi saranno il mio popolo. In possesso dunque di queste promesse, carissimi, purifichiamoci da ogni macchia della carne e dello spirito, portando a compimento la nostra santificazione, nel timore di Dio."
+                    array('ris','',"Santi di Dio,"),
+                    array('ebd','',"Come sua eredità Dio vi ha scelti:"),
+                    array('*','2',"esultate nel Signore.")
                 );
             }
         }
 
         elseif ($this->actual["evCode"]=='1208a') {
             //Immacolata concezione
-            if($this->actual['ora']=='ves1') {
+            if($this->actual['ora']=='lodi') {
                 $this->info=array(
-                    "titolo"=>"Rm 8,29a.30",
-                    "testo"=>"Quelli che Dio da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo. Quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
-                );
-            }
-            elseif($this->actual['ora']=='lodi') {
-                $this->info=array(
-                    "titolo"=>"Pt 8,22-24a",
-                    "testo"=>"Il Signore mi ha creato all'inizio della sua attività, prima di ogni sua opera, fin d'allora. Dall'eternità sono stata costituita, fin dal principio, dagli inizi della terra. Quando non esistevano gli abissi, io fui generata."
+                    array('ris','',"Dio, l'Altissimo,"),
+                    array('ebd','',"Ha reso immaolata la mia vita;"),
+                    array('*','2',"mi ha vestita della sua potenza.")
                 );
             }
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
-                    "titolo"=>"Ef 1,4",
-                    "testo"=>"In Cristo, Dio ci ha scelti prima della creazione del mondo, per essere santi e immacolati al suo cospetto nella carità."
+                    array('ebd','',"Oggi Maria, concepita immacolata,"),
+                    array('ris','',"ha schiacciato la testa all'antico serpente.")
                 );
             }
             elseif($this->actual['ora']=='sesta') {
                 $this->info=array(
-                    "titolo"=>"Ef 1,11-12a",
-                    "testo"=>"In Cristo noi siamo stati predestinati secondo il piano di colui che tutto opera efficacemente conforme alla sua volontà, perché noi fossimo a lode della sua gloria."
+                    array('ebd','',"Esultano il mio cuore e la mia carne,"),
+                    array('ris','',"esultano nel Dio vivente.")
                 );
             }
             elseif($this->actual['ora']=='nona') {
                 $this->info=array(
-                    "titolo"=>"Ef 5,25-27",
-                    "testo"=>"Cristo ha amato la Chiesa e ha dato se stesso per lei, per renderla santa, al fine di farsi comparire davanti la sua Chiesa tutta gloriosa, senza macchia né ruga o alcunché di simile, ma santa e immacolata."
+                    array('ebd','',"Con la tua Immacolata Concezione, Vergine Madre di Dio,"),
+                    array('ris','',"un annunzio di gioia è venuto nel mondo.")
                 );
             }
-            elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+            elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                 $this->info=array(
-                    "titolo"=>"Rm 5,20b-21",
-                    "testo"=>"Laddove è abbondato il peccato, ha sovrabbondato la grazia, perché come il peccato aveva regnato con la morte, così regni anche la grazia con la giustizia per la vita eterna, per mezzo di Gesù Cristo nostro Signore."
+                    array('ris','',"Da questo, o Dio,"),
+                    array('ebd','',"Su di me non trionfa il nemico:"),
+                    array('*','2',"so che tu mi ami.")
                 );
             }
         }
