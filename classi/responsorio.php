@@ -3134,81 +3134,179 @@ class Responsorio {
 
                 if ($f['comune']=='pastori') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"1Pt 5,1-4",
-                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: Pascete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri, secondo Dio; non per vile interesse, ma di buon animo; non spadroneggiando sulle persone a voi affidate, ma facendovi modelli del gregge. E quando apparirà il pastore supremo, riceverete la corona della gloria che non appassisce."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->info=array(
+                                array('ris','',"Sacerdoti del Signore, benedite il Signore!"),
+                                array('ebd','','Lodate, Dio, fedeli e umili di cuore.'),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->info=array(
+                                array('ris','',"Li hai posti come sentinelle, vegliano sulla tua Chiesa."),
+                                array('ebd','','Giorno e notte annunziano il tuo nome.'),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='terza') {
+                            $this->info=array(
+                                array('ebd','',"Il Signore ha scelto il suo servo, alleluia,"),
+                                array('ris','',"guida e maestro del suo popolo, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='sesta') {
+                            $this->info=array(
+                                array('ebd','',"Non mi vergogno del Vangelo, alleluia:"),
+                                array('ris','',"è potenza di Dio per la salvezza, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='nona') {
+                            $this->info=array(
+                                array('ebd','',"Se il Signore non costruisce la casa, alleluia,"),
+                                array('ris','',"i costruttori lavorano invano, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->info=array(
+                                array('ris','',"Vero amico dei tuoi fratelli, prega per il tuo popolo."),
+                                array('ebd','',"Hai dato la vita per i fratelli."),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Eb 13,7-9a",
-                            "testo"=>"Ricordatevi dei vostri capi, i quali vi hanno annunziato la parola di Dio; considerando attentamente l'esito del loro tenore di vita, imitatene la fede. Gesù Cristo è lo stesso di ieri, oggi e sempre! Non lasciatevi sviare da dottrine varie e peregrine."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 4,16",
-                            "testo"=>"Vigila su te stesso e sul tuo insegnamento e sii perseverante: così facendo salverai te stesso e coloro che ti ascoltano."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 1,12",
-                            "testo"=>"Rendo grazie a colui che mi ha dato la forza, Cristo Gesù Signore nostro, perché mi ha giudicato degno di fiducia chiamandomi al ministero."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 3,13",
-                            "testo"=>"Coloro che avranno ben servito, si acquisteranno un grado onorifico e una grande sicurezza nella fede in Cristo Gesù."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"1Ts 2,10-12",
-                            "testo"=>"Fratelli, voi siete testimoni, e Dio stesso è testimone, come è stato santo, giusto, irreprensibile il nostro comportamento verso di voi credenti; e sapete anche che, come fa un padre verso i propri figli, abbiamo esortato ciascuno di voi, incoraggiandovi e scongiurandovi a comportarci in maniera degna di quel Dio che vi ha chiamati al suo regno e alla sua gloria."
-                        );
+
+                    else {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->info=array(
+                                array('ris','',"Sacerdoti del Signore,"),
+                                array('ebd','','Lodate, Dio, fedeli e umili di cuore:'),
+                                array('*','2',"benedite il Signore!")
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->info=array(
+                                array('ris','',"Li hai posti come sentinelle,"),
+                                array('ebd','','Giorno e notte annunziano il tuo nome,'),
+                                array('*','2',"vegliano sulla tua Chiesa.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='terza') {
+                            $this->info=array(
+                                array('ebd','',"Il Signore ha scelto il suo servo,"),
+                                array('ris','',"guida e maestro del suo popolo."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='sesta') {
+                            $this->info=array(
+                                array('ebd','',"Non mi vergogno del Vangelo:"),
+                                array('ris','',"è potenza di Dio per la salvezza."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='nona') {
+                            $this->info=array(
+                                array('ebd','',"Se il Signore non costruisce la casa,"),
+                                array('ris','',"i costruttori lavorano invano."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->info=array(
+                                array('ris','',"Vero amico dei tuoi fratelli,"),
+                                array('ebd','',"Hai dato la vita per i fratelli,"),
+                                array('*','2',"prega per il tuo popolo.")
+                            );
+                        }
                     }
                 }
 
                 if ($f['comune']=='dottori') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"Gc 3,17-18",
-                            "testo"=>"La sapienza che viene dall'alto è anzitutto pura; poi pacifica, mite, arrendevole, piena di misericordia e di buoni frutti, senza parzialità, senza ipocrisia. Un frutto di giustizia viene seminato nella pace per coloro che fanno opera di pace."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->info=array(
+                                array('ris','',"Sulla bocca del giusto parole di sapienza."),
+                                array('ebd','','Nel suo cuore la legge di Dio.'),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->info=array(
+                                array('ris','',"La tua Chiesa, o Dio, canta la sapienza dei santi."),
+                                array('ebd','',"L'assemblea ne proclama le lodi."),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='terza') {
+                            $this->info=array(
+                                array('ebd','',"Il Signore ha scelto il suo servo, alleluia,"),
+                                array('ris','',"guida e maestro del suo popolo, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='sesta') {
+                            $this->info=array(
+                                array('ebd','',"Non mi vergogno del Vangelo, alleluia:"),
+                                array('ris','',"è potenza di Dio per la salvezza, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='nona') {
+                            $this->info=array(
+                                array('ebd','',"Se il Signore non costruisce la casa, alleluia,"),
+                                array('ris','',"i costruttori lavorano invano, alleluia."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->info=array(
+                                array('ris','',"Ha detto le parole di Dio, in mezzo all'assemblea."),
+                                array('ebd','',"Il Signore gli ha dato sapienza e intelligenza."),
+                                array('*','2',"Alleluia, alleluia.")
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Sap 7,13-14",
-                            "testo"=>"Senza frode imparai la sapienza e senza invidia la dono, non nascondo le sue ricchezze. Essa è un tesoro inesauribile per gli uomini; quanti se lo procurano si attirano l'amicizia di Dio, sono a lui raccomandati per i doni del suo insegnamento."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 4,16",
-                            "testo"=>"Vigila su te stesso e sul tuo insegnamento e sii perseverante: così facendo salverai te stesso e coloro che ti ascoltano."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 1,12",
-                            "testo"=>"Rendo grazie a colui che mi ha dato la forza, Cristo Gesù Signore nostro, perché mi ha giudicato degno di fiducia chiamandomi al ministero."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 3,13",
-                            "testo"=>"Coloro che avranno ben servito, si acquisteranno un grado onorifico e una grande sicurezza nella fede in Cristo Gesù."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Gc 3,17-18",
-                            "testo"=>"La sapienza che viene dall'alto è anzitutto pura; poi pacifica, mite, arrendevole, piena di misericordia e di buoni frutti, senza parzialità, senza ipocrisia. Un frutto di giustizia viene seminato nella pace per coloro che fanno opera di pace."
-                        );
+
+                    else {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->info=array(
+                                array('ris','',"Sulla bocca del giusto"),
+                                array('ebd','','Nel suo cuore la legge di Dio,'),
+                                array('*','2',"parole di sapienza.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->info=array(
+                                array('ris','',"La tua Chiesa, o Dio,"),
+                                array('ebd','',"L'assemblea ne proclama le lodi,"),
+                                array('*','2',"canta la sapienza dei santi.")
+                            );
+                        }
+                        elseif($this->actual['ora']=='terza') {
+                            $this->info=array(
+                                array('ebd','',"Il Signore ha scelto il suo servo,"),
+                                array('ris','',"guida e maestro del suo popolo."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='sesta') {
+                            $this->info=array(
+                                array('ebd','',"Non mi vergogno del Vangelo:"),
+                                array('ris','',"è potenza di Dio per la salvezza."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='nona') {
+                            $this->info=array(
+                                array('ebd','',"Se il Signore non costruisce la casa,"),
+                                array('ris','',"i costruttori lavorano invano."),
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->info=array(
+                                array('ris','',"Ha detto le parole di Dio,"),
+                                array('ebd','',"Il Signore gli ha dato sapienza e intelligenza"),
+                                array('*','2',"in mezzo all'assemblea.")
+                            );
+                        }
                     }
                 }
 
