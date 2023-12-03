@@ -2,7 +2,10 @@
 class Cantico {
 
     protected $titolo="";
-    protected $antifona=array();
+    protected $antifona=array(
+        "antifona1",
+        "antifona2"
+    );
     protected $testoBase=array();
     protected $tipo;
 
@@ -21,9 +24,9 @@ class Cantico {
     //protected $methods = array();
     //protected $closure = array();
 
-    function __construct($actual,$tipo) {
+    function __construct($caller,$tipo) {
 
-        $this->actual=$actual;
+        $this->actual=$caller->actual;
         $this->tipo=$tipo;
 
         /*if ($this->tag && $this->tag!="") {
@@ -174,6 +177,75 @@ class Cantico {
 
     function init() {
         //definisci le antifone del Salterio
+        if ($this->actual['weekDay']==0) {
+
+            switch($this->actual['settimana']) {
+
+                case 2:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Disse",
+                                "il Signore a Noè: ho deciso la fine di ogni uomo: fatti un'arca di legno di cipresso per conservare in vita ogni specie di viventi."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "L'amore di Dio",
+                                "è stato riversato nei nostri cuori per mezzo dello Spirito Santo che dimora in noi, alleluia."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Colui che verrà",
+                                    "era prima di me: e io non sono degno di levargli i sandali e di servirlo."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Parla, o Signore,",
+                                    "il tuo servo ti ascolta."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Nozze benedette,",
+                                    "in Cana di galilea, dov'era Gesù con Maria, sua madre!"
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Ecco",
+                                    "l'Agnello di Dio, che toglie il peccato del mondo, alleluia."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Andrea,",
+                                    "fratello di Simon Pietro, fu tra i primi che seguirono il Signore, alleluia."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Venuto a mancare il vino,",
+                                    "Gesù ordinò di riempire le anfore d'acqua; e l'acqua fu mutata in vino, alleluia."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 3:
+                break;
+            }
+        }
     }
 
 
@@ -194,7 +266,7 @@ class Cantico {
 
     function draw() {
 
-        //$this->drawAntifona(true);
+        $this->drawAntifona(true);
 
         echo '<div class="salResBlockTitle" >';
             echo $this->titolo;
@@ -206,7 +278,7 @@ class Cantico {
             }
         echo '</div>';
 
-        //$this->drawAntifona(false);
+        $this->drawAntifona(false);
     }
 
 }

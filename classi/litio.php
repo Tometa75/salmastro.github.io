@@ -235,6 +235,8 @@ class Litio {
             $this->actual['evCode']=$this->vig['evCode'];
             $this->actual['quarto']=$this->vig['quarto'];
             $this->actual['settimana']=$this->vig['settimana'];
+            $this->actual['anno']=$this->vig['anno'];
+            $this->actual['pari']=$this->vig['pari'];
             $this->actual['festa']=array();
             $this->actual['fesCode']="";
         }
@@ -246,6 +248,8 @@ class Litio {
             $this->actual['evCode']=$this->map['evCode'];
             $this->actual['quarto']=$this->map['quarto'];
             $this->actual['settimana']=$this->map['settimana'];
+            $this->actual['anno']=$this->map['anno'];
+            $this->actual['pari']=$this->map['pari'];
             $this->actual['festa']=$this->map['festa'];
             $this->actual['fesCode']=$this->config['festa'];
         }

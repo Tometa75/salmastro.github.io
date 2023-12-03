@@ -3109,7 +3109,7 @@ class Orazione {
 
     function draw() {
 
-        echo '<div class="salResBlockTitle" >';
+        echo '<div class="salResBlockTitle" style="margin-top:30px;">';
             echo $this->info['titolo'];
             //echo '<div>'.json_encode($this->actual).'</div>';
         echo '</div>';
