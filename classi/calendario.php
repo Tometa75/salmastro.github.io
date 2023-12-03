@@ -1718,6 +1718,8 @@ class Calendario {
 		);
 
 		if ( ((int)substr($d,0,4)%2)==0 ) $this->info['pari']=true;
+		//se siamo in avvento l'anno è il successivo
+		if ($this->info['today']>=$this->info['avv1']) $this->info['pari']=!$this->info['pari'];
 
 		$this->info['annoLit']=$this->annoLit($this->info['anno']);
 
