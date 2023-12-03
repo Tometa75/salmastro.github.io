@@ -5,6 +5,7 @@ require_once('salmodia.php');
 require_once('lettura.php');
 require_once('orazione.php');
 require_once('responsorio.php');
+require_once('cantico.php');
 require_once('testo.php');
 
 class Litio {
@@ -262,6 +263,9 @@ class Litio {
                 case 'LB': $this->res['LB']=new Lettura($this);break;
                 case 'RB': $this->res['RB']=new Responsorio($this,'RB');break;
                 case 'RBB': $this->res['RBB']=new Responsorio($this,'RBB');break;
+                case 'ZAC': $this->res['ZAC']=new Cantico($this,'ZAC');break;
+                case 'MAG': $this->res['MAG']=new Cantico($this,'MAG');break;
+                case 'SIM': $this->res['SIM']=new Cantico($this,'SIM');break;
                 case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }

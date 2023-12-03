@@ -4250,14 +4250,16 @@ class Responsorio {
                     //San Gregorio magno
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Sap 8,9a.11-13",
-                            "testo"=>"Avendo la sapienza a compagna della vita, sarò trovato acuto in giudizio, sarò ammirato di fronte ai potenti. Se tacerò, resteranno in attesa; se parlerò, mi presteranno attenzione; se prolungherò il discorso, si porteranno la mano alla bocca. Per essa otterrò l'immortalità, e lascerò un ricordo eterno ai miei successori."
+                            array('ris','',"Li hai posti come sentinelle,"),
+                            array('ebd','',"Giorno e notte annunziano il tuo nome,"),
+                            array('*','2',"vegliano sulla tua Chiesa.")
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"1Pt 5,1-4",
-                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: Pascete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri, secondo Dio; non per vile interesse, ma di buon animo; non spadroneggiando sulle persone a voi affidate, ma facendovi modelli del gregge. E quando apparirà il pastore supremo, riceverete la corona della gloria che non appassisce."
+                            array('ris','',"Ha detto le parole di Dio,"),
+                            array('ebd','',"Il Signore gli ha dato sapienza e intelligenza"),
+                            array('*','2',"in mezzo all'assemblea.")
                         );
                     }
                 }
@@ -4266,66 +4268,70 @@ class Responsorio {
                     //Natività della beata Vergine
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Is 11,1-3a",
-                            "testo"=>"Un germoglio spunterà dal tronco di Iesse, un virgulto germoglierà dalle sue radici. Su di lui si poserà lo spirito del Signore, spirito di sapienza e di intelligenza, spirito di consiglio e di fortezza, spirito di conoscenza e di timore del Signore. Si compiacerà del timore del Signore."
+                            array('ris','',"Il Signore ti ha scelta"),
+                            array('ebd','','Nella sua tenda ti ha fatto abitare,'),
+                            array('*','2',"e ti ha prediletta.")
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
                         $this->info=array(
-                            "titolo"=>"Ct 6,10",
-                            "testo"=>"Chi è costei che sorge come l'aurora, bella come la luna, fulgida come il sole, terribile come schiere a vessilli spiegati?"
+                            array('ebd','',"Beato chi ascolta la parola di Dio,"),
+                            array('ris','',"e la custodisce nel cuore."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"Gdt 13,24a.25a",
-                            "testo"=>"Benedetto il Signore, creatore del cielo e della terra; egli oggi ha reso così grande il tuo nome, che la lode tua non verrà mai meno sulle labbra degli uomini: essi ricorderanno in eterno la potenza del Signore."
+                            array('ebd','',"Beata sei tu, o Vergine Maria!"),
+                            array('ris','',"Hai portato il Figlio dell'Eterno."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"Ap 21,3b",
-                            "testo"=>"Ecco la dimora di Dio con gli uomini! Egli dimorerà tra di loro ed essi saranno suo popolo ed egli sarà il « Dio-con-loro »."
+                            array('ebd','',"Benedetta sei tu fra le donne,"),
+                            array('ris','',"e benedetto il frutto del tuo seno."),
                         );
                     }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Rm 9,4-5",
-                            "testo"=>"Essi sono Israeliti e possiedono l'adozione a figli, la gloria, le alleanze, la legislazione, il culto, le promesse, i patriarchi; da essi proviene Cristo secondo la carne, egli che è sopra ogni cosa, Dio benedetto nei secoli. Amen."
+                            array('ris','',"Ave, Maria, piena di grazia,"),
+                            array('ebd','',"Benedetta tu fra le donne, benedetto il frutto del tuo seno:"),
+                            array('*','2',"il Signore è con te.")
                         );
                     }
                 }
 
                 elseif ($this->actual["fesCode"]=='0915a') {
-                    //Natività della beata Vergine
+                    //Beata Vergine Maria addolorata
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Col 1,24-25",
-                            "testo"=>"Sono lieto delle sofferenze che sopporto per voi e completo nella mia carne quello che manca ai patimenti di Cristo, a favore del suo corpo che è la Chiesa. Di essa sono diventato ministro, secondo la missione affidatami da Dio presso di voi: di realizzare la sua parola."
+                            array('ris','',"Ottienici la salvezza,"),
+                            array('ebd','','Per la passione di Cristo tuo Figlio,'),
+                            array('*','2',"o Vergine Maria.")
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
                         $this->info=array(
-                            "titolo"=>"2Cor 1,3-5",
-                            "testo"=>"Sia benedetto Dio, Padre del Signore nostro Gesù Cristo, Padre misericordioso e Dio di ogni consolazione, il quale ci consola in ogni nostra tribolazione perché possiamo anche noi consolare qualli che si trovano in ogni genere di afflizione con la consolazione con cui siamo sonsolati noi stessi da Dio. Infatti, come abbondano le sofferenze di Cristo in noi, così, per mezzo di Cristo, abbonda anche la nostra consolazione."
+                            array('ebd','',"L'anima mia attende il Signore:"),
+                            array('ris','',"egli è nostro aiuto e nostro scudo."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"Ct 8,6b-7a",
-                            "testo"=>"Forte come la morte è l'amore, tenace come gli inferi è la gelosia: le sua vampe son vampe do fuoco, una fiamma del Signore! Le grandi acque non possono spegnera l'amore né i fiumi travolgerlo."
+                            array('ebd','',"Tutti i tuoi flutti e le tue onde"),
+                            array('ris','',"sopra di me sono passati."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"1Pt 4,13.19",
-                            "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Perciò anche quelli che soffrono secondo il volere di Dio, si mettano nelle mani del loro Creatore fedele e continuino a fare il bene."
+                            array('ebd','',"La vostra tristezza"),
+                            array('ris','',"si muterà in gioia."),
                         );
                     }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"2Tm 2,10-12a",
-                            "testo"=>"Sopporto ogni cosa per gli eletti , perché anch'essi raggiungano la salvezza che è in Cristo Gesù, insieme alla gloria eterna. Certa è questa parola: Se moriamo con lui, vivremo anche con lui; se con lui perseveriamo, con lui anche regneremo."
+                            array('ris','',"Stava Maria"),
+                            array('ebd','',"Affrontò con fortezza il martirio del cuore,"),
+                            array('*','2',"presso la croce del Figlio.")
                         );
                     }
                 }
@@ -4334,32 +4340,34 @@ class Responsorio {
                     //San Michele e tutti gli angeli
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Gen 28,12-13a",
-                            "testo"=>"Giacobbe fece un sogno: una scala poggiava sulla terra, mentre la sua cima raggiungeva il cielo; ed ecco gli angeli di Dio salivano e scendevano su di essa. Ecco il Signore gli stava davanti e disse:« Io sono il Signore, il Dio di Abramo tuo padre e il Dio di Isacco »."
+                            array('ris','',"Un angelo apparve"),
+                            array('ebd','',"Portava in mano un turibolo d'oro"),
+                            array('*','2',"accanto all'altare del tempio.")
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
                         $this->info=array(
-                            "titolo"=>"Ap 5,11-12",
-                            "testo"=>"Intesi le voci di molti angeli intorno al trono e agli esseri viventi e ai vegliardi. Il loro numero era miriadi di miriadi e migliaia di migliaia e dicevano a gran voce: Gloria al nostro Dio."
+                            array('ebd','',"Saliva a Dio il profumo degli aromi"),
+                            array('ris','',"dalla mano dell'angelo."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"Ap 1,1-2",
-                            "testo"=>"Rivelazione di Gesù Cristo che egli manifestò inviando il suo angelo al suo servo Giovanni. Questi attesta la parola di Dio e la testimonianza di Gesù, riferendo ciò che ha visto."
+                            array('ebd','',"Benedite il Signore, suoi angeli,"),
+                            array('ris','',"pronti alla voce della sua parola."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"Ap 12,7-8",
-                            "testo"=>"Scoppiò una guerra nel cielo: Michele e i suoi angeli combattevano contro il drago. Il drago combatteva insieme con i suoi angeli, ma non prevalsero e non ci fu più posto per essi in cielo."
+                            array('ebd','',"Alla presenza degli angeli canto per te,"),
+                            array('ris','',"mi prostro verso il tuo santo tempio, e rendo grazie al tuo nome, Signore."),
                         );
                     }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    elseif($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Ap 1,4b-5",
-                            "testo"=>"Grazia a voi e pace da Colui che è, che era e che viene, dai sette spiriti che stanno davanti al suo trono, e da Gesù Cristo, il testimone fedele, il primogenito dei morti e il principe dei re della terra, che ci ama e ci ha liberati dai nostri peccati con il suo sangue."
+                            array('ris','',"Saliva a Dio"),
+                            array('ebd','',"Dalla mano dell'angelo"),
+                            array('*','2',"il profumo degli aromi.")
                         );
                     }
                 }
@@ -4368,118 +4376,129 @@ class Responsorio {
                     //Angeli custodi
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Es 23,20-22",
-                            "testo"=>"Ecco, io mando un angelo davanti a te per custodirti sul cammino e per farti entrare nel luogo che ho preparato. Abbi rispetto della sua presenza, ascolta la sua voce e non ribellarti a lui; egli infatti non perdonerebbe la tua trasgressione perché il mio nome è in lui. Se tu ascolti la sua voce e fai quanto ti dirò, io sarò il nemico dei tuoi nemici e l'avversario dei tuoi avversari."
+                            array('ris','',"Davanti agli angeli"),
+                            array('ebd','',"Rendo grazie al tuo nome,"),
+                            array('*','2',"canto per te, mio Dio.")
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
                         $this->info=array(
-                            "titolo"=>"At 5,17-20",
-                            "testo"=>"Si alzò il sommo sacerdote con quelli della sua parte, cioè la setta dei sadducei; pieni di livore, fatti arrestare gli apostoli, li fecero gettare nella prigione pubblica. Ma durante la notte un angelo del Signore aprì le porte della prigione, li condusse fuori e disse:« Andate, e mettetevi a predicare al popolo nel tempio tutte queste parole di vita »."
+                            array('ebd','',"Davanti agli angeli canto per te, mio Dio;"),
+                            array('ris','',"nel tuo tempio ti adoro e rendo grazie."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"At 12,7",
-                            "testo"=>"Ed ecco gli si presentò un angelo del Signore e una luce sfolgorò nella cella. Egli toccò il fianco di Pietro, lo destò e disse:« Alzati, in fretta! ». E le catene gli caddero dalle mani."
+                            array('ebd','',"Il Signore ha mandato il suo angelo,"),
+                            array('ris','',"e mi ha liberato dalla mano di Erode."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"At 10,3-5",
-                            "testo"=>"Un giorno, verso le tre del pomeriggio, Cornelio vide chiaramente in visione un angelo di Dio venirgli incontro e chiamarlo:« Cornelio! ». Egli lo guardò e preso da timore disse:« Che c'è Signore? ». Gli rispose:« Le tue preghiere e le tue elemosine sono salite, in tua memoria, innanzi a Dio. E ora manda degli uomini a Giaffa e fa' venire un certo Simone detto anche Pietro »."
+                            array('ebd','',"Come profumo d'incenso, le preghiere dei santi"),
+                            array('ris','',"dalla mano dell'angelo, salivano a Dio."),
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Ap 8,3-4",
-                            "testo"=>"Venne un angelo e si fermò all'altare, reggendo un incensiere d'oro. Gli furono dati molti profumi perché gli offrisse insieme con le preghiere di tutti i santi bruciandoli sull'altare d'oro, posto davanti al trono. E dalla mano dell'angelo il fumo degli aromi salì davanti a Dio, insieme con le preghiere dei santi."
+                            array('ris','',"Ai suoi angeli ti ha affidato:"),
+                            array('ebd','',"Ti porteranno sulle loro mani,"),
+                            array('*','2',"custodiranno la tua via.")
                         );
                     }
                 }
 
                 elseif ($this->actual["fesCode"]=='1018a') {
-                    //Angeli custodi
+                    //San Luca
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"1Cor 15,1-2a.3-4",
-                            "testo"=>"Vi rendo noto, fratelli, il vangelo che vi ho annunziato e che voi avete ricevuto, nel quale restte saldi, e dal quale anche ricevete la salvezza. Vi ho trasmesso dunque, anzitutto, quello che anch'io ho ricevuto: che cioè Cristo morì per i nostri peccati secondo le Scritture, fu sepolto ed è risuscitato il terzo giorno secondo le Scritture."
+                            array('ris','',"Hanno esaltato"),
+                            array('ebd','',"E i prodigi che egli ha compiuto;"),
+                            array('*','2',"la potenza del Signore.")
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Col 1,3-6a",
-                            "testo"=>"Noi rendiamo continuamente grazie a Dio, Padre del Signore nostro Gesù Cristo, nelle nostre preghiere per voi, per le nostizie ricevute circa la vostra fede in Cristo Gesù, e la carità che avete verso tutti i santi, in vista della speranza che vi attende nei cieli. Di questa speranza voi avete già udito l'annunzio dalla parola di verità del vangelo che è giunto a voi, come pure in tutto il mondo fruttifica e si sviluppa."
+                            array('ris','',"Annunziate tra i popoli"),
+                            array('ebd','',"Proclamate in tutte le nazioni:"),
+                            array('*','2',"le meraviglie del Signore.")
                         );
                     }
                 }
 
                 elseif ($this->actual["fesCode"]=='1113a') {
-                    //Angeli custodi
+                    //santi monaci
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Col 3,15-16",
-                            "testo"=>"La pace di Cristo regni nei vostri cuori, perchè ad essa siete stati chiamati in un solo corpo. E siate riconoscenti! La parola di Cristo dimori tra voi abbondantemente; ammaestratevi e ammonitevi con ogni sapienza, cantando a Dio di cuore e con gratitudine salmi, inni e cantici spirituali."
+                            array('ris','',"Beati quelli che dimorano"),
+                            array('ebd','',"Sempre cantano le tue lodi,"),
+                            array('*','2',"nella tua case.")
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
                         $this->info=array(
-                            "titolo"=>"1Pt 3,10-11",
-                            "testo"=>"Chi vuole amare la vita e vedere giorni felici, trattenga la sua lingua dal male e le sue labbra da parole d'inganno; eviti il male e faccia il bene, cerchi la pace e la segua."
+                            array('ebd','',"Sostienimi secondo la tua parola e avrò la vita,"),
+                            array('ris','',"non deludermi nella mia speranza."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"1Gv 2,15.17",
-                            "testo"=>"Non amate il mondo, né le opere del mondo! Se uno ama il mondo, l'amore del Padre non è in lui. Il mondo passa con la sua concupiscenza, ma chi fa la volontà di Dio rimane in eterno."
+                            array('ebd','',"Quanto amo la tua legge, Signore!"),
+                            array('ris','',"Tutto il giorno la vado meditando."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"Col 3,2-4",
-                            "testo"=>"Pensate alle cose di lassù, non a quelle della terra. Voi infatti siete morti e la vostra vita è nascosta con Cristo in Dio. Quando si manifesterà Cristo, la vostra vita, allora anche voi sarete manifestati con lui nella gloria."
+                            array('ebd','',"Noi siamo stranieri davanti a te, Signore,"),
+                            array('ris','',"e pellegrini come i nostri padri."),
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"1Pt 3,8.9b",
-                            "testo"=>"Siate tutti concordi, partecipi delle gioie e dei dolori degli altri, animati da affetto fraterno, misericordiosi, umili, poiché a questo siete stati chiamati per avere in eredità la benedizione."
+                            array('ris','',"Gioite nel Signore,"),
+                            array('ebd','',"Giubilate, voi tutti retti di cuore,"),
+                            array('*','2',"ed esultate, giusti.")
                         );
                     }
                 }
 
                 elseif ($this->actual["fesCode"]=='1116a') {
-                    //Angeli custodi
+                    //Santa Geltrude
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            "titolo"=>"Ct 3,4b",
-                            "testo"=>"Trovai l'amato del mio cuore. Lo strinsi fortemente e non lo lascerò finché non l'abbia condotto in casa di mia madre, nella stanza della mia genetrice."
+                            array('ris','',"Di te ha detto il mio cuore:"),
+                            array('ebd','',"Non nasconderti a me, Signore:"),
+                            array('*','2',"Io cerco il tuo volto.")
+                        );
+                    }
+                    elseif($this->actual['ora']=='terza') {
+                        $this->info=array(
+                            array('ebd','',"Questa è una vergine saggia:"),
+                            array('ris','',"è nella schiera delle vergini prudenti."),
                         );
                     }
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
-                            "titolo"=>"Ct 8,6a",
-                            "testo"=>"Mettimi come sigillo nel tuo cuore, come sigillo sul tuo braccio, perché forte come la morte è l'amore."
+                            array('ebd','',"La soccorrerà Dio prima del mattino:"),
+                            array('ris','',"Dio sta in essa, non potrà vacillare."),
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            "titolo"=>"Ct 2,13b-14",
-                            "testo"=>"Alzati, amica mia, mia bella, e vieni! O mia colomba, che stai nelle fenditure della roccia, nei nascondigli dei dirupi, mostrami il tuo viso, fammi sentire la tua voce, perché la tua voce è soave e il tuo viso leggiadro."
+                            array('ebd','',"Fu eletta da Dioe fu amata:"),
+                            array('ris','',"egli la fece abitare nella sua tenda."),
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
-                            "titolo"=>"Ap 19,6b-7",
-                            "testo"=>"Ha preso possesso del suo regno il Signore, il nostro Dio, l'Onnipotente. Rallegriamoci ed esultiamo, rendiamo a lui gloria, perché sono giunte le nozze dell'Agnello; la sua sposa è pronta."
+                            array('ris','',"Santi di Dio,"),
+                            array('ebd','',"Dio vi ha scelti come sua eredità:"),
+                            array('*','2',"rallegratevi nel Signore.")
                         );
                     }
                 }
-                
             }
-
-        }
-            
+        }     
     }
 
     function draw() {

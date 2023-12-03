@@ -34,4 +34,8 @@ Starting Readings
 End Readings
 Starting Short Prayer
 
+26.11.2023
+End Short Prayer
+Starting Canticle
+
 
