@@ -1339,6 +1339,311 @@ class Cantico {
                         }
                     }
                 break;
+
+                case 21:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Sforziamoci",
+                                "di vivere con sobrietà, giustizia e pietà in questo mondo, nell'attesa della beata speranza dell'incontro col Signore."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Il Signore",
+                                "ci ha sccelti a lode e gloria della sua grazia: Riempi, Signore, i nostri cuori del tuo Santo Spirito."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Tu sei Pietro,",
+                                    "e su questa pietra edificherò la mia Chiesa."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Io sono la via,",
+                                    "la verità e la vita: nessuno viene al Padre se non  per me, alleluia."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Verranno a te",
+                                    "quelli che ti disprezzavano, e si prostreranno ai tuoi piedi."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Tutto ciò",
+                                    "che avrai legato sulla terra sarà legato anche nei cieli, e tutto ciò che avrai sciolto sulla terra sarà sciolto anche nei cieli, dice il Signore a Simon Pietro."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Chi segue me",
+                                    "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Molti",
+                                    "verranno da oriente e da occidente, e siederanno con Abramo vostro padre alla tavola del regno."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 22:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "So bene",
+                                "a chi ho creduto, e sono convinto che egli, giudice giusto, è capace di conservare fino a quel giorno il deposito che mi è stato affidato."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Preparati,",
+                                "o Israele, ad incontrare il Signore."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Offriamo i nostri corpi",
+                                    "come sacrificio vivente, santo e gradito a Dio; portiamo sempre nel nostro corpo la morte di Gesù, perché anche la sua vita si manifesti in noi."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Il Signore",
+                                    "apra il vostro cuore alla sua legge e ai suoi comandi, e vi conceda la pace."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Siamo venuti",
+                                    "al monte santo, alla città del Dio vivente."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Chi vuol venire",
+                                    "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Ascoltate",
+                                    "e comprendete le tradizioni che il Signore vi ha dato."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Quando",
+                                    "sei invitato a nozze, va' a sederti all'ultimo posto, perché chi ti ha invitato ti dica: Amico, sali più su: e ne avrai onore agli occhi di tutti i commensali, alleluia."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 23:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Ed ecco",
+                                "una voce dal cielo che disse: Questi è il Figlio mio prediletto, nel quale mi sono compiaciuto. Ascoltatelo!"
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Ecco,",
+                                "metto le mie parole sulla tua bocca, e ti costituisco sopra i popoli e sopra i regni."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Se due di voi",
+                                    "si accorderanno per domandare qualunque cosa, il Padre mio ve la concederà, dice il Signore."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Ha fatto bene",
+                                    "ogni cosa: fa udire i sordi e fa parlare i muti."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Chi odia",
+                                    "la sua vita in questo mondo, la conserva per la vita eterna."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Dove",
+                                    "due o tre sono riuniti nel mio nome, io sono in mezzo a loro, dice il Signore."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Ha fatto bene",
+                                    "ogni cosa: fa udire i sordi e fa parlare i muti."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Chi vuol venire",
+                                    "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 24:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Signore,",
+                                "Re onnipotente, tutte le cose dipendono falla tua parola: nessuno può resistere alla tua volontà."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Per il grande amore",
+                                "con il quale ci ha amati, Dio mandò il suo Figlio in una carne simile a quella del peccato."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Disse",
+                                    "il padrone al servo: Rendimi quello che mi devi, il servo, gettandosi a terra, lo supplicava dicendo: Abbi pazienza con me e ti renderò tutto."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Non ho sottratto",
+                                    "la mia faccia agli insulti e agli sputi."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Chi di voi",
+                                    "se ha cento pecore e ne perde una, non lascia le novantanove nel deserto e va in cerca di quella perduta, finché non la ritrova?"
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Servo malvagio!",
+                                    "Io ti ho condonato tutto il debito perché mi avevi supplicato. Non dovevi dunque anche tu aver pietà del tuo compagno, come io ho avuto pietà di te?"
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Chi vuol venire",
+                                    "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Quale donna",
+                                    "se ha dieci dramme e ne perde una, non accende la lucerna e spazza la casa e cerca attentamente finché non la ritrova?"
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 25:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Non ricordare,",
+                                "Signore, le mie colpe, non punirmi per i miei peccati."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Vidi il Signore",
+                                "seduto su un trono alto ed elevato; tutta la terra era piena della sua gloria e i lembi del suo manto riempivano il tempio."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Il regno dei cieli",
+                                    "è simile a un padrone che uscì all'alba per cercare operai per la sua vigna."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Il Figlio dell'uomo",
+                                    "sarà consegnato ai pagani per essere schernito, flagellato e crocifisso."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Disse",
+                                    "il padrone al suo fattore: Cosa sento dire di te? rendi conto della tua amministrazione."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Il padrone",
+                                    "disse agli operai: Perché ve ne state tutto il giorno in ozio? Perché nessuno ci ha assunto. Andate anche voi nella mia vigna, e vi darò ciò che è giusto."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Il primo tra voi",
+                                    "serva i fratelli, perché chi si esalta sarà umiliato, dice il Signore."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Che farò ora",
+                                    "che il padrone mi toglie l'amministrazione? Zappare? non ne ho la forza. Mendicare? mi vergogno. So io cosa farò, perché quando mi sarà tolta l'amministrazione qualcuno mi accolga in casa sua."
+                                );
+                            break;
+                        }
+                    }
+                break;
             }
         }
     }
