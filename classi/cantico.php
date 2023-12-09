@@ -1644,6 +1644,494 @@ class Cantico {
                         }
                     }
                 break;
+
+                case 26:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Signore Dio,",
+                                "tu hai dato la salvezza per mano di una donna: ascolta la peghiera dei tuoi servi."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Ricordati,",
+                                "te ne prego, Signore, che ho camminato davanti a te con fedeltà e cuore integro, e che ho compiuto quello che è bene ai tuoi occhi."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Non chiunque dice:",
+                                    "Signore, signore, entrerà nel regno dei cieli, ma chi fa la volontà del Padre mio che è nei cieli."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Chi non raccoglie",
+                                    "con me, disperde: e chi non è con me, è contro di me."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Figlio,",
+                                    "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora lui è nella gioia, e tu nei tormenti."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Convertitevi,",
+                                    "dice il Signore: il regno dei cieli è vicino, alleluia."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Se cercate",
+                                    "di giungere al culmine del vero onore, correte con impegno verso la patria celeste."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Una goccia d'acqua",
+                                    "chiese quel ricco, che a Lazzaro aveva negato le briciole di pane."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 27:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Ogni sapienza",
+                                "viene dal Signore ed è con lui da sempre e per sempre."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Vedi, Signore,",
+                                "la mia oppressione: il mio nemico trionfa."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "I malvagi",
+                                    "saranno perduti; il Signore consegnerà la sua vigna ad altri che gli daranno i frutti a suo tempo."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Lasciate",
+                                    "che i piccoli vengano a me: a loro appartiene il regno di Dio."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "O donna,",
+                                    "davvero grande è la tua fede! ti sia fatto come desideri."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Chi è da Dio,",
+                                    "ascolta la parola di Dio; voi non l'ascoltate, perché non siete da Dio."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Procuratevi",
+                                    "tesori in cielo, dove né tignola né ruggine consumano."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Gesù",
+                                    "si fermò, comandò che gli conducessero il cieco e gli disse: Che vuoi che io faccia per te? Signore, che io veda! Gesù gli disse: Vedi! la tua fede ti ha salvato. E subito vide e lo seguì, glorificando Dio."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 28:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Ho posto",
+                                "la mia dimora nel cielo, il mio trono su una colonna di nubi."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "La mano del Signore",
+                                "è su di me: toccò la mia bocca e mi fece profeta per le nazioni."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Dite agli invitati:",
+                                    "Ecco, ho preparato il mio banchetto, venite alle nozze, alleluia."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Avete abbandonato",
+                                    "ogni cosa per seguirmi: avrete cento volte tanto, e la vita eterna."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Entrando Gesù",
+                                    "in un villaggio, gli vennero incontro dieci lebbrosi, e, fermatisi a distanza, gli gridarono: Gesù Maestro, abbi pietà di noi!"
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Entrò il re",
+                                    "per vedere i commensali, e vide un uomo che non indossava l'abito di nozze, e gli disse: Amico, come mai sei entrato senza la veste nuziale?"
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Non angustiatevi",
+                                    "dicendo: Che mangeremo, che berremo? Il Padre vostro sa che cosa vi è necessario."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Uno dei lebbrosi,",
+                                    "guarito da Gesù, ritornò da lui acclamando: Gloria a Dio! alleluia."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 29:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Ricompensa, Signore,",
+                                "quelli che sperano in te; i tuoi profeti siano degni di fede."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Dio",
+                                "verrà dall'alto, e splenderà come il sole."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Maestro,",
+                                    "sappiamo che sei veritiero e insegni con verità la via di Dio."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "È stato offerto",
+                                    "perché lo ha voluto; è lui che ha portato le nostre colpe."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Quando",
+                                    "il Figlio dell'uomo verrà, troverà ancora fede sulla terra?"
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Rendete a Cesare",
+                                    "quello che è di Cesare, e a Dio quello che è di Dio."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Chi mi vuol servire,",
+                                    "mi segua: e dove sono io, là sarà anche il mio servo."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Finora",
+                                    "non avete chiesto nulla nel mio nome: chiedete ed otterrete, alleluia."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 30:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Pregai",
+                                "e mi fu elargita la prudenza, implorai e venne in me lo spirito di sapienza."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Il mio cuore",
+                                "si fonde come cera, tremano tutte le mie ossa."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Questo",
+                                    "è il comandamento più grande: Ama il Signore tuo Dio con tutto il cuore, alleluia."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Figlio di Davide,",
+                                    "abbi pietà di me! Che vui che io faccia per te? Signore, che io veda!"
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "In fondo al tempio,",
+                                    "con gli occhi bassi, il pubblicano si batteva il petto: O Dio, pietà di me peccatore!"
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Maestro,",
+                                    "che devo fare per possedere la vita eterna? Gesù gli disse: Che cosa è scritto nella legge? Amerai il Signore Dio tuo con tutto il tuo cuore."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Gesù",
+                                    "si fermò, comandò che gli conducessero il cieco e gli disse: Che vuoi che io faccia per te? Signore, che io veda! Gesù gli disse: Vedi! la tua fede ti ha salvato. E subito vide e lo seguì, glorificando Dio."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Questi",
+                                    "tornò a casa sua giustificato, a differenza dell'altro: perché chi si esalta sarà umiliato, e chi si umilia sarà esaltato."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 31:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Hai nutrito",
+                                "il tuo popolo con il cibo degli angeli, gli hai dato pane dal cielo, alleluia."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Vedi, Signore,",
+                                "la mia oppressione: il mio nemico trionfa."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Uno solo",
+                                    "è il vostro Maestro, che è nei cieli: Cristo Signore."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Questo",
+                                    "è il comandamento più grande: Ama il Signore tuo Dio con tutto il cuore, alleluia."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Zaccheo,",
+                                    "scendi subito, oggi devo fermarmi a casa tua. Scese e accolse il Signore con grande gioia. Oggi la salvezza è entrata in questa casa, alleluia."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Voi",
+                                    "siete tutti fratelli: uno solo è il vostro Padre, che è nei cieli, uno solo il vostro Maestro: Cristo."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Maestro,",
+                                    "che devo fare per possedere la vita eterna? Gesù gli disse: Che cosa è scritto nella legge? Amerai il Signore Dio tuo con tutto il tuo cuore."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Ho altre pecore",
+                                    "che non sono di questo ovile: anche queste io devo condurre; ascolteranno la mia voce e siu avrà un solo gregge e un solo pastore."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 32:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Quando",
+                                "vedrete innalzato nel luogo santo l'abominio della desolazione di cui parlò il profeta Daniele, cercate di intendere il senso delle scritture."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Guardatevi",
+                                "dai falsi profeti, che vengono a voi in veste di pecore, ma dentro sono lupi rapaci: li riconoscerete dai loro frutti."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Vergini sagge,",
+                                    "preparate le lampade; viene lo Sposo, andategli incontro."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Quella povera vedova",
+                                    "ha gettato nel tesoro più di tutti gli altri, poiché vi ha messo tutto quello che aveva."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Ti rendo grazie,",
+                                    "Signore, perché mi hai esaudito."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "A mezzanotte",
+                                    "si leva un grido: Ecco lo Sposo, andategli incontro."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Io sono",
+                                    "il Dio dei vostri padri, dice il Signore; ho visto la miseria del mio popolo, ho udito il suo grido, e sono sceso a liberarlo."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Il vostro Dio",
+                                    "è Dio dei vivi, non dei morti: tutti vivono per lui, alleluia."
+                                );
+                            break;
+                        }
+                    }
+                break;
+
+                case 33:
+                    if ($this->actual['ora']=="ves1") {
+                        if($this->actual['pari']) {
+                            $this->antifona=array(
+                                "Tu sorreggi",
+                                "i cieli, o Signore, e scruti il fondo degli abissi; soppesi i monti e tieni la terra nella tua mano: ascoltaci, Signore, nel nostro lamento."
+                            );
+                        }
+                        else {
+                            $this->antifona=array(
+                                "Io sono",
+                                "il buon Pastore: conduco al pascolo le mie pecore, e per loro do la mia vita, alleluia."
+                            );
+                        }
+                    }
+                    elseif ($this->actual['ora']=="lodi") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Signore,",
+                                    "mi hai dato cinque talenti; ne ho guadagnati altri cinque."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "Vedranno",
+                                    "il Figlio dell'uomo venire con grande potenza e gloria, alleluia."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Perseverate,",
+                                    "e salverete la vostra vita."
+                                );
+                            break;
+                        }
+                    }
+                    elseif ($this->actual['ora']=="ves2") {
+                        switch($this->actual['anno']) {
+                            case 'A':
+                                $this->antifona=array(
+                                    "Bene,",
+                                    "servo buono: sei stato fedele nel poco, entra nella gioia del tuo Signore, alleluia."
+                                );
+                            break;
+                            case 'B':
+                                $this->antifona=array(
+                                    "In verità vi dico:",
+                                    "Non passerà questa generazione prima che tutto questo accada: il cielo e la terra passeranno, ma le mie parole non passeranno, dice il Signore."
+                                );
+                            break;
+                            case 'C':
+                                $this->antifona=array(
+                                    "Vi consegneranno",
+                                    "ai sinedri, vi flagelleranno nelle loro sinagoghe, e sarete condotti, per causa mia, davanti a governatori e re, per dare testimonianza a loro e alle genti."
+                                );
+                            break;
+                        }
+                    }
+                break;
             }
         }
     }
