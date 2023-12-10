@@ -140,6 +140,8 @@ class Cantico {
 
         $this->init();
 
+        $this->build();
+
     }
 
     /*definisce in maniera dinamica nuovi metodi
@@ -176,8 +178,24 @@ class Cantico {
     */
 
     function init() {
+
+        if ($this->actual['ora']=='comp' || $this->actual['ora']=='comp1') {
+            if ($this->actual['tempo']=='P') {
+                $this->antifona=array(
+                    "Nella veglia",
+                    "salvaci, Signore, nel sonno non ci abbandonare: il cuore vegli con Cristo e il corpo riposi nella pace, alleluia."
+                );
+            }
+            else {
+                $this->antifona=array(
+                    "Nella veglia",
+                    "salvaci, Signore, nel sonno non ci abbandonare: il cuore vegli con Cristo e il corpo riposi nella pace."
+                );
+            }
+        }
+
         //definisci le antifone del Salterio
-        if ($this->actual['weekDay']==0) {
+        elseif ($this->actual['weekDay']==0) {
 
             switch($this->actual['settimana']) {
 
@@ -2134,6 +2152,97 @@ class Cantico {
                 break;
             }
         }
+
+        elseif ($this->actual['weekDay']==1) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "Benedetto",
+                    "il Signore! Ha visitato e redento il suo popolo."
+                );
+            }
+            elseif ($this->actual['ora']=="ves2") {
+                $this->antifona=array(
+                    "Con tutta l'anima",
+                    "glorifico il Signore: umile e povera egli mi ha guardata."
+                );
+            }
+        }
+
+        elseif ($this->actual['weekDay']==2) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "O Signore,",
+                    "hai suscitato una salvezza potente, nella casa di Davide tuo servo."
+                );
+            }
+            elseif ($this->actual['ora']=="ves2") {
+                $this->antifona=array(
+                    "Il mio spirito",
+                    "esulta in Dio, mio salvatore."
+                );
+            }
+        }
+
+        elseif ($this->actual['weekDay']==3) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "Concedi misericordia,",
+                    "Signore, ricorda la tua alleanza con Abramo."
+                );
+            }
+            elseif ($this->actual['ora']=="ves2") {
+                $this->antifona=array(
+                    "Ha fatto di me",
+                    "cose grandi colui che è potente, e Santo è il suo nome."
+                );
+            }
+        }
+
+        elseif ($this->actual['weekDay']==4) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "Dà al tuo popolo,",
+                    "Signore, la conoscenza della salvezza e il perdono dei peccati."
+                );
+            }
+            elseif ($this->actual['ora']=="ves2") {
+                $this->antifona=array(
+                    "Il Signore",
+                    "ha rovesciato i potenti dai troni, ha innalzato gli umili."
+                );
+            }
+        }
+
+        elseif ($this->actual['weekDay']==5) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "Per la grande bontà",
+                    "del nostro Dio, ci ha visitato il sole che sorge dall'alto."
+                );
+            }
+            elseif ($this->actual['ora']=="ves2") {
+                $this->antifona=array(
+                    "Ricordati,",
+                    "o Dio, del tuo amore, come hai promesso ai nostri padri."
+                );
+            }
+        }
+
+        elseif ($this->actual['weekDay']==6) {
+            if ($this->actual['ora']=="lodi") {
+                $this->antifona=array(
+                    "Illumina, Signore,",
+                    "quelli che stanno nelle tenebre, e guida i nostri passi nella via della pace."
+                );
+            }
+        }
+    }
+
+    //################################################################################
+    //################################################################################
+
+    function build() {
+        
     }
 
 
