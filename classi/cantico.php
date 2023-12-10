@@ -2242,7 +2242,84 @@ class Cantico {
     //################################################################################
 
     function build() {
-        
+
+        if ($this->actual['tempo']=='A') {
+
+            if ($this->actual['settimana']==1) {
+                switch($this->actual['weekDay']) {
+                    case 0:
+                        if ($this->actual['ora']=="ves1") {
+                            $this->antifona=array(
+                                "Ecco",
+                                "venire da lontano il Signore: il suo splendore riempie l'universo."
+                            );
+                        }
+                        elseif ($this->actual['ora']=="lodi") {
+                            switch($this->actual['anno']) {
+                                case 'A':
+                                    $this->antifona=array(
+                                        "Convertitevi,",
+                                        "dice il Signore: il regno dei cieli è vicino, alleluia."
+                                    );
+                                break;
+                                case 'B':
+                                    $this->antifona=array(
+                                        "Beato quel servo",
+                                        "che il padrone, al suo ritorno, troverà vigilante."
+                                    );
+                                break;
+                                case 'C':
+                                    $this->antifona=array(
+                                        "Alzatevi",
+                                        "e levate il capo: la vostra redenzione è vicina."
+                                    );
+                                break;
+                            }
+                        }
+                        elseif ($this->actual['ora']=="ves2") {
+                            switch($this->actual['anno']) {
+                                case 'A':
+                                    $this->antifona=array(
+                                        "Lo Spirito Santo",
+                                        "scenderà su di te, Maria: non temere, concepirai nel tuo grembo il Figlio di Dio, alleluia."
+                                    );
+                                break;
+                                case 'B':
+                                    $this->antifona=array(
+                                        "Vigilate:",
+                                        "il Signore nostrto è vicino."
+                                    );
+                                break;
+                                case 'C':
+                                    $this->antifona=array(
+                                        "Maria,",
+                                        "non temere, hai trovato grazia presso Dio: concepirai e darai alla luce un figlio, alleluia."
+                                    );
+                                break;
+                            }
+                        }
+                    break;
+
+                    case 1:
+                        if ($this->actual['ora']=="lodi") {
+                            $this->antifona=array(
+                                "Alza gli occhi,",
+                                "Gerusalemme, vedi la potenza del tuo Re: ecco, il Salvatore viene a liberarti."
+                            );
+                        }
+                        elseif ($this->actual['ora']=="ves") {
+                            $this->antifona=array(
+                                "L'angelo del Signore",
+                                "portò l'annunzio a Maria: e la Vergine cocepì dallo Spirito Santo, alleluia."
+                            );
+                        }
+                    break;
+
+                    case 2:
+                    break;
+                }
+            }
+        }
     }
 
 
