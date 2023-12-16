@@ -562,8 +562,8 @@ class Salmodia {
                     array('1','S','50','','G'),
                     array('2','S','142','','G'),
                     array('3','S','84','','G'),
-                    array('5','C','AT52','','G'),
-                    array('4','S','147','','G')
+                    array('4','C','AT52','','G'),
+                    array('5','S','147','','G')
                     
                 );
             }
@@ -584,8 +584,18 @@ class Salmodia {
                     array('1','S','50','','G'),
                     array('2','S','91','','G'),
                     array('3','S','63','','G'),
-                    array('5','C','AT26','','G'),
-                    array('4','S','150','','G')
+                    array('4','C','AT26','','G'),
+                    array('5','S','150','','G')
+                    
+                );
+            }
+            elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves1') {
+                $this->salmi=array(
+                    array('1','S','115','','G'),
+                    array('2','S','119','','G'),
+                    array('3','S','139','','G'),
+                    array('4','S','140','','G'),
+                    array('5','C','NT11','','G')
                     
                 );
             }
@@ -603,8 +613,8 @@ class Salmodia {
                     array('1','S','115','','G'),
                     array('2','S','119','','G'),
                     array('3','S','139','','G'),
-                    array('5','S','140','','G'),
-                    array('4','C','NT11','','G')                  
+                    array('4','S','140','','G'),
+                    array('5','C','NT11','','G')                  
                 );
             }
 
@@ -630,8 +640,8 @@ class Salmodia {
                     array('1','S','109','','G'),
                     array('2','S','110','','G'),
                     array('3','S','111','','G'),
-                    array('5','S','112','','G'),
-                    array('4','C','NT20','','G')                  
+                    array('4','S','112','','G'),
+                    array('5','C','NT20','','G')                  
                 );
             }
         }
@@ -647,8 +657,8 @@ class Salmodia {
                     array('1','S','109','','G'),
                     array('2','S','110','','G'),
                     array('3','S','111','','G'),
-                    array('5','S','112','','G'),
-                    array('4','C','NT21','','G')                  
+                    array('4','S','112','','G'),
+                    array('5','C','NT21','','G')                  
                 );
             }
             elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -656,8 +666,8 @@ class Salmodia {
                     array('1','S','109','','G'),
                     array('2','S','110','','G'),
                     array('3','S','111','','G'),
-                    array('5','S','112','','G'),
-                    array('4','C','NT22','','G')                  
+                    array('4','S','112','','G'),
+                    array('5','C','NT22','','G')                  
                 );
             }
         }
@@ -3243,6 +3253,35 @@ class Salmodia {
                             "Nella pace",
                             "è la sua dimora, e in Sion la sua abitazione."
                         ));
+                    }
+                    elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves1') {
+                        switch ($s[0]) {
+                            case 1: $this->res[$k]->setAntifona(array(
+                                "Oggi",
+                                "la mia umiliazione è grande: ma domani spezzerò le mie catene."
+                            ));
+                            break;
+                            case 2: $this->res[$k]->setAntifona(array(
+                                "Io sono",
+                                "per la pace, ma quando ne parlo, essi vogliono la guerra."
+                            ));
+                            break;
+                            case 3: $this->res[$k]->setAntifona(array(
+                                "Liberami, o Dio,",
+                                "dai miei nemici."
+                            ));
+                            break;
+                            case 4: $this->res[$k]->setAntifona(array(
+                                "Preservami",
+                                "dal laccio che mi tendono, dagli agguati dei malfattori."
+                            ));
+                            break;
+                            case 5: $this->res[$k]->setAntifona(array(
+                                "O mio popolo,",
+                                "che male ti ho fatto? Che dolore ti ho dato? Rispondimi."
+                            ));
+                            break;
+                        }
                     }
                 }
             }
