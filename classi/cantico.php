@@ -2977,6 +2977,217 @@ class Cantico {
                     );
                 }
             }
+
+            if (substr($this->actual['today'],4,4)=='0102') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Colui che verrà,",
+                        "era prima di me: e io non sono degno di levargli i sandali e servirlo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Gridate giulivi",
+                        "ed esultate, abitanti di Sion, perché grande in mezzo a voi è il Santo d'Israele."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0103') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Dio",
+                        "ha dato a Cristo il trono di Davide: regnerà sul suo popolo per sempre."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Dio",
+                        "ha tanto amato il mondo, che ha dato il suo unico Figlio: chi crede in lui non muore, ma ha la vita eterna, alleluia."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0104') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Nella sua misericordia",
+                        "il nostro Dio ci ha visitati dall'alto come sole che sorge."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Maria",
+                        "ci ha dato il Salvatore. Giovanni lo vide ed esclamò: Ecco l'Agnello di Dio, ecco colui che toglie il peccato dal mondo, alleluia."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0105') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Rallegratevi",
+                        "con Gerusalemme: tutti voi che l'amate, trasalite di gioia!"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Il Signore",
+                        "innalzerà un segno fra le nazioni e radunerà i dispersi d'Israele."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='2DN') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Per voi",
+                        "Chi è il Cristo? Se è figlio di Davide; perché Davide, ispirato dalla Spirito, lo chiama Signore?"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Vergine",
+                        "sempre fedele, hai dato al mondo il Verbo incarnato; te, intatta dopo il parto, acclamiamo: Benedetta fra le donne!"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Ineffabile mistero!",
+                        "Il grembo intatto di una vergine diviene tempio di Dio; colui che da essa prende carne rimane incontaminato. Verranno tutti i popoli e diranno: Gloria a te, Signore!"
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='EPI') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "All'apparire della stella,",
+                        "dissero i magi: Questo è il segno del gran Re: andiamo a cercarlo, portiamogli in dono oro, incenso e mirra. "
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Oggi",
+                        "la Chiesa, lavata dalla colpa nel fiume Giordano, si unisce a Cristo, suo Sposo; accorrono i magi con doni alle nozze regali e l'acqua cambiata in vino rallegra la mensa, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tre prodigi",
+                        "celebriamo in questo giorno santo: oggi la stella ha guidato i magi al presepio, oggi l'acqua è cambiata in vino alle nozze, oggi Cristo è battezzato da Giovanni nel Giordano per la nostra salvezza, alleluia."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0107') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Dall'oriente",
+                        "vennero i magi a Betlemme per adorare il Signore, e offrirono doni preziosi: oro al grande Re; incenso al vero Dio; mirra a colui che doveva morire, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Grande",
+                        "fu la gioia dei magi al vedere la stella: entrati nella casa, offrirono al Signore oro, incenso e mirra."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0108') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Tre doni",
+                        "offrono i magi al Signore, al Figlio di Dio, al gran Re: oro, incenso e mirra, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Luce da luce",
+                        "sei apparso o Cristo: a te i magi offrono doni, alleluia."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0109') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Abbiamo visto",
+                        "la tua stella in Oriente: siamo venuti con doni per adorare il Signore."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Erode",
+                        "interroga i magi: Quale segno avete visto per il Re che è nato? Abbiamo visto una stella lucente: il suo splendore rischiara la terra."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0110') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Da lontano",
+                        "verranno tutte le nazioni, portando i loro doni, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Dalla terra di Saba",
+                        "tutti verranno, portando oro e incenso, e canteranno le lodi del Signore, alleluia."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0111') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Verranno a te",
+                        "quelli che ti disprezzavano, e si prostreranno ai tuoi piedi."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Avvertiti in sogno",
+                        "da un angelo, per un'altra via i magi tornarono al loro paese."
+                    );
+                }
+            }
+
+            if (substr($this->actual['today'],4,4)=='0112') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Ci fu uno sposalizio",
+                        "a Cana di Galilea, e c'era la madre di Gesù."
+                    );
+                }
+            }
         }
     }
 
