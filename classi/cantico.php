@@ -3075,7 +3075,7 @@ class Cantico {
                 if ($this->actual['ora']=="ves1") {
                     $this->antifona=array(
                         "All'apparire della stella,",
-                        "dissero i magi: Questo è il segno del gran Re: andiamo a cercarlo, portiamogli in dono oro, incenso e mirra. "
+                        "dissero i magi: Questo è il segno del gran Re: andiamo a cercarlo, portiamogli in dono oro, incenso e mirra."
                     );
                 }
 
@@ -3188,6 +3188,494 @@ class Cantico {
                     );
                 }
             }
+        }
+
+        /////////////////////////////////////////////
+
+        if ($this->actual['tempo']=='Q') {
+
+            if ($this->actual['evCode']=='CEN') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Quando digiunate,",
+                        "non mostratevi tristi, come gli ipocriti."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Quando fai l'elemosina,",
+                        "non sappia la tua sinistra quello che fa la tua destra."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QC4') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Chi vuole",
+                        "essere mio discepolo, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Chi perde",
+                        "la propria vita per me, la troverà in eterno, dice il Signore."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QC5') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Mi cercano",
+                        "ogni giorno, e vogliono conoscere le mie vie."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tu, quando preghi,",
+                        "entra nella tua stanza e, chiusa la porta, prega il Padre tuo nel segreto."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QC6') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Accumulatevi",
+                        "tesori nel cielo, dove tignola e ruggine non consumano."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QU1') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Non di solo pane",
+                        "vive l'uomo, ma di ogni parola che esce dalla bocca di Dio."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Guidato dallo Spirito,",
+                        "tentato dal demonio, per quaranta giorni Gesù digiunava nel deserto."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Ecco",
+                        "il tempo della grazia, ecco i giorni della salvezza: in questi giorni presentiamoci come ministri di Dio, con molta fermezza, nelle veglie, nei digiuni e in un amore sincero."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q11') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Venite,",
+                        "benedetti dal Padre mio, ricevete l'eredità del regno preparato per voi dall'inizio del mondo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Quello che avete fatto",
+                        "al più piccolo dei miei fratelli, l'avete fatto a me, dice il Signore."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q12') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il Signore",
+                        "esaudisca le vostre preghiere e vi sia propizio: non vi abbandoni nell'ora dell'avversità."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tu, quando preghi,",
+                        "entra nella tua stanza e, chiusa la porta, prega il Padre tuo nel segreto."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q13') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Questo popolo infedele",
+                        "pretende un segno: non avrà altro segno che quello di Giona."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tre giorni",
+                        "e tre notti Giona rimase nel ventre del pesce: così il Figlio dell'uomo nel cuore della terra."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q14') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Se due di voi",
+                        "si accorderanno per domandare qualunque cosa, il Padre mio ve la concederà, dice il Signore."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Chiedete",
+                        "e vi sarà dato; cercate e troverete: bussate e vi sarà aperto."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q15') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Avete inteso",
+                        "che fu detto agli antichi: Non uccidere; chi avrà ucciso sarà sottoposto a giudizio."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Se vuoi",
+                        "che la tua offerta sia gradita al Signore, riconciliati prima con il tuo fratello, e poi torna ad offrire il tuo dono."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q16') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Questo",
+                        "è il mio comandamento: che vi amiate gli uni gli altri, come io vi ho amati."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QU2') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Risuona",
+                        "dal cielo una voce: Questi è il Figlio mio prediletto, in lui mi sono compiaciuto. Ascoltatelo!"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Gesù",
+                        "prese con sé i discepoli, salì sulla montagna e si trasfigurò davanti a loro."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Di questa visione",
+                        "non parlate a nessuno, finché il Figlio dell'uomo non sia risorto dai morti."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q21') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Amate e perdonate",
+                        "come il Padre vostro, dice il Signore."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Non condannate,",
+                        "e non sarete condannati, dice il Signore: come giudicate, così sarete giudicati."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q22') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Uno solo",
+                        "è il vostro Maestro, che è nei cieli: Cristo Signore."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Voi",
+                        "siete tutti fratelli: uno solo è il vostro Padre, che è nei cieli, uno solo il vostro Maestro: Cristo."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q23') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Si rende forse",
+                        "male per bene? Poiché mi hanno scavato una fossa."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Il Figlio dell'uomo",
+                        "sarà tradito, torturato e ucciso: ma il terzo giorno risorgerà."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q24') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Figlio,",
+                        "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora kui è nella gioia, e tu nei tormenti."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Una goccia d'acqua",
+                        "chiese quel ricco, che a Lazzaro aveva negato le briciole di pane."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q25') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "I malvagi",
+                        "saranno perduti; il Signore consegnerà la sua vigna ad altri che gli daranno i frutti a suo tempo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Cercavano",
+                        "di prendere Gesù, ma non osavano: per il popolo egli era un profeta."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q26') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Padre,",
+                        "ho peccato contro di te: non merito di chiamarmi tuo figlio!"
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QU3') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Il Signore",
+                        "apra il vostro cuore alla sua legge e ai suoi comandi, e vi conceda la pace."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Chi beve",
+                                "dell'acqua che io gli darò, non avrà mai più sete."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Portate via di qui",
+                                "queste cose, dice il Signore, e non fate della casa del Padre mio un luogo di mercato."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Io sono",
+                                "il Dio dei vostri padri, dice il Signore; ho visto la miseria del mio popolo, ho udito il suo grido, e sono sceso a liberarlo."
+                            );
+                        break;
+                    }  
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Signore,",
+                                "vedo che sei un profeta: i nostri padri hanno adorato su questo monte."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Distruggete",
+                                "questo tempio, e in tre giorni lo ricostruirò, dice il Signore; egli parlava del tempio del suo corpo."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Non ricordare,",
+                                "Signore, le mie colpe, né quelle dei miei padri: non punirmi per i miei peccati."
+                            );
+                        break;
+                    } 
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q31') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "In verità vi dico:",
+                        "Nessun profeta è ascoltato nella sua patria."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Gesù,",
+                        "rifiutato dai suoi, passò in mezzo a loro e si allontanò."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q32') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Umili e pentiti",
+                        "accoglici, Signore: ti sia gradito il nostro sacrificio che oggi si compie dinanzi a te."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Disse",
+                        "il padrone al servo: Rendimi quello che mi devi. Il servo, gettandosi a terra, lo supplicava dicendo: Abbi pazienza con me e ti renderò tutto."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q33') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Si rende forse",
+                        "male per bene? Poiché mi hanno scavato una fossa."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Il Figlio dell'uomo",
+                        "sarà tradito, torturato e ucciso: ma il terzo giorno risorgerà."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q24') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Figlio,",
+                        "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora kui è nella gioia, e tu nei tormenti."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Una goccia d'acqua",
+                        "chiese quel ricco, che a Lazzaro aveva negato le briciole di pane."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q25') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "I malvagi",
+                        "saranno perduti; il Signore consegnerà la sua vigna ad altri che gli daranno i frutti a suo tempo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Cercavano",
+                        "di prendere Gesù, ma non osavano: per il popolo egli era un profeta."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q26') {
+
+                if ($this->actual['ora']=="lodi") {
+                    
+                    $this->antifona=array(
+                        "Padre,",
+                        "ho peccato contro di te: non merito di chiamarmi tuo figlio!"
+                    );
+                }
+            }
+        }
+
+
+
+        /////////////////////////////////////////////
+
+        if ($this->actual['tempo']=='O') {
+
+            if ($this->actual['evCode']=='BAT') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Ed ecco",
+                        "una voce dal cielo che disse: Questi è il Figlio mio prediletto, nel quale mi sono compiaciuto, Ascoltatelo! Alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Oggi",
+                        "la Chiesa, lavata dalla colpa nel fiume Giordano, si unisce a Cristo, suo Sposo; accorrono i magi con doni alle nozze regali e l'acqua cambiata in vino rallegra la mensa, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tre prodigi",
+                        "celebriamo in questo giorno santo: oggi la stella ha guidato i magi al presepio, oggi l'acqua è cambiata in vino alle nozze, oggi Cristo è battezzato da Giovanni nel Giordano per la nostra salvezza, alleluia."
+                    );
+                }
+            }
+
         }
     }
 
