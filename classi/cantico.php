@@ -236,7 +236,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -297,7 +297,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -358,7 +358,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -419,7 +419,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -480,7 +480,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -541,7 +541,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -602,7 +602,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -663,7 +663,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -724,7 +724,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -785,7 +785,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -846,7 +846,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -907,7 +907,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -968,7 +968,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1029,7 +1029,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1090,7 +1090,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1151,7 +1151,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1212,7 +1212,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1273,7 +1273,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1334,7 +1334,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1395,7 +1395,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1456,7 +1456,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1517,7 +1517,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1578,7 +1578,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1639,7 +1639,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1700,7 +1700,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1761,7 +1761,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1822,7 +1822,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1883,7 +1883,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -1944,7 +1944,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -2005,7 +2005,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -2066,7 +2066,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -2127,7 +2127,7 @@ class Cantico {
                             break;
                         }
                     }
-                    elseif ($this->actual['ora']=="ves2") {
+                    elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
@@ -2160,7 +2160,7 @@ class Cantico {
                     "il Signore! Ha visitato e redento il suo popolo."
                 );
             }
-            elseif ($this->actual['ora']=="ves2") {
+            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "Con tutta l'anima",
                     "glorifico il Signore: umile e povera egli mi ha guardata."
@@ -2175,7 +2175,7 @@ class Cantico {
                     "hai suscitato una salvezza potente, nella casa di Davide tuo servo."
                 );
             }
-            elseif ($this->actual['ora']=="ves2") {
+            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "Il mio spirito",
                     "esulta in Dio, mio salvatore."
@@ -2190,7 +2190,7 @@ class Cantico {
                     "Signore, ricorda la tua alleanza con Abramo."
                 );
             }
-            elseif ($this->actual['ora']=="ves2") {
+            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "Ha fatto di me",
                     "cose grandi colui che è potente, e Santo è il suo nome."
@@ -2205,7 +2205,7 @@ class Cantico {
                     "Signore, la conoscenza della salvezza e il perdono dei peccati."
                 );
             }
-            elseif ($this->actual['ora']=="ves2") {
+            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "Il Signore",
                     "ha rovesciato i potenti dai troni, ha innalzato gli umili."
@@ -2220,7 +2220,7 @@ class Cantico {
                     "del nostro Dio, ci ha visitato il sole che sorge dall'alto."
                 );
             }
-            elseif ($this->actual['ora']=="ves2") {
+            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "Ricordati,",
                     "o Dio, del tuo amore, come hai promesso ai nostri padri."
@@ -2276,7 +2276,7 @@ class Cantico {
                                 break;
                             }
                         }
-                        elseif ($this->actual['ora']=="ves2") {
+                        elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                             switch($this->actual['anno']) {
                                 case 'A':
                                     $this->antifona=array(
@@ -2417,7 +2417,7 @@ class Cantico {
                                 break;
                             }
                         }
-                        elseif ($this->actual['ora']=="ves2") {
+                        elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                             switch($this->actual['anno']) {
                                 case 'A':
                                     $this->antifona=array(
@@ -2558,7 +2558,7 @@ class Cantico {
                                 break;
                             }
                         }
-                        elseif ($this->actual['ora']=="ves2") {
+                        elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                             switch($this->actual['anno']) {
                                 case 'A':
                                     $this->antifona=array(
@@ -2794,7 +2794,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Oggi",
                         "Cristo è nato, è apparso il Salvatore; oggi sulla terra cantano gli angeli, si allietano gli arcangeli; oggi esualtano i giusti, acclamando: Gloria a Dio nell'alto dei cieli, alleluia."
@@ -2930,7 +2930,7 @@ class Cantico {
                     }
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     switch($this->actual['anno']) {
                         case 'A':
                             $this->antifona=array(
@@ -2970,7 +2970,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Ineffabile mistero!",
                         "Il grembo intatto di una vergine diviene tempio di Dio; colui che da essa prende carne rimane incontaminato. Verranno tutti i popoli e diranno: Gloria a te, Signore!"
@@ -3062,7 +3062,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Ineffabile mistero!",
                         "Il grembo intatto di una vergine diviene tempio di Dio; colui che da essa prende carne rimane incontaminato. Verranno tutti i popoli e diranno: Gloria a te, Signore!"
@@ -3086,7 +3086,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Tre prodigi",
                         "celebriamo in questo giorno santo: oggi la stella ha guidato i magi al presepio, oggi l'acqua è cambiata in vino alle nozze, oggi Cristo è battezzato da Giovanni nel Giordano per la nostra salvezza, alleluia."
@@ -3203,7 +3203,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Quando fai l'elemosina,",
                         "non sappia la tua sinistra quello che fa la tua destra."
@@ -3220,7 +3220,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Chi perde",
                         "la propria vita per me, la troverà in eterno, dice il Signore."
@@ -3237,7 +3237,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Tu, quando preghi,",
                         "entra nella tua stanza e, chiusa la porta, prega il Padre tuo nel segreto."
@@ -3271,7 +3271,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Ecco",
                         "il tempo della grazia, ecco i giorni della salvezza: in questi giorni presentiamoci come ministri di Dio, con molta fermezza, nelle veglie, nei digiuni e in un amore sincero."
@@ -3288,7 +3288,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Quello che avete fatto",
                         "al più piccolo dei miei fratelli, l'avete fatto a me, dice il Signore."
@@ -3305,7 +3305,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Tu, quando preghi,",
                         "entra nella tua stanza e, chiusa la porta, prega il Padre tuo nel segreto."
@@ -3322,7 +3322,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Tre giorni",
                         "e tre notti Giona rimase nel ventre del pesce: così il Figlio dell'uomo nel cuore della terra."
@@ -3339,7 +3339,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Chiedete",
                         "e vi sarà dato; cercate e troverete: bussate e vi sarà aperto."
@@ -3356,7 +3356,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Se vuoi",
                         "che la tua offerta sia gradita al Signore, riconciliati prima con il tuo fratello, e poi torna ad offrire il tuo dono."
@@ -3390,7 +3390,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Di questa visione",
                         "non parlate a nessuno, finché il Figlio dell'uomo non sia risorto dai morti."
@@ -3407,7 +3407,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Non condannate,",
                         "e non sarete condannati, dice il Signore: come giudicate, così sarete giudicati."
@@ -3424,7 +3424,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Voi",
                         "siete tutti fratelli: uno solo è il vostro Padre, che è nei cieli, uno solo il vostro Maestro: Cristo."
@@ -3441,7 +3441,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Il Figlio dell'uomo",
                         "sarà tradito, torturato e ucciso: ma il terzo giorno risorgerà."
@@ -3458,7 +3458,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Una goccia d'acqua",
                         "chiese quel ricco, che a Lazzaro aveva negato le briciole di pane."
@@ -3475,7 +3475,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Cercavano",
                         "di prendere Gesù, ma non osavano: per il popolo egli era un profeta."
@@ -3525,7 +3525,7 @@ class Cantico {
                     }  
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     switch($this->actual['anno']) {
                         case 'A':
                             $this->antifona=array(
@@ -3558,7 +3558,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Gesù,",
                         "rifiutato dai suoi, passò in mezzo a loro e si allontanò."
@@ -3575,7 +3575,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Disse",
                         "il padrone al servo: Rendimi quello che mi devi. Il servo, gettandosi a terra, lo supplicava dicendo: Abbi pazienza con me e ti renderò tutto."
@@ -3587,60 +3587,522 @@ class Cantico {
 
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
-                        "Si rende forse",
-                        "male per bene? Poiché mi hanno scavato una fossa."
+                        "In verità vi dico:",
+                        "Non passerà questa generazione prima che tutto questo accada: il cielo e la terra passeranno, ma le mie parole non passeranno, dice il Signore."
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
-                        "Il Figlio dell'uomo",
-                        "sarà tradito, torturato e ucciso: ma il terzo giorno risorgerà."
+                        "Coloro",
+                        "che ricevano al parola di Dio in un cuore ben disposto, portano frutto con perseveranza."
                     );
                 }
             }
 
-            elseif ($this->actual['evCode']=='Q24') {
+            elseif ($this->actual['evCode']=='Q34') {
 
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
-                        "Figlio,",
-                        "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora kui è nella gioia, e tu nei tormenti."
+                        "Se io scaccio i demoni",
+                        "con la forza di Dio, il suo regno è venuto tra voi, dice il Signore."
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
-                        "Una goccia d'acqua",
-                        "chiese quel ricco, che a Lazzaro aveva negato le briciole di pane."
+                        "Beato il grembo",
+                        "che ti ha portato, e il seno che ti ha nutrito. Sì, ma soprattutto beato chi ascolta e custodisce la parola di Dio."
                     );
                 }
             }
 
-            elseif ($this->actual['evCode']=='Q25') {
+            elseif ($this->actual['evCode']=='Q35') {
 
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
-                        "I malvagi",
-                        "saranno perduti; il Signore consegnerà la sua vigna ad altri che gli daranno i frutti a suo tempo."
+                        "Questo",
+                        "è il comandamento più grande: Ama il Signore tuo Dio con tutto il cuore."
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
-                        "Cercavano",
-                        "di prendere Gesù, ma non osavano: per il popolo egli era un profeta."
+                        "Maestro,",
+                        "che devo fare per possedere la vita eterna? Gesù gli disse: Che cosa è scritto nella legge? Amerai il Signore Dio tuo con tutto il tuo cuore."
                     );
                 }
             }
 
-            elseif ($this->actual['evCode']=='Q26') {
+            elseif ($this->actual['evCode']=='Q36') {
 
                 if ($this->actual['ora']=="lodi") {
                     
                     $this->antifona=array(
-                        "Padre,",
-                        "ho peccato contro di te: non merito di chiamarmi tuo figlio!"
+                        "In fondo al tempio,",
+                        "con gli occhi bassi, il pubblicano si batteva il petto: O Dio, pietà di me peccatore!"
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QU4') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Questi",
+                        "tornò a casa sua giustificato, a differenza dell'altro: perché chi si esalta sarà umiliato, e chi si umilia sarà esaltato."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Maestro,",
+                                "ha peccato quest'uomo per nascere cieco? Rispose Gesù: Né lui ha peccato né i suoi genitori, ma è così perché si manifestassero le opere di Dio in lui."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Dio",
+                                "ha tanto amato il mondo, che ha dato il suo unico Figlio: chi crede in lui non muore, ma ha la vita eterna."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Andrò",
+                                "da mio padre e gli dirò: Padre, trattami come uno dei tuoi servi."
+                            );
+                        break;
+                    }  
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Quell'uomo",
+                                "che si chiama Gesù fece del fango con la saliva e mi spalmò gli occhi, e ora ci vedo."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Chi segue me",
+                                "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Il Padre",
+                                "ordinò ai servi: Portate qui l'abito più bello e rivestitelo, mettetegli l'anello al dito e i calzari ai piedi."
+                            );
+                        break;
+                    } 
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q41') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Un ufficiale del re",
+                        "supplicava il Signore: Vieni a guarire mio figlio ammalato."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Gesù",
+                        "aveva detto: Tuo figklio vive. Il padre conobbe l'ora e credette, lui e tutta la sua casa."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q42') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Colui",
+                        "che mi ha guarito ha detto: Prendi il tuo lettuccio e va' in pace."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Il paralitico",
+                        "si alzò, prese il suo lettuccio, e se ne andò glorificando il Signore."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q43') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io non cerco",
+                        "la mia gloria: vi è chi la cerca e giudica."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "In verità,",
+                        "in verità vi dico: Chi osserva la mia parola, non vedrà la morte in eterno."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q44') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Questa",
+                        "è la testimonianza di Giovanni: Colui che viene dopo di me, era prima di me."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Chi è da Dio,",
+                        "ascolta la parola di Dio; voi non l'ascoltate, perché non siete da Dio."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q45') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Dissero gli empi:",
+                        "Opprimiamo il giusto: egli è contro le nostre opere."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Nessuno",
+                        "poteva arrestare Gesù: la sua ora non era venuta."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q46') {
+
+                if ($this->actual['ora']=="lodi") {
+                    
+                    $this->antifona=array(
+                        "A te affido",
+                        "la mia causa, Signore, mio Dio, difensore della mia vita."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='QU5') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Cercavano",
+                        "di pendere Gesù, ma non osavano: per il popolo egli era un profeta."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Lazzaro,",
+                                "l'amico nostro, dorme: andiamo a svegliarlo dal sonno."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Chi odia",
+                                "la sua vita in questo mondo, la conserva per la via eterna."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Gesù,",
+                                "chinatosi, cominciò a scrivere per terra: Chi di voi è senza peccato, scagli la prima pietra."
+                            );
+                        break;
+                    }  
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Signore,",
+                                "se tu fossi stato qui, Lazzaro non sarebbe morto; ora è già da quattro giorni nel sepolcro."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Chi mi vuol servire,",
+                                "mi segua: e dove sono io, là sarà anche il mio servo."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Donna,",
+                                "io non ti condanno: va' in pace, e non peccare più."
+                            );
+                        break;
+                    } 
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q51') {
+
+                if ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Gesù,",
+                                "chinatosi, cominciò a scrivere per terra: Chi di voi è senza peccato, scagli la prima pietra."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Gesù,",
+                                "chinatosi, cominciò a scrivere per terra: Chi di voi è senza peccato, scagli la prima pietra."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Chi segue me",
+                                "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
+                            );
+                        break;
+                    } 
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Donna,",
+                                "io non ti condanno: va' in pace, e non peccare più."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Donna,",
+                                "io non ti condanno: va' in pace, e non peccare più."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Non io soltanto",
+                                "testimonio per me, ma anche il Padre che mi ha mandato."
+                            );
+                        break;
+                    } 
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q52') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "proprio ciò che vi dico."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Chi mi ha mandato",
+                        "è con me; non mi lascia mai solo, perché faccio sempre quello che gli piace."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q53') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Nessuno",
+                        "poteva arrestare Gesù: la sua ora non era venuta."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Perché",
+                        "volete uccidere l'uomo che vi ha detto la verità."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q54') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Chi è da Dio,",
+                        "ascolta la parola di Dio; voi non l'ascoltate, perché non siete da Dio."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Abramo",
+                        "vostro padre, esultò nella speranza di vedere il mio giorno; lo vide e ne gioì."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q55') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Molte opere buone",
+                        "ho compiuto sotto i vostri occhi: per quale di esse volete lapidarmi?."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Si avvicinava",
+                        "la festa dei Giudei e i capi del popolo cercavano come uccidere Gesù, ma temevano il popolo."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='Q56') {
+
+                if ($this->actual['ora']=="lodi") {
+                    
+                    $this->antifona=array(
+                        "I capi dei sacerdoti",
+                        "tennero consiglio per uccidere Gesù; e dicevano: Non durante la festa perché non avvengano tumulti nel popolo."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PAL') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Padre giusto,",
+                        "il mondo non ti ha conosciuto; ma io ti ho conosciuto, perché tu mi hai mandato."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Una grande folla,",
+                        "venuta per la festa, acclamava: Benedetto colui che viene nel nome del Signore! Osanna nell'alto dei cieli!"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "È scritto:",
+                        "Ucciderò il Pastore, e il gregge sarà disperso. Ma, risorto da morte, vi precederò in Galilea: là mi vedrete, dice il Signore."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS1') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Padre giusto,",
+                        "il mondo non ti ha conosciuto; ma io ti ho conosciuto, perché tu mi hai mandato."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Maria",
+                        "unse i piedi di Gesù, li asciugò con i suoi capelli, e tutta la casa si riempì del profumo dell'unguento."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS2') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Glorificami, Padre,",
+                        "davanti a te con la gloria che era mia prima dell'inizio del mondo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Questo potere",
+                        "mi ha dato il Padre: io do la mia vita, e la riprendo."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS3') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il traditore",
+                        "aveva dato loro questo segnale: Colui che bacerò, è lui: catturatelo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Dice il Maestro:",
+                        "Il mio tempo è vicino, farò la Pasqua da te con i miei discepoli."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS4') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Quanto ho desiderato",
+                        "mangiare questa Pasqua con voi, prima di patire!"
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Nell'ultima cena",
+                        "Gesù prese il pane, lo benedisse, lo spezzò e lo diede ai suoi discepoli."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS5') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Sopra la sua testa",
+                        "era scritta l'accusa: Gesù Nazareno, re dei Giudei."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Gesù,",
+                        "preso l'aceto, disse: Tutto è compiuto. E, chinato il capo, spirò."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='SS6') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Le pie donne,",
+                        "sedute vicino al sepolcro, piangevano il Signore."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "I capi dei sacerdoti",
+                        "e dei farisei assicurarono il sepolcro, sigillando la porta e mettendo la guardia."
                     );
                 }
             }
@@ -3668,7 +4130,7 @@ class Cantico {
                     );
                 }
 
-                elseif ($this->actual['ora']=="ves2") {
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Tre prodigi",
                         "celebriamo in questo giorno santo: oggi la stella ha guidato i magi al presepio, oggi l'acqua è cambiata in vino alle nozze, oggi Cristo è battezzato da Giovanni nel Giordano per la nostra salvezza, alleluia."

@@ -1081,6 +1081,12 @@ class Lettura {
                         break;
                     }
                 break;
+                case 'comp':
+                    $this->info=array(
+                        "titolo"=>"Dt 6,4-7",
+                        "testo"=>"Ascolta, Israele: il Signore è il nostro Dio, il Signore è uno solo. Tu amerai il Signore tuo Dio con tutto il cuore, con tutta l'anima e con tutte le forze. Questi precetti che oggi ti do, ti stiano fissi nel cuore; li ripeterai ai tuoi figli, ne parlerai quando sarai seduto in casa tua, quando camminerai per via, quando ti coricherai e quando ti alzerai."
+                    );   
+                break;
             }
         }        
 
