@@ -4108,7 +4108,576 @@ class Cantico {
             }
         }
 
+        /////////////////////////////////////////////
 
+        if ($this->actual['tempo']=='P') {
+
+            if ($this->actual['evCode']=='PAS') {
+
+                if ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Passato il sabato,",
+                                "all'alba del primo giorno della settimana, Maria di Magdala e l'altra Maria andarono a vedere il sepolcro, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Il mattino di Pasqua,",
+                                "appena sorto il sole, le donne vennero al sepolcro, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Correvano",
+                                "tutti e due assieme, ma l'altro discepolo precedette Pietro, e giunse per primo al sepolcro, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Maria Maddalena",
+                                "e l'altra Maria vanno alla tomba per onorare il corpo sepolto, ma non trovano il Signore, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Videro",
+                                "che il masso era stato rotolato via benché fosse molto grande, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Era necessario",
+                                "che il Cristo patisse per risorgere dai morti, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA11') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Presto,",
+                        "andate, dite ai discepoli: Il Signore è risorto, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Uno spirito",
+                        "non ha carne e ossa, come vedete che ho io: dunque, credete! Alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA12') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Maria in pianto,",
+                        "stava fuori, vicino al sepolcro: vide due angeli vestiti di bianco, seduti, e il sudario che era stato sul capo di Gesù, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Hanno portato via",
+                        "il mio Signore, e non so dove lo hanno deposto: se l'hai portato via tu, dimmi dove lo hai posto, alleluia: e io andrò a prenderlo, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA13') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "In tutte le Scritture,",
+                        "da Mosè sino ai profeti, Gesù spiegava ai discepoli il mistero della Pasqua, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Entrarono in casa:",
+                        "durante la cena Gesù prese il pane, rese grazie, lo spezzò e lo diede ai discepoli, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA14') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Gesù,",
+                        "apparve in mezzo ai suoi discepoli e disse: Pace a voi, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Guardate le mie mani,",
+                        "guardate i miei piedi, sono io, il Signore, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA15') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Per la terza volta",
+                        "Gesù risorto apparve ai discepoli, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Disse Gesù,",
+                        "ai suoi discepoli: Portate qui del pesce che avete preso ora. Simon Pietro salì sulla barca e trasse a terra la rete piena di grossi pesci, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA16') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Risorto",
+                        "il mattino di Pasqua, Gesù apparve prima a Maria Maddalena, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA2') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "L'ottavo giorno,",
+                        "a porte chiuse, Gesù entrò e disse: Pace a voi, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Tocca",
+                        "con la mano il segno dei chiodi: non essere incredulo, abbi fede, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Tu hai veduto,",
+                        "Tommaso, e hai creduto; beato chi non vede, eppure crede, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA21') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Ho messo",
+                        "il mio dito nel posto dei chiodi, e la mia mano nel suo costato, ho detto: Signore mio e Dio mio! Alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Vi precederò in Galilea",
+                        "dove mi vedrete, come vi ho detto, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA22') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Arde il mio cuore:",
+                        "voglio vedere il mio Signore, e non so dove lo hanno posto, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Non ardeva",
+                        "il nostro cuore, mentre Gesù parlava con noi lungo la strada? Alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA23') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Dio",
+                        "ha tanto amato il mondo, che ha dato il suo unico Figlio: chi crede in lui non muore, ma ha la vita eterna, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Chi fa la verità,",
+                        "viene alla luce, e appariranno le sue opere di figlio di Dio, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA24') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Stolti",
+                        "e tardi di cuore nel credere a tutto ciò che fu detto dai profeti! Alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Che discorsi,",
+                        "andate facendo fra voi lungo il cammino? E perché siete tristi? Alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA25') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Gesù",
+                        "prese i pani, rese grazie, e li distribuì a tutti i presenti, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Patì la dura croce",
+                        "colui che vinse l'inferno: ora è rivestito di forza, risorto nella gloria, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA26') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "In verità,",
+                        "in verità vi dico: Chi osserva la mia parola, non vedrà la morte in eterno, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA3') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Rimani con noi,",
+                        "Signore: ormai si fa sera e il giorno declina, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Tu solo",
+                                "sei così forestiero, da non sapere di Gesù, di come lo hanno fatto condannare a morte? Alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Questi",
+                                "sono i discorsi che vi ho fatto quando ero ancora con voi, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Gettate la rete",
+                                "a destra della barca, e troverete, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "I due discepoli",
+                                "insistettero, dicendo: Resta con noi, Signore, poiché si fa sera, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Era necessario",
+                                "che il Cristo patisse per risorgere dai morti, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Disse Gesù,",
+                                "ai suoi discepoli: Portate qui del pesce che avete preso ora. Simon Pietro salì sulla barca e trasse a terra la rete piena di grossi pesci, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA31') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Procuratevi",
+                        "un cibo che non si corrompe, ma che dura per la vita eterna, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "I discepoli",
+                        "offrirono al Signore del pesce arrostito e un favo di miele, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA32') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Vedo",
+                        "i cieli aperti, e Gesù alla destra della potenza di Dio, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Pane di Dio",
+                        "è colui che scende dal cielo e dà la vita al mondo, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA33') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il pane di Cristo",
+                        "è pregno di delizie: anche i grandi della terra ne hanno fame, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Quelli",
+                        "che il Padre mi dà, verranno a me; e chi viene a me non lo respingerò, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA34') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "il pane vivo desceso dal cielo, dice il Signore, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "il pane vivo disceso dal cielo: chi amngia di questo pane vivrà in eterno; il pane che io darò è la mia carne per la vita del mondo, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA35') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "il pane vivo disceso dal cielo: chi amngia di questo pane vivrà in eterno, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Cristo,",
+                        "che fu crocifisso, è risorto dai morti; egli ci ha liberati, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA36') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Benedite il Signore,",
+                        "camminate nella giustizia davanti a lui, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA4') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Signore,",
+                        "da chi andremo? Tu hai parole di vita eterna; noi abbiamo creduto e conosciuto che tu sei il Cristo, il Figlio di Dio, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Io sono",
+                                "il buon Pastore: sono la via, la verità e la vita. Conosco i miei e loro conoscono me, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Il buon Pastore",
+                                "dà la vita per le sue pecore, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Il mio gregge",
+                                "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Io sono la porta,",
+                                "dice il Signore: chi passa per me, sarà salvo; entrerà e uscirà e troverà pascolo, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Io sono",
+                                "il buon Pastore: conduco al pascolo le mie pecore, e per loro do la mia vita, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Ho altre pecore",
+                                "che non sono di questo ovile: anche queste io devo condurre; ascolteranno la mia voce e si avrà un solo gregge e un solo pastore, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA41') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "il buon Pastore: conduco al pascolo le mie pecore, e per loro do la mia vita, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Come il Padre",
+                        "conosce me, io conosco il Padre: per il mio gregge do la mia vita, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA42') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il mio gregge",
+                        "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Io sono la porta,",
+                        "dice il Signore: chi passa per me, sarà salvo; entrerà e uscirà e troverà pascolo, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA43') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Gli undici discepoli",
+                        "videro il Signore in Galilea, e lo adorarono, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Dio",
+                        "ha mandato il suo Figlio non a condannare, ma a salvare il mondo, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA44') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il Padre stesso",
+                        "vi ama, perché mi avete amato e avete creduto, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Ogni potere",
+                        "mi è stato dato in cielo e sulla terra, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA45') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Vado",
+                        "a prepararvi un posto, e vi prenderò con me: dove sono io sarete anche voi, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Il buon Pastore,",
+                        "dà la vita per le sue pecore, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA36') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Se conoscete me,",
+                        "conoscerete anche il Padre mio; ora lo conoscete e lo avete veduto, alleluia."
+                    );
+                }
+            }
+
+        }
 
         /////////////////////////////////////////////
 
