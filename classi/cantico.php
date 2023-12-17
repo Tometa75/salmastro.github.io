@@ -1384,7 +1384,7 @@ class Cantico {
                             case 'B':
                                 $this->antifona=array(
                                     "Io sono la via,",
-                                    "la verità e la vita: nessuno viene al Padre se non  per me, alleluia."
+                                    "la verità e la vita: nessuno viene al Padre se non per me, alleluia."
                                 );
                             break;
                             case 'C':
@@ -4667,7 +4667,7 @@ class Cantico {
                 }
             }
 
-            elseif ($this->actual['evCode']=='PA36') {
+            elseif ($this->actual['evCode']=='PA46') {
 
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
@@ -4677,6 +4677,483 @@ class Cantico {
                 }
             }
 
+            elseif ($this->actual['evCode']=='PA5') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Io sono la via,",
+                        "la verità e la vita: nessuno viene al Padre se non per me, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Non si turbi",
+                                "il vostro cuore e non abbiate timore: credete in Dio e credete anche in me: nella casa del Padre mio vi sono molte dimore, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Se rimanete in me,",
+                                "e le mie parole rimangono in voi, domanderete e tutto vi sarà dato, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Vi do",
+                                "un comandamento nuovo: Ametevi, come io ho amato voi, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Da tanto tempo",
+                                "sono con voi, e tu, Filippo, non mi conosci ancora? Chi ha visto me, ha visto il Padre mio, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Se rimanete in me,",
+                                "e le mie parole rimangono in voi, domanderete e tutto vi sarà dato, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Da questo",
+                                "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA51') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Chi mi ama,",
+                        "ossergerà la mia parola: il Padre mio lo amerà, e abiteremo in lui, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Lo Spirito Santo,",
+                        "che il Padre manderà nel mio nome, sarà vostro maestro: vi ricorderà ogni mia parola, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA52') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Vi lascio la pace,",
+                        "alleluia, vi do la mia pace, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Vado",
+                        "a Colui che mi ha mandato; ma perché vi ho detto queste cose, la tristezza ha riempito il vostro cuore, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA53') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Rimanete",
+                        "nel mio amore; chi rimane in me e io in lui, porta molto frutto, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Se rimanete in me,",
+                        "e le mie parole rimangono in voi, domanderete e tutto vi sarà dato, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA54') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "La tristezza",
+                        "ha riempito il vostro cuore, ma nessuno potrà togliervi la vostra gioia, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Ogni potere",
+                        "mi è stato dato in cielo e sulla terra, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA55') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Questo",
+                        "è il mio comandamento; che vi amiate gli uni gli altri, come io vi ho amati, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Non c'è",
+                        "amore più grande che dare la vita per i propri amici, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA56') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Sei grande,",
+                        "Signore, mirabile nella potenza, invincibile, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA6') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Pregherò",
+                        "il Padre mio, ed egli vi darà un altro Consolatore, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Se mi amate,",
+                                "osservate i miei comandamenti, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Sarete miei amici,",
+                                "se farete quello che vi comando, dice il Signore, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Chimi ama,",
+                                "osserverà la mia parola: il Padre mio lo amerà, e abiteremo in lui, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Io vado",
+                                "ma non vi lascio soli, alleluia: tornerò a voi, alleluia, e sarete nella gioia, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Se rimanete in me,",
+                                "e le mie parole rimangono in voi, domanderete e tutto vi sarà dato, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Lo Spirito Santo,",
+                                "che il Padre manderà nel mio nome, sarà vostro maestro: vi ricorderà ogni mia parola, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA61') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Quando",
+                        "verrà il Paraclito che io manderò, lo Spirito di verità che procede dal Padre, darà testimonianza di me, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Vi ho detto",
+                        "queste cose, perché, quando giungerà l'ora, ricordiate che ve ne ho parlato, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA62') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Vado,",
+                        "a Colui che mi ha mandato, e nessuno di voi mi domanda: Dove vai? Alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Vi dico la verità:",
+                        "È meglio per voi che io vada; se non andrò, non verrà il Paraclito, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA63') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Molte cose",
+                        "ho ancora da dirvi: non potete comprenderle ora; quando verrà lo Spirito, vi insegnerà tutta la verità, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Quando",
+                        "sarà venuto a voi il Consolatore, lo Spirito di verità, egli convincerà il mondo quanto al peccato, alla giustizia e al giudizio, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA64') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Un poco,",
+                        "e non mi vedrete; ancora un poco, e mi rivedrete: io vado al Padre, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "La vostra tristezza",
+                        "si cambierà in gioia, e nessuno ve le toglierà, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA65') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "In verità vi dico:",
+                        "Voi piangerete e vi rattristerete, ma il mondo si rallegrerà; voi sarete afflitti, ma la vostra afflizione si cambierà in gioia, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Io vi rivedrò",
+                        "e il vostro cuore si rallegrerà, e nessuno potrà togliervi la vostra gioia, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA66') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Chiedete",
+                        "e vi sarà dato, affinché la vostra gioia sia piena: il Padre stesso vi ama, perché mi avete amato e avete creduto, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA7') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Io vado,",
+                        "ma non vi lascio soli, alleluia: tornerò a voi, alleluia, e sarete nella gioia, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "È venuta l'ora:",
+                                "Padre, glorifica il tuo Figlio con la gloria che aveva presso di te, prima che il mondo fosse, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Padre santo,",
+                                "custodisci nel tuo nome coloro che mi hai dato, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Ecco,",
+                                "vedo i cieli aperti, e il Figlio dell'uomo che sta alla destra di Dio, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Padre,",
+                                "ho rivelato il tuo nome a quelli che mi hai dato; prego per loro, non per il mondo, ora che vengo a te, alleluia."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "L'amore di Dio",
+                                "è stato riversato nei nostri cuori per mezzo dello Spirito Santo che dimora in noi, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Beati",
+                                "coloro che lavano le loro vesti nel sangue dell'Agnello, alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA71') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Lo Spirito",
+                        "non parlerà sa se stesso, ma vi dirà tutto ciò che ascolta, e vi annuncerà le cose che verranno, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Vado",
+                        "a Colui che mi ha mandato; ma perché vi ho detto queste cose, la tristezza ha riempito il vostro cuore, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA72') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "È venuta l'ora:",
+                        "Padre, glorifica il tuo Figlio con la gloria che aveva presso di te, prima che il mondo fosse, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Padre,",
+                        "ho rivelato il tuo nome a quelli che mi hai dato; prego per loro, non per il mondo, ora che vengo a te, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA73') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il Padre stesso",
+                        "vi ama, perché mi avete amato e avete creduto, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Finora",
+                        "non avete chiesto nulla nel mio nome: chiedete ed otterrete, alleluia."
+                    );
+                }
+            }
+            
+            elseif ($this->actual['evCode']=='PA74') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Andate,",
+                        "evangelizzate i popoli, battezzate nel nome del Padre e del Figlio e dello Spirito Santo, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Quando",
+                        "verrà il Paraclito che io manderò, lo Spirito di verità che procede dal Padre, darà testimonianza di me, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA75') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Il buon Pastore",
+                        "dà la vita per le sue pecore, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Dove due o tre",
+                        "sono riuniti nel mio nome, io sono in mezzo a loro, dice il Signore, alleluia."
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='PA76') {
+
+                if ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Nel giorno più solenne",
+                        "della festa dei tabernacoli, Gesù, levatosi in piedi, esclamò ad alta voce: Chi ha sete, venga a me e beva! Alleluia."
+                    );
+                }
+            }
+
+//////////////////////////////////////////////////////////////////
+            if ($this->actual['evCode']=='ASC') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Padre,",
+                        "ho rivelato il tuo nome a quelli che mi hai dato; prego per loro, non per il mondo, ora che vengo a te, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Ascendo",
+                        "al Padre mio e Padre vostro, Dio mio e Dio vostro, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Re della gloria,",
+                        "Signore dell'universo, oggi tu scendi vittorioso nei cieli: non lasciarci soli, manda lo Spirito promesso dal Padre, alleluia."
+                    );
+                }
+            }
         }
 
         /////////////////////////////////////////////
@@ -4703,6 +5180,190 @@ class Cantico {
                     $this->antifona=array(
                         "Tre prodigi",
                         "celebriamo in questo giorno santo: oggi la stella ha guidato i magi al presepio, oggi l'acqua è cambiata in vino alle nozze, oggi Cristo è battezzato da Giovanni nel Giordano per la nostra salvezza, alleluia."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='PEN') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Vieni, Spirito Santo,",
+                        "riempi il cuore dei tuoi fedeli, accendi in essi il fuoco del tuo amore: tu che nella varietà delle lingue umane raduni i popoli nell'unica fede, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Ricevete",
+                        "lo Spirito Santo: coloro ai quali rimetterete i peccati saranno perdonati, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Oggi",
+                        "la Pentecoste è compiuta, alleluia, oggi lo Spirito appare come fuoco ai discepoli, con doni e carismi li manda in tutta la terra per la testimonianza del Vangelo: Chi crederà e sarà battezzato sarà salvo, alleluia."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='TRI') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "A te",
+                        "rendiamo grazie, una e vera Trinità, unico e sommo Dio."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Benedetta",
+                                "la Santa Trinità, che crea e governa l'universo, benedetta ora e sempre."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Andate,",
+                                "evangelizzate i popoli, battezzate nel nome del Padre e del Figlio e dello Spirito Santo, alleluia."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Molte cose",
+                                "ho ancora da dirvi: non potete comprenderle ora; quando verrà lo Spirito, vi insegnerà tutta la verità, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Padre non generato,",
+                        "unico Figlio, Spirito Paraclito, Trinità santa e indivisibile, con tutte le forze ti acclamiamo: Gloria nei secoli!"
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='COD') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Soave",
+                        "è il tuo spirito, Signore: tu sei buono con i tuoi figli, dai loro pane dal cielo, sazi di beni gli affamati, rimandi i ricchi a mani vuote."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    $this->antifona=array(
+                        "Io sono",
+                        "il pane vivo disceso dal cielo: chi mangia di questo pane vivrà in eterno, alleluia."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Mistero della Cena!",
+                        "Ci nutriamo di Cristo, si fa memoria della sua passione, l'anima è ricolma di grazia, ci è donato il pegno della gloria, alleluia."
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='SCG') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Ho portato sulla terra",
+                        "il fuoco dell'amore: come vorrei che divampasse in tutto il mondo."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "L'amore di Dio",
+                                "è stato riversato nei nostri cuori per mezzo dello Spirito Santo, che ci è stato dato."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Questo è avvenuto",
+                                "perché si adempisse la Scrittura che dice: Volgeranno lo sguardo a colui che hanno trafitto."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Nella sua bontà misericordiosa,",
+                                "Dio venne a visitarci e a redimere il suo popolo, alleluia."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Venite a me,",
+                                "voi tutti che siete affaticati e oppressi, e io vi ristorerò."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Vedendo",
+                                "che Gesù era già morto, non gli spezzarono le gambe; ma uno sei soldati gli colpì il costato con la lancia, e subito ne uscì sangue e acqua."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Chi di voi",
+                                "se ha cento pecore e ne perde una, non lascia le novantanove nel deserto e va in cerca di quella perduta, finché non la ritrova? Alleluia."
+                            );
+                        break;
+                    }
+                }
+            }
+
+            if ($this->actual['evCode']=='GRE') {
+
+                if ($this->actual['ora']=="ves1") {
+                    $this->antifona=array(
+                        "Dio",
+                        "ha dato a Cristo il trono di Davide: regnerà sul suo popolo per sempre."
+                    );
+                }
+
+                elseif ($this->actual['ora']=="lodi") {
+                    switch($this->actual['anno']) {
+                        case 'A':
+                            $this->antifona=array(
+                                "Venite,",
+                                "benedetti del Padre mio, ricevete l'eredità del regno preparato per voi dall'inizio del mondo."
+                            );
+                        break;
+                        case 'B':
+                            $this->antifona=array(
+                                "Cristo",
+                                "è il primogenito dei morti, il Re dei re della terra. Ha fatto di noi un regno per Dio, il Padre suo."
+                            );
+                        break;
+                        case 'C':
+                            $this->antifona=array(
+                                "Ricordati di me,",
+                                "Signore, quando sarai nel tuo regno."
+                            );
+                        break;
+                    }
+                }
+
+                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
+                    $this->antifona=array(
+                        "Signore dei signori,",
+                        "Re dei re è il suo nome: a lui gloria e potenza nei secoli."
                     );
                 }
             }
