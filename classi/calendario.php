@@ -97,7 +97,7 @@ class Calendario {
 			"0113a"=>array(
 				"titolo"=>"Sant'Ilario (Vescovo e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),

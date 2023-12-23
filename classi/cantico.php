@@ -5469,7 +5469,7 @@ class Cantico {
                     }
                 }
 
-                if ($f['comune']=='apostoli') {
+                elseif ($f['comune']=='apostoli') {
 
                     if ($this->actual['tempo']=='P') {
 
@@ -5514,374 +5514,430 @@ class Cantico {
                     }
                 }
 
-                if ($f['comune']=='martiri' || $f['comune']=='martire') {
+                elseif ($f['comune']=='martiri') {
 
                     if ($this->actual['tempo']=='P') {
 
                         if($this->actual['ora']=='ves1') {
-                            $this->info=array(
-                                "titolo"=>"Ap 3,10-12",
-                                "testo"=>"Poiché hai osservato con costanza la mia parola, anch'io ti preserverò nell'ora della tentazione che sta per venire nel mondo intero, per mettere alla prova gli abitanti della terra. Verrò presto. Tieni saldo quello che hai, perché nessuno ti tolga la corona. Il vincitore lo porrò come una colonna nel tempio del mio Dio e non ne uscirà mai più. Inciderò su di lui il nome del mio Dio e il nome della città del mio Dio, della nuova Gerusalemme che scende dal cielo, da presso il mio Dio, insieme con il mio nome nuovo."
+                            $this->antifona=array(
+                                "Per i tuoi santi,",
+                                "o dio, splende una luce perenne e una vita senza fine, alleluia."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
-                            $this->info=array(
-                                "titolo"=>"1Gv 5,3-5",
-                                "testo"=>"In questo consiste l'amore di Dio, nell'osservare i suoi comandamenti; e i suoi comandamenti non sono gravosi. Tutto ciò che è nato da Dio vince il mondo; e questa è la vittoria che ha sconfitto il mondo: la nostra fede. E chi è che vince il mondo se non chi crede che Gesù è il Figlio di Dio?"
-                            );
-                        }
-                        elseif($this->actual['ora']=='terza') {
-                            $this->info=array(
-                                "titolo"=>"Ap 2,10",
-                                "testo"=>"Non temere ciò che stai per soffrire: ecco, il diavolo sta per gettare alcuni di voi in carcere, per mettervi alla prova e avrete una tribolazione per dieci giorni. Sii fedele fino alla morte e ti darò la corona della vita."
-                            );
-                        }
-                        elseif($this->actual['ora']=='sesta') {
-                            $this->info=array(
-                                "titolo"=>"Ap 3,21",
-                                "testo"=>"Il vincitore lo farò sedere presso di me, sul mio trono, come io ho vinto e mi sono assiso presso il Padre mio sul suo trono."
-                            );
-                        }
-                        elseif($this->actual['ora']=='nona') {
-                            $this->info=array(
-                                "titolo"=>"Ap 19,7.9",
-                                "testo"=>"Rallegriamoci ed esultiamo, rendiamo gloria a Dio, perché son giunte le nozze dell'Agnello. Beati gli invitati al banchetto delle nozze dell'Agnello."
+                            $this->antifona=array(
+                                "I giusti",
+                                "si leveranno con grande fierezza di fronte a quanti li tormentarono, alleluia."
                             );
                         }
                         elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->info=array(
-                                "titolo"=>"Ap 7,14b-17",
-                                "testo"=>"Essi sono coloro che sono passati attraverso la grande tribolazione e hanno lavato le loro vesti rendendole candide col sangue dell'Agnello. Per questo stanno davanti al trono di Dio e gli prestano servizio giorno e notte nel suo santuatìrio; e colui che siede sul trono stenderà la sua tenda sopra di loro. Non avranno più fame, né avranno più sete, né li colpirà il sole, né arsura di sorta, perché l'aGnello che sta in mezzo al trono sarà il loro pastore e li guiderà alle fonti delle acque della vita. E Dio tergerà ogni lacrima dai loro occhi."
+                            $this->antifona=array(
+                                "I tuoi santi,",
+                                "Signore, fioriranno come gigli, alleluia: saranno davanti a te come profumo di balsamo, alleluia."
                             );
                         }
                     }
                     else {
-
                         if($this->actual['ora']=='ves1') {
-                            $this->info=array(
-                                "titolo"=>"Rm 8,35.37-39",
-                                "testo"=>"Chi ci separerà dall'amore di Cristo? Forse la tribolazione, l'angoscia, la persecuzione, la fame, la nudità, il pericolo, la spada? In tutte queste cose noi siamo più che vincitori per virtù di colui che ci ha amati. Io sono infatti persuaso che né norte nè vita, né angeli né principati, né presente né avvenire, né potenze, né altezza né profondità, né alcuna ltra creatura potrà mai separarci dall'amore di Dio, in Cristo Gesù, nostro Signore."
+                            $this->antifona=array(
+                                "Vostro",
+                                "è il regno dei cieli: avete scrificato la vita per Cristo; lavati nel sangue dell'Agnello, ricevete ora la gloria eterna."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
-                            $this->info=array(
-                                "titolo"=>"2Cor 1,3-5",
-                                "testo"=>"Sia benedetto Dio, Padre del Signore nostro Gesù Cristo, Padre misericordioso e Dio di ogni consolazione, il quale ci consola in ogni nostra tribolazione perché possiamo anche noi consolare qualli che si trovano in ogni genere di afflizione con la consolazione con cui siamo sonsolati noi stessi da Dio. Infatti, come abbondano le sofferenze di Cristo in noi, così, per mezzo di Cristo, abbonda anche la nostra consolazione."
-                            );
-                        }
-                        elseif($this->actual['ora']=='terza') {
-                            $this->info=array(
-                                "titolo"=>"1Pt 5,10-11",
-                                "testo"=>"Il Dio di ogni grazia, il quale vi ha chiamati alla sua gloria eterna in Cristo, egli stesso vi ristabilirà, dopo una breve sofferenza vi confermerà e renderà forti e saldi. A lui la potenza nei secoli. Amen!"
-                            );
-                        }
-                        elseif($this->actual['ora']=='sesta') {
-                            $this->info=array(
-                                "titolo"=>"Eb 11,33",
-                                "testo"=>"I santi in virtù della fede conquistarono regno, esercitarono la giustiziz, conseguirono le promesse in Cristo Gesù nostro Signore."
-                            );
-                        }
-                        elseif($this->actual['ora']=='nona') {
-                            $this->info=array(
-                                "titolo"=>"Sap 3,1-2a.3b",
-                                "testo"=>"Le anime dei giusti sono nelle mani di Dio, nessun tormento le toccherà. Agli occhi degli stolti parve che morissero; ma essi sono nella pace."
+                            $this->antifona=array(
+                                "Anche i vostri capelli",
+                                "sono contati, non abbiate timore: voi valete più di molti passeri."
                             );
                         }
                         elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->info=array(
-                                "titolo"=>"1Pt 4,13-14",
-                                "testo"=>"Nella misura in cui partecipate alle sofferenze di Cristo, rallegratevi, perché anche nella rivelazione della sua gloria possiate rallegrarvi ed esultare. Beati voi, se venite insultati per il nome di Cristo, perché lo Spirito della gloria e lo Spirito di Dio riposa su di voi."
+                            $this->antifona=array(
+                                "Gioia nel cielo",
+                                "per gli amici di Dio: hanno seguito le orme di Cristo, hanno versato il sangue per suo amore, con Cristo regneranno senza fine."
                             );
                         }
                     }
                 }
 
-                if ($f['comune']=='martire') {
+                elseif ($f['comune']=='martire') {
 
-                    if ($this->actual['tempo']!='P') {
+                    if ($this->actual['tempo']=='P') {
 
-                        if($this->actual['ora']=='sesta') {
-                            $this->info=array(
-                                "titolo"=>"Gc 1,12",
-                                "testo"=>"Beato l'uomo che sopporta la tentazione, perché una volta superata la prova riceverà la corona della vita che il Signore ha promesso a quelli che lo amano."
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Per i tuoi santi,",
+                                "o dio, splende una luce perenne e una vita senza fine, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "I giusti",
+                                "si leveranno con grande fierezza di fronte a quanti li tormentarono, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Se nella terra",
+                                "il seme non muore, rimane solo; se muore, porta molto frutto, alleluia."
+                            );
+                        }
+                    }
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "A te",
+                                "il frutto delle tue fatiche, a te la lode della nostra assemblea."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Chi odia",
+                                "la sua vita in questo mondo, la conserva per la vita eterna."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Chi vuol venire",
+                                "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
                             );
                         }
                     }
                 }
 
-                if ($f['comune']=='pastori') {
+                elseif ($f['comune']=='pastori') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"1Pt 5,1-4",
-                            "testo"=>"Esorto gli anziani che sono tra voi, quale anziano come loro, testimone delle sofferenze di Cristo e partecipe della gloria che deve manifestarsi: Pascete il gregge di Dio che vi è affidato, sorvegliandolo non per forza ma volentieri, secondo Dio; non per vile interesse, ma di buon animo; non spadroneggiando sulle persone a voi affidate, ma facendovi modelli del gregge. E quando apparirà il pastore supremo, riceverete la corona della gloria che non appassisce."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Sacerdote di Dio,",
+                                "esempio di virtù, pastoe buono: intercedi per noi presso il Signore, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Bene,",
+                                "servo buono e fedele: sei stato fedele nel poco, ti darò potere su molto, dice il Signore, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Il Signore",
+                                "lo ha amato e lo ha colmato di onore: lo ha rivestito di gloria nel regno dei cieli, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Eb 13,7-9a",
-                            "testo"=>"Ricordatevi dei vostri capi, i quali vi hanno annunziato la parola di Dio; considerando attentamente l'esito del loro tenore di vita, imitatene la fede. Gesù Cristo è lo stesso di ieri, oggi e sempre! Non lasciatevi sviare da dottrine varie e peregrine."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 4,16",
-                            "testo"=>"Vigila su te stesso e sul tuo insegnamento e sii perseverante: così facendo salverai te stesso e coloro che ti ascoltano."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 1,12",
-                            "testo"=>"Rendo grazie a colui che mi ha dato la forza, Cristo Gesù Signore nostro, perché mi ha giudicato degno di fiducia chiamandomi al ministero."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 3,13",
-                            "testo"=>"Coloro che avranno ben servito, si acquisteranno un grado onorifico e una grande sicurezza nella fede in Cristo Gesù."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"1Ts 2,10-12",
-                            "testo"=>"Fratelli, voi siete testimoni, e Dio stesso è testimone, come è stato santo, giusto, irreprensibile il nostro comportamento verso di voi credenti; e sapete anche che, come fa un padre verso i propri figli, abbiamo esortato ciascuno di voi, incoraggiandovi e scongiurandovi a comportarci in maniera degna di quel Dio che vi ha chiamati al suo regno e alla sua gloria."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Sacerdote di Dio,",
+                                "esempio di virtù, pastoe buono: intercedi per noi presso il Signore."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Bene,",
+                                "servo buono e fedele: sei stato fedele nel poco, ti darò potere su molto, dice il Signore."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Il Signore",
+                                "lo ha amato e lo ha colmato di onore: lo ha rivestito di gloria nel regno dei cieli."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='dottori') {
+                elseif ($f['comune']=='dottori') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"Gc 3,17-18",
-                            "testo"=>"La sapienza che viene dall'alto è anzitutto pura; poi pacifica, mite, arrendevole, piena di misericordia e di buoni frutti, senza parzialità, senza ipocrisia. Un frutto di giustizia viene seminato nella pace per coloro che fanno opera di pace."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "I popoli",
+                                "narrano la sapienza dei santi, e la Chiesa ne proclama le lodi, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "I saggi",
+                                "splenderanno come il firmamento, i maestri di sapienza saranno come stelle del cielo, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Ti ringrazio,",
+                                "o Padre, Signore del cielo e della terra: tu hai rivelato ai piccoli il mistero del regno dei cieli, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Sap 7,13-14",
-                            "testo"=>"Senza frode imparai la sapienza e senza invidia la dono, non nascondo le sue ricchezze. Essa è un tesoro inesauribile per gli uomini; quanti se lo procurano si attirano l'amicizia di Dio, sono a lui raccomandati per i doni del suo insegnamento."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 4,16",
-                            "testo"=>"Vigila su te stesso e sul tuo insegnamento e sii perseverante: così facendo salverai te stesso e coloro che ti ascoltano."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 1,12",
-                            "testo"=>"Rendo grazie a colui che mi ha dato la forza, Cristo Gesù Signore nostro, perché mi ha giudicato degno di fiducia chiamandomi al ministero."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"1Tm 3,13",
-                            "testo"=>"Coloro che avranno ben servito, si acquisteranno un grado onorifico e una grande sicurezza nella fede in Cristo Gesù."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Gc 3,17-18",
-                            "testo"=>"La sapienza che viene dall'alto è anzitutto pura; poi pacifica, mite, arrendevole, piena di misericordia e di buoni frutti, senza parzialità, senza ipocrisia. Un frutto di giustizia viene seminato nella pace per coloro che fanno opera di pace."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "I popoli",
+                                "narrano la sapienza dei santi, e la Chiesa ne proclama le lodi."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "I saggi",
+                                "splenderanno come il firmamento, i maestri di sapienza saranno come stelle del cielo."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Ti ringrazio,",
+                                "o Padre, Signore del cielo e della terra: tu hai rivelato ai piccoli il mistero del regno dei cieli."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='monaci') {
+                elseif ($f['comune']=='monaci') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"2Cor 4,6-7",
-                            "testo"=>"Fratelli, Dio rifulse nei nostri cuori, per far risplendere la conoscenza della gloria divina che rifulge sul volto di Cristo. Però abbiamo questo tesoro in vasi di creta, perché appaia che questa potenza straordinaria viene da Dio e non da noi."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Questi",
+                                "sono i santi che il Signore ha prediletto, ha dato loro una gloria eterna: della loro dottrina risplende la Chiesa, come la luna splende per il sole, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Voi",
+                                "avete abbandonato ogni cosa per seguirmi: avrete cento volte tanto e la via eterna, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Beati voi,",
+                                "santi di Dio! Siete divenuti cittadini del cielo: voi contemplate la gloria del Signore, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Ef 1,17-18",
-                            "testo"=>"Fratelli, il Dio del Signore nostro Gesù Cristo, il Padre della gloria, vi dia uno spirito di sapienza e di rivelazione per una più profonda conoscenza di lui. Possa egli davvero illuminare gli occhi della vostra mente per farvi comprendere a quale speranza vi ha chiamati, quale tesoro di gloria racchiude la sua eredità fra i santi."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Sir 31,8-11",
-                            "testo"=>"Beato il ricco, che sio trova senza macchia e che non corre dietro all'oro. Chi è costui? Noi lo proclameremo beato: difatti egli ha compiuto meraviglie in mezzo al suo popolo. Chi ha subito la prova, risultando perfetto? Sarà un titolo di gloria per lui. Chi, potendo trasgredire non ha trasgredito, e potendo compiere il male, non lo ha fatto? Si consolideranno i suoi beni e l'assemblea celebrerà le sue beneficenze."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"Sir 39,13-16a",
-                            "testo"=>"Ascoltatemi figli santi, crescete come una pianta di rose su un torrente. Come incenso spandete un buon profumo, fate fiorire fiori come il giglio, spargete profumo e intonate un canto di lode; benedite il Signore per tutte le opere sue. Magnificate il suo nome; proclamate le sue lodi con i vostri canti e le vostre cetre; così direte alla vostra lode:« Quanto sono magnifiche tutte le opere del Signore! »."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Pr 4,1-2.20-23",
-                            "testo"=>"Ascoltate, o fogli, l'istruzione di un padre e fate attenzione per conoscere la verità, poiché io vi do una buona dottrina; non abbandonate il mio insegnamento. Figlio mio, fa' attenzione alle mie parole, porgi l'orecchio ai miei detti; non perderli mai di vista, custodiscili nel tuo cuore, perché essi sono vita per chi li trova e salute per tutto il suo corpo. Con ogni cura vigila sul cuore perché da esso sgorga la vita."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Sir 44,1-2.7-8.10.12",
-                            "testo"=>"Facciamo dunque l'elogio degli uomini illustri, dei nostri antenati per generazione. Il Signore ha profuso in essi la gloria, la sua grandezza è apparsa sin dall'inisio dei secoli. Tutti costoro furono onorati dai contemporanei, furono un vanto ai loro tempi. Di loro alcuni lasciarono un nome, che ancora è ricordato con lode. Questi furono uomini virtuosi i cui meriti non furono dimenticati. La loro discendenza resta fedele alle promesse e i loro figli in grazia dei padri."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Questi",
+                                "sono i santi che il Signore ha prediletto, ha dato loro una gloria eterna: della loro dottrina risplende la Chiesa, come la luna splende per il sole."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Voi",
+                                "avete abbandonato ogni cosa per seguirmi: avrete cento volte tanto e la via eterna."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Beati voi,",
+                                "santi di Dio! Siete divenuti cittadini del cielo: voi contemplate la gloria del Signore."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='vergini') {
+                elseif ($f['comune']=='vergini') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 7,32b.34a",
-                            "testo"=>"Chi non è sposato si preoccupa delle cose del Signore, come possa piacerea l Signore! Così la donna non sposata, come la vergine, si preoccupa delle cose del Signore, per essere santa nel corpo e nello spirito."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Vieni,",
+                                "sposa di Cristo, ricevi la corona che il Signore ti ha preparato, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Ti ho tanto desiderato,",
+                                "ora contemplo il tuo volto; ti ho tanto cercato, ora sei mio; con tutto il cuore ti ho amato in terra e ora sono tua per sempre, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Vieni,",
+                                "sposa di Cristo, ricevi la corona che il Signore ti ha preparato, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Ct 8,7",
-                            "testo"=>"Le grandi acque non possono spegnere l'amore né i fiumi travolgerlo. Se un desse tutte le ricchezze della sua casa in cambio dell'amore, non ne avrebbe che dispregio."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Sap 8,21",
-                            "testo"=>"Sapendo che non avrei ottenuta la sapienza se Dio non me l'avesse concessa - ed era proprio dell'intelligenza sapere da chi viene tale dono - mi rivolsi al Signore e lo pregai."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 7,25",
-                            "testo"=>"Quanto alle vergini, non ho alcun comando dal Signore, ma do un consiglio, come uno che ha ottenuto misericordia dal Signore e merita fiducia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Ap 19,6b-7",
-                            "testo"=>"Ha preso possesso del suo regno il Signore, il nostro Dio, l'Onnipotente. Rallegriamoci ed esultiamo, rendiamo a lui gloria, perché sono giunte le nozze dell'Agnello; la sua sposa è pronta."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 7,32b.34a",
-                            "testo"=>"Chi non è sposato si preoccupa delle cose del Signore, come possa piacerea l Signore! Così la donna non sposata, come la vergine, si preoccupa delle cose del Signore, per essere santa nel corpo e nello spirito."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Vieni,",
+                                "sposa di Cristo, ricevi la corona che il Signore ti ha preparato."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Ti ho tanto desiderato,",
+                                "ora contemplo il tuo volto; ti ho tanto cercato, ora sei mio; con tutto il cuore ti ho amato in terra e ora sono tua per sempre."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Vieni,",
+                                "sposa di Cristo, ricevi la corona che il Signore ti ha preparato."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='santi' || $f['comune']=='religiosi' || $f['comune']=='SFA') {
+                elseif ($f['comune']=='santi' || $f['comune']=='religiosi') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"Fil 3,7-8",
-                            "testo"=>"Quello che poteva essere per me un guadagno, l'ho considerato una perdita a motivo di Cristo. Anzi, tutto ormai io reputo una perdita di fronte alla sublimità della conoscenza di Criato Gesù, mio Signore, per il quale ho lasciato perdere tutte queste cose e le considero come spazzatura, al fine di guadagnare Cristo."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Chi vuol venire",
+                                "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Il Signore",
+                                "la ha santificato nella fedeltà e nella mansuetudine e gli ha manifestato la sua gloria, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Chi segue me",
+                                "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Rm 12,1-2",
-                            "testo"=>"Vi esorto, fratelli, per la misericordia di Dio, ad offrire i vostri corpi come sacrificio vivente, santo e gradito a Dio; è questo il vostro culto spirituale. Non conformatevi alla mentalità di questo secolo, ma trasformtevi rinnovando la vostra mente, per poter discernere la voltà di Dio, ciò che è buono, a lui gradito e perfetto."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Gal 6,7b-8",
-                            "testo"=>"Ciascuno raccoglierà quello che avrà seminato. Chi semina nella sua carne, dalla carne raccoglierà corruzione; chi semina nello Spirito, dallo Spirito raccoglierà vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 9,26-27",
-                            "testo"=>"Io corro, ma non come chi è senza meta; faccio il pugilato, ma non come chi batte l'aria, anzi tratto duramente il mio corpo e lo trascino in schiavitù perché non succeda che dopo aver predicato agli altri, venga io stesso squalificato."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Fil 4,8-9b",
-                            "testo"=>"Fratelli, tutto quello che è vero, nobile, giusto, puro, amabile, onorato, quello che è virtù e merita lode, tutto questo sia oggetto dei vostri pensieri. E il Dio della pace sarà con voi!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Rm 8,28-30",
-                            "testo"=>"Noi sappiamo che tutto concorre al bene di coloro che amano Dio, che sono stati chiamati secondo il suo disegno. Poiché quelli che egli da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo, perché egli sia il primogenito tra molti fratelli; quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "Chi vuol venire",
+                                "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Il Signore",
+                                "la ha santificato nella fedeltà e nella mansuetudine e gli ha manifestato la sua gloria."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Chi segue me",
+                                "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='sante' || $f['comune']=='religiose') {
+                elseif ($f['comune']=='sante' || $f['comune']=='religiose') {
 
-                    if($this->actual['ora']=='ves1') {
-                        $this->info=array(
-                            "titolo"=>"Fil 3,7-8",
-                            "testo"=>"Quello che poteva essere per me un guadagno, l'ho considerato una perdita a motivo di Cristo. Anzi, tutto ormai io reputo una perdita di fronte alla sublimità della conoscenza di Criato Gesù, mio Signore, per il quale ho lasciato perdere tutte queste cose e le considero come spazzatura, al fine di guadagnare Cristo."
-                        );
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "A te",
+                                "il frutto delle tue fatiche, a te la lode della nostra assemblea, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Il regno dei cieli",
+                                "è simile a un mercante in cerca di perle preziose; trovata una perla di grande valore, vende tutti i suoi averi e la compra, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Apre",
+                                "la sua mano al misero, la stende verso il povero, alleluia."
+                            );
+                        }
                     }
-                    elseif($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"Rm 12,1-2",
-                            "testo"=>"Vi esorto, fratelli, per la misericordia di Dio, ad offrire i vostri corpi come sacrificio vivente, santo e gradito a Dio; è questo il vostro culto spirituale. Non conformatevi alla mentalità di questo secolo, ma trasformtevi rinnovando la vostra mente, per poter discernere la voltà di Dio, ciò che è buono, a lui gradito e perfetto."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Gal 6,7b-8",
-                            "testo"=>"Ciascuno raccoglierà quello che avrà seminato. Chi semina nella sua carne, dalla carne raccoglierà corruzione; chi semina nello Spirito, dallo Spirito raccoglierà vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 9,26-27",
-                            "testo"=>"Io corro, ma non come chi è senza meta; faccio il pugilato, ma non come chi batte l'aria, anzi tratto duramente il mio corpo e lo trascino in schiavitù perché non succeda che dopo aver predicato agli altri, venga io stesso squalificato."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Fil 4,8-9b",
-                            "testo"=>"Fratelli, tutto quello che è vero, nobile, giusto, puro, amabile, onorato, quello che è virtù e merita lode, tutto questo sia oggetto dei vostri pensieri. E il Dio della pace sarà con voi!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"Rm 8,28-30",
-                            "testo"=>"Noi sappiamo che tutto concorre al bene di coloro che amano Dio, che sono stati chiamati secondo il suo disegno. Poiché quelli che egli da sempre ha conosciuto li ha anche predestinati ad essere conformi all'immagine del Figlio suo, perché egli sia il primogenito tra molti fratelli; quelli poi che ha predestinati li ha anche chiamati; quelli che ha chiamati li ha anche giustificati; quelli che ha giustificati li ha anche glorificati."
-                        );
+                    else {
+                        if($this->actual['ora']=='ves1') {
+                            $this->antifona=array(
+                                "A te",
+                                "il frutto delle tue fatiche, a te la lode della nostra assemblea."
+                            );
+                        }
+                        elseif($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Il regno dei cieli",
+                                "è simile a un mercante in cerca di perle preziose; trovata una perla di grande valore, vende tutti i suoi averi e la compra."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Apre",
+                                "la sua mano al misero, la stende verso il povero."
+                            );
+                        }
                     }
                 }
 
-                if ($f['comune']=='DEF') {
+                elseif ($f['comune']=='DEF') {
 
+                    if ($this->actual['tempo']=='P') {
+
+                        if($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Cristo risorto",
+                                "ha illuminato il suo popolo, redento dal suo sangue, alleluia."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Colui che fu crocifisso",
+                                "è risorto dai morti; egli ci ha liberato, alleluia."
+                            );
+                        }
+                    }
+                    else {
+                        if($this->actual['ora']=='lodi') {
+                            $this->antifona=array(
+                                "Io sono",
+                                "la risurrezine e la vita: chi crede in me anche se muore, vivrà; e chiunque vive e crede in me non morrà in eterno."
+                            );
+                        }
+                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                            $this->antifona=array(
+                                "Quelli",
+                                "che il Pade mi dà, verranno a me; e chi viene a me non lo respingerò."
+                            );
+                        }
+                    }
+                }
+
+                ////////////////////////////////////////////////////////////////////////
+
+                if ($k=='0102a') {
                     if($this->actual['ora']=='lodi') {
-                        $this->info=array(
-                            "titolo"=>"1Ts 4,14",
-                            "testo"=>"Noi crediamo che Gesù è morto e risuscitato; così anche quelli che sono morti, Dio li radunerà per mezzo di Gesù insieme con lui."
-                        );
-                    }
-                    elseif($this->actual['ora']=='terza') {
-                        $this->info=array(
-                            "titolo"=>"Gb 19,25-26",
-                            "testo"=>"Io lo so che il mio redentore è vivo e che, ultimo, si ergerà sulla polvere! Dopo che questa mia pelle sarà distrutta, senza la mia carne, vedrò Dio."
-                        );
-                    }
-                    elseif($this->actual['ora']=='sesta') {
-                        $this->info=array(
-                            "titolo"=>"Sap 1,13-15",
-                            "testo"=>"Dio non ha creato la morte e non gode per la rovina dei viventi. Egli infatti ha creato tutto per l'esistenza; le creature del mondo sono sane, in esse non c'è veleno di morte, né gli inferi regnano sulla terra, perché la giustizia è immortale."
-                        );
-                    }
-                    elseif($this->actual['ora']=='nona') {
-                        $this->info=array(
-                            "titolo"=>"Is 25,8",
-                            "testo"=>"Dio eliminerà la morte per sempre; il Signore Dio asciugherà le lacrime su ogni volto; farà scomparire da tutto il paese la condizione disonorevole del suo popolo, poiché il Signore ha parlato."
+                        $this->antifona=array(
+                            "I saggi",
+                            "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->info=array(
-                            "titolo"=>"1Cor 15,55-57",
-                            "testo"=>"Dov'è, o morte, la tua vittoria? Dov'è, o morte, il tuo pungiglione? Il pungiglione della morte è il peccato e la forza del peccato è la legge. Siano rese grazie a Dio che ci dà la vittoria per mezzo del Signore nostro Gesù Cristo."
+                        $this->antifona=array(
+                            "Io stesso,",
+                            "il Signore, vi condurrò in Sion, e vi darò pastori secondo il mio cuore: essi vi guideranno con saggezza e intelligenza."
                         );
                     }
                 }
+                elseif ($k=='0115a') {
+                    if($this->actual['ora']=='lodi') {
+                        $this->antifona=array(
+                            "O uomini santi,",
+                            "che disprezzando il mondo avete portato il giogo della santa Regola fin dagli anni giovanili: ora godete nel regno di Cristo, perché avete partecipato alla sua passione, alleluia."
+                        );
+                    }
+                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                        $this->antifona=array(
+                            "Voi",
+                            "avete abbandonato ogni cosa per seguirmi: avrete cento volte tanto e la vita eterna."
+                        );
+                    }
+                }
+
             }
         }
 
