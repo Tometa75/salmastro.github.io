@@ -1093,7 +1093,7 @@ class Calendario {
 			"0917b"=>array(
 				"titolo"=>"San Roberto Bellarmino (Vescovo e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
