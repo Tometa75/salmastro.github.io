@@ -1079,9 +1079,11 @@ class Salmodia {
         /////////////////////////////////////////////////////////////////////////////////////////
         if ($this->actual['fesCode']=="") return;
 
-        foreach($this->actual['festa'] as $k=>$f) {
+        /*foreach($this->actual['festa'] as $k=>$f) {
             $this->festa=$f;
-        }
+        }*/
+
+        $this->festa=$this->actual['festa'][$this->actual['fesCode']];
 
         if ($this->festa['comune']=='pastori' || $this->festa['comune']=='dottori') {
 

@@ -479,7 +479,7 @@ class Calendario {
 			"0502a"=>array(
 				"titolo"=>"Sant'Atanasio (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -565,7 +565,7 @@ class Calendario {
 			"0525a"=>array(
 				"titolo"=>"San Beda il venerabile (Sacerdote e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -663,7 +663,7 @@ class Calendario {
 			"0613a"=>array(
 				"titolo"=>"Sant'Antonio di Padova (Sacerdote e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -709,7 +709,7 @@ class Calendario {
 			"0627a"=>array(
 				"titolo"=>"San Cirillo d'Alessandria (Vescovo e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -789,7 +789,7 @@ class Calendario {
 			"0715a"=>array(
 				"titolo"=>"San Bonaventura (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -805,7 +805,7 @@ class Calendario {
 			"0721a"=>array(
 				"titolo"=>"San Lorenzo da Brindisi (Sacerdote e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -845,7 +845,7 @@ class Calendario {
 			"0730a"=>array(
 				"titolo"=>"San Pietro Crisologo (Vescovo e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -861,7 +861,7 @@ class Calendario {
 			"0801a"=>array(
 				"titolo"=>"Sant'Alfonso Maria de' Liguori (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),

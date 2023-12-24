@@ -3772,6 +3772,8 @@ class Lettura {
         if ($this->actual['fesCode']!='') {
 
             foreach($this->actual['festa'] as $k=>$f) {
+
+                if ($k!=$this->actual['fesCode']) continue;
             
                 if ($f['comune']=='dedica') {
 
