@@ -1397,7 +1397,7 @@ class Calendario {
 			"1115a"=>array(
 				"titolo"=>"Sant'Alberto Magno (Vescovo e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
