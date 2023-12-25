@@ -2826,13 +2826,13 @@ class Orazione {
                 array('ending')
             )
         ),
-        "1229a"=>array(
+        "1229b"=>array(
             array(
                 array('','',"O Dio, che hai dato al vescovo san Tommaso Becket il privilegio di versare il sangua per la giustizia e la libertà della Chiesa, concedi anche anoi di essere prontio, per amore del Cristo, a perdere la vita in questo mondo per ritrovarla nel regno dei cieli."),
                 array('ending')
             )
         ),
-        "1231a"=>array(
+        "1231b"=>array(
             array(
                 array('','',"Assisti, Signore, il tuo popolo che confida nell'intercessione del papa san Silvestro I, perché, nel cammino della vita, goda sempre della tua guida e giunga felicemente alla città dei santi."),
                 array('ending')

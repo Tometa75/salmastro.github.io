@@ -38,4 +38,8 @@ Starting Short Prayer
 End Short Prayer
 Starting Canticle
 
+25.12.2023
+End Canticle
+Starting Invocations
+
 

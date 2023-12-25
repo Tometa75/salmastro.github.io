@@ -6,6 +6,8 @@ require_once('lettura.php');
 require_once('orazione.php');
 require_once('responsorio.php');
 require_once('cantico.php');
+require_once('invocazioni.php');
+require_once('padrenostro.php');
 require_once('testo.php');
 
 class Litio {
@@ -270,6 +272,8 @@ class Litio {
                 case 'ZAC': $this->res['ZAC']=new Cantico($this,'ZAC');break;
                 case 'MAG': $this->res['MAG']=new Cantico($this,'MAG');break;
                 case 'SIM': $this->res['SIM']=new Cantico($this,'SIM');break;
+                case 'INV': $this->res['INV']=new Invocazioni($this);break;
+                case 'PN': $this->res['PN']=new PadreNostro();break;
                 case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
             }
@@ -297,10 +301,21 @@ class Litio {
 
             echo '<div style="position:relative;display:inline-block;width:20%;vertical-align:top;padding:5px;box-sizing:border-box;">';
 
+                $tnow=date('H:m');
+                $def="";
+
+                foreach ($this->base as $kb=>$ob) {
+                    if ($tnow>=$ob['i'] && $tnow<=$ob['f']) {
+                        $def=substr($kb,0,3);
+                        break;
+                    }
+                }
+
                 echo '<select id="sal_ora" style="position:relative;width:95%;font-size:1.2em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
                     foreach ($this->map['actual'] as $k=>$a) {
                         echo '<option value="'.$k.'" ';
                             if (isset($this->config['ora']) && $this->config['ora']==$k) echo 'selected';
+                            elseif ($def==substr($k,0,3)) echo 'selected';
                         echo '>'.$a['titolo'].'</option>';
                     }
                 echo '</select>';

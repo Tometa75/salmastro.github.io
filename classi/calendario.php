@@ -1507,7 +1507,7 @@ class Calendario {
 			"1204a"=>array(
 				"titolo"=>"San Giovanni Damasceno (Sacerdote e dottore della Chiesa)",
 				"tipo"=>"R",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
@@ -1537,7 +1537,7 @@ class Calendario {
 			"1207a"=>array(
 				"titolo"=>"Sant'Ambrogio (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M",
-				"comune"=>"pastori",
+				"comune"=>"dottori",
 				"mix"=>1
 			)
 		),
