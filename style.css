@@ -10,6 +10,12 @@
     font-weight:bold;
 }
 
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato/Lato-Italic.ttf);
+    font-style: italic;
+}
+
 html {
     font-size:10pt;
 }

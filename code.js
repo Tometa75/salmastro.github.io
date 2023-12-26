@@ -45,4 +45,10 @@ const salmastro=class {
             }
         });
     }
+
+    bvm(id) {
+
+        $('div[id^="salmastro_bvm_"]').hide();
+        $('#salmastro_bvm_'+id).show();
+    }
 }

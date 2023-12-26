@@ -8,6 +8,7 @@ require_once('responsorio.php');
 require_once('cantico.php');
 require_once('invocazioni.php');
 require_once('padrenostro.php');
+require_once('beata.php');
 require_once('testo.php');
 
 class Litio {
@@ -276,6 +277,7 @@ class Litio {
                 case 'PN': $this->res['PN']=new PadreNostro();break;
                 case 'OR': $this->res['OR']=new Orazione($this);break;
                 case 'PC': $this->res['PC']=new Preghiera('fine',$this);break;
+                case 'BVM': $this->res['BVM']=new Beata($this);break;
             }
         }
 

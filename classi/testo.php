@@ -82,6 +82,7 @@ class Saltesto {
                             else {
                                 if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
                                 if (strpos($t[1],'c',0)!==false) echo 'color:#916803;';
+                                if (strpos($t[1],'I',0)!==false) echo 'font-style:italic;';
                             }
                         }
                     echo '">';
@@ -92,6 +93,7 @@ class Saltesto {
                                 elseif($t[0]=='ebd' || $t[0]=='sac') echo 'v.png';
                                 elseif($t[0]=='*') echo 'asterisk.png';
                                 elseif($t[0]=='ant') echo 'ant.png';
+                                elseif($t[0]=='-') echo 'trattino.png';
                             echo '" />';
                         }
 
