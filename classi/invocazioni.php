@@ -736,7 +736,7 @@ class Invocazioni {
                                 array('','',"Ricordati di coloro che sono consacrati al servizio dei fratelli,"),
                                 array('-','',"perché l'insuccesso o l'incomprensione non li distolgano mai dal loro proposito."),
                                 array('','',"Ti preghiamo, o Signore, per i nostri fratelli defunti,"),
-                                array('-',''," apri loro le braccia della tua misericordia.")
+                                array('-','',"apri loro le braccia della tua misericordia.")
                             )
                         );
                     break;
@@ -763,90 +763,169 @@ class Invocazioni {
                 }
             }
         }
+        if ($this->actual['weekDay']==4) {
 
-        /*elseif ($this->actual['weekDay']==1) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Benedetto",
-                    "il Signore! Ha visitato e redento il suo popolo."
-                );
+            if ($this->actual['ora']=='lodi') {
+                switch($this->actual['quarto']) {
+                    case 1:
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie al Signore che ci dona la luce di un nuovo giorno e invochiamo la sua benedizione:"),
+                                array('ris','I',"Signore benedici e santifica la tua Chiesa.")
+                            ),
+                            array(
+                                array('','',"Ti sei fatto vittima per i nostri peccati,"),
+                                array('-','',"gradisci l'offerta dei nostri propositi e delle iniziative di questo giorno."),
+                                array('','',"Tu allieti i nostri occhi con le meraviglie del creto,"),
+                                array('-','',"sorgi anche nel nostro spirito come sole di giustizia e di verità."),
+                                array('','',"Donaci un cuore generoso,"),
+                                array('-','',"perché diventiamo segno e testimonianza della tua bontà."),
+                                array('','',"Fa' che sperimentiamo fin da questa mattina la tua misericordia,"),
+                                array('-','',"e la gioia che tu dai ai tuoi amici sia la nostra fortezza.")
+                            )
+                        );
+                    break;
+                    case 2:
+                        $this->testo=array(
+                            array(
+                                array('','',"Con la libertà dei figli invochiamo Dio Padre che ci ama e ascolta le nostre preghiere:"),
+                                array('ris','I',"Illumina i nostri occhi, Signore.")
+                            ),
+                            array(
+                                array('','',"Ti ringraziamo di averci illuminati con lo Spirito che procede da te e dal Figlio tuo,"),
+                                array('-','',"fa' che ci saziamo della sua luce per tutta la lunghezza di questa giornata."),
+                                array('','',"La sua sapienza ci prenda per mano,"),
+                                array('-','',"perché camminiamo nella via della vita."),
+                                array('','',"Insegnaci ad affrontare coraggiosamente ogni avversità,"),
+                                array('-','',"per servirti sempre con animo generoso."),
+                                array('','',"Sii tu l'ispiratore dei nostri pensieri e delle nostre azioni,"),
+                                array('-','',"perché collaboriamo docilmente con la tua Provvidenza.")
+                            )
+                        );
+                    break;
+                    case 3:
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie a Dio che nutre e guida il suo popolo. Uniti nella preghiera del mattino, acclamiamo:"),
+                                array('ris','I',"Gloria a te nei secoli, Signore.")
+                            ),
+                            array(
+                                array('','',"Padre clementissimo, ti benediciamo per il tuo immenso amore,"),
+                                array('-','',"che risplende nella creazione e ancor più visibilmente nella redenzione."),
+                                array('','',"Fin dall'inizio di questo giorno ispiraci il desiderio di servirti,"),
+                                array('-','',"perché nei pensieri e nelle opere glorifichiamo sempre il tuo santo nome."),
+                                array('','',"Purifica i nostri cuori da ogni desiderio di male,"),
+                                array('-','',"perché siamo costantemente orientati alla tua volontà."),
+                                array('','',"Apri il nostro cuore alle necessità dei fratelli,"),
+                                array('-','',"perché incontrandoci non ci trovino freddi e senza amore verso di loro.")
+                            )
+                        );
+                    break;
+                    case 4:
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti nella lode divina acclamiamo Dio nostro Padre, che ha salvato il suo popolo e diciamo con fede:"),
+                                array('ris','I',"Tu sei la nostra vita, Signore.")
+                            ),
+                            array(
+                                array('','',"Benedetto sii tu, o Padre del Signore nostro Gesù Cristo,"),
+                                array('-','',"che ci hai rigenerto a una speranza viva mediante la risurrezione del tuo Figlio."),
+                                array('','',"Nel Cristo hai rinnovato l'uomo, creato a tua immagine,"),
+                                array('-','',"rendici conformi all'immagine del tuo Figlio."),
+                                array('','',"Guarisci l'umanità ferita dall'invidia e dall'odio,"),
+                                array('-','',"trasformaci cona la carità che è dono dello Spirito."),
+                                array('','',"Da' il lavoro agli operai, il pane agli affamati, agli afflitti la gioia,"),
+                                array('-','',"a tutti gli uomini la grazia e la salvezza.")
+                            )
+                        );
+                    break;
+                }
             }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Con tutta l'anima",
-                    "glorifico il Signore: umile e povera egli mi ha guardata."
-                );
+            if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                switch($this->actual['quarto']) {
+                    case 1:
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo Dio, fondamento di tuta la nostra speranza:"),
+                                array('ris','I',"Benedici i tuoi figli, o Signore.")
+                            ),
+                            array(
+                                array('','',"Signore, nostro Dio, che hai stabilito con il tuo popolo un'alleanza eterna,"),
+                                array('-','',"fa' che ricordiamo sempre le grandi opere del tuo amore."),
+                                array('','',"Conferma nella carità tutto l'ordine sacerdotale,"),
+                                array('-','',"raccogli i tuoi fedeli nell'unità dello Spirito mediante il vincolo della pace."),
+                                array('','',"Aiutaci a costruire insieme con te la nostra città terrena,"),
+                                array('-','',"perché non fatichiamo invano."),
+                                array('','',"Manda operai nella tua messe,"),
+                                array('-','',"perché sia glorificato il tuo nome fra tutte le genti."),
+                                array('','',"Accogli fra i tuoi santi i nostri parenti e benefattori defunti,"),
+                                array('-','',"ammetti un giorno acnhe noi nella gioia eterna.")
+                            )
+                        );
+                    break;
+                    case 2:
+                        $this->testo=array(
+                            array(
+                                array('','',"Ricordiamo con gioia che il nostro Salvatore ha benedetto il suo popolo con ogni benedizione spirituale e pieni di speranza chiediamo:"),
+                                array('ris','I',"Benedici la tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"Custodisci, Dio misericordioso, il nostro papa ... e il nostro vescovo ... ,"),
+                                array('-','',"dona loro serenità e salute."),
+                                array('','',"Proteggi il nostro paese,"),
+                                array('-','',"fa' che progredisca nella giustizia e nella pace."),
+                                array('','',"Convoca i tuoi figli intorno alla tua mensa,"),
+                                array('-','',"fa' che anime buone e generose ti seguano nella via della castità, povertà e obbedienza."),
+                                array('','',"Conferma nel santo proposito le vergini a te consacrate,"),
+                                array('-','',"perché ti servano con animo ardente e fedele."),
+                                array('','',"Dona il riposo eterno ai nostri defunti,"),
+                                array('-','',"fa' che li sentiamo vicini a noi nella comunione dei santi.")
+                            )
+                        );
+                    break;
+                    case 3:
+                        $this->testo=array(
+                            array(
+                                array('','',"A Cristo, buon pastore, aiuto, guida e conforto del suo popolo, rivolgiamo con fede la nostra preghiera:"),
+                                array('ris','I',"Signore, nostro rifugio e nostra forza, ascoltaci.")
+                            ),
+                            array(
+                                array('','',"Benedetto sii tu, Signore, che ci hai chiamati a far parte della tua famiglia,"),
+                                array('-','',"conservaci sempre membra vive della tua santa Chiesa."),
+                                array('','',"Tu che hai affidato al nostro papa ... la cura pastorale di tutte le Chiese,"),
+                                array('-','',"donagli fede indefettibile, speranza viva, carità apostolica."),
+                                array('','',"Dona forza di risorgere a quanti hanno abbandonato la fede,"),
+                                array('-','',"concedi a tutti il perdono e la pace."),
+                                array('','',"Tu che hai conosciuto l'amarezza dell'esilio,"),
+                                array('-','',"ricordati di quanti vivono lontani dalla famiglia e dalla patria."),
+                                array('','',"A tutti i defunti che hanno sperato in te,"),
+                                array('-','',"dona la luce e la pace eterna.")
+                            )
+                        );
+                    break;
+                    case 4:
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo il Cristo, luce dei popoli e gioia di tutti i viventi e acclamiamo:"),
+                                array('ris','I',"Tu sei la nostra vita, Signore.")
+                            ),
+                            array(
+                                array('','',"Luce che non conosce tramonto, Verbo eterno del Padre, Salvatore del mondo,"),
+                                array('-','',"illumina i passi dei catecumeni sulla via della verità."),
+                                array('','',"Sei l'amore che perdona,"),
+                                array('-','',"dimentica le nostre iniquità."),
+                                array('','',"Hai dato all'uomo l'intelligenza per esplorare i segreti della natura e per utilizzare le energie del cosmo,"),
+                                array('-','',"guida la scienza e la tecnica sulle vie del vero bene dell'umanità per la gloria del tuo nome."),
+                                array('','',"Proteggi quanti si sono consacrati al serizio dei fratelli,"),
+                                array('-','',"fa' che compiano la loro missione nella libertà e nella pace."),
+                                array('','',"Signore, che hai le chiavi della vita e della morte,"),
+                                array('-','',"prendi con te nella luce della tua dimora i nostri fratelli defunti.")
+                            )
+                        );
+                    break;
+                }
             }
         }
-
-        elseif ($this->actual['weekDay']==2) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "O Signore,",
-                    "hai suscitato una salvezza potente, nella casa di Davide tuo servo."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Il mio spirito",
-                    "esulta in Dio, mio salvatore."
-                );
-            }
-        }
-
-        elseif ($this->actual['weekDay']==3) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Concedi misericordia,",
-                    "Signore, ricorda la tua alleanza con Abramo."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Ha fatto di me",
-                    "cose grandi colui che è potente, e Santo è il suo nome."
-                );
-            }
-        }
-
-        elseif ($this->actual['weekDay']==4) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Dà al tuo popolo,",
-                    "Signore, la conoscenza della salvezza e il perdono dei peccati."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Il Signore",
-                    "ha rovesciato i potenti dai troni, ha innalzato gli umili."
-                );
-            }
-        }
-
-        elseif ($this->actual['weekDay']==5) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Per la grande bontà",
-                    "del nostro Dio, ci ha visitato il sole che sorge dall'alto."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Ricordati,",
-                    "o Dio, del tuo amore, come hai promesso ai nostri padri."
-                );
-            }
-        }
-
-        elseif ($this->actual['weekDay']==6) {
-            if ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Illumina, Signore,",
-                    "quelli che stanno nelle tenebre, e guida i nostri passi nella via della pace."
-                );
-            }
-        }*/
     }
 
     //################################################################################
