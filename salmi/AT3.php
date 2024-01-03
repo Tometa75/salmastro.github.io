@@ -65,9 +65,9 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Dal Signore saranno abbattuti i suoi avversari!"),
-                array('','2',"L'Altissimo tuonerà del cielo."),
+                array('','2',"L'Altissimo tuonerà dal cielo."),
                 array('','+',"Il Signore giudicherà gli estremi confini della terra;"),
-                array('','*',"al suo re drà la forza"),
+                array('','*',"al suo re darà la forza"),
                 array('','2',"ed eleverà la potenza del suo Messia.")
             )
         )
