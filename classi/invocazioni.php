@@ -1403,6 +1403,164 @@ class Invocazioni {
                     );
                 }
             }
+
+            if ($this->actual['weekDay']==3) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Il Verbo di Dio ha voluto abitare in mezzo a noi, perché contempliamo la sua gloria. Lieti nella speranza acclamiamo:"),
+                            array('ris','I',"Resta con noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Dio giusto e misericordioso,"),
+                            array('-','',"rendi giustizia ai poveri e agli oppressi."),
+                            array('','',"Re pacifico, che trasformi in vomeri le spade e le lance in falci,"),
+                            array('-','',"muta l'odio in amore, la vendetta in perdono."),
+                            array('','',"Tu che giudichi secondo verità e non secondo le apparenze,"),
+                            array('-','',"vieni e riconosci i tuoi discepoli."),
+                            array('','',"Quando verrai sulle nubi del cielo con grande potenza e gloria,"),
+                            array('-','',"fa' che ci presentiamo con serena fiducia davanti a te.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"A Dio Padre, che ha mandato il suo Figlio a portarci la pace, rivolgiamo la nostra comune preghiera:"),
+                            array('ris','I',"Venga il tuo regno, Signore.")
+                        ),
+                        array(
+                            array('','',"Padre santo, guarda la tua Chiesa,"),
+                            array('-','',"visita questa vigna, che hai piantato con le tue mani."),
+                            array('','',"La tua fedeltà dura in eterno,"),
+                            array('-','',"ricordati di tutti i figli di Abramo e compi le tue promesse."),
+                            array('','',"Volgi il tuo sguardo a tutti i popoli,"),
+                            array('-','',"ogni uomo glorifichi il tuo nome."),
+                            array('','',"Visita il tuo gregge sparso sulla terra,"),
+                            array('-','',"radunalo nell'unico ovile di Cristo."),
+                            array('','',"Ricordati di coloro che oggi hanno lasciato questo mondo,"),
+                            array('-','',"fa' che vivano nella gloria del tuo regno.")
+                        )
+                    );
+                }
+            }
+
+            if ($this->actual['weekDay']==4) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Riuniti nella lode del mattino invochiamo Cristo, sapienza e potenza di Dio:"),
+                            array('ris','I',"Resta sempre con noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Signore Gesù, che ci hai chiamati a far parte della tua Chiesa,"),
+                            array('-','',"aiutadi a vivere in modo degno della nostra vocazione."),
+                            array('','',"Tu che ignoto al mondo, sei presente in mezzo a noi,"),
+                            array('-','',"rivela a tutti gli uomini la luce del tuo volto."),
+                            array('','',"Tu che sei più intimo a noi di noi stessi,"),
+                            array('-','',"Ravviva in noi la speranza della salvezza."),
+                            array('','',"Fonte e modello di ogni santità,"),
+                            array('-','',"conservaci nella tua amicizia fino al giorno della tua venuta.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Acclamiamo Cristo, salvatore del mondo, annunziato dai profeti, e innalziamo a lui la nostra preghiera:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Verbo eterno, che hai creato l'universo e nella pienezza dei tempi ti sei fatto uomo per la nostra salvezza,"),
+                            array('-','',"vieni e salvaci dal peccato e dalla morte."),
+                            array('','',"Luce vera, che illumini ogni uomo,"),
+                            array('-','',"vieni e disperdi le tenebre della nostra ignoranza."),
+                            array('','',"Figlio unigenito, che vivi nel Padre,"),
+                            array('-','',"vieni e rivelaci l'amore che ci salva."),
+                            array('','',"Tu che sei il nostro liberatore,"),
+                            array('-','',"dona a tutti gli uomini la libertà dei figli di Dio."),
+                            array('','',"Tu che hai vinto le barriere della divisione e dell'odio,"),
+                            array('-','',"riunisci al banchetto eterno i morti di tutte le guerre.")
+                        )
+                    );
+                }
+            }
+
+            if ($this->actual['weekDay']==5) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Lode e benedizione a Dio Padre , che nel suo Figlio ha rivelato agli uomini la sua gloria:"),
+                            array('ris','I',"Signore, noi ti lodiamo e ti glorifichiamo.")
+                        ),
+                        array(
+                            array('','',"Padre santo, fa' che impariamo a comprenderci e ad amarci,"),
+                            array('-','',"come ci ha insegnato il Cristo tuo Figlio."),
+                            array('','',"Riempici di gioia e di pace nella fede,"),
+                            array('-','',"confermaci nella speranza e donaci la forza dello Spirito."),
+                            array('','',"Signore, che nella tua bontà ti prendi cura di ogni essere creato,"),
+                            array('-','',"visita coloro che ti aspettano pur senza conoscerti."),
+                            array('','',"Tu che chiami e santifichi gli eletti,"),
+                            array('-','',"sostieni anche noi, peccatori, nel cammino verso la beatitudine eterna.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Supplichiamo Cristo, pastore e custode delle nostre anime:"),
+                            array('ris','I',"Salva la tua famiglia, Signore.")
+                        ),
+                        array(
+                            array('','',"Pastore buono del gregge di Dio,"),
+                            array('-','',"vieni e raduna tutti gli uomini nella tua Chiesa."),
+                            array('','',"Assisti i pastori del tuo popolo,"),
+                            array('-','',"perché siano instancabili nel servizio dei fratelli."),
+                            array('','',"Suscita autentici messaggeri della tua parola,"),
+                            array('-','',"Il tuo Vangelo sia annunziato sino ai confini della terra."),
+                            array('','',"Abbi pietà di coloro che, affaticati e oppressi, vengono meno nel cammino della vita,"),
+                            array('-','',"fa' che trovino accanto a sé la presenza confortatrice di un amico."),
+                            array('','',"Accogli nei pascoli eterni del cielo coloro che hai chiamato a te,"),
+                            array('-','',"e che sulla terra hanno riconosciuto la tua voce.")
+                        )
+                    );
+                }
+            }
+
+            if ($this->actual['weekDay']==6) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Supplichiasmo Dio nostro Padre, che ha aperto a tutti gli uomini la via della salvezza:"),
+                            array('ris','I',"Custodisci il tuo popolo, Signore.")
+                        ),
+                        array(
+                            array('','',"Dio, che hai promesso al tuo popolo un germoglio di giustizia,"),
+                            array('-','',"conserva pura e santa la tua Chiesa."),
+                            array('','',"Apri il nostro cuore all'ascolto della tua parola,"),
+                            array('-','',"rendici forti e irreprensibili nella testimonianza della fede."),
+                            array('','',"Confermaci nella comunione di amore del tuo Spirito,"),
+                            array('-','',"fa' che sappiamo accogliere la venuta del tuo Figlio."),
+                            array('','',"Donaci di perseverare nella tua grazia,"),
+                            array('-','',"fedeli e vigilanti fino al giorno del Signore Gesù Cristo.")
+                        )
+                    );
+                }
+            }
                     
 
             ////////////////
