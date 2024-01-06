@@ -4288,7 +4288,12 @@ class Invocazioni {
         }
 
         echo '<div class="salResBlockTitle" style="margin-top:30px;">';
-            echo 'Invocazioni';
+            if ($this->actual['ora']=='lodi') {
+                echo 'Invocazioni';
+            }
+            else {
+                echo 'Intercessioni';
+            }
         echo '</div>';
 
         echo '<div class="salResBlockBody" >';
