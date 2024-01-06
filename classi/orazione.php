@@ -952,7 +952,7 @@ class Orazione {
             array(
                 array('','',"O Dio, tu hai voluto che l'umanità del Salvatore, nella sua mirabile nascita dalla Vergine Maria, non fosse sottoposta alla comune eredità dei nostri padri; fa' che liberati dal contagio dell'antico male possiamo anche noi far parte della nuova creazione, iniziata da Cristo tuo Figlio."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
-            
+            )
         ),
         "F0104"=>array(
             array(
