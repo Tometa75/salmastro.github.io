@@ -1560,121 +1560,344 @@ class Invocazioni {
                         )
                     );
                 }
-            }
-                    
+            }     
 
             ////////////////
 
             if (substr($this->actual['today'],4,4)=='1217') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Vigilate:",
-                        "il Signore nostro è vicino."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Supplichamo Dio nostro Padre, che ha aperto a tutti gli uomini la via della salvezza:"),
+                            array('ris','I',"Custodisci il tuo popolo, Signore.")
+                        ),
+                        array(
+                            array('','',"Dio, che hai promesso al tuo popolo un germoglio di gustizia,"),
+                            array('-','',"conserva pura e santa la tua Chiesa."),
+                            array('','',"Apri il nostro cuore all'ascolto della tua parola,"),
+                            array('-','',"rendici forti e irreprensibili nella testimonianza della fede."),
+                            array('','',"Confermaci nella comunione di amore del tuo Spirito,"),
+                            array('-','',"fa' sappiamo accogliere la venuta del tuo Figlio."),
+                            array('','',"Donaci di perseverare nella tua grazia,"),
+                            array('-','',"fedeli e vigilanti fino al giorno del Signore Gesù Cristo.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O sapienza,",
-                        "che esci dalla bocca dell'Altissimo, ti stendi fino ai confini del mondo, e tutto disponi con soavità e con forza: vieni, insegnaci la via della saggezza."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Innalziamo la comune preghiera a Cristo salvatore, nato dalla Vergine Maria:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Figlio di Dio, che vieni come il vero angelo dell'alleanza,"),
+                            array('-','',"fa' che il mondo intero ti riconosca e ti accolga."),
+                            array('','',"Verbo di Dio, che ti sei fatto nostro fratello,"),
+                            array('-','',"libera l'umanità dalle oscure suggestioni del male."),
+                            array('','',"Signore della vita, che hai preso su di te la nostra morte,"),
+                            array('-','',"fa' che accettiamo dalle tue mani la sofferenza e la morte."),
+                            array('','',"Giudice divino, che dai la giusta ricompensa,"),
+                            array('-','',"mostraci la misericordia che non conosce limiti."),
+                            array('','',"Cristo Signore, morto per noi sul legno della croce,"),
+                            array('-','',"dona il riposo eterno a chi è morto a causa dell'odio e della violenza.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1218') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Maria,",
-                        "madre di Gesù, sposa di Giuseppe, prima che andassero a vivere insieme si trovò incinta per opera dello Spirito Santo."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniti nella preghiera della fede, invochiamo Cristo, giudice dei vivi e dei morti:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Cristo, che sei venuto a salvare i peccatori,"),
+                            array('-','',"difendici dalle insidie del male."),
+                            array('','',"Tu che alla fine dei tempi manifesterai la tua potenza e gloria,"),
+                            array('-','',"mostraci fin d'ora la grazia che ci salva."),
+                            array('','',"La forza dello Spirito Santo ci aiuti a custodire la tua legge,"),
+                            array('-','',"nel generoso servizio di Dio e del prossimo."),
+                            array('','',"Aiutaci a vivere con sobrietà e amore in questo mondo,"),
+                            array('-','',"in attesa della beata speranza e della rivelazione della tua gloria.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O Signore,",
-                        "guida della casa d'Israele, che sei apparso a Mosè nel fuoco del roveto, e sul monte Sinai gli hai dato la legge: vieni a liberarci con braccio potente."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniamoci alla santa Chiesa, che attende con fede il Cristo, suo sposo:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Verbo eterno, che nell'incarnazine hai rivelato al mondo la tua gloria,"),
+                            array('-','',"trasformaci con la tua vita divina."),
+                            array('','',"Ti sei rivestito della nostra debolezza,"),
+                            array('-','',"infondi in noi la forza del tuo amore."),
+                            array('','',"Tu che governi con sapienza le tue creature,"),
+                            array('-','',"fa' che tutti gli uomini promuovano il progresso nella libertà e nella pace."),
+                            array('','',"Tu che sei venuto povero e umile per redimerci dal peccato,"),
+                            array('-','',"accoglici nell'assemblea dei giusti quando verrai nella tua gloria."),
+                            array('','',"Tu che siedi alla destra del Padre,"),
+                            array('-','',"allieta con la visione del tuo volto quelli che solo alla fine conobbero l'amore e la speranza.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1219') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Camminerà",
-                        "davanti al Cristo, con lo spirito e la potenza di Elia, a preparare al Signore un popolo santo."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo Redentore riscatterà del dominio della morte chi lo attende con cuore sincero. A lui rivolgiamo il grido della nostra fede:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Signore, guarda il tuo popolo che celebra il mistero della tua venuta,"),
+                            array('-','',"purifica il nostro spirito da ogni forma di orgoglio e di egoismo."),
+                            array('','',"Signore, proteggi la Chiesa, che hai fondato come sacramento di salvezza,"),
+                            array('-','',"fa' che annunzi la verità e la pace a tutti i popoli."),
+                            array('','',"Fa' risplendere agli occhi di tutti la tua legge,"),
+                            array('-','',"perché sia guida sicura per ogni uomo."),
+                            array('','',"Tu che affidi ad ogni battezzato una missione profetica,"),
+                            array('-','',"fa' che i cristiani annunzino la tua presenza nel mondo.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O germoglio di Iesse,",
-                        "che ti innalzi come segno per i popoli: tacciono davanti a te i re della terra, e le nazioni t'invocano: vieni a liberarci, non tardare."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"A Cristo, giudice dei vivi e dei morti, salga fiduciosa la preghiera del popolo redento:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Signore, il mondo riconosca la tua giustizia,"),
+                            array('-','',"e la tua gloria abiti nella nostra terra."),
+                            array('','',"Tu che hai voluto condividere la debolezza della condizione umana,"),
+                            array('-','',"infondi in noi la forza inesauribile del tuo Spirito."),
+                            array('','',"Irradia sul mondo la luce della tua verità,"),
+                            array('-','',"illumina i nostri fratelli che ancora non ti riconoscono."),
+                            array('','',"Sei venuto nell'umiltà per cancellare i nostri peccati,"),
+                            array('-','',"venendo nella gloria, guidaci alla felicità eterna."),
+                            array('','',"Tu che alla fine dei tempi verrai a giudicare il mondo,"),
+                            array('-','',"ricompensa coloro che in questa vita furono vittime della persecuzione.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1220') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "L'angelo Gabriele",
-                        "fu inviato alla sposa di Giuseppe, la Vergine Maria."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo è la luce che illumina ogni uomo. La Santa Chiesa, unita nella preghiera di lode, lo attende e lo invoca:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Lo splendore della tua presenza, o Cristo, vinca le nostre tenebre,"),
+                            array('-','',"ci renda degni dei tuoi benefici."),
+                            array('','',"Salva il tuo popolo, Signore nostro Dio,"),
+                            array('-','',"fa' che oggi e sempre glorifichiamo il tuo nome."),
+                            array('','',"Accendi nei nostri cuori una sete ardente di te, o Signore,"),
+                            array('-','',"il tuo Spirito ci unisca tutti in comunione di fede e di carità."),
+                            array('','',"Ti sei rivestito della umana debolezza,"),
+                            array('-','',"soccorri e proteggi i poveri, i malati, gli agonizzanti.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O Chiave di Davide,",
-                        "scettro della casa d'Israele, che apri, e nessuno può chiudere, chiudi, e nessuno può aprire: vieni, libera l'uomo prigioniero che giace nelle tenebre e nell'ombra della morte."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Alla fine dei tempi il Cristo si manifesterà nello splendore della gloria. La Chiesa lo saluta e lo invoca:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Cristo nostro salvatore, che nascendo dalla Vergine ci hai liberati dal giogo della legge antica,"),
+                            array('-','',"compi in noi l'opera della tua redenzione."),
+                            array('','',"Tu che hai condiviso la nostra condizione umana,"),
+                            array('-','',"fa' che partecipiamo alla tua vita divina."),
+                            array('','',"Per il mistero della tua venuta accendi in noi il fuoco della tua carità,"),
+                            array('-','',"realizza le nostre aspirazioni di giustizia e di pace."),
+                            array('','',"Tu che ora ci fai camminare nell'oscurità della fede,"),
+                            array('-','',"fa' che un giorno ti possiamo contemplare nella gloria."),
+                            array('','',"Scenda su tutti i defunti la rugiada della tua misericordia,"),
+                            array('-','',"splenda ad essi la luce del tuo volto.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1221') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Non abbiate timore:",
-                        "il quinto giorno il Signore verrà."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniamoci alla preghiera perseverante della Chiesa, che attende il Cristo, suo sposo:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Tu che dalla gloria del Padre sei venuto fra noi rivestito della nostra umanità,"),
+                            array('-','',"donaci l'eredità dei figli di Dio."),
+                            array('','',"Tu che un giorno ritornerai acclamato dall'assemblea festosa dei giusti,"),
+                            array('-','',"mostrati buono e clemente verso di noi peccatori."),
+                            array('','',"Cristo, che unisci la Chiesa alla tua preghiera sacerdotale,"),
+                            array('-','',"salvaci con la grazia della tua visita."),
+                            array('','',"Tu che mediante la fede ci guidi dalle tenebre alla luce,"),
+                            array('-','',"rinnovaci nel corpo e nello spirito, perché possiamo piacere a te.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O Astro che sorgi,",
-                        "splendore di luce eterna, sole di giustizia: vieni, illumina chi giace nelle tenebre e nell'ombra della morte."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"A Cristo, che ci hai liberati dalle tenebre del peccato, rivolgiamo fiduciosi la nostra preghiera:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Signore, che raduni in una sola famiglia i popolo della terra,"),
+                            array('-','',"rinnova con essi il patto di eterna alleanza."),
+                            array('','',"Agnello di Dio, che sei venuto a togliere i peccati del mondo,"),
+                            array('-','',"liberaci dai fermenti della lussuria, della violenza e dell'orgoglio."),
+                            array('','',"Tu che sei venuto a salvare l'umanità decaduta,"),
+                            array('-','',"nel tuo avvento glorioso non condannare coloro che hai redento."),
+                            array('','',"Tu che ci attiri con la forza della fede,"),
+                            array('-','',"fa' che giungiamo al porto della gioia eterna."),
+                            array('','',"Tu che verrai a giudicare i vivi e i morti,"),
+                            array('-','',"ammetti i nostri familiari e amici defunti nella gioia dei santi.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1222') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Ho udito",
-                        "il tuo saluto, e nel mio grembo il bambino ha trasalito di gioia, alleluia."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniti nel rendimento di grazie a Dio Padre, che ha mandato il suo Figlio a riscattare tutti gli  uomini, preghiamo per la salvezza e la pace del mondo:"),
+                            array('ris','I',"Mostraci, Signore, la tua misericordia.")
+                        ),
+                        array(
+                            array('','',"Padre santo, che ci chiami ad annunziare la fede nel Cristo Signore,"),
+                            array('-','',"aiutaci a non smentire mai con la condotta della vita il credo che professiamo."),
+                            array('','',"Tu che hai mandato il tuo Figlio a liberarci dal peccato e dalla morte,"),
+                            array('-','',"togli ogni ansia e tristezza dalla nostra città e dalla faccia della terra."),
+                            array('','',"Fa' che l'umanità inondata di gioia per la venuta del tuo Figlio,"),
+                            array('-','',"conosca la letizia perfetta nel possesso di te, unico sommo bene."),
+                            array('','',"Concedi a noi tuoi fedeli di vivere con sobrietà e amore in questo mondo,"),
+                            array('-','',"nell'attesa della beata speranza e della rivelazione gloriosa del tuo Cristo.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O Re delle genti,",
-                        "atteso da tutte le nazioni, pietra angolare che riunisci i popoli in uno, vieni, e salva l'uomo che hai formato dalla terra."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"A Cristo, che umiliò se stesso per amore dell'umanità, innalziamo il grido dell'attesa e della speranza:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Signore, che sei venuto a guarire i malati e a salvare i peccatori,"),
+                            array('-','',"libera i corpi e le anime dall'oppressione del male."),
+                            array('','',"Tu che non esiti a chiamare tuoi fratelli coloro che hai redenti,"),
+                            array('-','',"non permettere che ci separiamo mai dal tuo amore."),
+                            array('','',"Aiutaci ad accogliere con animo aperto il dono della salvezza,"),
+                            array('-','',"perché non siamo condannati nell'ora del rendiconto finale."),
+                            array('','',"Tu che ci apri le insondabili ricchezze della tua bontà,"),
+                            array('-','',"fa' che otteniamo la corona della gloria che non appassisce mai."),
+                            array('','',"Ti raccomandiamo i nostri Pastori defunti e tutti coloro che ci hanno fatto del bene,"),
+                            array('-','',"fa' che vivano con te nella gioia del Paradiso.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1223') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Ora",
-                        "si compiono tutte le parole che l'angelo ha detto a Maria."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo redentore, venendo nel mondo, è divenuto principio e sorgente della nostra salvezza. Rivolgiamo a lui la nostra umile e fiduciosa preghiera:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Cristo, preannunziato dai profeti,"),
+                            array('-','',"rafforza in noi i germogli della giustizia e della carità."),
+                            array('','',"Signore, unica speranza di salvezza,"),
+                            array('-','',"salva tutti coloro che confidano in te."),
+                            array('','',"Medico divino, che sei venuto a sanare i cuori affranti,"),
+                            array('-','',"guarisci le ferite del popolo cristiano."),
+                            array('','',"Principe della pace, che sei venuto a riconciliare il cielo e la terra,"),
+                            array('-','',"salvaci dalla morte eterna quando verrai come giudice.")
+                        )
                     );
                 }
-                elseif ($this->actual['ora']=="ves") {
-                    $this->antifona=array(
-                        "O Emanuele,",
-                        "nostro re e legislatore, speranza e salvezza dei popoli: vieni e salvaci, o Signore nostro Dio."
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Invochiamo con fede il Cristo che è venuto a portare il lieto annunzio ai poveri:"),
+                            array('ris','I',"Signore, tutti i popoli vedano la tua gloria.")
+                        ),
+                        array(
+                            array('','',"Cristo, rivelati a chi ancora non ti conosce,"),
+                            array('-','',"fa' che ogni uomo possa gustare la gioia della tua amicizia."),
+                            array('','',"Il tuo nome risuoni sino ai confini della terra,"),
+                            array('-','',"tutte le genti trovino la via che conduce a te."),
+                            array('','',"Tu che sei venuto a redimere l'umanità,"),
+                            array('-','',"vieni ancora, perché il tuo popolo non perisca ma abbia la vita eterna."),
+                            array('','',"Tu che hai dato agli uomini la libertà dei figli di Dio,"),
+                            array('-','',"conservaci il dono che hai conquistato a prezzo del tuo sangue."),
+                            array('','',"Tu che sei il giudice del mondo,"),
+                            array('-','',"ricompensa con la gioia eterna coloro che sono morti nei campi di sterminio.")
+                        )
                     );
                 }
             }
 
             elseif (substr($this->actual['today'],4,4)=='1224') {
-                if ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Sorgerà",
-                        "come il sole il Salvatore del mondo, come rugiada sull'erba scenderà nel seno della Vergine, alleluia."
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo è la luce che illumina ogni uomo, La santa Chiesa, unita nella preghiera di lode, lo attende e lo invoca:"),
+                            array('ris','I',"Vieni, Signore Gesù.")
+                        ),
+                        array(
+                            array('','',"Lo splendore della tua presenza, o Cristo, vinca le nostre tenebre,"),
+                            array('-','',"ci renda degni dei tuoi benefici."),
+                            array('','',"Salva il tuo popolo, Signore nostro Dio,"),
+                            array('-','',"fa' che oggi e sempre glorifichiamo il tuo nome."),
+                            array('','',"Accendi nei nostri cuori una sete ardente di te, o Signore,"),
+                            array('-','',"il tuo Spirito ci unisca tutti in comunione di fede e di carità."),
+                            array('','',"Tu che ti sei rivestito della umana debolezza,"),
+                            array('-','',"soccorri e proteggi i poveri, i malati, gli agonizzanti.")
+                        )
                     );
                 }
             }   
