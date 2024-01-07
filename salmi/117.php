@@ -57,7 +57,7 @@ $this->closure['load']=function() {
                 array('','*',"Nell'angoscia ho gridato al Signore,"),
                 array('','2',"mi ha risposto, il Signore, e mi ha tratto in salvo."),
                 array('','*',"Il Signore è con me, non ho timore;"),
-                array('','2',"che cosa puà farmi l'uomo?"),
+                array('','2',"che cosa può farmi l'uomo?"),
                 array('','*',"Il Signore è con me, è mio aiuto,"),
                 array('','2',"sfiderò i miei nemici.")
             ),

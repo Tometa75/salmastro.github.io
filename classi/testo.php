@@ -81,7 +81,7 @@ class Saltesto {
                             if ($t[1]=='N') echo 'color:brown;font-size:0.9em;';
                             else {
                                 if (strpos($t[1],'2',0)!==false) echo 'padding-left:30px;';
-                                if (strpos($t[1],'c',0)!==false) echo 'color:#916803;';
+                                if (strpos($t[1],'c',0)!==false) echo 'color:#705103;';
                                 if (strpos($t[1],'I',0)!==false) echo 'font-style:italic;';
                             }
                         }
@@ -91,7 +91,7 @@ class Saltesto {
                             echo '<img class="salTextCapo" src="'.SITE_URL.'/img/';
                                 if ($t[0]=='ris') echo 'r.png';
                                 elseif($t[0]=='ebd' || $t[0]=='sac') echo 'v.png';
-                                elseif($t[0]=='*') echo 'asterisk.png';
+                                elseif($t[0]=='*') echo 'asterisk2.png';
                                 elseif($t[0]=='ant') echo 'ant.png';
                                 elseif($t[0]=='-') echo 'trattino.png';
                             echo '" />';
