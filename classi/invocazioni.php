@@ -2567,20 +2567,20 @@ class Invocazioni {
 
                     $this->testo=array(
                         array(
-                            array('','',"Sia benedetto Cristo, che con la sua visita ha illuminato coloro che erano immersi nelle tenebre e nell'ombra di morte. Tutta la Chiesa lo acclama e lo invoca:"),
-                            array('ris','I',"Irradia sul mondo la tua luce, o Cristo.")
+                            array('','',"Uniti nella preghiera di lode con tutti i nostri fratelli sparsi nel mondo, invochiamo il Signore grande e misericordioso:"),
+                            array('ris','I',"Padre santo, ascolta la voce dei tuoi figli.")
                         ),
                         array(
-                            array('','',"O Cristo, con la tua venuta hai dato i natali alla tua Chiesa,"),
-                            array('-','',"fa' che cresca e si edifichi continuamente nella carità."),
-                            array('','',"Tu reggi nella tua mano il cielo e la terra,"),
-                            array('-','',"fa' che le nazioni riconoscano il tuo potere regale."),
-                            array('','',"Nell'incarnazione sei divenuto sacerdote eterno,"),
-                            array('-','',"fa' che i tuoi sacerdoti siano degni ministri della redenzione."),
-                            array('','',"Nel grembo della Vergine Maria hai unito in mistiche nozze l'umanità e la divinità,"),
-                            array('-','',"benedici le vergini a te consacrate."),
-                            array('','',"Tu che assumendo la nostra natura mortale hai vinto la morte,"),
-                            array('-','',"fa' che i defunti passino dalla morte alla vita senza fine.")
+                            array('','',"Soccorri coloro che ancora non ti conoscono e ti cercano come un Dio ignoto nei riflessi della creazione,"),
+                            array('-','',"apri le loro menti alla luce del Vangelo."),
+                            array('','',"Guarda coloro che ti adorano come unico Dio e ti attendono come giudice nell'ultimo giorno,"),
+                            array('-','',"fa' che conoscano insieme con noi la dolcezza del tuo amore."),
+                            array('','',"Ricordati di tutti coloro ai quali dai vita, luce ed ogni altro bene,"),
+                            array('-','',"fa' che non si alienino mai da te."),
+                            array('','',"Custodisci con la protezione dei tuoi angeli coloro che viaggiano,"),
+                            array('-','',"preservali da ogni incidente e da morte improvvisa."),
+                            array('','',"Accogli i nostri fratelli defunti, che hai illuminato con la luce della verità,"),
+                            array('-','',"dona loro la visione del tuo volto il Paradiso.")
                         )
                     );
                 }
