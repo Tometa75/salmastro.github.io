@@ -2111,6 +2111,119 @@ class Invocazioni {
                 }
             }
 
+            elseif (substr($this->actual['today'],4,4)=='1229') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Dio nella sua misericordia ci ha mandato il Principe della pace. Uniamoci al festoso annunzio di Betlemme:"),
+                            array('ris','I',"Pace agli uomini, che Dio ama.")
+                        ),
+                        array(
+                            array('','',"Padre santo, accogli la nostra lode ldel mattino,"),
+                            array('-','',"benedici la Chiesa, unita nella celebrazione del tuo amore."),
+                            array('','',"Dio onnipotente, che fin dagli inizi hai promesso il Cristo Salvatore,"),
+                            array('-','',"fa' risplendere a tutti gli uomini la luce del Vangelo."),
+                            array('','',"Per la gloria del tuo Figlio, atteso dai patriarchi e dai profeti, desiderato da tutte le genti,"),
+                            array('-','',"salva il popolo dell'antica alleanza."),
+                            array('','',"Per la gloria di Cristo, peredicato dagli apostoli e testimoniato dai martiri,"),
+                            array('-','',"irradia sul mondo la luce del tuo Figlio.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Raccolti per la lode della sera, invochiamo Dio Padre, che ha mandato il suo unico Figlio a portare il lieto annunzio ai poveri:"),
+                            array('ris','I',"Padre misericordioso, abbi pietà di noi.")
+                        ),
+                        array(
+                            array('','',"Noi ti ringraziamo per averci dato in dono il tuo Figlio,"),
+                            array('-','',"fa' risplendere sul mondo la gioia della sua nascita."),
+                            array('','',"Tu che hai inviato il tuo Figlio a predicare a tutti il tempo della misericordia,"),
+                            array('-','',"dona libertà e pace al mondo intero."),
+                            array('','',"Tu che hai gudato i sapienti a rendere omaggio al tuo Verbo fatto uomo,"),
+                            array('-','',"accogli l'umile espressione della nostra fede."),
+                            array('','',"Tu che chiami gli uomini dalle tenebre alla luce,"),
+                            array('-','',"fa' che diventiamo generosi testimoni del Vangelo."),
+                            array('','',"Tu che nel Cristo hai fatto risplendere la luce che illumina le genti,"),
+                            array('-','',"rivela ai nostri fratelli defunti la gloria del tuo volto.")
+                        )
+                    );
+                }
+            }
+
+            elseif (substr($this->actual['today'],4,4)=='1230') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Dio Padre ha posto nel Cristo il principio dell'umanità nuova. Diciamo con fede:"),
+                            array('ris','I',"Cristo, Figlio di Dio e fratello nostro, ascoltaci.")
+                        ),
+                        array(
+                            array('','',"Tu che sei da principio presso il Padre e ti sei fatto uomo nella pienezza dei tempi,"),
+                            array('-','',"donaci la vera carità fraterna verso tutti."),
+                            array('','',"Ti sei fatto povero per arricchirci con la tua povertà e ti sei umiliato per renderci partecipi della tua grandezza,"),
+                            array('-','',"fa' che camminiamo senza compromessi sulla via del Vangelo."),
+                            array('','',"Hai illuminato quanti erano nele tenebre e nell'ombra di morte,"),
+                            array('-','',"infondi in noi il tuo Spirito di verità e di pace."),
+                            array('','',"Donaci un cuore nuovo per accogliere la tua parola,"),
+                            array('-','',"fa' che confermiamo con le opere la fede che professiamo.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Innalziamo la nostra preghiera a Cristo, pastore d'Israele, sorto da Betlemme per guidare il suo popolo sulla via della salvezza:"),
+                            array('ris','I',"Il tuo amore sia sempre con noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Salvatore aspettato dalle genti, diffondi la luce del Vangelo nelle regioni che ancora non conoscono la tua parola,"),
+                            array('-','',"attira alla tua verità tutti gli uomini."),
+                            array('','',"Signore, estendi la tua Chiesa sino ai confini della terra,"),
+                            array('-','',"perché tutta l'umanità formi un'unica famiglia animata dall'unico Spirito."),
+                            array('','',"Re dei re, illumina e guida i legislatori, i magistrati e i governanti,"),
+                            array('-','',"perché promuovano la giustizia, la libertà e la pace."),
+                            array('','',"Dominatore onnipotente, forza dei deboli, sostienici nella prova, rialzaci dalle cadute, aiutaci nei pericoli,"),
+                            array('-','',"rianima gli sfiduciati e i delusi, conforta i perseguitati e gli oppressi."),
+                            array('','',"Consolatoe degli afflitti, raccogli l'ultimo anelito dei morenti,"),
+                            array('-','',"guidali alle sorgenti dell'acqua viva, che li disseti per sempre.")
+                        )
+                    );
+                }
+            }
+
+            elseif (substr($this->actual['today'],4,4)=='1231') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"L'amore di Dio Padre si è manifestto a tutti gli uomini nel Cristo nostro Signore. Rivolgiamo a lui la nostra preghiera umile e fiduciosa:"),
+                            array('ris','I',"Figlio del Dio vivente, abbi pietà di noi.")
+                        ),
+                        array(
+                            array('','',"Cristo, generato dal Padre prima di tutti i secoli, che tutto sostieni con la potenza della tua parola,"),
+                            array('-','',"illumina questo giorno con la luce del tuo Vangelo."),
+                            array('','',"Figlio di Dio, nato nella pienezza dei tempi per liberare gli uomini e il mondo,"),
+                            array('-','',"concedi a tutti il dono della vera libertà."),
+                            array('','',"Figlio di Dio, nato a Betlemme nell'umiltà del presepio,"),
+                            array('-','',"fa' che nella tua Chiesa risplenda sempre la povertà evangelica."),
+                            array('','',"Cristo, Uomo-Dio, Signore e figlio di Davide, che hai dato compimento alle parole dei profeti,"),
+                            array('-','',"fa' che il popolo d'Israele riconosca in te il Messia e Salvatore.")
+                        )
+                    );
+                }
+            }
+
             //////////////////////////////////////////////////
 
             if ($this->actual['evCode']=='SFA') {
