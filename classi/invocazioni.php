@@ -2586,6 +2586,166 @@ class Invocazioni {
                 }
             }
 
+            elseif (substr($this->actual['today'],4,4)=='0109') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Tutta l'umanità adori e acclami il Verbo eterno del Padre, fatto uomo per pienezza dei tempi:"),
+                            array('ris','I',"Tu sei benedetto, Signore.")
+                        ),
+                        array(
+                            array('','',"Figlio del Dio vivente, creatore del mondo, che sei venuto in terra per salvarci,"),
+                            array('-','',"rendici testimoni del tuo Vangelo."),
+                            array('','',"Sole di giustizia, che risplendi dal seno del Padre e irradii sul mondo la tua luce,"),
+                            array('-','',"illumina quanti sono immersi nelle tenebre e nell'ombra della morte."),
+                            array('','',"Re della gloria, nato a Betlemme e posto in una mangiatoia,"),
+                            array('-','',"donaci di imitare la bontà dei fanciulli."),
+                            array('','',"Cristo, pane di vita eterna,"),
+                            array('-','',"sazia la fame del nostro spirito con il sacramento del tuo Corpo e del tuo Sangue.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Lodiamo il Verbo di Dio, che ci ha tratti dall'abisso dei nostri peccati e con grande fiducia preghiamo:"),
+                            array('ris','I',"Mostraci, o Signore, la tua misericordia.")
+                        ),
+                        array(
+                            array('','',"Sacerdote eterno, che entrando nel mondo hai instaurato la perfetta liturgia di lode,"),
+                            array('-','',"fa' che tutti gli uomini, mediante la Chiesa, siano partecipi del tuo sacderdozio regale."),
+                            array('','',"Medico dei corpi e delle anime, che sei venuto a guarire le ferite dell'umanità,"),
+                            array('-','',"dona salute e vigore ai nostri fratelli infermi."),
+                            array('','',"Tu che nella tua nascita fosti causa di universale letizia,"),
+                            array('-','',"soccorri i miseri e i peccatori e dona a tutti il conforto della tua amicizia."),
+                            array('','',"Re potente, che hai spezzato le catene della schiavitù antica,"),
+                            array('-','',"libera coloro che si sentono schiavi nello spirito e nel corpo."),
+                            array('','',"Tu che sei la via e la porta del cielo,"),
+                            array('-','',"accogli i defunti nella beatitudine eterna.")
+                        )
+                    );
+                }
+            }
+
+            elseif (substr($this->actual['today'],4,4)=='0110') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Celebriamo la grandezza di Dio, che ha consolato il suo popolo con la nascita del suo Figlio e proclamiamo la sua lode:"),
+                            array('ris','I',"Gloria a Dio nell'alto dei cieli.")
+                        ),
+                        array(
+                            array('','',"Con gli angeli, i patriarchi e i profeti,"),
+                            array('-','',"noi ti lodiamo, Signore."),
+                            array('','',"Con la Vergine Maria, Madre di Dio,"),
+                            array('-','',"la nostra anima ti magnifica, Signore."),
+                            array('','',"Con gli apostoli e gli evangelisti,"),
+                            array('-','',"noi ti rendiamo grazie, Signore."),
+                            array('','',"Con tutti i santi martiri di Cristo,"),
+                            array('-','',"offriamo a te i nostri corpi in sacrificio vivente, Signore."),
+                            array('','',"Con tutti i santi testimoni della Chiesa,"),
+                            array('-','',"noi ti consacriamo la nostra vita, Signore.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniti a tutti i nostri fratelli di fede, invochiamo Dio nostro Padre:"),
+                            array('ris','I',"Mostraci, Signore, la tua misericordia.")
+                        ),
+                        array(
+                            array('','',"Padre santo, ti preghiamo per quelli che ti conoscono  co la sola luce della ragione,"),
+                            array('-','',"fa' che vedano anche la luce sfolgorante del tuo Vangelo."),
+                            array('','',"Guarda con bontà tutti i non cristiani, che si impegnano per liberare l'uomo dalla sofferenza e dal bisogno,"),
+                            array('-','',"fa' che trovino in Cristo la via, la verità e la vita."),
+                            array('','',"Aiuta tutti coloro che professano con sincerità e rettitudine la loro religione,"),
+                            array('-','',"perché giungano alla luce ammirabile del tuo Cristo."),
+                            array('','',"Purifica da ogni egoismo i cuori dei tuoi fedeli,"),
+                            array('-','',"perché alla luce della fede ti riconoscano in tutti i fratelli."),
+                            array('','',"Mostra il tuo amore misericordioso ai nostri defunti,"),
+                            array('-','',"rivestili dello splendore della tua gloria.")
+                        )
+                    );
+                }
+            }
+
+            elseif (substr($this->actual['today'],4,4)=='0111') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Onore e gloria a Cristo, che è venuto a creare l'uomo nuovo. A lui s'innalzi la nostra preghiera:"),
+                            array('ris','I',"Per il mistero della tua nascita rinnovaci, Signore.")
+                        ),
+                        array(
+                            array('','',"Tu che, assumendo la nostra umanità, sei divenuto per noi sacramento del Padre,"),
+                            array('-','',"fa' che ti riconosciamo nel mistero della tua parola e del tuo Corpo."),
+                            array('','',"Creatore del genere umano, che ti sei fatto uomo come noi, nascendo dalla Vergine,"),
+                            array('-','',"per sua intercessione fa' che comunichiamo alla tua vita divina."),
+                            array('','',"Redentore nostro, che sei disceso sulla terra come la biblica rugiada,"),
+                            array('-','',"disseta le nostre anime con il tuo Santo Spirito."),
+                            array('','',"Dona ai tuoi fedeli, che celebrano il mistero della tua nascita,"),
+                            array('-','',"di giungere alla perfezione della vita cristiana.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Preghiamo Dio nostro Padre, che ha costituito il Cristo luce delle genti:"),
+                            array('ris','I',"Ascolta, Padre, la preghiera del tuo popolo.")
+                        ),
+                        array(
+                            array('','',"Estendi in ogni parte della terra la tua Chiesa,"),
+                            array('-','',"perché sia rivelata a tutti gli uomini la gloria del tuo Figlio."),
+                            array('','',"Eterno Padre, che hai guidato i santi magi alla presenza del tuo Figlio,"),
+                            array('-','',"mostra il tuo Salvatore e quanti cercano la verità."),
+                            array('','',"Chiama tutti i popoli alla luce ammirabile del tuo regno,"),
+                            array('-','',"perché ogni ginocchio si pieghi nel nome di Gesù."),
+                            array('','',"Manda operai nella tua messe,"),
+                            array('-','',"perché evangelizzino i poveri e annunzino il tempo della grazia."),
+                            array('','',"Dona ai defunti la pienezza della redenzione,"),
+                            array('-','',"perché condividano il trionfo del Cristo tuo Figlio.")
+                        )
+                    );
+                }
+            }
+
+            elseif (substr($this->actual['today'],4,4)=='0112') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"A Cristo, immagine del Padre, rivolgiamo la nostra lode e la nostra preghiera:"),
+                            array('ris','I',"Cristo, Figlio di Dio, esaudisci il tuo popolo.")
+                        ),
+                        array(
+                            array('','',"Figlio di Dio, che ci hai rivelato l'amore del Padre,"),
+                            array('-','',"fa' che gli uomini ti riconoscano nella nostra carità fraterna."),
+                            array('','',"Con i tuoi miracoli ti sei manifestato Signore della vita,"),
+                            array('-','',"donaci la pienezza della tua vita immortale."),
+                            array('','',"Fa' che portiamo sempre e ovunque in noi la tua morte,"),
+                            array('-','',"perché nel nostro corpo mortale si manifesti la tua vita divina."),
+                            array('','',"Illumina con il tuo Spirito il nostro cuore,"),
+                            array('-','',"fa' risplendere in noi la gloria che rifulge sul tuo volto.")
+                        )
+                    );
+                }
+            }
+
             //////////////////////////////////////////////////
 
             if ($this->actual['evCode']=='SFA') {
@@ -2620,7 +2780,7 @@ class Invocazioni {
                         array(
                             array('','',"Per il mistero della tua sottomissione a Maria e a Giuseppe,"),
                             array('-','',"insegnaci l'obbedienza e il rispetto verso coloro che hai posto a capo della comunità."),
-                            array('','',"Tu che hai amato con affetto filiale i tuoi genitori, Maria e Giusepppe,"),
+                            array('','',"Tu che hai amato con affetto filiale i tuoi genitori, Maria e Giuseppe,"),
                             array('-','',"custodisci le nostre famiglie nel vincolo della carità e della pace."),
                             array('','',"Fosti ardente di zelo per le cose del Padre tuo,"),
                             array('-','',"fa' che in ogni famiglia Dio sia amato e onorato."),
@@ -2721,6 +2881,49 @@ class Invocazioni {
 
             if ($this->actual['evCode']=='BAT') {
 
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Invochiamo il nostro Redentore, che ha voluto ricevere il battesimo da Giovanni nel Giordano:"),
+                            array('ris','I',"Signore, pietà.")
+                        ),
+                        array(
+                            array('','',"Cristo, che nella tua gloriosa manifestazione al Giordano hai fatto risplendere su di noi la tua luce,"),
+                            array('-','',"illumina con la tua presenza coloro che incontreremo in questa giornata."),
+                            array('','',"Tu che sottomettendoti a Giovanni nel battesimo, ci hai insegnato la via dell'umiltà,"),
+                            array('-','',"donaci lo spirito di bontà e mitezza verso i nostri fratelli."),
+                            array('','',"Nel Battesimo ci hai lavati dalla colpa e ci hai resi figli di Dio,"),
+                            array('-','',"dona lo spirito di adozione filiale a tutti coloro che ti cercano."),
+                            array('','',"Con il tuo battesimo hai santificato la creazione e hai aperto agli uomini la via del ritorno al Padre,"),
+                            array('-','',"rendici fedeli ministri del Vangelo nella Chiesa e nel mondo."),
+                            array('','',"Nel tuo battesimo ci hai fatto conoscere la Santa Trinità di Dio,"),
+                            array('-','',"donaci di adorarla con culto perfetto in spirito e verità.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Invochiamo il nostro Redentore, che ha voluto ricevere il battesimo da Giovanni nel Giordano:"),
+                            array('ris','I',"Manda su di noi il tuo Santo Spirito.")
+                        ),
+                        array(
+                            array('','',"Cristo, servo di Dio, in cui il Padre ha posto la sua compiacenza,"),
+                            array('-','',"donaci di vivere del tuo Santo Spirito per piacere sempre al Padre."),
+                            array('','',"Cristo, eletto di Dio, che non spezzi la canna incrinata e non spegni il lucignolo fumigante,"),
+                            array('-','',"abbi pietà degli increduli e dei peccatori che ti cercano con cuore sincero."),
+                            array('','',"Cristo, Figlio di Dio, mediatore della nuova alleanza, inviato dal Padre per essere luce di tutte le genti,"),
+                            array('-','',"apri gli occhi dei catecumeni alla pienezza della fede mediante il Battesimo."),
+                            array('','',"Cristo, consacrato dal Padre nello Spirito Santo per la tua missione di salvezza, "),
+                            array('-','',"fa' che tutti gli uomini credano in te ed abbiano la vita eterna."),
+                            array('','',"Cristo, speranza nostra, che guidi alla luce della salvezza coloro che sono immersi nelle tenebre,"),
+                            array('-','',"accogli nel tuo regno i nostri fratelli defunti.")
+                        )
+                    );
+                }
                 
             }
 
