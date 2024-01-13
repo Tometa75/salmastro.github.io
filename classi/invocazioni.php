@@ -2865,7 +2865,218 @@ class Invocazioni {
 
         if ($this->actual['tempo']=='Q') {
 
-            
+            if ($this->actual['weekDay']==0) {
+
+                if ($this->actual['ora']=='ves1') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Gloria a Cristo, che si è fatto maestro, amico, modello dell'umanità. Pieni di fiducia invochiamo il suo nome:"),
+                                array('ris','I',"Sii la vita del tuo popolo, Signore.")
+                            ),
+                            array(
+                                array('','',"Cristo, che hai voluto essere simle a noi in tutto fuorché nel paccato, insegnaci a gioire con chi gioisce e a piangere con chi piange,"),
+                                array('-','',"perché la nostra carità diventi sempre più concreta e generosa."),
+                                array('','',"Donaci la grazia di riconoscerti nei poveri e nei sofferenti,"),
+                                array('-','',"per saziare la tua fame negli affamati e la tua sete negli assetati."),
+                                array('','',"Tu che hai risvegliato Lazzaro dal sonno della morte,"),
+                                array('-','',"fa' che i peccatori passino da morte a vita mediante la preghiera e la penitenza."),
+                                array('','',"Fa' che molti seguano la via della perfetta carità,"),
+                                array('-','',"sull'esempio di Maria Vergine e dei tuoi santi."),
+                                array('','',"Conduci i defunti alla risurrezione gloriosa,"),
+                                array('-','',"perché si allietino in eterno nel tuo amore.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo la Provvidenza di Dio Padre, che ha cura di tutte le sue creature, e diciamo con umiltà e fiducia:"),
+                                array('ris','I',"Salva, Signore, tutti i tuoi figli.")
+                            ),
+                            array(
+                                array('','',"Datore di ogni bene e fonte di verità, riempi del tuo Spirito il nostro Papa ... e il collegio dei vescovi,"),
+                                array('-','',"custodisci nella vera fede il popolo affidato al loro servizio pastorale."),
+                                array('','',"Unisci nella carità coloro che mangiano lo stesso pane della vita,"),
+                                array('-','',"perché la Chiesa, tuo mistico corpo, si edifichi nell'unità e nella pace."),
+                                array('','',"Aiutaci con la tua grazia a spogliarci dell'uomo vecchio corrotto dalle passioni ingannatrici,"),
+                                array('-','',"rivestici dell'uomo nuovo, creato secondo Dio nella vera giustizia e santità."),
+                                array('','',"Fa' che i peccatori tornino alla casa del Padre, per i meriti del Cristo salvatore,"),
+                                array('-','',"e partecipino ai benefici della tua redenzione."),
+                                array('','',"Fa' che i nostri fratelli defunti ti lodino senza fine nella gloria del Paradiso,"),
+                                array('-','',"dove anche noi un giorno speriamo di cantare le tue misericordie.")
+                            )
+                        );
+                    }
+                }
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Benediciamo il nostro Redentore che ci ha meritato questo tempo di salvezza e preghiamo perché ci conceda il dono della conversione:"),
+                                array('ris','I',"Crea in noi, Signore, uno spirito nuovo.")
+                            ),
+                            array(
+                                array('','',"Cristo, vita nostra, che mediante il Battesimo ci hai sepolti con te nella morte, per renderci partecipi della tua risurrezione,"),
+                                array('-','',"donaci di camminare oggi con te nella vita nuova."),
+                                array('','',"Signore, che sei passato fra la gente, sanando e beneficando tutti,"),
+                                array('-','',"concedi anche a noi di essere sempre pronti al servizio dei fratelli."),
+                                array('','',"Fa' che ci impegnamo a costruire insieme un mondo più umano e più giusto,"),
+                                array('-','',"nella costante ricerca del tuo regno."),
+                                array('','',"Gesù, medico dei corpi e delle anime, guarisci le profonde ferite della nostra umanità,"),
+                                array('-','',"perché possiamo godere pienamente dei doni della tua redenzione.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo Dio, nostro Padre, la cui misericordia è senza limiti, e invochiamo la grazia dello Spirito Santo per messo di Gesù Cristo, che è sempre vivo per intercedere a nostro favore:"),
+                                array('ris','I',"Accendi in noi, o Padre, il fuoco del tuo amore.")
+                            ),
+                            array(
+                                array('','',"Dio di bontà, fa' che questo nuovo giorno sia pieno di opere di carità fraterna,"),
+                                array('-','',"e coloro che incontreremo, ricevano da noi un messaggio del tuo amore."),
+                                array('','',"Tu che nel diluvio hai salvato Noè e la sua famiglia, mediante l'arca,"),
+                                array('-','',"conduci alla salvezza i nostri catecumeni nell'acqua battesimale mediante la Chiesa."),
+                                array('','',"Fa' che abbiamo fame non solo del cibo che sostenta il nostro corpo,"),
+                                array('-','',"ma di ogni parola che esce dalla tua bocca."),
+                                array('','',"Aiutaci a ricomporre nella carità i dissensi e le contese,"),
+                                array('-','',"per godere il bene prezoso della tua pace.")
+                            )
+                        );
+                    }
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Lode a Dio Padre, che per mezzo del suo Verbo, fatto uomo, ci ha rigenerati ad una vita incorruttibile. Animati da quaesta fede, diciamo umilmente:"),
+                                array('ris','I',"Guarda benigno il tuo popolo, Signore.")
+                            ),
+                            array(
+                                array('','',"Ascolta, Dio misericordioso, la preghiera che ti rivolgiamo per la tua famiglia sparsa su tutta la terra,"),
+                                array('-','',"fa' che senta la fame della tua parola più che del cibo che nutre la vita corporale."),
+                                array('','',"Insegnaci ad amare non solo i membri della nostra comunità, ma tutti gli uomini,"),
+                                array('-','',"nello spirito del discorso della montagna."),
+                                array('','',"Guarda i catecumeni che attendono il Battesimo,"),
+                                array('-','',"fa' che diventino pietre vive e scelte della tua Chiesa."),
+                                array('','',"Tu che mediante la predicazione di Giona hai convertito gli abitanti di Ninive,"),
+                                array('-','',"trasforma il cuore dei peccatori con la misteriosa forza della tua parola."),
+                                array('','',"Conforta i morenti con la speranza d'incontrare il volto mite e festoso del Salvatore,"),
+                                array('-','',"e di godere la sua visione eterna in Paradiso.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Il Cristo, nostro Capo e Maestro, è venuto per servire l'umanità e far del bene a tutti. Uniti nella lode della sera, chiediamo il suo aiuto:"),
+                                array('ris','I',"Visita la tua famiglia, Signore.")
+                            ),
+                            array(
+                                array('','',"Veglia sui vescovi e sui presbiteri, che hai reso partecipi della tua missione di Capo e Pastore,"),
+                                array('-','',"fa' che conducano al Padre il popolo, che hai loro affidato."),
+                                array('','',"Il tuo angelo accompagni coloro che viaggiano,"),
+                                array('-','',"e li difenda da ogni pericolo."),
+                                array('','',"Insegnaci a servire con umiltà e amore i fratelli,"),
+                                array('-','',"imitando te che non sei venuto per essere servito, ma per servire."),
+                                array('','',"Fa' che in ogni comunità il fratello aiuti il fratello,"),
+                                array('-','',"per costituire, sotto il tuo sguardo, come una città inespugnabile."),
+                                array('','',"Sii misericordioso verso tutti i defunti,"),
+                                array('-','',"ammettili a godere la luce del tuo volto.")
+                            )
+                        );
+                    }
+                }
+            }
+
+            if ($this->actual['weekDay']==1) {
+            }
+
+            //////////////////////////////////////////
+
+            if ($this->actual['evCode']=='PAL') {
+
+                if ($this->actual['ora']=='ves1') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Nell'imminenza della sua passione Gesù pianse su Gerusalemme, che non aveva saputo riconoscere il tempo della visita del Salvatore. Ammaestrati da questa durezza di cuore e consapevoli delle nostre inadempienze, imploriamo la misericordia del Signore:"),
+                            array('ris','I',"Gesù, Figlio di Davide, abbi pietà di noi.")
+                        ),
+                        array(
+                            array('','',"Tu che hai cercato di raccogliere intorno a te i figli di Gerusalemme, come fa la chioccia con i suoi pulcini,"),
+                            array('-','',"insegnaci a riconoscere l'ora della nostra salvezza."),
+                            array('','',"Signore, non abbandonare chi ti ha abbandonato,"),
+                            array('-','',"volgiti a noi e noi ci convertiremo a te."),
+                            array('','',"Tu che ci hai salvati a prezzo della tua passione,"),
+                            array('-','',"fa' che viviamo in sintonia con il tuo Spirito che ci hai donato nel Battesimo."),
+                            array('','',"Insegnaci a rivivere intimamente in noi l'esperienza della tua passione,"),
+                            array('-','',"per celebrare santamente il glorioso evento della tua risurrezione."),
+                            array('','',"Tu che regni nella gloria del Padre,"),
+                            array('-','',"ricordati di coloro che oggi hanno chiuso gli occhi alla luce di questo mondo.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Il Cristo entrando in Gerusalemme, fu acclamato Re e Messia dalla folla osannante. Riconosciamo anche noi la sovranità universale ed eterna del nostro Salvatore:"),
+                            array('ris','I',"Benedetto colui che viene nel nome del Signore.")
+                        ),
+                        array(
+                            array('','',"Osanna a te, Cristo, figlio di Davide e Re dei secoli,"),
+                            array('-','',"osanna a te, vincitore dell'inferno e della morte."),
+                            array('','',"Tu che ascendesti a Gerusalemme per compiere il tuo esodo pasquale,"),
+                            array('-','',"guida alla Pasqua eterna la tua Chiesa pellegrina sulla terra."),
+                            array('','',"Tu che ci hai dato nella croce il nuovo albero della vita,"),
+                            array('-','',"fa' che gustiamo i suoi frutti di salvezza."),
+                            array('','',"Tu che sei venuto a salvarci dal peccato e dalla morte,"),
+                            array('-','',"fa' che giungiamo a te nel segno della fede, della speranza e della carità.")
+                        )
+                    );
+                    
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Gesù salì a Gerusalemme per dar compimento al mistero della sua redenzione. Riuniti nella preghiera della sera acclamiamo:"),
+                            array('ris','I',"Gloria a te, o Cristo, Re dei secoli.")
+                        ),
+                        array(
+                            array('','',"Sei stato accolto dal popolo come il Re-Messia, che viene nel nome del Signore,"),
+                            array('-','',"L'umanità intera ti accolga Re dell'universo, Figlio di Dio e Salvatore del mondo."),
+                            array('','',"Gli abitanti di Gerusalemme stendevano i loro mantelli lungo il tuo cammino,"),
+                            array('-','',"la nostra generazione riconosca i segni del tuo passaggio nella storia di ieri e di oggi."),
+                            array('','',"Mentre scendevi dal monte degli Ulivi, la folla dei discepoli lodava Dio in esultanza,"),
+                            array('-','',"da' ai tuoi fedeli il gusto e la gioia della lode divina."),
+                            array('','',"Hai scelto un'umile cavalvcatura per il tuo ingresso di Principe della pace, annunziato dai profeti,"),
+                            array('-','',"fa' che ognuno, nella Chiesa, compia la sua missione in spirito di sincera umiltà."),
+                            array('','',"Entrando nella città di Davide fra le acclamazioni festose, hai prefigurato il tuo ingresso glorioso nel santuario celeste,"),
+                            array('-','',"donaci di condividere con i nostri defunti il tuo trionfo eterno.")
+                        )
+                    );
+                }
+            } 
         }
 
         /////////////////////////////////////////////
