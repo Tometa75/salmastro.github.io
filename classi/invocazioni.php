@@ -3006,6 +3006,96 @@ class Invocazioni {
             }
 
             if ($this->actual['weekDay']==1) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Benedetto Gesù, nostro Salvatore, che con la sua morte ci ha aperto la strada della salvezza. Uniti nella preghiera di lode, invochiamo il suo nome:"),
+                                array('ris','I',"Guidaci, Signore, nella via del tuo amore."),
+                            ),
+                            array(
+                                array('','',"Dio misericordioso, che mediante il Battesimo ci hai fatto rinascere ad una vita nuova,"),
+                                array('-','',"fa' che di giorno in giorno diveniamo sempre più conformi alla tua immagine."),
+                                array('','',"Insegnaci a far sempre ciò che è vero, giusto e santo davanti a te,"),
+                                array('-','',"e a cercare te in ogni parola e in ogni avvenimento."),
+                                array('','',"Aiutaci a portare un messaggio di bontà e di gioia ai poveri e ai sofferenti"),
+                                array('-','',"per incontrare te presente nei nostri fratelli."),
+                                array('','',"Perdonaci le colpe commesse contro l'unità della tua famiglia,"),
+                                array('-','',"forma di tutti noi un cuore solo e un'anima sola.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Benediciamo Dio Padre, che ci fa dono di questa giornata perché la dedichiamo alla sua lode e la santifichiamo con ogni genere di opere buone. Diciamo con fede:"),
+                                array('ris','I',"Donaci la tua sapienza, Signore.")
+                            ),
+                            array(
+                                array('','',"Dio grande e misericordioso, donaci lo spirito di orazione e di penitenza,"),
+                                array('-','',"suscita in noi un vero amore per te e per il nostro prossimo."),
+                                array('','',"Fa' che collabortiamo a edificare un mondo nuovo,"),
+                                array('-','',"perché la giustizia e la pace di Cristo regnino su tutta la terra."),
+                                array('','',"Rivelaci il valore autentico di tutte le realtà create,"),
+                                array('-','',"perché le associamo al nostro cantico di lode."),
+                                array('','',"Perdonaci, Signore, se non ti abbiamo riconosciuto nei poveri, negli infelici, negli emarginati,"),
+                                array('-','',"e se abbiamo oltraggiato il tuo Figlio in questi nostri fratelli.")
+                            )
+                        );
+                    }
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Innalziamo la nostra preghiera al Cristo, che ha salvato il suo popolo dalla schiavitù del peccato:"),
+                                array('ris','I',"Gesù, figlio di Davide, abbi pietà di noi.")
+                            ),
+                            array(
+                                array('','',"Cristo, che ti sei immolato per la tua Chiesa, purificandola mediante il lavacro dell'acqua nella parola di vita,"),
+                                array('-','',"conservala sempre pura e santa per mezzo dell'orazione e della penitenza."),
+                                array('','',"Maestro buono, fa' conoscere ai giovani la via che hai tracciata per ciascuno di loro,"),
+                                array('-','',"perché, realizzando la loro vocazione, siano veramente felici."),
+                                array('','',"Tu che hai avuto compassione per tutte le sofferenze umane, rianima la speranza dei malati e dona loro serenità e salute,"),
+                                array('-','',"ma rendi anche noi solleciti nell'alleviare le loro sofferenze."),
+                                array('','',"Ravviva in noi il ricordo e la stima della dignità che ci hai conferito nel Battesimo,"),
+                                array('-','',"perché, morti al peccato, viviamo sempre per te."),
+                                array('','',"Dona il riposo eterno ai nostri morti,"),
+                                array('-','',"e fa' che un giorno possiamo ritrovarci insieme nella gloria del tuo regno.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio nostro Padre ha promesso per bocca del suo Figlio di donarci tutto ciò che gli chiediamo uniti nel suo nome. Comnfortati da questa parola, innalziasmo a lui la nostra preghiera comunitaria:"),
+                                array('ris','I',"Ascolta la voce della tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"O Dio, che hai perfezionato per mezzo del tuo Cristo la legge data da Mosè sul monte Sinai,"),
+                                array('-','',"fa' che tutti riconoscano la legge che tu hai scritto nel loro cuore e la custodiscano come un patto di alleanza."),
+                                array('','',"Ispira alle guide del tuo popolo una profonda sollecitudine pastorale,"),
+                                array('-','',"crea in tutta la comunità un vero desiderio d'intesa e di collaborazione."),
+                                array('','',"Ritempra la mente e il cuore dei missionari del Vangelo,"),
+                                array('-','',"suscita dovunque collaboratori e ausiliari della loro opera."),
+                                array('','',"Fa' che i fanciulli crescano in età, sapienza e grazia davanti a te e davanti agli uomini,"),
+                                array('-','',"e i giovani scoprano la tua carità nella purezza del loro amore e nell'impegno al servizio del prossimo."),
+                                array('','',"Ricordati dei nostri fratelli che si sono addormentati nella fede,"),
+                                array('-','',"rendili partecipi del'eredità eterna.")
+                            )
+                        );
+                    }
+                }
             }
 
             //////////////////////////////////////////
@@ -3064,7 +3154,7 @@ class Invocazioni {
                         ),
                         array(
                             array('','',"Sei stato accolto dal popolo come il Re-Messia, che viene nel nome del Signore,"),
-                            array('-','',"L'umanità intera ti accolga Re dell'universo, Figlio di Dio e Salvatore del mondo."),
+                            array('-','',"l'umanità intera ti accolga Re dell'universo, Figlio di Dio e Salvatore del mondo."),
                             array('','',"Gli abitanti di Gerusalemme stendevano i loro mantelli lungo il tuo cammino,"),
                             array('-','',"la nostra generazione riconosca i segni del tuo passaggio nella storia di ieri e di oggi."),
                             array('','',"Mentre scendevi dal monte degli Ulivi, la folla dei discepoli lodava Dio in esultanza,"),
@@ -3076,7 +3166,53 @@ class Invocazioni {
                         )
                     );
                 }
-            } 
+            }
+
+            if ($this->actual['evCode']=='SS1') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"In intima comunione di spirito con tutta la Chiesa, che in questi giorni celebra la passione del Signore, preghiamo:"),
+                            array('ris','I',"Per la tua morte salvaci, o Signore.")
+                        ),
+                        array(
+                            array('','',"Signore dell'universo, venduto ai tuoi nemici per trenta denari,"),
+                            array('-','',"concedici il dono della vera sapienza, perché preferiamo sempre te e la tua amicizia a tutto."),
+                            array('','',"Nel Getsemani hai detto: La mia anima è triste fino alla morte,"),
+                            array('-','',"ricordati della nostra debolezza di fronte al dolore e alla morte."),
+                            array('','',"Autore della vita e modello di ogni santità, giudicato degno di supplizio,"),
+                            array('-','',"da' perdono e salvezza a noi, veramente meritevoli di condanna."),
+                            array('','',"Cristo, crocifisso fra i ladroni,"),
+                            array('-','',"manifesta la forza della tua redenzione nei santi.")
+                        )
+                    );
+                    
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Preghiamo Cristo, che promise di attirare tutti a sé dalla sua croce:"),
+                            array('ris','I',"Nella tua croce la nostra speranza, o Signore.")
+                        ),
+                        array(
+                            array('','',"Hai sentito la solitudine e l'abbandono, e hai gridato il tuo lamento e la tua preghiera al Padre,"),
+                            array('-','',"ascolta il gemito e le implorazioni che salgono dalla moltitudine dei sofferenti."),
+                            array('','',"Alla tua agonia si fece buio sulla terra,"),
+                            array('-','',"comprendano gli uomini che tutto è tenebra senza la tua luce."),
+                            array('','',"Con la tua morte hai abbattuto ogni muro di divisione e di odio,"),
+                            array('-','',"vedano i popoli nel tuo Vangelo l'unica via della pace e di ogni collaborazione feconda."),
+                            array('','',"Morendo hai segnato l'inizio dell'era nuova,"),
+                            array('-','',"conduci gli uomini sulla via della vera liberazione e dell'autentico rinnovamento."),
+                            array('','',"Dalla tua bocca uscì un alto grido e spirasti in atto di abbracciare il mondo intero,"),
+                            array('-','',"ammetti nel tuo regno di gloria i nostri fratelli, che, come te, hanno varcato la soglia della morte.")
+                        )
+                    );
+                }
+            }
         }
 
         /////////////////////////////////////////////
