@@ -3191,6 +3191,20 @@ class Invocazioni {
                 }
             }
 
+            if ($this->actual['weekDay']==3) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='CEN') {
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+                    }
+
+                }
+
+            }
+
             //////////////////////////////////////////
 
             if ($this->actual['evCode']=='PAL') {
@@ -3352,6 +3366,10 @@ class Invocazioni {
                     );
                 }
             }
+
+            if ($this->actual['evCode']=='SS3') {
+            }
+            
         }
 
         /////////////////////////////////////////////
