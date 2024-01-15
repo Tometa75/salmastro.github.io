@@ -3287,6 +3287,102 @@ class Invocazioni {
 
             }
 
+            if ($this->actual['weekDay']==4) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='QC4') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti nella preghiera di lode, celebriamo l'amore di Dio Padre, che si è rivelato nel Cristo suo Figlio e diciamo con fede:"),
+                                array('ris','I',"Ricordati, Signore, di questa tua famiglia."),
+                            ),
+                            array(
+                                array('','',"Donaci di comprendere in modo vivo e profondo il mistero della tua Chiesa,"),
+                                array('-','',"perché diventi per noi e per tutti sacramento universale di salvezza."),
+                                array('','',"Padre di tutti gli uomini, aiutaci a promuovere il vero progresso della comunità umana,"),
+                                array('-','',"e a cercare in ogni cosa il tuo regno e la tua giustizia."),
+                                array('','',"Suscita in noi la sete del Cristo,"),
+                                array('-','',"che si è offerto a noi come sorgente di acqua viva."),
+                                array('','',"Rimetti a noi i nostri debiti,"),
+                                array('-','',"guida i nostri passi nella giustizia e nella sincerità.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Il Cristo, luce del mondo, è venuto fra noi perché non camminiamo più nelle tenebre, ma abbiamo la luce della vita. A lui si innalzi la nostra lode e la nostra preghiera:"),
+                                array('ris','I',"La tua parola, Signore, sia luce ai miei passi."),
+                            ),
+                            array(
+                                array('','',"Signore, fa' che oggi progrediamo alla scuola della tua bontà e diveniamo tuoi imitatori,"),
+                                array('-','',"per ritrovare in te, nuovo Adamo, ciò che abbiamo perduto a causa del primo Adamo."),
+                                array('','',"La tua parola illumini sempre il nostro cammino,"),
+                                array('-','',"perché viviamo nella verità e nella carità, per la perfezione del tuo corpo mistico."),
+                                array('','',"Insegnaci a fare del bene a tutti nel tuo nome,"),
+                                array('-','',"perché la luce della tua Chiesa risplenda sempre più sull'umana famiglia."),
+                                array('','',"Donaci la grazia della conversione, perché espiamo le offese recate alla tua bontà e sapienza,"),
+                                array('-','',"e otteniamo il bene inestimabile della tua amicizia.")
+                            )
+                        );
+                    }
+
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='QC4') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Celebriamo la misericordia del Padre che ci ha illuminati con la grazia dello Spirito Santo, perché la nostra vita risplenda con la luce della fede e delle opere. Preghiamo insieme e diciamo:"),
+                                array('ris','I',"Santifica, Padre, il popolo redento da Cristo."),
+                            ),
+                            array(
+                                array('','',"Fonte e artefice di ogni santità, unisci più intimamente a Cristo, mediante il mistero eucaristico, i vescovi, i presbiteri e i diaconi,"),
+                                array('-','',"perché si ravvivi in loro la grazia che hanno ricevuto con l'imposizione delle mani."),
+                                array('','',"Insegna ai tuoi fedeli a partecipare in modo attivo e consapevole alla mensa della parola e del corpo di Cristo,"),
+                                array('-','',"perché esprimano nella vita ciò che hanno ricevuto mediante la fede e i sacramenti."),
+                                array('','',"Fa' che riconosciamo la dignità di tutti gli uomini che Cristo ha redenti a prezzo del suo sangue,"),
+                                array('-','',"e rispettiamo la libertà di coscienza dei nostri fratelli."),
+                                array('','',"Fa' che gli uomini imparino a frenare la cupidigia di denaro e di potere,"),
+                                array('-','',"e si aprano generosamente alla comprensione e all'aiuto del prossimo."),
+                                array('','',"Abbi pietà dei fedeli che oggi hai chiamato a te da questa vita,"),
+                                array('-','',"concedi loro l'eredità eterna nel tuo regno.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Il Cristo Signore ci ha dato il comandamento nuovo di amarci gli uni gli altri come egli ci ha amato. Chiediamo la grazia di essere fedeli a questa legge fondamentale della vita cristiana:"),
+                                array('ris','I',"Accresci nel tuo popolo la carità, o Signore."),
+                            ),
+                            array(
+                                array('','',"Maestro buono, insegnaci ad amare te nei nostri fratelli,"),
+                                array('-','',"e a far loro del bene nel tuo nome."),
+                                array('','',"Tu che sulla croce hai chiesto il perdono per i tuoi crocifissori,"),
+                                array('-','',"aiutaci ad amare anche i nemici e a pregare per coloro che ci affliggono."),
+                                array('','',"Per il mistero del tuo corpo e del tuo sangue, accresci in noi la fortezza, la fiducia e l'amore,"),
+                                array('-','',"rafforza i deboli, consola gli afflitti, dona la tua speranza ai morenti."),
+                                array('','',"Tu che hai ridato la vista al cieco nato, alla piscina di Siloe,"),
+                                array('-','',"illumina i catecumeni con il lavacro battesimale nella parola di vita."),
+                                array('','',"Sazia i nostri fratelli defunti con il tuo eterno amore,"),
+                                array('-','',"ammetti un giorno anche noi nell'assemblea gioiosa degli eletti.")
+                            )
+                        );
+                    }
+
+                }
+
+            }
+
             //////////////////////////////////////////
 
             if ($this->actual['evCode']=='PAL') {
@@ -3455,7 +3551,7 @@ class Invocazioni {
 
                     $this->testo=array(
                         array(
-                            array('','',"U°niti nella celebrazione della passione di Cristo, preghiamo:"),
+                            array('','',"Uniti nella celebrazione della passione di Cristo, preghiamo:"),
                             array('ris','I',"Donaci i frutti della tua Pasqua, o Signore.")
                         ),
                         array(
@@ -3490,6 +3586,52 @@ class Invocazioni {
                             array('-','',"sia il sacramento dell'incontro degli uomini con te e fra di loro."),
                             array('','',"Signore Gesù, che morendo hai infranto la potenza della morte,"),
                             array('-','',"concedi ai nostri fratelli defunti una risurrezione gloriosa.")
+                        )
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='SS4') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo è il sacerdote eterno, consacrato dal Padre con il crisma dello Spirito per comunicare agli uomini le ricchezze della tua casa. Con animo lieto acclamiamo:"),
+                            array('ris','I',"Noi ti ringraziamo, Signore.")
+                        ),
+                        array(
+                            array('','',"Mediangte il BAttesimo ci hai uniti a te nella morte, sepoltura e risurrezione,"),
+                            array('ris','I',"Noi ti ringraziamo, Signore."),
+                            array('','',"Con l'unzione spiritualeci hai resi partecipi della tua dignità regale, sacerdotale e profetica,"),
+                            array('ris','I',"Noi ti ringraziamo, Signore."),
+                            array('','',"Fai scendere su di noi l'olio della letizia, della pace e della salvezza,"),
+                            array('ris','I',"Noi ti ringraziamo, Signore."),
+                            array('','',"Ti incontri con noi nei sacramenti per offrirci l'abbondanza dello Spirito,"),
+                            array('ris','I',"Noi ti ringraziamo, Signore.")
+                        )
+                    );
+                    
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Nella notte in cui fu tradito, il nostro Salvatore celebrò l'ultima Cena e affidò alla Chiesa il memoriale della sua morte e risurrezione, perché lo celebrasse perennemente fino alla sua venuta. Nella luce di questo grande mistero, rivolgiamo al Cristo la nostra preghiera:"),
+                            array('ris','I',"Santifica il popolo, che hai redento con il tuo sangue, Signore.")
+                        ),
+                        array(
+                            array('','',"Hai partecipato il tuo sacerdozio alla Chiesa,"),
+                            array('-','',"si senta sempre unita a te nel sacrificio della lode."),
+                            array('','',"Ti offri al popolo redento, pane di vita disceso dal cielo,"),
+                            array('-','',"suscita nei fedeli una santa fame di te."),
+                            array('','',"Ci porgi il calice dell'alleanza nel tuo sangue,"),
+                            array('-','',"bevano tutti con gioia a questa fonte di salvezza."),
+                            array('','',"Ci hai lasciato il comandamento nuovo,"),
+                            array('-','',"fa' che gli uomini sperimentino la forza rinnovatrice della carità."),
+                            array('','',"Hai mangiato la Pasqua con i tuoi discepoli, quale annunzio del suo compimento nel regno di Dio,"),
+                            array('-','',"ammettici al convito eterno insieme ai fratelli che ci hanno preceduto.")
                         )
                     );
                 }
