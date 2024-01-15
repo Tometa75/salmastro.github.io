@@ -3196,9 +3196,91 @@ class Invocazioni {
                 if ($this->actual['ora']=='lodi') {
 
                     if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='CEN') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie a Dio Padre, che ci purifica e ci rinnova mediante la carità, effusa nei nostri cuori dallo Spirito, che abita in noi. Preghiamo con fede e diciamo:"),
+                                array('ris','I',"Donaci, Padre, il tuo Santo Spirito."),
+                            ),
+                            array(
+                                array('','',"Suscita in noi, o Padre, una vera fame e sete della tua sapienza,"),
+                                array('-','',"perché ci nutriamo di ogni parola che esce dalla tua bocca."),
+                                array('','',"Donaci di esercitare la carità fraterna non solo nelle grandi occasioni,"),
+                                array('-','',"ma anche nelle umili e comuni circostanze della vita."),
+                                array('','',"Insegna a noi a privarci del superfluo,"),
+                                array('-','',"a beneficio dei nostri fratelli che sono nella necessità."),
+                                array('','',"Fa' che portiamo sempre e ovunque nel nostro corpo la passione del tuo Figlio,"),
+                                array('-','',"perché si manifesti in noi la sua vita immortale.")
+                            )
+                        );
                     }
 
                     elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Il Cristo ci guida alla salvezza per fare di noi un'umanità nuova in un mondo pienamente rinnovato. Affascinati da questa meravigliosa vocazione preghiamo:"),
+                                array('ris','I',"Signore, rinnova la nostra vita nel tuo Spirito."),
+                            ),
+                            array(
+                                array('','',"Signore, che hai promesso cieli nuovi e terra nuova, rinnovaci profondamente,"),
+                                array('-','',"perché possiamo unirci a te nella nuova Gerusalemme."),
+                                array('','',"Donaci di collaborare con te per trasformare il mondo con il tuo amore,"),
+                                array('-','',"perché la nostra città terrena progredisca nella giustizia, nella fraternità e nella pace."),
+                                array('','',"Aiutaci a vincere ogni forma di pigrizia, di mollezza e di egoismo,"),
+                                array('-','',"donaci il gusto del lavoro assiduo e serio per il premio celeste."),
+                                array('','',"Liberaci dal male,"),
+                                array('-','',"perché niente oscuri in noi il senso cristiano della vita.")
+                            )
+                        );
+                    }
+
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='CEN') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio Padre ha stretto con il suo popolo un'alleanza nuova ed eterna nel sangue del suo Figlio, e continuamente la rinnova nell'Eucaristia, memoriale della nostra redenzione. Pieni di gratitudine, innalziamo a lui la nostra umile preghiera:"),
+                                array('ris','I',"Benedici il tuo popolo, Signore."),
+                            ),
+                            array(
+                                array('','',"Guida i popoli e i loro governanti sulla via della tua volontà,"),
+                                array('-','',"perché promuovano lealmente il bene comune."),
+                                array('','',"Conferma nella vocazione coloro che hanno abbandonato ogni cosa per seguire il Cristo, tuo Figlio,"),
+                                array('-','',"fa' che siano un vangelo vivente e una prova autentica della santità della Chiesa."),
+                                array('','',"Tu che hai creato gli uomini a tua immagine e somiglianza,"),
+                                array('-','',"fa' che sia eliminata ogni ingiusta discriminazione fra uomo e uomo, e fra nazione e nazione."),
+                                array('','',"Riconduci gli erranti alla tua verità e amicizia,"),
+                                array('-','',"fa' che impariamo a tendere loro la mano a imitazione della tua bontà."),
+                                array('','',"Prendi con te nella gloria i nostri fratelli defunti,"),
+                                array('-','',"perché ti lodimo in eterno nella festosa assemblea dei tuoi santi.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Esaltiamo la Provvidenza di Dio, che conosce le nostre necessità, ma vuole che cerchiamo anzitutto il suo regno. Perciò rinnoviamo la nostra adesione alla divina paternità e diciamo:"),
+                                array('ris','I',"Venga il tuo regno e la tua giustizia, Signore."),
+                            ),
+                            array(
+                                array('','',"Padre santo, che ci hai dato il tuo Figlio come pastore e guida delle nostre anime, assisti i pastori e le comunità che hai loro affidate,"),
+                                array('-','',"perché non manchi al gregge la sollecitudine del pastore e al pastore la docilità del suo gregge."),
+                                array('','',"Ispiraci un fraterno amore verso i malati del corpo e dello spirito,"),
+                                array('-','',"perché in essi riconosciamo e serviamo il Cristo tuo Figlio."),
+                                array('','',"Fa' che i non cristiani diventino membri della tua Chiesa,"),
+                                array('-','',"e la edifichino con la loro carità operosa."),
+                                array('','',"Suscita in noi una contrizione sincera delle nostre colpe,"),
+                                array('-','',"perché ci riconciliamo con te e con la tua Chiesa."),
+                                array('','',"Accogli in cielo i defunti più bisognosi della tua misericordia,"),
+                                array('-','',"perché vivano sempre con te nella pace della tua casa.")
+                            )
+                        );
                     }
 
                 }
@@ -3368,8 +3450,51 @@ class Invocazioni {
             }
 
             if ($this->actual['evCode']=='SS3') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"U°niti nella celebrazione della passione di Cristo, preghiamo:"),
+                            array('ris','I',"Donaci i frutti della tua Pasqua, o Signore.")
+                        ),
+                        array(
+                            array('','',"Signore, che hai accetato lo scandalo della croce,"),
+                            array('-','',"cumunicaci la gloria della tua risurrezione."),
+                            array('','',"Sei stato tradito da uno dei tuoi amici,"),
+                            array('-','',"preserva i tuoi fedeli da ogni defezione."),
+                            array('','',"Sul monte degli Ulivi hai pregato il Padre tuo di risparmiarti il calice della passione,"),
+                            array('-','',"fa' che il dolore non soffochi mai in noi la fiducia e la preghiera."),
+                            array('','',"Il popolo che avevi prediletto ha invocato su di sé il tuo sangue,"),
+                            array('-','',"scenda su di noi e su tutti gli uomini come lavacro di purificazione e di salvezza.")
+                        )
+                    );
+                    
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Il calvario rischiara le tenebre del mondo. Preghiamo che i nostri occhi non si chiudano mai alla sua luce:"),
+                            array('ris','I',"Per il mistero della croce illuminaci, o Signore.")
+                        ),
+                        array(
+                            array('','',"Cristo Signore, accusato davanti al sinedrio da molti falsi testimoni,"),
+                            array('-','',"fa' che la condotta dei cristiani non oscuri lo splendore del tuo messaggio."),
+                            array('','',"Hai voluto che il Cireneo condividesse il peso della tua croce,"),
+                            array('-','',"fa' che nel dolore ci sentiamo in comunione con la tua passione."),
+                            array('','',"Nello sconvolgimento della natura, seguito alla tua morte, ti sei fatto riconoscere dal centurione come Figlio di Dio,"),
+                            array('-','',"illumina gli uomini del nostro tempo perché vedano il segno del tuo amore e della tua provvidenza in tutte le creature."),
+                            array('','',"Dal tuo petto squarciato hai fatto nascere la Chiesa, arca di salvezza,"),
+                            array('-','',"sia il sacramento dell'incontro degli uomini con te e fra di loro."),
+                            array('','',"Signore Gesù, che morendo hai infranto la potenza della morte,"),
+                            array('-','',"concedi ai nostri fratelli defunti una risurrezione gloriosa.")
+                        )
+                    );
+                }
             }
-            
+
         }
 
         /////////////////////////////////////////////
