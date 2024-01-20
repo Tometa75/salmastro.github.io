@@ -3473,6 +3473,52 @@ class Invocazioni {
                 }
             }
 
+            if ($this->actual['weekDay']==6) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='QC6') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie sempre e in ogni luogo al Cristo salvatore, e rivolgiamo a lui la nostra comune preghiera:"),
+                                array('ris','I',"Soccorrici con la forza del tuo Spirito, Signore."),
+                            ),
+                            array(
+                                array('','',"Custodisci la castità del nostro corpo e del nostro cuore,"),
+                                array('-','',"perché siamo tempio vivo dello Spirito Santo."),
+                                array('','',"Rendici fin d'ora disponibili all'aiuto fraterno,"),
+                                array('-','',"fa' che tutto il giorno trascorra nell'adesione piena alla tua volontà."),
+                                array('','',"Rendici solleciti non del cibo che perisce,"),
+                                array('-','',"ma di quello che dura per la vita eterna e che tu ci dai."),
+                                array('','',"La Madre tua, rifugio dei peccatori, interceda per la nostra salvezza,"),
+                                array('-','',"e ci ottenga il perdono dei peccati.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Proclamiamo gioiosamente la nostra fede in Cristo, che con il lavacro della rigenerazione e con la mensa della sua parola e del suo corpo ci fa nascere creature nuove e ci rinvigorisce continuamente. Con questa fede preghiamo:"),
+                                array('ris','I',"Rinnovaci sempre, Signore, con la forza del tuo Spirito."),
+                            ),
+                            array(
+                                array('','',"Gesù, mite ed umile di cuore, rivestici dei tuoi sentimenti di umiltà e di misericordia,"),
+                                array('-','',"perché ci perdoniamo sempre gli uni gli altri come tu hai perdonato a noi."),
+                                array('','',"Insegnaci ad avvicinare i poveri e i sofferenti che troviamo sulla nostra strada,"),
+                                array('-','',"per imitare te, buon Samaritano."),
+                                array('','',"La beata Vergine, tua Madre, interceda per le vergini a te consacrate,"),
+                                array('-','',"perché vivano con gioia la loro donazione a te nella santa Chiesa."),
+                                array('','',"Donaci un segno della tua misericordia,"),
+                                array('-','',"rimetti a noi i nostri debiti e allontana i castighi che meritiamo.")
+                            )
+                        );
+                    }
+                }
+            }
+
             //////////////////////////////////////////
 
             if ($this->actual['evCode']=='PAL') {
@@ -3781,6 +3827,52 @@ class Invocazioni {
                 }
             }
 
+            if ($this->actual['evCode']=='SS6') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Adoriamo e benediciamo il nostro Redentore che patì, morì per noi e fu sepolto, per risorgere a vita immortale. Pieni di riconoscenza e di amore rivolgiamo al Cristo la nostra preghiera:"),
+                            array('ris','I',"Abbi pietà di noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Cristo salvarore, che hai voluto vicino alla tua croce e al tuo sepolcro la tua Madre addolorata,"),
+                            array('-','',"fa' che in mezzo alle sofferenze e alle lotte della vita comunichiamo alla tua passione."),
+                            array('','',"Cristo Signore, che come il chicco di frumento fosti sepolto nella terra per una sovrabbondante messe di vita eterna,"),
+                            array('-','',"fa' che, morti definitivamente al peccato, viviamo con te per il Padre."),
+                            array('','',"Maestro divino, che nei giorni della sepoltura ti sei nascosto agli occhi di tutti gli uomini,"),
+                            array('-','',"insegnaci ad amare la vita nascosta con te nel mistero del Padre."),
+                            array('','',"Nuovo Adamo, che sei disceso nel regno dei morti per liberare le anime dei giusti prigionieri fin dall'origine del mondo,"),
+                            array('-','',"fa' che tutti coloro che sono progionieri del male ascoltino la tua voce e risorgano insieme con te."),
+                            array('','',"Cristo, Figlio di Dio, che mediante il Battesimo ci hai uniti misticamente a te nella morte e nella sepoltura,"),
+                            array('-','',"fa' che, configurati alla tua risurrezione, viviamo una vita nuova.")
+                        )
+                    );     
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Adoriamo e benediciamo il nostro Redentore che patì, morì per noi e fu sepolto per risorgere a vita immortale. Pieni di riconoscenza e di amore, rivolgiamo al Cristo la nostra preghiera:"),
+                            array('ris','I',"Abbi pietà di noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Signore Gesù, che dal tuo fianco squarciato dalla lancia hai fatto scaturire la tua Chiesa, sacramento universale di salvezza,"),
+                            array('-','',"per la tua morte, sepoltura e risurrezione rendi sempre pura e santa la tua mistica sposa."),
+                            array('','',"Signore Gesù, che ti sei ricordato di coloro che avevano dimenticato le tue promesse ti risurrezione,"),
+                            array('-','',"ricordati di coloro che ignorano il Vangelo e vivono senza speranza."),
+                            array('','',"Agnello di Dio, nostra Pasqua, immolato per la salvezza del mondo,"),
+                            array('-','',"attira a te l'umanità intera."),
+                            array('','',"Dio onnipotente, che racchiudi l'universo nella tua mano e ti sei lasciato rinchiudere nel sepolcro,"),
+                            array('-','',"riscattaci dalle potenze del male e donaci l'esperienza liberatrice della tua risurrezione."),
+                            array('','',"Cristo, Figlio del Dio vivo, che in croce hai aperto il Paradiso al buon ladrone, associa a te nella gloria della risurrezione i defunti,"),
+                            array('-','',"come li hai resi simili a te nella morte e nella sepoltura, fa' che rivivano con te nella beatitudine eterna.")
+                        )
+                    );
+                }
+            }
         }
 
         /////////////////////////////////////////////
