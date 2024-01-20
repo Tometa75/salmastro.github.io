@@ -3330,7 +3330,6 @@ class Invocazioni {
                             )
                         );
                     }
-
                 }
 
                 if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -3378,9 +3377,100 @@ class Invocazioni {
                             )
                         );
                     }
+                }
+            }
 
+            if ($this->actual['weekDay']==5) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='QC5') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Invochiamo con fiducia il Cristo Salvatore, che ci ha redenti con la sua morte e risurrezione:"),
+                                array('ris','I',"Signore, abbi pietà di noi."),
+                            ),
+                            array(
+                                array('','',"Tu che sei salito a Gerusalemme per sostenere la passione e così entrare nella tua gloria,"),
+                                array('-','',"guida alla Pasqua eterna la tua Chiesa pellegrina sulla terra."),
+                                array('','',"Tu che, trafitto dalla lancia, hai emanato sangue ed acqua, simbolo dei sacramenti della tua Chiesa,"),
+                                array('-','',"guarisci le nostre ferite con la forza vitale della tua grazia."),
+                                array('','',"Tu che hai fatto della croce un albero di vita,"),
+                                array('-','',"concedi i suoi frutti di salvezza ai rinati nel Battesimo."),
+                                array('','',"Tu che dal patibolo della croce hai perdonato al buon ladrone,"),
+                                array('-','',"perdona anche a noi peccatori.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie al Signore che, morendo in croce per noi, ci ha ridato la vita, e rivolgiamo a lui la nostra umile preghiera:"),
+                                array('ris','I',"Per il mistero della tua morte, donaci la vita, Signore."),
+                            ),
+                            array(
+                                array('','',"Maestro e Salvatore, che ci hai illuminati con gli insegnamenti della fede e con la gloriosa passione hai fatto di noi una nuova creatura,"),
+                                array('-','',"fa' che non ricadiamo nella palude dei nostri peccati."),
+                                array('','',"Insegnaci a togliere qualcosa alla nostra mensa,"),
+                                array('-','',"per soccorrere i fratelli che sono privi del necessario."),
+                                array('','',"Fa' che riceviamo dalle tue mani questo giorno,"),
+                                array('-','',"per restituirlo a te ricco di opere di carità fraterna."),
+                                array('','',"Piega alla tua volontà le nostre menti orgogliose e ribelli,"),
+                                array('-','',"donaci un cuore grande e generoso.")
+                            )
+                        );
+                    }
                 }
 
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['evCode']=='QC5') {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Adoriamo il Salvatore del genere umano, che morendo distrusse la morte e risorgendo ha ridato a noi la vita, e chiediamo umilmente:"),
+                                array('ris','I',"Santifica il popolo redento con il tuo sangue, Signore."),
+                            ),
+                            array(
+                                array('','',"Gesù Salvatore, fa' che completiamo in noi con la penitenza ciò che manca alla tua passione,"),
+                                array('-','',"per condividere la gloria della tua risurrezione."),
+                                array('','',"Per intercessione della Madre tua, consolatrice degli afflitti, donaci la tua consolazione divina,"),
+                                array('-','',"perché diffondiamo la gioia in quelli che sono nel dolore."),
+                                array('','',"Fa' che in mezzo alle lotte e alle prove della vita, ci sentiamo partecipi della tua passione,"),
+                                array('-','',"per sperimentare in noi la forza della tua redenzione."),
+                                array('','',"Tu che ti sei umiliato facendoti obbediente fino alla morte e alla morte di croce,"),
+                                array('-','',"donaci lo spirito di obbedienza e di mansuetudine."),
+                                array('','',"Trasfigura i corpi dei nostri defunti a immagine del tuo corpo glorioso,"),
+                                array('-','',"ammetti un giorno anche noi nella Gerusalemme del cielo.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Rivolgiamo la nostra comune preghiera al Cristo salvatore che ci ha riscattati a prezzo del suo sangue:"),
+                                array('ris','I',"Abbi pietà del tuo popolo, Signore."),
+                            ),
+                            array(
+                                array('','',"O redentore nostro, donaci lo spirito di penitenza, sostienici nel combattimento contro le forze del male, ravviva la nostra speranza,"),
+                                array('-','',"perché camminiamo con passo vigoroso verso la Pasqua."),
+                                array('','',"Fa' che i cristiani, partecipi della tua dignità profetica, portino in ogni luogo il lieto annunzio della salvezza,"),
+                                array('-','',"e lo confermino con la testimonianza di fede, speranza e carità."),
+                                array('','',"Consola gli afflitti con la forza del tuo amore,"),
+                                array('-','',"fa' che sentano accanto a sé la solidarietà dei fratelli."),
+                                array('','',"Insgnaci a portare la nostra croce in unione alle tue sofferenze,"),
+                                array('-','',"perché si manifesti in noi la luce della tua gloria."),
+                                array('','',"Signore, artefice della vita, ricordati dei nostri fratelli stroncati dalla violenza e dalla guerra."),
+                                array('-','',"dona loro un'esistenza immortale nel tuo regno.")
+                            )
+                        );
+                    }
+                }
             }
 
             //////////////////////////////////////////
@@ -3601,7 +3691,7 @@ class Invocazioni {
                             array('ris','I',"Noi ti ringraziamo, Signore.")
                         ),
                         array(
-                            array('','',"Mediangte il BAttesimo ci hai uniti a te nella morte, sepoltura e risurrezione,"),
+                            array('','',"Mediante il Battesimo ci hai uniti a te nella morte, sepoltura e risurrezione,"),
                             array('ris','I',"Noi ti ringraziamo, Signore."),
                             array('','',"Con l'unzione spiritualeci hai resi partecipi della tua dignità regale, sacerdotale e profetica,"),
                             array('ris','I',"Noi ti ringraziamo, Signore."),
@@ -3632,6 +3722,60 @@ class Invocazioni {
                             array('-','',"fa' che gli uomini sperimentino la forza rinnovatrice della carità."),
                             array('','',"Hai mangiato la Pasqua con i tuoi discepoli, quale annunzio del suo compimento nel regno di Dio,"),
                             array('-','',"ammettici al convito eterno insieme ai fratelli che ci hanno preceduto.")
+                        )
+                    );
+                }
+            }
+
+            if ($this->actual['evCode']=='SS5') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Gloria e benedizione a Cristo nostro redentore, che patì e morì per noi, e fu sepolto per risorgere a vita immortale. A lui con profondo amore innalziamo la nostra preghiera:"),
+                            array('ris','I',"Abbi pietà di noi, Signore.")
+                        ),
+                        array(
+                            array('','',"Divino Maestro, che ti sei fatto per noi obbediente fino alla morte e alla morte di croce,"),
+                            array('-','',"insegnaci a obbedire sempre alla volontà del Padre."),
+                            array('','',"Gesù, vita nostra, che morendo sulla croce hai vinto la morte e l'inferno,"),
+                            array('-','',"donaci di comunicare alla tua morte per condividere la tua risurrezione."),
+                            array('','',"Re glorioso, inchiodato su un patibolo infame e calpestato come un verme,"),
+                            array('-','',"insegna a noi come rivestirci di quell'umiltà che ha redento il mondo."),
+                            array('','',"Salvezza nostra, che hai sacrificato la vita per amore dei fratelli,"),
+                            array('-','',"fa' che ci amiamo come tu ci hai amato."),
+                            array('','',"Redentore nostro, che hai steso le braccia sulla croce per stringere a te tutto il genere umano in un vincolo indistruttibile di amore,"),
+                            array('-','',"raccogli nel tuo regno tutti i figli di Dio dispersi.")
+                        )
+                    );
+                    
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"La Chiesa commemora con immenso amore la morte del Cristo, dal cui fianco squarciato è scaturita la vita del mondo. Uniti ai nostri fratelli di fede, sparsi su tutta la terra, rivolgiamo al Padre la nostra umile preghiera:"),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore.")
+                        ),
+                        array(
+                            array('','',"Raduna la tua Chiesa."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Proteggi il nostro Papa."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Santifica i ministri e tutti i fedeli del tuo popolo."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Fa' crescere nei catecumeni il germe della fede e la conoscenza dei tuoi santi misteri."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Riunisci i cristiani nell'unità della Chiesa."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Guida alla pienezza della redenzione l'antico popolo eletto."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Illumina i non criatiani con la luce del Vangelo."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
+                            array('','',"Aiuta gli atei a scoprire nell'uomo e nell'universo i segni del tuo amore."),
+                            array('ris','I',"Per la morte del tuo Figlio ascoltaci, Signore."),
                         )
                     );
                 }
