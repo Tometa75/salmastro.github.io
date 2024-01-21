@@ -1604,7 +1604,7 @@ class Orazione {
         ),
         "0120a"=>array(
             array(
-                array('','',"O Dio, gloria dei tuoi sacerdoti, concedi a noi tuoi fedeli, oper intercessione del papa e martire Fabiano, di crescere come comunità di fede e di amore."),
+                array('','',"O Dio, gloria dei tuoi sacerdoti, concedi a noi tuoi fedeli, per intercessione del papa e martire Fabiano, di crescere come comunità di fede e di amore."),
                 array('ending')
             )
         ),
