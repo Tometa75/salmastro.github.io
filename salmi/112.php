@@ -45,7 +45,7 @@ $this->closure['load']=function() {
                 array('','2',"dall'immondizia rialza il povero,")
             ),
             array(
-                array('','*',"per farlo sedere tra i proncipi,"),
+                array('','*',"per farlo sedere tra i principi,"),
                 array('','2',"tra i principi del suo popolo."),
                 array('','*',"Fa abitare la sterile nella sua casa"),
                 array('','2',"quale madre gioiosa di figli.")

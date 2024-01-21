@@ -5,7 +5,7 @@ $this->closure['load']=function() {
 
     //vespri domenica
     $this->antifona[0]=array(
-        "Che cosa renderò,",
+        "Che cosa renderò",
         "al Signore? Offrirò il calice della salvezza."
     );
 

@@ -25,7 +25,7 @@ $this->closure['load']=function() {
                 array('','*',"Il mare vide e si ritrasse,"),
                 array('','2',"il Giordano si volse indietro,"),
                 array('','*',"i monti saltellarono come arieti,"),
-                array('','2',"le colline comme agnelli di un gregge.")
+                array('','2',"le colline come agnelli di un gregge.")
             ),
             array(
                 array('','*',"Che hai tu, mare, per fuggire,"),

@@ -19,14 +19,14 @@ $this->closure['load']=function() {
                 array('','2',"« Ogni uomo è inganno ».")
             ),
             array(
-                array('','*',"Che cosa renderà al Signore"),
+                array('','*',"Che cosa renderò al Signore"),
                 array('','2',"per quanto mi ha dato?"),
                 array('','*',"Alzerò il calice della salvezza"),
                 array('','2',"e invocherò il nome del Signore.")
             ),
             array(
                 array('','*',"Adempirò i miei voti al Signore,"),
-                array('','2',"davanti a tutto il so popolo."),
+                array('','2',"davanti a tutto il suo popolo."),
                 array('','*',"Preziosa agli occhi del Signore"),
                 array('','2',"è la morte dei suoi fedeli.")
             ),
