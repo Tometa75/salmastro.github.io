@@ -4216,6 +4216,141 @@ class Invocazioni {
                 }
             }
 
+            if ($this->actual['weekDay']==2) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo il Cristo, che per virtù propria ricostruì il tempio del suo corpo, distrutto dalla morte, e formuliamo con fiducia la nostra domanda:"),
+                                array('ris','I',"Donaci i frutti della tua risurrezione. Signore."),
+                            ),
+                            array(
+                                array('','',"Cristo, che hai annunziato alle pie donne e agli apostoli la gioia della risurrezione,"),
+                                array('-','',"rendici annunziatori della tua vittoria."),
+                                array('','',"Tu che risorgendo dai morti ci hai dato il pegno della nostra risurrezione,"),
+                                array('-','',"concedi a tutti gli uomini la vittoria sul male e sulla morte."),
+                                array('','',"Tu che apparendo agli apostoli hai donato loro lo Spirito Santo,"),
+                                array('-','',"effondi su di noi la tua forza creatrice."),
+                                array('','',"Tu che hai promesso di restare con i tuoi discepoli sino alla fine del mondo,"),
+                                array('-','',"rimani con noi oggi e sempre.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Supplichiamo Dio Padre, che per mezzo di Cristo, Agnello senza macchia, toglie i peccati del mondo. Diciamo con fede:"),
+                                array('ris','I',"O Signore, fonte della vita, salva il tuo popolo."),
+                            ),
+                            array(
+                                array('','',"Ascolta, o Padre, la voce del tuo Figli crocifisso e risorto per noi,"),
+                                array('-','',"egli intercede per la nostra salvezza."),
+                                array('','',"Fa' che viviamo il mistero pasquale negli azzimi della sincerità e verità,"),
+                                array('-','',"purificaci dal vecchio lievito della malizia e dell'egoismo."),
+                                array('','',"Fa' che vinciamo le tentazioni dell'invidia e della discordia,"),
+                                array('-','',"insegnaci a comprendere e ad aiutare i fratelli."),
+                                array('','',"Fa' che regni in mezzo a noi lo spirito del Vangelo,"),
+                                array('-','',"guidaci oggi e sempre nella via dei tuoi comandamenti.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==7) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo Cristo, che promise di mandare a noi dal Padre il Consolatore e innalziamogli insieme la nostrta preghiera:"),
+                                array('ris','I',"O Cristo, donaci il tuo Spirito."),
+                            ),
+                            array(
+                                array('','',"La tua parola, o Cristo, dimori in noi abbondantemente,"),
+                                array('-','',"perché ti rendiamo grazie con salmi, inni e canti spirituali."),
+                                array('','',"Ci hai resi partecipi della tua condizione filiale nello Spirito Santo,"),
+                                array('-','',"uniscici a te mediante lo Spirito Santo nella lode al Padre."),
+                                array('','',"Donaci la sapienza per agire secondo il Vangelo,"),
+                                array('-','',"tutta la nostra vita renda testimonianza al tuo nome."),
+                                array('','',"Tu che sei buono e pietoso, lento all'ira e grande nell'amore,"),
+                                array('-','',"fa' che viviamo sempre in pace con tutti.")
+                            )
+                        );
+                    }
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti in fraterna esultanza, acclamiamo Cristo che è risorto e vive immortale. Diciamo con fede:"),
+                                array('ris','I',"Re della gloria, ascolta la nostra preghiera."),
+                            ),
+                            array(
+                                array('','',"Ti preghiamo per i vescovi, i presbiteri e i diaconi,"),
+                                array('-','',"perché promuovano nel popolo cristiano il senso di corresponsabilità al servizio del Vangelo."),
+                                array('','',"Ti preghiamo per i teologi e i catechisti,"),
+                                array('-','',"perché servano al verita con purezza di spirito."),
+                                array('','',"Ti preghiamo per tutti i membri del popolo di Dio,"),
+                                array('-','',"perché combattano la pacifica battaglia della fede e ricevano il premio del tuo regno."),
+                                array('','',"Tu che sulla croce hai distrutto la sentenza della nostra condanna,"),
+                                array('-','',"spezza le catene della schiavitù e liberaci dal male."),
+                                array('','',"Tu che hai liberato dagli inferi le anime dei giusti che attendevano il Salvatore,"),
+                                array('-','',"riunisci tutti i nostri morti nella gioia del Paradiso.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Al Cristo, che mediante la risurrezione ha confermato nella speranza il suo popolo, innalziamo la nostra preghiera:"),
+                                array('ris','I',"O Cristo, che vivi in eterno, ascoltaci."),
+                            ),
+                            array(
+                                array('','',"Signore Gesà, che dal cuore aperto hai fatto scaturire sangue ed acqua,"),
+                                array('-','',"rendi pura e santa la tua Chiesa."),
+                                array('','',"Tu che hai affidato a Pietro la cura pastorale del tuo popolo,"),
+                                array('-','',"proteggi il papa ... e confermalo nella carità al servizio della santa Chiesa."),
+                                array('','',"Hai trasformato i pescatori di Galilea in apostoli del tuo regno,"),
+                                array('-','',"manda operai alla tua Chiesa a continuare l'opera della salvezza."),
+                                array('','',"Sulla riva del lago hai prepararto il pane e il pesce per i tuoi discepoli,"),
+                                array('-','',"fa' che nessuno dei nostri fratelli soffra la fame per colpa nostra."),
+                                array('','',"O Gesù, nuovo Adamo e spirito datore di vita , che che i defunti portino l'immagine della tua gloria,"),
+                                array('-','',"e godano la pienezza della tua felicità.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==7) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Gloria e onore a Cristo che ci ha resi partecipi del suo Spirito. Rivolgiamo a lui la nostra preghiera:"),
+                                array('ris','I',"Cristo, ascoltaci."),
+                            ),
+                            array(
+                                array('','',"Effondi sulla Chiesa lo Spirito che procede dal Padre,"),
+                                array('-','',"perché la purifichi, la fortifichi e la propaghi fino ai confini della terra."),
+                                array('','',"Illumina i legislatori, i magistrati e i governanti,"),
+                                array('-','',"fa' che collaborino al bene di tutta la comunità."),
+                                array('','',"Manda il tuo Spirito quale Padre dei poveri,"),
+                                array('-','',"perché soccorra e consoli gli umili e gli afflitti."),
+                                array('','',"Santifica coloro che hai scelto come dispensatori dei tuoi misteri,"),
+                                array('-','',"fa' che siano sempre fedeli alla tua volontà."),
+                                array('','',"Completa nelle anime e nei corpi dei defunti la tua opera di salvezza,"),
+                                array('-','',"dona loro la gioia eterna in virtù della tua passione, risurrezione e ascenzione al cielo.")
+                            )
+                        );
+                    }
+                }
+                
+            }
             
         }
 
