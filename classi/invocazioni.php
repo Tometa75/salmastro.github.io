@@ -4423,20 +4423,18 @@ class Invocazioni {
                         
                         $this->testo=array(
                             array(
-                                array('','',":"),
-                                array('ris','I',"Re della gloria, ascolta la nostra preghiera."),
+                                array('','',"Supplichiamo Cristo, risorto dai morti, che vive e regna alla destra del Padre:"),
+                                array('ris','I',"Cristo, vita nostra, ascoltaci."),
                             ),
                             array(
-                                array('','',"Ti preghiamo per i vescovi, i presbiteri e i diaconi,"),
-                                array('-','',"perché promuovano nel popolo cristiano il senso di corresponsabilità al servizio del Vangelo."),
-                                array('','',"Ti preghiamo per i teologi e i catechisti,"),
-                                array('-','',"perché servano al verita con purezza di spirito."),
-                                array('','',"Ti preghiamo per tutti i membri del popolo di Dio,"),
-                                array('-','',"perché combattano la pacifica battaglia della fede e ricevano il premio del tuo regno."),
-                                array('','',"Tu che sulla croce hai distrutto la sentenza della nostra condanna,"),
-                                array('-','',"spezza le catene della schiavitù e liberaci dal male."),
-                                array('','',"Tu che hai liberato dagli inferi le anime dei giusti che attendevano il Salvatore,"),
-                                array('-','',"riunisci tutti i nostri morti nella gioia del Paradiso.")
+                                array('','',"Ricordati di tutti coloro che svolgono un ministero nella Chiesa,"),
+                                array('-','',"fa' che diano esempio di vita veramente evangelica."),
+                                array('','',"Illumina con il tuo Spirito i legislatori e i governanti,"),
+                                array('-','',"perché promuovano il progresso nella giustizia e nella pace."),
+                                array('','',"Apri i cuori di tutti gli uomini alla speranza della salvezza,"),
+                                array('-','',"fa' che i poveri abbiano la loro parte al banchetto della vita."),
+                                array('','',"Tu che ci hai liberato dalla schiavitù del peccato e della morte,"),
+                                array('-','',"accogli nella pace i nostri fratelli che oggi hanno lasciato questo mondo.")
                             )
                         );
                     }
@@ -4445,20 +4443,20 @@ class Invocazioni {
 
                         $this->testo=array(
                             array(
-                                array('','',"Al Cristo, che mediante la risurrezione ha confermato nella speranza il suo popolo, innalziamo la nostra preghiera:"),
-                                array('ris','I',"O Cristo, che vivi in eterno, ascoltaci."),
+                                array('','',"Supplichiamo Dio Padre che in Cristo suo Figlio ci ha aperto il passaggio alla vita eterna:"),
+                                array('ris','I',"Per la vittoria di Cristo salva il tuo popolo, Signore."),
                             ),
                             array(
-                                array('','',"Signore Gesà, che dal cuore aperto hai fatto scaturire sangue ed acqua,"),
-                                array('-','',"rendi pura e santa la tua Chiesa."),
-                                array('','',"Tu che hai affidato a Pietro la cura pastorale del tuo popolo,"),
-                                array('-','',"proteggi il papa ... e confermalo nella carità al servizio della santa Chiesa."),
-                                array('','',"Hai trasformato i pescatori di Galilea in apostoli del tuo regno,"),
-                                array('-','',"manda operai alla tua Chiesa a continuare l'opera della salvezza."),
-                                array('','',"Sulla riva del lago hai prepararto il pane e il pesce per i tuoi discepoli,"),
-                                array('-','',"fa' che nessuno dei nostri fratelli soffra la fame per colpa nostra."),
-                                array('','',"O Gesù, nuovo Adamo e spirito datore di vita , che che i defunti portino l'immagine della tua gloria,"),
-                                array('-','',"e godano la pienezza della tua felicità.")
+                                array('','',"Dio dei nostri padri, che hai glorificato il Figlio tuo, donaci la grazia di una vera conversione,"),
+                                array('-','',"fa' che tutta la nostra vita proclami la Pasqua di Cristo."),
+                                array('','',"Tu che ci hai riuniti, chiamandoci al Pastore e Custode delle nostre anime,"),
+                                array('-','',"conservaci nella fede per mezzo dei pastori della santa Chiesa."),
+                                array('','',"Hai scelto i primi discepoli del Figlio tuo nell'antico popolo eletto,"),
+                                array('-','',"aiuta i figli d'Israele a riconoscere in Cristo il compimento delle tue promesse."),
+                                array('','',"Ricordati degli emarginati, degli orfani, delle vedove,"),
+                                array('-','',"non abbandonare nessuno di quelli che Cristo ha redento con il suo sangue."),
+                                array('','',"Hai chiamato il promartire Stefano a condividere la gloria del tuo Figlio,"),
+                                array('-','',"accogli nel tuo regno tutti i defunti che hanno lottato e sofferto a causa della fede.")
                             )
                         );
                     }
@@ -4467,20 +4465,20 @@ class Invocazioni {
 
                         $this->testo=array(
                             array(
-                                array('','',"Gloria e onore a Cristo che ci ha resi partecipi del suo Spirito. Rivolgiamo a lui la nostra preghiera:"),
-                                array('ris','I',"Cristo, ascoltaci."),
+                                array('','',"In unione ai nostri fratelli che godono le primizie dello Spirito, lodiamo e incvochiamo Dio nostro Padre:"),
+                                array('ris','I',"Signore, ascoltaci."),
                             ),
                             array(
-                                array('','',"Effondi sulla Chiesa lo Spirito che procede dal Padre,"),
-                                array('-','',"perché la purifichi, la fortifichi e la propaghi fino ai confini della terra."),
-                                array('','',"Illumina i legislatori, i magistrati e i governanti,"),
-                                array('-','',"fa' che collaborino al bene di tutta la comunità."),
-                                array('','',"Manda il tuo Spirito quale Padre dei poveri,"),
-                                array('-','',"perché soccorra e consoli gli umili e gli afflitti."),
-                                array('','',"Santifica coloro che hai scelto come dispensatori dei tuoi misteri,"),
-                                array('-','',"fa' che siano sempre fedeli alla tua volontà."),
-                                array('','',"Completa nelle anime e nei corpi dei defunti la tua opera di salvezza,"),
-                                array('-','',"dona loro la gioia eterna in virtù della tua passione, risurrezione e ascenzione al cielo.")
+                                array('','',"Dio onnipotente, che hai dato al Cristo la gloria di sedere alla tua destra nei cieli,"),
+                                array('-','',"fa' che lo riconosciamo ancora presente qui in terra nella Chiesa e in tutti i bisognosi."),
+                                array('','',"Tu che hai comandato di ascoltare il tuo Figlio,"),
+                                array('-','',"fa' che tutti ascoltino la sua voce e siano salvi."),
+                                array('','',"Manda il tuo Spirito nel cuore dei tuoi fedeli,"),
+                                array('-','',"ci purifichi dal male e ci dia l'entusiasmo del bene."),
+                                array('','',"Il tuo Spirito orienti il corso della nostra storia,"),
+                                array('-','',"guidi il mondo nella via della pace."),
+                                array('','',"Accogli nel riposo eterno i nostri pastori defunti,"),
+                                array('-','',"ravviva in noi la speranza della risurrezione futura.")
                             )
                         );
                     }
