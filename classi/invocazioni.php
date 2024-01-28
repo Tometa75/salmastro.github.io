@@ -4349,7 +4349,6 @@ class Invocazioni {
                         );
                     }
                 }
-                
             }
 
             if ($this->actual['weekDay']==3) {
@@ -4482,8 +4481,142 @@ class Invocazioni {
                             )
                         );
                     }
+                } 
+            }
+
+            if ($this->actual['weekDay']==4) {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Cristo risorto è sempre presente nella sua Chiesa. Uniti nella lode del mattino rivolgiamo a lui la nostra supplica:"),
+                                array('ris','I',"Resta con noi, Signore."),
+                            ),
+                            array(
+                                array('','',"Signore Gesù, vincitore del peccato e della morte,"),
+                                array('-','',"fa' ardere il nostro cuore con la tua presenza e la tua parola."),
+                                array('','',"Vieni a noi con la tua potenza invincibile,"),
+                                array('-','',"e fa' sentire ai nostri spiriti la bontà infinita di Dio."),
+                                array('','',"Tu che sei la fonte della nostra pace,"),
+                                array('-','',"salva il mondo dalla violenza e dalla discordia."),
+                                array('','',"Ritempra la nostra fede nella vittoria finale,"),
+                                array('-','',"e confermaci nell'attesa della beata speranza e della gloria.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio Padre ha dato il suo Figlio come principio di risurrezione e di vita nuova. Nel suo nome innalziamo la nostra umile preghiera:"),
+                                array('ris','I',"Santifica il tuo popolo, Signore."),
+                            ),
+                            array(
+                                array('','',"Nell'Esodo hai guidato gli Ebrei con la colonna di fuoco,"),
+                                array('-','',"fa' che il Cristo sia per noi luce di vita."),
+                                array('','',"Sul monte Sinai hai istituito il popolo nella tua legge,"),
+                                array('-','',"fa' che il Cristo risorto sia per noi oggi parola di vita."),
+                                array('','',"Nel deserto hai nutrito il tuo popolo con la manna,"),
+                                array('-','',"fa' che il Cristo risorto sia per noi oggi pane di vita."),
+                                array('','',"Hai dissetato il tuo popolo con l'acqua scaturita dalla roccia,"),
+                                array('-','',"fa' che il Cristo risorto doni a noi oggi colui che è Spirito di vita.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==7) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Benedetto sia Cristo Signore, perché per mezzo di lui possiamo presentarci tutti al Padre in un solo Spirito. Sollecitiamo la sua bontà:"),
+                                array('ris','I',"O Cristo, accogli la nostra preghiera."),
+                            ),
+                            array(
+                                array('','',"Manda il tuo Spirito come ospite dei nostri cuori,"),
+                                array('-','',"donaci la grazia di non contristarlo mai."),
+                                array('','',"Tu che sei risuscitato dai morti e siedi alla destra di Dio,"),
+                                array('-','',"intercedi sempre per noi presso il Padre."),
+                                array('','',"Unisci pastori e fedeli nella comunione del tuo Spirito,"),
+                                array('-','',"fa' che nulla, né vita, né morte, ci separi mai da te."),
+                                array('','',"Rendici accoglienti e ospitali gli uni verso gli altri,"),
+                                array('-','',"come tu ci hai accolto per amore del Padre.")
+                            )
+                        );
+                    }
                 }
-                
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Pieni di fede preghiamo Cristo, primizia di coloro che risorgono dai morti:"),
+                                array('ris','I',"Cristo, che sei risuscitato dai morti, ascoltaci."),
+                            ),
+                            array(
+                                array('','',"Signore, ricordati della tua Chiesa santa, edificata sul fondamento degli apostoli e diffusa nel mondo intero,"),
+                                array('-','',"benedici tutti coloro che invocano il tuo nome."),
+                                array('','',"Tu che sei il medico dei corpi e delle anime,"),
+                                array('-','',"salvaci con la forza del tuo amore."),
+                                array('','',"Solleva e conforta i malati,"),
+                                array('-','',"liberali da tutte le loro sofferenze."),
+                                array('','',"Aiuta coloro che sono affaticati e oppressi,"),
+                                array('-','',"soccorri i poveri e i sofferenti."),
+                                array('','',"Tu che con la morte e la risurrezione hai aperto la via dell'immortalità,"),
+                                array('-','',"ricevi nella tua pace i morti a causa della violenza e dell'odio.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti in fraterna esultanza invochiamo il Cristo risorto, costituito dal Padre principio e fondamento della nostra speranza:"),
+                                array('ris','I',"O Re della gloria, ascoltaci."),
+                            ),
+                            array(
+                                array('','',"Signore Gesù, che con il tuo sangue e con la tua risurrezione sei entrato una volta per sempre nel santuario del cielo,"),
+                                array('-','',"guidaci con te alla gloria del Padre."),
+                                array('','',"Hai sostenuto la fede degli apostoli e hai accreditato la loro missione con la testimonianza del tuo Spirito,"),
+                                array('-','',"fa' che i vescovi e i presbiteri siano efficaci messaggeri della tua parola."),
+                                array('','',"Sei per tutti sorgente di riconciliazione e di pace,"),
+                                array('-','',"fa' che i cristiani si uniscano in comunione di fede e di carità."),
+                                array('','',"Per la fede nella tua risurrezione hai risanato lo zoppo alla porta del tempio,"),
+                                array('-','',"volgi il tuo sguardo sui nostri malati e manifesta loro la tua gloria."),
+                                array('','',"Sei la primizia della morte che salva e della risurrezione,"),
+                                array('-','',"ammetti nella tua luce immortale coloro che hanno sperato in te.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==7) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo il Cristo Salvatore, perché ci doni la pienezza del suo Spirito:"),
+                                array('ris','I',"Santifica, o Signore, il popolo che tu hai redento."),
+                            ),
+                            array(
+                                array('','',"Il tuo Spirito edifichi la Chiesa nell'unità e nella pace,"),
+                                array('-','',"la preservi da ogni lacerazione o discordia."),
+                                array('','',"Tu che ci hai riscattati dalla schiavitù di Satana,"),
+                                array('-','',"libera il mondo dalla cupidigia e da ogni forma di sopraffazione."),
+                                array('','',"Cristo Signore, consacrato dallo Spirito per il ministero messianico mentre pregavi il Padre,"),
+                                array('-','',"fa' che i sacerdoti compenetrino la loro vita di preghiera per renderla feconda nello Spirito."),
+                                array('','',"Il tuo Spirito illumini i potenti della terra,"),
+                                array('-','',"perché vincano le tentazioni del potere e cerchino sinceramente il bene dell'umanità."),
+                                array('','',"Tu che vivi nella gloria del Padre,"),
+                                array('-','',"accogli i defunti nella tua luce sempiterna.")
+                            )
+                        );
+                    }
+                } 
             }
             
         }
