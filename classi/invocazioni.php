@@ -4618,7 +4618,144 @@ class Invocazioni {
                     }
                 } 
             }
-            
+
+            if ($this->actual['weekDay']==5) {
+
+                //puntatore al giorno dopo l'ascensione
+                $idx=strtotime('+1 day',mainFunc::gab_tots($this->actual['ASC']));
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"A Dio Padre, che in Cristo risorto fa risplendere a tutti gli uomini la speranza della vita nuova, si innalzi la nostra preghiera:"),
+                                array('ris','I',"Padre, da' a noi la gloria del tuo Figlio."),
+                            ),
+                            array(
+                                array('','',"Dio santo e fedele, che manifesti la tua misericordia a tutte le generazioni,"),
+                                array('-','',"rinnova nel nostro tempo i prodigi della Pasqua."),
+                                array('','',"Purifica i nostri cuori con la luce della tua verità,"),
+                                array('-','',"guidaci sulla via della giustizia e dell'amore."),
+                                array('','',"Fa' risplendere su di noi il tuo volto,"),
+                                array('-','',"liberaci dal male e saziaci con i beni della tua casa."),
+                                array('','',"Tu che hai dato agli apostoli la tua pace,"),
+                                array('-','',"fa' che essa regni su tutta la terra.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Cristo ascese al cielo per mandare lo Spirito Santo sugli apostoli. A lui s'innalzi la lode della Chiesa:"),
+                                array('ris','I',"Manda a noi il tuo Spirito, o Signore."),
+                            ),
+                            array(
+                                array('','',"Cristo, che sei salito al cielo, manda a noi lo Spirito promesso dal Padre,"),
+                                array('-','',"trasformaci con la potenza che viene dall'alto."),
+                                array('','',"Tu che ci vuoi prudenti come i serpenti e semplici come le colombe,"),
+                                array('-','',"compi questo prodigio con la sapienza del tuo Spirito."),
+                                array('','',"Tu che siedi alla destra del Padre, prega per noi come nostro Sacerdote,"),
+                                array('-','',"prega in noi come nostro Capo."),
+                                array('','',"Nelle prove e nei dolori dona a noi di sentirci partecipi della tua passione,"),
+                                array('-','',"perché condividiamo in eterno la tua gloria.")
+                            )
+                        );
+                    }
+
+                    ////////////////////////////////////////////
+                    if ($this->actual['settimana']==7 || ($this->actual['settimana']==6 && $this->actual['today']==date('Ymd',$idx)) ) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo il Cristo Signore, che mediante il suo Spirito fa abbondare nei nostri cuori la speranza della vita nuova. Diciamo insieme:"),
+                                array('ris','I',"Salva il tuo popolo, Signore."),
+                            ),
+                            array(
+                                array('','',"Signore, che conosci i limiti e la povertà della nostra preghiera,"),
+                                array('-','',"fa' che interceda per noi il tuo Spirito."),
+                                array('','',"Manda il tuo Spirito, tua luce beatissima,"),
+                                array('-','',"ci rinnovi a immagine della tua gloria."),
+                                array('','',"Non dimenticare che siamo opera delle tue mani,"),
+                                array('-','',"salvaci dalle suggestioni del male."),
+                                array('','',"Insegnaci ad accogliere con bontà gli increduli e i lontani,"),
+                                array('-','',"fa' che trattiamo tutti con umanità e mitezza.")
+                            )
+                        );
+                    }
+                }
+
+                if ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo Cristo, via, verità e vita e rivolgiamo a lui la nostra fervida preghiera:"),
+                                array('ris','I',"Figlio del Dio vivo, benedici il tuo popolo."),
+                            ),
+                            array(
+                                array('','',"Noi ti preghiamo per i pastori della santa Chiesa,"),
+                                array('-','',"fa' che spezzando il pane della vita crescano nella tua carità."),
+                                array('','',"Noi ti preghiamo per il popolo cristiano,"),
+                                array('-','',"fa' che viva in modo coerente la sua vocazione e conservi l'unità nel vincolo della pace."),
+                                array('','',"Noi ti preghiamo per i legislatori e i governanti,"),
+                                array('-','',"fa' che promuovano la giustizia e la fraternità di tutti gli uomini."),
+                                array('','',"Ti preghiamo per i nostri fratelli defunti,"),
+                                array('-','',"fa' che siano felici nella comunione gloriosa dei tuoi santi.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo unanimi il Cristo, fonte della vita e principio di ogni santità:"),
+                                array('ris','I',"Regna in mezzo a noi, Signore."),
+                            ),
+                            array(
+                                array('','',"Gesù Salvatore, crocifisso secondo la carne, perennemente vivo e vivificante nello Spirito,"),
+                                array('-','',"fa' che, morti al peccato, viviamo la vita nuova secondo lo Spirito."),
+                                array('','',"Tu che hai mandato i discepoli a predicare il Vangelo ad ogni creatura,"),
+                                array('-','',"sostieni con il tuo Spirito i missionari della tua parola."),
+                                array('','',"Tu che hai ricevuto dal Padre ogni potere in cielo e in terra, per rendere testimonianza alla verità,"),
+                                array('-','',"guida con la tua sapienza coloro che ci governano."),
+                                array('','',"Tu che ci comandi di attendere operosi e vigilanti la tua venuta nella gloria,"),
+                                array('-','',"fa' che quanto più attendiamo i cieli nuovi e la terra nuova, tanto più lavoriamo per il progresso e la pace."),
+                                array('','',"Sei sceso agli inferi per portare agli antichi padri l'annunzio della salvezza,"),
+                                array('-','',"riunisci nella gioia eterna tutti i nostri morti.")
+                            )
+                        );
+                    }
+
+                    /////////////////////////////////////////
+                    if ($this->actual['settimana']==7 || ($this->actual['settimana']==6 && $this->actual['today']==date('Ymd',$idx)) ) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio Padre ha voluto effondere anche sui pagani il dono dello Spirito Santo. Preghiamo perché nel nostro tempo si rinnovino i prodigi della Pentecoste:"),
+                                array('ris','I',"Effondi su di noi il tuo Spirito, o Signore."),
+                            ),
+                            array(
+                                array('','',"Padre, che hai fatto brillare nelle tenebre del mondo la luce del tuo Figlio,"),
+                                array('-','',"rivela ai pagani di oggi lo splendore della tua verità."),
+                                array('','',"Tu che hai consacrato il tuo Figlio in Spirito Santo come Messia e Salvatore,"),
+                                array('-','',"fa' che egli passi ancora in mezzo a noi beneficando e sanando tutti."),
+                                array('','',"Donaci nel tuo Spirito la luce dei cuori,"),
+                                array('-','',"rafforza nella fede i dubbiosi e i vacillanti."),
+                                array('','',"Manda il tuo Spirito, riposo nella fatica,"),
+                                array('-','',"solleva coloro che sono vinti dalla stanchezza e dalla sfiducia."),
+                                array('','',"Compi la speranza dei nostri fratelli defunti,"),
+                                array('-','',"perché alla venuta di Cristo partecipino alla gloria della risurrezione.")
+                            )
+                        );
+                    }
+                } 
+            } 
         }
 
         /////////////////////////////////////////////
