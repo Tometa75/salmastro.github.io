@@ -4755,7 +4755,137 @@ class Invocazioni {
                         );
                     }
                 } 
-            } 
+            }
+
+            if ($this->actual['weekDay']==6) {
+
+                //puntatore a 2 giorni dopo l'ascensione
+                $idx=strtotime('+2 day',mainFunc::gab_tots($this->actual['ASC']));
+
+                if ($this->actual['ora']=='lodi') {
+
+                    if ($this->actual['settimana']==1 || $this->actual['settimana']==3 || $this->actual['settimana']==5)  {
+                        
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo Cristo, pane di vita, che darà la risurrezione gloriosa a coloro che si assidono degnamente alla mensa della sua parola e del suo corpo:"),
+                                array('ris','I',"Donaci, Signore, la tua gioia pasquale."),
+                            ),
+                            array(
+                                array('','',"Cristo, che risuscitato dai morti sei diventato principio e fonte della vita immortale,"),
+                                array('-','',"benedici e santifica tutti gli uomini della terra."),
+                                array('','',"Tu che doni ai credenti la gioia e la pace,"),
+                                array('-','',"fa' che camminiamo in novità di vita nella luce della tua Pasqua."),
+                                array('','',"Conferma nella fede la tua Chiesa pellegrina sulla terra,"),
+                                array('-','',"perché renda testimonianza al mondo della tua risurrezione."),
+                                array('','',"Tu che attraverso la passione sei entrato nella gloria del Padre,"),
+                                array('-','',"trasforma in gioia perfetta i lutti e i dolori del mondo.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['settimana']==2 || $this->actual['settimana']==4 || $this->actual['settimana']==6) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti nella preghiera di lode, acclamiamo e invochiamo il Cristo che ci ha rivelato la vita eterna:"),
+                                array('ris','I',"La tua risurrezione ci colmi di grazia, o Signore."),
+                            ),
+                            array(
+                                array('','',"Pastore eterno, guarda il tuo popolo che anela a risorgere,"),
+                                array('-','',"sazialo con la tua parola e con il pane della vita."),
+                                array('','',"Non permettere che il tuo gregge sia disgregato da lupi e da mercenari,"),
+                                array('-','',"fa' che proceda sicuro sulla via della salvezza."),
+                                array('','',"Tu che cooperi sempre con gli annunziatori del tuo Vangelo e li confermi con i tuoi carismi,"),
+                                array('-','',"fa' che ognuno di noi oggi proclami la tua risurrezione con la coerenza della vita."),
+                                array('','',"Sii tu la nostra gioia che nessuno possa toglierci,"),
+                                array('-','',"liberaci dalla tristezza del peccato e ravviva in noi il desiderio del cielo.")
+                            )
+                        );
+                    }
+
+                    ////////////////////////////////////////////
+                    if ($this->actual['settimana']==7 || ($this->actual['settimana']==6 && $this->actual['today']==date('Ymd',$idx)) ) {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Santificati nel Battesimo per offrire il sacrificio di lode, glorifichiamo Dio nostro Padre insieme ai fratelli sparsi nel mondo. Diciamo con fede:"),
+                                array('ris','I',"Signore Gesù, rinnovaci nel tuo Spirito."),
+                            ),
+                            array(
+                                array('','',"Manda su di noi il tuo Spirito,"),
+                                array('-','',"perché ti proclamiamo davanti a tutti nostro Re e Signore."),
+                                array('','',"Suscita in noi la carità autentica e sincera,"),
+                                array('-','',"fa' che ci amiamo gli uni gli altri come tu ci hai insegnato."),
+                                array('','',"Prepara la nostra comunità ad accogliere il dono dello Spirito,"),
+                                array('-','',"la sua venuta segni l'inizio di una vita nuova."),
+                                array('','',"Donaci la potenza del tuo Santo Spirito,"),
+                                array('-','',"perché guarisca le nostre ferite e rianimi le nostre forze nel cammino della salvezza.")
+                            )
+                        );
+                    }
+                }
+            }
+
+            //###################################
+
+            if ($this->actual['evCode']=='PAS') {
+
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo, autore della vita, fu risuscitato dal Padre e farà risorgere anche noi con la potenza del suo Spirito. Uniti nella gioia pasquale acclamiamo:"),
+                            array('ris','I',"Cristo, vita nostra, salvaci."),
+                        ),
+                        array(
+                            array('','',"Cristo, luce fulgida, splendente nelle tenebre, principio e sorgente di vita nuova,"),
+                            array('-','',"trasforma questo giorno in un dono di gioia pasquale."),
+                            array('','',"Signore, che hai percorso la via della passione e della croce,"),
+                            array('-','',"donaci di comunicare alla tua morte redentrice per condividere la gloria della tua risurrezione."),
+                            array('','',"Figlio di Dio, maestro e fratello nostro, che hai fatto di noi una stirpe eletta, un sacerdozio regale,"),
+                            array('-','',"insegnaci ad offrirti in letizia il sacrificio della lode."),
+                            array('','',"Re della gloria, attendiamo il giorno splendido della tua manifestazione,"),
+                            array('-','',"quando contempleremo il tuo volto senza veli e saremo simili a te.")
+                        )
+                    );
+                }
+
+                elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo è sempre vivo per intercedere a nostro favore. Tutta la Chiesa lo acclami e lo invochi:"),
+                            array('ris','I',"Re glorioso, ascolta la nostra voce."),
+                        ),
+                        array(
+                            array('','',"Luce e salvezza di tutte le genti,"),
+                            array('-','',"manda il tuo Spirito su coloro che celebrano la tua risurrezione."),
+                            array('','',"Il popolo ebraico riconosca in te il Messia atteso e sperato,"),
+                            array('-','',"tutta la terra sia piena della tua gloria."),
+                            array('','',"Mantienici nella comunione dei santi durante il pellegrinaggio terreno,"),
+                            array('-','',"donaci di perseverare nella fede fino al giorno della tua venuta."),
+                            array('','',"Tu che hai vinto il peccato e la morte,"),
+                            array('-','',"fa' che viviamo sempre per te."),
+                            array('','',"Tu che dall'umiliazione della croce fosti innalzato alla destra del Padre,"),
+                            array('-','',"accogli i nostri morti nella gloria del tuo regno.")
+                        )
+                    );
+                }
+            }
+
+            elseif ($this->actual['evCode']=='ASC') {
+
+                if ($this->actual['ora']=='ves1') {
+                }
+
+                elseif ($this->actual['ora']=='lodi') {
+                }
+
+                elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                }
+            }
+
         }
 
         /////////////////////////////////////////////
