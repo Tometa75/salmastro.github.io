@@ -4876,13 +4876,46 @@ class Invocazioni {
 
             elseif ($this->actual['evCode']=='ASC') {
 
-                if ($this->actual['ora']=='ves1') {
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo, innalzato da terra, attrae tutti a sé, La Chiesa lo saluta e lo invoca:"),
+                            array('ris','I',"Tu sei il re della gloria, o Cristo."),
+                        ),
+                        array(
+                            array('','',"Signore Gesù, che avendo offerto un solo sacrificio una volta per sempre, regni vittorioso alla destra del Padre,"),
+                            array('-','',"rendi perfetti nell'amore coloro che hai redenti con il tuo sangue."),
+                            array('','',"Sacerdote eterno e mediatore della nuova alleanza, che intercedi per la nostra pace,"),
+                            array('-','',"salva il popolo cristiano, che prega unito a te nello Spirito Santo."),
+                            array('','',"Dopo la passione sei apparso per quaranta giorni ai tuoi discepoli,"),
+                            array('-','',"confermaci nella fede oggi e sempre."),
+                            array('','',"Hai promesso ai discepoli lo Spirito Santo, per renderli tuoi testimoni sino ai confini della terra,"),
+                            array('-','',"rafforza la nostra testimonianza con la potenza dello Spirito Santo.")
+                        )
+                    );
                 }
 
-                elseif ($this->actual['ora']=='lodi') {
-                }
+                elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
 
-                elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+                    $this->testo=array(
+                        array(
+                            array('','',"Acclamiamo con gioia il Cristo che siede alla destra del Padre:"),
+                            array('ris','I',"Tu sei il re della gloria, o Cristo."),
+                        ),
+                        array(
+                            array('','',"Signore, che hai portato nei cieli la nostra fragile umanità,"),
+                            array('-','',"distruggi in noi la colpa antica e ridonaci la dignità perduta."),
+                            array('','',"Sei disceso a noi per la via dell'amore,"),
+                            array('-','',"per essa guidaci tutti dove tu sei."),
+                            array('','',"Hai promesso di attirare ogni cosa a te,"),
+                            array('-','',"non permettere che ci separiamo dalla Chiesa, che è tuo corpo."),
+                            array('','',"Ci hai preceduto nella casa della gloria,"),
+                            array('-','',"donaci di abitarvi fin d'ora col cuore."),
+                            array('','',"Quando verrai per giudicare il mondo,"),
+                            array('-','',"fa' che insieme ai nostri fratelli defunti celebriamo la tua infinita misericordia.")
+                        )
+                    );
                 }
             }
 
@@ -4942,7 +4975,71 @@ class Invocazioni {
 
             if ($this->actual['evCode']=='PEN') {
 
-                
+                if ($this->actual['ora']=='ves1') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Trascorsi i giorni dell'antica Pentecoste, scese dal cielo sugli apostoli lo Spirito consolatore. Celebrando il grande mistero, preghiamo Dio Padre perché lo rinnovi in noi:"),
+                            array('ris','I',"Manda il tuo Spirito e rinnova la faccia della terra.")
+                        ),
+                        array(
+                            array('','',"Tu che hai creato il mondo e lo hai redento per mezzo del tuo Figlio,"),
+                            array('-','',"manda il tuo Spirito a rinnovare il volto della terra."),
+                            array('','',"Tu che hai formato l'uomo a tua immagine e gli hai dato un'anima immortale,"),
+                            array('-','',"manda lo Spirito Santo alla tua Chiesa, perché configurata a Cristo diventi l'anima del mondo."),
+                            array('','',"Fa' risplendere fra gli uonini del nostro tempo la luce del tuo Spirito,"),
+                            array('-','',"dov'è l'odio, fa' fiorire l'amore, dov'è il dolore metti la gioia, dov'è la guerra la pace."),
+                            array('','',"Lava le nostre colpe nell'acqua viva del tuo Spirito,"),
+                            array('-','',"risana le ferite dei nostri peccati."),
+                            array('','',"Tu che, per virtù dello Spirito Santo, introduci gli uomini nella vita e nella gloria,"),
+                            array('-','',"fa' che i defunti, purificati dalla sua grazia, entrino nel tuo gaudio eterno.")
+                        )
+                    );
+                }
+
+                elseif ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Gloria e lode a Cristo che mediante il suo Spirito ci ha riuniti nella santa Chiesa. Diciamo con fede:"),
+                            array('ris','I',"Rinnova, Signore, il volto della terra.")
+                        ),
+                        array(
+                            array('','',"Signore Gesù, che dal tuo cuore trafitto hai fatto scaturire le sorgenti della vita,"),
+                            array('-','',"manda a noi il tuo Spirito come principio della creazione nuova."),
+                            array('','',"Tu che dal cielo hai effuso sugli apostoli il Dono del Padre,"),
+                            array('-','',"manda il tuo Spirito a rinnovare l'umanità intera."),
+                            array('','',"Hai dato agli apostoli il potere di perdonare i peccati,"),
+                            array('-','',"manda il tuo Spirito per la riconciliazione e la salvezza del mondo."),
+                            array('','',"Hai promesso lo Spirito Santo come maestro e consolatore,"),
+                            array('-','',"donaci la sapienza del Vangelo."),
+                            array('','',"Hai promesso lo Spirito Santo per rafforzarci nella fede,"),
+                            array('-','',"rendici nel mondo testimoni del tuo amore.")
+                        )
+                    );
+                }
+
+                elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniti in fraterna esultanza, invochiamo Dio Padre che nella Pentecoste ha rivelato al mondo la Chiesa del Signore, e rivolgiamo a lui la nostra fervida preghiera:"),
+                            array('ris','I',"Manda, o Padre, lo Spirito Santo alla tua Chiesa.")
+                        ),
+                        array(
+                            array('','',"Mediante il Battesimo ci chiami a far parte di un solo corpo in un solo Spirito,"),
+                            array('-','',"fa' che i credenti in Cristo formino un cuore solo e un'anima sola."),
+                            array('','',"Hai donato agli uomini la presenza rinnovatrice del tuo Spirito,"),
+                            array('-','',"aiutaci a edificare una società più giusta e più umana."),
+                            array('','',"Ci hai rivelato nello Spirito il tuo disegno di unità e di pace,"),
+                            array('-','',"riunisci nella tua Chiesa tutti i figli dispersi."),
+                            array('','',"Nel tuo Spirito ci illumini e consoli,"),
+                            array('-','',"guarisci gli infermi, conforta i sofferenti, dona a tutti pace e salvezza."),
+                            array('','',"Mediante il tuo Spirito hai risuscitato dai morti il Cristo tuo Figlio,"),
+                            array('-','',"dona ai nostri fratelli defunti la vita immortale.")
+                        )
+                    );
+                }                
             }
 
             if ($this->actual['evCode']=='TRI') {
@@ -4966,9 +5063,11 @@ class Invocazioni {
             }
         }
 
+        ############################################
         #########################
         return;
         #########################
+        ############################################
 
         //////////////////////////////////////////////////////////////////////////////////////
 
