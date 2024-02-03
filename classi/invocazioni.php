@@ -5592,12 +5592,114 @@ class Invocazioni {
             
                 if ($f['comune']=='dedica') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Fratelli carissimi, noi siamo pietre vive edificate in tempio spirituale sulla pietra eletta che è Cristo. Diciamo insieme:"),
+                                array('ris','I',"Santifica la tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"Padre santo, mistico agricoltore, purifica, custodisci e rendi feconda la tua vigna,"),
+                                array('-','',"perché con la tua benedizione si estenda su tutta la terra."),
+                                array('','',"Pastore eterno, proteggi e moltiplica il tuo gregge, che è la Chiesa,"),
+                                array('-','',"fa' che tutti i popoli si raccolgano in un solo ovile e sotto un solo pastore."),
+                                array('','',"Divino seminatore, semina la parola di vita eterna nel tuo campo, che è il mondo,"),
+                                array('-','',"perché produca il cento per uno per la messe del tuo regno."),
+                                array('','',"Sapiente costruttore, mantieni compatta la tua casa e santifica la famiglia radunata nel tuo nome,"),
+                                array('-','',"perché risplenda a tutti, come nuova Gerusalemme, la sposa santa del tuo Figlio.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Innalziamo la nostra preghiera al Cristo salvatore, che ha dato la sua vita per riunire in una sola famiglia tutti i figli di Dio dispersi:"),
+                                array('ris','I',"Ricordati della tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"Signore Gesù, che hai edificato la tua casa sulla roccia,"),
+                                array('-','',"confermaci nella fede e nella speranza."),
+                                array('','',"Signore Gesù, che dal tuo petto squarciato hai fatto scaturire sangue e acqua,"),
+                                array('-','',"purifica e rinnova la tua Chiesa con i sacramenti della nuova alleanza."),
+                                array('','',"Signore Gesù, presente in mezzo a coloro che si riuniscono nel tuo nome,"),
+                                array('-','',"esaudisci la preghiera unanime della tua Chiesa."),
+                                array('','',"Signore Gesù, che insieme al Padre e allo Spirito Santo stabilisci la tua dimora in coloro che ti amano,"),
+                                array('-','',"rendi perfetta la tua Chiesa nell'esperienza del tuo amore."),
+                                array('','',"Signore Gesù, che non respingi coloro che vengono a te,"),
+                                array('-','',"accogli tutti i defunti nella casa del Padre.")
+                            )
+                        );
+                    } 
                 }
 
                 elseif ($f['comune']=='BVM') {
 
-                    
+                    if ($this->actual['ora']=='ves1') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Riuniti nella preghiera di lode, glorifichiamo Dio, Padre onnipotente, che ci ha dato in Maria un pegno sicuro di consolazione e di speranza. Diciamo con fiducia:"),
+                                array('ris','I',"Maria, piena di grazia, interceda per noi.")
+                            ),
+                            array(
+                                array('','',"O Dio, operatore di prodigi, che hai concesso alla santa Vergine Maria di condividere, nell'anima e nel corpo, la gloria del Cristo risorto,"),
+                                array('-','',"guidaci alla gloria immortale."),
+                                array('','',"Tu che ci hai dato Maria per madre, concedi per sua intercessione la salute ai malati, il conforto agli afflitti, il perdono ai peccatori,"),
+                                array('-','',"dona a tutti pace e salvezza."),
+                                array('','',"Tu che hai reso piena di grazia la Vergine Maria,"),
+                                array('-','',"allietaci con l'abbondanza dei doni del tuo Spirito."),
+                                array('','',"Fa' che la tua Chiesa sia un cuor solo e un'anima sola;"),
+                                array('-','',"donaci di perseverare unanimi nella preghiera con Maria, madre di Gesù."),
+                                array('','',"Tu che hai incoronato Maria regina del cielo,"),
+                                array('-','',"fa' che i nostri fratelli defunti godano la gioia eterna nell'assemblea dei santi.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Rivolgiamo la nostra lode e la nostra supplica al Cristo salvatore, nato da Maria Vergine e diciamo:"),
+                                array('ris','I',"Maria, la Madre tua, sostenga la nostra preghiera.")
+                            ),
+                            array(
+                                array('','',"Sole di giustizia, che hai voluto farti precedere da Maria immacolata, mistica aurora della redenzione,"),
+                                array('-','',"fa' che camminiamo sempre nella luce della tua presenza."),
+                                array('','',"Verbo eterno, che hai scelto Maria come arca santa per la tua dimora fra noi,"),
+                                array('-','',"liberaci dalla corruzione del peccato."),
+                                array('','',"Salvatore nostro, che hai voluto la Madre tua ai piedi della croce, unita nell'offerta del sacrificio,"),
+                                array('-','',"fa' che comunichiamo, per sua intercessione, al mistero della tua passione e della tua gloria."),
+                                array('','',"Gesù buono, che mentre pendevi dalla croce, hai dato per madre a Giovanni la Vergine addolorata,"),
+                                array('-','',"concedi a noi la grazia di vivere come suoi veri figli.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti nella preghiera di lode, rendiamo grazie a Dio che ha voluto Maria amata e venerata da tutte le generazioni. Diciamo con fiducia:"),
+                                array('ris','I',"Maria, piena di grazia, interceda per noi.")
+                            ),
+                            array(
+                                array('','',"Tu che hai costituito Maria madre di misericordia,"),
+                                array('-','',"fa' che sperimentiamo, in mezzo ai pericoli, la sua bontà materna."),
+                                array('','',"Hai voluto Maria madre di famiglia nella casa di Nazareth,"),
+                                array('-','',"fa' che tutte le mamme custodiscano la santità e l'amore."),
+                                array('','',"Hai reso forte Maria ai piedi della croce e l'hai colmata di gioia nella risurrezione del tuo Figlio,"),
+                                array('-','',"sostienici fra le prove della vita e rafforzaci nella speranza."),
+                                array('','',"In Maria, attenta alla tua parola e serva fedele della tua volontà, ci mostri il modello e l'immagine della santa Chiesa,"),
+                                array('-','',"per sua intercessione rendici veri discepoli del Cristo tuo Figlio."),
+                                array('','',"Hai incoronato Maria, Regina del cielo,"),
+                                array('-','',"fa' che i nostri fratelli defunti godano la felicità eterna nell'assemblea dei santi.")
+                            )
+                        );
+                    }   
                 }
 
                 elseif ($f['comune']=='apostoli') {

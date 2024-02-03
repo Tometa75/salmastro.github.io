@@ -1682,7 +1682,7 @@ class Orazione {
         ),
         "0203b"=>array(
             array(
-                array('','',"Esaudisci, Signore, la tua famiglia, riunita nel ricordo del martire dan Biagio, e donale pace e salute nella vita presente, perché giunga alla gioia dei beni eterni."),
+                array('','',"Esaudisci, Signore, la tua famiglia, riunita nel ricordo del martire san Biagio, e donale pace e salute nella vita presente, perché giunga alla gioia dei beni eterni."),
                 array('ending')
             )
         ),
