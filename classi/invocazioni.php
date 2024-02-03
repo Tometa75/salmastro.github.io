@@ -5123,7 +5123,7 @@ class Invocazioni {
                         array(
                             array('','',"Cristo, Figlio del Dio vivo, che ci hai comandato di celebrare l'Eucaristia in tua memoria,"),
                             array('-','',"fa' che vi partecipiamo sempre con fede e amore a beneficio di tutta la Chiesa."),
-                            array('','',"Cristo, unico e sommo sacerdote, che hai affidato ai tuoi sacerdoti i santi misteri"),
+                            array('','',"Cristo, unico e sommo sacerdote, che hai affidato ai tuoi sacerdoti i santi misteri,"),
                             array('-','',"fa' che essi esprimano nella vita ciò che celebrano nel sacramento."),
                             array('','',"Cristo, che riunisci in un solo corpo quanti si nutrono di uno stesso pane,"),
                             array('-','',"accresci nella nostra comunità la concordia e la pace."),
@@ -5138,12 +5138,98 @@ class Invocazioni {
 
             if ($this->actual['evCode']=='SCG') {
 
-                
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Rivolgiamo con fiducia la nostra preghiera a Gesù mite e umile di cuore:"),
+                            array('ris','I',"Mostraci, o Signore, la tua misericordia.")
+                        ),
+                        array(
+                            array('','',"Gesù, in cui dimora la pienezza della divinità,"),
+                            array('-','',"fa' che partecipiamo alla tua vita immortale."),
+                            array('','',"Gesù, che possiedi i tesori della sapienza e della scienza,"),
+                            array('-','',"rivela nella santa Chiesa la multiforme sapienza del Padre."),
+                            array('','',"Gesù, Figlio prediletto, nel quale il Padre ha riposto la sua compiacenza,"),
+                            array('-','',"fa' che ascoltiamo fedelmente la tua parola e la testimoniamo con la coerenza della vita."),
+                            array('','',"Gesù, dalla cui pienezza riceviamo ogni bene,"),
+                            array('-','',"riversa su di noi la grazia e la verità del Padre."),
+                            array('','',"Gesù, fonte di vita e di santità,"),
+                            array('-','',"rinnovaci e santificaci nel tuo amore.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Invochiamo con fede Gesù redentore, perché dia pace e ristoro alle nostre anime:"),
+                            array('ris','I',"Signore misericordioso, abbi pietà di noi.")
+                        ),
+                        array(
+                            array('','',"Signore Gesù che dal tuo petto squarciato hai fatto nascere la Chiesa tua sposa,"),
+                            array('-','',"rendila sempre santa e immacolata."),
+                            array('','',"Gesù, tempio santo di Dio, distrutto dagli uomini e riedificato dal Padre,"),
+                            array('-','',"fa' che la tua Chiesa sia il santuario vivente della tua gloria."),
+                            array('','',"Gesù, re e centro di tutti i cuori, rivelaci la grandezza della tua misericordia,"),
+                            array('-','',"rinnova con gli uomini del nostro tempo il tuo patto d'amore."),
+                            array('','',"Gesù, nostra pace e riconciliazione, che distruggendo ogni inimicizia sulla croce, ci hai riuniti in un solo uomo nuovo,"),
+                            array('-','',"donaci di venire a te uniti nel medesimo Spirito."),
+                            array('','',"Gesù, che ti sei fatto obbediente fino alla morte,"),
+                            array('-','',"rendi partecipi della tua gloria coloro che si sono addormentati nel tuo nome.")
+                        )
+                    );
+                } 
             }
 
             if ($this->actual['evCode']=='GRE') {
 
-                
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Uniti nella preghiera di lode, glorifichiamo e invochiamo il Cristo, Re dell'universo:"),
+                            array('ris','I',"Venga il tuo regno, Signore.")
+                        ),
+                        array(
+                            array('','',"Cristo Gesù, che sei il capo e il signore del tuo popolo,"),
+                            array('-','',"guidaci sulla via che conduce alla salvezza eterna."),
+                            array('','',"Pastore buono, che hai dato la vita per le tue pecorelle,"),
+                            array('-','',"resta sempre con noi e non ci mancherà nulla."),
+                            array('','',"Redentore nostro, costituito dal Padre Re del cielo e della terra,"),
+                            array('-','',"donaci di collaborare all'edificazione del tuo regno di giustizia e di pace."),
+                            array('','',"Re eterno, che sei venuto nel mondo per rendere testimonianza alla verità,"),
+                            array('-','',"fa' che ogni uomo riconosca il tuo primato in tutte le cose."),
+                            array('','',"Maestro e modello nostro, che ci hai chiamati a far parte del tuo regno,"),
+                            array('-','',"conservaci santi e irreprensibili fino al giorno della tua venuta.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Acclamiamo Cristo, Re dell'universo, che è prima di tutte le cose e in cui tutto sussiste, e diciamo con fede:"),
+                            array('ris','I',"Signore, venga il tuo regno.")
+                        ),
+                        array(
+                            array('','',"Cristo, nostro Re e pastore raduna il tuo gregge da ogni parte della terra,"),
+                            array('-','',"guidalo ai pascoli della verità e della vita."),
+                            array('','',"Cristo, nostro capo e salvatore, rinnova e santifica il tuo popolo,"),
+                            array('-','',"rafforza i deboli, raccogli i dispersi, richiama gli increduli all'unità della fede."),
+                            array('','',"Cristo, giudice del mondo, prendici accanto a te nella gloria, quando consegnerai il tuo regno nelle mani del Padre,"),
+                            array('-','',"donaci l'eredità eterna preparata per noi fin dalla fondazione del mondo."),
+                            array('','',"Re di pace, infrangi gli ordigni e le trame della guerra,"),
+                            array('-','',"fa' che tutti gli uomini conoscano un'era di giustizia e di pace."),
+                            array('','',"Cristo, erede di tutte le genti, fa' che l'umanità mossa dallo Spirtio Santo, si raccolga nella tua Chiesa,"),
+                            array('-','',"tutta la terra ti riconosca come suo capo e signore."),
+                            array('','',"Cristo, primizia di coloro che si risvegliano dal sonno della morte,"),
+                            array('-','',"accogli i nostri fratelli defunti nella gloria del tuo regno.")
+                        )
+                    );
+                }  
             }
         }
 
