@@ -4963,7 +4963,7 @@ class Invocazioni {
                             array('-','',"abbi pietà degli increduli e dei peccatori che ti cercano con cuore sincero."),
                             array('','',"Cristo, Figlio di Dio, mediatore della nuova alleanza, inviato dal Padre per essere luce di tutte le genti,"),
                             array('-','',"apri gli occhi dei catecumeni alla pienezza della fede mediante il Battesimo."),
-                            array('','',"Cristo, consacrato dal Padre nello Spirito Santo per la tua missione di salvezza, "),
+                            array('','',"Cristo, consacrato dal Padre nello Spirito Santo per la tua missione di salvezza,"),
                             array('-','',"fa' che tutti gli uomini credano in te ed abbiano la vita eterna."),
                             array('','',"Cristo, speranza nostra, che guidi alla luce della salvezza coloro che sono immersi nelle tenebre,"),
                             array('-','',"accogli nel tuo regno i nostri fratelli defunti.")
@@ -5044,12 +5044,96 @@ class Invocazioni {
 
             if ($this->actual['evCode']=='TRI') {
 
-                
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Adoriamo e benediciamo la Santa Trinità, principio e sorgente di ogni bene:"),
+                            array('ris','I',"Gloria al Padre e al Figlio e allo Spirito Santo.")
+                        ),
+                        array(
+                            array('','',"Padre santo, poiché non sappiamo pregare come si conviene, donaci il tuo Santo Spirito,"),
+                            array('-','',"perché aiuti la nostra debolezza e interceda per noi."),
+                            array('','',"Figlio di Dio, che hai donato lo Spirito Santo alla tua Chiesa,"),
+                            array('-','',"fa' che resti sempre con noi e ci confermi nella verità."),
+                            array('','',"Vieni, o Spirito consolatore, e donaci i tuoi frutti di santità,"),
+                            array('-','',"amore, gioia, pace, pazienza, benevolenza, bontà, fedeltà, mitezza, castità."),
+                            array('','',"Eterno Padre, hai effuso nei nostri cuori il tuo Spirito che grida: abba! Padre!"),
+                            array('-','',"Fa' che ci sentiamo in lui figli tuoi e diveniamo in eterno coeredi di Cristo."),
+                            array('','',"O Cristo, hai mandato lo Spirito che procede dal Padre, perché ti rendesse testimonianza davanti al mondo,"),
+                            array('-','',"fa' che, illuminati dalla sua verità, professiamo apertamente il tuo Vangelo.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Dio Padre per opera dello Spirito Santo ha glorificato l'umanità del Cristo e l'ha costituita per noi sorgente di vita e di salvezza. Riuniti nella lode della sera adoriamo la Santa Trinità:"),
+                            array('ris','I',"Gloria al Padre e al Figlio e allo Spirito Santo.")
+                        ),
+                        array(
+                            array('','',"Padre, grande e misericordioso, nel nome del tuo Figlio effondi lo Spirito Santo Paraclito sulla tua Chiesa,"),
+                            array('-','',"perché la custodisca nella comunione della verità e dell'amore."),
+                            array('','',"Manda operai nella tua messe perché ammaestrino gli uomini e li battezzino nel nome del Padre e del FIglio e dello Spirito Santo,"),
+                            array('-','',"e li confermino nella comunione vitale a questo mistero."),
+                            array('','',"Dio Padre, sostieni coloro che sono perseguitati per il nome del Figlio tuo,"),
+                            array('-','',"lo Spirito Santo che ha promesso gli renda testimonianza per bocca loro."),
+                            array('','',"Fa' che tutti gli uomini conoscano te, o Padre, che con il Figlio e lo Spirito Santo sei l'unico Dio,"),
+                            array('-','',"credano in te, sperino in te, vivano nel tuo amore."),
+                            array('','',"Accogli i nostri defunti nella gloria dei cieli,"),
+                            array('-','',"dove il tuo Figlio e lo Spirito Santo regnano con te in eterno.")
+                        )
+                    );
+                }
             }
 
             if ($this->actual['evCode']=='COD') {
 
-                
+                if ($this->actual['ora']=='lodi') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo è il pane della vita. La Chiesa acclama con gioia:"),
+                            array('ris','I',"Beato chi siede alla mensa del tuo regno, Signore.")
+                        ),
+                        array(
+                            array('','',"Cristo, sacerdote della nuova ed eterna alleanza, che sulla croce hai offerto al Padre i sacrificio perfetto,"),
+                            array('-','',"insegna anche a noi ad offrirlo degnamente insieme a te."),
+                            array('','',"Cristo, re di giustizia e di pace, che sotto i segni del pane e del vino ci hai dato il memoriale della tua immolazione sulla croce,"),
+                            array('-','',"accetta anche noi come offerta a Dio gradita."),
+                            array('','',"Cristo, che hai voluto perpetuare in ogni parte della terra, la tua offerta pura e santa,"),
+                            array('-','',"fa' che quanti si nutrono di un unico pane siano uniti in un solo corpo."),
+                            array('','',"Cristo, che nutri la tua Chiesa con il sacramento del tuo Corpo e del tuo Sangue,"),
+                            array('-','',"fa' che, rinvigoriti da questo cibo, giungiamo al tuo monte santo."),
+                            array('','',"Cristo, invisibile ospite del nostro banchetto, che stai alla porta e bussi,"),
+                            array('-','',"vieni da noi, cena con noi e noi con te.")
+                        )
+                    );
+                }
+
+                if ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                    $this->testo=array(
+                        array(
+                            array('','',"Cristo nella Cena pasquale ha donato il suo Corpo e il suo Sangue per la vita del mondo. Riuniti nella preghiera di lode, invochiamo il suo nome:"),
+                            array('ris','I',"Cristo, pane del cielo, dà a noi la vita eterna.")
+                        ),
+                        array(
+                            array('','',"Cristo, Figlio del Dio vivo, che ci hai comandato di celebrare l'Eucaristia in tua memoria,"),
+                            array('-','',"fa' che vi partecipiamo sempre con fede e amore a beneficio di tutta la Chiesa."),
+                            array('','',"Cristo, unico e sommo sacerdote, che hai affidato ai tuoi sacerdoti i santi misteri"),
+                            array('-','',"fa' che essi esprimano nella vita ciò che celebrano nel sacramento."),
+                            array('','',"Cristo, che riunisci in un solo corpo quanti si nutrono di uno stesso pane,"),
+                            array('-','',"accresci nella nostra comunità la concordia e la pace."),
+                            array('','',"Cristo, che nell'Eucaristia ci dai il farmaco dell'immortalità e il pegno della risurrezione,"),
+                            array('-','',"dona la salute agli infermi e il perdono ai peccatori."),
+                            array('','',"Cristo, che nell'Eucaristia ci dai la grazia di annunziare la tua morte e risurrezione fino al giorno della tua venuta,"),
+                            array('-','',"rendi partecipi della tua gloria i nostri fratelli defunti.")
+                        )
+                    );
+                }  
             }
 
             if ($this->actual['evCode']=='SCG') {
