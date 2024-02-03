@@ -5704,15 +5704,50 @@ class Invocazioni {
 
                 elseif ($f['comune']=='apostoli') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio nostro Padre, per mezzo degli apostoli, ci hai fatto eredi del regno dei cieli. Riconosciamo tutti i suoi benefici acclamando:"),
+                                array('ris','I',"Ti loda, Signore, il coro degli apostoli.")
+                            ),
+                            array(
+                                array('','',"Gloria a te, Signore, per la mensa del Corpo e del Sangue di Cristo, trasmessa a noi dagli apostoli,"),
+                                array('-','',"è il banchetto imbandito dal tuo Figlio, che ci nutre e ci dà vita."),
+                                array('','',"Gloria a te, Signore, per la mensa della tua parola preparata a noi dagli apostoli,"),
+                                array('-','',"è il Vangelo del tuo Figlio che ci illumina e ci conforta."),
+                                array('','',"Gloria a te, Signore, oer la tua Chiesa santa, costruita sul fondamento degli apostoli,"),
+                                array('-','',"è il tuo tempio santo, che ci unisce in un solo corpo e in solo Spirito."),
+                                array('','',"Gloria a te, Signore, per la grazia del Battesimo e della Penitenza affidata al ministero degli apostoli,"),
+                                array('-','',"è il lavacro istituito dal tuo Figlio, che ci purifica da tutte le nostre colpe.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Edificati sul fondamento degli apostoli per formare il tempio vivo di Dio, preghiamo con fede:"),
+                                array('ris','I',"Ricordati, Signore, della tua Chiesa.")
+                            ),
+                            array(
+                                array('','',"Padre, tu hai voluto che gli apostoli fossero i primi testimoni del Figlio tuo risorto,"),
+                                array('-','',"concedi a noi di essere testimoni della tua risurrezione."),
+                                array('','',"Tu che hai mandato il tuo Figlio a portare il lieto annunzio ai poveri,"),
+                                array('-','',"fa' che il Vangelo sia predicato a tutti gli uomini."),
+                                array('','',"Hai mandato il tuo Figlio per seminare il seme della tua parola,"),
+                                array('-','',"concedi una messe abbondante agli operai del Vangelo."),
+                                array('','',"Hai sacrificato il tuo Figlio per riconciliare il mondo a te,"),
+                                array('-','',"fa' che tutti cooperiamo generosamente alla tua opera di riconciliazione e di pace."),
+                                array('','',"Hai costituito il Cristo re dell'universo innanlzandolo accanto a te nella gloria,"),
+                                array('-','',"accogli nel tuo regno i nostri fratelli defunti.")
+                            )
+                        );
+                    } 
                 }
 
-                elseif ($f['comune']=='martiri') {
-
-                    
-                }
-
-                elseif ($f['comune']=='martire') {
+                elseif ($f['comune']=='martiri' || $f['comune']=='martire') {
 
                     
                 }
