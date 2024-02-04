@@ -5932,17 +5932,101 @@ class Invocazioni {
                                 array('-','',"concedi l'eterna luce nella piena visione del tuo volto.")
                             )
                         );
-                    } 
+                    }
                 }
 
                 elseif ($f['comune']=='vergini') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"A Cristo, sposo e corona delle vergini, rivolgiamo con gioia l'espressione della nostra fede:"),
+                                array('ris','I',"Gesù, premio e corona delle vergini, ascolta la nostra preghiera.")
+                            ),
+                            array(
+                                array('','',"Cristo, unico sposo delle sante vergini,"),
+                                array('-','',"fa' che nulla ci separi mai dalla tua amicizia."),
+                                array('','',"Tu che hai costituito Maria, tua madre, regina delle vergini,"),
+                                array('-','',"per sua intercessione donaci di servirti con fedeltà e purezza di cuore."),
+                                array('','',"Per le vergini che si sono consacrate a te con cuore integro e indiviso per essere sante nel corpo e nello spirito,"),
+                                array('-','',"fa' che nessuna cosa al mondo ci faccia deviare dal cammino che conduce a te."),
+                                array('','',"Signore Gesù, atteso dalle vergini sapienti,"),
+                                array('-','',"fa' che siamo sempre vigilanti nell'attesa della tua venuta."),
+                                array('','',"Per l'intercessione di santa ... , che hai fatto spelndere di santità e sapienza,"),
+                                array('-','',"donaci saggezza evangelica e innocenza di vita.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Celebriamo con gioia il Signore Gesù, che ha esaltato la verginità scelta per il regno dei cieli, e rivolgiamo a lui la nostra preghiera:"),
+                                array('ris','I',"Cristo, sposo delle vergini, ascolta la nostra supplica.")
+                            ),
+                            array(
+                                array('','',"O Cristo, tu sei l'unico sposo della tua Chiesa. Hai voluto ti comparisse davanti come vergine casta,"),
+                                array('-','',"rendila sempre santa e immacolata."),
+                                array('','',"Signore, le sante vergini ti sono venute incontro con le lampade accese,"),
+                                array('-','',"non permettere che manchi mai alle anime consacrate la luce della fedeltà e dell'amore."),
+                                array('','',"Signore, per te la Chiesa, vergine e madre, ha conservato intatta la sua fede,"),
+                                array('-','',"dona a tutti i cristiani di rimanere fedeli alla tua parola."),
+                                array('','',"Tu che ci dai la gioia di celebrare il glorioso ricordo della santa vergine ... ,"),
+                                array('-','',"fa' che possiamo sempre allietarci della sua intercessione."),
+                                array('','',"Tu che hai accolto le sante vergini al tuo banchetto nuziale,"),
+                                array('-','',"ammetti i fedeli defunti al convito delle nozze eterne.")
+                            )
+                        );
+                    }   
                 }
 
                 elseif ($f['comune']=='santi' || $f['comune']=='religiosi') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Uniti nella liturgia di lode, invochiamo il Cristo Signore, perché ci aiuti a servirlo in santità e giustizia tutti i giorni della nostra vita:"),
+                                array('ris','I',"Santifica il tuo popolo, Signore.")
+                            ),
+                            array(
+                                array('','',"Sei stato provato in ogni cosa per divenire simile a noi in tutto fuorché nel peccato,"),
+                                array('-','',"Signore Gesù, abbi pietà del tuo popolo."),
+                                array('','',"Chiami tutti alla carità perfetta,"),
+                                array('-','',"Signore Gesù, santifica il tuo popolo."),
+                                array('','',"Hai voluto che i tuoi discepoli siano sale della terra e luce del mondo,"),
+                                array('-','',"Signore Gesù, illumina il tuo popolo."),
+                                array('','',"Sei venuto per servire e non per essere servito,"),
+                                array('-','',"Signore Gesù, insegnaci a servirti nei nostri fratelli."),
+                                array('','',"Tu sei l'irradiazione della gloria del Padre e l'impronta della sua sostanza,"),
+                                array('-','',"Signore Gesù, fa' che al termine della vita contempliamo il tuo volto insieme ai tuoi santi.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Supplichiamo Dio Padre, sorgente di ogni santità, perché con l'esempio e l'aiuto dei santi, ci conceda di vivere in conformità con il nostro Battesimo. Diciamo insieme:"),
+                                array('ris','I',"Rendici santi, Signore, perché sei santo.")
+                            ),
+                            array(
+                                array('','',"Padre santo, tu vuoi che ci chiamiamo e siamo realmente tuoi figli,"),
+                                array('-','',"fa' che la Chiesa ti glorifichi su tutta la terra con la luce della sua santità."),
+                                array('','',"Padre santo, che ci inviti a camminare in maniera degna della nostra vocazione, per piacere in te in ogni cosa,"),
+                                array('-','',"fa' che portiamo frutti abbondanti di opere buone."),
+                                array('','',"Padre santo, che ci hai riconciliati in Cristo,"),
+                                array('-','',"custodisci quanti credono nel tuo nome, perché formino una cosa sola con te."),
+                                array('','',"Padre santo, che ci vuoi commensali al banchetto del cielo,"),
+                                array('-','',"donaci di crescere nella carità alla mensa del Corpo del tuo Figlio e della sua parola."),
+                                array('','',"Padre santo, ammetti i nostri fratelli defunti alla contemplazione del tuo volto,"),
+                                array('-','',"rendi anche noi degni della tua gloria.")
+                            )
+                        );
+                    }
                 }
 
                 elseif ($f['comune']=='sante' || $f['comune']=='religiose') {
