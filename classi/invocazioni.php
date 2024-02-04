@@ -5749,22 +5749,190 @@ class Invocazioni {
 
                 elseif ($f['comune']=='martiri' || $f['comune']=='martire') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"In unione con i santi martiri uccisi a causa del Vangelo, celebriamo e invochiamo il nostro Salvatore, testimone fedele di Dio Padre:"),
+                                array('ris','I',"Ci hai redenti con il tuo sangue, o Signore.")
+                            ),
+                            array(
+                                array('','',"Per i tuoi martiri, che abbracciarono la morte a testimonianza della fede,"),
+                                array('-','',"donaci la vera libertà di spirito."),
+                                array('','',"Per i tuoi maritiri, che confessarono la fede sino all'effusione del sangue,"),
+                                array('-','',"da' a noi una fede pura e coerente."),
+                                array('','',"Per i tuoi martiri, che seguirono le tue orme sul cammino della croce,"),
+                                array('-','',"fa' che sosteniamo con fortezza le prove della vita."),
+                                array('','',"Per i tuoi martiri, che lavarono le vesti nel sangue dell'Agnello,"),
+                                array('-','',"donaci di vincere le seduzioni della carne e del mondo.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"°Nell'ora in cui Cristo, re dei martiri, offrì per noi la sua vita nella cena pasquale e nell'oblazione cruenta sulla croce, s'innalzi a lui la lode della Chiesa:"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore.")
+                            ),
+                            array(
+                                array('','',"Noi ti lodiamo e ti adoriamo, o Cristo, causa e modello di ogni martirio, perché ci hai amati sino alla fine,"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore."),
+                                array('','',"Perché hai chiamato i peccatori pentiti al premio della vita eterna,"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore."),
+                                array('','',"Perché hai comandato alla tua Chiesa di offrire il sangue della nuova ed eterna alleanza, sparso per la remissione dei peccati,"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore."),
+                                array('','',"Perché in questo giorno ci hai dato la grazia di perseverare nella fede,"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore."),
+                                array('','',"Perché hai associato molti fratelli alla tua morte redentrice,"),
+                                array('ris','I',"Noi di lodiamo e ti adoriamo, Signore.")
+                            )
+                        );
+                    }
                 }
 
                 elseif ($f['comune']=='pastori') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Fratelli, eravamo erranti come pecore, ma ora siamo tornati al Pastore e Custode delle nostre anime. A lui diciamo con fede:"),
+                                array('ris','I',"Signore, illumina il tuo popolo.")
+                            ),
+                            array(
+                                array('','',"Tu che sei la guida e il capo della Chiesa,"),
+                                array('-','',"aiutaci a seguirti operando la verità nella carità."),
+                                array('','',"Tu che hai posto uomini come nostri pastori, per portarci il tuo annunzio di pace,"),
+                                array('-','',"apri i nostri cuori ad accogliere nel loro ministero di verità la tua parola."),
+                                array('','',"Tu che abiti nei nostri cuori, facci conoscere il tuo amore che supera ogni conoscenza,"),
+                                array('-','',"per diventarne i testimoni in mezzo ai fratelli."),
+                                array('','',"Fa' che non ci lasciamo guidare dalla sapienza del mondo e dei sui dominatori,"),
+                                array('-','',"ma dal Tuo Spirito che ci rivela la vera sapienza nel mistero della tua croce."),
+                                array('','',"Tu che sei venuto per servire, aiutaci ad usare la nostra scienza e le nostre capacità umane,"),
+                                array('-','',"per un servizio umile, semplice, discreto, silenzioso dei fratelli."),
+                                array('','',"Signore, la tua luce risplenda nelle nostre opere buone davanti a tutti gli uomini,"),
+                                array('-','',"perché rendano grazie al Padre che è nei cieli.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Fratelli, il Dio della pace ha fatto tornare dai morti il Pastore grande, il Signore Gesù: egli ha costituito uomini che in sua vece guidassero il suo popolo verso pascoli di vita. Diciamo con fiducia:"),
+                                array('ris','I',"Signore Gesù, guidaci nella tua pace.")
+                            ),
+                            array(
+                                array('','',"Ricordati, Signore, del nostro Papa ...,"),
+                                array('-','',"sia docile all'azione dellio Spirito, per poter discernere in ogni circostanza la tua volontà, per il bene di tutta la Chiesa."),
+                                array('','',"Ricordati dei vescovi del mondo intero,"),
+                                array('-','',"fa' che non reggano il gregge loro affidato da dominatori, ma in spirito di servizio, in unione con il Papa e tra di loro."),
+                                array('','',"Ricordati dei tuoi sacerdoti impegnati nel ministero pastorale,"),
+                                array('-','',"fa' che siano fedeli alla loro vocazione, siano ricchi di vita interiore, assetati di preghiera, siano disinteressati nel loro servizio, pieni di zelo e di amore verso tutti."),
+                                array('','',"Il tuo giogo è dolce, il tuo carico leggero:"),
+                                array('-','',"a noi che lo abbiamo liberamente accettato, concedi di non volerlo ora rigettare per amore di una falsa libertà."),
+                                array('','',"Tu che nella tua misericordia ci hai rigenerati ad una speranza viva,"),
+                                array('-','',"dona ai nostri defunti l'eredità eterna.")
+                            )
+                        );
+                    }
                 }
 
                 elseif ($f['comune']=='dottori') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Fratelli, eravamo erranti come pecore, ma ora siamo tornati al Pastore e Custode delle nostre anime. A lui diciamo con fede:"),
+                                array('ris','I',"Signore, illumina il tuo popolo.")
+                            ),
+                            array(
+                                array('','',"Tu che sei la guida e il capo della Chiesa,"),
+                                array('-','',"aiutaci a seguirti operando la verità nella carità."),
+                                array('','',"Tu che hai posto uomini come nostri pastori, per portarci il tuo annunzio di pace,"),
+                                array('-','',"apri i nostri cuori ad accogliere nel loro ministero di verità la tua parola."),
+                                array('','',"Tu che abiti nei nostri cuori, facci conoscere il tuo amore che supera ogni conoscenza,"),
+                                array('-','',"per diventarne i testimoni in mezzo ai fratelli."),
+                                array('','',"Fa' che non ci lasciamo guidare dalla sapienza del mondo e dei sui dominatori,"),
+                                array('-','',"ma dal Tuo Spirito che ci rivela la vera sapienza nel mistero della tua croce."),
+                                array('','',"Tu che sei venuto per servire, aiutaci ad usare la nostra scienza e le nostre capacità umane,"),
+                                array('-','',"per un servizio umile, semplice, discreto, silenzioso dei fratelli."),
+                                array('','',"Signore, la tua luce risplenda nelle nostre opere buone davanti a tutti gli uomini,"),
+                                array('-','',"perché rendano grazie al Padre che è nei cieli.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Al Signore Gesù, via, verità e vita per tutti gli uomini, indirizziamo con fervore la nostra preghiera:"),
+                                array('ris','I',"Risplenda su tutti la tua luce, Signore.")
+                            ),
+                            array(
+                                array('','',"Signore, a quanti credono nel tuo nome e hanno in comune il tesoro della tua parola,"),
+                                array('-','',"fa' scoprire più quello che li unisce di quello che li divide."),
+                                array('','',"Il santo dottore ... ha saputo trar fuori dal tesoro comune della tradizione, cose nuove e coe antiche:"),
+                                array('-','',"la sua parola e la sua preghiera aiutino i cristiani a camminare nella via del Vangelo."),
+                                array('','',"Tanti fratelli vivono nelle tenebre del peccato e dell'errore,"),
+                                array('-','',"suscita nella tua Chiesa uomini che, guidati dallo Spirito, li aiutino a ritornare a te."),
+                                array('','',"La sapienza che viene dall'alto penetri i nostri cuori, Signore,"),
+                                array('-','',"per renderci puri, opratori di pace, miti, pieni di misericordia e di buoni frutti."),
+                                array('','',"Confidando nella materna intercessione di Maria, nostra madre,"),
+                                array('-','',"ti chiediamo di introdurre nella gioia dei santi i nostri fratelli defunti.")
+                            )
+                        );
+                    } 
                 }
 
                 elseif ($f['comune']=='monaci') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"A Cristo Signore, che ha suscitato nella sua Chiesa gli ordini monastici perché siano lungo i secoli una scuola del servizio divino, rivolgiamo la nostra preghiera:"),
+                                array('ris','I',"Fa' che rispondiamo al tuo disegno, Signore.")
+                            ),
+                            array(
+                                array('','',"Alla vita monastica tu hai dato un sommo maestro e padre, Benedetto, che rifulse come astro nelle tenebre della notte:"),
+                                array('-','',"concedi a tutti i suoi figli e discpoli di seguirne fedelmente la dottrina e gli esempi."),
+                                array('','',"Tu hai ispirato la Regola benedettina e tutte le regole monastiche perché nella Chiesa diano frutti di santità:"),
+                                array('-','',"conserva vigili e ardenti in ogni comunità l'amore e l'osservanza della propria legge, fonte di vita."),
+                                array('','',"Ai cori celesti tu hai voluto associare sulla terra i cori monastici:"),
+                                array('-','',"dona al sacrificio di lode delle nostre liturgie luce e fervore, sì che giunga gradito al tuo cospetto come profumo d'incenso."),
+                                array('','',"Tu hai ispirato a san Benedetto la misteriosa scala che fa ascendere al cielo gli umili:"),
+                                array('-','',"dona ad ogni monaco e monaca grazia e volontò di salirla, gradino per gradino, fino alla cima della carità perfetta."),
+                                array('','',"Noi veneriamo nei cieli la santità eroica di tanti nostri fratelli e sorelle, noti e sconosciuti:"),
+                                array('-','',"per la loro intercessione, dona agli ordini monastici uno stuolo di santi e vocazioni generose.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"A Cristo Signore, che ha affidato agli ordini monastici una particolare missione nella Chiesa, umilmente domandiamo:"),
+                                array('ris','I',"La nostra vita serva la tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"Ci hai chiamati a vivere alla tua presenza « con gli occhi aperti alla tua luce deificante e le orecchie tese ad ascoltare attoniti la tua voce »:"),
+                                array('-','',"fa' che le nostre comunità mantengano vive e ardenti nella Chiesa le tradizioni della vita contemplativa."),
+                                array('','',"A tutti coloro che negli ordini monastici hanno missioni di guida e stanno in luogo di te,"),
+                                array('-','',"concedi luce e grazia per il loro servizio di amore."),
+                                array('','',"Perché la vita monastica si diffonda in tutte le giovani Chiese del mondo,"),
+                                array('-','',"dona al monachesimo di antica tradizione felice incremento e ardore missionario."),
+                                array('','',"A tutti i monaci e monache che ci hanno preceduti nell'altra vita,"),
+                                array('-','',"concedi l'eterna luce nella piena visione del tuo volto.")
+                            )
+                        );
+                    } 
                 }
 
                 elseif ($f['comune']=='vergini') {
