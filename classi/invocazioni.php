@@ -6031,11 +6031,96 @@ class Invocazioni {
 
                 elseif ($f['comune']=='sante' || $f['comune']=='religiose') {
 
-                    
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Glorifichiamo il nostro Salvatore con tutti i santi e le sante del cielo, e supplichiamolo:"),
+                                array('ris','I',"Vieni, Signore Gesù.")
+                            ),
+                            array(
+                                array('','',"Signore Gesù, che hai perdonato molto alla donna peccatrice perché aveva molto amato,"),
+                                array('-','',"perdona i nostri debiti."),
+                                array('','',"Signore Gesù, che nei tuoi viaggi apostolici fosti seguito dalle sante donne e aiutato dal loro umile servizio,"),
+                                array('-','',"concedi a noi di seguire la via della carità."),
+                                array('','',"Signore Gesù, ascoltato come maestro da Maria e servito da Marta,"),
+                                array('-','',"rendici attenti alla tua parola e generosi nella carità."),
+                                array('','',"Signore Gesù, che chiami fratello, sorella e madre quanti compiono la tua volontà,"),
+                                array('-','',"fa' che aderiamo sempre ai tuoi desideri nelle parole e nelle opere.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Con la preziosa intercessione di tutti i santi e di tutte le sante del cielo preghiamo il Signore:"),
+                                array('ris','I',"Ricordati della tua Chiesa, Signore.")
+                            ),
+                            array(
+                                array('','',"Per le sante martiri, che con cristiana fortezza hanno vinto la morte,"),
+                                array('-','',"dona alla tua Chiesa in mezzo alle sofferenze e alle prove la forza dello Spirito."),
+                                array('','',"Per le spose, che si santificarono con la grazia del sacramento nuziale,"),
+                                array('-','',"dona alla tua Chiesa la fecondità apostolica."),
+                                array('','',"Per le vedove, che hanno illuminato la loro solitudine con la preghiera e le opere di carità,"),
+                                array('-','',"concedi alla tua Chiesa di testimoniare al mondo la forza misteriosa della carità e della preghiera."),
+                                array('','',"Per le madri sante, che generarono ed educarono i loro figli all'impegno civile e alla testimonianza del tuo regno,"),
+                                array('-','',"dona alla tua Chiesa di generare tutti gli uomini alla verità e alla grazia."),
+                                array('','',"Per tutte le sante donne, che hanno meritato di contemplare la luce del tuo volto,"),
+                                array('-','',"concedi ai nostri fratelli defunti l'eterna gioia del Paradiso.")
+                            )
+                        );
+                    }
                 }
 
                 elseif ($f['comune']=='DEF') {
 
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Dio Padre onnipotente, che hai risuscitato Gesù dai morti, ridonerà la vita anche ai nostri corpi mortali per mezzo del suo Spirito. Illuminati da questa speranza diciamo insieme:"),
+                                array('ris','I',"Signore, donaci la vita in Cristo.")
+                            ),
+                            array(
+                                array('','',"Padre santo, che mediante il Battesimo ci hai sepolti nella morte del tuo Figlio e ci hai reso partecipi della sua risurrezione, fa' che camminiamo sempre in novità di vita,"),
+                                array('-','',"Perché al di lù della morte, viviamo sempre con Cristo."),
+                                array('','',"Padre buono, che ci nutri con il pane vivo disceso dal cielo,"),
+                                array('-','',"fa' che, comunicando alla mensa eucaristica, riceviamo il pegno della risurrezione."),
+                                array('','',"Padre santo, che per mezzo del tuo angelo hai confortato il tuo Figlio nell'agonia del Getsemani,"),
+                                array('-','',"consolaci nell'ora della nostra morte."),
+                                array('','',"Tu che hai liberato i tre fanciulli dalla fornace ardente,"),
+                                array('-','',"purifica i fedeli defunti dai loro peccati e liberali da ogni pena."),
+                                array('','',"Dio dei vivi e dei morti, rendi partecipi della gloria del Cristo risorto i nostri fratelli defunti,"),
+                                array('-','',"accoglici un giorno nell'assemblea festosa dei tuoi santi.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Il Cristo Signore trasfigurerà il nostro misero corpo a immagine del suo corpo glorioso. A lui rivolgiamo la nostra lode:"),
+                                array('ris','I',"Tu sei la vita e la risurrezione nostra, Signore.")
+                            ),
+                            array(
+                                array('','',"Cristo, Figlio del Dio vivente, che hai risuscitato dai morti il tuo amico Lazzaro,"),
+                                array('-','',"risuscita alla vita e alla gloria eterna i defunti, che hai redento a prezzo del tuo sangue."),
+                                array('','',"Cristo, che hai consolato le sorelle di Lazzaro e i familiari del ragazzo e della fanciulla morta,"),
+                                array('-','',"conforta coloro che piangono per la morte dei loro cari."),
+                                array('','',"Cristo Salvatore, libera il nostro corpo mortale dal dominio del peccato,"),
+                                array('-','',"donaci il premio della vita eterna."),
+                                array('','',"Cristo redentore, guarda con bontà coloro che vivono senza speranza, perché non ti conoscono,"),
+                                array('-','',"dona loro la fede nella risurrezione e nella vita futura."),
+                                array('','',"Tu che aprendo gli occhi al cieco, ti sei rivelato allo stupore del suo sguardo,"),
+                                array('-','',"rivela il tuo volto ai defunti, che sono ancora privi della tua visione gloriosa."),
+                                array('','',"O Signore, quando sarà disfatta la nostra tenda in questo mondo,"),
+                                array('-','',"preparaci  una casa eterna non costruita da mani d'uomo, nella pace della santa Gerusalemme.")
+                            )
+                        );
+                    }
                     
                 }
 
