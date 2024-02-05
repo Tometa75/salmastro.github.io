@@ -27,12 +27,12 @@ const salmastro=class {
             "config":this.getConfig()
         }
 
-        console.log(JSON.stringify(param));
+        //console.log(JSON.stringify(param));
 
         $('#salTesto').html(this.setWaiter());
 
         $.ajax({
-            "url": location.protocol + '//' + location.host + location.pathname+"func/load.php",
+            "url": location.protocol + '//' + location.host + location.pathname+"load.php",
             "async": true,
             "cache": false,
             "data": { "param": param },

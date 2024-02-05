@@ -4926,7 +4926,7 @@ class Salmodia {
             //#############################################################################################
             //se non c'è un evento ma c'è una festa (in base al COMUNE)
             // $this->festa è già stata valorizzata decidendo i salmi
-            elseif ($this->actual['fesCode']!='') {
+            if ($this->actual['fesCode']!='') {
 
                 //antifone COMUNI
                 switch($this->festa['comune']) {
@@ -5441,7 +5441,7 @@ class Salmodia {
                                 break;
                                 case 3: $this->res[$k]->setAntifona(array(
                                     "Il Signore",
-                                    "gli promise di benederlo nella sua discendenza."
+                                    "gli promise di benedirlo nella sua discendenza."
                                 ));
                                 break;
                                 case 4: $this->res[$k]->setAntifona(array(
@@ -5496,7 +5496,7 @@ class Salmodia {
                                 break;
                                 case 3: $this->res[$k]->setAntifona(array(
                                     "Il Signore",
-                                    "gli promise di benederlo nella sua discendenza."
+                                    "gli promise di benedirlo nella sua discendenza."
                                 ));
                                 break;
                                 case 4: $this->res[$k]->setAntifona(array(

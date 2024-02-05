@@ -1,5 +1,6 @@
 <?php
-include (__DIR__.'/../baseline.php');
+//include (__DIR__.'/../baseline.php');
+include ('baseline.php');
 require_once(SITE_ROOT.'/classi/calendario.php');
 require_once(SITE_ROOT.'/core/calendario/calnav.php');
 

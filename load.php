@@ -1,5 +1,6 @@
 <?php
-include (__DIR__.'/../baseline.php');
+//include (__DIR__.'/../baseline.php');
+include ('baseline.php');
 require_once (SITE_ROOT.'/classi/salmastro.php');
 
 $param=$_POST['param'];

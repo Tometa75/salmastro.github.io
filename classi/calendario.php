@@ -271,7 +271,7 @@ class Calendario {
 		),
 		"0221"=>array(
 			"0221a"=>array(
-				"titolo"=>"San Pier Damiani (Vescovo e dorttore della Chiesa)",
+				"titolo"=>"San Pier Damiani (Vescovo e dottore della Chiesa)",
 				"tipo"=>"M",
 				"comune"=>"pastori",
 				"mix"=>1
