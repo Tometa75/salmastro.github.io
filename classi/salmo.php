@@ -98,7 +98,7 @@ class Salmo {
 
     function TPAntifona() {
         //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
-        $this->antifona[0]=$this->antifona[0].' Alleluia.';
+        $this->antifona[0][1]=$this->antifona[0][1].' Alleluia.';
         $this->antifona[1]=$this->antifona[0]; 
     }
 
