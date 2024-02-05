@@ -5773,7 +5773,7 @@ class Invocazioni {
     
                         $this->testo=array(
                             array(
-                                array('','',"°Nell'ora in cui Cristo, re dei martiri, offrì per noi la sua vita nella cena pasquale e nell'oblazione cruenta sulla croce, s'innalzi a lui la lode della Chiesa:"),
+                                array('','',"Nell'ora in cui Cristo, re dei martiri, offrì per noi la sua vita nella cena pasquale e nell'oblazione cruenta sulla croce, s'innalzi a lui la lode della Chiesa:"),
                                 array('ris','I',"Noi di lodiamo e ti adoriamo, Signore.")
                             ),
                             array(
