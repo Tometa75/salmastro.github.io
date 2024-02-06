@@ -92,6 +92,9 @@ function calnav(indice,risoluzione,today,config) {
     this.refreshOpt=function() {
         //viene usata solo se la risoluzione è != Y
 
+        var href = window.location.href;
+        var dir = href.substring(0, href.lastIndexOf('/')) + "/";
+
         var txt=this.build((this.risoluzione=='D')?$('#calnav_anno_'+this.indice).val()+$('#calnav_mese_'+this.indice).val()+'01':'01');
         $('#calnavInnerOpt_'+this.indice).html('');
 
@@ -103,8 +106,10 @@ function calnav(indice,risoluzione,today,config) {
 
         var indice=this.indice;
 
+        //"url": location.protocol + '//' + location.host + location.pathname+"refresh_opt.php",
+
         $.ajax({
-            "url": location.protocol + '//' + location.host + location.pathname+"refresh_opt.php",
+            "url": dir+"refresh_opt.php",
             "async": true,
             "cache": false,
             "data": { "param": param },
@@ -121,6 +126,7 @@ function calnav(indice,risoluzione,today,config) {
     }
 
     this.customExecute=function() {
+
         let url = location.protocol + '//' + location.host + location.pathname;   
         url += '?today='+this.today;
 

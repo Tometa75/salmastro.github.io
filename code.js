@@ -1,11 +1,20 @@
 const salmastro=class {
 
     setWaiter() {
-        return '<div style="text-align:center;"><img style="width:100px;height:100px;" src="'+location.protocol + '//' + location.host + location.pathname+'img/busy.gif" /></div>';
+        var href = window.location.href;
+        var dir = href.substring(0, href.lastIndexOf('/')) + "/";
+
+        return '<div style="text-align:center;"><img style="width:100px;height:100px;" src="'+dir+'img/busy.gif" /></div>';
+
+        //return '<div style="text-align:center;"><img style="width:100px;height:100px;" src="'+location.protocol + '//' + location.host + location.pathname+'img/busy.gif" /></div>';
     }
 
     refresh() {
-        location.href=location.protocol + '//' + location.host + location.pathname;
+        var href = window.location.href;
+        var dir = href.substring(0, href.lastIndexOf('/')) + "/";
+
+        //location.href=location.protocol + '//' + location.host + location.pathname;
+        location.href=dir;
     }
 
     getConfig() {
@@ -22,6 +31,10 @@ const salmastro=class {
 
     load() {
 
+        var href = window.location.href;
+        var dir = href.substring(0, href.lastIndexOf('/')) + "/";
+        //alert(dir);
+
         var param={
             "today":window._calnav_salmastro.getToday(),
             "config":this.getConfig()
@@ -31,8 +44,10 @@ const salmastro=class {
 
         $('#salTesto').html(this.setWaiter());
 
+        //"url": location.protocol + '//' + location.host + location.pathname+"load.php",
+
         $.ajax({
-            "url": location.protocol + '//' + location.host + location.pathname+"load.php",
+            "url": dir+"load.php",
             "async": true,
             "cache": false,
             "data": { "param": param },
