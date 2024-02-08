@@ -6293,18 +6293,18 @@ class Invocazioni {
 
                         $this->testo=array(
                             array(
-                                array('','',"Imitiamo la fede di santa Caterina nell'efficacia infinita del sangue di Cristo e preghiamo:"),
-                                array('ris','I',"Per il tuo sangue ascoltaci, o Signore.")
+                                array('','',"Rivolgiamo la nostra lode e la nostra supplica al Cristo salvatore, nato da Maria Vergine e diciamo:"),
+                                array('ris','I',"Interceda per noi la Madre tua, o Signore.")
                             ),
                             array(
-                                array('','',"Hai illuminato l'Italia e la Chiesa con i doni di sapienza e santità concessi alla tua serva fedele,"),
-                                array('-','',"mantieni sempre vivo nel nostro popolo il senso di questi valori."),
-                                array('','',"Santa Caterina operò attivamente per l'elevazione e il bene pubblico e privato dei concittadini,"),
-                                array('-','',"suscita in tutti un vivo interessamento per il progresso dell'umanità."),
-                                array('','',"La nostra Patrona, animata dal tuo Spirito, si fece messaggera di pace,"),
-                                array('-','',"donaci lo spirito della concordia e del dialogo fraterno."),
-                                array('','',"La santa, memore della tua parola a Pietro, servì e amò il « dolce Cristo in terra »,"),
-                                array('-','',"conservaci docili al magistero del papa.")
+                                array('','',"Sole di giustizia, che hai voluto farti precedere da Maria immacolata, mistica aurora della redenzione,"),
+                                array('-','',"fa' che camminiamo sempre nella luce della tua presenza."),
+                                array('','',"Verbo eterno, che a Maria, vergine sapiente, hai insegnato a scegliere la parte migliore,"),
+                                array('-','',"aiutaci a cercare sempre la parola di vita eterna."),
+                                array('','',"Salvatore del mondo, che per i meriti della tua redenzione hai preservato tua Madre da ogni contagio di colpa,"),
+                                array('-','',"conservaci liberi dal peccato."),
+                                array('','',"Hai scelto Maria come arca santa per la tua dimora fra noi,"),
+                                array('-','',"liberaci dalla corruzione del peccato.")
                             )
                         );
                     }
@@ -6313,157 +6313,25 @@ class Invocazioni {
     
                         $this->testo=array(
                             array(
-                                array('','',"Dio, che sceglie l'illetterato e il debole per confondere il dotto e il potente, ha aperto i tesori della sua ricchezza, sapienza e scienza a santa Caterina. Preghiamolo:"),
-                                array('ris','I',"Signore, operatore di prodigi, ascoltaci.")
+                                array('','',"Uniti nella preghiera di lode rendiamo grazie a Dio che ha voluto Maria amata e venerata da tutte le generazioni. Diciamo con fiducia:"),
+                                array('ris','I',"Maria, piena di grazia, interceda per noi.")
                             ),
                             array(
-                                array('','',"Per il bene della Chiesa e della società civile hai dato a santa Caterina zelo e franchezza nel denunciare errori e debolezze,"),
-                                array('-','',"da' anche a noi forza e coraggio contro l'errore e il male."),
-                                array('','',"In tempo di profonde lacerazioni e guerre fratricide hai inviato la vergine senese quale mediatrice di unità e riconciliazione,"),
-                                array('-','',"fa' che le forze politiche e religiose convergano fra di loro per il vero benessere dell'uomo e della comunità."),
-                                array('','',"Santa Caterina si fece ambasciatrice e avvocata per il ritorno del papa a Roma,"),
-                                array('-','',"fa' che tutti si sentano attratti verso il centro di unità e di comunione cattolica della fede e della carità."),
-                                array('','',"La nostra santa viveva di te nell'attività e nella contemplazione,"),
-                                array('-','',"da' a tutti di unire al lavoro la preghiera."),
-                                array('','',"Hai posto la nostra Patrona come stella nel tuo cielo di gloria,"),
-                                array('-','',"ottenga ai nostri fratelli defunti e a noi un raggio della tua luce eterna.")
+                                array('','',"Tu che ci hai dato Maria per madre, concedi per sua intercessione la salute ai malati, il conforto agli afflitti, il perdono ai peccatori,"),
+                                array('-','',"dona a tutti pace e salvezza."),
+                                array('','',"Fa' che la tua Chiesa sia un cuor solo e un'anima sola:"),
+                                array('-','',"donaci di perseverare unanimi nella preghiera con Maria, madre di Gesù."),
+                                array('','',"Tu che hai costituito Maria madre di misericordia,"),
+                                array('-','',"fa' che sperimentiamo, in mezzo ai pericoli, la sua bontà materna."),
+                                array('','',"Tu che hai voluto Maria madre di famiglia nella casa di Nazareth,"),
+                                array('-','',"fa' che tutte le mamme custodiscano la santità e l'amore."),
+                                array('','',"Hai incoronato Maria, regina del cielo,"),
+                                array('-','',"fa' che i nostri fratelli defunti godano la felicità eterna nell'assemblea dei santi.")
                             )
                         );
                     }
                 }
-                
-                elseif ($k=='0601a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Lodiamo",
-                                "il Creatore dell'universo per Gesù Cristo, suo Figlio, e per lo Spirito Santo: egli ci ha dato la vita e tutti i suoi beni, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nell'anima",
-                                "si accese un fuoco improvviso: arse in me l'amore dei profeti e gli amici di Cristo, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Lodiamo",
-                                "il Creatore dell'universo per Gesù Cristo, suo Figlio, e per lo Spirito Santo: egli ci ha dato la vita e tutti i suoi beni."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nell'anima",
-                                "si accese un fuoco improvviso: arse in me l'amore dei profeti e gli amici di Cristo."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0605a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il vescovo",
-                                "e martire Bonifacio, legato del Papa, diffuse il Vangelo tra i popoli germanici, e portò aiuto alle chiese dei Franchi, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "La spada dei barbari",
-                                "dovette lacerare il codice del santo Vangelo per trafiggere il petto del martire: fu ucciso, ma non vinto, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il vescovo",
-                                "e martire Bonifacio, legato del Papa, diffuse il Vangelo tra i popoli germanici, e portò aiuto alle chiese dei Franchi."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "La spada dei barbari",
-                                "dovette lacerare il codice del santo Vangelo per trafiggere il petto del martire: fu ucciso, ma non vinto."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0611a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Barnaba",
-                                "condusse Paolo nella Chiesa di Antiochia e insieme annunziavano ai fratelli la parola del Signore, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Barnaba e Paolo",
-                                "narravano a tutta l'assemblea i segni e i prodigi compiuti dal Signore in mezzo ai popoli pagani, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Barnaba",
-                                "condusse Paolo nella Chiesa di Antiochia e insieme annunziavano ai fratelli la parola del Signore."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Barnaba e Paolo",
-                                "narravano a tutta l'assemblea i segni e i prodigi compiuti dal Signore in mezzo ai popoli pagani."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0625a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Con la mente",
-                            "sempre rivolta al cielo, puro di anima e di cuore, Guglielmo offriva al suo Signore il scrificio di lode."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Come una cerva",
-                            "anela ai corsi d'acqua, così l'anima mia anela a te, o Dio."
-                        );
-                    }
-                }
-                elseif ($k=='0628a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Ireneo,",
-                            "uomo di pace, fedele nella vita al suo nome, lottò con coraggio per l'unità della Chiesa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi vuol venire",
-                            "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
-                        );
-                    }
-                }
-                elseif ($k=='0630a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Voi",
-                            "avete lottato per me sulla terra: io sarò la vostra ricompensa, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Questi",
-                            "sono coloro che vengono dalla grande tribolazione e hanno lavato le loro vesti nel sangue dell'Agnello."
-                        );
-                    }
-                }
+
                 elseif ($k=='0703a') {  
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
