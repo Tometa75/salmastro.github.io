@@ -4,6 +4,7 @@ $this->closure['load']=function() {
     $this->titolo='Salmo 42 Desiderio del tempio di Dio';
 
     //sesta martedì
+
     $this->antifona[0]=array(
     );
 

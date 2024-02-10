@@ -115,7 +115,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Conservo nel cuore le tue parole,"),
-                array('','2',"per non offenderti conil peccato."),
+                array('','2',"per non offenderti con il peccato."),
                 array('','*',"Benedetto sei tu, Signore;"),
                 array('','2',"mostrami il tuo volere.")
             ),
@@ -136,7 +136,7 @@ $this->closure['load']=function() {
             array(
                 array('','N',"3 - GHIMEL"),
                 array('','*',"Sii buono con il tuo servo e avrò la vita,"),
-                array('','2',"custoditò la tiua parola."),
+                array('','2',"custodirò la tua parola."),
                 array('','*',"Aprimi gli occhi"),
                 array('','2',"perché io veda le meraviglie della tua legge.")
             ),

@@ -70,7 +70,7 @@ $this->closure['load']=function() {
                 array('','*',"presso di lui sarò nella sventura,"),
                 array('','2',"lo salverò e lo renderò glorioso."),
                 array('','*',"Lo sazierò di lunghi giorni"),
-                array('','2',"e gli mistrerò la mia salvezza.")
+                array('','2',"e gli mostrerò la mia salvezza.")
             )
         )
     );

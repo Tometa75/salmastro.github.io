@@ -41,7 +41,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Degni di fede sono i tuoi insegnamenti,"),
                 array('','*',"la santità si addice alla tua casa"),
-                array('','2',"per la durta dei giorni, Signore.")
+                array('','2',"per la durata dei giorni, Signore.")
             )
         )
     );

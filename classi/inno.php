@@ -1992,7 +1992,7 @@ class Inno {
                 array('','',"la grazia del perdono.")
             ),
             array(
-                array('','',"Grande è il nostro peccsto,"),
+                array('','',"Grande è il nostro peccato,"),
                 array('','',"ma più grande è il tuo amore:"),
                 array('','',"cancella i nostri debiti"),
                 array('','',"a gloria del tuo nome.")
@@ -2135,7 +2135,7 @@ class Inno {
             ),
             array(
                 array('','',"La morte finisce ora per mezzo della croce,"),
-                array('','',"e dopo le tenewbre ritorna la luce;"),
+                array('','',"e dopo le tenebre ritorna la luce;"),
                 array('','',"si squarci l'orrore dei peccati,"),
                 array('','',"risplenda la purezza delle menti.")
             ),

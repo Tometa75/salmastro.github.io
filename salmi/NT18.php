@@ -24,8 +24,8 @@ $this->closure['load']=function() {
             array(
                 array('','*',"oltraggiato non rispondeva con oltraggi,"),
                 array('','2',"e soffrendo non minacciava vendetta,"),
-                array('','*',"ma rimetteva ka sua causa"),
-                array('','2',"a colui chd giudica con giustizia")
+                array('','*',"ma rimetteva la sua causa"),
+                array('','2',"a colui che giudica con giustizia")
             ),
             array(
                 array('','*',"Egli portò i nostri peccati nel suo corpo"),

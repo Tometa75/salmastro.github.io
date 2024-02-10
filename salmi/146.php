@@ -48,7 +48,7 @@ $this->closure['load']=function() {
                 array('','+',"Egli copre il cielo di nubi,"),
                 array('','*',"prepara la pioggia per la terra,"),
                 array('','2',"fa germogliare l'erba sui monti."),
-                array('','*',"Provvede il cibo al berstiamo,"),
+                array('','*',"Provvede il cibo al bestiame,"),
                 array('','2',"ai piccoli del corvo che gridano a lui."),
             ),
             array(

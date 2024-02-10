@@ -7801,6 +7801,11 @@ class Salmodia {
                     }
                 }
             }
+
+            //se DI SEGUITO copia antifona dal salmo precedente
+            if ($s[0]=='') {
+                $this->res[$k]->setAntifona($this->res[$k-1]->getAntifona()[0]);
+            }
         }
     }
 

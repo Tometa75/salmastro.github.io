@@ -37,7 +37,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Cantate inni al Signore, o suoi fedeli,"),
                 array('','2',"rendete grazie al suo santo nome,"),
-                array('','*',"perché la sua collera dura un'istante,"),
+                array('','*',"perché la sua collera dura un istante,"),
                 array('','2',"la sua bontà per tutta la vita."),
                 array('','*',"Alla sera sopraggiunge il pianto"),
                 array('','2',"e al mattino ecco la gioia.")

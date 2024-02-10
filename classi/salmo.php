@@ -93,13 +93,17 @@ class Salmo {
     function setAntifona($a) {
         //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
         $this->antifona[0]=$a;
-        $this->antifona[1]=$this->antifona[0]; 
+        $this->antifona[1]=$this->antifona[0];
     }
 
     function TPAntifona() {
         //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
         $this->antifona[0][1]=$this->antifona[0][1].' Alleluia.';
         $this->antifona[1]=$this->antifona[0]; 
+    }
+
+    function getAntifona() {
+        return array($this->antifona[0],$this->antifona[1]);
     }
 
     function drawTitolo() {
