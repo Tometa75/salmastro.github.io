@@ -13,7 +13,7 @@ $this->closure['load']=function() {
     else {
         $this->antifona[0]=array(
             "Nel fuoco,",
-            "con voce unanime, i tre giovani cantavano: Benedetto Dio, alleuia."
+            "con voce unanime, i tre giovani cantavano: Benedetto Dio, alleluia."
         );
     }
 
@@ -59,7 +59,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Benedite, mostri marini e quanto si muove nell'acqua, il Signore,"),
-                array('','2',"benedite, uccelliu tutti dell'aria, il Signore."),
+                array('','2',"benedite, uccelli tutti dell'aria, il Signore."),
                 array('','*',"Benedite, animali tutti, selvaggi e domestici, il Signore,"),
                 array('','2',"benedite, figli dell'uomo, il Signore.")
             ),

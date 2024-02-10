@@ -68,7 +68,7 @@ $this->closure['load']=function() {
                 array('','+',"Non ti erano nascoste le mie ossa"),
                 array('','*',"quando venivo formato nel segreto,"),
                 array('','2',"intessuto nelle profondità della terra."),
-                array('','*',"Ancora informe mi hanno visto i tuopi occhi"),
+                array('','*',"Ancora informe mi hanno visto i tuoi occhi"),
                 array('','2',"e tutto era scritto nel tuo libro;"),
                 array('','*',"i miei giorni erano fissati,"),
                 array('','2',"quando ancora non ne esisteva uno.")

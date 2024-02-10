@@ -5729,7 +5729,7 @@ class Cantico {
                         if($this->actual['ora']=='ves1') {
                             $this->antifona=array(
                                 "Questo",
-                                "è il luogo santo che il Signore ha scelto a sua dimora: qui si invoca il suo nome, qui Dio è presente tra noi, aleluia."
+                                "è il luogo santo che il Signore ha scelto a sua dimora: qui si invoca il suo nome, qui Dio è presente tra noi, alleluia."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
@@ -7194,7 +7194,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Risorto",
-                            "il mattino di Pasqua, Gesù apparve prima a Maria Maddalena, alleuia."
+                            "il mattino di Pasqua, Gesù apparve prima a Maria Maddalena, alleluia."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {

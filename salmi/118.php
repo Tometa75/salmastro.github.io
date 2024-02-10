@@ -315,7 +315,7 @@ $this->closure['load']=function() {
                 array('','2',"ma io mi diletto della tua legge.")
             ),
             array(
-                array('','*',"Bene per me sse sono stato umiliato,"),
+                array('','*',"Bene per me se sono stato umiliato,"),
                 array('','2',"perché impari ad obbedirti."),
                 array('','*',"La legge della tua bocca mi è preziosa"),
                 array('','2',"più di mille pezzi d'oro e d'argento.")

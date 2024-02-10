@@ -508,7 +508,7 @@ class Lettura {
                 case 'comp': 
                     $this->info=array(
                         "titolo"=>"1Pt 5,8-9a",
-                        "testo"=>"Siate temperanti, vigilate. Il vosgro nemico, il diavolo, come leone ruggente va in giro, cercando chi divorare. Resistetegli saldi nella fede."
+                        "testo"=>"Siate temperanti, vigilate. Il vostro nemico, il diavolo, come leone ruggente va in giro, cercando chi divorare. Resistetegli saldi nella fede."
                     );
                 break;
             }

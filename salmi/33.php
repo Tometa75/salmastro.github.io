@@ -32,7 +32,7 @@ $this->closure['load']=function() {
                 array('','2',"esaltiamo insieme il suo nome.")
             ),
             array(
-                array('','*',"Ho cercato il Signore e mi ha risposo"),
+                array('','*',"Ho cercato il Signore e mi ha risposto"),
                 array('','2',"e da ogni timore mi ha liberato."),
                 array('','*',"Guardate a lui e sarete raggianti,"),
                 array('','2',"non saranno confusi i vostri volti.")

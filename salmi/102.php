@@ -6,7 +6,7 @@ $this->closure['load']=function() {
     //vespri mercoledì 
     if ($this->actual['tempo']=='P') {
         $this->antifona[0]=array(
-            "Alleuia,",
+            "Alleluia,",
             "alleluia, alleluia."
         );
     }

@@ -287,7 +287,7 @@ class Orazione {
         ),
         "ves_4_1"=>array(
             array(
-                array('','',"O Dio, che illumini ka notte più oscura e dopo le tenebre fai sorgere nel mondo la luce, donaci di trascorrere quasta notte lontano dalle insidie del maligno, perché all'alba del nuovo giorno èpssoamo cnatare con la Chiesa le tue lodi."),
+                array('','',"O Dio, che illumini ka notte più oscura e dopo le tenebre fai sorgere nel mondo la luce, donaci di trascorrere questa notte lontano dalle insidie del maligno, perché all'alba del nuovo giorno èpssoamo cnatare con la Chiesa le tue lodi."),
                 array('ending')
             )
         ),
@@ -908,7 +908,7 @@ class Orazione {
         ),
         "ves1_NAT"=>array(
             array(
-                array('','',"O Padre, che ogni anno ci fai vivere nella gioia quasta vigilia del Natale, concedi che possiamo guardare senza timore, quando verrà come giudice, il Cristo tuo Figlio che accogliamo in festa come Redentore."),
+                array('','',"O Padre, che ogni anno ci fai vivere nella gioia questa vigilia del Natale, concedi che possiamo guardare senza timore, quando verrà come giudice, il Cristo tuo Figlio che accogliamo in festa come Redentore."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -944,7 +944,7 @@ class Orazione {
         ),
         "F0102"=>array(
             array(
-                array('','',"Rafforza la fede del tuo popolo, o Padre, perché creda e proclami il Cristo tuo unico Figlio, vero Dio, eterno con te nella gloria, e vero uomo nato dalla Vergine Madre; in quasta fede confermaci nelle prove della vita presente e guidaci alla gioia senza fine."),
+                array('','',"Rafforza la fede del tuo popolo, o Padre, perché creda e proclami il Cristo tuo unico Figlio, vero Dio, eterno con te nella gloria, e vero uomo nato dalla Vergine Madre; in questa fede confermaci nelle prove della vita presente e guidaci alla gioia senza fine."),
                 array('ending')
             )
         ),

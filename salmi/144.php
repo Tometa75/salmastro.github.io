@@ -29,7 +29,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"O Dio, mio re, voglio esaltarti"),
                 array('','2',"e benedire il tuo nome in eterno e per sempre."),
-                array('','*',"Ti voglio benedire ognio giorno,"),
+                array('','*',"Ti voglio benedire ogni giorno,"),
                 array('','2',"lodare il tuo nome in eterno e per sempre."),
                 array('','*',"Grande è il Signore e degno di ogni lode,"),
                 array('','2',"la sua grandezza non si può misurare.")
@@ -53,12 +53,12 @@ $this->closure['load']=function() {
                 array('','2',"la sua tenerezza si espande su tutte le creature.")
             ),
             array(
-                array('','*',"Ti lodino, Siugniore, tutte le tue opere"),
+                array('','*',"Ti lodino, Signore, tutte le tue opere"),
                 array('','2',"e ti benedicano i tuoi fedeli."),
                 array('','*',"Dicano la gloria del tuo regno"),
                 array('','2',"e parlino della tua potenza,"),
                 array('','*',"per manifestare agli uomini i tuoi prodigi"),
-                array('','2',"e la splendida gòoria del tuo regno.")
+                array('','2',"e la splendida gloria del tuo regno.")
             ),
             array(
                 array('','*',"Il tuo regno è regno di tutti i secoli,"),
@@ -68,7 +68,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Gli occhi di tutti sono rivolti a te in attesa"),
-                array('','2',"e tu provvedi loro il cibi a suo tempo."),
+                array('','2',"e tu provvedi loro il cibo a suo tempo."),
                 array('','*',"Tu apri la tua mano"),
                 array('','2',"e sazi la fame di ogni vivente.")
             ),

@@ -53,7 +53,7 @@ $this->closure['load']=function() {
                 array('','2',"come città salda e compatta.")
             ),
             array(
-                array('','+',"Là salgono assielìme le tribù, le tribù del Signore,"),
+                array('','+',"Là salgono assieme le tribù, le tribù del Signore,"),
                 array('','*',"secondo la legge di Israele,"),
                 array('','2',"per lodare il nome del Signore."),
                 array('','*',"Là sono posti i seggi del giudizio,"),

@@ -1239,7 +1239,7 @@ class Inno {
             ),
             array(
                 array('','',"Concedi alla tua Chiesa,"),
-                array('','',"che venera san ...........,"),
+                array('','',"che venera san ... ,"),
                 array('','',"la vittoria sul male.")
             ),
             array(

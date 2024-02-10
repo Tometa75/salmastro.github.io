@@ -3342,7 +3342,7 @@ class Salmodia {
                             break;
                             case 4: $this->res[$k]->setAntifona(array(
                                 "Le guardie,",
-                                "atterrite per lo spavento, caddero a terra tramortite, alleuia."
+                                "atterrite per lo spavento, caddero a terra tramortite, alleluia."
                             ));
                             break;
                             case 5: $this->res[$k]->setAntifona(array(

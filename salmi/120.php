@@ -24,7 +24,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Non lascerà vacillare il tuo piede,"),
                 array('','2',"non si addormenterà il tuo custode."),
-                array('','*',"Non si addormente, non prende sonno,"),
+                array('','*',"Non si addormenta, non prende sonno,"),
                 array('','2',"il custode d'Israele.")
             ),
             array(

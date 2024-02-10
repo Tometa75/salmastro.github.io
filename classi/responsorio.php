@@ -1088,7 +1088,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                             array('ebd','',"Il Signore si è ricordato del suo amore, alleluia,"),
-                            array('ris','',"della sua fedeltà alla casa di Israele, alleuia."),
+                            array('ris','',"della sua fedeltà alla casa di Israele, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='sesta') {
@@ -1232,7 +1232,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                             array('ebd','',"Il Signore si è ricordato del suo amore, alleluia,"),
-                            array('ris','',"della sua fedeltà alla casa di Israele, alleuia."),
+                            array('ris','',"della sua fedeltà alla casa di Israele, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='sesta') {
@@ -1268,7 +1268,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                             array('ebd','',"Il Signore si è ricordato del suo amore, alleluia,"),
-                            array('ris','',"della sua fedeltà alla casa di Israele, alleuia."),
+                            array('ris','',"della sua fedeltà alla casa di Israele, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='sesta') {
@@ -1304,7 +1304,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                             array('ebd','',"Il Signore si è ricordato del suo amore, alleluia,"),
-                            array('ris','',"della sua fedeltà alla casa di Israele, alleuia."),
+                            array('ris','',"della sua fedeltà alla casa di Israele, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='sesta') {
@@ -1340,7 +1340,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                             array('ebd','',"Il Signore si è ricordato del suo amore, alleluia,"),
-                            array('ris','',"della sua fedeltà alla casa di Israele, alleuia."),
+                            array('ris','',"della sua fedeltà alla casa di Israele, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='sesta') {
