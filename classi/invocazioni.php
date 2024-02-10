@@ -5486,46 +5486,94 @@ class Invocazioni {
 
         elseif ($this->actual['evCode']=='0624a') {
 
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Nel tempio del Signore,",
-                    "a destra dell'altare dell'indenso, l'angelo Gabriele apparve a Zaccaria."
+            if ($this->actual['ora']=='lodi') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Preghiamo con fiducia il Cristo nostro Salvatore che mandò Giovanni Battista come precursore a preparare le sue vie e chiediamo la grazia della sua visita:"),
+                        array('ris','I',"O sole, che sorgi dall'alto, vieni a visitare il tuo popolo.")
+                    ),
+                    array(
+                        array('','',"Hai fatto sobbalzare di gioia Giovanni nel seno di Elisabetta,"),
+                        array('-','',"donaci di sperimentare continuamente la letizia della tua venuta."),
+                        array('','',"Ci hai indicato la via della penitenza con la parola e la vita del Battezzatore,"),
+                        array('-','',"donaci la conversione del cuore e la conformità alle esigenze del tuo regno."),
+                        array('','',"Hai voluto essere annunziato agli uomini per bocca di un loro fratello,"),
+                        array('-','',"manda nel mondo intero missionari del tuo Vangelo."),
+                        array('','',"Hai voluto essere battezzato nel Giordano da Giovanni, perché si adempisse in tutto il disegno di Dio,"),
+                        array('-','',"fa' che collaboriamo instancabilmente al tuo regno di giustizia e di pace.")
+                    )
                 );
             }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "A Zaccaria",
-                    "tornò la parola, e profetò dicendo: Benedetto il Dio di Israele."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Questo bambino",
-                    "è più che un profeta; di lui il Salvatore ha detto: Tra i nati di donna non è sorto uno più grande di Giovanni Battista."
+
+            elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Glorifichiamo Dio Padre, che ha scelto Giovanni Battista come suo messaggero, per annunziare agli uomini il regno di Cristo. Nel ricordo del grande precursore chiediamo a Dio il dono della conversione:"),
+                        array('ris','I',"Signore, guida i nostri passi sulla via della pace.")
+                    ),
+                    array(
+                        array('','',"Hai chiamato Giovanni dal grembo di sua madre a preparare le vie del tuo Figlio,"),
+                        array('-','',"fa' che ci disponiamo alla sequela di Cristo, comn al stessa dedizione di colui che lo ha preceduto."),
+                        array('','',"Hai dato a Giovanni il privilegio di additare come presente a Israele il Cristo, Agnello di Dio,"),
+                        array('-','',"fa' che la tua Chiesa lo proponga in modo efficace al nostro tempo."),
+                        array('','',"Hai voluto che il tuo profeta diminuisse, mentre cresceva il Cristo, tuo Figlio,"),
+                        array('-','',"insegnaci ad anteporre al successo personale il servizio della verità."),
+                        array('','',"Del tuo martire Giovanni Battista hai fatto il profeta franco e coraggioso della giustizia e della verità,"),
+                        array('-','',"rendici testimoni leali e fermi della legge di Cristo."),
+                        array('','',"Ricordati, Signore, di tutti coloro che hanno lasciato questo mondo,"),
+                        array('-','',"prendili con te nella dimora della luce e della pace.")
+                    )
                 );
             }
         }
+
         elseif ($this->actual['evCode']=='0629a') {
 
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Gloriosi",
-                    "apostoli di Cristo! Uniti nella vita, la morte non li ha separati."
+            if ($this->actual['ora']=='lodi') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Cristo ha amato la sua Chiesa e l'ha edificata sul fondamento degli apostoli e dei profeti. Pieni di fede invochiamo il suo aiuto:"),
+                        array('ris','I',"Benedici la tua Chiesa, Signore.")
+                    ),
+                    array(
+                        array('','',"Hai pregato per Pietro, perché non venisse meno la sua fede,"),
+                        array('-','',"conferma la fede della tua Chiesa."),
+                        array('','',"Dopo la risurrezione sei apparso a Simon Pietro e ti sei manifestato a Paolo sulla via di Damasco,"),
+                        array('-','',"illumina le nostre menti, perché riconosciamo in te il Figlio del Dio vivente."),
+                        array('','',"Hai eletto Paolo apostolo per annunziare il tuo nome alle genti,"),
+                        array('-','',"rendici testimoni e annunziatori del Vangelo."),
+                        array('','',"Hai perdonato l'apostolo Pietro che ti aveva rinnegato tre volte,"),
+                        array('-','',"rimetti a noi tutti i nostri debiti.")
+                    )
                 );
             }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Pietro,",
-                    "il primo degli apostoli, e Paolo, il maestro delle genti, ci insegnano, Signore, la tua legge."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "Simon Pietro è salito sulla croce, alleluia; oggi colui che tiene le chiavi del regno è andato nella gioia incontro a Cristo. Oggi l'apostolo Paolo, luce delle genti, ha piegato il capo per testimoniare il nome di Cristo, alleluia."
+
+            elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Rivolgiamo la nostra preghiera umile e fiduciosa al Cristo Signore, che ha fondato la sua Chiesa sul fondamento degli apostoli e dei profeti:"),
+                        array('ris','I',"Assisti il tuo popolo, Signore.")
+                    ),
+                    array(
+                        array('','',"Hai chiamato Simone il pescatore, perché divenisse pescatore di uomini,"),
+                        array('-','',"non cessare di scegliere operai del Vangelo, perché siano salve tutte le genti."),
+                        array('','',"Hai placato il lago in tempesta, perché i tuoi discepoli non fossero sommersi,"),
+                        array('-','',"difendi la tua Chiesa dagli errori e dalle inquietudini che sconvolgono la faccia della terra."),
+                        array('','',"Dopo la risurrezione hai radunato i discepoli intorno a Pietro,"),
+                        array('-','',"proteggi il nostro papa ... e raccogli il tuo popolo nell'unità e nella pace."),
+                        array('','',"Hai mandato l'apostolo Paolo ad annunziare il Vangelo ai pagani,"),
+                        array('-','',"fa' che la parola di salvezza sia predicata ad ogni creatura."),
+                        array('','',"Hai affidato all'apostolo Pietro le chiavi del tuo regno,"),
+                        array('-','',"apri le porte del cielo  a coloro che in vita si sono affidati alla tua misericordia.")
+                    )
                 );
             }
         }
+
         elseif ($this->actual['evCode']=='0711a') {
 
             if ($this->actual['ora']=="ves1") {
