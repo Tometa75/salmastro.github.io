@@ -70,7 +70,7 @@ class Salmastro {
 
         $this->drawHead();
 
-        echo '<div class="salBottom" style="height:80%;">';
+        echo '<div class="salBottom" style="height:82%;">';
 
             echo '<img style="position:absolute;left:0px;top:0px;width:100%;height:100%;opacity:0.7;" src="'.SITE_URL.'/img/backTesto.jpg" />';
 
@@ -86,15 +86,17 @@ class Salmastro {
 
     function drawHead() {
 
-        echo '<div style="position:relative;width:100%;height:20%;">';
+        echo '<div style="position:relative;width:100%;height:18%;">';
 
             echo '<div class="salHeadLine" style="">';
-                echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;cursor:pointer;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
+                //echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;cursor:pointer;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
                 echo '<span style="margin-left:10px;" >Liturgia delle ore benedettina (v0.9 - 2024)</span>';
             echo '</div>';
 
             echo '<div class="salHeadBlock" style="background-image:url(\''.SITE_URL.'/img/sfondoHead.png\')">';
                 
+                echo '<img style="position:absolute;width:60px;height:25px;right:3px;top:3px;cursor:pointer;z-index:10;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
+
                 echo '<div style="position:relative;display:inline-block;vertical-align:top;width:35%;" >';
 
                     echo '<div style="position:relative;">';

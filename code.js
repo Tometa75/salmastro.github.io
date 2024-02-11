@@ -14,7 +14,8 @@ const salmastro=class {
         var dir = href.substring(0, href.lastIndexOf('/')) + "/";
 
         //location.href=location.protocol + '//' + location.host + location.pathname;
-        location.href=dir;
+        //location.href=dir;
+        location.replace(dir);
     }
 
     getConfig() {
