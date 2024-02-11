@@ -4987,7 +4987,7 @@ class Invocazioni {
                             array('-','',"manda il tuo Spirito a rinnovare il volto della terra."),
                             array('','',"Tu che hai formato l'uomo a tua immagine e gli hai dato un'anima immortale,"),
                             array('-','',"manda lo Spirito Santo alla tua Chiesa, perché configurata a Cristo diventi l'anima del mondo."),
-                            array('','',"Fa' risplendere fra gli uonini del nostro tempo la luce del tuo Spirito,"),
+                            array('','',"Fa' risplendere fra gli uomini del nostro tempo la luce del tuo Spirito,"),
                             array('-','',"dov'è l'odio, fa' fiorire l'amore, dov'è il dolore metti la gioia, dov'è la guerra la pace."),
                             array('','',"Lava le nostre colpe nell'acqua viva del tuo Spirito,"),
                             array('-','',"risana le ferite dei nostri peccati."),
@@ -5223,7 +5223,7 @@ class Invocazioni {
                             array('-','',"donaci l'eredità eterna preparata per noi fin dalla fondazione del mondo."),
                             array('','',"Re di pace, infrangi gli ordigni e le trame della guerra,"),
                             array('-','',"fa' che tutti gli uomini conoscano un'era di giustizia e di pace."),
-                            array('','',"Cristo, erede di tutte le genti, fa' che l'umanità mossa dallo Spirtio Santo, si raccolga nella tua Chiesa,"),
+                            array('','',"Cristo, erede di tutte le genti, fa' che l'umanità mossa dallo Spirito Santo, si raccolga nella tua Chiesa,"),
                             array('-','',"tutta la terra ti riconosca come suo capo e signore."),
                             array('','',"Cristo, primizia di coloro che si risvegliano dal sonno della morte,"),
                             array('-','',"accogli i nostri fratelli defunti nella gloria del tuo regno.")
@@ -5273,7 +5273,7 @@ class Invocazioni {
                         array('-','',"fa' che tutti gli uomini ti riconoscano e si salvino."),
                         array('','',"Signore, che per bocca del santo vecchio Simeone hai preannunziato alla Madre tua la spada di dolore che avrebbe trafitto la sua anima,"),
                         array('-','',"sostieni e conforta coloro che soffrono a causa del tuo nome."),
-                        array('','',"Cristo, beatitudine dei santi, che Simeone potè contemplare prima del suo congedo da questo mondo,"),
+                        array('','',"Cristo, beatitudine dei santi, che Simeone poté contemplare prima del suo congedo da questo mondo,"),
                         array('-','',"mostrati per sempre ai defunti che sospirano di vedere il tuo volto nella Gerusalemme del cielo.")
                     )
                 );
@@ -5387,7 +5387,7 @@ class Invocazioni {
                         array('','',"Tu sei l'unico Padre e il Cristo è l'unico Maestro:"),
                         array('-','',"fa' che nella tua Chiesa i doni della parola e dell'insegnamento siano preceduti e convalidati da quelli del silenzio e dell'ascolto."),
                         array('','',"Poiché nulla abbiamo più caro del Cristo tuo Figlio, e aneliamo sinceramente al regno dei cieli,"),
-                        array('-','',"concedi che non viviamo più a nostro arbitrio, secondo i nostri desideri e gusti, ma desideriamo camminare nel nmonastero sotto la guida e l'autorità di chi ci parla in tuo nome."),
+                        array('-','',"concedi che non viviamo più a nostro arbitrio, secondo i nostri desideri e gusti, ma desideriamo camminare nel monastero sotto la guida e l'autorità di chi ci parla in tuo nome."),
                         array('','',"Tu chiami i monaci a vivere in una condizione di umiltà:"),
                         array('-','',"conducili, mediante l'esperienza della loro miseria e povertà, unita a quella della tua misericordia , a riconoscersi gli ultimi con la parola e con la vita."),
                         array('','',"Animati dal tuo santo zelo, noi desideriamo prevenirci a vicenda nel casto amore fraterno e nella carità sincera e umile verso l'abate, nella incessante scoperta del volto di Cristo:"),
@@ -5752,7 +5752,7 @@ class Invocazioni {
                         array('','',"Cristo, nel cui nome si piega ogni ginocchio nei cieli, sulla terra e sotto terra,"),
                         array('-','',"fa' che gli uomini trovino pace e salvezza sotto il tuo giogo soave."),
                         array('','',"Cristo, crocifisso e risorto, che ogni lingua proclama Signore a gloria di Dio Padre,"),
-                        array('-','',"accolgli i nostri defunti nella beatitudine del tuo regno.")
+                        array('-','',"accogli i nostri defunti nella beatitudine del tuo regno.")
                     )
                 );
             }
@@ -5962,7 +5962,7 @@ class Invocazioni {
                                 array('-','',"concedi una messe abbondante agli operai del Vangelo."),
                                 array('','',"Hai sacrificato il tuo Figlio per riconciliare il mondo a te,"),
                                 array('-','',"fa' che tutti cooperiamo generosamente alla tua opera di riconciliazione e di pace."),
-                                array('','',"Hai costituito il Cristo re dell'universo innanlzandolo accanto a te nella gloria,"),
+                                array('','',"Hai costituito il Cristo re dell'universo innalzandolo accanto a te nella gloria,"),
                                 array('-','',"accogli nel tuo regno i nostri fratelli defunti.")
                             )
                         );
@@ -5981,7 +5981,7 @@ class Invocazioni {
                             array(
                                 array('','',"Per i tuoi martiri, che abbracciarono la morte a testimonianza della fede,"),
                                 array('-','',"donaci la vera libertà di spirito."),
-                                array('','',"Per i tuoi maritiri, che confessarono la fede sino all'effusione del sangue,"),
+                                array('','',"Per i tuoi martiri, che confessarono la fede sino all'effusione del sangue,"),
                                 array('-','',"da' a noi una fede pura e coerente."),
                                 array('','',"Per i tuoi martiri, che seguirono le tue orme sul cammino della croce,"),
                                 array('-','',"fa' che sosteniamo con fortezza le prove della vita."),
@@ -6049,7 +6049,7 @@ class Invocazioni {
                             ),
                             array(
                                 array('','',"Ricordati, Signore, del nostro Papa ...,"),
-                                array('-','',"sia docile all'azione dellio Spirito, per poter discernere in ogni circostanza la tua volontà, per il bene di tutta la Chiesa."),
+                                array('-','',"sia docile all'azione dello Spirito, per poter discernere in ogni circostanza la tua volontà, per il bene di tutta la Chiesa."),
                                 array('','',"Ricordati dei vescovi del mondo intero,"),
                                 array('-','',"fa' che non reggano il gregge loro affidato da dominatori, ma in spirito di servizio, in unione con il Papa e tra di loro."),
                                 array('','',"Ricordati dei tuoi sacerdoti impegnati nel ministero pastorale,"),
@@ -6104,7 +6104,7 @@ class Invocazioni {
                                 array('','',"Tanti fratelli vivono nelle tenebre del peccato e dell'errore,"),
                                 array('-','',"suscita nella tua Chiesa uomini che, guidati dallo Spirito, li aiutino a ritornare a te."),
                                 array('','',"La sapienza che viene dall'alto penetri i nostri cuori, Signore,"),
-                                array('-','',"per renderci puri, opratori di pace, miti, pieni di misericordia e di buoni frutti."),
+                                array('-','',"per renderci puri, operatori di pace, miti, pieni di misericordia e di buoni frutti."),
                                 array('','',"Confidando nella materna intercessione di Maria, nostra madre,"),
                                 array('-','',"ti chiediamo di introdurre nella gioia dei santi i nostri fratelli defunti.")
                             )
@@ -6123,13 +6123,13 @@ class Invocazioni {
                             ),
                             array(
                                 array('','',"Alla vita monastica tu hai dato un sommo maestro e padre, Benedetto, che rifulse come astro nelle tenebre della notte:"),
-                                array('-','',"concedi a tutti i suoi figli e discpoli di seguirne fedelmente la dottrina e gli esempi."),
+                                array('-','',"concedi a tutti i suoi figli e discepoli di seguirne fedelmente la dottrina e gli esempi."),
                                 array('','',"Tu hai ispirato la Regola benedettina e tutte le regole monastiche perché nella Chiesa diano frutti di santità:"),
                                 array('-','',"conserva vigili e ardenti in ogni comunità l'amore e l'osservanza della propria legge, fonte di vita."),
                                 array('','',"Ai cori celesti tu hai voluto associare sulla terra i cori monastici:"),
                                 array('-','',"dona al sacrificio di lode delle nostre liturgie luce e fervore, sì che giunga gradito al tuo cospetto come profumo d'incenso."),
                                 array('','',"Tu hai ispirato a san Benedetto la misteriosa scala che fa ascendere al cielo gli umili:"),
-                                array('-','',"dona ad ogni monaco e monaca grazia e volontò di salirla, gradino per gradino, fino alla cima della carità perfetta."),
+                                array('-','',"dona ad ogni monaco e monaca grazia e volontà di salirla, gradino per gradino, fino alla cima della carità perfetta."),
                                 array('','',"Noi veneriamo nei cieli la santità eroica di tanti nostri fratelli e sorelle, noti e sconosciuti:"),
                                 array('-','',"per la loro intercessione, dona agli ordini monastici uno stuolo di santi e vocazioni generose.")
                             )
@@ -6175,7 +6175,7 @@ class Invocazioni {
                                 array('-','',"fa' che nessuna cosa al mondo ci faccia deviare dal cammino che conduce a te."),
                                 array('','',"Signore Gesù, atteso dalle vergini sapienti,"),
                                 array('-','',"fa' che siamo sempre vigilanti nell'attesa della tua venuta."),
-                                array('','',"Per l'intercessione di santa ... , che hai fatto spelndere di santità e sapienza,"),
+                                array('','',"Per l'intercessione di santa ... , che hai fatto splendere di santità e sapienza,"),
                                 array('-','',"donaci saggezza evangelica e innocenza di vita.")
                             )
                         );

@@ -146,39 +146,6 @@ class Cantico {
 
     }
 
-    /*definisce in maniera dinamica nuovi metodi
-    public function __call($methodName, array $args) {
-
-        if (isset($this->methods[$methodName])) {
-            return call_user_func_array($this->methods[$methodName], $args);
-        }
-
-        else {
-            $this->titolo='Errore caricamento ';
-            //echo "ERRORE inatteso, contattare l'amministratore";
-            return false;
-        }
-    }
-
-    function set_closure() {
-        foreach ($this->closure as $key=>$c) {
-            $this->methods[$key] = Closure::bind($c, $this, get_class());
-        }
-    }
-
-    function setAntifona($a) {
-        //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
-        $this->antifona[0]=$a;
-        $this->antifona[1]=$this->antifona[0]; 
-    }
-
-    function TPAntifona() {
-        //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
-        $this->antifona[0]=$this->antifona[0].' Alleluia.';
-        $this->antifona[1]=$this->antifona[0]; 
-    }
-    */
-
     function init() {
 
         if ($this->actual['ora']=='comp' || $this->actual['ora']=='comp1') {
@@ -273,7 +240,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "Come sono belli",
-                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dicde a Sion: Regna il tuo Dio!"
+                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dice a Sion: Regna il tuo Dio!"
                             );
                         }
                     }
@@ -288,7 +255,7 @@ class Cantico {
                             case 'B':
                                 $this->antifona=array(
                                     "Convertitevi,",
-                                    "e credete al Vamgelo, dice il Signore."
+                                    "e credete al Vangelo, dice il Signore."
                                 );
                             break;
                             case 'C':
@@ -404,7 +371,7 @@ class Cantico {
                             case 'A':
                                 $this->antifona=array(
                                     "Voi",
-                                    "siete luce del mondo : risplendano davanti agli uonmini le vostre opere buone, per la gloria del Padre."
+                                    "siete luce del mondo : risplendano davanti agli uomini le vostre opere buone, per la gloria del Padre."
                                 );
                             break;
                             case 'B':
@@ -499,7 +466,7 @@ class Cantico {
                             case 'C':
                                 $this->antifona=array(
                                     "Beati voi,",
-                                    "quando vi insulterano e vi perseguiteranno a causa del Figlio dell'uomo: rallegratevi ed esultate perché grande è la vostra ricompensa nei cieli."
+                                    "quando vi insulteranno e vi perseguiteranno a causa del Figlio dell'uomo: rallegratevi ed esultate perché grande è la vostra ricompensa nei cieli."
                                 );
                             break;
                         }
@@ -531,7 +498,7 @@ class Cantico {
                             break;
                             case 'B':
                                 $this->antifona=array(
-                                    "Perchè sappiate",
+                                    "Perché sappiate",
                                     "che il Figlio dell'uomo ha sulla terra il potere di rimettere i peccati: Alzati, dice al paralitico, prendi il tuo letto e va' a casa tua, alleluia."
                                 );
                             break;
@@ -700,7 +667,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "Va' da coloro,",
-                                "a cui ti manderò, dice il Signore: non temere, e annunxia ciò che io ti ordinerò."
+                                "a cui ti manderò, dice il Signore: non temere, e annunzia ciò che io ti ordinerò."
                             );
                         }
                     }
@@ -731,7 +698,7 @@ class Cantico {
                             case 'A':
                                 $this->antifona=array(
                                     "Non ricordare,",
-                                    "Signore, le mie colpe, né quelle dei miai padri: non punirmi per i miei peccati."
+                                    "Signore, le mie colpe, né quelle dei miei padri: non punirmi per i miei peccati."
                                 );
                             break;
                             case 'B':
@@ -914,7 +881,7 @@ class Cantico {
                             case 'A':
                                 $this->antifona=array(
                                     "Chi vuol venire",
-                                    "dietro a me, rinneghi se stesso, prenda la sua corce ogni giorno e mi segua."
+                                    "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
                                 );
                             break;
                             case 'B':
@@ -938,7 +905,7 @@ class Cantico {
                         if($this->actual['pari']) {
                             $this->antifona=array(
                                 "Ascolta figlio,",
-                                "la parola di tuo padre, ricorda gli insgnamenti di tua madre: conservali nel tuo cuore."
+                                "la parola di tuo padre, ricorda gli insegnamenti di tua madre: conservali nel tuo cuore."
                             );
                         }
                         else {
@@ -1005,7 +972,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "O monti di Gelboe,",
-                                "non più riìugiada né pioggia su di voi, perché qui fu abbattuto lo scudo degli eroi, lo scudo di Saul, quasi non fosse il consacrato. Perché caddero in battaglia gli eroi? Gionata è stato ucciso sulle sue alture: Saul e Gionata, amabili e gentili, né in vita né in morte furono divisi."
+                                "non più rugiada né pioggia su di voi, perché qui fu abbattuto lo scudo degli eroi, lo scudo di Saul, quasi non fosse il consacrato. Perché caddero in battaglia gli eroi? Gionata è stato ucciso sulle sue alture: Saul e Gionata, amabili e gentili, né in vita né in morte furono divisi."
                             );
                         }
                     }
@@ -1048,7 +1015,7 @@ class Cantico {
                             case 'C':
                                 $this->antifona=array(
                                     "Un uomo",
-                                    "scendeva da Gerusalemme a Gerico e s'imbattè nei briganti che lo spogliarono, lo percossero e se ne andarono, lasciandolo gravemente ferito."
+                                    "scendeva da Gerusalemme a Gerico e s'imbatté nei briganti che lo spogliarono, lo percossero e se ne andarono, lasciandolo gravemente ferito."
                                 );
                             break;
                         }
@@ -1066,7 +1033,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "Il sacerdote Zadok",
-                                "e il profeta Nathan conscrarono re Salomone in Ghicon; quindi risalirono esultanti e acclamarono: Viva il re in eterno!"
+                                "e il profeta Nathan consacrarono re Salomone in Ghicon; quindi risalirono esultanti e acclamarono: Viva il re in eterno!"
                             );
                         }
                     }
@@ -1097,7 +1064,7 @@ class Cantico {
                             case 'A':
                                 $this->antifona=array(
                                     "Cogliete prima,",
-                                    "la zizzania e legatla in fastelli per bruciarla; il grano invece riponetelo nel mio granaio, dice il Signore."
+                                    "la zizzania e legatela in fastelli per bruciarla; il grano invece riponetelo nel mio granaio, dice il Signore."
                                 );
                             break;
                             case 'B':
@@ -1218,7 +1185,7 @@ class Cantico {
                         switch($this->actual['anno']) {
                             case 'A':
                                 $this->antifona=array(
-                                    "Ho comopassione",
+                                    "Ho compassione",
                                     "di questa folla: già da tre giorni mi seguono e non hanno da mangiare; se li rimando digiuni verranno meno per via."
                                 );
                             break;
@@ -1286,13 +1253,13 @@ class Cantico {
                             case 'B':
                                 $this->antifona=array(
                                     "Io sono",
-                                    "il poane vivo deisceso dal cielo: chi mangia di questo pane vivrà in eterno; il pane che io darò è la mia carne per la vita del mondo."
+                                    "il pane vivo disceso dal cielo: chi mangia di questo pane vivrà in eterno; il pane che io darò è la mia carne per la vita del mondo."
                                 );
                             break;
                             case 'C':
                                 $this->antifona=array(
                                     "Siate pronti",
-                                    "con le lampade acccese, aspettando il Signore che viene."
+                                    "con le lampade accese, aspettando il Signore che viene."
                                 );
                             break;
                         }
@@ -1310,7 +1277,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "Sono stati scelti",
-                                "nel Cristo prima della creazione del mondo, per essere santi e immaolati davanti a Dio nella carità."
+                                "nel Cristo prima della creazione del mondo, per essere santi e immacolati davanti a Dio nella carità."
                             );
                         }
                     }
@@ -1325,7 +1292,7 @@ class Cantico {
                             case 'B':
                                 $this->antifona=array(
                                     "Io sono",
-                                    "il pane vivo deisceso dal cielo: chi mangia di questo pane vivrà in eterno."
+                                    "il pane vivo disceso dal cielo: chi mangia di questo pane vivrà in eterno."
                                 );
                             break;
                             case 'C':
@@ -1371,7 +1338,7 @@ class Cantico {
                         else {
                             $this->antifona=array(
                                 "Il Signore",
-                                "ci ha sccelti a lode e gloria della sua grazia: Riempi, Signore, i nostri cuori del tuo Santo Spirito."
+                                "ci ha scelti a lode e gloria della sua grazia: Riempi, Signore, i nostri cuori del tuo Santo Spirito."
                             );
                         }
                     }
@@ -1670,7 +1637,7 @@ class Cantico {
                         if($this->actual['pari']) {
                             $this->antifona=array(
                                 "Signore Dio,",
-                                "tu hai dato la salvezza per mano di una donna: ascolta la peghiera dei tuoi servi."
+                                "tu hai dato la salvezza per mano di una donna: ascolta la preghiera dei tuoi servi."
                             );
                         }
                         else {
@@ -2289,7 +2256,7 @@ class Cantico {
                                 case 'B':
                                     $this->antifona=array(
                                         "Vigilate:",
-                                        "il Signore nostrto è vicino."
+                                        "il Signore nostro è vicino."
                                     );
                                 break;
                                 case 'C':
@@ -2312,7 +2279,7 @@ class Cantico {
                         elseif ($this->actual['ora']=="ves") {
                             $this->antifona=array(
                                 "L'angelo del Signore",
-                                "portò l'annunzio a Maria: e la Vergine cocepì dallo Spirito Santo, alleluia."
+                                "portò l'annunzio a Maria: e la Vergine concepì dallo Spirito Santo, alleluia."
                             );
                         }
                     break;
@@ -2799,7 +2766,7 @@ class Cantico {
                 elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Oggi",
-                        "Cristo è nato, è apparso il Salvatore; oggi sulla terra cantano gli angeli, si allietano gli arcangeli; oggi esualtano i giusti, acclamando: Gloria a Dio nell'alto dei cieli, alleluia."
+                        "Cristo è nato, è apparso il Salvatore; oggi sulla terra cantano gli angeli, si allietano gli arcangeli; oggi esultano i giusti, acclamando: Gloria a Dio nell'alto dei cieli, alleluia."
                     );
                 }
             }
@@ -2833,7 +2800,7 @@ class Cantico {
                 elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Per mezzo tuo,",
-                        "Vergine Maria, si compie la parola dei profeti che annunaziava Cristo Signore: vergine hai concepito, vergine hai generato."
+                        "Vergine Maria, si compie la parola dei profeti che annunziava Cristo Signore: vergine hai concepito, vergine hai generato."
                     );
                 }
             }
@@ -4489,14 +4456,14 @@ class Cantico {
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
                         "Io sono",
-                        "il pane vivo desceso dal cielo, dice il Signore, alleluia."
+                        "il pane vivo disceso dal cielo, dice il Signore, alleluia."
                     );
                 }
 
                 elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                     $this->antifona=array(
                         "Io sono",
-                        "il pane vivo disceso dal cielo: chi amngia di questo pane vivrà in eterno; il pane che io darò è la mia carne per la vita del mondo, alleluia."
+                        "il pane vivo disceso dal cielo: chi mangia di questo pane vivrà in eterno; il pane che io darò è la mia carne per la vita del mondo, alleluia."
                     );
                 }
             }
@@ -4506,7 +4473,7 @@ class Cantico {
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
                         "Io sono",
-                        "il pane vivo disceso dal cielo: chi amngia di questo pane vivrà in eterno, alleluia."
+                        "il pane vivo disceso dal cielo: chi mangia di questo pane vivrà in eterno, alleluia."
                     );
                 }
 
@@ -4705,7 +4672,7 @@ class Cantico {
                         case 'C':
                             $this->antifona=array(
                                 "Vi do",
-                                "un comandamento nuovo: Ametevi, come io ho amato voi, alleluia."
+                                "un comandamento nuovo: Amatevi, come io ho amato voi, alleluia."
                             );
                         break;
                     }
@@ -5549,7 +5516,7 @@ class Cantico {
             if ($this->actual['ora']=="ves1") {
                 $this->antifona=array(
                     "Nel tempio del Signore,",
-                    "a destra dell'altare dell'indenso, l'angelo Gabriele apparve a Zaccaria."
+                    "a destra dell'altare dell'incenso, l'angelo Gabriele apparve a Zaccaria."
                 );
             }
             elseif ($this->actual['ora']=="lodi") {
@@ -5603,7 +5570,7 @@ class Cantico {
             elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
                 $this->antifona=array(
                     "O beato padre Benedetto,",
-                    "maestro, guida e norma di vita celeste, ora esulti con Cristo nella gloria: pastore santo, proteggi i tuoi figli, rafforzali con la tua peghiera, e dietro a te conducili al cielo per una via luminosa."
+                    "maestro, guida e norma di vita celeste, ora esulti con Cristo nella gloria: pastore santo, proteggi i tuoi figli, rafforzali con la tua preghiera, e dietro a te conducili al cielo per una via luminosa."
                 );
             }
         }
@@ -5618,7 +5585,7 @@ class Cantico {
             elseif ($this->actual['ora']=="lodi") {
                 $this->antifona=array(
                     "Risuona",
-                    "dal cielo una voce: Questo è il mio Figlo prediletto, in lui mi sono compiaciuto. Ascoltatelo! Alleluia."
+                    "dal cielo una voce: Questo è il mio Figlio prediletto, in lui mi sono compiaciuto. Ascoltatelo! Alleluia."
                 );
             }
             elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
@@ -5660,7 +5627,7 @@ class Cantico {
             elseif ($this->actual['ora']=="lodi") {
                 $this->antifona=array(
                     "Adoriamo",
-                    "la tua croce, Signore; acclamiamo la tua rsurrezione: da questo albero di vita la gioia è venuta nel mondo."
+                    "la tua croce, Signore; acclamiamo la tua risurrezione: da questo albero di vita la gioia è venuta nel mondo."
                 );
             }
             elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
@@ -5681,7 +5648,7 @@ class Cantico {
             elseif ($this->actual['ora']=="lodi") {
                 $this->antifona=array(
                     "Ti acclama",
-                    "il coro degli apostoli e la candida schiera dei martiri, le voci dei profeti si uniscono nella tua lode; la Chiesa dei santi proclama la tua gloria: Santa Trinità, unic Dio!"
+                    "il coro degli apostoli e la candida schiera dei martiri, le voci dei profeti si uniscono nella tua lode; la Chiesa dei santi proclama la tua gloria: Santa Trinità, unico Dio!"
                 );
             }
             elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
@@ -5884,7 +5851,7 @@ class Cantico {
                         if($this->actual['ora']=='ves1') {
                             $this->antifona=array(
                                 "Vostro",
-                                "è il regno dei cieli: avete scrificato la vita per Cristo; lavati nel sangue dell'Agnello, ricevete ora la gloria eterna."
+                                "è il regno dei cieli: avete sacrificato la vita per Cristo; lavati nel sangue dell'Agnello, ricevete ora la gloria eterna."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
@@ -5954,7 +5921,7 @@ class Cantico {
                         if($this->actual['ora']=='ves1') {
                             $this->antifona=array(
                                 "Sacerdote di Dio,",
-                                "esempio di virtù, pastoe buono: intercedi per noi presso il Signore, alleluia."
+                                "esempio di virtù, pastore buono: intercedi per noi presso il Signore, alleluia."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
@@ -5974,7 +5941,7 @@ class Cantico {
                         if($this->actual['ora']=='ves1') {
                             $this->antifona=array(
                                 "Sacerdote di Dio,",
-                                "esempio di virtù, pastoe buono: intercedi per noi presso il Signore."
+                                "esempio di virtù, pastore buono: intercedi per noi presso il Signore."
                             );
                         }
                         elseif($this->actual['ora']=='lodi') {
@@ -6238,13 +6205,13 @@ class Cantico {
                         if($this->actual['ora']=='lodi') {
                             $this->antifona=array(
                                 "Io sono",
-                                "la risurrezine e la vita: chi crede in me anche se muore, vivrà; e chiunque vive e crede in me non morrà in eterno."
+                                "la risurrezione e la vita: chi crede in me anche se muore, vivrà; e chiunque vive e crede in me non morrà in eterno."
                             );
                         }
                         elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                             $this->antifona=array(
                                 "Quelli",
-                                "che il Pade mi dà, verranno a me; e chi viene a me non lo respingerò."
+                                "che il Padre mi dà, verranno a me; e chi viene a me non lo respingerò."
                             );
                         }
                     }
@@ -6571,7 +6538,7 @@ class Cantico {
                         elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                             $this->antifona=array(
                                 "Come sono belli",
-                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dicde a Sion: Regna il tuo Dio! Alleluia."
+                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dice a Sion: Regna il tuo Dio! Alleluia."
                             );
                         }
                     }
@@ -6585,7 +6552,7 @@ class Cantico {
                         elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                             $this->antifona=array(
                                 "Come sono belli",
-                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dicde a Sion: Regna il tuo Dio!"
+                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dice a Sion: Regna il tuo Dio!"
                             );
                         }
                     }
@@ -6860,7 +6827,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "I giusti",
-                            "risplenderanno, come scintille nella stoppia correrannoqua e là. Governeranno le nazioni e il Signore regnerà per sempre su di loro, alleluia."
+                            "risplenderanno, come scintille nella stoppia correranno qua e là. Governeranno le nazioni e il Signore regnerà per sempre su di loro, alleluia."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -7054,7 +7021,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Con la mente",
-                            "sempre rivolta al cielo, puro di anima e di cuore, Guglielmo offriva al suo Signore il scrificio di lode."
+                            "sempre rivolta al cielo, puro di anima e di cuore, Guglielmo offriva al suo Signore il sacrificio di lode."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -7208,7 +7175,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Avete abbandonato",
-                            "ogni cosa per seguirmi: avrete cento ovlte tanto, e la vita eterna."
+                            "ogni cosa per seguirmi: avrete cento volte tanto, e la vita eterna."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -7460,7 +7427,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Gloriosa",
-                            "è la mortre che a prezzo di sangue compra la vita immortale."
+                            "è la morte che a prezzo di sangue compra la vita immortale."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -7647,7 +7614,7 @@ class Cantico {
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->antifona=array(
-                            "Quellio che avete fatto",
+                            "Quello che avete fatto",
                             "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
                         );
                     }
@@ -7656,7 +7623,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Forte",
-                            "della parola di Cristo, Pietro sta con fermezza al timone della Cbiesa."
+                            "della parola di Cristo, Pietro sta con fermezza al timone della Chiesa."
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -7894,7 +7861,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Quando fu pontefice,",
-                            "non si laciò intimorire dai potenti della terra, ma camminò deciso verso il regno dei cieli."
+                            "non si lasciò intimorire dai potenti della terra, ma camminò deciso verso il regno dei cieli."
                         );
                     }
                 }

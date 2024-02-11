@@ -60,7 +60,7 @@ class Calendario {
 		"1226"=>"Santo Stefano"
 	);
 
-	//sonoi le feste per il Breviaro
+	//sono le feste per il Breviario
 	//F=festa, S=solennità, M=Memoria, R=ricorrenza, X=nota
 	protected $ricorrenza=array(
 		"0102"=>array(
@@ -319,7 +319,7 @@ class Calendario {
 		),
 		"0309"=>array(
 			"0309a"=>array(
-				"titolo"=>"Santa Francersca romana (Religiosa)",
+				"titolo"=>"Santa Francesca romana (Religiosa)",
 				"tipo"=>"M",
 				"comune"=>"religiose",
 				"mix"=>1
@@ -739,7 +739,7 @@ class Calendario {
 		),
 		"0704"=>array(
 			"0704a"=>array(
-				"titolo"=>"Santa Elisabettya di Portogallo",
+				"titolo"=>"Santa Elisabetta di Portogallo",
 				"tipo"=>"R",
 				"comune"=>"sante",
 				"mix"=>1
@@ -883,7 +883,7 @@ class Calendario {
 		),
 		"0805"=>array(
 			"0805a"=>array(
-				"titolo"=>"Dedicazione dela Basilica di Santa Maria Maggiore",
+				"titolo"=>"Dedicazione della Basilica di Santa Maria Maggiore",
 				"tipo"=>"R",
 				"comune"=>"BVM",
 				"mix"=>1
@@ -891,7 +891,7 @@ class Calendario {
 		),
 		"0807"=>array(
 			"0807a"=>array(
-				"titolo"=>"San Sisto II (Papa) e Compoagni (Martiri)",
+				"titolo"=>"San Sisto II (Papa) e Compagni (Martiri)",
 				"tipo"=>"R",
 				"comune"=>"martiri",
 				"mix"=>1
@@ -929,7 +929,7 @@ class Calendario {
 		),
 		"0813"=>array(
 			"0813a"=>array(
-				"titolo"=>"Santi Ponziano (Papa) e Ippollito (Sacerdote) martiri",
+				"titolo"=>"Santi Ponziano (Papa) e Ippolito (Sacerdote) martiri",
 				"tipo"=>"R",
 				"comune"=>"martiri",
 				"mix"=>1
@@ -959,7 +959,7 @@ class Calendario {
 				"mix"=>1
 			),
 			"0819b"=>array(
-				"titolo"=>"San Giovanni EWudes (Sacerdote)",
+				"titolo"=>"San Giovanni Eudes (Sacerdote)",
 				"tipo"=>"R",
 				"comune"=>"pastori",
 				"mix"=>1
@@ -2033,48 +2033,6 @@ class Calendario {
 					"tipo"=>"S"
 				);
 			}
-
-			/*
-			"1226"=>array(
-				"1226a"=>array(
-					"titolo"=>"Santo Stefano (Promartire)",
-					"tipo"=>"F",
-					"comune"=>"martire"
-				)
-			),
-			"1227"=>array(
-				"1227a"=>array(
-					"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
-					"tipo"=>"F",
-					"comune"=>"apostoli"
-				)
-			),
-			"1228"=>array(
-				"1228a"=>array(
-					"titolo"=>"Santi innocenti martiri",
-					"tipo"=>"F",
-					"comune"=>"martiri"
-				)
-			),
-			"1230"=>array(
-				"1230a"=>array(
-					"titolo"=>"Sesto giorno dell'ottava di Natale",
-					"tipo"=>"F",
-					"comune"=>""
-				)
-			),
-			//////////////////////////////////////////////////////
-			"1229a"=>array(
-				"titolo"=>"Quinto giorno dell'ottava di Natale",
-				"tipo"=>"F",
-				"comune"=>""
-			),
-			"1231a"=>array(
-				"titolo"=>"Settimo giorno dell'ottava di Natale",
-				"tipo"=>"F",
-				"comune"=>""
-			),
-		*/
 
 			if (count($m['evento'])==0) {
 

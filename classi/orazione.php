@@ -29,7 +29,7 @@ class Orazione {
         ),
         "lodi_1_1"=>array(
             array(
-                array('','',"Ispira le nostre azioni, Signore, e accompagnale con il tuo aiuto: perché ogni nosra attività abbia da te il suo inizio e in te il suo compimento."),
+                array('','',"Ispira le nostre azioni, Signore, e accompagnale con il tuo aiuto: perché ogni nostra attività abbia da te il suo inizio e in te il suo compimento."),
                 array('ending')
             )
         ),
@@ -41,7 +41,7 @@ class Orazione {
         ),
         "lodi_1_3"=>array(
             array(
-                array('','',"Signore Dio, re del cielo e della terra, guida, santifica e custodisci il nostro corpo e il nostro spirito, sentimenti, parole e opere, nell'ampore della tua legge, a servizio della tua volontà, perché oggi e sempre con il tiuo aiuto procediamo sicuri nella via della salvezza."),
+                array('','',"Signore Dio, re del cielo e della terra, guida, santifica e custodisci il nostro corpo e il nostro spirito, sentimenti, parole e opere, nell'amore della tua legge, a servizio della tua volontà, perché oggi e sempre con il tuo aiuto procediamo sicuri nella via della salvezza."),
                 array('ending')
             )
         ),
@@ -59,7 +59,7 @@ class Orazione {
         ),
         "sesta_1"=>array(
             array(
-                array('','',"O Dio, che sei il padrone della vigna e della messe, e assegni a ciascuno il suo lavoro e la giusta ricompensa, aiutaci aportare il peso della nostra giornata accettando serenamente la tua volontà."),
+                array('','',"O Dio, che sei il padrone della vigna e della messe, e assegni a ciascuno il suo lavoro e la giusta ricompensa, aiutaci a portare il peso della nostra giornata accettando serenamente la tua volontà."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
@@ -77,7 +77,7 @@ class Orazione {
         ),
         "ves_1_2"=>array(
             array(
-                array('','',"Dio onnipotente, che hai sostenuto i tuoi fedeli nella fatica di questo giorno, accogli la preghiera della sera come sacrifidio di lode per i tuoi doni."),
+                array('','',"Dio onnipotente, che hai sostenuto i tuoi fedeli nella fatica di questo giorno, accogli la preghiera della sera come sacrificio di lode per i tuoi doni."),
                 array('ending')
             )
         ),
@@ -107,7 +107,7 @@ class Orazione {
         ),
         "lodi_2_2"=>array(
             array(
-                array('','',"O Dio, che hai mandato a noi la luce vera che guida tutti gli uomini alla salvezza, donaci la forza dello Spirito, perchè possiamo preparare davanti al Figlio tuo la via della giustizia e dell pace."),
+                array('','',"O Dio, che hai mandato a noi la luce vera che guida tutti gli uomini alla salvezza, donaci la forza dello Spirito, perché possiamo preparare davanti al Figlio tuo la via della giustizia e dell pace."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -125,31 +125,31 @@ class Orazione {
         ),
         "terza_2"=>array(
             array(
-                array('','',"Dio potente ed eterno, che all'ora terza hai effuso sugli apostoli il tuo Spirito Paraclito, dona anche a noi la fiamma viva del tuo amore, perché ti rendiamo buona estimonianza davanti a tutti gli uomini."),
+                array('','',"Dio potente ed eterno, che all'ora terza hai effuso sugli apostoli il tuo Spirito Paraclito, dona anche a noi la fiamma viva del tuo amore, perché ti rendiamo buona testimonianza davanti a tutti gli uomini."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "sesta_2"=>array(
             array(
-                array('','',"O Dio, che hai rielato all'apostolo Pietro la volontà di riunire tutti i popoli nell'unica Chiesa, benedici il niostro lavoro quotidiano e fa' che serva al tuo disegno universale di salvezza."),
+                array('','',"O Dio, che hai rivelato all'apostolo Pietro la volontà di riunire tutti i popoli nell'unica Chiesa, benedici il nostro lavoro quotidiano e fa' che serva al tuo disegno universale di salvezza."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "nona_2"=>array(
             array(
-                array('','',"O Dio, che nandasti il tuo angelo al centurione Cornelio per indicargli la via della salvezza, donaci di collaborare alla renìdenzione di tutti gli uomini, perché riuniti nella tua Chiesa, possiamo giungere fino a te nella gloria."),
+                array('','',"O Dio, che mandasti il tuo angelo al centurione Cornelio per indicargli la via della salvezza, donaci di collaborare alla redenzione di tutti gli uomini, perché riuniti nella tua Chiesa, possiamo giungere fino a te nella gloria."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "ves_2_1"=>array(
             array(
-                array('','',"Ti rendiamo grazie, Dio onnipotente, che ci hai guidati attraverso le fatiche di questo giorno; fa' che le niostre mani alzate nella preghiera vespertina siano un sacrificio a te gradito."),
+                array('','',"Ti rendiamo grazie, Dio onnipotente, che ci hai guidati attraverso le fatiche di questo giorno; fa' che le nostre mani alzate nella preghiera vespertina siano un sacrificio a te gradito."),
                 array('ending')
             )
         ),
         "ves_2_2"=>array(
             array(
-                array('','',"O Dio, a cui appartiene il giorno e la notte, fa' he il sole della giustizia nion tramonti mai nel nostro spirito, perché possiamo giungere alla luce gloriosa del tuo regno."),
+                array('','',"O Dio, a cui appartiene il giorno e la notte, fa' he il sole della giustizia non tramonti mai nel nostro spirito, perché possiamo giungere alla luce gloriosa del tuo regno."),
                 array('ending')
             )
         ),
@@ -185,25 +185,25 @@ class Orazione {
         ),
         "lodi_3_3"=>array(
             array(
-                array('','',"Illumina, Signore, i nostri sensi con la luce del tuo Spirito, perchùè possiamo sempre essere fedeli a te, che con la tua sapoenza ci hai creati e con la tua provvidenza ci guidi."),
+                array('','',"Illumina, Signore, i nostri sensi con la luce del tuo Spirito, perché possiamo sempre essere fedeli a te, che con la tua sapienza ci hai creati e con la tua provvidenza ci guidi."),
                 array('ending')
             )
         ),
         "lodi_3_4"=>array(
             array(
-                array('','',"Ricordati, o Dio, della tua alleanza, rinnovata sulla croce col sangue dell'Agnello, e fa' che il tuo popolo, libero da ogni colpa, oprogradisca sempre nella via della salvezza."),
+                array('','',"Ricordati, o Dio, della tua alleanza, rinnovata sulla croce col sangue dell'Agnello, e fa' che il tuo popolo, libero da ogni colpa, progredisca sempre nella via della salvezza."),
                 array('ending')
             )
         ),
         "terza_3"=>array(
             array(
-                array('','',"Signiore, §Pa dre santo, Dio fedele, che hai mandato lo Spirito Santo promesso dal tuo Figlio, per riunire l'umanità dispersa a causa del peccato, donaci di essere nel mondo operatori di unità e di pace."),
+                array('','',"Signore, §Pa dre santo, Dio fedele, che hai mandato lo Spirito Santo promesso dal tuo Figlio, per riunire l'umanità dispersa a causa del peccato, donaci di essere nel mondo operatori di unità e di pace."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "sesta_3"=>array(
             array(
-                array('','',"O Dio grande e misericordioso, che ci doni una sosta nella fatica quotidiana, didtie ìni la nostra debolezza, e aiutaci a èprtare a termine il lavoro che abbiamo iniziato."),
+                array('','',"O Dio grande e misericordioso, che ci doni una sosta nella fatica quotidiana, sostieni la nostra debolezza, e aiutaci a portare a termine il lavoro che abbiamo iniziato."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
@@ -227,13 +227,13 @@ class Orazione {
         ),
         "ves_3_3"=>array(
             array(
-                array('','',"Salga a te, o Dio misericordioso, la voce della tua Chiesa e fa' che il tuo popolo, libero dalla schiavitù del pecato, ti serva per amore e viva sicuro nella tua protezione."),
+                array('','',"Salga a te, o Dio misericordioso, la voce della tua Chiesa e fa' che il tuo popolo, libero dalla schiavitù del peccato, ti serva per amore e viva sicuro nella tua protezione."),
                 array('ending')
             )
         ),
         "ves_3_4"=>array(
             array(
-                array('','',"O Dio misericordioso, che colmi dei tuoi beni coloro che hanno fame e sete di giustizia, ricordati della tua famiglia raccolta in preghiera e trasforma lanostra povertà nella ricdhezza del tuo amore."),
+                array('','',"O Dio misericordioso, che colmi dei tuoi beni coloro che hanno fame e sete di giustizia, ricordati della tua famiglia raccolta in preghiera e trasforma la nostra povertà nella ricchezza del tuo amore."),
                 array('ending')
             )
         ),
@@ -245,7 +245,7 @@ class Orazione {
         ),
         "lodi_4_1"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, esaudidci le èreghiere della tua Chiesa che al mattino, a mezzogiorno e alla sera celebra le tue lodi; disperdi dal nostro cuore le tenebre del male, perché procediamo sicuri verso Cristo, vera luce che non tramonta."),
+                array('','',"Dio onnipotente ed eterno, esaudisci le preghiere della tua Chiesa che al mattino, a mezzogiorno e alla sera celebra le tue lodi; disperdi dal nostro cuore le tenebre del male, perché procediamo sicuri verso Cristo, vera luce che non tramonta."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -263,7 +263,7 @@ class Orazione {
         ),
         "lodi_4_4"=>array(
             array(
-                array('','',"Donaci, o Dio, una profonda conoscenza del tuo mistero di salvezza, perché senza timore, liberati sall'oppressione dei nostri nemici, ti serviamo in santità e giustizia tutti i nostri giorni."),
+                array('','',"Donaci, o Dio, una profonda conoscenza del tuo mistero di salvezza, perché senza timore, liberati dall'oppressione dei nostri nemici, ti serviamo in santità e giustizia tutti i nostri giorni."),
                 array('ending')
             )
         ),
@@ -275,19 +275,19 @@ class Orazione {
         ),
         "sesta_4"=>array(
             array(
-                array('','',"O Dio onnipotente ed eterrno, in cui non è oscurità né tenebre, fa' risplendere su di noi la tua luce, perché illuminati dalla tua parola, camminiamo verso te con cuore generoso e fedele."),
+                array('','',"O Dio onnipotente ed eterno, in cui non è oscurità né tenebre, fa' risplendere su di noi la tua luce, perché illuminati dalla tua parola, camminiamo verso te con cuore generoso e fedele."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "nona_4"=>array(
             array(
-                array('','',"Ascolta, o Dio, le niostre preghiere, e donaci di imitare la passione del tuo Figlio per portare con serena fortezza la nostra croce quotidiana."),
+                array('','',"Ascolta, o Dio, le nostre preghiere, e donaci di imitare la passione del tuo Figlio per portare con serena fortezza la nostra croce quotidiana."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
         "ves_4_1"=>array(
             array(
-                array('','',"O Dio, che illumini la notte più oscura e dopo le tenebre fai sorgere nel mondo la luce, donaci di trascorrere questa notte lontano dalle insidie del maligno, perché all'alba del nuovo giorno èpssoamo cnatare con la Chiesa le tue lodi."),
+                array('','',"O Dio, che illumini la notte più oscura e dopo le tenebre fai sorgere nel mondo la luce, donaci di trascorrere questa notte lontano dalle insidie del maligno, perché all'alba del nuovo giorno possiamo cantare con la Chiesa le tue lodi."),
                 array('ending')
             )
         ),
@@ -299,19 +299,19 @@ class Orazione {
         ),
         "ves_4_3"=>array(
             array(
-                array('','',"Accogli, Signore, al tramonto di questo giorno, il nopstro umile ringraziamento, e nella tua misericordia dimentica le colpe da noi commesse per la fragilità della condizione umana."),
+                array('','',"Accogli, Signore, al tramonto di questo giorno, il nostro umile ringraziamento, e nella tua misericordia dimentica le colpe da noi commesse per la fragilità della condizione umana."),
                 array('ending')
             )
         ),
         "ves_4_4"=>array(
             array(
                 array('','',"Accogli, o Dio, la nostra preghiera al tramonto di questo giorno e fa' che seguendo con perseveranza l'esempio del tuo Figlio, raccogliamo frutti di giustizia e di pace."),
-                array('','',"Egli è Dio e vive e regna con te nei decoli dei secoli.")
+                array('','',"Egli è Dio e vive e regna con te nei secoli dei secoli.")
             )
         ),
         "comp_4"=>array(
             array(
-                array('','',"Signore Dio noistro, donaci un sonno tranquillo, perché ristorati dalle fatiche del giorno, ci dedichiamo corpo e anima al tuo servizio."),
+                array('','',"Signore Dio nostro, donaci un sonno tranquillo, perché ristorati dalle fatiche del giorno, ci dedichiamo corpo e anima al tuo servizio."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
@@ -323,67 +323,67 @@ class Orazione {
         ),
         "lodi_5_2"=>array(
             array(
-                array('','',"Accogli, Dio onnipotente, la nostra lode del mattinol e fa' che ci uniamo un giorno al coro dei tuoi santi per cantare in eterno la tua gloria."),
+                array('','',"Accogli, Dio onnipotente, la nostra lode del mattino e fa' che ci uniamo un giorno al coro dei tuoi santi per cantare in eterno la tua gloria."),
                 array('ending')
             )
         ),
         "lodi_5_3"=>array(
             array(
-                array('','',"Donaci, o Padre buono, di godere sempre della presenza del Figlio tuo, percgé seguendo lui, nostro pastore e guida, progrediamo nella via dei tuoi comandamenti."),
+                array('','',"Donaci, o Padre buono, di godere sempre della presenza del Figlio tuo, perché seguendo lui, nostro pastore e guida, progrediamo nella via dei tuoi comandamenti."),
                 array('','',"Egli è Dio, e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "lodi_5_4"=>array(
             array(
-                array('','',"Concedi al tuo popolo, o Dio, l'abbondanza dei tuoi doni, perché dia sempre fedele agli impegni del suo Battesimo, e vivia nella prosperità e nella pace in attresa della gioia eterna."),
+                array('','',"Concedi al tuo popolo, o Dio, l'abbondanza dei tuoi doni, perché dia sempre fedele agli impegni del suo Battesimo, e viva nella prosperità e nella pace in attesa della gioia eterna."),
                 array('ending')
             )
         ),
         "terza_5"=>array(
             array(
-                array('','',"Signore Gesùà Cristo, che all'ora terza fosti condotto al supplizio della croce per la redenzione del mondo, nella tua bontà perdona le nostre colpe passate e preservaci da quelle future."),
+                array('','',"Signore Gesù Cristo, che all'ora terza fosti condotto al supplizio della croce per la redenzione del mondo, nella tua bontà perdona le nostre colpe passate e preservaci da quelle future."),
                 array('','',"Tu che vivi e regni nei secoli dei secoli.")
             )
         ),
         "sesta_5"=>array(
             array(
-                array('','',"Signore Gesù Cristo, che all'ora sesta, mentre le tenebre avvolgevano il mondo, fosti inchiodato sulla croce, vittima innocente per la nostra salvezza, donaci sempre qualla luce, che guida gli uomini sulla via della vita eterna."),
+                array('','',"Signore Gesù Cristo, che all'ora sesta, mentre le tenebre avvolgevano il mondo, fosti inchiodato sulla croce, vittima innocente per la nostra salvezza, donaci sempre quella luce, che guida gli uomini sulla via della vita eterna."),
                 array('','',"Tu che vivi e regni nei secoli dei secoli.")
             )
         ),
         "nona_5"=>array(
             array(
-                array('','',"Signore Gesù Cristo, che al ladrone pentito facesti la grazia di passare dalla crice alla gloria del tuo regno, ricevi l'umile confessione delle nostre colpe e nell'ora della morte apri anche a noi la porta del tuo paradiso."),
+                array('','',"Signore Gesù Cristo, che al ladrone pentito facesti la grazia di passare dalla croce alla gloria del tuo regno, ricevi l'umile confessione delle nostre colpe e nell'ora della morte apri anche a noi la porta del tuo paradiso."),
                 array('','',"Tu che vivi e regni nei secoli dei secoli.")
             )
         ),
         "ves_5_1"=>array(
             array(
-                array('','',"Concediai tuoi fedeli, o Signore, la sapienza della croce, paerché illuminati dalla passione del tuo Figlio portiamo generosamente il suo giogo soave."),
+                array('','',"Concedi ai tuoi fedeli, o Signore, la sapienza della croce, perché illuminati dalla passione del tuo Figlio portiamo generosamente il suo giogo soave."),
                 array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "ves_5_2"=>array(
             array(
-                array('','',"O Dio, che hai rivlòeato il mistero della tua sapienza nella follia della croce, donaci di riconoscere nella passione la gloria del tuo Figlio, perché la sua croce sia sempre per noi fonte di speranza e di pace."),
+                array('','',"O Dio, che hai rivelato il mistero della tua sapienza nella follia della croce, donaci di riconoscere nella passione la gloria del tuo Figlio, perché la sua croce sia sempre per noi fonte di speranza e di pace."),
                 array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "ves_5_3"=>array(
             array(
-                array('','',"Dio Padre onnipotente, che ci hai donato il tuo unico Figlio come prezzo della nostra salvezza, fa' che vivendo in comunione con le sue sofferenze, opartecipiamo un giorno alla gloria della sua risurrezione."),
+                array('','',"Dio Padre onnipotente, che ci hai donato il tuo unico Figlio come prezzo della nostra salvezza, fa' che vivendo in comunione con le sue sofferenze, partecipiamo un giorno alla gloria della sua risurrezione."),
                 array('','',"Egli è Dio e vive e regna con te, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "ves_5_4"=>array(
             array(
-                array('','',"Padre misericordioso, che hai redento il mondo con la passione del tuo figlio, fa' che la tua chiesa si offra a te come sacrificio vivo e santo e sperimanti sempre la pienezzs del tuo amore."),
+                array('','',"Padre misericordioso, che hai redento il mondo con la passione del tuo figlio, fa' che la tua chiesa si offra a te come sacrificio vivo e santo e sperimenti sempre la pienezza del tuo amore."),
                 array('ending')
             )
         ),
         "comp_5"=>array(
             array(
-                array('','',"Donaci, o Padre, di unirci nella fede alla norte e sepoltura del tuo Figlio per risorgere con lui alla vita nuova."),
+                array('','',"Donaci, o Padre, di unirci nella fede alla morte e sepoltura del tuo Figlio per risorgere con lui alla vita nuova."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -407,7 +407,7 @@ class Orazione {
         ),
         "lodi_6_4"=>array(
             array(
-                array('','',"O Dio, verla luce e giorno senza tramonto, accogli la lode mattutina del tuo popolo e fa' che il nostro spirito, libero dalle tenebre della colpa, risplenda nel fulgore della tua venuta."),
+                array('','',"O Dio, vera luce e giorno senza tramonto, accogli la lode mattutina del tuo popolo e fa' che il nostro spirito, libero dalle tenebre della colpa, risplenda nel fulgore della tua venuta."),
                 array('ending')
             )
         ),
@@ -425,7 +425,7 @@ class Orazione {
         ),
         "nona_6"=>array(
             array(
-                array('','',"Ascolta Signore, la nostra preghiera per intrcessione della Beata Vergine Maria, e donaci la tua vera pace, perché in tutti i giorni della nostra vita possiamo dedicarci con gioia al tuo servizio e giungere alla beatitudine del tuo regno."),
+                array('','',"Ascolta Signore, la nostra preghiera per intercessione della Beata Vergine Maria, e donaci la tua vera pace, perché in tutti i giorni della nostra vita possiamo dedicarci con gioia al tuo servizio e giungere alla beatitudine del tuo regno."),
                 array('','',"Per Cristo nostro Signore.")
             )
         ),
@@ -491,7 +491,7 @@ class Orazione {
         ),
         "sun_11"=>array(
             array(
-                array('','',"O Dio, fortezza di chi spera in te, ascolta benigno le nostre invocazioni, e poiché nella nostra debolezza nulla possizmo senza il tuo aiuto, soccorrici con la tua grazia, perché fedeli ai tuoi comandamenti possiamo piacerti nelle intenzioni e nelle opere."),
+                array('','',"O Dio, fortezza di chi spera in te, ascolta benigno le nostre invocazioni, e poiché nella nostra debolezza nulla possiamo senza il tuo aiuto, soccorrici con la tua grazia, perché fedeli ai tuoi comandamenti possiamo piacerti nelle intenzioni e nelle opere."),
                 array('ending')
             )
         ),
@@ -587,7 +587,7 @@ class Orazione {
         ),
         "sun_27"=>array(
             array(
-                array('','',"O Dio, fonte di ogni bene, che esaudisci le preghiere del tuo popolo al di la di ogni desiderio e di ogni merito, effondi su di noi la tua misericordia: perdona ciò che la coscenza teme e aggiungi ciò che la preghiera non osa sperare."),
+                array('','',"O Dio, fonte di ogni bene, che esaudisci le preghiere del tuo popolo al di la di ogni desiderio e di ogni merito, effondi su di noi la tua misericordia: perdona ciò che la coscienza teme e aggiungi ciò che la preghiera non osa sperare."),
                 array('ending')
             )
         ),
@@ -605,7 +605,7 @@ class Orazione {
         ),
         "sun_30"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, accresci in noi la fede, la speranza e la carità, e perché possiamo ottrenere ciò che prometti, fa' che amiamo ciò che comandi."),
+                array('','',"Dio onnipotente ed eterno, accresci in noi la fede, la speranza e la carità, e perché possiamo ottenere ciò che prometti, fa' che amiamo ciò che comandi."),
                 array('ending')
             )
         ),
@@ -671,7 +671,7 @@ class Orazione {
         ),
         "A_1_6"=>array(
             array(
-                array('','',"O Dio, che hai mandato in questo mondo il tuo unico Figlio a liberare l'uomo dalla schiavitù del peccato, concedi a noi, che attnediamo con fede il dono del tuo amore, di raggiungere il premio della vera libertà."),
+                array('','',"O Dio, che hai mandato in questo mondo il tuo unico Figlio a liberare l'uomo dalla schiavitù del peccato, concedi a noi, che attendiamo con fede il dono del tuo amore, di raggiungere il premio della vera libertà."),
                 array('ending')
             )
         ),
@@ -689,7 +689,7 @@ class Orazione {
         ),
         "A_2_2"=>array(
             array(
-                array('','',"O Dio, che hai fatto giungere ai confini della terra il lieto annunzio del Salvartore, fa' che tutti gli uomini accolgano con sincera esultanza la gloria del suo Natale."),
+                array('','',"O Dio, che hai fatto giungere ai confini della terra il lieto annunzio del Salvatore, fa' che tutti gli uomini accolgano con sincera esultanza la gloria del suo Natale."),
                 array('ending')
             )
         ),
@@ -788,7 +788,7 @@ class Orazione {
         ),
         "COD"=>array(
             array(
-                array('','',"Signore Gesù Cristo, che nel mirabile sacramento dell'Eucaristia ci hai lasciato il memoriale della tua Pasqua, fa' che adoriamo con viva fede il santo mistero del tuo Corpo e del tuo Sangue, per sentire sempre in noi i benefici della rendenzione."),
+                array('','',"Signore Gesù Cristo, che nel mirabile sacramento dell'Eucaristia ci hai lasciato il memoriale della tua Pasqua, fa' che adoriamo con viva fede il santo mistero del tuo Corpo e del tuo Sangue, per sentire sempre in noi i benefici della redenzione."),
                 array('','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -800,7 +800,7 @@ class Orazione {
         ),
         "SAF"=>array(
             array(
-                array('','',"O Dio, nostro Padre, che nella Santa Famiglia ci hai dato un vero modello di vita, fa' che nelle nostre famiglie fioriscano le stesse virtù e lo stesso amore, perchè, riuniti insieme nella tua casa, possiamo godere la gioia senza fine."),
+                array('','',"O Dio, nostro Padre, che nella Santa Famiglia ci hai dato un vero modello di vita, fa' che nelle nostre famiglie fioriscano le stesse virtù e lo stesso amore, perché, riuniti insieme nella tua casa, possiamo godere la gioia senza fine."),
                 array('ending')
             )
         ),
@@ -866,7 +866,7 @@ class Orazione {
         ),
         "A1218"=>array(
             array(
-                array('','',"Oppressi a lungo sotto il giogo del èeccato, aspettiamo o Padre, la nostra redenzione; la nuova nascita del tuo unico Figlio ci liberi dalla schiavitù antica."),
+                array('','',"Oppressi a lungo sotto il giogo del peccato, aspettiamo o Padre, la nostra redenzione; la nuova nascita del tuo unico Figlio ci liberi dalla schiavitù antica."),
                 array('ending')
             )
         ),
@@ -878,7 +878,7 @@ class Orazione {
         ),
         "A1220"=>array(
             array(
-                array('','',"Tu hai voluto, o Padre, che all'annunzio dell'angelo la Vergine immacolata concepisse il tuo Verbo eterno, e avvolta dalla lucd dello Spirito Santo divenisse tempio della nuova alleanza: fa' che aderiamo umilmente al tuo volere, come la vergine si affidò alla tua parola."),
+                array('','',"Tu hai voluto, o Padre, che all'annunzio dell'angelo la Vergine immacolata concepisse il tuo Verbo eterno, e avvolta dalla luce dello Spirito Santo divenisse tempio della nuova alleanza: fa' che aderiamo umilmente al tuo volere, come la vergine si affidò alla tua parola."),
                 array('ending')
             )
         ),
@@ -896,13 +896,13 @@ class Orazione {
         ),
         "A1223"=>array(
             array(
-                array('','',"Dio onnipotente ed eterrno, è ormai davanti a noi il Natale del tuo Figlio: ci soccorra nella nostra indegnità il Verbo che si è fatto uomo nel seno della Vergine Maria e di è degnato di abitare fra noi."),
+                array('','',"Dio onnipotente ed eterno, è ormai davanti a noi il Natale del tuo Figlio: ci soccorra nella nostra indegnità il Verbo che si è fatto uomo nel seno della Vergine Maria e di è degnato di abitare fra noi."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "A1224"=>array(
             array(
-                array('','',"Affrèttati, non tardare, Signore Gesù: la tua venuta dia conforto e speranza a coloro che confidano nel tuo amore misericordioso."),
+                array('','',"Affrettati, non tardare, Signore Gesù: la tua venuta dia conforto e speranza a coloro che confidano nel tuo amore misericordioso."),
                 array('','',"Tu sei Dio, e vivi e regni con Dio Padre, nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -914,7 +914,7 @@ class Orazione {
         ),
         "lodi_NAT"=>array(
             array(
-                array('','',"Signore, Dio onnipotente, che ci avvolgi della nuova luce del tuo Verbo fatto uomo, fa' che ridplenda nelle nostre opere il mistero della fede che rifulge nel nostro spirito."),
+                array('','',"Signore, Dio onnipotente, che ci avvolgi della nuova luce del tuo Verbo fatto uomo, fa' che risplenda nelle nostre opere il mistero della fede che rifulge nel nostro spirito."),
                 array('ending')
             )
         ),
@@ -932,13 +932,13 @@ class Orazione {
         ),
         "N1229"=>array(
             array(
-                array('','',"Dio invisibile ed eterno, che nella venuta del Cristo vera luce ai ridchiarato le nostre tenebre, guarda con bontà quaesta tua famiglia, perché possa celebrare con lode unanime la nascita gloriosa del tuo unico Fignio."),
+                array('','',"Dio invisibile ed eterno, che nella venuta del Cristo vera luce hai rischiarato le nostre tenebre, guarda con bontà questa tua famiglia, perché possa celebrare con lode unanime la nascita gloriosa del tuo unico Figlio."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "N1231"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, che nelòla nascita del tuo Figlio hai stabilito l'inizio e la pienezza della vera fede, accogli anche noi come membra del Cristo, che compendia in sé la salvezza del mondo."),
+                array('','',"Dio onnipotente ed eterno, che nella nascita del tuo Figlio hai stabilito l'inizio e la pienezza della vera fede, accogli anche noi come membra del Cristo, che compendia in sé la salvezza del mondo."),
                 array('ending')
             )
         ),
@@ -986,7 +986,7 @@ class Orazione {
         ),
         "N0110"=>array(
             array(
-                array('','',"O Dio, che in Cristo tuo Figlio hai rivelato a tutti i popoli la sapienza eterna, fa' riaplendere su di noi la gloria del nostro Redentore, perché giungiamo alla luce che non ha tramonto."),
+                array('','',"O Dio, che in Cristo tuo Figlio hai rivelato a tutti i popoli la sapienza eterna, fa' risplendere su di noi la gloria del nostro Redentore, perché giungiamo alla luce che non ha tramonto."),
                 array('ending')
             )
         ),
@@ -1052,7 +1052,7 @@ class Orazione {
         ),
         "Q16"=>array(
             array(
-                array('','',"O Dio, Padre di eterna misericordia, fa' che si convertano a te i nostri cuori, perché nella ricerca dell'unico bene necessario e nelle oèere di carità fraterna siano sempre consacrati alla tua lode."),
+                array('','',"O Dio, Padre di eterna misericordia, fa' che si convertano a te i nostri cuori, perché nella ricerca dell'unico bene necessario e nelle opere di carità fraterna siano sempre consacrati alla tua lode."),
                 array('ending')
             )
         ),
@@ -1100,7 +1100,7 @@ class Orazione {
         ),
         "QU3"=>array(
             array(
-                array('','',"Dio misericordioso, fonte di ogni bene, tu ci hai propostoi a rimedio del peccato il digiuno, la preghiera e le opere di carità fraterna; guarda a noi che riconosciamo la nostra miseria e, poiché ci opprime il peso delle nostre colpe, ci sollevi la tua misericordia."),
+                array('','',"Dio misericordioso, fonte di ogni bene, tu ci hai proposto a rimedio del peccato il digiuno, la preghiera e le opere di carità fraterna; guarda a noi che riconosciamo la nostra miseria e, poiché ci opprime il peso delle nostre colpe, ci sollevi la tua misericordia."),
                 array('ending')
             )
         ),
@@ -1148,7 +1148,7 @@ class Orazione {
         ),
         "Q41"=>array(
             array(
-                array('','',"O Dio, che rinnovi il mondo con i tuoi sacramenti, fa che la comunità dei tuoi figli si edifichi con quasti segni misteriosi della tua presenza e non resti priva del tuo aiuto per la vita di ogni giorno."),
+                array('','',"O Dio, che rinnovi il mondo con i tuoi sacramenti, fa che la comunità dei tuoi figli si edifichi con questi segni misteriosi della tua presenza e non resti priva del tuo aiuto per la vita di ogni giorno."),
                 array('ending')
             )
         ),
@@ -1160,7 +1160,7 @@ class Orazione {
         ),
         "Q43"=>array(
             array(
-                array('','',"O Pade, che dai la ricompensa ai giusti e non rifiuti il perdono ai peccatori pentiti, ascolta la nostra supplica: l'umile confessione delle nostre colpe ci ottrenga la tua misericordia."),
+                array('','',"O Padre, che dai la ricompensa ai giusti e non rifiuti il perdono ai peccatori pentiti, ascolta la nostra supplica: l'umile confessione delle nostre colpe ci ottenga la tua misericordia."),
                 array('ending')
             )
         ),
@@ -1250,7 +1250,7 @@ class Orazione {
         ),
         "ves_SS4"=>array(
             array(
-                array('','',"O Dio, che per la tua gloria e per la nostra salvezza, hai costituito sommo ed eterno sacerdote il Cristo tuo Figlio, concedia noi, divenuti tuo poolo mediante il suo sangue, di sperimentare, nella partrecipazione al sacrificio eucristico, la forza redentrice della croce e della risurrezione."),
+                array('','',"O Dio, che per la tua gloria e per la nostra salvezza, hai costituito sommo ed eterno sacerdote il Cristo tuo Figlio, concedi a noi, divenuti tuo popolo mediante il suo sangue, di sperimentare, nella partecipazione al sacrificio eucaristico, la forza redentrice della croce e della risurrezione."),
                 array('ending')
             )
         ),
@@ -1268,13 +1268,13 @@ class Orazione {
         ),
         "PA11"=>array(
             array(
-                array('','',"O Padre, che fai crescere la tua Chiesa, donandole senpre nuovi figli, concedi ai tuoi fedeli di esprimere nella vita il sacramento che hanno ricevuto nella fede."),
+                array('','',"O Padre, che fai crescere la tua Chiesa, donandole sempre nuovi figli, concedi ai tuoi fedeli di esprimere nella vita il sacramento che hanno ricevuto nella fede."),
                 array('ending')
             )
         ),
         "PA12"=>array(
             array(
-                array('','',"O Dio, che nei scaramenti pasquali hai dato al tuo popolo la salvezza, effondi su di noi l'abbondanza dei tuoi doni, perché raggiungiamo il bene della perfetta libertà e abbiamo in cielo qualla gioia che ora pregustiamo sulla terra."),
+                array('','',"O Dio, che nei sacramenti pasquali hai dato al tuo popolo la salvezza, effondi su di noi l'abbondanza dei tuoi doni, perché raggiungiamo il bene della perfetta libertà e abbiamo in cielo quella gioia che ora pregustiamo sulla terra."),
                 array('ending')
             )
         ),
@@ -1382,7 +1382,7 @@ class Orazione {
         ),
         "PA36"=>array(
             array(
-                array('','',"O Dio, che nell'acqua del Battesimo hai rigenerato coloro che credono in te, custodidci in noi la vita nuova, perché possiamo vincere ogni assalto del male e conservare fedelmente il dono del tuo amore."),
+                array('','',"O Dio, che nell'acqua del Battesimo hai rigenerato coloro che credono in te, custodisci in noi la vita nuova, perché possiamo vincere ogni assalto del male e conservare fedelmente il dono del tuo amore."),
                 array('ending')
             )
         ),
@@ -1466,13 +1466,13 @@ class Orazione {
         ),
         "PA56"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, che nel Battesimo ci hai comunicato la tua stessa vita, fa' che i tiui figli, rinati alla speranza dell'immortalità, giungano con il tuo aiuto alla pienezza della gloria."),
+                array('','',"Dio onnipotente ed eterno, che nel Battesimo ci hai comunicato la tua stessa vita, fa' che i tuoi figli, rinati alla speranza dell'immortalità, giungano con il tuo aiuto alla pienezza della gloria."),
                 array('ending')
             )
         ),
         "PA6"=>array(
             array(
-                array('','',"Dio onnipotente, fa' che viviamo con rinnovato impegno questi giorni di letizia in onore del Cristo risorto, per testimoniare nelle opere il momoriale della Pasqua che celebriamo nella fede."),
+                array('','',"Dio onnipotente, fa' che viviamo con rinnovato impegno questi giorni di letizia in onore del Cristo risorto, per testimoniare nelle opere il memoriale della Pasqua che celebriamo nella fede."),
                 array('ending')
             )
         ),
@@ -1556,13 +1556,13 @@ class Orazione {
         ),
         "PA75"=>array(
             array(
-                array('','',"O Dio, nostro Padre, che ci hai aperto il passaggio aslla vita eterna con la glorificazione del tuo Figlio e con l'effusione dello Spirito Santo, fa' che, partecipi di così grandi doni, progrediamo nella fede e ci impegnamo sempre più nel tuo servizio."),
+                array('','',"O Dio, nostro Padre, che ci hai aperto il passaggio alla vita eterna con la glorificazione del tuo Figlio e con l'effusione dello Spirito Santo, fa' che, partecipi di così grandi doni, progrediamo nella fede e ci impegniamo sempre più nel tuo servizio."),
                 array('ending')
             )
         ),
         "PA76"=>array(
             array(
-                array('','',"Dio onnipoente ed eterno, che ci dai la gioia di portare a compimento i giorni della Pasqua, fa' che tutta la nostra vita sia una testimonianza del Signore risorto."),
+                array('','',"Dio onnipotente ed eterno, che ci dai la gioia di portare a compimento i giorni della Pasqua, fa' che tutta la nostra vita sia una testimonianza del Signore risorto."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -1622,7 +1622,7 @@ class Orazione {
         ),
         "0122a"=>array(
             array(
-                array('','',"O Dio, fonte di ogni bene, donaci la forza del tuo Spirito che animò il diacono e martire Vincenzo, e lo rede invincibile in mezzo ai tormenti, perché anche la nostra fragile umanità sia sostenuta dalla potenza del tuo amore."),
+                array('','',"O Dio, fonte di ogni bene, donaci la forza del tuo Spirito che animò il diacono e martire Vincenzo, e lo rese invincibile in mezzo ai tormenti, perché anche la nostra fragile umanità sia sostenuta dalla potenza del tuo amore."),
                 array('ending')
             )
         ),
@@ -1640,7 +1640,7 @@ class Orazione {
         ),
         "0126a"=>array(
             array(
-                array('','',"Nella esperienza dei tuoi santi, Signore, tu ci offri tedtimonianzas vissuta si consacrazione a te; fa' che formati alla loro scuola, ci impegnamo con la loro stessa fede ad amarti nell'esercizio delle buone opere."),
+                array('','',"Nella esperienza dei tuoi santi, Signore, tu ci offri testimonianza vissuta si consacrazione a te; fa' che formati alla loro scuola, ci impegniamo con la loro stessa fede ad amarti nell'esercizio delle buone opere."),
                 array('ending')
             )
         ),
@@ -1712,7 +1712,7 @@ class Orazione {
         ),
         "0211a"=>array(
             array(
-                array('','',"O Dio, che rinnovasto la vita monastica con la dottrina e gli esempi del santo abate Benedetto di Aniano, concedici, per sua intercessione, di conservare uno stile di vita in tutto conforma all'insegnamento di Cristo, tuo Figlio."),
+                array('','',"O Dio, che rinnovasti la vita monastica con la dottrina e gli esempi del santo abate Benedetto di Aniano, concedici, per sua intercessione, di conservare uno stile di vita in tutto conforma all'insegnamento di Cristo, tuo Figlio."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -1766,7 +1766,7 @@ class Orazione {
         ),
         "0308a"=>array(
             array(
-                array('','',"Signore, che in san Giovanni di Dio hai fatto risplendere la tua misericordia, concedi anche anoi di esprimere con le opere la sua carità verso i poveri e i malati per essere accolti fra gli eletti nel tuo regno."),
+                array('','',"Signore, che in san Giovanni di Dio hai fatto risplendere la tua misericordia, concedi anche a noi di esprimere con le opere la sua carità verso i poveri e i malati per essere accolti fra gli eletti nel tuo regno."),
                 array('ending')
             )
         ),
@@ -1790,7 +1790,7 @@ class Orazione {
         ),
         "0319a"=>array(
             array(
-                array('','',"Dio onnipotente, che hai voluto affidare gli inizi della nostra redenzione alla custidia premurosa di san Giuseppe, per sua intercessione concedi alla tua Chiesa di cooperare fedelmente al compimento dell'opera di salvezza."),
+                array('','',"Dio onnipotente, che hai voluto affidare gli inizi della nostra redenzione alla custodia premurosa di san Giuseppe, per sua intercessione concedi alla tua Chiesa di cooperare fedelmente al compimento dell'opera di salvezza."),
                 array('ending')
             )
         ),
@@ -1826,7 +1826,7 @@ class Orazione {
         ),
         "0405a"=>array(
             array(
-                array('','',"O Padre, che hai suscitato nella Chiesa san Vincenzo Ferrer, predicatore infaticabile del Vangelo, per richiamare gli uomini all'attesa vigilante del giudizio, concedi anche a noi di preparerci alla venuta del tuo Figlio per contemplarlo nella gloria del suo regno."),
+                array('','',"O Padre, che hai suscitato nella Chiesa san Vincenzo Ferrer, predicatore infaticabile del Vangelo, per richiamare gli uomini all'attesa vigilante del giudizio, concedi anche a noi di prepararci alla venuta del tuo Figlio per contemplarlo nella gloria del suo regno."),
                 array('ending')
             )
         ),
@@ -1874,7 +1874,7 @@ class Orazione {
         ),
         "0425a"=>array(
             array(
-                array('','',"O Dio, che hai glorificato il tuo evengelista Marco con il dono della predicazione apostolica, fa' che alla scuola del Vangelo, impariamo anche noi a seguire fedelmente il Cristo Signore."),
+                array('','',"O Dio, che hai glorificato il tuo evangelista Marco con il dono della predicazione apostolica, fa' che alla scuola del Vangelo, impariamo anche noi a seguire fedelmente il Cristo Signore."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -1904,7 +1904,7 @@ class Orazione {
         ),
         "0502a"=>array(
             array(
-                array('','',"Dio di infinita sapienza, che hai sucitato nella tua Chiesa il vescovo sant'Atanasio, intrepido asssertore della divinità di tuo Figlio, fa' che per la sua intercessione e il suo insegnamento cresciamo sempre nella tua conoscenza e nel tuo amore."),
+                array('','',"Dio di infinita sapienza, che hai suscitato nella tua Chiesa il vescovo sant'Atanasio, intrepido assertore della divinità di tuo Figlio, fa' che per la sua intercessione e il suo insegnamento cresciamo sempre nella tua conoscenza e nel tuo amore."),
                 array('ending')
             )
         ),
@@ -1934,7 +1934,7 @@ class Orazione {
         ),
         "0514a"=>array(
             array(
-                array('','',"O Dio, che hai voluto aggregare san Mattia al collegio degli Apostoli, per sua intercessione concedi a noi, che anbbiamo riucevuto in sorte la tua amicizia, di essere contati nel numero degli eletti."),
+                array('','',"O Dio, che hai voluto aggregare san Mattia al collegio degli Apostoli, per sua intercessione concedi a noi, che abbiamo ricevuto in sorte la tua amicizia, di essere contati nel numero degli eletti."),
                 array('ending')
             )
         ),
@@ -1946,7 +1946,7 @@ class Orazione {
         ),
         "0518a"=>array(
             array(
-                array('','',"O Dio, eterna ricompansa dei tuoi santi, concedi anche a noi, l'invitta costanza nella fede del papa Giovanni I, che ocnfermò il suo servizio apostolico con la testimonianza del martirio."),
+                array('','',"O Dio, eterna ricompensa dei tuoi santi, concedi anche a noi, l'invitta costanza nella fede del papa Giovanni I, che confermò il suo servizio apostolico con la testimonianza del martirio."),
                 array('ending')
             )
         ),
@@ -1958,7 +1958,7 @@ class Orazione {
         ),
         "0520a"=>array(
             array(
-                array('','',"O Padre, che hai donato al tuo sacredote san Bernardino da Siena un singolare amore per il Nome di Gesù, imprimi anche nei nostri cuori il sigillo della tua carità con il fuoco dello Spirito."),
+                array('','',"O Padre, che hai donato al tuo sacerdote san Bernardino da Siena un singolare amore per il Nome di Gesù, imprimi anche nei nostri cuori il sigillo della tua carità con il fuoco dello Spirito."),
                 array('ending')
             )
         ),
@@ -1988,7 +1988,7 @@ class Orazione {
         ),
         "0527a"=>array(
             array(
-                array('','',"O Dio, che hai chiamato al Vangelo i popoli dell'Inghilterra con la predecazione missionaria del santo vescovo Agostino, fa' che il seme delle sua fatiche apostoliche dia frutti di perenne fecondità nella tua Chiesa."),
+                array('','',"O Dio, che hai chiamato al Vangelo i popoli dell'Inghilterra con la predicazione missionaria del santo vescovo Agostino, fa' che il seme delle sua fatiche apostoliche dia frutti di perenne fecondità nella tua Chiesa."),
                 array('ending')
             )
         ),
@@ -2000,7 +2000,7 @@ class Orazione {
         ),
         "0601a"=>array(
             array(
-                array('','',"O Dio, che hai donato al santo martire Giustino una mirabile conoscienza del mistero del Cristo, attraverso la sublime follia della croce, per la sua intercessione allontana da noi le tenebre dell'errore e confermaci nella professione della vera fede."),
+                array('','',"O Dio, che hai donato al santo martire Giustino una mirabile conoscenza del mistero del Cristo, attraverso la sublime follia della croce, per la sua intercessione allontana da noi le tenebre dell'errore e confermaci nella professione della vera fede."),
                 array('ending')
             )
         ),
@@ -2018,7 +2018,7 @@ class Orazione {
         ),
         "0605a"=>array(
             array(
-                array('','',"Interceda per noi, Signore, il santo vescovo e martire Bonifacio, perché cusctodiamo con fierezza e professiamo con coraggio la fede che egli ha insegnato con la parola e testimoniato con il sangue."),
+                array('','',"Interceda per noi, Signore, il santo vescovo e martire Bonifacio, perché custodiamo con fierezza e professiamo con coraggio la fede che egli ha insegnato con la parola e testimoniato con il sangue."),
                 array('ending')
             )
         ),
@@ -2042,7 +2042,7 @@ class Orazione {
         ),
         "0613a"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, che in sant'Antonio di Padova hai dato al tuo popolo un insigne predicatore e un patrono dei poveri e dei sofferenti, fa' che per sua intercessione seguiamo gli insegnamenti del Vangelo e sperimentiamo nella prova il soccorso della tua miseriordia."),
+                array('','',"Dio onnipotente ed eterno, che in sant'Antonio di Padova hai dato al tuo popolo un insigne predicatore e un patrono dei poveri e dei sofferenti, fa' che per sua intercessione seguiamo gli insegnamenti del Vangelo e sperimentiamo nella prova il soccorso della tua misericordia."),
                 array('ending')
             )
         ),
@@ -2060,7 +2060,7 @@ class Orazione {
         ),
         "0622a"=>array(
             array(
-                array('','',"O Dio, che nella passione dei martiri doni alla tua Chiesa la testimonianza suprema della fede, concedi anche anoi, per intercessione dei santi Giovanni Fisher e Tommaso More, la forza di esprimere con la vita il credo che professiamo."),
+                array('','',"O Dio, che nella passione dei martiri doni alla tua Chiesa la testimonianza suprema della fede, concedi anche a noi, per intercessione dei santi Giovanni Fisher e Tommaso More, la forza di esprimere con la vita il credo che professiamo."),
                 array('ending')
             )
         ),
@@ -2150,7 +2150,7 @@ class Orazione {
         ),
         "0714a"=>array(
             array(
-                array('','',"O Padre, che nel santo sacerdote Camillo de Lellis hai fatto risplendere la carità di Cristo verso gli infermi, infondi in noi lo Spirito del tuo amore, perché sappiamo riconoscerti e servirti nei nostri fratelli, e nell'ora della morte opossiamo presentarci senza timore davanti a te."),
+                array('','',"O Padre, che nel santo sacerdote Camillo de Lellis hai fatto risplendere la carità di Cristo verso gli infermi, infondi in noi lo Spirito del tuo amore, perché sappiamo riconoscerti e servirti nei nostri fratelli, e nell'ora della morte possiamo presentarci senza timore davanti a te."),
                 array('ending')
             )
         ),
@@ -2180,13 +2180,13 @@ class Orazione {
         ),
         "0723a"=>array(
             array(
-                array('','',"Signore, nostro Dio, che hai rivelato a santa Brigida la sapienza della croce nella contemplazione amorosa della passione del tuo Figlio, concedi a noi tuoi fedeli di esultare di gioia nella manifestazione gloiriosa del Signore risorto."),
+                array('','',"Signore, nostro Dio, che hai rivelato a santa Brigida la sapienza della croce nella contemplazione amorosa della passione del tuo Figlio, concedi a noi tuoi fedeli di esultare di gioia nella manifestazione gloriosa del Signore risorto."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
         "0725a"=>array(
             array(
-                array('','',"Dio onnipotente ed eterno, tu hai vouto che san Giacomo, primo fra gli Apostoli, sacrificasse la vita per il vangelo; per la sua gloriose testimonianza conferma nella fede la tua Chiesa e sostienila sempre con la tua protezione."),
+                array('','',"Dio onnipotente ed eterno, tu hai voluto che san Giacomo, primo fra gli Apostoli, sacrificasse la vita per il vangelo; per la sua gloriose testimonianza conferma nella fede la tua Chiesa e sostienila sempre con la tua protezione."),
                 array('ending')
             )
         ),
@@ -2198,7 +2198,7 @@ class Orazione {
         ),
         "0729a"=>array(
             array(
-                array('','',"O Dio, che nella casa di Betania facesti trovare al tuo Figlio l'affetto dell'amicizia, le premure dell'ospitalità e l'adorante silenzio dell'ascolto, donaci di seguire il M<estro nell'ardonre della contemplazione e nel fervore delle opere, perché un giorno egli stesso ci introduca come amici nelle dimore di pace del tuo regno."),
+                array('','',"O Dio, che nella casa di Betania facesti trovare al tuo Figlio l'affetto dell'amicizia, le premure dell'ospitalità e l'adorante silenzio dell'ascolto, donaci di seguire il M<estro nell'ardore della contemplazione e nel fervore delle opere, perché un giorno egli stesso ci introduca come amici nelle dimore di pace del tuo regno."),
                 array('ending')
             )
         ),
@@ -2210,19 +2210,19 @@ class Orazione {
         ),
         "0731a"=>array(
             array(
-                array('','',"O Dio, che a gloria del tuo nome hai suscitato nella Chiesa sant'Ignazio di Loyola, concedi anche anoi, con il suo aiuto e il suo esempio di combattere la buona battaglia del Vangelo, per ricevere in cielo la corona dei santi."),
+                array('','',"O Dio, che a gloria del tuo nome hai suscitato nella Chiesa sant'Ignazio di Loyola, concedi anche a noi, con il suo aiuto e il suo esempio di combattere la buona battaglia del Vangelo, per ricevere in cielo la corona dei santi."),
                 array('ending')
             )
         ),
         "0801a"=>array(
             array(
-                array('','',"O Dio, che proponi alla tua Chiesa modelli sempre nuovi di vita cristiana, fa' che imitiamo l'ardore apostolico del santo vescovo Alfonso Maria de'Liguori nel servizio dei frarelli, per ricevere con lui il premio riservato ai tuoi servi fedeli."),
+                array('','',"O Dio, che proponi alla tua Chiesa modelli sempre nuovi di vita cristiana, fa' che imitiamo l'ardore apostolico del santo vescovo Alfonso Maria de'Liguori nel servizio dei fratelli, per ricevere con lui il premio riservato ai tuoi servi fedeli."),
                 array('ending')
             )
         ),
         "0802a"=>array(
             array(
-                array('','',"Dio onnipotente, concedi ai tuoi fedeli di imitare la fortezza del vescovo sant'Eusebio, assertore intrepido della divinità del Cristo, perché nella ferma adesione alla fede, di egli fu maestro e testimone, possiamo entrare in comunione di vita con il nostro Signiore Gesù Cristo, tuo Figlio."),
+                array('','',"Dio onnipotente, concedi ai tuoi fedeli di imitare la fortezza del vescovo sant'Eusebio, assertore intrepido della divinità del Cristo, perché nella ferma adesione alla fede, di egli fu maestro e testimone, possiamo entrare in comunione di vita con il nostro Signore Gesù Cristo, tuo Figlio."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -2252,7 +2252,7 @@ class Orazione {
         ),
         "0807b"=>array(
             array(
-                array('','',"Dio, Padre misericordioso, che al sacerdote san Gaetano hai ispirato il proposito di vivere secondo il modello della comunità apostolica, per il suo esempio e la sua inercessione concedi anche a noi di confidare pienamente nella tua provvidenza e di cercare sempre il tuo regno."),
+                array('','',"Dio, Padre misericordioso, che al sacerdote san Gaetano hai ispirato il proposito di vivere secondo il modello della comunità apostolica, per il suo esempio e la sua intercessione concedi anche a noi di confidare pienamente nella tua provvidenza e di cercare sempre il tuo regno."),
                 array('ending')
             )
         ),
@@ -2282,7 +2282,7 @@ class Orazione {
         ),
         "0814a"=>array(
             array(
-                array('','',"O Dio, che hai dato alla Chiesa e al mondo san Massimiliano Maria Kolbe, sacerdote e martire, ardente di amore per la Vergine Immacolata, interamente dedito alla missione apostolica e al servizio eroico del prossimo, per la sua intecessione concedi a noi, a gloria del tuo nome, di impegnarci senza riserva al bene dell'umanità per imitare, in vita e in morte, il Cristo tuo Figlio."),
+                array('','',"O Dio, che hai dato alla Chiesa e al mondo san Massimiliano Maria Kolbe, sacerdote e martire, ardente di amore per la Vergine Immacolata, interamente dedito alla missione apostolica e al servizio eroico del prossimo, per la sua intercessione concedi a noi, a gloria del tuo nome, di impegnarci senza riserva al bene dell'umanità per imitare, in vita e in morte, il Cristo tuo Figlio."),
                 array('','',"Egli è Dio e vive e regna con te nell'unità dello Spirito Santo, per tutti i secoli dei secoli.")
             )
         ),
@@ -2420,7 +2420,7 @@ class Orazione {
         ),
         "0918a"=>array(
             array(
-                array('','',"O Dio, hai fatto rispledere di mirabili virtù il beato papa Vittore III nell'adempimento del compito abbaziale e nell'esercizio del supremo pontificato; per la sua intercessione concedi a noi un perseverante impegno nel tendere alla perfezione evangelica e nel promuovere la santificazione del popolo."),
+                array('','',"O Dio, hai fatto risplendere di mirabili virtù il beato papa Vittore III nell'adempimento del compito abbaziale e nell'esercizio del supremo pontificato; per la sua intercessione concedi a noi un perseverante impegno nel tendere alla perfezione evangelica e nel promuovere la santificazione del popolo."),
                 array('ending')
             )
         ),
@@ -2432,7 +2432,7 @@ class Orazione {
         ),
         "0921a"=>array(
             array(
-                array('','',"O Dio, che nel disegno della tua misericordia hai scelto Matteo il pubblicano e lo hai costituito apostolo del Vangelo, concedi anche a noi, per il suo esempio e la sua intercessione, di corrispondere alla vocazione cristiana e di seguirti fedelmnente in tutti i giorni della nostra vita."),
+                array('','',"O Dio, che nel disegno della tua misericordia hai scelto Matteo il pubblicano e lo hai costituito apostolo del Vangelo, concedi anche a noi, per il suo esempio e la sua intercessione, di corrispondere alla vocazione cristiana e di seguirti fedelmente in tutti i giorni della nostra vita."),
                 array('ending')
             )
         ),
@@ -2450,7 +2450,7 @@ class Orazione {
         ),
         "0928a"=>array(
             array(
-                array('','',"O Dio, che al martire san Venceslào hai dato il coraggio di anteporre il regno dei cieli al fadcino del potere terreno, per la sua intercessione concedi anche a noi di vincere ogni forma di egoismo per aderire a te con tutto il cuore."),
+                array('','',"O Dio, che al martire san Venceslào hai dato il coraggio di anteporre il regno dei cieli al fascino del potere terreno, per la sua intercessione concedi anche a noi di vincere ogni forma di egoismo per aderire a te con tutto il cuore."),
                 array('ending')
             )
         ),
@@ -2504,13 +2504,13 @@ class Orazione {
         ),
         "1009a"=>array(
             array(
-                array('','',"O Dio, che hai mandato il vescovo san Dionigi e i suoi compagni a predicre il tuo Vangelo ai popoli pagani, e li hai resi intrepidi nella prova del martirio, concedi a noi, per loro intercessione, di non esaltarci nei successi e di non perderci d'animo nelle difficoltà della vita."),
+                array('','',"O Dio, che hai mandato il vescovo san Dionigi e i suoi compagni a predicare il tuo Vangelo ai popoli pagani, e li hai resi intrepidi nella prova del martirio, concedi a noi, per loro intercessione, di non esaltarci nei successi e di non perderci d'animo nelle difficoltà della vita."),
                 array('ending')
             )
         ),
         "1009b"=>array(
             array(
-                array('','',"O Dio, fonte di ogni bene, che hai ispirato al sacertote san Giovanni Leonardi il vivo desiderio di portare a tutti i popoli il tuo Vangelo, fa' che per tua intercessione si diffonda sempre e in ogni luogo la vera fede di Cristo."),
+                array('','',"O Dio, fonte di ogni bene, che hai ispirato al sacerdote san Giovanni Leonardi il vivo desiderio di portare a tutti i popoli il tuo Vangelo, fa' che per tua intercessione si diffonda sempre e in ogni luogo la vera fede di Cristo."),
                 array('ending')
             )
         ),
@@ -2534,19 +2534,19 @@ class Orazione {
         ),
         "1016b"=>array(
             array(
-                array('','',"Effondi su di noi, Signore, lo spirito di santità che hai donato a santa Margherita Maria, perché ppssiamo conoscere l'amore del Cristo, che supera ogni conoscenza, e godere la pienezza della vita divina."),
+                array('','',"Effondi su di noi, Signore, lo spirito di santità che hai donato a santa Margherita Maria, perché possiamo conoscere l'amore del Cristo, che supera ogni conoscenza, e godere la pienezza della vita divina."),
                 array('ending')
             )
         ),
         "1017a"=>array(
             array(
-                array('','',"Dio onnipotente ed etrno, che nel sacrificio del martiri edifichi la tua Chiesa, mistico corpo del Cristo, fa' che la gloriosa passione che meritò a sant'Ignazio una corona immortale, ci renda sempre forti nella fede."),
+                array('','',"Dio onnipotente ed eterno, che nel sacrificio del martiri edifichi la tua Chiesa, mistico corpo del Cristo, fa' che la gloriosa passione che meritò a sant'Ignazio una corona immortale, ci renda sempre forti nella fede."),
                 array('ending')
             )
         ),
         "1018a"=>array(
             array(
-                array('','',"Signore Dio nostro, che hai scelto san Luca per rivelare al mondo con la predicazione e con gli scritti il mistero della tua predilezione per i poveri, fa' che i cristiani forìmino un cuor solo e un'anima sola, e tutti i popoli vedano la tua salvezza."),
+                array('','',"Signore Dio nostro, che hai scelto san Luca per rivelare al mondo con la predicazione e con gli scritti il mistero della tua predilezione per i poveri, fa' che i cristiani formino un cuor solo e un'anima sola, e tutti i popoli vedano la tua salvezza."),
                 array('ending')
             )
         ),
@@ -2582,7 +2582,7 @@ class Orazione {
         ),
         "1101a"=>array(
             array(
-                array('','',"Dio onniportente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'unica festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri fratelli, l'abbondanza della tua misericordia."),
+                array('','',"Dio onnipotente ed eterno, che doni alla tua Chiesa la gioia di celebrare in un'unica festa i meriti e la gloria di tutti i Santi, concedi al tuo popolo, per la comune intercessione di tanti nostri fratelli, l'abbondanza della tua misericordia."),
                 array('ending')
             )
         ),
@@ -2624,7 +2624,7 @@ class Orazione {
         ),
         "1111a"=>array(
             array(
-                array('','',"O Dio, che hai fatto risplenere la tua gloria nella vita e nella morte del vescovo san Martino, rinnova in noi i prodigi della tua grazia, perché né morte né vita ci possano mai separare del tuo amore."),
+                array('','',"O Dio, che hai fatto risplendere la tua gloria nella vita e nella morte del vescovo san Martino, rinnova in noi i prodigi della tua grazia, perché né morte né vita ci possano mai separare del tuo amore."),
                 array('ending')
             )
         ),
@@ -2696,7 +2696,7 @@ class Orazione {
         ),
         "1121a"=>array(
             array(
-                array('','',"Guarda, Signore, il tuo popolo riunito nel ricordo della beata Vergine Maria; fa' che per sua intercessione partecipii alla pienezza della tua grazia."),
+                array('','',"Guarda, Signore, il tuo popolo riunito nel ricordo della beata Vergine Maria; fa' che per sua intercessione partecipi alla pienezza della tua grazia."),
                 array('ending')
             )
         ),
@@ -2708,7 +2708,7 @@ class Orazione {
         ),
         "1123a"=>array(
             array(
-                array('','',"O Dio, mirabile nei tuoi santi, benedici e rallegra la tua Chiesa nel glorioso ricordo del papa san Clemente I, che, sacerdote e martire del tuo Figlio, testimoniò con il sangue il mistero che celebrava e confermò conla vita l'annunzio del Vangelo."),
+                array('','',"O Dio, mirabile nei tuoi santi, benedici e rallegra la tua Chiesa nel glorioso ricordo del papa san Clemente I, che, sacerdote e martire del tuo Figlio, testimoniò con il sangue il mistero che celebrava e confermò con la vita l'annunzio del Vangelo."),
                 array('ending')
             )
         ),
@@ -2822,7 +2822,7 @@ class Orazione {
         ),
         "1228a"=>array(
             array(
-                array('','',"Signore nostro Dio, che oggi nei santi Innocenti sei stato gloirificato non a parole, ma col sangue, concedi anche a noi di esprimere nella vita la fede che professiamo con le labbra."),
+                array('','',"Signore nostro Dio, che oggi nei santi Innocenti sei stato glorificato non a parole, ma col sangue, concedi anche a noi di esprimere nella vita la fede che professiamo con le labbra."),
                 array('ending')
             )
         ),

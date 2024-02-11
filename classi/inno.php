@@ -130,7 +130,7 @@ class Inno {
             array(
                 array('','',"Del giorno giunti al termine,"),
                 array('','',"o Creator degli esseri,"),
-                array('','',"la nosra attesa illumina,"),
+                array('','',"la nostra attesa illumina,"),
                 array('','',"la luce eterna svelaci.")
             ),
             array(
@@ -429,7 +429,7 @@ class Inno {
             ),
             array(
                 array('','',"or che il sole tramonta,"),
-                array('','',"largisci agli operai"),
+                array('','',"elargisci agli operai"),
                 array('','',"la mercede promessa.")
             ),
             array(
@@ -536,7 +536,7 @@ class Inno {
             ),
             array(
                 array('','',"San Pietro che in quest'ora"),
-                array('','',"salì al tekpio a pregare,"),
+                array('','',"salì al tempio a pregare,"),
                 array('','',"rafforzi i nostri passi"),
                 array('','',"sulla via della fede.")
             ),
@@ -755,7 +755,7 @@ class Inno {
             ),
             array(
                 array('','',"Porta santa del tempio,"),
-                array('','',"inbtatta ed inviolabile,"),
+                array('','',"intatta ed inviolabile,"),
                 array('','',"ti apri al re della gloria.")
             ),
             array(
@@ -906,7 +906,7 @@ class Inno {
             ),
             array(
                 array('','',"La celeste Gerusalemme,"),
-                array('','',"la cui luce è l'Agnel"),
+                array('','',"la cui luce è l'Agnello"),
                 array('','',"possiede, come gemme brillanti,"),
                 array('','',"voi gloriose fondamenta.")
             ),
@@ -993,7 +993,7 @@ class Inno {
                 array('','',"di Cristo, salvezza e vittoria.")
             ),
             array(
-                array('','',"Il nuovo messsaggio di vita"),
+                array('','',"Il nuovo messaggio di vita"),
                 array('','',"vi ha spinti ai confini del mondo,"),
                 array('','',"su lunghi sentieri di croce,"),
                 array('','',"araldi del giorno che viene.")
@@ -1007,7 +1007,7 @@ class Inno {
         ),
         "p1524"=>array(
             array(
-                array('','',"Nela luminosa gioia pasquale"),
+                array('','',"Nella luminosa gioia pasquale"),
                 array('','',"il sole risplende di puro raggio"),
                 array('','',"allorché gli apostoli mirano"),
                 array('','',"con lo sguardo il Cristo risorto.")
@@ -1170,7 +1170,7 @@ class Inno {
             ),
             array(
                 array('','',"Per le ardenti ispirazioni del tuo Spirito,"),
-                array('','',"qui rifulsero vivede luci,"),
+                array('','',"qui rifulsero vivide luci,"),
                 array('','',"che manifestano i sentieri"),
                 array('','',"della salvezza nei secoli.")
             ),
@@ -1189,7 +1189,7 @@ class Inno {
             array(
                 array('','',"Per sua intercessione ti preghiamo,"),
                 array('','',"o Dio, permettici di percorrere il sentiero della verità,"),
-                array('','',"affincé possiamo conseguire te,"),
+                array('','',"affinché possiamo conseguire te,"),
                 array('','',"premio eterno.")
             ),
             array(
@@ -1271,7 +1271,7 @@ class Inno {
             ),
             array(
                 array('','',"Concedi alla tua Chiesa,"),
-                array('','',"che venera san Bendedetto,"),
+                array('','',"che venera san Benedetto,"),
                 array('','',"la vittoria sul male.")
             ),
             array(
@@ -1384,7 +1384,7 @@ class Inno {
                 array('','',"Tu chiami: i chiamati corrono alacri,"),
                 array('','',"lasciano ogni cosa, desiderando, sotto la tua guida,"),
                 array('','',"per il sentiero regale della croce,"),
-                array('','',"cecatre continuamente soltanto il Padre.")
+                array('','',"cercate continuamente soltanto il Padre.")
             ),
             array(
                 array('','',"Questo santo, così ardente per dono del cielo,"),
@@ -1469,7 +1469,7 @@ class Inno {
                 array('','',"Concedi, o buon Pastore,"),
                 array('','',"ai fratelli defunti"),
                 array('','',"di vedere il tuo volto"),
-                array('','',"nela gloria dei cieli.")
+                array('','',"nella gloria dei cieli.")
             ),
             array(
                 array('','',"A te sia gloria, o Cristo,"),
@@ -1483,7 +1483,7 @@ class Inno {
     protected $proprio=array(
         "ves_PAL"=>array(
             array(
-                array('','',"Ecco il vessillo dela croce,"),
+                array('','',"Ecco il vessillo della croce,"),
                 array('','',"mistero di morte e di gloria:"),
                 array('','',"l'artefice di tutto il creato"),
                 array('','',"è appeso ad un patibolo.")
@@ -1587,7 +1587,7 @@ class Inno {
             array(
                 array('','',"Si rinnova il prodigio"),
                 array('','',"degli antichi profeti:"),
-                array('','',"una misticas ebbrezza"),
+                array('','',"una mistica ebbrezza"),
                 array('','',"tocca le lingue e i cuori.")
             ),
             array(
@@ -1625,7 +1625,7 @@ class Inno {
             array(
                 array('','',"O dolce consolatore,"),
                 array('','',"dono del Padre altissimo,"),
-                array('','',"acwua viva, fuoco, amore,"),
+                array('','',"acqua viva, fuoco, amore,"),
                 array('','',"santo crisma dell'anima.")
             ),
             array(
@@ -1878,11 +1878,11 @@ class Inno {
             ),
             array(
                 array('','',"Entro le tue mura"),
-                array('','',"si avvucendano gli angeli"),
+                array('','',"si avvicendano gli angeli"),
                 array('','',"in devoto servizio.")
             ),
             array(
-                array('','',"Nerl divino fanciullo"),
+                array('','',"Nel divino fanciullo"),
                 array('','',"si congiungono gli animi"),
                 array('','',"in perfetta letizia.")
             ),
@@ -2102,7 +2102,7 @@ class Inno {
                 array('','',"in quelli che amano pregare in quest'ora.")
             ),
             array(
-                array('','',"Contemporanemente per questi ci sia,"),
+                array('','',"Contemporaneamente per questi ci sia,"),
                 array('','',"una fame che Egli stesso sazi di sé;"),
                 array('','',"affinché il peccato procuri disgusto"),
                 array('','',"e la virtù desiderio.")
@@ -2411,7 +2411,7 @@ class Inno {
             ),
             array(
                 array('','',"Negli arcani silenzi"),
-                array('','',"del temkpio d'Israele"),
+                array('','',"del tempio d'Israele"),
                 array('','',"un angelo di Dio"),
                 array('','',"svela al padre il tuo nome.")
             ),
@@ -2469,7 +2469,7 @@ class Inno {
         "lodi_0629a"=>array(
             array(
                 array('','',"Uniti nel martirio"),
-                array('','',"gli aspostoli di Cristo"),
+                array('','',"gli apostoli di Cristo"),
                 array('','',"sigillano nel sangue"),
                 array('','',"l'annunzio del Vangelo.")
             ),
@@ -2588,7 +2588,7 @@ class Inno {
             array(
                 array('','',"Il tuo angelo,"),
                 array('','',"che ci hai assegnato come custode,"),
-                array('','',"sia qui vicinio a noi"),
+                array('','',"sia qui vicino a noi"),
                 array('','',"per proteggerci dal contagio delle colpe.")
             ),
             array(
@@ -2630,7 +2630,7 @@ class Inno {
                 array('','',"non permetta che gli abitanti riposino.")
             ),
             array(
-                array('','',"Continuamwente ci sia una pia lode"),
+                array('','',"Continuamente ci sia una pia lode"),
                 array('','',"per la Santa Trinità, dalla cui perpetua volontà"),
                 array('','',"è retta questa triplice macchina"),
                 array('','',"e la cui gloria regna per tutti i secoli.")
@@ -2724,7 +2724,7 @@ class Inno {
             ),
             array(
                 array('','',"Dolce padre dei poveri,"),
-                array('','',"amico dela pace,"),
+                array('','',"amico della pace,"),
                 array('','',"tu splendi come un sole"),
                 array('','',"nella Chiesa di Dio!")
             ),
@@ -2744,7 +2744,7 @@ class Inno {
             ),
             array(
                 array('','',"Insieme lodiamo con venerazione"),
-                array('','',"gli incliti arcangeli, e soprattuto"),
+                array('','',"gli incliti arcangeli, e soprattutto"),
                 array('','',"il principe dell'esercito celeste, Michele, "),
                 array('','',"che con forza distrugge Satana.")
             ),
@@ -2777,7 +2777,7 @@ class Inno {
             array(
                 array('','',"Manda dai cieli Raffaele, l'angelo"),
                 array('','',"medico di salvezza per noi,"),
-                array('','',"afficné sani tutti gli ammalati e parimenti"),
+                array('','',"affinché sani tutti gli ammalati e parimenti"),
                 array('','',"diriga le nostre azioni.")
             ),
             array(
@@ -3085,45 +3085,6 @@ class Inno {
 
         //----------------------------------------------------------------------------
         //FESTE
-        /*if ($this->actual['fesCode']=='1226a') {
-            if ($this->actual['ora']=='lodi') {
-                $this->actual['inno']='p1574';
-                $this->actual['proprio']='';
-            }
-            elseif ($this->actual['ora']=='ves') {
-                $this->actual['proprio']='ves_NAT';
-            }
-        }
-        elseif ($this->actual['fesCode']=='1227a') {
-            if ($this->actual['ora']=='lodi') {
-                $this->actual['inno']='p1523';
-                $this->actual['proprio']='';
-            }
-            elseif ($this->actual['ora']=='ves') {
-                $this->actual['proprio']='ves_NAT';
-            }
-        }
-        elseif ($this->actual['fesCode']=='1228a') {
-            if ($this->actual['ora']=='lodi') {
-                $this->actual['proprio']='lodi_1228a';
-            }
-            elseif ($this->actual['ora']=='ves') {
-                $this->actual['proprio']='ves_NAT';
-            }
-        }
-        elseif ($this->actual['fesCode']=='1229a' || $this->actual['fesCode']=='1230a') {
-            if ($this->actual['ora']=='lodi') {
-                $this->actual['proprio']='lodi_NAT';
-            }
-            elseif ($this->actual['ora']=='ves') {
-                $this->actual['proprio']='ves_NAT';
-            }
-        }
-        elseif ($this->actual['fesCode']=='1231a') {
-            if ($this->actual['ora']=='lodi') {
-                $this->actual['proprio']='lodi_NAT';
-            }
-        }*/
 
         //###################################
         //pastori,dottori,martiri,martire,monaci,religiosi,religiose,santi,sante,dedica,apostoli,BVM,SG,MIC,ANG,DEF

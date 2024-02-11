@@ -1044,7 +1044,7 @@ class Responsorio {
                 }
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
-                            array('ebd','',"Il Signore ci insergnerà le sue vie,"),
+                            array('ebd','',"Il Signore ci insegnerà le sue vie,"),
                             array('ris','',"e cammineremo per i suoi sentieri."),
                         );
                 }
@@ -1094,7 +1094,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                             array('ebd','',"I confini della terra hanno veduto, alleluia,"),
-                            array('ris','',"la salvezza del nosgtro Dio, alleluia."),
+                            array('ris','',"la salvezza del nostro Dio, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -1238,7 +1238,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                             array('ebd','',"I confini della terra hanno veduto, alleluia,"),
-                            array('ris','',"la salvezza del nosgtro Dio, alleluia."),
+                            array('ris','',"la salvezza del nostro Dio, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -1274,7 +1274,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                             array('ebd','',"I confini della terra hanno veduto, alleluia,"),
-                            array('ris','',"la salvezza del nosgtro Dio, alleluia."),
+                            array('ris','',"la salvezza del nostro Dio, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -1310,7 +1310,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                             array('ebd','',"I confini della terra hanno veduto, alleluia,"),
-                            array('ris','',"la salvezza del nosgtro Dio, alleluia."),
+                            array('ris','',"la salvezza del nostro Dio, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -1346,7 +1346,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                             array('ebd','',"I confini della terra hanno veduto, alleluia,"),
-                            array('ris','',"la salvezza del nosgtro Dio, alleluia."),
+                            array('ris','',"la salvezza del nostro Dio, alleluia."),
                         );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -1573,7 +1573,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='nona') {
                     $this->info=array(
                             array('ebd','',"Mi hai fatto entrare nelle tenebre"),
-                            array('ris','',"come chi è moerto da gran tempo."),
+                            array('ris','',"come chi è morto da gran tempo."),
                         );
                 }
                 elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
@@ -1598,7 +1598,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='terza') {
                     $this->info=array(
                         array('ebd','',"Non abbandonarmi nel sepolcro, Signore;"),
-                        array('ris','',"non lasciare che il tuo santo veda la corruzine."),
+                        array('ris','',"non lasciare che il tuo santo veda la corruzione."),
                     );
                 }
                 elseif($this->actual['ora']=='sesta') {
@@ -1876,7 +1876,7 @@ class Responsorio {
                     elseif($this->actual['today']<$this->actual['ASC']) {
                         $this->info=array(
                             array('ris','',"I discepoli videro il Signore."),
-                            array('ebd','','E furono pienio di gioia.'),
+                            array('ebd','','E furono pieni di gioia.'),
                             array('*','2',"Alleluia, alleluia.")
                         );
                     }
@@ -2443,7 +2443,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='lodi') {
                     $this->info=array(
                         array('ris','',"Ave, Maria, piena di grazia, il Signore è con te."),
-                        array('ebd','',"Benedeta tu fra le donne, benedetto il frutto del tuo seno."),
+                        array('ebd','',"Benedetta tu fra le donne, benedetto il frutto del tuo seno."),
                         array('*','2',"Alleluia, alleluia.")
                     );
                 }
@@ -2486,7 +2486,7 @@ class Responsorio {
                 elseif($this->actual['ora']=='lodi') {
                     $this->info=array(
                         array('ris','',"Ave, Maria, piena di grazia,"),
-                        array('ebd','',"Benedeta tu fra le donne, benedetto il frutto del tuo seno:"),
+                        array('ebd','',"Benedetta tu fra le donne, benedetto il frutto del tuo seno:"),
                         array('*','2',"il Signore è con te.")
                     );
                 }
@@ -2796,7 +2796,7 @@ class Responsorio {
             if($this->actual['ora']=='lodi') {
                 $this->info=array(
                     array('ris','',"Dio, l'Altissimo,"),
-                    array('ebd','',"Ha reso immaolata la mia vita;"),
+                    array('ebd','',"Ha reso immacolata la mia vita;"),
                     array('*','2',"mi ha vestita della sua potenza.")
                 );
             }
@@ -3202,7 +3202,7 @@ class Responsorio {
                         elseif($this->actual['ora']=='sesta') {
                             $this->info=array(
                                 array('ebd','',"confido in Dio, non ho timore, alleluia:"),
-                                array('ris','',"chi portrà farmi del male? Alleluia."),
+                                array('ris','',"chi potrà farmi del male? Alleluia."),
                             );
                         }
                         elseif($this->actual['ora']=='nona') {
@@ -3245,7 +3245,7 @@ class Responsorio {
                         elseif($this->actual['ora']=='sesta') {
                             $this->info=array(
                                 array('ebd','',"confido in Dio, non ho timore:"),
-                                array('ris','',"chi portrà farmi del male?"),
+                                array('ris','',"chi potrà farmi del male?"),
                             );
                         }
                         elseif($this->actual['ora']=='nona') {
@@ -4198,7 +4198,7 @@ class Responsorio {
                     //Marta, Maria e Lazzaro
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
-                            array('ris','',"Maria stavain ascolto della parola del Signore"),
+                            array('ris','',"Maria stava in ascolto della parola del Signore"),
                             array('ebd','',"Maria ha scelto la parte migliore"),
                             array('*','2',"e Marta lo serviva.")
                         );
@@ -4487,7 +4487,7 @@ class Responsorio {
                     }
                     elseif($this->actual['ora']=='nona') {
                         $this->info=array(
-                            array('ebd','',"Fu eletta da Dioe fu amata:"),
+                            array('ebd','',"Fu eletta da Dio e fu amata:"),
                             array('ris','',"egli la fece abitare nella sua tenda."),
                         );
                     }

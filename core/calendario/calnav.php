@@ -1,7 +1,7 @@
 <?php
 
 class calnav {
-    //fornisce una riga di intestaziona del calendario con la quale è possibile navigare attraverso di esso
+    //fornisce una riga di intestazione del calendario con la quale è possibile navigare attraverso di esso
 
     //situazione attuale
     protected $d=array(
@@ -15,7 +15,7 @@ class calnav {
 
     /*
         risoluzione : indica il grado di precisione del calendario (Y , M , W , D)
-        range       : YYYYMMDD che indica l'intrvallo del navigatore
+        range       : YYYYMMDD che indica l'intervallo del navigatore
         tag         : modo di visualizzare la data ( come date() )
         mtype       : modo di visualizzare il mese (nome (Dicembre) , tag (Dic) , numero (12) )
         m123        : cursori in meno (anno , mese , settimana , giorno , none"none") , step

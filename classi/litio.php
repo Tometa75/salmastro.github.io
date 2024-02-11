@@ -14,10 +14,10 @@ require_once('testo.php');
 
 class Litio {
 
-    protected $invitatorio=array(
+    /*protected $invitatorio=array(
         "titolo"=>"Invitatorio",
         "st"=>array('P1','SAL')
-    );
+    );*/
 
     protected $base=array(
         "lodi"=>array(
@@ -77,41 +77,6 @@ class Litio {
 
     );
 
-    /*protected $salterio=array(
-        "lodi"=>array(
-            array(
-                "PI"=>"inizio",
-                "INNO"=>array("inno_S_0_1","inno_S_0_2"),
-                "S1"=>array("salmo_92"),
-                "S2"=>array("salmo_3"),
-                "S3"=>array("salmo_29"),
-                "CA"=>array("cantico_AT_47","cantico_AT_48"),
-                "S5"=>array("salmo_146_147"),
-                "LB"=>array("lettura_S_0"),
-                "RB"=>array("resp_S_0"),
-                "ZAC"=>array("cantico_ZAC"),
-                "PN"=>array("padrenostro"),
-                "OR"=>array("oraz_S_0"),
-                "PC"=>"fine"
-            ),
-            array(
-                "PI"=>"inizio",
-                "INNO"=>array("inno_S_1_1"),
-                "S1"=>array("salmo_99"),
-                "S2"=>array("salmo_62"),
-                "S3"=>array("salmo_100"),
-                "CA"=>array("cantico_AT_4","cantico_AT_16"),
-                "S5"=>array("salmo_134"),
-                "LB"=>array("lettura_S_1"),
-                "RB"=>array("resp_S_1"),
-                "ZAC"=>array("cantico_ZAC"),
-                "PN"=>array("padrenostro"),
-                "OR"=>array("oraz_S_1"),
-                "PC"=>"fine"
-            )
-        )
-    );*/
-
     public $map;
     public $vig;
     public $config=array();
@@ -139,7 +104,7 @@ class Litio {
         $this->vig=$vig;
         $this->config=$config;
 
-        $this->map['invitatorio']=$this->invitatorio;
+        //$this->map['invitatorio']=$this->invitatorio;
         $this->map['actual']=$this->base;
 
         //{"today":"20260507","tempo":{"codice":"P","nome":"Tempo di Pasqua","colore":"white","fine":"pentecoste"},"anno":"A","settimana":5,"quarto":"","weekDay":"4","pari":true,"festa":[],"evento":{"PA54":{"titolo":"5\u00b0 settimana di Pasqua - Gioved\u00ec","tipo":"F"}},"rocho":false,"errore":false}
@@ -206,29 +171,6 @@ class Litio {
 
     function build() {
 
-        /*MAP
-        $m=array(
-			"today"=>$day,
-			"tempo"=>$this->getTempo($day),
-			"anno"=>$this->getAnno(),
-			"settimana"=>"",
-			"quarto"=>"",
-			"weekDay"=>date('w',mainFunc::gab_tots($day)),
-			"pari"=>$this->info['pari'],
-			"festa"=>array(),
-			"evento"=>array(),
-			"rocho"=>false,
-			"errore"=>false
-		);
-        */
-        /*CONFIG
-        var config={
-            "ora":$('#sal_ora').val(),
-            "festa":$('#sal_festa').val(),
-            "mix":$('#sal_mix').prop('checked')?1:0,
-            "contesto":$('#sal_contesto').val(),
-        }
-        */
         $this->actual['ora']=$this->config['ora'];
 
         if ($this->config['ora']=='ves1' || $this->config['ora']=='comp1') {
