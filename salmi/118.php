@@ -326,7 +326,7 @@ $this->closure['load']=function() {
                 array('','N',"10 - IOD"),
                 array('','*',"Le tue mani mi hanno fatto e plasmato;"),
                 array('','2',"fammi capire e imparerò i tuoi comandi."),
-                array('','*',"I tuoi fedeli al vedermi avrano gioia,"),
+                array('','*',"I tuoi fedeli al vedermi avranno gioia,"),
                 array('','2',"perché ho sperato nella tua parola.")
             ),
             array(

@@ -28,7 +28,7 @@ $this->closure['load']=function() {
                 array('','*',"Non siedo con uomini falsi"),
                 array('','2',"e non frequento i sìmulatori."),
                 array('','*',"Odio l'alleanza dei malvagi,"),
-                array('','2',"mon mi associo con gli empi.")
+                array('','2',"non mi associo con gli empi.")
             ),
             array(
                 array('','*',"Lavo nell'innocenza le mie mani"),

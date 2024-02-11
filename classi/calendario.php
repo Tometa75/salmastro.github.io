@@ -3,7 +3,7 @@
 class Calendario {
 
 	//l'anno liturgico si intende da gennaio 01 alla prima di avvento esclusa
-	//il battesimo di gesù coincide con la prima domenica del tempo ordinario
+	//il battesimo di Gesù coincide con la prima domenica del tempo ordinario
 	//RE (Cristo Re), corrisponde alla 34 domenica del tempo ordinario
 	protected $info=array(
 		"today"=>"",

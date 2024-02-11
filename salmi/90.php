@@ -7,13 +7,13 @@ $this->closure['load']=function() {
     if ($this->actual['tempo']=='P') {
         $this->antifona[0]=array(
             "Dimora,",
-            "all'ombra dell'Onnipotente, sotto le sue ali troerai rifugio, alleluia."
+            "all'ombra dell'Onnipotente, sotto le sue ali troverai rifugio, alleluia."
         );
     }
     else {
         $this->antifona[0]=array(
             "Dimora,",
-            "all'ombra dell'Onnipotente, sotto le sue ali troerai rifugio."
+            "all'ombra dell'Onnipotente, sotto le sue ali troverai rifugio."
         );
     }
 

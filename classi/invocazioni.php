@@ -362,7 +362,7 @@ class Invocazioni {
                                 array('','',"Salva il tuo popolo, o Signore,"),
                                 array('-','',"benedici la tua eredità."),
                                 array('','',"Raccogli nell'unità coloro che si gloriano del nome cristiano,"),
-                                array('-','',"perché il mondo creda in colui ceh tu hai inviato, Gesù Cristo nostro Signore."),
+                                array('-','',"perché il mondo creda in colui che tu hai inviato, Gesù Cristo nostro Signore."),
                                 array('','',"Benedici i nostri familiari, amici e conoscenti,"),
                                 array('-','',"diffondi fra di essi il profumo della carità di Cristo."),
                                 array('','',"Mostra agli agonizzanti la luce del tuo amore,"),
@@ -3133,7 +3133,7 @@ class Invocazioni {
                                 array('','',"Fa' che viviamo la Quaresima nell'ascolto costante della tua parola,"),
                                 array('-','',"per celebrare degnamente il Cristo nostra Pasqua."),
                                 array('','',"Il tuo Spirito sia il nostro maestro,"),
-                                array('-','',"Perchépossiamo aiutare i dubbiosi e gli erranti a seguire le via della verità."),
+                                array('-','',"Perché possiamo aiutare i dubbiosi e gli erranti a seguire le via della verità."),
                                 array('','',"Donaci di penetrare più profondamente il mistero di Cristo,"),
                                 array('-','',"e di esprimerlo più chiaramente nella vita."),
                                 array('','',"Purifica e rinnova la tua Chiesa in questi giorni di grazia,"),
@@ -5760,22 +5760,45 @@ class Invocazioni {
 
         elseif ($this->actual['evCode']=='1101a') {
 
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Regno glorioso,",
-                    "dove i santi godono con Cristo e in vesti bianche seguono l'Agnello."
+            if ($this->actual['ora']=='lodi') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Lodiamo Dio, fonte e premio di ogni santità, e invochiamolo:"),
+                        array('ris','I',"Per l'intercessione di tutti i santi, ascoltaci.")
+                    ),
+                    array(
+                        array('','',"O Dio, fonte di santità, che fai risplendere nei santi le meraviglie della tua grazia multiforme,"),
+                        array('-','',"donaci di vedere sempre in loro il segno della tua potenza e del tuo amore."),
+                        array('','',"Tu che nei santi offri alla tua Chiesa il riflesso e l'immagine del tuo Figlio,"),
+                        array('-','',"fa' che il loro esempio ci spinga a una più intima comunione con te."),
+                        array('','',"Tu che per mezzo dei santi ci ispiri il desiderio della città futura,"),
+                        array('-','',"fa' che seguiamo le loro orme per giungere più sicuramente a te."),
+                        array('','',"O Dio che nel memoriale eucaristico e in tutto il culto della Chiesa ci unisci alla liturgia celeste dei santi,"),
+                        array('-','',"rendici degni di cantare con loro le tue lodi.")
+                    )
                 );
             }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Ti acclama",
-                    "il coro degli apostoli e la candida schiera dei martiri, le voci dei profeti si uniscono nella tua lode; la Chiesa dei santi proclama la tua gloria: Santa Trinità, unic Dio!"
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Angeli,",
-                    "arcangeli, troni e dominazioni, principati e potestà e virtù, cherubini e serafini, patriarchi e profeti, santi dottori della legge, apostoli tutti, martiri di Cristo, vergini del Signore, anacoreti e santi tutti, intercedete per noi."
+
+            elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                $this->testo=array(
+                    array(
+                        array('','',"Glorifichiamo Dio, corona di tutti i santi, e con fede acclamiamo:"),
+                        array('ris','I',"Salvaci, o Signore, per l'intercessione dei santi.")
+                    ),
+                    array(
+                        array('','',"O grande Dio, che in Cristo tuo Figlio hai edificato la tua Chiesa sul fondamento degli apostoli,"),
+                        array('-','',"conservaci fedeli al loro insegnamento."),
+                        array('','',"Hai dato ai martiri la grazia di testimoniare il Cristo fino all'effusione del sangue,"),
+                        array('-','',"rendi tutti i battezzati testimoni del Vangelo."),
+                        array('','',"Alle sante vergini hai dato il privilegio di imitare Cristo nella via dei consigli evangelici,"),
+                        array('-','',"fa' che non manchi mai alla santa Chiesa questo segno profetico dei beni futuri."),
+                        array('','',"Nella vita dei santi riveli la tua presenza e la tua bontà,"),
+                        array('-','',"fa' che, onorandoli, ci sentiamo in comunione con te."),
+                        array('','',"Da' ai defunti la gioia eterna con la beata Vergine Maria, san Giuseppe e tutti i santi,"),
+                        array('-','',"per la loro intercessione accogli un giorno anche noi nella gloria della tua casa.")
+                    )
                 );
             }
         }
@@ -6571,18 +6594,103 @@ class Invocazioni {
                                 array('-','',"fa' che tutti i tuoi figli siano introdotti nell'assemblea degli eletti.")
                             )
                         );
-                    }  
+                    } 
                 }
                 
                 elseif ($k=='1004a') {  
                     
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Ringraziamo Cristo per averci dato in san Francesco un riflesso vivo del suo amore ardente e universale, e preghiamolo:"),
+                                array('ris','I',"Rendici operatori di pace e di bene, Signore.")
+                            ),
+                            array(
+                                array('','',"Nel poverello di Assisi hai fatto rivivere il tuo Vangelo,"),
+                                array('-','',"rinnovaci sempre alla fonte perenne della tua verità."),
+                                array('','',"Hai dato al tuo servo un cuore semplice, umile e libero,"),
+                                array('-','',"donaci la vera libertà di spirito nell'umiltà e nella semplicità dei santi."),
+                                array('','',"San Francesco ti lodava per le tue creature,"),
+                                array('-','',"fa' che in ogni cosa vediamo un raggio della tua bellezza divina."),
+                                array('','',"Hai concesso al tuo santo la perfetta letizia nelle tribolazioni,"),
+                                array('-','',"addolcisci le nostre sofferenze nella speranza del sommo bene.")
+                            )
+                        );
+                    }
+    
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+    
+                        $this->testo=array(
+                            array(
+                                array('','',"Preghiamo Cristo Signore, che in san Francesco, Patrono d'Italia, hai fatto risplendere, trasfigurate dalla santità, le migliori virtù del nostro popolo:"),
+                                array('ris','I',"Benedici il tuo popolo nella pace, Signore.")
+                            ),
+                            array(
+                                array('','',"San Francesco servì umile e docile la tua Chiesa:"),
+                                array('-','',"insegnaci a riformarla soprattutto con l'umile servizio e la vita santa."),
+                                array('','',"Hai infuso ardore apostolico nel serafico di Assisi,"),
+                                array('-','',"tieni desto nella tua Chiesa lo slancio missionario."),
+                                array('','',"Nel tuo nome san Francesco riconciliò gli animi e compose le divisioni,"),
+                                array('-','',"fa' che gli Italiani e gli uomini tutti siano guidati al bene terreno e celeste per la via della pace."),
+                                array('','',"Hai impresso nelle membra di san Francesco i segni della tua passione,"),
+                                array('-','',"rinnova la Chiesa con la forza inesauribile della tua morte e risurrezione."),
+                                array('','',"Hai unito indissolubilmente il tuo santo con la povertà,"),
+                                array('-','',"fa' che tutti i cristiani si sentano membri della Chiesa dei poveri."),
+                                array('','',"Nel momento supremo il grande figlio di Assisi ti lodò per nostra corporal sorella morte,"),
+                                array('-','',"donaci una morte santa, perché ti lodiamo in eterno con i nostri defunti.")
+                            )
+                        );
+                    }
                 }
 
+                elseif ($k=='1018a') {
+
+                    if ($this->actual['ora']=='lodi') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Lode e gloria a Cristo, vincitore della morte, che nel Vangelo ha fatto risplendere la vita e l'immortalità. A lui la preghiera:"),
+                                array('ris','I',"Rafforza la nostra fede nella tua parola, o Signore.")
+                            ),
+                            array(
+                                array('','',"Tu che illumini il mondo con il Vangelo,"),
+                                array('-','',"rendici fedeli al tuo insegnamento."),
+                                array('','',"Hai ordinato ai tuoi apostoli di predicare il Vangelo a tutte le genti,"),
+                                array('-','',"fa' sorgere numerosi e santi evangelizzatori."),
+                                array('','',"Hai affidato alla Chiesa il compito di trasmettere quanto hai detto e fatto,"),
+                                array('-','',"donaci di custodire diligentemente la tradizione apostolica."),
+                                array('','',"Hai voluto che il regno dei cieli fosse un lievito di salvezza per tutto il genere umano,"),
+                                array('-','',"suscita in noi lo spirito missionario dei tuoi primi discepoli.")
+                            )
+                        );
+                    }
+
+                    elseif ($this->actual['ora']=='ves1' || $this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
+
+                        $this->testo=array(
+                            array(
+                                array('','',"Rendiamo grazie al Padre che ci ha chiamati alla fede mediante l'annunzio del Vangelo. Ogni credente lo invochi:"),
+                                array('ris','I',"Santifica la tua Chiesa nella verità, Signore.")
+                            ),
+                            array(
+                                array('','',"O Dio della vita, che hai risuscitato dai morti Cristo, capo della Chiesa,"),
+                                array('-','',"rendici testimoni della nuova vita che viene dal Vangelo."),
+                                array('','',"Hai inviato il Figlio tuo a evangelizzare i poveri,"),
+                                array('-','',"donaci la povertà di spirito per gustare le beatitudini evangeliche."),
+                                array('','',"Il Messia, da te mandato, ha sparso la buona semente della parola,"),
+                                array('-','',"concedi un raccolto abbondante a quanti annunziano il Vangelo nella fatica e nel dolore."),
+                                array('','',"Hai riconciliato a te il mondo nel Cristo,"),
+                                array('-','',"rivesti di misericordia e di santità i ministri della riconciliazione."),
+                                array('','',"Confermaci nella fede della risurrezione e glorificazione del Figlio tuo,"),
+                                array('-','',"e fa' che i nostri fratelli defunti risorgano alla gloria.")
+                            )
+                        );
+                    }
+                }
             }
         }
-
     }
-
 
     //////////////////////////////////////////////////////////////////////////
 

@@ -438,7 +438,7 @@ class Lettura {
                         case 3:
                             $this->info=array(
                                 "titolo"=>"Dt 15,7-8",
-                                "testo"=>"Se vi sarà qualche tuo fratello bisognoso nella tua città, non indurirai il tuo cuore e non chiuderai lka mano davanti al tuo fratello bisognoso; anzi gli aprirai la mano e gli presterai quanto occorre alla necessità in cui si trova."
+                                "testo"=>"Se vi sarà qualche tuo fratello bisognoso nella tua città, non indurirai il tuo cuore e non chiuderai la mano davanti al tuo fratello bisognoso; anzi gli aprirai la mano e gli presterai quanto occorre alla necessità in cui si trova."
                             );
                         break;
                         case 4:
@@ -1158,7 +1158,7 @@ class Lettura {
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
                             "titolo"=>"Is 10,24.27",
-                            "testo"=>"Così dice il Signore, dio degli eserciti: « Popolo mio, che abiti in Sion, non temere. In quel giorno sarà tolto il fardello dalla tua spalla e il giogo cesserà di pesare sul tuo collo »."
+                            "testo"=>"Così dice il Signore, Dio degli eserciti: « Popolo mio, che abiti in Sion, non temere. In quel giorno sarà tolto il fardello dalla tua spalla e il giogo cesserà di pesare sul tuo collo »."
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
@@ -2247,7 +2247,7 @@ class Lettura {
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
                         $this->info=array(
                             "titolo"=>"1Cor 9,24-25",
-                            "testo"=>"Non sapete ceh nelle corse allo stadio tutti corrono, ma uno solo conquista il premio? Correte anche voi in modo da conquistarlo! Però ogni atleta è temperante in tutto; essi lo fanno per ottenere una corona corruttibile, noi invece una incorruttibile."
+                            "testo"=>"Non sapete che nelle corse allo stadio tutti corrono, ma uno solo conquista il premio? Correte anche voi in modo da conquistarlo! Però ogni atleta è temperante in tutto; essi lo fanno per ottenere una corona corruttibile, noi invece una incorruttibile."
                         );
                     }
                 }
@@ -2269,7 +2269,7 @@ class Lettura {
                     elseif($this->actual['ora']=='sesta') {
                         $this->info=array(
                             "titolo"=>"Ez 18,23",
-                            "testo"=>"Forse che io ho piacere della morte del malvagio - dice il Signore Dio - o non pittosto che desista dalla sua condotta e viva?"
+                            "testo"=>"Forse che io ho piacere della morte del malvagio - dice il Signore Dio - o non piuttosto che desista dalla sua condotta e viva?"
                         );
                     }
                     elseif($this->actual['ora']=='nona') {
@@ -2291,7 +2291,7 @@ class Lettura {
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
                             "titolo"=>"Gl 2,12-13",
-                            "testo"=>"Ritornate a me con tutto il cuore, con digiuni, con pianti e lamenti. Laceratevi il cuore e non le festi, ritornate al Signore vostro Dio, perché egli è misericordioso e benigno, tardo all'ira e ricco di benevolenza e si impietosisce riguardo la sventura."
+                            "testo"=>"Ritornate a me con tutto il cuore, con digiuni, con pianti e lamenti. Laceratevi il cuore e non le vesti, ritornate al Signore vostro Dio, perché egli è misericordioso e benigno, tardo all'ira e ricco di benevolenza e si impietosisce riguardo la sventura."
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
@@ -3510,7 +3510,7 @@ class Lettura {
             elseif($this->actual['ora']=='terza') {
                 $this->info=array(
                     "titolo"=>"At 15,7-9",
-                    "testo"=>"Pietro si alzò e disse:« Fratelli, voi sapete che già da molto tempo Dio ha fatto una scelta fra voi, perché i pagani ascoltassero per bocca mia la parola del vangelo e venissero alla fede. E dio, che conosce i cuori, ha reso testimonianza in loro favore concedendo anche a loro lo Spirito Santo, come a noi; e non ha fatto nessuna discriminazione tra noi e loro, purificandone i cuori con la fede »."
+                    "testo"=>"Pietro si alzò e disse:« Fratelli, voi sapete che già da molto tempo Dio ha fatto una scelta fra voi, perché i pagani ascoltassero per bocca mia la parola del vangelo e venissero alla fede. E Dio, che conosce i cuori, ha reso testimonianza in loro favore concedendo anche a loro lo Spirito Santo, come a noi; e non ha fatto nessuna discriminazione tra noi e loro, purificandone i cuori con la fede »."
                 );
             }
             elseif($this->actual['ora']=='sesta') {
@@ -4415,7 +4415,7 @@ class Lettura {
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
                             "titolo"=>"Gl 2,27;3,1a",
-                            "testo"=>"Voi riconoscewrete che i sono in mezzo ad Israele, e che sono io il Signore vostro Dio, e altro dio non c'è: mai più vergogna per il mio popolo. Dopo questo, io effonderò il mio spirito sopra ogni uomo e diverranno profeti i vostri figli e le vostre figlie."
+                            "testo"=>"Voi riconoscewrete che i sono in mezzo ad Israele, e che sono io il Signore vostro Dio, e altro Dio non c'è: mai più vergogna per il mio popolo. Dopo questo, io effonderò il mio spirito sopra ogni uomo e diverranno profeti i vostri figli e le vostre figlie."
                         );
                     }
                     elseif($this->actual['ora']=='terza') {

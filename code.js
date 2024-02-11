@@ -22,6 +22,7 @@ const salmastro=class {
         var config={
             "ora":$('#sal_ora').val(),
             "festa":$('#sal_festa').val(),
+            "inv":$('#sal_inv').prop('checked')?1:0,
             "mix":$('#sal_mix').prop('checked')?1:0,
             "contesto":$('#sal_contesto').val(),
         }

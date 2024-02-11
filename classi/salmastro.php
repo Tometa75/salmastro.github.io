@@ -130,13 +130,17 @@ class Salmastro {
 
                     echo '<div>'.$this->giornoSett[$this->map['weekDay']].'</div>';
 
-                    echo '<div>';
+                    echo '<div style="min-height:15px;">';
                         switch ($this->map['quarto']) {
                             case 1: echo 'I';break;
                             case 2: echo 'II';break;
                             case 3: echo 'III';break;
                             case 4: echo 'IV';break;
                         }
+                    echo '</div>';
+
+                    echo '<div style="text-align:center;">';
+                        echo '<img style="position:relative;width:40px;height:30px;margin-top:-10px;cursor:pointer;" src="'.SITE_URL.'/img/calendar.png" />';
                     echo '</div>';
 
                 echo '</div>';

@@ -1,5 +1,6 @@
 <?php
 require_once('preghiera.php');
+require_once('invitatorio.php');
 require_once('inno.php');
 require_once('salmodia.php');
 require_once('lettura.php');
@@ -264,7 +265,14 @@ class Litio {
         foreach ($this->map['actual'][$this->config['ora']]['st'] as $k=>$o) {
 
             switch ($o) {
-                case 'PI': $this->res['PI']=new Preghiera('inizio',$this);break;
+                case 'PI':
+                    if ($this->actual['ora']=='lodi' && $this->config['inv']==1) {
+                        $this->res['PI']=new Invito($this);
+                    }
+                    else {
+                        $this->res['PI']=new Preghiera('inizio',$this);
+                    }
+                break;
                 case 'INNO': $this->res['INNO']=new Inno($this);break;
                 case 'SAL': $this->res['SAL']=new Salmodia($this);break;
                 case 'LB': $this->res['LB']=new Lettura($this);break;
@@ -324,6 +332,15 @@ class Litio {
 
             echo '</div>';
 
+            echo '<div style="position:relative;display:inline-block;width:8%;vertical-align:top;box-sizing:border-box;margin-top:5px;text-align:center;">';
+                
+                echo '<div style="position:relative;top:-2px;font-size:1em;font-weight:bold;">Invitatorio</div>'; 
+                echo '<input id="sal_inv" type="checkbox" />';
+                //echo '<input id="sal_mix" type="checkbox" '.((isset($this->config['mix']) && $this->config['mix']==1)?'checked':'').'/>';
+                //echo '<span style="font-size:1.2em;font-weight:bold;margin-left:5px;">Mix</span>'; 
+
+            echo '</div>';
+
             echo '<div style="position:relative;display:inline-block;width:50%;vertical-align:top;padding:5px;box-sizing:border-box;">';
                  
                 echo '<select id="sal_festa" style="position:relative;width:98%;font-size:1em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
@@ -350,7 +367,7 @@ class Litio {
 
             echo '</div>';
 
-            echo '<div style="position:relative;display:inline-block;width:6%;vertical-align:top;padding:5px;box-sizing:border-box;margin-top:5px;">';
+            echo '<div style="position:relative;display:inline-block;width:1%;vertical-align:top;padding:5px;box-sizing:border-box;margin-top:5px;">';
                 
                 echo '<input id="sal_mix" type="checkbox" style="visibility:hidden;" />';
                 //echo '<input id="sal_mix" type="checkbox" '.((isset($this->config['mix']) && $this->config['mix']==1)?'checked':'').'/>';
@@ -358,7 +375,7 @@ class Litio {
 
             echo '</div>';
 
-            echo '<div style="position:relative;display:inline-block;width:12%;vertical-align:top;padding:5px;box-sizing:border-box;">';
+            echo '<div style="position:relative;display:inline-block;width:10%;vertical-align:top;padding:5px;box-sizing:border-box;">';
                 
                 $temp=array(
                     "solo"=>"Personale",

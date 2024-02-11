@@ -938,7 +938,7 @@ class Inno {
         "p1502"=>array(
             array(
                 array('','',"Ave, stella del mare,"),
-                array('','',"madre gloriosa di Dio,"),
+                array('','',"Madre gloriosa di Dio,"),
                 array('','',"vergine sempre, Maria,"),
                 array('','',"porta felice del cielo.")
             ),
@@ -2686,7 +2686,7 @@ class Inno {
             ),
             array(
                 array('','',"Beati quelli che le sosterranno in pace"),
-                array('','',"ka da te, Altissimo, saranno incoronat.")
+                array('','',"ka da te, Altissimo, saranno incoronati.")
             ),
             array(
                 array('','',"Laudiati si', mi' Signore,"),

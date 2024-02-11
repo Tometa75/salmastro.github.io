@@ -19,7 +19,7 @@ $this->closure['load']=function() {
                 array('','*',"Cristo patì per voi, lasciandovi un esempio,"),
                 array('','2',"perché ne seguiate le orme:"),
                 array('','*',"egli non commise peccato"),
-                array('','2',"e non si trovò onganno sulla sua bocca;")
+                array('','2',"e non si trovò inganno sulla sua bocca;")
             ),
             array(
                 array('','*',"oltraggiato non rispondeva con oltraggi,"),
