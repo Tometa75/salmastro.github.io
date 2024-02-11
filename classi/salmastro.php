@@ -90,7 +90,7 @@ class Salmastro {
 
             echo '<div class="salHeadLine" style="">';
                 echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;cursor:pointer;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
-                echo 'Liturgia delle ore benedettina';
+                echo '<span style="margin-left:10px;" >Liturgia delle ore benedettina (v0.9 - 2024)</span>';
             echo '</div>';
 
             echo '<div class="salHeadBlock" style="background-image:url(\''.SITE_URL.'/img/sfondoHead.png\')">';

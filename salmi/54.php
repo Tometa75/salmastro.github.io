@@ -44,7 +44,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Porgi l'orecchio, Dio, alla mia preghiera,"),
                 array('','*',"non respingere la mia supplica;"),
-                array('','2',"dammi ascolto e risponmdimi,"),
+                array('','2',"dammi ascolto e rispondimi,"),
                 array('','*',"mi agito nel mio lamento e sono sconvolto"),
                 array('','2',"al grido del nemico, al clamore dell'empio.")
             ),

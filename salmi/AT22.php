@@ -43,10 +43,10 @@ $this->closure['load']=function() {
                 array('','2',"proclamate che il suo nome è sublime.") 
             ),
             array(
-                array('','*',"Cantate inni al Signoire, perchPé ha fatto opere grandi,"),
+                array('','*',"Cantate inni al Signore, perché ha fatto opere grandi,"),
                 array('','2',"ciò sia noto in tutta la terra."),
                 array('','*',"Gridate giulivi, ed esultate, abitanti di Sion,"),
-                array('','2',"perchPé grande in mezzo a voi è il Santo di Israele ».")
+                array('','2',"perché grande in mezzo a voi è il Santo di Israele ».")
             )
         )
     );

@@ -61,7 +61,7 @@ $this->closure['load']=function() {
                 array('','*',"Eccoli, avanzano, mi circondano,"),
                 array('','2',"puntano agli occhi per abbattermi;"),
                 array('','*',"simili a un leone che brama la preda,"),
-                array('','2',"a un laoncello che si apposta in agguato.")
+                array('','2',"a un leoncello che si apposta in agguato.")
             ),
             array(
                 array('','*',"Sorgi, Signore, affrontalo, abbattilo;"),

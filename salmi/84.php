@@ -49,9 +49,9 @@ $this->closure['load']=function() {
                 array('','2',"e la giustizia si affaccerà del cielo.")
             ),
             array(
-                array('','*',"Quando il Signore elarfgirà il suo bene,"),
+                array('','*',"Quando il Signore elargirà il suo bene,"),
                 array('','2',"la nostra terra darà il suo frutto."),
-                array('','*',"Davantia lui camminerà la giustizia"),
+                array('','*',"Davanti a lui camminerà la giustizia"),
                 array('','2',"e sulla via dei suoi passi la salvezza.")
             )
         )

@@ -1,7 +1,7 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo='Salmo 25 Preghiera fisuciosa di un innocente';
+    $this->titolo='Salmo 25 Preghiera fiduciosa di un innocente';
 
     //vespri martedì
     $this->antifona[0]=array(
@@ -26,7 +26,7 @@ $this->closure['load']=function() {
                 array('','*',"La tua bontà è davanti ai miei occhi"),
                 array('','2',"e nella tua verità dirigo i miei passi."),
                 array('','*',"Non siedo con uomini falsi"),
-                array('','2',"e non frequento i sìmulatori."),
+                array('','2',"e non frequento i simulatori."),
                 array('','*',"Odio l'alleanza dei malvagi,"),
                 array('','2',"non mi associo con gli empi.")
             ),

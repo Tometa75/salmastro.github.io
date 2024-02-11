@@ -16,7 +16,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Signore, quanti sono i miei opperessori!"),
+                array('','*',"Signore, quanti sono i miei oppressori!"),
                 array('','2',"molti contro di me insorgono."),
                 array('','*',"Molti di me vanno dicendo:"),
                 array('','2',"« Neppure Dio lo salva! ».")

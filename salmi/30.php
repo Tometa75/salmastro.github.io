@@ -58,7 +58,7 @@ $this->closure['load']=function() {
                 array('','*',"Si consuma nel dolore la mia vita,"),
                 array('','2',"i miei anni passano nel gemito;"),
                 array('','*',"inaridisce per la pena il mio vigore,"),
-                array('','2',"si idissolvono tutte le mie ossa.")
+                array('','2',"si dissolvono tutte le mie ossa.")
             ),
             array(
                 array('','+',"Sono l'obbrobrio dei miei nemici, il disgusto dei miei vicini,"),

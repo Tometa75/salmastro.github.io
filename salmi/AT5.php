@@ -56,7 +56,7 @@ $this->closure['load']=function() {
                 array('','2',"e ringraziatelo con tutta la voce;"),
                 array('','*',"benedite il Signore della giustizia"),
                 array('','2',"ed esaltate il re dei secoli."),
-                array('','*',"Io gli do lode nel èaese del mio esilio"),
+                array('','*',"Io gli do lode nel paese del mio esilio"),
                 array('','2',"e manifesto la sua forza e grandezza a un popolo di peccatori.")
             ),
             array(

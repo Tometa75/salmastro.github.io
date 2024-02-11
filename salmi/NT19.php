@@ -46,7 +46,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','+',"A colui che siede sul trono e all'Agnello"),
-                array('','*',"lode, onolre, gloria e potenza,"),
+                array('','*',"lode, onore, gloria e potenza,"),
                 array('','2',"nei secoli dei secoli. Amen.")
             )   
         )

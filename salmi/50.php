@@ -17,7 +17,7 @@ $this->closure['load']=function() {
         'all'=>array(
             array(
                 array('','*',"Pietà di me, o Dio, secondo la tua misericordia:"),
-                array('','2',"nel tuo grande amore cancella il mio pecdcato."),
+                array('','2',"nel tuo grande amore cancella il mio peccato."),
                 array('','*',"Lavami da tutte le mie colpe,"),
                 array('','2',"mondami del mio peccato.")
             ),
@@ -26,7 +26,7 @@ $this->closure['load']=function() {
                 array('','2',"il mio peccato mi sta sempre dinanzi."),
                 array('','*',"Contro di te, contro te solo ho peccato,"),
                 array('','2',"quello che è male ai tuoi occhi, io l'ho fatto;"),
-                array('','*',"percià sei giusto quando parli,"),
+                array('','*',"perciò sei giusto quando parli,"),
                 array('','2',"retto nel tuo giudizio.")
             ),
             array(
@@ -62,7 +62,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Signore, apri le mie labbra"),
                 array('','2',"e la mia bocca proclami la tua lode;"),
-                array('','*',"poiché non gradisci iil scarificio"),
+                array('','*',"poiché non gradisci iil sacrificio"),
                 array('','2',"e, se offro olocausti, non li accetti."),
                 array('','*',"Uno spirito contrito è sacrificio a Dio,"),
                 array('','2',"un cuore affranto e umiliato, tu o Dio, non disprezzi.")

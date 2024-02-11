@@ -35,7 +35,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Camminerò con cuore integro,"),
                 array('','2',"dentro la mia casa."),
-                array('','+',"Non sopporterò davanti ai miei occhi azioni malvage;"),
+                array('','+',"Non sopporterò davanti ai miei occhi azioni malvagie;"),
                 array('','*',"detesto chi fa il male,"),
                 array('','2',"non mi sarà vicino.")
             ),

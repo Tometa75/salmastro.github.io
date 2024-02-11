@@ -39,13 +39,13 @@ $this->closure['load']=function() {
                 array('','2',"più grande di ogni fama.")
             ),
             array(
-                array('','*',"Nerl giorno in cui t'ho invocato, mi hai risposto,"),
+                array('','*',"Nel giorno in cui t'ho invocato, mi hai risposto,"),
                 array('','2',"hai accresciuto in me la forza."),
                 array('','*',"Ti loderanno, Signore, tutti i re della terra"),
                 array('','2',"quando udranno le parole della tua bocca.")
             ),
             array(
-                array('','*',"Canteranno le vier del Signore,"),
+                array('','*',"Canteranno le vie del Signore,"),
                 array('','2',"perché grande è la gloria del Signore;"),
                 array('','*',"eccelso è il signore e guarda verso l'umile,"),
                 array('','2',"ma al superbo volge lo sguardo da lontano.")

@@ -35,7 +35,7 @@ $this->closure['load']=function() {
                 array('','2',"la sua grandezza non si può misurare.")
             ),
             array(
-                array('','*',"Una gernerazione narra all'altra le tue opere,"),
+                array('','*',"Una generazione narra all'altra le tue opere,"),
                 array('','2',"annunzia le tue meraviglie."),
                 array('','*',"Proclamano lo splendore della tua gloria"),
                 array('','2',"e raccontano i tuoi prodigi.")

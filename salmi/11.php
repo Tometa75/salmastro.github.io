@@ -35,7 +35,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','+',"I detti del Signore sono puri,"),
-                array('','*',"argento raffinato nel crogiuolo,"),
+                array('','*',"argento raffinato nel crogiolo,"),
                 array('','2',"purificato nel fuoco sette volte.")
             ),
             array(

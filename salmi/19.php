@@ -25,7 +25,7 @@ $this->closure['load']=function() {
                 array('','*',"Ricordi tutti i tuoi sacrifici"),
                 array('','2',"e gradisca i tuoi olocausti."),
                 array('','*',"Ti conceda secondo il tuo cuore,"),
-                array('','2',"faccia riuscire ogno tuo progetto.")
+                array('','2',"faccia riuscire ogni tuo progetto.")
             ),
             array(
                 array('','+',"Esulteremo per la tua vittoria,"),
@@ -34,7 +34,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','+',"Ora so che il signore salva il suo consacrato;"),
-                array('','*',"gli ha risposto dal suo ielo santo"),
+                array('','*',"gli ha risposto dal suo cielo santo"),
                 array('','2',"con la forza vittoriosa della sua destra.")
             ),
             array(

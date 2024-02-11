@@ -54,7 +54,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Guarda, rispondimi, Signore mio Dio,"),
                 array('','*',"conserva la luce ai miei occhi,"),
-                array('','2',"perché nonmi sorprenda il sonno della morte,"),
+                array('','2',"perché non mi sorprenda il sonno della morte,"),
                 array('','*',"perché il mio nemico non dica: « L'ho vinto! »"),
                 array('','2',"e non esultino i miei avversari quando vacillo.")
             ),

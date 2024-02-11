@@ -37,7 +37,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Signore, che cos'è un uomo perché te ne curi?"),
-                array('','2',"Un figlio d'uomo perché te ne dia pensierò?"),
+                array('','2',"Un figlio d'uomo perché te ne dia pensiero?"),
                 array('','*',"L'uomo è come un soffio,"),
                 array('','2',"i suoi giorni come ombra che passa.")
             ),
@@ -68,7 +68,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"I nostri figli siano come piante"),
-                array('','2',"cresiute nella loro giovinezza;"),
+                array('','2',"cresciute nella loro giovinezza;"),
                 array('','*',"le nostre figlie come colonne d'angolo"),
                 array('','2',"nella costruzione del tempio."),
                 array('','*',"I nostri granai siano pieni,"),

@@ -20,7 +20,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Lo scettro del tuo potere stende il Signore da Sion:"),
-                array('','2',"« Dommina in mezzo ai tuoi nemici."),
+                array('','2',"« Domina in mezzo ai tuoi nemici."),
                 array('','+',"A te il principato nel giorno della tua potenza"),
                 array('','*',"tra santi splendori;"),
                 array('','2',"dal seno dell'aurora, come rugiada, io ti ho generato ».")

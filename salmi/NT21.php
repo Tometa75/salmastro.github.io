@@ -34,7 +34,7 @@ $this->closure['load']=function() {
                 array('','2',"Tu solo sei santo!"),
             ),
             array(
-                array('','+',"Tutte le genti verrannoa te, Signore,"),
+                array('','+',"Tutte le genti verranno a te, Signore,"),
                 array('','*',"davanti a te si prostreranno,"),
                 array('','2',"perché i tuoi giusti giudizi si sono manifestati."),
             )

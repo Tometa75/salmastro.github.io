@@ -1,7 +1,7 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo='Salmo 142 Preghieras nella tribolazione';
+    $this->titolo='Salmo 142 Preghiera nella tribolazione';
 
     //lodi sabato
     $this->antifona[0]=array(
@@ -57,7 +57,7 @@ $this->closure['load']=function() {
                 array('','+',"Insegnami a compiere il tuo volere,"),
                 array('','*',"perché sei tu il mio Dio."),
                 array('','2',"Il tuo spirito buono mi guidi in terra piana."),
-                array('','*',"Per il ltuo nome, Signore, fammi vivere,"),
+                array('','*',"Per il tuo nome, Signore, fammi vivere,"),
                 array('','2',"liberami dall'angoscia, per la tua giustizia."),
                 array('','+',"Per la tua fedeltà disperdi i miei nemici,"),
                 array('','*',"fa' perire chi mi opprime,"),

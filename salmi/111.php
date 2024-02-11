@@ -39,7 +39,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Egli dona largamente ai poveri,"),
                 array('','*',"la sua giustizia rimane per sempre,"),
-                array('','2',"la sua potenza s'innanlza nella gloria."),
+                array('','2',"la sua potenza s'innalza nella gloria."),
                 array('','+',"L'empio vede e si adira,"),
                 array('','*',"digrigna i denti e si consuma."),
                 array('','2',"Ma il desiderio degli empi fallisce.")

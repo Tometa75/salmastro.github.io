@@ -18,7 +18,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Quando Israele uscì dall'Egitto,"),
                 array('','2',"la casa di Giacobbe da un popolo barbaro,"),
-                array('','*',"Giuda divernne il suo santuario,"),
+                array('','*',"Giuda divenne il suo santuario,"),
                 array('','2',"Israele il suo dominio.")
             ),
             array(

@@ -40,7 +40,7 @@ $this->closure['load']=function() {
                 array('','*',"Ascolta la mia supplica:"),
                 array('','2',"ho toccato il fondo dell'angoscia."),
                 array('','*',"Salvami dai miei persecutori"),
-                array('','2',"perché spno di me più forti.")
+                array('','2',"perché sono di me più forti.")
             ),
             array(
                 array('','*',"Strappa dal carcere la mia vita,"),

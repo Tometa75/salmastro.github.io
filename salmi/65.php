@@ -30,7 +30,7 @@ $this->closure['load']=function() {
                 array('','*',"Dite a Dio: « Stupende sono le tue opere!"),
                 array('','2',"Per la grandezza della tua potenza a te si piegano i tuoi nemici."),
                 array('','*',"A te si prostri tutta la terra,"),
-                array('','2',"a te cznti inni, canti al tuo nome ».")
+                array('','2',"a te canti inni, canti al tuo nome ».")
             ),
             array(
                 array('','*',"Venite e vedete le opere di Dio,"),
@@ -50,7 +50,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Dio, tu ci hai messi alla prova;"),
-                array('','2',"ci hai passati al crogiuolo, come l'argento."),
+                array('','2',"ci hai passati al crogiolo, come l'argento."),
                 array('','*',"Ci hai fatti cadere in un agguato,"),
                 array('','2',"hai messo un peso ai nostri fianchi."),
                 array('','+',"Hai fatto cavalcare uomini sulle nostre teste;"),

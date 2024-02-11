@@ -38,7 +38,7 @@ $this->closure['load']=function() {
                 array('','2',"e invocherò il nome del Signore.")
             ),
             array(
-                array('','*',"Adermpirò i miei voti al Signore"),
+                array('','*',"Adempirò i miei voti al Signore"),
                 array('','2',"davanti a tutto il suo popolo."),
                 array('','*',"Negli atri della casa del Signore,"),
                 array('','2',"in mezzo a te, Gerusalemme.")

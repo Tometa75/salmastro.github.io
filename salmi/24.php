@@ -51,7 +51,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Fammi conoscere, Signore, le tue vie,"),
                 array('','2',"insegnami i tuoi sentieri."),
-                array('','+',"Guidami nella tua varità e istruiscimi,"),
+                array('','+',"Guidami nella tua verità e istruiscimi,"),
                 array('','*',"perché sei tu il Dio della mia salvezza,"),
                 array('','2',"in te ho sempre sperato.")
             ),

@@ -25,7 +25,7 @@ $this->closure['load']=function() {
             array(
                 array('ris','',"Popoli tutti ,lodate il Signore."),
                 array('','*',"Fu creduto nel mondo,"),
-                array('','2',"fu assu nto nella gloria.")
+                array('','2',"fu assunto nella gloria.")
             ),
             array(
                 array('ris','',"Popoli tutti ,lodate il Signore.")

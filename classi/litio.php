@@ -335,7 +335,7 @@ class Litio {
 
             echo '</div>';
 
-            echo '<div style="position:relative;display:inline-block;width:10%;vertical-align:top;padding:5px;box-sizing:border-box;text-align:center;">';
+            echo '<div style="position:relative;display:inline-block;width:8%;vertical-align:top;padding:5px;box-sizing:border-box;text-align:center;">';
 
                 echo '<img style="width:40px;height:40px;cursor:pointer;" src="'.SITE_URL.'/img/book.png" onclick="window._salmastro.load();"/>';
 

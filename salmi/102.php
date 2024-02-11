@@ -61,7 +61,7 @@ $this->closure['load']=function() {
                 array('','2',"così allontana da noi le nostre colpe.")
             ),
             array(
-                array('','*',"Come un padrer ha pietà dei suoi figli,"),
+                array('','*',"Come un padre ha pietà dei suoi figli,"),
                 array('','2',"così il Signore ha pietà di quanti lo temono."),
                 array('','*',"Perché egli sa di che siamo plasmati,"),
                 array('','2',"ricorda che noi siamo polvere.")

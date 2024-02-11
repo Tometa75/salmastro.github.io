@@ -18,7 +18,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Il Signore è il mio pastore:"),
                 array('','2',"non manco di nulla;"),
-                array('','*',"su pascoli erbosi mi fa ripiosare,"),
+                array('','*',"su pascoli erbosi mi fa riposare,"),
                 array('','2',"ad acque tranquille mi conduce."),
                 array('','*',"Mi rinfranca, mi guida per il giusto cammino,"),
                 array('','2',"per amore del suo nome.")

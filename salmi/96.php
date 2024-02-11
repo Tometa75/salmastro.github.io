@@ -49,7 +49,7 @@ $this->closure['load']=function() {
                 array('','*',"e chi si gloria dei propri idoli."),
                 array('','2',"Si prostrino a lui tutti gli dei!"),
                 array('','+',"Ascolta Sion e ne gioisce,"),
-                array('','*',"esualtano le città di Giuda"),
+                array('','*',"esultano le città di Giuda"),
                 array('','2',"per i tuoi giudizi, Signore."),
                 array('','*',"Perché tu sei, Signore, l'Altissimo su tutta la terra,"),
                 array('','2',"tu sei eccelso sopra tutti gli dei.")

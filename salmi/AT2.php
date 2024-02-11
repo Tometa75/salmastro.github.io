@@ -27,9 +27,9 @@ $this->closure['load']=function() {
                 array('','*',"Ascoltate, o cieli; io voglio parlare:"),
                 array('','2',"oda la terra le parole della mia bocca!"),
                 array('','*',"Stilli come pioggia la mia dottrina,"),
-                array('','2',"scenda come rugiada il miuo dire;"),
+                array('','2',"scenda come rugiada il mio dire;"),
                 array('','*',"come scroscio sull'erba del prato,"),
-                array('','2',"come spruzzo dsugli steli di grano.")
+                array('','2',"come spruzzo sugli steli di grano.")
             ),
             array(
                 array('','*',"Voglio proclamare il nome del Signore:"),
@@ -56,7 +56,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Quando l'Altissimo divideva i popoli,"),
                 array('','2',"quando disperdeva i figli dell'uomo,"),
-                array('','*',"egli stabilì i cinfini delle genti"),
+                array('','*',"egli stabilì i confini delle genti"),
                 array('','2',"secondo il numero degli israeliti."),
                 array('','*',"Porzione del Signore è il suo popolo,"),
                 array('','2',"sua eredità è Giacobbe.")

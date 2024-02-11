@@ -32,7 +32,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"È come rugiada dell'Ermon,"),
-                array('','2',"che scende sui mionti di Sion."),
+                array('','2',"che scende sui monti di Sion."),
                 array('','*',"Là il Signore dona la benedizione"),
                 array('','2',"e la vita per sempre.")
             )

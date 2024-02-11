@@ -27,7 +27,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Porgi l'orecchio, Signore, allemie parole:"),
+                array('','*',"Porgi l'orecchio, Signore, alle mie parole:"),
                 array('','2',"intendi il mio lamento."),
                 array('','+',"Ascolta la voce del mio grido,"),
                 array('','*',"o mio re e mio Dio,"),
@@ -38,7 +38,7 @@ $this->closure['load']=function() {
                 array('','2',"fin dal mattino t'invoco e sto in attesa."),
                 array('','+',"Tu non sei un Dio che si compiace del male;"),
                 array('','*',"presso di te il malvagio non trova dimora;"),
-                array('','2',"gli stolti non sostengono i tuio sguardo."),
+                array('','2',"gli stolti non sostengono i tuo sguardo."),
                 array('','+',"Tu detesti chi fa il male,"),
                 array('','*',"fai perire i bugiardi."),
                 array('','2',"Il Signore detesta sanguinari e ingannatori.")

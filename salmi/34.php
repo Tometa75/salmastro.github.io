@@ -48,7 +48,7 @@ $this->closure['load']=function() {
                 array('','2',"e sorgi in mio aiuto.")
             ),
             array(
-                array('','*',"Vibra la lanciua e la scure,"),
+                array('','*',"Vibra la lancia e la scure,"),
                 array('','2',"contro chi mi insegue."),
                 array('','*',"Dì all'anima mia:"),
                 array('','2',"« Sono io la tua salvezza ».")

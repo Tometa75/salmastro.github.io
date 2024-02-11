@@ -27,15 +27,15 @@ $this->closure['load']=function() {
                 array('','*',"Ricordati, Signore, di Davide,"),
                 array('','2',"di tutte le sue prove,"),
                 array('','*',"quando giurò al Signore,"),
-                array('','2',"al potente di Giaciobbe fece voto:")
+                array('','2',"al potente di Giacobbe fece voto:")
             ),
             array(
                 array('','*',"« Non entrerò sotto il tetto della mia casa,"),
                 array('','2',"non mi stenderò sul mio giaciglio,"),
                 array('','*',"non concederò sonno ai miei occhi"),
-                array('','2',"né riposo alle mie palpeblre,"),
+                array('','2',"né riposo alle mie palpebre,"),
                 array('','*',"finché non trovi una sede per il Signore,"),
-                array('','2',"una dimora per il poternte di Giacobbe ».")
+                array('','2',"una dimora per il potente di Giacobbe ».")
             ),
             array(
                 array('','*',"Ecco, abbiamo saputo che era in Èfrata,"),
@@ -55,8 +55,8 @@ $this->closure['load']=function() {
                 array('','+',"Il Signore ha giurato a Davide"),
                 array('','*',"e non ritratterà la sua parola:"),
                 array('','2',"« Il frutto delle tue viscere io metterò sul tuo trono!"),
-                array('','+',"Se i tioi figli custodiranno la mia alleanza"),
-                array('','*',"e iprecetti che insegnerò ad essi,"),
+                array('','+',"Se i tuoi figli custodiranno la mia alleanza"),
+                array('','*',"e i precetti che insegnerò ad essi,"),
                 array('','2',"anche i loro figli per sempre sederanno sul tuo trono ».")
             ),
             array(

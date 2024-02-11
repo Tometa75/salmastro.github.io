@@ -26,7 +26,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Voglio cantare in onore del Signore:"),
                 array('','*',"perché ha mirabilmente trionfato,"),
-                array('','2',"ha gettato in mare cavallo e cavalliere."),
+                array('','2',"ha gettato in mare cavallo e cavaliere."),
                 array('','*',"Mia forza e mio canto è il Signore,"),
                 array('','2',"egli mi ha salvato."),
                 array('','*',"È il mio Dio e lo voglio lodare,"),
@@ -51,7 +51,7 @@ $this->closure['load']=function() {
                 array('','*',"si alzarono le onde come un argine,"),
                 array('','2',"si rappresero gli abissi in fondo al mare."),
                 array('','*',"Il nemico aveva detto:"),
-                array('','2',"Inseguirò, raggiungerò, sparitrò il bottino,"),
+                array('','2',"Inseguirò, raggiungerò, spartirò il bottino,"),
                 array('','*',"se ne sazierà la mia brama,"),
                 array('','2',"sfodererò la spada, li conquisterà la mia mano!")
             ),
@@ -85,7 +85,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Lo fai entrare e lo pianti sul monte della tua promessa,"),
                 array('','2',"luogo che per tua sede, Signore, hai preparato,"),
-                array('','*',"santuario che le tue mani, Siugnore, hanno fondato."),
+                array('','*',"santuario che le tue mani, Signore, hanno fondato."),
                 array('','2',"Il Signore regna in eterno e per sempre!")
             )
         )

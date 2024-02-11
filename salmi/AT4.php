@@ -24,7 +24,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Sii benedetto, Signore Dio d'Israele, nonstro Padre,"),
+                array('','*',"Sii benedetto, Signore Dio d'Israele, nostro Padre,"),
                 array('','2',"ora e sempre."),
                 array('','+',"Tua, Signore, è la grandezza, la potenza,"),
                 array('','*',"la gloria, la maestà e lo splendore,"),

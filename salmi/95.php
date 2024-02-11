@@ -27,7 +27,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Cantate al Singore un canto nuovo,"),
+                array('','*',"Cantate al Signore un canto nuovo,"),
                 array('','2',"cantate al Signore da tutta la terra."),
                 array('','*',"Cantate al Signore, benedite il suo nome,"),
                 array('','2',"annunziate di giorno in giorno la sua salvezza."),
@@ -50,9 +50,9 @@ $this->closure['load']=function() {
                 array('','2',"prostratevi al Signore in sacri ornamenti.")
             ),
             array(
-                array('','*',"Tremi davanti alui tutta la terra."),
+                array('','*',"Tremi davanti a lui tutta la terra."),
                 array('','2',"Dite tra i popoli: « Il Signore regna! »."),
-                array('','*',"Sorregge il miondo, perché non vacilli;"),
+                array('','*',"Sorregge il mondo, perché non vacilli;"),
                 array('','2',"giudica le nazioni con rettitudine.")
             ),
             array(

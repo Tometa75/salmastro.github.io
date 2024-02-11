@@ -36,7 +36,7 @@ $this->closure['load']=function() {
                 array('','2',"benedite, stelle del cielo, il Signore.") 
             ),
             array(
-                array('','*',"Benedite, pioggie e rugiade, il Signore,"),
+                array('','*',"Benedite, piogge e rugiade, il Signore,"),
                 array('','2',"benedite, o venti tutti, il Signore."),
                 array('','*',"Benedite, fuoco e calore, il Signore,"),
                 array('','2',"benedite, freddo e caldo, il Signore.") 

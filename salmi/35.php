@@ -24,7 +24,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Inique e fallaci sono le sue parole,"),
                 array('','2',"rifiuta di capire, di compiere il bene."),
-                array('','+',"Iniqità trama sul suo giaciglio,"),
+                array('','+',"Iniquità trama sul suo giaciglio,"),
                 array('','*',"si ostina su vie non buone,"),
                 array('','2',"via de sé non respinge il male.")
             ),

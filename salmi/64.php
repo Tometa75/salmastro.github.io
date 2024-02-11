@@ -27,7 +27,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"A te si defe lode, o Dio, in Sion;"),
+                array('','*',"A te si deve lode, o Dio, in Sion;"),
                 array('','2',"a te si sciolga il voto in Gerusalemme."),
                 array('','*',"A te, che ascolti la preghiera,"),
                 array('','2',"viene ogni mortale."),

@@ -68,7 +68,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','+',"Io invece come olivo verdeggiante nella casa di Dio."),
-                array('','*',"Mi abbandono alla fedetà di Dio"),
+                array('','*',"Mi abbandono alla fedeltà di Dio"),
                 array('','2',"ora e per sempre."),
                 array('','*',"Voglio renderti grazie in eterno"),
                 array('','2',"per quanto hai operato;"),

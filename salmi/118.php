@@ -120,7 +120,7 @@ $this->closure['load']=function() {
                 array('','2',"mostrami il tuo volere.")
             ),
             array(
-                array('','*',"Con le mie labra ho enumerato,"),
+                array('','*',"Con le mie labbra ho enumerato,"),
                 array('','2',"tutti i giudizi della tua bocca."),
                 array('','*',"Nel seguire i tuoi ordini è la mia gioia"),
                 array('','2',"più che in ogni altro bene.")
@@ -148,7 +148,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Tu minacci gli orgogliosi;"),
-                array('','2',"maledetto chi devìa dai tuoi decreti."),
+                array('','2',"maledetto chi devia dai tuoi decreti."),
                 array('','*',"Allontana da me vergogna e disprezzo,"),
                 array('','2',"perché ho osservato le tue leggi.")
             ),
@@ -164,7 +164,7 @@ $this->closure['load']=function() {
                 array('','N',"4 - DALET"),
                 array('','*',"Io sono prostrato nella polvere;"),
                 array('','2',"dammi vita secondo la tua parola."),
-                array('','*',"Ti ho masnifestato le mie vie e mi hai risposto;"),
+                array('','*',"Ti ho manifestato le mie vie e mi hai risposto;"),
                 array('','2',"insegnami i tuoi voleri.")
             ),
             array(
@@ -250,7 +250,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"I superbi mi insultano aspramente,"),
-                array('','2',"ma non devìo dalla tua legge."),
+                array('','2',"ma non devio dalla tua legge."),
                 array('','*',"Ricordo i tuoi giudizi di un tempo, Signore,"),
                 array('','2',"e ne sono consolato.")
             ),
@@ -479,7 +479,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Consideri scorie tutti gli empi della terra,"),
                 array('','2',"perciò amo i tuoi insegnamenti."),
-                array('','*',"Tu fai fremere di spaventola mia carne,"),
+                array('','*',"Tu fai fremere di spavento la mia carne,"),
                 array('','2',"io temo i tuoi giudizi.")
             )
         ),
@@ -493,7 +493,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"I miei occhi si consumano nell'attesa della tua salvezza"),
-                array('','2',"e della tua parola di giudstizia."),
+                array('','2',"e della tua parola di giustizia."),
                 array('','*',"Agisci con il tuo servo secondo il tuo amore"),
                 array('','2',"e insegnami i tuoi comandamenti.")
             ),
@@ -554,7 +554,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Io sono piccolo e disprezzato,"),
                 array('','2',"ma non trascuro i tuoi precetti."),
-                array('','*',"La tua giustizia è giustiuzia eterna"),
+                array('','*',"La tua giustizia è giustizia eterna"),
                 array('','2',"e verità è la tua legge.")
             ),
             array(
@@ -580,7 +580,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Ascolta la mia voce, secondo la tua grazia;"),
-                array('','2',"Signore, fammi vivere sedondo il tuo giudizio."),
+                array('','2',"Signore, fammi vivere secondo il tuo giudizio."),
                 array('','*',"A tradimento mi assediano i miei persecutori,"),
                 array('','2',"sono lontani dalla tua legge.")
             ),
@@ -624,7 +624,7 @@ $this->closure['load']=function() {
                 array('','*',"I potenti mi perseguitano senza motivo,"),
                 array('','2',"ma il mio cuore teme le tue parole."),
                 array('','*',"Io gioisco per la tua promessa,"),
-                array('','2',"come uno che trova gande tesoro.")
+                array('','2',"come uno che trova grande tesoro.")
             ),
             array(
                 array('','*',"Odio il falso e lo detesto,"),
@@ -651,7 +651,7 @@ $this->closure['load']=function() {
                 array('','*',"Giunga il mio grido fino a te, Signore,"),
                 array('','2',"fammi comprendere secondo la tua parola."),
                 array('','*',"Venga al tuo volto la mia supplica,"),
-                array('','2',"salvami secondo la tua poromessa.")
+                array('','2',"salvami secondo la tua promessa.")
             ),
             array(
                 array('','*',"Scaturisca dalle mie labbra la tua lode,"),

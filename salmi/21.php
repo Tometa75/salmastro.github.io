@@ -53,7 +53,7 @@ $this->closure['load']=function() {
                 array('','2',"tuò lode di Israele."),
                 array('','*',"In te hanno sperato i nostri padri,"),
                 array('','2',"hanno sperato e tu gli hai liberati;"),
-                array('','*',"a te gridrono e furono salvati,"),
+                array('','*',"a te gridarono e furono salvati,"),
                 array('','2',"sperando in te non rimasero delusi.")
             ),
             array(
@@ -67,7 +67,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Sei tu che mi hai tratto dal grembo,"),
                 array('','2',"mi hai fatto riposare sul petto di mia madre."),
-                array('','*',"Al mio nscere tu mi hai raccolto,"),
+                array('','*',"Al mio nascere tu mi hai raccolto,"),
                 array('','2',"dal grembo di mia madre sei tu il mio Dio."),
                 array('','+',"Da me non stare lontano,"),
                 array('','*',"poiché l'angoscia è vicina"),
@@ -110,7 +110,7 @@ $this->closure['load']=function() {
                 array('','2',"ti loderò in mezzo all'assemblea."),
                 array('','+',"Lodate il Signore, voi che lo temete,"),
                 array('','*',"gli dia gloria la stirpe di Giacobbe,"),
-                array('','2',"lo tema tulla la stirpe di Israele;")
+                array('','2',"lo tema tutta la stirpe di Israele;")
             ),
             array(
                 array('','*',"poiché egli non ha disprezzato né sdegnato,"),
@@ -126,15 +126,15 @@ $this->closure['load']=function() {
                 array('','2',"« Viva il loro cuore per sempre ».")
             ),
             array(
-                array('','*',"Ricorderanno e trorneranno al Signore"),
-                array('','2',"tutti i cpnfini della terra,"),
-                array('','*',"Si prostreranno dvanti a lui"),
+                array('','*',"Ricorderanno e torneranno al Signore"),
+                array('','2',"tutti i confini della terra,"),
+                array('','*',"Si prostreranno davanti a lui"),
                 array('','2',"tutte le famiglie dei popoli."),
                 array('','*',"Poiché il regno è del Signore,"),
                 array('','2',"egli domina su tutte le nazioni.")
             ),
             array(
-                array('','*',"A lui lolo si prostreranno"),
+                array('','*',"A lui solo si prostreranno"),
                 array('','2',"quanti dormono sotto terra,"),
                 array('','*',"davanti a lui si curveranno"),
                 array('','2',"quanti discendono nella polvere.")

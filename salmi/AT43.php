@@ -27,7 +27,7 @@ $this->closure['load']=function() {
                 array('','*',"Ascoltate popoli , la parola del Signore"),
                 array('','2',"annunziatela alle isole più lontane"),
                 array('','*',"e dite: « Chi ha disperso Israele lo raduna"),
-                array('','2',"e lo custodisce come un pasore il suo gregge »."),
+                array('','2',"e lo custodisce come un pastore il suo gregge »."),
                 array('','*',"Perché il Signore ha redento Giacobbe,"),
                 array('','2',"lo ha riscattato delle mani del più forte di lui.")
             ),
@@ -46,7 +46,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Io cambierò il loro lutto in gioia,"),
                 array('','2',"li consolerò e li renderò felici, senza afflizioni."),
-                array('','*',"Sazierò di delizie l'anima dei sacredoti"),
+                array('','*',"Sazierò di delizie l'anima dei sacerdoti"),
                 array('','2',"e il mio popolo abbonderà dei miei beni.")
             )
         )

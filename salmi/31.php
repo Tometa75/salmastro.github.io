@@ -1,7 +1,7 @@
 <?php
 $this->closure['load']=function() {
 
-    $this->titolo="Salmo 31 Ringraziasmento per il perdono dei peccati";
+    $this->titolo="Salmo 31 Ringraziamento per il perdono dei peccati";
 
     //compieta mercoledì 
     if ($this->actual['tempo']=='P') {
@@ -45,7 +45,7 @@ $this->closure['load']=function() {
                 array('','*',"Per questo ti prega ogni fedele"),
                 array('','2',"nel tempo dell'angoscia."),
                 array('','*',"Quando irromperanno grandi acque"),
-                array('','2',"non lo ptranno raggiungere."),
+                array('','2',"non lo potranno raggiungere."),
                 array('','*',"Tu sei il mio rifugio, mi preservi dal pericolo,"),
                 array('','2',"mi circondi di esultanza per la salvezza.")
             ),

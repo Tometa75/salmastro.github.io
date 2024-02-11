@@ -41,7 +41,7 @@ $this->closure['load']=function() {
                 array('','*',"Raduna tutte le tribù di Giacobbe,"),
                 array('','2',"rendi loro il possesso come era al principio."),
                 array('','*',"Abbi pietà, Signore, del popolo chiamato con il tuo nome,"),
-                array('','2',"di Israele che hai trattato come un promogenito.")
+                array('','2',"di Israele che hai trattato come un primogenito.")
             ),
             array(
                 array('','*',"Abbi pietà della città tua santa,"),
