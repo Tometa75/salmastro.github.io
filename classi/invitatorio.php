@@ -48,54 +48,30 @@ class Invito {
                 $this->antifona="Esultate in Dio, intonate il canto: è il nostro giorno di festa.";
                 $this->salmo("80");
             break;
-            case "MAG":
-                $this->titolo="Cantico della B.V.Maria (Esultanza dell'anima nel Signore)";
-                $this->testoBase=array(
-                    array(
-                        array('','*',"L'anima mia magnifica il Signore"),
-                        array('','2',"e il mio spirito esulta in Dio, mio salvatore,"),
-                        array('','*',"perché ha guardato l'umiltà della sua serva."),
-                        array('','2',"D'ora in poi tutte le generazioni mi chiameranno beata.")
-                    ),
-                    array(
-                        array('','*',"Grandi cose ha fatto in me l'Onnipotente"),
-                        array('','2',"e santo è il suo nome:"),
-                        array('','*',"di generazione in generazione la sua misericordia"),
-                        array('','2',"si stende su quelli che lo temono.")
-                    ),
-                    array(
-                        array('','*',"Ha spiegato la potenza del suo braccio,"),
-                        array('','2',"ha disperso i superbi nei pensieri del loro cuore;"),
-                        array('','*',"ha rovesciato i potenti dai troni,"),
-                        array('','2',"ha innalzato gli umili;"),
-                        array('','*',"ha ricolmato di beni gli affamati,"),
-                        array('','2',"ha rimandato i ricchi a mani vuote.")
-                    ),
-                    array(
-                        array('','*',"Ha soccorso Israele, suo servo,"),
-                        array('','2',"ricordandosi della sua misericordia,"),
-                        array('','*',"come aveva promesso ai nostri padri,"),
-                        array('','2',"ad Abramo e alla sua discendenza, per sempre.")
-                    )
-                );
+            case 1:
+                $this->antifona="Gloria al Signore nel suo tempio: egli siede re per sempre.";
+                $this->salmo("28");
             break;
-            case "SIM":
-                $this->titolo="Cantico di Simeone (Cristo, luce delle genti e gloria d'Israele)";
-                $this->testoBase=array(
-                    array(
-                        array('','*',"Ora lascia, o Signore, che il tuo servo"),
-                        array('','2',"vada in pace secondo la tua parola;")
-                    ),
-                    array(
-                        array('','*',"perché i miei occhi han visto la tua salvezza,"),
-                        array('','2',"preparata da te davanti a tutti i popoli,")
-                    ),
-                    array(
-                        array('','*',"luce per illuminare le genti"),
-                        array('','2',"e gloria del tuo popolo Israele.")
-                    )
-                );
+            case 2:
+                $this->antifona="Ti lodino, o Dio, i popoli tutti, conoscano la tua salvezza.";
+                $this->salmo("66");
             break;
+            case 3:
+                $this->antifona="Venite, contemplate le opere del Signore: ha fatto portenti sulla terra.";
+                $this->salmo("45");
+            break;
+            case 4:
+                $this->antifona="Aprite le porte al Signore: entri il re della gloria.";
+                $this->salmo("23");
+            break;
+            case 5:
+                $this->antifona="Quanto è grande il tuo nome, Signore, nei cieli e sulla terra!";
+                $this->salmo("8");
+            break;
+            case 6:
+                $this->antifona="Venite, acclamate al Signore, ascoltate oggi la sua voce.";
+                $this->salmo("94");
+            break;   
         }
         
     }
@@ -152,6 +128,223 @@ class Invito {
                         array('','2',"e la loro sorte sarebbe segnata per sempre;"),
                         array('','*',"li nutrirei con fiore di frumento,"),
                         array('','2',"li sazierei con miele di roccia ».")
+                    )
+                );
+            break;
+
+            case "28":
+                $this->titolo="Salmo 28 Il Signore proclama solennemente la sua parola";
+                $this->testoBase=array(
+                    array(
+                        array('','*',"Date al Signore, figli di Dio,"),
+                        array('','2',"date al Signore gloria e potenza."),
+                        array('','*',"Date al Signore la gloria del suo nome,"),
+                        array('','2',"prostratevi sl Signore in santi ornamenti.")
+                    ),
+                    array(
+                        array('','+',"Il Signore tuona sulle acque,"),
+                        array('','*',"il Dio della gloria scatena il tuono,"),
+                        array('','2',"il Signore, sull'immensità delle acque."),
+                        array('','*',"Il Signore tuona con forza,"),
+                        array('','2',"tuona il Signore con potenza.")
+                    ),
+                    array(
+                        array('','*',"Il tuono del Signore schianta i cedri,"),
+                        array('','2',"il Signore schianta i cedri del Libano."),
+                        array('','*',"Fa balzare come un vitello il Libano"),
+                        array('','2',"e il Sirion come un giovane bufalo.")
+                    ),
+                    array(
+                        array('','+',"Il tuono saetta fiamme di fuoco,"),
+                        array('','*',"il tuono scuote la steppa,"),
+                        array('','2',"il Signore scuote il deserto di Kades."),
+                        array('','+',"Il tuono fa partorire le cerve,"),
+                        array('','*',"e spoglia le foreste."),
+                        array('','2',"Nel suo tempio tutti dicono: « Gloria! »")
+                    ),
+                    array(
+                        array('','*',"Il Signore è assiso sulla tempesta,"),
+                        array('','2',"il Signore siede re per sempre."),
+                        array('','*',"Il Signore darà forza al suo popolo,"),
+                        array('','2',"benedirà il suo popolo con la pace.")
+                    )
+                );
+            break;
+
+            case "66":
+                $this->titolo="Salmo 66 Tutti i popoli glorifichino il Signore";
+                $this->testoBase=array(
+                    array(
+                        array('','*',"Dio abbia pietà di noi e ci benedica,"),
+                        array('','2',"su di noi faccia splendere il suo volto;"),
+                        array('','*',"perché si conosca sulla terra la sua via,"),
+                        array('','2',"fra tutte le genti la sua salvezza.")
+                    ),
+                    array(
+                        array('','*',"Ti lodino i popoli, Dio,"),
+                        array('','2',"ti lodino i popoli tutti."),
+                        array('','+',"Esultino le genti e si rallegrino,"),
+                        array('','*',"perché giudichi i popoli con giustizia,"),
+                        array('','2',"governi le nazioni sulla terra.")
+                    ),
+                    array(
+                        array('','*',"Ti lodino i popoli, Dio,"),
+                        array('','2',"ti lodino i popoli tutti."),
+                        array('','*',"La terra ha dato il suo frutto."),
+                        array('','2',"Ci benedica Dio, il nostro Dio,"),
+                        array('','*',"ci benedica Dio"),
+                        array('','2',"e lo temano tutti i confini della terra.")
+                    )
+                );
+            break;
+
+            case "45":
+                $this->titolo="Salmo 45 Dio rifugio e forza del suo popolo";
+                $this->testoBase=array(
+                    array(
+                        array('','*',"Dio è per noi rifugio e forza,"),
+                        array('','2',"aiuto sempre vicino nelle angosce."),
+                        array('','*',"Perciò non temiamo se trema la terra,"),
+                        array('','2',"se crollano i monti nel fondo del mare."),
+                        array('','*',"Fremano, si gonfino le sue acque,"),
+                        array('','2',"tremino i monti per i suoi flutti."),
+                        array('','*',"Il Signore degli eserciti è con noi,"),
+                        array('','2',"nostro rifugio è il Dio di Giacobbe.")
+                    ),
+                    array(
+                        array('','*',"Un fiume e i suoi ruscelli rallegrano la città di Dio,"),
+                        array('','2',"la santa dimora dell'Altissimo."),
+                        array('','*',"Dio sta in essa: non potrà vacillare;"),
+                        array('','2',"la soccorrerà Dio, prima del mattino."),
+                        array('','*',"Fremettero le genti, i regni si scossero;"),
+                        array('','2',"egli tuonò, si sgretolò la terra."),
+                        array('','*',"Il Signore degli eserciti è con noi,"),
+                        array('','2',"nostro rifugio è il Dio di Giacobbe."),
+                    ),
+                    array(
+                        array('','*',"Venite, vedete le opere del Signore,"),
+                        array('','2',"Egli ha fatto portenti sulla terra."),
+                        array('','+',"Farà cessare le guerre fino ai confini della terra,"),
+                        array('','*',"romperà gli archi e spezzerà le lance,"),
+                        array('','2',"brucerà con il fuoco gli scudi."),
+                        array('','*',"Fermatevi e sappiate che io sono Dio,"),
+                        array('','2',"eccelso fra le genti, eccelso sulla terra."),
+                        array('','*',"Il Signore degli eserciti è con noi,"),
+                        array('','2',"nostro rifugio è il Dio di Giacobbe.")
+                    )
+                );
+            break;
+
+            case "23":
+                $this->titolo="Salmo 23 Il Signore entra nel suo tempio";
+                $this->testoBase=array(
+                    array(
+                        array('','*',"Del Signore è la terra e quanto contiene,"),
+                        array('','2',"l'universo e i suoi abitanti."),
+                        array('','*',"È lui che l'ha fondata sui mari,"),
+                        array('','2',"e sui fiumi l'ha stabilita.")
+                    ),
+                    array(
+                        array('','*',"Chi salirà il monte del Signore,"),
+                        array('','2',"chi starà nel suo luogo santo?"),
+                        array('','+',"Chi ha mani innocenti e cuore puro,"),
+                        array('','*',"chi non pronunzia menzogna,"),
+                        array('','2',"chi non giura a danno del suo prossimo.")
+                    ),
+                    array(
+                        array('','*',"Egli otterrà benedizione dal Signore,"),
+                        array('','2',"giustizia da Dio sua salvezza."),
+                        array('','*',"Ecco la generazione che lo cerca,"),
+                        array('','2',"che cerca il tuo volto, Dio di Giacobbe.")
+                    ),
+                    array(
+                        array('','+',"Sollevate, porte, i vostri frontali,"),
+                        array('','*',"alzatevi, porte antiche,"),
+                        array('','2',"ed entri il re della gloria."),
+                        array('','+',"Chi è questo re della gloria?"),
+                        array('','*',"Il Signore forte e potente,"),
+                        array('','2',"il Signore potente in battaglia.")
+                    ),
+                    array(
+                        array('','+',"Sollevate, porte, i vostri frontali,"),
+                        array('','*',"alzatevi, porte antiche,"),
+                        array('','2',"ed entri il re della gloria."),
+                        array('','*',"Chi è questo re della gloria?"),
+                        array('','2',"Il Signore degli eserciti è il re della gloria.")
+                    )
+                );
+            break;
+
+            case "8":
+                $this->titolo="Salmo 8 Grandezza del Signore e dignità dell'uomo";
+                $this->testoBase=array(
+                    array(
+                        array('','+',"O Signore, nostro Dio,"),
+                        array('','*',"quanto è grande il tuo nome su tutta la terra,"),
+                        array('','2',"sopra i cieli si innalza la tua magnificenza."),
+                        array('','+',"Con la bocca dei bimbi e dei lattanti"),
+                        array('','*',"affermi la tua potenza contro i tuoi avversari,"),
+                        array('','2',"per ridurre al silenzio nemici e ribelli.")
+                    ),
+                    array(
+                        array('','*',"Se guardo il tuo cielo, opera delle tue dita,"),
+                        array('','2',"la luna e le stelle che tu hai fissate,"),
+                        array('','*',"che cosa è l'uomo perché te ne ricordi"),
+                        array('','2',"e il figlio dell'uomo perché te ne curi?")
+                    ),
+                    array(
+                        array('','*',"Eppure l'hai fatto poco meno degli angeli,"),
+                        array('','2',"di gloria e di onore lo hai coronato:"),
+                        array('','*',"gli hai dato potere sulle opere delle tue mani,"),
+                        array('','2',"tutto hai posto sotto i sui piedi;")
+                    ),
+                    array(
+                        array('','*',"tutti i greggi e gli armenti,"),
+                        array('','2',"tutte le bestie della campagna;"),
+                        array('','*',"gli uccelli del cielo e i pesci del mare,"),
+                        array('','2',"che percorrono le vie del mare."),
+                        array('','*',"O Signore, nostro Dio,"),
+                        array('','2',"quanto è grande il tuo nome su tutta la terra!")
+                    )
+                );
+            break;
+
+            case "94":
+                $this->titolo="Salmo 94 Invito a lodare Dio";
+                $this->testoBase=array(
+                    array(
+                        array('','*',"Venite, applaudiamo al Signore,"),
+                        array('','2',"acclamiamo alla roccia della nostra salvezza."),
+                        array('','*',"Accostiamoci a lui per rendergli grazie,"),
+                        array('','2',"a lui acclamiamo con canti di gioia.")
+                    ),
+                    array(
+                        array('','*',"Perché grande Dio è il Signore,"),
+                        array('','2',"grande re sopra tutti gli dei."),
+                        array('','*',"Nella sua mano sono gli abissi della terra,"),
+                        array('','2',"sono sue le vette dei monti."),
+                        array('','*',"Suo è il mare, egli l'ha fatto,"),
+                        array('','2',"le sue mani hanno plasmato la terra.")
+                    ),
+                    array(
+                        array('','*',"Venite, prostràti adoriamo,"),
+                        array('','2',"in ginocchio davanti al Signore che ci ha creati."),
+                        array('','*',"Egli è il nostro Dio, e noi il popolo del suo pascolo,"),
+                        array('','2',"il gregge che egli conduce.")
+                    ),
+                    array(
+                        array('','+',"Ascoltate oggi la sua voce:"),
+                        array('','*',"« Non indurite il cuore,"),
+                        array('','2',"come a Meriba, come nel giorno di Massa nel deserto,"),
+                        array('','*',"dove mi tentarono i vostri padri:"),
+                        array('','2',"mi misero alla prova pur avendo visto le mie opere.")
+                    ),
+                    array(
+                        array('','+',"Per quarant'anni mi disgustai di quella generazione"),
+                        array('','*',"e dissi: Sono un popolo dal cuore traviato,"),
+                        array('','2',"non conoscono le mie vie;"),
+                        array('','*',"perciò ho giurato nel mio sdegno:"),
+                        array('','2',"Non entreranno nel luogo del mio riposo ».")
                     )
                 );
             break;
