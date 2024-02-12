@@ -2,6 +2,7 @@
 require_once('preghiera.php');
 require_once('invitatorio.php');
 require_once('inno.php');
+require_once('penitenza.php');
 require_once('salmodia.php');
 require_once('lettura.php');
 require_once('orazione.php');
@@ -215,6 +216,7 @@ class Litio {
                         $this->res['PI']=new Preghiera('inizio',$this);
                     }
                 break;
+                case 'SIL': $this->res['SIL']=new Penitenza($this);break;
                 case 'INNO': $this->res['INNO']=new Inno($this);break;
                 case 'SAL': $this->res['SAL']=new Salmodia($this);break;
                 case 'LB': $this->res['LB']=new Lettura($this);break;
