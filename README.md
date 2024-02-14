@@ -42,8 +42,11 @@ Starting Canticle
 End Canticle
 Starting Invocations
 
-11.02.203
+11.02.2024
 End Invocations
 Starting "Invitatorio"
 
+15.02.2024
+End "Invitatorio"
+Starting "Liturgical Calendar" 
 
