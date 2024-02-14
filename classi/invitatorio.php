@@ -34,9 +34,9 @@ class Invito {
 
         $this->init();
 
-        //$this->build();
+        $this->build();
 
-        //$this->build2();
+        $this->build2();
 
     }
 
@@ -77,6 +77,32 @@ class Invito {
     }
 
     //################################################################################
+    function setSalmo() {
+        switch ($this->actual['weekDay']) {
+            case 0:
+                $this->salmo("80");
+            break;
+            case 1:
+                $this->salmo("28");
+            break;
+            case 2:
+                $this->salmo("66");
+            break;
+            case 3:
+                $this->salmo("45");
+            break;
+            case 4:
+                $this->salmo("23");
+            break;
+            case 5:
+                $this->salmo("8");
+            break;
+            case 6:
+                $this->salmo("94");
+            break;   
+        }
+    }
+
     function salmo($id) {
 
         switch ($id) {
@@ -432,6 +458,7 @@ class Invito {
 
             if (substr($this->actual['today'],4,4)>='0107' && substr($this->actual['today'],4,4)<='0112') {
                 $this->antifona="Venite, adoriamo il Signore apparso tra noi.";
+            }
         }
 
         /////////////////////////////////////////////
@@ -523,343 +550,71 @@ class Invito {
         //////////////////////////////////////////////////////////////////////////////////////
 
         if ($this->actual['evCode']=='0202a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Il vecchio",
-                    "portava il bambino, e il bambino sosteneva il vecchio. Maria sempre vergine adorava il suo Dio, il figlio da lei generato."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Portarono",
-                    "Gesù nel tempio: Simeone lo prese tra le braccia e benedisse Dio."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "la Vergine Maria viene al tempio per offrire il figlio Gesù; oggi Simeone, pieno di Spirito Santo, accoglie Cristo e benedice Dio."
-                );
-            }
+            $this->antifona="Ecco: il Signore viene al suo tempio santo; rallegrati ed esulta, Sion, e va' incontro al tuo Dio.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='0210a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Esultino tutti i fedeli",
-                    "per la gloria di santa Scolastica; gioiscano le schiere delle vergini nella festa di colei che, versando le sue lacrime, fu esaudita dal Signore: molto più ottenne perché più forte era il suo amore."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Grande",
-                    "era la santità di Scolastica: la potenza delle sue lacrime turbò la serenità del cielo e fece scaturire torrenti di pioggia."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "la santa vergine Scolastica si è levata verso il cielo in un festoso volo come di colomba. Oggi, insieme al fratello, gode in perpetuo la gioia della vita celeste."
-                );
-            }
+            $this->antifona="Venite, adoriamo Cristo, Re e Sposo delle vergini.";
+            $this->salmo("94");
         }
-        elseif ($this->actual['evCode']=='0319a') {
 
+        elseif ($this->actual['evCode']=='0319a') {
             if ($this->actual['tempo']=='P') {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Destatosi dal sonno,",
-                        "Gesù fece come gli aveva ordinato l'angelo del Signore, e prese con sè Maria, sua sposa, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Quando Gesù",
-                        "a trent'anni cominciò il suo ministero, era conosciuto come il figlio di Giuseppe, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "Servo",
-                        "fedele e saggio: il Signore gli ha affidato la sua famiglia, alleluia."
-                    );
-                }
+                $this->antifona="Adoriamo Cristo, nostro Dio, conosciuto come il figlio di Giuseppe, alleluia.";
+                $this->salmo("94");
             }
             else {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Destatosi dal sonno,",
-                        "Gesù fece come gli aveva ordinato l'angelo del Signore, e prese con sè Maria, sua sposa."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Quando Gesù",
-                        "a trent'anni cominciò il suo ministero, era conosciuto come il figlio di Giuseppe."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "Servo",
-                        "fedele e saggio: il Signore gli ha affidato la sua famiglia."
-                    );
-                }
+                $this->antifona="Adoriamo Cristo, nostro Dio, conosciuto come il figlio di Giuseppe.";
+                $this->salmo("94");
             }
         }
         elseif ($this->actual['evCode']=='0321a') {
-
             if ($this->actual['tempo']=='P') {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Per la gloria",
-                        "del grande padre Benedetto esulti il popolo cristiano, gioiscano le schiere dei monaci celebrandone la festa in terra: della sua presenza si rallegrano i santi in cielo, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "O santo patriarca Benedetto,",
-                        "padre e guida di monaci, intercedi per la salvezza nostra e di tutto il mondo, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "Oggi,",
-                        "sotto lo sguardo dei discepoli, Benedetto è asceso al cielo verso oriente; oggi, levate le mani nella preghiera, è spirato; nella gloria di Dio, alleluia."
-                    );
-                }
+                $this->antifona="Nella festa del nostro santo padre Benedetto, lodiamo il Signore nostro Dio, alleluia.";
+                $this->salmo("94");
             }
             else {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Per la gloria",
-                        "del grande padre Benedetto esulti il popolo cristiano, gioiscano le schiere dei monaci celebrandone la festa in terra: della sua presenza si rallegrano i santi in cielo."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "O santo patriarca Benedetto,",
-                        "padre e guida di monaci, intercedi per la salvezza nostra e di tutto il mondo."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "Oggi,",
-                        "sotto lo sguardo dei discepoli, Benedetto è asceso al cielo verso oriente; oggi, levate le mani nella preghiera, è spirato; nella gloria di Dio."
-                    );
-                }
+                $this->antifona="Nella festa del nostro santo padre Benedetto, lodiamo il Signore nostro Dio.";
+                $this->salmo("94");
             }
         }
         elseif ($this->actual['evCode']=='0325a') {
-
             if ($this->actual['tempo']=='P') {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Lo Spirito Santo",
-                        "scenderà su di te, Maria: su di te stenderà la sua ombra la potenza dell'Altissimo, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Per il grande amore",
-                        "con il quale ci ha amati, Dio mandò il suo Figlio in una carne simile a quella del peccato, alleluia."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "L'angelo Gabriele",
-                        "disse a Maria: Ave piena di grazia, il Signore è con te; tu sei benedetta fra le donne, alleluia."
-                    );
-                }
+                $this->antifona="Il Verbo di Dio si è fatto uomo: venite, adoriamo, alleluia.";
+                $this->salmo("94");
             }
             else {
-                if ($this->actual['ora']=="ves1") {
-                    $this->antifona=array(
-                        "Lo Spirito Santo",
-                        "scenderà su di te, Maria: su di te stenderà la sua ombra la potenza dell'Altissimo."
-                    );
-                }
-                elseif ($this->actual['ora']=="lodi") {
-                    $this->antifona=array(
-                        "Per il grande amore",
-                        "con il quale ci ha amati, Dio mandò il suo Figlio in una carne simile a quella del peccato."
-                    );
-                }
-                elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                    $this->antifona=array(
-                        "L'angelo Gabriele",
-                        "disse a Maria: Ave piena di grazia, il Signore è con te; tu sei benedetta fra le donne."
-                    );
-                }
+                $this->antifona="Il Verbo di Dio si è fatto uomo: venite, adoriamo.";
+                $this->salmo("94");
             }
         }
         elseif ($this->actual['evCode']=='0624a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Nel tempio del Signore,",
-                    "a destra dell'altare dell'indenso, l'angelo Gabriele apparve a Zaccaria."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "A Zaccaria",
-                    "tornò la parola, e profetò dicendo: Benedetto il Dio di Israele."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Questo bambino",
-                    "è più che un profeta; di lui il Salvatore ha detto: Tra i nati di donna non è sorto uno più grande di Giovanni Battista."
-                );
-            }
-        }
-        elseif ($this->actual['evCode']=='0629a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Gloriosi",
-                    "apostoli di Cristo! Uniti nella vita, la morte non li ha separati."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Pietro,",
-                    "il primo degli apostoli, e Paolo, il maestro delle genti, ci insegnano, Signore, la tua legge."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "Simon Pietro è salito sulla croce, alleluia; oggi colui che tiene le chiavi del regno è andato nella gioia incontro a Cristo. Oggi l'apostolo Paolo, luce delle genti, ha piegato il capo per testimoniare il nome di Cristo, alleluia."
-                );
-            }
+            $this->antifona="Adoriamo Gesù, Agnello di Dio, annunziato da Giovanni.";
+            $this->salmo("94");  
         }
         elseif ($this->actual['evCode']=='0711a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Per la gloria",
-                    "del grande padre Benedetto esulti il popolo cristiano, gioiscano le schiere dei monaci celebrandone la festa in terra: della sua presenza si rallegrano i santi in cielo."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "O santo",
-                    "patriarca Benedetto, padre e guida di monaci, intercedi per la salvezza nostra e di tutto il mondo."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "O beato padre Benedetto,",
-                    "maestro, guida e norma di vita celeste, ora esulti con Cristo nella gloria: pastore santo, proteggi i tuoi figli, rafforzali con la tua peghiera, e dietro a te conducili al cielo per una via luminosa."
-                );
-            }
+            $this->antifona="Nella festa del nostro santo padre Benedetto, lodiamo il Signore nostro Dio.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='0806a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Cristo Gesù,",
-                    "splendore del Padre e impronta della sua sostanza, che sostiene l'universo con la sua parola e libera dal peccato, oggi sul monte è apparso glorioso."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Risuona",
-                    "dal cielo una voce: Questo è il mio Figlo prediletto, in lui mi sono compiaciuto. Ascoltatelo! Alleluia."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "I discepoli,",
-                    "udita la voce, caddero a terra, presi da grande timore. Gesù li toccò e disse: Alzatevi, non abbiate paura, alleluia."
-                );
-            }
+            $this->antifona="Venite, adoriamo Cristo Signore, il Re della gloria.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='0815a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Beata,",
-                    "o Maria, che hai creduto al Signore: si è compiuta in te la sua parola: intercedi per noi."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Chi è costei,",
-                    "che sorge come l'aurora, bella come la luna, fulgida come il sole?"
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "Maria è salita nei cieli: rallegratevi! Con Cristo regna per sempre."
-                );
-            }
+            $this->antifona="Oggi la Madre di Cristo è assunta in cielo: lodiamo il Figlio, Signore del mondo.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='0914a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "O croce",
-                    "che brilli più delle stelle, celebre, amabile. santa più di ogni coda al mondo; tu sola fosti degna di portare il dolce peso del nostro riscatto: salva i tuoi figli, oggi riuniti nella tua lode."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Adoriamo",
-                    "la tua croce, Signore; acclamiamo la tua rsurrezione: da questo albero di vita la gioia è venuta nel mondo."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "O croce benedetta!",
-                    "Tu sola hai portato il Signore, il Re dei cieli, alleluia."
-                );
-            }
+            $this->antifona="Venite, adoriamo Cristo Signore, esaltato per noi sulla croce.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='1101a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Regno glorioso,",
-                    "dove i santi godono con Cristo e in vesti bianche seguono l'Agnello."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Ti acclama",
-                    "il coro degli apostoli e la candida schiera dei martiri, le voci dei profeti si uniscono nella tua lode; la Chiesa dei santi proclama la tua gloria: Santa Trinità, unic Dio!"
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Angeli,",
-                    "arcangeli, troni e dominazioni, principati e potestà e virtù, cherubini e serafini, patriarchi e profeti, santi dottori della legge, apostoli tutti, martiri di Cristo, vergini del Signore, anacoreti e santi tutti, intercedete per noi."
-                );
-            }
+            $this->antifona="Venite, adoriamo il Signore: a lui dà gloria l'assemblea dei santi.";
+            $this->salmo("94");
         }
         elseif ($this->actual['evCode']=='1208a') {
-
-            if ($this->actual['ora']=="ves1") {
-                $this->antifona=array(
-                    "Tutti i secoli",
-                    "mi diranno beata: grandi cose ha fatto in me l'Onnipotente, alleluia."
-                );
-            }
-            elseif ($this->actual['ora']=="lodi") {
-                $this->antifona=array(
-                    "Disse il Signore",
-                    "al serpente: Porrò inimicizia fra te e la donna, fra la tua stirpe e la sua: essa ti schiaccerà la testa, alleluia."
-                );
-            }
-            elseif ($this->actual['ora']=="ves" || $this->actual['ora']=="ves2") {
-                $this->antifona=array(
-                    "Oggi",
-                    "è spuntato un germoglio dalla radice di Iesse; oggi Maria è stata concepita senza macchia di peccato; oggi la donna ha schiacciato la testa dell'antico serpente, alleluia."
-                );
-            }
+            $this->antifona="Celebriamo l'Immacolata Concezione di Maria: adoriamo suo Figlio, Cristo Signore.";
+            $this->salmo("94");
         }
     }
 
@@ -994,1662 +749,108 @@ class Invito {
                 elseif ($f['comune']=='DEF') {
 
                     $this->antifona="Venite, adoriamo il Signore: per lui tutti vivono.";
-                        $this->salmo("94");
+                    $this->salmo("94");
                 }
 
                 ////////////////////////////////////////////////////////////////////////
 
-                if ($k=='0102a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I saggi",
-                            "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Io stesso,",
-                            "il Signore, vi condurrò in Sion, e vi darò pastori secondo il mio cuore: essi vi guideranno con saggezza e intelligenza."
-                        );
-                    }
-                }
-                elseif ($k=='0115a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "O uomini santi,",
-                            "che disprezzando il mondo avete portato il giogo della santa Regola fin dagli anni giovanili: ora godete nel regno di Cristo, perché avete partecipato alla sua passione, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Voi",
-                            "avete abbandonato ogni cosa per seguirmi: avrete cento volte tanto e la vita eterna."
-                        );
-                    }
-                }
-                elseif ($k=='0117a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Non vi preoccupate,",
-                            "dicendo: Che cosa mangeremo? Che cosa berremo? Il Padre vostro celeste sa di che cosa avete bisogno, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi vuole",
-                            "essere ricco cerchi le ricchezze più vere."
-                        );
-                    }
-                }
-                elseif ($k=='0121a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Ti ho tanto desiderato,",
-                            "ora contemplo il tuo volto; ti ho tanto cercato, ora sei mio; con tutto il cuore ti ho amato in terra e ora sono tua per sempre, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Le mani al cielo,",
-                            "Agnese pregava: Io vengo a te, accoglimi Signore onnipotente; te solo ho amato e cercato."
-                        );
-                    }
+                if ($k=='0115a') {
+                    $this->antifona="La celebrazione dei santi Mauro e Placido sia una lode al nostro Dio.";
                 }
                 elseif ($k=='0125a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Anania,",
-                            "va' a cercare Saulo: ecco sta pregando. Io l'ho scelto perché annunzi il mio nome a tutti i popoli."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Paolo,",
-                            "apostolo del Vangelo e maestro dei popoli, prega per noi Dio che ti ha scelto."
-                        );
-                    }
-                }
-                elseif ($k=='0126a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Voi",
-                            "avete abbandonato tutto per seguirmi: avrete cento volte tanto e la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quanto è bello",
-                            "e soave che i fratelli vivano insieme!"
-                        );
-                    }
-                }
-                elseif ($k=='0127a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Hanno servito",
-                            "il Signore per tutta la vita, in santità e giustizia: per questo il Signore li ha rivestiti della stola di gloria."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Viviamo",
-                            "con giustizia e con fede, aspettando la beata speranza e la venuta del Signore."
-                        );
-                    }
-                }
-                elseif ($k=='0128a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "La sapienza",
-                            "nelle piazze fa udire la sua voce: Se qualcuno ama la sapienza, venga a me e la troverà; beato se saprà custodirla."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Ogni sapienza",
-                            "viene dal Signore ed è con lui da sempre e per sempre."
-                        );
-                    }
-                }
-                elseif ($k=='0203a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Il santo vescovo Ansgario",
-                            "portò la luce di Cristo ai popoli scandinavi, ed essi contemplarono l'aurora del sole di giustizia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Come sono belli",
-                            "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dice a Sion: Regna il tuo Dio!"
-                        );
-                    }
-                }
-                elseif ($k=='0205a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Agata",
-                            "entrava gioiosa nel carcere come a una festa di nozze, chiedendo a Dio di superare la prova."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Signore Gesù Cristo,",
-                            "maestro buono, con il tuo aiuto ho superato i tormenti: fa' che giunga alla tua gloria senza fine."
-                        );
-                    }
-                }
-                elseif ($k=='0208a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I loro angeli",
-                            "vedono sempre il volto del Padre mio che è nei cieli."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Lasciate,",
-                            "che i piccoli vengano a me: a loro appartiene il regno di Dio."
-                        );
-                    }
-                }
-                elseif ($k=='0211b') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Aurora",
-                            "splendente di salvezza, Vergine Maria: da te è nato il Sole di giustizia che dall'alto ci ha visitato."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Apparve nel cielo",
-                            "una donna vestita di sole, con la luna sotto i suoi piedi e sul capo una corona di dodici stelle."
-                        );
-                    }
-                }
-                elseif ($k=='0214a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "In santità e giustizia",
-                            "servirono il Signore per tutti i loro giorni."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Santi amici di Dio,",
-                            "gloria a voi, che avete annunziato il Vangelo di verità."
-                        );
-                    }
-                }
-                elseif ($k=='0217a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Quanto è bello",
-                            "e soave che i fratelli vivano insieme!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Dove i fratelli",
-                            "si riuniscono a lodare il Signore, scende come rugiada la sua benedizione."
-                        );
-                    }
-                }
-                elseif ($k=='0221a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I saggi",
-                            "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maestro della fede",
-                            "e luce della Chiesa, san Pier Damiani, ha scrutato con amore il mistero di Dio: prega per noi Cristo Signore."
-                        );
-                    }
-                }
-                elseif ($k=='0222a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Tutto ciò",
-                            "che avrai legato sulla terra sarà legato anche nei cieli, e tutto ciò che avrai sciolto sulla terra sarà sciolto anche nei cieli, dice il Signore a Simon Pietro."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Tu sei",
-                            "pastore del gregge di Cristo, e primo degli apostoli: a te sono affidate le chiavi del regno."
-                        );
-                    }
-                }
-                elseif ($k=='0223a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da ottantasei anni",
-                            "io servo Cristo, e non mi ha fatto alcun torto: come posso rinnegare il mio re, il mio salvatore?."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Ti benedico,",
-                            "Signore onnipotente: mi concedi di bere al calice di Cristo, perché sia accolto fra i tuoi martiri."
-                        );
-                    }
-                }
-                elseif ($k=='0304a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Bene,",
-                            "servo buono e fedele: sei stato fedele nel poco, ti darò potere su molto, entra nella gloria del tuo Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Disprezzando il mondo",
-                            "e le cose terrene, l'uomo giusto, con la parola e con le opere, ha accumulato tesori per il cielo."
-                        );
-                    }
-                }
-                elseif ($k=='0307a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Il giorno della vittoria",
-                            "spuntò radioso: dal carcere le martiri passarono all'anfiteatro come fosse già il cielo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "State saldi",
-                            "nella fede, amatevi gli uni gli altri, e non lasciatevi turbare dai nostri patimenti."
-                        );
-                    }
-                }
-                elseif ($k=='0309a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Chi fa la volontà",
-                            "del Padre mio, è per me fratello, sorella e madre, dice il Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Avete abbandonato",
-                            "ogni cosa per seguirmi: avrete cento volte tanto, e la vita eterna."
-                        );
-                    }
-                }
-                elseif ($k=='0317a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Andate,",
-                            "evangelizzate i popoli, battezzate nel nome del Padre e del Figlio e dello Spirito Santo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Molti",
-                            "verranno da oriente e da occidente, e siederanno con Abramo vostro padre alla tavola del regno."
-                        );
-                    }
-                }
-                elseif ($k=='0318a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I saggi",
-                            "splenderanno come il firmamento, i maestri di sapienza saranno come stelle nel cielo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maestro della fede",
-                            "e luce della Chiesa, san Cirillo, ha scrutato con amore il mistero di Dio: prega per noi Cristo Signore."
-                        );
-                    }
-                }
-                elseif ($k=='0323a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Sacerdote di Dio,",
-                                "esempio di virtù, pastore buono: intercedi per noi presso il Signore, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Come sono belli",
-                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dicde a Sion: Regna il tuo Dio! Alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Sacerdote di Dio,",
-                                "esempio di virtù, pastore buono: intercedi per noi presso il Signore."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Come sono belli",
-                                "sui monti i piedi del messaggero di lieti annunzi che annunzia la pace, messaggero di bene che dicde a Sion: Regna il tuo Dio!"
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0402a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Ecco,",
-                                "sto alla porta e busso: se uno ascolta la mia voce e mi apre, entrerò, e cenerò con lui, ed egli con me, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Ha venduto",
-                                "tutti i suoi beni, stimandoli un nulla, pur di ottenere l'amore di Dio, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Ecco,",
-                                "sto alla porta e busso: se uno ascolta la mia voce e mi apre, entrerò, e cenerò con lui, ed egli con me."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Ha venduto",
-                                "tutti i suoi beni, stimandoli un nulla, pur di ottenere l'amore di Dio."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0404a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "I saggi",
-                                "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Maestro della fede",
-                                "e luce della Chiesa, sant'Isidoro, ha scrutato con amore il mistero di Dio: prega per noi Cristo Signore, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "I saggi",
-                                "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Maestro della fede",
-                                "e luce della Chiesa, sant'Isidoro, ha scrutato con amore il mistero di Dio: prega per noi Cristo Signore."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0405a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Non siete voi",
-                                "a parlare, ma parla in voi lo Spirito del Padre, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Mi sono fatto",
-                                "tutto a tutti, perché tutti siano salvi, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Non siete voi",
-                                "a parlare, ma parla in voi lo Spirito del Padre."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Mi sono fatto",
-                                "tutto a tutti, perché tutti siano salvi."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0407a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Solo chi ama,",
-                                "educa e forma, come fa un padre con i propri figli, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Lasciate",
-                                "che i piccoli vengano a me: a loro appartiene il regno di Dio, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Solo chi ama,",
-                                "educa e forma, come fa un padre con i propri figli."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Lasciate",
-                                "che i piccoli vengano a me: a loro appartiene il regno di Dio."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0411a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Chi odia",
-                                "la sua vita in questo mondo, la conserva per la vita eterna, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nel regno dei cieli",
-                                "è la dimora dei santi, nei secoli eterni il loro riposo, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Chi odia",
-                                "la sua vita in questo mondo, la conserva per la vita eterna."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nel regno dei cieli",
-                                "è la dimora dei santi, nei secoli eterni il loro riposo."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0413a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Chi odia",
-                                "la sua vita in questo mondo, la conserva per la vita eterna, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nel regno dei cieli",
-                                "è la dimora dei santi, nei secoli eterni il loro riposo, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Chi odia",
-                                "la sua vita in questo mondo, la conserva per la vita eterna."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nel regno dei cieli",
-                                "è la dimora dei santi, nei secoli eterni il loro riposo."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0421a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il beato Anselmo",
-                                "ammoniva i potenti dicendo: Nulla Dio ama di più sulla terra che la libertà della sua Chiesa, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Maestro della fede",
-                                "e luce della Chiesa, sant'Anselmo, hai scrutato con amore il mistero di Dio: prega per noi Cristo Signore, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il beato Anselmo",
-                                "ammoniva i potenti dicendo: Nulla Dio ama di più sulla terra che la libertà della sua Chiesa."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Maestro della fede",
-                                "e luce della Chiesa, sant'Anselmo, hai scrutato con amore il mistero di Dio: prega per noi Cristo Signore."
-                            );
-                        }
-                    }
+                    $this->antifona="Lodiamo il nostro Dio per la conversione del Dottore delle genti.";
                 }
                 elseif ($k=='0425a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I discepoli partirono",
-                            "e predicarono in tutto il mondo, mentre il Signore operava insieme a loro e con i prodigi confermava la loro parola, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Sono divenuto",
-                            "ministro del Vangelo, in virtù dell'efficacia della potenza di Dio, alleluia."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo il Signore che parla a noi nel Vangelo, alleluia.";
                 }
                 elseif ($k=='0429a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "O degnissima",
-                            "sposa di Cristo, fulgente di profetica luce, ardente di zelo apostolico, adorna della corona delle vergini, ti consumava il fuoco dell'amore divino, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Non sono",
-                            "più io che vivo, ma Cristo vive in me; infatti io porto le stigmate di Gesù nel mio corpo, alleluia."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo Cristo Signore, fonte di ogni sapienza, alleluia.";
                 }
                 elseif ($k=='0501a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Giuseppe,",
-                            "lavoratore santo, benedici il nostro lavoro, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Cristo Signore",
-                            "volle vivere nella casa dell'operaio ed essere chiamato suo figlio, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='0503a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Io sono la via,",
-                            "la verità e la vita: nessuno viene al Padre se non per me, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Se rimanete in me,",
-                            "e le mie parole rimangono in voi, domanderete e tutto vi sarà dato, alleluia."
-                        );
-                    }
+                    $this->antifona="Alleluia. Adoriamo Cristo, nostro Dio, chiamato figlio del lavoratore, alleluia.";
+                    $this->salmo("94");
                 }
                 elseif ($k=='0511a') {
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I giusti",
-                            "risplenderanno, come scintille nella stoppia correrannoqua e là. Governeranno le nazioni e il Signore regnerà per sempre su di loro, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Beati voi,",
-                            "santi di Dio! Siete divenuti cittadini del cielo: voi contemplate la gloria del Signore, alleluia."
-                        );
-                    }
+                    $this->antifona="Esultino i santi nel Signore, alleluia.";
+                    $this->setSalmo();
                 }
-                elseif ($k=='0514a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Uno tra coloro",
-                                "che hanno vissuto con il Signore Gesù divenga, insieme a noi testimone della sua risurrezione, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Non voi",
-                                "avete scelto me, ma io ho scelto voi; vi mando perché portiate frutto, e il vostro frutto rimanga, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Uno tra coloro",
-                                "che hanno vissuto con il Signore Gesù divenga, insieme a noi testimone della sua risurrezione."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Non voi",
-                                "avete scelto me, ma io ho scelto voi; vi mando perché portiate frutto, e il vostro frutto rimanga."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0515a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Dove due o tre",
-                                "sono riuniti nel mio nome, io sono in mezzo a loro, dice il Signore, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Voi",
-                                "siete santi, dice il Signore, e il vostro numero sarà da me moltiplicato, affinché in questa casa preghiate per il mio popolo, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Dove due o tre",
-                                "sono riuniti nel mio nome, io sono in mezzo a loro, dice il Signore."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Voi",
-                                "siete santi, dice il Signore, e il vostro numero sarà da me moltiplicato, affinché in questa casa preghiate per il mio popolo."
-                            );
-                        }
-                    }
-                }
+                
                 elseif ($k=='0531a') {
                     if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Con un grido profetico",
-                                "Elisabetta accolse Maria: Come mai viene da me la Madre del mio Signore? Alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Tutti i secoli",
-                                "mi diranno beata: Dio ha guardato la sua umile serva, alleluia."
-                            );
-                        }
+                        $this->antifona="Nella visitazione della Vergine Maria inneggiamo a Cristo suo Figlio, alleluia.";
                     }
                     else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Con un grido profetico",
-                                "Elisabetta accolse Maria: Come mai viene da me la Madre del mio Signore?"
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Tutti i secoli",
-                                "mi diranno beata: Dio ha guardato la sua umile serva."
-                            );
-                        }
+                        $this->antifona="Nella visitazione della Vergine Maria inneggiamo a Cristo suo Figlio.";
                     }
                 }
-                elseif ($k=='0601a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Lodiamo",
-                                "il Creatore dell'universo per Gesù Cristo, suo Figlio, e per lo Spirito Santo: egli ci ha dato la vita e tutti i suoi beni, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nell'anima",
-                                "si accese un fuoco improvviso: arse in me l'amore dei profeti e gli amici di Cristo, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Lodiamo",
-                                "il Creatore dell'universo per Gesù Cristo, suo Figlio, e per lo Spirito Santo: egli ci ha dato la vita e tutti i suoi beni."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Nell'anima",
-                                "si accese un fuoco improvviso: arse in me l'amore dei profeti e gli amici di Cristo."
-                            );
-                        }
-                    }
-                }
-                elseif ($k=='0605a') {
-                    if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il vescovo",
-                                "e martire Bonifacio, legato del Papa, diffuse il Vangelo tra i popoli germanici, e portò aiuto alle chiese dei Franchi, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "La spada dei barbari",
-                                "dovette lacerare il codice del santo Vangelo per trafiggere il petto del martire: fu ucciso, ma non vinto, alleluia."
-                            );
-                        }
-                    }
-                    else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Il vescovo",
-                                "e martire Bonifacio, legato del Papa, diffuse il Vangelo tra i popoli germanici, e portò aiuto alle chiese dei Franchi."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "La spada dei barbari",
-                                "dovette lacerare il codice del santo Vangelo per trafiggere il petto del martire: fu ucciso, ma non vinto."
-                            );
-                        }
-                    }
-                }
+                
                 elseif ($k=='0611a') {
                     if ($this->actual['tempo']=='P') {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Barnaba",
-                                "condusse Paolo nella Chiesa di Antiochia e insieme annunziavano ai fratelli la parola del Signore, alleluia."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Barnaba e Paolo",
-                                "narravano a tutta l'assemblea i segni e i prodigi compiuti dal Signore in mezzo ai popoli pagani, alleluia."
-                            );
-                        }
+                        $this->antifona="Adoriamo lo Spirito di Dio, che parla nei profeti e maestri della Chiesa, alleluia.";
                     }
                     else {
-                        if($this->actual['ora']=='lodi') {
-                            $this->antifona=array(
-                                "Barnaba",
-                                "condusse Paolo nella Chiesa di Antiochia e insieme annunziavano ai fratelli la parola del Signore."
-                            );
-                        }
-                        elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                            $this->antifona=array(
-                                "Barnaba e Paolo",
-                                "narravano a tutta l'assemblea i segni e i prodigi compiuti dal Signore in mezzo ai popoli pagani."
-                            );
-                        }
+                        $this->antifona="Adoriamo lo Spirito di Dio, che parla nei profeti e maestri della Chiesa.";
                     }
+                    $this->setSalmo();
                 }
-                elseif ($k=='0625a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Con la mente",
-                            "sempre rivolta al cielo, puro di anima e di cuore, Guglielmo offriva al suo Signore il scrificio di lode."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Come una cerva",
-                            "anela ai corsi d'acqua, così l'anima mia anela a te, o Dio."
-                        );
-                    }
-                }
-                elseif ($k=='0628a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Ireneo,",
-                            "uomo di pace, fedele nella vita al suo nome, lottò con coraggio per l'unità della Chiesa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi vuol venire",
-                            "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
-                        );
-                    }
-                }
-                elseif ($k=='0630a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Voi",
-                            "avete lottato per me sulla terra: io sarò la vostra ricompensa, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Questi",
-                            "sono coloro che vengono dalla grande tribolazione e hanno lavato le loro vesti nel sangue dell'Agnello."
-                        );
-                    }
-                }
-                elseif ($k=='0703a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Tu hai veduto,",
-                            "Tommaso, e hai creduto; beato chi non vede, eppure crede, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Ho messo",
-                            "il mio dito nel posto dei chiodi, e la mia mano nel suo costato, e ho detto: Signore mio e Dio mio! Alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='0704a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da questo",
-                            "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quello che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='0706a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Il Signore",
-                            "è il mio aiuto: che cosa potrà farmi l'uomo?"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Il Signore",
-                            "è con me, non ho timore: che cosa può farmi l'uomo?"
-                        );
-                    }
-                }
-                elseif ($k=='0712a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Salvezza",
-                            "dai nostri nemici e dalle mani di quanti ci odiano, per dirigere i nostri passi sulla via della pace."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "O grande santo,",
-                            "sul quale si posò lo Spirito del Signore! Tu sei colui che hai ottenuto una grande liberazione nella Chiesa. Vittorioso ti accosti oggi al monte del Signore."
-                        );
-                    }
-                }
-                elseif ($k=='0713a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Bene,",
-                            "servo buono e fedele: sei stato fedele nel poco, ti darò potere sul molto, entra nella gloria del tuo Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Disprezzando il mondo",
-                            "e le cose terrene, l'uomo giusto, con la parola e con le opere, ha accumulato tesori nel cielo."
-                        );
-                    }
-                }
-                elseif ($k=='0714a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da questo,",
-                            "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quello che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='0716a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Pregai",
-                            "e mi fu elargita la prudenza, implorai e venne in me lo spirito di sapienza."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maria",
-                            "ascoltava ogni parola di Dio e la custodiva, meditandola nel suo cuore."
-                        );
-                    }
-                }
-                elseif ($k=='0722a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Risorto",
-                            "il mattino di Pasqua, Gesù apparve prima a Maria Maddalena, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Passato il sabato,",
-                            "all'alba del primo giorno della settimana, Maria di Magdala e l'altra Maria andarono a vedere il sepolcro, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='0723a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Avete abbandonato",
-                            "ogni cosa per seguirmi: avrete cento ovlte tanto, e la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi segue me",
-                            "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
-                        );
-                    }
-                }
-                elseif ($k=='0725a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Gesù",
-                            "condusse su un alto monte Pietro, Giacomo e Giovanni, e si trasfigurò davanti a loro."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi vorrà essere",
-                            "grande tra voi, si farà vostro servo, e chi vorrà essere il primo, sarà lo schiavo di tutti."
-                        );
-                    }
-                }
+                
                 elseif ($k=='0726a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Io sono",
-                            "il Dio dei vostri padri, dice il Signore; ho visto la miseria del mio popolo, ho udito il suo grido, e sono sceso a liberarlo, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Dalla gloriosa",
-                            "stirpe di Iesse è cresciuto un virgulto: splendido e profumato è il suo fiore."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo Cristo nostro Re, il figlio di David.";
+                    $this->setSalmo();
                 }
                 elseif ($k=='0729a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Il nostro amico Lazzaro",
-                            "si è addormentato: andiamo a svegliarlo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Io sono",
-                            "la risurrezione e la vita: chi crede in me anche se muore, vivrà; e chiunque vive e crede in me non morrà in eterno."
-                        );
-                    }
-                }
-                elseif ($k=='0731a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Ho portato sulla terra",
-                            "il fuoco dell'amore: come vorrei che divampasse in tutto il mondo!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Siate forti",
-                            "nella lotta: combattete contro l'antico serpente e riceverete il regno eterno, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='0805a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Santa Madre di Dio,",
-                            "Maria sempre vergine, tempio del Signore, santuario dello Spirito, tu sola fra tutte sei piaciuta a Cristo Signore, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "O beata",
-                            "Vergine Maria, madre della grazia, speranza del mondo: esaudisci i tuoi figli che ricorrono a te, alleluia."
-                        );
-                    }
+                    $this->antifona="Il Signore è qui e ci chiama: venite ad adorarlo.";
+                    $this->setSalmo();
                 }
                 elseif ($k=='0810a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Chi mi vuol servire,",
-                            "mi segua: e dove sono io, là sarà anche il mio servo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Il Padre mio",
-                            "innalzerà nella gloria il mio servo fedele."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo Cristo Signore: egli ha dato a Lorenzo la corona di gloria.";
                 }
-                elseif ($k=='0816a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Bene,",
-                            "servo buono e fedele: sei stato fedele nel poco, ti darò potere su molto, entra nella gloria del tuo Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Disprezzando il mondo",
-                            "e le cose terrene, l'uomo giusto, con la parola e con le opere, ha accumulato tesori per il cielo."
-                        );
-                    }
-                }
-                elseif ($k=='0820a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Illuminato",
-                            "dalla luce del Verbo, Bernardo irradia fede e sapienza in tutta la Chiesa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maestro ispirato,",
-                            "amico dello Sposo, cantore della Vergine, Bernardo fu per i suoi padre dolcissimo."
-                        );
-                    }
-                }
+                
                 elseif ($k=='0822a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Nobilissima",
-                            "Regina del mondo, Maria sempre vergine, tu hai generato Cristo salvatore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Te beata",
-                            "Vergine Maria, hai creduto alla parola del Signore: con Cristo regni in eterno."
-                        );
-                    }
+                    $this->antifona="Adoriamo Cristo Signore, che ha dato alla sua Madre la corona di gloria.";
+                    $this->setSalmo();
                 }
-                elseif ($k=='0825a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Bene,",
-                            "servo buono e fedele: sei stato fedele nel poco, ti darò potere su molto, entra nella gloria del tuo Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Disprezzando il mondo",
-                            "e le cose terrene, l'uomo giusto, con la parola e con le opere, ha accumulato tesori per il cielo."
-                        );
-                    }
-                }
-                elseif ($k=='0825b') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I loro angeli",
-                            "vedono sempre il volto del Padre mio che è nei cieli."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Lasciate",
-                            "che i piccoli vengano a me: a loro appartiene il regno di Dio."
-                        );
-                    }
-                }
-                elseif ($k=='0827a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Tu non disprezzi,",
-                            "o Dio, il pianto di una madre: tu ascolti la sua incessante preghiera."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Beata Monica,",
-                            "amata da Cristo, con la tua vita fedele e generosa hai dato gloria a Dio."
-                        );
-                    }
-                }
-                elseif ($k=='0828a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Ci hai fatti per te,",
-                            "Signore, e ci doni la gioia di lodarti; il nostro cuore non trova la pace fino a quando non riposa in te."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Tardi",
-                            "ti ho amato, bellezza così antica e tanto nuova, tardi ti ho amato! Hai chiamato, hai gridato: hai vinto la mia sordità."
-                        );
-                    }
-                }
+            
                 elseif ($k=='0829a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Un soldato,",
-                            "mandato da Erode nella prigione, tagliò la testa a Giovanni. I discepoli raccolsero il suo corpo e lo deposero in un sepolcro."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Il re iniquo",
-                            "inviò servi malvagi con l'ordine di tagliare la testa a Giovanni il Battista."
-                        );
-                    }
+                    $this->antifona="Nel ricordo di Giovanni Battista. precursore di Cristo nel martirio, adoriamo l'Agnello di Dio.";
+                    $this->setSalmo();
                 }
-                elseif ($k=='0903a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Pastore esemplare,",
-                            "lasciò norme e testimonianze di vita pastorale."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Fedele",
-                            "alla parola che annunziava, Gregorio viveva il mistero di Cristo."
-                        );
-                    }
-                }
+
                 elseif ($k=='0908a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "La tua nascita,",
-                            "Vergine Madre di Dio, ha annunziato la gioia al mondo intero: da te è nato il sole di giustizia, Cristo nostro Dio: egli ha tolto la condanna e ha portato la grazia, ha vinto la morte e ci ha donato la vita."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Celebriamo la nascita",
-                            "della gloriosa Vergine Maria: meritò l'onore della maternità conservando l'integrità verginale."
-                        );
-                    }
+                    $this->antifona="Nella nascita della Vergine Maria, lodiamo Cristo suo Figlio.";
                 }
+
                 elseif ($k=='0915a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Simeone",
-                            "disse a Maria: La tua anima sarà trapassata da una spada."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Gesù",
-                            "disse alla madre: Donna ecco tuo figlio! E al discepolo che egli amava: Ecco tua madre!"
-                        );
-                    }
+                    $this->antifona="Nel ricordo di Maria, unita al Figlio nella passione, adoriamo Cristo Signore.";
+                    $this->setSalmo();
                 }
-                elseif ($k=='0916a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Gloriosa",
-                            "è la mortre che a prezzo di sangue compra la vita immortale."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chiesa di Cristo,",
-                            "madre nostra, il sacrificio dei martiri è la tua gloria."
-                        );
-                    }
-                }
-                elseif ($k=='0917a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "La sposa di Cristo",
-                            "Ildegarde illuminò la santa Chiesa di Dio con lo splendore della sua dottrina, fonte di salvezza per molti."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "O beata anima!",
-                            "Meritò di diventare sede della divina sapienza, che si compiace di stare con gli uomini."
-                        );
-                    }
-                }
-                elseif ($k=='0921a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Gesù",
-                            "vide Matteo al banco delle imposte. Gli disse: Seguimi. Ed egli si alzò e lo seguì."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Amore voglio,",
-                            "non sacrificio: non sono venuto a chiamare i giusti, ma i peccatori."
-                        );
-                    }
-                }
-                elseif ($k=='0927a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Vincenzo,",
-                            "padre degli orfani, saziò di pane i suoi poveri, e rivestì di salvezza i sacerdoti."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Vincenzo",
-                            "portò ai poveri la testimonianza del Vangelo: fu occhio per il cieco, piede per lo zoppo, si fece veramente tutto a tutti."
-                        );
-                    }
-                }
+
                 elseif ($k=='0929a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Questi",
-                            "sono tutti spiriti incaricati di un ministero, inviati per servire gli eredi della salvezza."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Angeli,",
-                            "arcangeli, troni e dominazioni, principati, potestà e virtù del cielo, lodate il Signore dei cieli, alleluia."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo il Signore alla presenza degli angeli.";
                 }
-                elseif ($k=='1001a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Se non vi convertite,",
-                            "e non diventate come bambini, non entrerete nel regno dei cieli."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Rallegratevi:",
-                            "i vostri nomi sono scritti in cielo."
-                        );
-                    }
-                }
+                
                 elseif ($k=='1002a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Santi angeli,",
-                            "nostri custodi, difendeteci nella lotta non lasciateci soccombere nel tremendo giudizio."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Questi",
-                            "sono tutti spiriti incaricati di un ministero, inviati per servire gli eredi della salvezza."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo il Signore: i suoi angeli lo servono.";
+                    $this->setSalmo();
                 }
                 elseif ($k=='1004a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Povero",
-                            "e umile in terra, Francesco entra ricco nel cielo, accolto da canti di festa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "La mia gloria",
-                            "è la croce del Signore Gesù Cristo: porto impressi nella mia carne i segni del suo amore per me."
-                        );
-                    }
-                }
-                elseif ($k=='1007a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Madre beata,",
-                            "Vergine santa, gloriosa Regina del mondo: a noi che celebriamo la tua festa dona la gioia della tua protezione."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maria",
-                            "meditava nel suo cuore gli eventi meravigliosi del suo Figlio."
-                        );
-                    }
-                }
-                elseif ($k=='1016a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Avete abbandonato",
-                            "ogni cosa per seguirmi: avrete cento volte tanto, e la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi segue me",
-                            "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
-                        );
-                    }
-                }
-                elseif ($k=='1017a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Cristo,",
-                            "morto per me, Cristo, risorto per me: è lui che cerco e desidero."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Pane di Dio",
-                            "sia per me la carne del figlio di Davide: bevanda di salvezza, il sangue di Cristo Gesù, amore inesauribile."
-                        );
-                    }
+                    $this->antifona="Lodiamo il Signore, nostro Dio, nella festa di san Francesco d'Assisi.";
+                    $this->salmo("94");
                 }
                 elseif ($k=='1018a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Hai trasmesso all Chiesa,",
-                            "il Vangelo di Cristo, sole che sorge dall'alto."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "O beato Luca,",
-                            "il tuo Vangelo ci rivela la misericordia di Cristo: tutta la Chiesa ti onora."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo il Signore che parla a noi nel Vangelo, alleluia.";
                 }
-                elseif ($k=='1019a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Prenderò",
-                            "il calice della salvezza e invocherò il nome del Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Prenderò",
-                            "il calice della salvezza e offrirò un sacrificio di lode."
-                        );
-                    }
-                }
-                elseif ($k=='1103a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Benedetto il Signore!",
-                            "Ha preparato la salvezza dei popoli: dalle tenebre li chiama al regno della luce."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quellio che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='1110a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Forte",
-                            "della parola di Cristo, Pietro sta con fermezza al timone della Cbiesa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "In tutta la Chiesa",
-                            "Pietro proclama ogni giorno: Tu sei il Cristo, il Figlio del Dio vivo."
-                        );
-                    }
-                }
+                
                 elseif ($k=='1111a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Beato te,",
-                            "Martino, che entri in possesso del Paradiso. Esultano gli angeli, si rallegrano gli arcangeli, il coro dei santi e la schiera delle vergini t'invitano: Resta con noi in eterno!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "O beato pastore!",
-                            "Ardente di amore per Cristo Re, non temesti le autorità umane. O santissima anima! Anche se non ti colpì la spada del persecutore, meritasti la palma del martirio."
-                        );
-                    }
+                    $this->antifona="Nel ricordo di san Martino lodiamo il Signore nostro Dio.";
                 }
                 elseif ($k=='1113a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Voi",
-                            "avete abbandonato ogni cosa per seguirmi: avrete cento volte tanto e la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Gioia del cielo",
-                            "per gli amici di Dio: hanno seguito le orme di Cristo, hanno disprezzato il mondo per suo amore, con Cristo regneranno senza fine."
-                        );
-                    }
+                    $this->antifona="Venite, adoriamo Cristo Signore, nostro Re: nulla anteponiamo al suo amore.";
                 }
-                elseif ($k=='1116a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "O Geltrude,",
-                            "degnissima sposa di Cristo, fulgente di profetica luce, ardente di zelo apostolico, adorna della corona delle vergini, ti consumava il fuoco dell'amore divino."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Apparvero",
-                            "spiriti celesti, discesi dal cielo in terra, e con dolce canto invitarono Geltrude: Vieni, vergine saggia! Ti attendono le delizie del cielo, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='1117a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da questo,",
-                            "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quello che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='1117b') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da questo,",
-                            "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quello che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='1118a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Pietro,",
-                            "il primo degli apostoli, e Paolo, il maestro delle genti, ci insegnano, Signore, la tua legge."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Il corpo dei santi",
-                            "dorme nella pace; il loro nome vive in eterno."
-                        );
-                    }
-                }
-                elseif ($k=='1121a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Te beata,",
-                            "o Maria, che hai creduto: si compie in te la parola del Signore, alleluia."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Santa Madre di Dio,",
-                            "Maria sempre vergine, tempio del Signore, santuario dello Spirito, tu sola fra tutte sei piaciuta a Cristo Signore, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='1122a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "All'aurora",
-                            "Cecilia esclamò: Soldati di Cristo, gettate via le opere delle tenebre, e rivestite le armi della luce!"
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "La vergine Cecilia",
-                            "portava sempre nel cuore il Vangelo di Cristo; giorno e notte non cessava il suo colloquio con Dio."
-                        );
-                    }
-                }
-                elseif ($k=='1130a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Andrea,",
-                            "fratello di Simon Pietro, fu tra i primi che seguirono il Signore."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Dinanzi alla croce",
-                            "Andrea esclamò: O buona croce, così a lungo desiderata, pregustata con tanto amore, io ti vengo incontro sereno e con gioia: anche tu accogli festosa il discepolo di colui che in te fu sospeso per la salvezza del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='1203a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Andate,",
-                            "evangelizzate i popoli, battezzate nel nome del Padre e del Figlio e dello Spirito Santo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Pregate",
-                            "il padrone della messe che mandi operai nella sua messe."
-                        );
-                    }
-                }
-                elseif ($k=='1212a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Avete abbandonato",
-                            "ogni cosa per seguirmi: avrete cento volte tanto, e la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Chi segue me",
-                            "non cammina nelle tenebre, ma avrà la luce della vita, dice il Signore."
-                        );
-                    }
-                }
-                elseif ($k=='1213a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Umile serva",
-                            "del Signore, ho sacrificato tutto al Dio vivente. Ora non mi resta più nulla e offro me stessa."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Lucia,",
-                            "sposa di Cristo, con la tua perseveranza sei giunta alla vita: non hai servito il mondo, ed ora risplendi tra gli angeli; con il tuo sangue hai vinto il nemico."
-                        );
-                    }
-                }
-                elseif ($k=='1214a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Chi vuol venire",
-                            "dietro a me, rinneghi se stesso, prenda la sua croce ogni giorno e mi segua."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Nostra gloria",
-                            "è la croce del Signore Gesù, alleluia."
-                        );
-                    }
-                }
-                elseif ($k=='1221a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "I saggi",
-                            "splenderanno come il firmamento: i maestri di sapienza saranno come stelle nel cielo."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Maestro della fede",
-                            "e luce della Chiesa, san Pietro Canisio, hai scrutato con amore il mistero di Dio: prega per noi Cristo Signore."
-                        );
-                    }
-                }
-                elseif ($k=='1223a') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Da questo",
-                            "sapranno che siete miei discepoli: se avrete amore gli uni per gli altri."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Quello che avete fatto",
-                            "al più piccolo dei miei fratelli, l'avete fatto a me: Venite, benedetti dal Padre mio, ricevete il regno preparato per voi dall'inizio del mondo."
-                        );
-                    }
-                }
-                elseif ($k=='1229b') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Chi odia",
-                            "la sua vita in questo mondo, la conserva per la vita eterna."
-                        );
-                    }
-                    elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {
-                        $this->antifona=array(
-                            "Nel regno dei cieli",
-                            "è la dimora dei santi, nei secoli eterni il loro riposo."
-                        );
-                    }
-                }
-                elseif ($k=='1231b') {  
-                    if($this->actual['ora']=='lodi') {
-                        $this->antifona=array(
-                            "Quando fu pontefice,",
-                            "non si laciò intimorire dai potenti della terra, ma camminò deciso verso il regno dei cieli."
-                        );
-                    }
-                }
+                
             }
         }
-
     }
-
 
     ///////////////////////////////////////////////////////////////////////////
     function drawAntifona() {
