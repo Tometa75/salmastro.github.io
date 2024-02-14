@@ -127,17 +127,22 @@ function calnav(indice,risoluzione,today,config) {
 
     this.customExecute=function() {
 
-        let url = location.protocol + '//' + location.host + location.pathname;   
+        //let url = location.protocol + '//' + location.host + location.pathname;
+        var href = window.location.href;
+        var url = href.substring(0, href.lastIndexOf('/')) + "/";
+
         url += '?today='+this.today;
 
         var arr=window._salmastro.getConfig();
+        //alert (JSON.stringify(arr));
         if (arr!=='undefined') {
             for (var x in arr) {
                 url=url+'&'+x+'='+arr[x];
             }
         }
 
-        window.location.href = url;
+        //window.location.href = url;
+        location.replace(url); 
     }
 
 }

@@ -279,7 +279,7 @@ class Litio {
             echo '<div style="position:relative;display:inline-block;width:8%;vertical-align:top;box-sizing:border-box;margin-top:5px;text-align:center;">';
                 
                 echo '<div style="position:relative;top:-2px;font-size:1em;font-weight:bold;">Invitatorio</div>'; 
-                echo '<input id="sal_inv" type="checkbox" />';
+                echo '<input id="sal_inv" type="checkbox" '.((isset($this->config['inv']) && $this->config['inv']==1)?'checked':'').'/>';
                 //echo '<input id="sal_mix" type="checkbox" '.((isset($this->config['mix']) && $this->config['mix']==1)?'checked':'').'/>';
                 //echo '<span style="font-size:1.2em;font-weight:bold;margin-left:5px;">Mix</span>'; 
 
