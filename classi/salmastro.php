@@ -142,7 +142,7 @@ class Salmastro {
                     echo '</div>';
 
                     echo '<div style="text-align:center;">';
-                        echo '<img style="position:relative;width:40px;height:30px;margin-top:-10px;cursor:pointer;" src="'.SITE_URL.'/img/calendar.png" />';
+                        echo '<img style="position:relative;width:40px;height:30px;margin-top:-10px;cursor:pointer;" src="'.SITE_URL.'/img/calendar.png" onclick="window._salmastro.litcal();"/>';
                     echo '</div>';
 
                 echo '</div>';

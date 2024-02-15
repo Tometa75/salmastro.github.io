@@ -68,4 +68,32 @@ const salmastro=class {
         $('div[id^="salmastro_bvm_"]').hide();
         $('#salmastro_bvm_'+id).show();
     }
+
+    litcal() {
+
+        var href = window.location.href;
+        var dir = href.substring(0, href.lastIndexOf('/')) + "/";
+
+        var param={
+            "today":window._calnav_salmastro.getToday()
+        }
+
+        //alert(JSON.stringify(param));
+
+        $.ajax({
+            "url": dir+"litcal.php",
+            "async": true,
+            "cache": false,
+            "data": { "param": param },
+            "type": "POST",
+            "success": function(ret) {
+                $('#salTesto').html(ret);   
+            },
+            "error": function(ret) {
+                console.log(ret);
+            }
+        });
+
+
+    }
 }
