@@ -177,3 +177,24 @@ body {
     box-sizing: border-box;
 }
 
+/*-------------------------------------*/
+
+.litcal_line {
+    position: relative;
+    border-bottom:1px solid #555555;
+    font-size:0.9em;
+}
+
+.litcal_line_container {
+    position: relative;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
+}
+
+.litcal_line_container > div {
+    position: relative;
+    padding:3px;
+    box-sizing: border-box;
+}
+
