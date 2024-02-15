@@ -66,7 +66,7 @@ foreach ($res as $k=>$sett) {
                                 if ($f['tipo']=='S') echo 'color:red;';
                                 //elseif ($f['tipo']=='R') echo 'color:#7889cd;';
                                 //elseif ($f['tipo']=='M' || $f['tipo']=='F') echo 'color:blue;';
-                                //elseif ($f['tipo']=='X') echo 'color:#787575;';
+                                elseif ($f['tipo']=='X') echo 'color:#787575;';
                                 else echo 'color:black;';
                             echo '" >'.$f['titolo'].'</div>';
                         }

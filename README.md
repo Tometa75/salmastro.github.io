@@ -46,7 +46,10 @@ Starting Invocations
 End Invocations
 Starting "Invitatorio"
 
-15.02.2024
+14.02.2024
 End "Invitatorio"
-Starting "Liturgical Calendar" 
+Starting "Liturgical Calendar"
+
+15.02.2024
+BETA TESTING - EDITING
 
