@@ -756,6 +756,12 @@ class Orazione {
     );
 
     protected $proprio=array(
+        "lodi_1_1"=>array(
+            array(
+                array('','',"Ispira le nostre azioni, Signore, e accompagnale con il tuo aiuto: perché ogni nostra attività abbia da te il suo inizio e in te il suo compimento."),
+                array('ending')
+            )
+        ),
         "BAT"=>array(
             array(
                 array('','',"Padre onnipotente ed eterno, che dopo il battesimo nel fiume Giordano proclamasti il Cristo tuo diletto Figlio, mentre discendeva su di lui lo Spirito Santo, concedi ai tuoi figli, rinati dall'acqua e dallo Spirito, di vivere sempre nel tuo amore."),
