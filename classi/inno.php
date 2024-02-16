@@ -2036,7 +2036,7 @@ class Inno {
                 array('','',"alla vittoria pasquale.")
             ),
             array(
-                array('','',"Ascolta, o Padre altissimo,"),
+                array('','',"Sia lode al Padre altissimo,"),
                 array('','',"al Figlio e al Santo Spirito"),
                 array('','',"com'era nel principio,"),
                 array('','',"ora e nei secoli eterni.")

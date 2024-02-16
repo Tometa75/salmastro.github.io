@@ -31,7 +31,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Ecco, nella colpa sono stato generato,"),
-                array('','2',"nel peccatomi ha concepito mia madre."),
+                array('','2',"nel peccato mi ha concepito mia madre."),
                 array('','*',"Ma tu vuoi la sincerità del cuore"),
                 array('','2',"e nell'intimo m'insegni la sapienza.")
             ),
@@ -62,7 +62,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Signore, apri le mie labbra"),
                 array('','2',"e la mia bocca proclami la tua lode;"),
-                array('','*',"poiché non gradisci iil sacrificio"),
+                array('','*',"poiché non gradisci il sacrificio"),
                 array('','2',"e, se offro olocausti, non li accetti."),
                 array('','*',"Uno spirito contrito è sacrificio a Dio,"),
                 array('','2',"un cuore affranto e umiliato, tu o Dio, non disprezzi.")

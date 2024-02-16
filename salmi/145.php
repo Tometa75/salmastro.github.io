@@ -25,7 +25,7 @@ $this->closure['load']=function() {
         'all'=>array(
             array(
                 array('','+',"Loda il Signore, anima mia:"),
-                array('','*',"loderò il Signore pr tutta la mia vita,"),
+                array('','*',"loderò il Signore per tutta la mia vita,"),
                 array('','2',"finché vivo canterò inni al mio Dio.")
             ),
             array(
@@ -52,7 +52,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"il Signore protegge lo straniero,"),
                 array('','*',"egli sostiene l'orfano e la vedova,"),
-                array('','2',"ma sconvolger le vie degli empi."),
+                array('','2',"ma sconvolge le vie degli empi."),
                 array('','*',"Il Signore regna per sempre,"),
                 array('','2',"il tuo Dio, o Sion, per ogni generazione.")
             )
