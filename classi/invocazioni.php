@@ -6698,12 +6698,14 @@ class Invocazioni {
 
         foreach ($this->testo as $k=>$b) {
 			
-			foreach($b as $k2=$b2) {
-				if ($b2[0]=='-') $b[$k][$k2][1]='c';
+			foreach($b as $k2=>$b2) {
+				if ($b2[0]=='-') $this->testo[$k][$k2][1]='c';
 			}
-			
-            $this->res->addBlock($b);
         }
+		
+		foreach ($this->testo as $k=>$b) {		
+			$this->res->addBlock($b);
+		}
 
         echo '<div class="salResBlockTitle" style="margin-top:30px;">';
             if ($this->actual['ora']=='lodi') {
