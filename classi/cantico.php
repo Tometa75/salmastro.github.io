@@ -3927,7 +3927,7 @@ class Cantico {
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
                         "Molte opere buone",
-                        "ho compiuto sotto i vostri occhi: per quale di esse volete lapidarmi?."
+                        "ho compiuto sotto i vostri occhi: per quale di esse volete lapidarmi?"
                     );
                 }
 
@@ -6447,7 +6447,7 @@ class Cantico {
                     if($this->actual['ora']=='lodi') {
                         $this->antifona=array(
                             "Da ottantasei anni",
-                            "io servo Cristo, e non mi ha fatto alcun torto: come posso rinnegare il mio re, il mio salvatore?."
+                            "io servo Cristo, e non mi ha fatto alcun torto: come posso rinnegare il mio re, il mio salvatore?"
                         );
                     }
                     elseif($this->actual['ora']=='ves' || $this->actual['ora']=='ves2') {

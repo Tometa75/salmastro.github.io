@@ -58,7 +58,7 @@ $this->closure['load']=function() {
                 array('','*',"Quale vantaggio dalla mia morte,"),
                 array('','2',"dalla mia discesa nella tomba?"),
                 array('','*',"Ti potrà forse lodare la polvere"),
-                array('','2',"e proclamare la tua fedeltà nell'amore?."),
+                array('','2',"e proclamare la tua fedeltà nell'amore?"),
                 array('','*',"Ascolta, Signore, abbi misericordia,"),
                 array('','2',"Signore, vieni in mio aiuto."),
             ),

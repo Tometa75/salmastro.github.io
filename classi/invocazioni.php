@@ -6697,6 +6697,11 @@ class Invocazioni {
     function draw() {
 
         foreach ($this->testo as $k=>$b) {
+			
+			foreach($b as $k2=$b2) {
+				if ($b2[0]=='-') $b[$k][$k2][1]='c';
+			}
+			
             $this->res->addBlock($b);
         }
 

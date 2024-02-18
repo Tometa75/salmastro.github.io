@@ -2580,7 +2580,7 @@ class Salmodia {
                             break;
                             case 4: $this->res[$k]->setAntifona(array(
                                 "Un germoglio",
-                                "è spuntato da Iesse, una stella è sorta da Giacobbe; dalla Vergine è nato il Salvatore: lode a te, nostro Dio!."
+                                "è spuntato da Iesse, una stella è sorta da Giacobbe; dalla Vergine è nato il Salvatore: lode a te, nostro Dio!"
                             ));
                             break;
                             case 5: $this->res[$k]->setAntifona(array(
@@ -2612,7 +2612,7 @@ class Salmodia {
                             break;
                             case 2: $this->res[$k]->setAntifona(array(
                                 "Un germoglio",
-                                "è spuntato da Iesse, una stella è sorta da Giacobbe; dalla Vergine è nato il Salvatore: lode a te, nostro Dio!."
+                                "è spuntato da Iesse, una stella è sorta da Giacobbe; dalla Vergine è nato il Salvatore: lode a te, nostro Dio!"
                             ));
                             break;
                             case 3: $this->res[$k]->setAntifona(array(
@@ -2741,7 +2741,7 @@ class Salmodia {
                             break;
                             case 5: $this->res[$k]->setAntifona(array(
                                 "Grandi della terra,",
-                                "acclamate al Signore: lodatelo, popoli tutti!."
+                                "acclamate al Signore: lodatelo, popoli tutti!"
                             ));
                             break;
                         }
@@ -4006,7 +4006,7 @@ class Salmodia {
                     elseif ($this->actual['ora']=='sesta') {
                         $this->res[$k]->setAntifona(array(
                             "Il Signore onnipotente",
-                            "ti perdoni, sorella: che cosa hai fatto?."
+                            "ti perdoni, sorella: che cosa hai fatto?"
                         ));
                     }
                     elseif ($this->actual['ora']=='nona') {
@@ -7752,7 +7752,7 @@ class Salmodia {
                             break;
                             case 3: $this->res[$k]->setAntifona(array(
                                 "Il beato Andrea",
-                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!."
+                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!"
                             ));
                             break;
                             case 4: $this->res[$k]->setAntifona(array(
@@ -7784,7 +7784,7 @@ class Salmodia {
                         switch ($s[0]) {
                             case 1: $this->res[$k]->setAntifona(array(
                                 "Il beato Andrea",
-                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!."
+                                "pregava dicendo: Signore, re dell'eterna gloria, accogli l'offerta della mia passione!"
                             ));
                             break;
                             case 2: $this->res[$k]->setAntifona(array(

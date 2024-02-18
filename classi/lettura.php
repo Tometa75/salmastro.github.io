@@ -533,7 +533,7 @@ class Lettura {
                         case 3:
                             $this->info=array(
                                 "titolo"=>"Gb 1,21; 2,10b",
-                                "testo"=>"Nudo uscii dal seno di mia madre, e nudo vi ritornerò. Il Signore ha dato, il Signore ha tolto; come piacque al Signore, così è avvenuto: sia benedetto il nome del Signore! Se da Dio accettiamo il bene, perché non dovremmo accettare il male?."
+                                "testo"=>"Nudo uscii dal seno di mia madre, e nudo vi ritornerò. Il Signore ha dato, il Signore ha tolto; come piacque al Signore, così è avvenuto: sia benedetto il nome del Signore! Se da Dio accettiamo il bene, perché non dovremmo accettare il male?"
                             );
                         break;
                         case 4:
@@ -684,7 +684,7 @@ class Lettura {
                         case 3:
                             $this->info=array(
                                 "titolo"=>"1Pt 4,10-11",
-                                "testo"=>"Ciascuno viva secondo la grazia ricevuta, mettendola a servizio degli altri, come buoni amministratori di una multiforme grazia di Dio. Chi parla, lo faccia come con parole di Dio; chi esercita un ufficio, lo compia con l'energia ricevuta da Dio, perché in tutto venga glorificato Dio per mezzo di Gesù Cristo, al quale appartiene la gloria e la potenza nei secoli dei secoli. Amen!."
+                                "testo"=>"Ciascuno viva secondo la grazia ricevuta, mettendola a servizio degli altri, come buoni amministratori di una multiforme grazia di Dio. Chi parla, lo faccia come con parole di Dio; chi esercita un ufficio, lo compia con l'energia ricevuta da Dio, perché in tutto venga glorificato Dio per mezzo di Gesù Cristo, al quale appartiene la gloria e la potenza nei secoli dei secoli. Amen!"
                             );
                         break;
                         case 4:
@@ -3138,7 +3138,7 @@ class Lettura {
                 elseif($this->actual['ora']=='sesta') {
                     $this->info=array(
                         "titolo"=>"Gal 4,4-6",
-                        "testo"=>"Dio mandò il suo Figlio, perché ricevessimo l'adozione a figli. E che voi siete figli ne è prova il fatto che Dio ha mandato nei nostri cuori lo Spirito del suo Figlio che grida: Abbà, Padre!."
+                        "testo"=>"Dio mandò il suo Figlio, perché ricevessimo l'adozione a figli. E che voi siete figli ne è prova il fatto che Dio ha mandato nei nostri cuori lo Spirito del suo Figlio che grida: Abbà, Padre!"
                     );
                 }
                 elseif($this->actual['ora']=='nona') {
@@ -3356,7 +3356,7 @@ class Lettura {
             if($this->actual['ora']=='lodi') {
                 $this->info=array(
                     "titolo"=>"2Sam 7,28-29",
-                    "testo"=>"Signore, tu sei Dio, le tue parole sono verità e hai promesso questo bene al tuo servo. Degnati dunque di benedire ora la casa del tuo servo, perché sussista sempre dinanzi a te! Poiché tu, Signore, hai parlato e per la tua benedizione la casa del tuo servo sarà benedetta per sempre!."
+                    "testo"=>"Signore, tu sei Dio, le tue parole sono verità e hai promesso questo bene al tuo servo. Degnati dunque di benedire ora la casa del tuo servo, perché sussista sempre dinanzi a te! Poiché tu, Signore, hai parlato e per la tua benedizione la casa del tuo servo sarà benedetta per sempre!"
                 );
             }
             elseif($this->actual['ora']=='terza') {

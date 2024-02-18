@@ -31,7 +31,7 @@ $this->closure['load']=function() {
     else {
         $this->antifona[0]=array(
             "L'anima mia",
-            "ha sete del Dio vivente: quando vedrò il suo volto?."
+            "ha sete del Dio vivente: quando vedrò il suo volto?"
         );
     }
 
