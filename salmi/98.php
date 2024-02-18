@@ -53,7 +53,7 @@ $this->closure['load']=function() {
                 array('','+',"Parlava loro da una colonna di nubi:"),
                 array('','*',"obbedivano ai suoi comandi"),
                 array('','2',"e alla legge che aveva loro dato."),
-                array('','+',"Signore, Dio nostro, tu liu esaudivi,"),
+                array('','+',"Signore, Dio nostro, tu li esaudivi,"),
                 array('','*',"eri per loro un Dio paziente,"),
                 array('','2',"pur castigando i loro peccati.")
             ),

@@ -26,7 +26,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"In te, Signore, mi sono rifugiato,"),
                 array('','*',"mai sarò deluso;"),
-                array('','2',"per la tua giustizi salvami."),
+                array('','2',"per la tua giustizia salvami."),
                 array('','*',"Porgi a me l'orecchio,"),
                 array('','2',"vieni presto a liberarmi."),
                 array('','*',"Sii per me la rupe che mi accoglie,"),
@@ -63,7 +63,7 @@ $this->closure['load']=function() {
             array(
                 array('','+',"Sono l'obbrobrio dei miei nemici, il disgusto dei miei vicini,"),
                 array('','*',"l'orrore dei miei conoscenti;"),
-                array('','2',"chi mi vede per strada i fugge."),
+                array('','2',"chi mi vede per strada mi sfugge."),
                 array('','*',"Sono caduto in oblio come un morto,"),
                 array('','2',"sono divenuto un rifiuto.")
             ),

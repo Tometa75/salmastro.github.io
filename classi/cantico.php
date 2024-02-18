@@ -3423,7 +3423,7 @@ class Cantico {
                 if ($this->actual['ora']=="lodi") {
                     $this->antifona=array(
                         "Figlio,",
-                        "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora kui è nella gioia, e tu nei tormenti."
+                        "nella vita godevi i tuoi beni, mentre Lazzaro soffriva: ora lui è nella gioia, e tu nei tormenti."
                     );
                 }
 
