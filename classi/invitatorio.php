@@ -165,7 +165,7 @@ class Invito {
                         array('','*',"Date al Signore, figli di Dio,"),
                         array('','2',"date al Signore gloria e potenza."),
                         array('','*',"Date al Signore la gloria del suo nome,"),
-                        array('','2',"prostratevi sl Signore in santi ornamenti.")
+                        array('','2',"prostratevi al Signore in santi ornamenti.")
                     ),
                     array(
                         array('','+',"Il Signore tuona sulle acque,"),

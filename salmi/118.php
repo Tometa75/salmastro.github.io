@@ -210,7 +210,7 @@ $this->closure['load']=function() {
                 array('','*',"Allontana l'insulto che mi sgomenta,"),
                 array('','2',"perché i tuoi giudizi sono buoni."),
                 array('','*',"Ecco, desidero i tuoi comandamenti;"),
-                array('','2',"par la tua giustizia fammi vivere.")
+                array('','2',"per la tua giustizia fammi vivere.")
             )
         ),
         '6'=>array(
@@ -227,7 +227,7 @@ $this->closure['load']=function() {
                 array('','*',"Custodirò la tua legge per sempre,"),
                 array('','2',"nei secoli, in eterno.")
             ),
-            array(
+            array(.
                 array('','*',"Sarò sicuro nel mio cammino,"),
                 array('','2',"perché ho ricercato i tuoi voleri."),
                 array('','*',"Davanti ai re parlerò della tua alleanza"),
