@@ -33,7 +33,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Io dico al Signore: « Tu sei il mio Dio;"),
-                array('','2',"ascolta,Signore, la voce della mia preghiera »."),
+                array('','2',"ascolta, Signore, la voce della mia preghiera »."),
                 array('','*',"Signore, mio Dio, forza della mia salvezza"),
                 array('','2',"proteggi il mio capo nel giorno della lotta."),
                 array('','*',"Signore, non soddisfare i desideri degli empi,"),

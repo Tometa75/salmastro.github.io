@@ -27,7 +27,7 @@ $this->closure['load']=function() {
     $this->testoBase=array(
         'all'=>array(
             array(
-                array('','*',"Esultate,giusti, nel Signore:"),
+                array('','*',"Esultate, giusti, nel Signore:"),
                 array('','2',"ai retti si addice la lode."),
                 array('','*',"Lodate il Signore con la cetra,"),
                 array('','2',"con l'arpa a dieci corde a lui cantate."),
@@ -89,7 +89,7 @@ $this->closure['load']=function() {
                 array('','2',"e confidiamo nel suo santo nome.")
             ),
             array(
-                array('','*',"Signore, sia sua di noi la tua grazia,"),
+                array('','*',"Signore, sia su di noi la tua grazia,"),
                 array('','2',"perché in te speriamo.")
             )
         )

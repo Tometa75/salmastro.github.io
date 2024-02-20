@@ -40,7 +40,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Non travolgermi insieme ai peccatori,"),
-                array('','2',"con gli uomini di sangue no perder la mia vita,"),
+                array('','2',"con gli uomini di sangue non perder la mia vita,"),
                 array('','*',"perché nelle loro mani è la perfidia,"),
                 array('','2',"la loro destra è piena di regali.")
             ),
