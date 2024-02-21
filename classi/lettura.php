@@ -2325,7 +2325,7 @@ class Lettura {
                     if($this->actual['ora']=='lodi') {
                         $this->info=array(
                             "titolo"=>"Dt 7,6.8-9",
-                            "testo"=>"Tu sei un popolo consacrato al Signore tuo Dio; il Signore tuo Dio ti ha scelto per essere il suo popolo privilegiato fra tutti i popoli che sono sulla terra; perché il Signore vi ama e perché ha voluto mantenere il giuramento fatto ai vostri padri, il Signore vi ha fatto uscire con mano potente e via ha riscattati liberandovi dalla condizione servile, dalla mano del faraone, re di Egitto. Riconoscete dunque che il Signore vostro Dio è Dio, il Dio fedele, che mantiene la sua alleanza e benevolenza per mille generazioni, con coloro che l'amano e osservano i suoi comandamenti."
+                            "testo"=>"Tu sei un popolo consacrato al Signore tuo Dio; il Signore tuo Dio ti ha scelto per essere il suo popolo privilegiato fra tutti i popoli che sono sulla terra; perché il Signore vi ama e perché ha voluto mantenere il giuramento fatto ai vostri padri, il Signore vi ha fatto uscire con mano potente e vi ha riscattati liberandovi dalla condizione servile, dalla mano del faraone, re di Egitto. Riconoscete dunque che il Signore vostro Dio è Dio, il Dio fedele, che mantiene la sua alleanza e benevolenza per mille generazioni, con coloro che l'amano e osservano i suoi comandamenti."
                         );
                     }
                     elseif($this->actual['ora']=='terza') {
