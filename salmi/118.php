@@ -227,7 +227,7 @@ $this->closure['load']=function() {
                 array('','*',"Custodirò la tua legge per sempre,"),
                 array('','2',"nei secoli, in eterno.")
             ),
-            array(.
+            array(
                 array('','*',"Sarò sicuro nel mio cammino,"),
                 array('','2',"perché ho ricercato i tuoi voleri."),
                 array('','*',"Davanti ai re parlerò della tua alleanza"),

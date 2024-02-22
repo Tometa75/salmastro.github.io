@@ -29,7 +29,7 @@ $this->closure['load']=function() {
                 array('','*',"e dite: « Chi ha disperso Israele lo raduna"),
                 array('','2',"e lo custodisce come un pastore il suo gregge »."),
                 array('','*',"Perché il Signore ha redento Giacobbe,"),
-                array('','2',"lo ha riscattato delle mani del più forte di lui.")
+                array('','2',"lo ha riscattato dalle mani del più forte di lui.")
             ),
             array(
                 array('','*',"Verranno e canteranno inni sull'altura di Sion,"),

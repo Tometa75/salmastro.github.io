@@ -18,7 +18,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Dio è conosciuto in Giuda,"),
                 array('','2',"in Israele è grande il suo nome."),
-                array('','*',"È in Gerusalemme la sua dimore,"),
+                array('','*',"È in Gerusalemme la sua dimora,"),
                 array('','2',"la sua abitazione in Sion."),
                 array('','*',"Qui spezzò le saette dell'arco,"),
                 array('','2',"lo scudo, la spada, la guerra.")
