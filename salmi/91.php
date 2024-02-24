@@ -61,7 +61,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Il giusto fiorirà come palma,"),
                 array('','2',"crescerà come cedro del Libano;"),
-                array('','*',"piantati nella case del Signore,"),
+                array('','*',"piantati nella casa del Signore,"),
                 array('','2',"fioriranno negli atri del nostro Dio.")
             ),
             array(

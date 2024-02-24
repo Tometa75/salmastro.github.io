@@ -52,7 +52,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','+',"poiché sono insorti contro di me gli arroganti"),
-                array('','*',"e i prepotenti insidiano la ia vita,"),
+                array('','*',"e i prepotenti insidiano la mia vita,"),
                 array('','2',"davanti a sé non pongono Dio."),
                 array('','*',"Ecco, Dio è il mio aiuto,"),
                 array('','2',"il Signore mi sostiene.")

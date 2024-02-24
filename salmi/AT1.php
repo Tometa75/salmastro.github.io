@@ -7,13 +7,13 @@ $this->closure['load']=function() {
     if ($this->actual['tempo']=='P') {
         $this->antifona[0]=array(
             "Mia forza",
-            "e mio canto p il Signore, egli mi ha salvato, alleluia."
+            "e mio canto è il Signore, egli mi ha salvato, alleluia."
         );
     }
     else {
         $this->antifona[0]=array(
             "Mia forza",
-            "e mio canto p il Signore, egli mi ha salvato."
+            "e mio canto è il Signore, egli mi ha salvato."
         );
     }
 
@@ -65,7 +65,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Stendesti la destra:"),
-                array('','2',"li inghiottì oa terra."),
+                array('','2',"li inghiottì la terra."),
                 array('','*',"Guidasti con il tuo favore questo popolo che hai riscattato,"),
                 array('','2',"lo conducesti con forza alla tua santa dimora.")
             ),

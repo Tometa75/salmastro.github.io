@@ -63,7 +63,7 @@ $this->closure['load']=function() {
                 array('','*',"Siano come pula al vento"),
                 array('','2',"e l'angelo del Signore li incalzi;"),
                 array('','*',"la loro strada sia buia e scivolosa"),
-                array('','2',"quando li insegue l'angelo el Signore.")
+                array('','2',"quando li insegue l'angelo del Signore.")
             ),
             array(
                 array('','*',"Poiché senza motivo mi hanno teso una rete,"),
