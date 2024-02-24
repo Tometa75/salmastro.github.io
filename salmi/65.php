@@ -43,7 +43,7 @@ $this->closure['load']=function() {
                 array('','2',"i ribelli non rialzino la fronte.")
             ),
             array(
-                array('','*',"Benedite, ,popoli, il nostro Dio,"),
+                array('','*',"Benedite, popoli, il nostro Dio,"),
                 array('','2',"fate risuonare la sua lode;"),
                 array('','*',"è lui che salvò la nostra vita"),
                 array('','2',"e non lasciò vacillare i nostri passi.")

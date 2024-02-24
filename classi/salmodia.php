@@ -67,7 +67,7 @@ class Salmodia {
                 break;
                 case 'comp1': 
                     $this->salmi=array(
-                        array('1','S','114','','G'),
+                        array('1','S','14','','G'),
                         array('2','S','16','','G'),
                         array('3','S','15','','G')
                     );
@@ -3971,7 +3971,7 @@ class Salmodia {
                         switch ($s[0]) {
                             case 1: $this->res[$k]->setAntifona(array(
                                 "Ecco,",
-                                "l'inverno è passato,, è cessata la pioggia: alzati, amica mia, mia bella, e vieni!"
+                                "l'inverno è passato, è cessata la pioggia: alzati, amica mia, mia bella, e vieni!"
                             ));
                             break;
                             case 2: $this->res[$k]->setAntifona(array(

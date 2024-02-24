@@ -17,7 +17,7 @@ $this->closure['load']=function() {
         'all'=>array(
             array(
                 array('','*',"Signore, il re gioisce della tua potenza,"),
-                array('','2',"quando esulata per la tua salvezza."),
+                array('','2',"quanto esulta per la tua salvezza."),
                 array('','*',"Hai soddisfatto il desiderio del suo cuore,"),
                 array('','2',"non hai respinto il voto delle sue labbra.")
             ),

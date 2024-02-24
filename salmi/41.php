@@ -57,7 +57,7 @@ $this->closure['load']=function() {
                 array('','2',"di una moltitudine in festa.")
             ),
             array(
-                array('','*',"Perché ti rattristi, anima mia,,"),
+                array('','*',"Perché ti rattristi, anima mia,"),
                 array('','2',"perché su di me gemi?"),
                 array('','*',"Spera in Dio: ancora potrò lodarlo,"),
                 array('','2',"lui, salvezza del mio volto e mio Dio.")

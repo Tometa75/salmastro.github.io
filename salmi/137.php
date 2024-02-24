@@ -35,7 +35,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Rendo grazie al tuo nome"),
                 array('','2',"per la tua fedeltà e la tua misericordia:"),
-                array('','*',"hai reso ls tua promessa"),
+                array('','*',"hai reso la tua promessa"),
                 array('','2',"più grande di ogni fama.")
             ),
             array(
@@ -54,7 +54,7 @@ $this->closure['load']=function() {
                 array('','*',"Se cammino in mezzo alla sventura,"),
                 array('','2',"tu mi ridoni vita;"),
                 array('','*',"contro l'ira dei miei nemici stendi la mano,"),
-                array('','2',"e la tus destra mi salva."),
+                array('','2',"e la tua destra mi salva."),
                 array('','+',"Il Signore completerà per me l'opera sua."),
                 array('','*',"Signore, la tua bontà dura per sempre:"),
                 array('','2',"non abbandonare l'opera delle tue mani.")
