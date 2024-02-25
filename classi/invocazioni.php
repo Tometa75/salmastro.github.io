@@ -211,7 +211,7 @@ class Invocazioni {
                     case 2:
                         $this->testo=array(
                             array(
-                                array('','',"Lode a Cristo, che vive in eterno per intercedere a nostro favore e può salvare quelli che si accostano al Padre per messo di lui. Animati da questa speranza invochiamo il nostro Salvatore:"),
+                                array('','',"Lode a Cristo, che vive in eterno per intercedere a nostro favore e può salvare quelli che si accostano al Padre per mezzo di lui. Animati da questa speranza invochiamo il nostro Salvatore:"),
                                 array('ris','I',"Ricordati, Signore, del tuo popolo.")
                             ),
                             array(
@@ -2940,7 +2940,7 @@ class Invocazioni {
 
                         $this->testo=array(
                             array(
-                                array('','',"Glorifichiamo Dio, nostro Padre, la cui misericordia è senza limiti, e invochiamo la grazia dello Spirito Santo per messo di Gesù Cristo, che è sempre vivo per intercedere a nostro favore:"),
+                                array('','',"Glorifichiamo Dio, nostro Padre, la cui misericordia è senza limiti, e invochiamo la grazia dello Spirito Santo per mezzo di Gesù Cristo, che è sempre vivo per intercedere a nostro favore:"),
                                 array('ris','I',"Accendi in noi, o Padre, il fuoco del tuo amore.")
                             ),
                             array(
