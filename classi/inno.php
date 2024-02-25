@@ -3053,6 +3053,11 @@ class Inno {
             elseif ($this->actual['evCode']=='0319a') {
                 if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1' || $this->actual['ora']=='lodi') $this->actual['proprio']='lodi_0319a';
             }
+			//Transito S. Benedetto
+            elseif ($this->actual['evCode']=='0321a') {
+                if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p1622';
+                elseif ($this->actual['ora']=='lodi') $this->actual['inno']='p1631';
+            }
             //Annunciazione del Signore
             elseif ($this->actual['evCode']=='0325a') {
                 if ($this->actual['ora']=='ves2' || $this->actual['ora']=='ves1') $this->actual['inno']='p10';

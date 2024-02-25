@@ -1993,7 +1993,7 @@ class Calendario {
 			if (substr($day,4,4)>'0101' && substr($day,4,4)<'0106') {
 				$m['evento']['F'.substr($day,4,4)]=array(
 					"titolo"=>"Ferie prima dell'Epifania",
-					"tipo"=>"F",
+					"tipo"=>"E",
 				);
 			}
 
@@ -2021,7 +2021,7 @@ class Calendario {
 
 				$m['evento']['F'.substr($day,4,4)]=array(
 					"titolo"=>"Ferie dopo l'Epifania",
-					"tipo"=>"F",
+					"tipo"=>"E",
 				);
 			}
 
@@ -2039,37 +2039,37 @@ class Calendario {
 				if (substr($day,4,4)=='1226') {
 					$m['evento']['1226a']=array(
 						"titolo"=>"Santo Stefano (Promartire)",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 				elseif (substr($day,4,4)=='1227') {
 					$m['evento']['1227a']=array(
 						"titolo"=>"San Giovanni (Apostolo ed Evangelista)",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 				elseif (substr($day,4,4)=='1228') {
 					$m['evento']['1228a']=array(
 						"titolo"=>"Santi innocenti martiri",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 				elseif (substr($day,4,4)=='1229') {
 					$m['evento']['1229a']=array(
 						"titolo"=>"Quinto giorno dell'ottava di Natale",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 				elseif (substr($day,4,4)=='1230') {
 					$m['evento']['1230a']=array(
 						"titolo"=>"Sesto giorno dell'ottava di Natale",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 				elseif (substr($day,4,4)=='1231') {
 					$m['evento']['1231a']=array(
 						"titolo"=>"Settimo giorno dell'ottava di Natale",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2089,7 +2089,7 @@ class Calendario {
 				else {
 					$m['evento']['A1'.$m['weekDay']]=array(
 						"titolo"=>"1° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2105,7 +2105,7 @@ class Calendario {
 				else {
 					$m['evento']['A2'.$m['weekDay']]=array(
 						"titolo"=>"2° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2121,7 +2121,7 @@ class Calendario {
 				else {
 					$m['evento']['A3'.$m['weekDay']]=array(
 						"titolo"=>"3° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2137,7 +2137,7 @@ class Calendario {
 				else {
 					$m['evento']['A4'.$m['weekDay']]=array(
 						"titolo"=>"4° settimana di Avvento - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2147,7 +2147,7 @@ class Calendario {
 				$m['evento']=array();
 				$m['evento']['A12'.substr($day,6,2)]=array(
 					"titolo"=>"Avvento - ".substr($day,6,2)." Dicembre",
-					"tipo"=>"F"
+					"tipo"=>"E"
 				);
 			}
 
@@ -2175,7 +2175,7 @@ class Calendario {
 				else {
 					$m['evento']['QC'.$m['weekDay']]=array(
 						"titolo"=>$this->giornoSett[$m['weekDay']]." dopo le Ceneri",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2191,7 +2191,7 @@ class Calendario {
 				else {
 					$m['evento']['Q1'.$m['weekDay']]=array(
 						"titolo"=>"1° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2207,7 +2207,7 @@ class Calendario {
 				else {
 					$m['evento']['Q2'.$m['weekDay']]=array(
 						"titolo"=>"2° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2223,7 +2223,7 @@ class Calendario {
 				else {
 					$m['evento']['Q3'.$m['weekDay']]=array(
 						"titolo"=>"3° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2239,7 +2239,7 @@ class Calendario {
 				else {
 					$m['evento']['Q4'.$m['weekDay']]=array(
 						"titolo"=>"4° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2255,7 +2255,7 @@ class Calendario {
 				else {
 					$m['evento']['Q5'.$m['weekDay']]=array(
 						"titolo"=>"5° settimana di Quaresima - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2272,7 +2272,7 @@ class Calendario {
 				else {
 					$m['evento']['SS'.$m['weekDay']]=array(
 						"titolo"=>$this->giornoSett[$m['weekDay']].' Santo',
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 					if ($m['weekDay']==5) $m['rocho']=true;
 				}
@@ -2378,7 +2378,7 @@ class Calendario {
 				else {
 					$m['evento']['PA1'.$m['weekDay']]=array(
 						"titolo"=>$this->giornoSett[$m['weekDay']]." dell'ottava di Pasqua",
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2394,7 +2394,7 @@ class Calendario {
 				else {
 					$m['evento']['PA2'.$m['weekDay']]=array(
 						"titolo"=>"2° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2410,7 +2410,7 @@ class Calendario {
 				else {
 					$m['evento']['PA3'.$m['weekDay']]=array(
 						"titolo"=>"3° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2426,7 +2426,7 @@ class Calendario {
 				else {
 					$m['evento']['PA4'.$m['weekDay']]=array(
 						"titolo"=>"4° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2442,7 +2442,7 @@ class Calendario {
 				else {
 					$m['evento']['PA5'.$m['weekDay']]=array(
 						"titolo"=>"5° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2458,7 +2458,7 @@ class Calendario {
 				else {
 					$m['evento']['PA6'.$m['weekDay']]=array(
 						"titolo"=>"6° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}
@@ -2474,7 +2474,7 @@ class Calendario {
 				else {
 					$m['evento']['PA7'.$m['weekDay']]=array(
 						"titolo"=>"7° settimana di Pasqua - ".$this->giornoSett[$m['weekDay']],
-						"tipo"=>"F"
+						"tipo"=>"E"
 					);
 				}
 			}

@@ -3073,6 +3073,10 @@ class Orazione {
 
             if ($this->actual['evCode']=='0210a') $this->actual['proprio']=$this->actual['evCode'];
             elseif ($this->actual['evCode']=='0319a') $this->actual['proprio']=$this->actual['evCode'];
+			//Transito S. Benedetto
+            elseif ($this->actual['evCode']=='0321a') {
+            	$this->actual['proprio']='0321a';
+            }
             elseif ($this->actual['evCode']=='0325a') $this->actual['proprio']=$this->actual['evCode'];
 
         }

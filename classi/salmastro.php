@@ -90,7 +90,7 @@ class Salmastro {
 
             echo '<div class="salHeadLine" style="">';
                 //echo '<img style="position:relative;width:60px;height:25px;margin-left:10px;cursor:pointer;" src="'.SITE_URL.'/img/medaglia.png" onclick="window._salmastro.refresh();" />';
-                echo '<span style="margin-left:10px;" >Liturgia delle ore benedettina (v0.9 - 2024)</span>';
+                echo '<span style="margin-left:10px;" >Liturgia delle ore benedettina (v0.9.1 - 2024)</span>';
             echo '</div>';
 
             echo '<div class="salHeadBlock" style="background-image:url(\''.SITE_URL.'/img/sfondoHead.png\')">';
@@ -149,8 +149,9 @@ class Salmastro {
 
                 echo '<div style="position:relative;display:inline-block;vertical-align:top;width:54%;font-weight:bold;font-size: 1.2em;padding: 3px;padding-left: 10px;box-sizing:border-box;" >';
                     
-                    $this->writeRicorrenza('E',$this->map['evento']);
-                    $this->writeRicorrenza('F',$this->map['festa']);
+                    $this->writeRicorrenza('E',$this->map['evento'],'map');
+                    $this->writeRicorrenza('F',$this->map['festa'],'map');
+					$this->writeRicorrenza('E',$this->vig['evento'],'vig');
                     
                 echo '</div>';
 
@@ -159,26 +160,36 @@ class Salmastro {
         echo '</div>';
     }
 
-    function writeRicorrenza($flag,$a) {
+    function writeRicorrenza($flag,$a,$tipo) {
 
         foreach ($a as $k=>$r) {
-
+			
+			if ($tipo=='vig' && ($r['tipo']!='F' && $r['tipo']!='S') ) continue;
+			
             $color='black';
 
             switch ($r['tipo']) {
                 case 'X': $color='#787575';break;
                 case 'F': $color='red';break;
                 case 'S': $color='red';break;
+				case 'E': $color='red';break;
                 case 'M': $color='blue';break;
                 case 'R': $color='#7889cd';break;
             }
 
             if ($flag=='F' && $color=='red') $color='blue';
             if ($flag=='F' && $color=='blue' && count($this->map['evento'])>0) $color='#7889cd';
-
-            echo '<div style="color:'.$color.';">';
-                echo ($color!='red'?"(".$r['tipo'].') ':'').$r['titolo'];
-            echo '</div>';
+			
+			if ($tipo=='map') {
+            	echo '<div style="color:'.$color.';">';
+                	echo ($color!='red'?"(".$r['tipo'].') ':'').$r['titolo'];
+				echo '</div>';
+			}
+			if ($tipo=='vig') {
+				echo '<div style="color:black;">';
+                	echo 'vig. '.$r['titolo'];
+				echo '</div>';
+			}
         }
     }
 

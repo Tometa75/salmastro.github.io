@@ -257,13 +257,15 @@ class Litio {
 
                 $tnow=date('H:m');
                 $def="";
-
-                foreach ($this->base as $kb=>$ob) {
-                    if ($tnow>=$ob['i'] && $tnow<=$ob['f']) {
-                        $def=substr($kb,0,3);
-                        break;
-                    }
-                }
+				
+				if (!isset($this->config['ora']) || $this->config['ora']=='') {
+	                foreach ($this->base as $kb=>$ob) {
+	                    if ($tnow>=$ob['i'] && $tnow<=$ob['f']) {
+	                        $def=substr($kb,0,3);
+	                        break;
+	                    }
+	                }
+				}
 
                 echo '<select id="sal_ora" style="position:relative;width:95%;font-size:1.2em;font-weight:bold;margin-top:5px;text-align:center;background-color:#d4dfee;" >';
                     foreach ($this->map['actual'] as $k=>$a) {
