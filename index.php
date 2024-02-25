@@ -11,6 +11,8 @@ if (isset($_REQUEST['mix'])) $param['config']['mix']=$_REQUEST['mix'];
 if (isset($_REQUEST['inv'])) $param['config']['inv']=$_REQUEST['inv'];
 if (isset($_REQUEST['contesto'])) $param['config']['contesto']=$_REQUEST['contesto'];
 
+if (isset($param['today']) && $param['today']=='xxxxxxxx') $param['today']=date('Ymd');
+
 $sal=new Salmastro($param);
 $sal->build();
 

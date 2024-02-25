@@ -122,7 +122,8 @@ class calnav {
                 echo '</div>';
 
                 if ($this->config['now']) {
-                    echo '<img class="calnavNavNow" src="'.SITE_URL.'/core/calendario/img/now.png" onclick="window._calnav_'.$this->config['index'].'.setToday(\''.date('Ymd').'\');" />';
+                    //echo '<img class="calnavNavNow" src="'.SITE_URL.'/core/calendario/img/now.png" onclick="window._calnav_'.$this->config['index'].'.setToday(\''.date('Ymd').'\');" />';
+					echo '<img class="calnavNavNow" src="'.SITE_URL.'/core/calendario/img/now.png" onclick="window._calnav_'.$this->config['index'].'.setToday(\'xxxxxxxx\');" />';
                 }
             echo '</div>';
 
