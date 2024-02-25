@@ -2322,6 +2322,26 @@ class Calendario {
 					"ppvv"=>true
 				);
 			}
+			
+			//il Transito non può accavallarsi ad una domenica
+			if (substr($day,4,4)=='0321' && $m['weekDay']!=0) {
+				$m['evento']=array();
+				$m['evento']['0321a']=array(
+					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
+					"tipo"=>"F",
+					"comune"=>"monaci",
+					"ppvv"=>true
+				);
+			}
+			elseif (substr($day,4,4)=='0322' && $m['weekDay']==1) {
+				$m['evento']=array();
+				$m['evento']['0321a']=array(
+					"titolo"=>"Transito del N.S. Padre Benedetto Abate",
+					"tipo"=>"F",
+					"comune"=>"monaci",
+					"ppvv"=>true
+				);
+			}
 
 			//se il tempo è di Quaresima Annunciazione è una Solennità che non può cadere di domenica e viene posticipato
 			//o dalle Palme alla seconda di Pasqua e viene posticipato
