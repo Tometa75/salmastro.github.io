@@ -72,7 +72,7 @@ $this->closure['load']=function() {
             array(
                 array('','*',"Gridano e il Signore li ascolta,"),
                 array('','2',"li salva da tutte le loro angosce."),
-                array('','*',"Il Signore è vicino ha chi ha il cuore ferito,"),
+                array('','*',"Il Signore è vicino a chi ha il cuore ferito,"),
                 array('','2',"egli salva gli spiriti affranti.")
             ),
             array(
