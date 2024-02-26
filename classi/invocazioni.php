@@ -3091,7 +3091,7 @@ class Invocazioni {
                                 array('','',"Fa' che i fanciulli crescano in età, sapienza e grazia davanti a te e davanti agli uomini,"),
                                 array('-','',"e i giovani scoprano la tua carità nella purezza del loro amore e nell'impegno al servizio del prossimo."),
                                 array('','',"Ricordati dei nostri fratelli che si sono addormentati nella fede,"),
-                                array('-','',"rendili partecipi del'eredità eterna.")
+                                array('-','',"rendili partecipi dell'eredità eterna.")
                             )
                         );
                     }
