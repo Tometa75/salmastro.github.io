@@ -46,7 +46,7 @@ $this->closure['load']=function() {
                 array('','*',"Misericordia e verità s'incontreranno,"),
                 array('','2',"giustizia e pace si baceranno."),
                 array('','*',"La verità germoglierà dalla terra"),
-                array('','2',"e la giustizia si affaccerà del cielo.")
+                array('','2',"e la giustizia si affaccerà dal cielo.")
             ),
             array(
                 array('','*',"Quando il Signore elargirà il suo bene,"),

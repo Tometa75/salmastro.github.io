@@ -262,8 +262,8 @@ class Salmodia {
                 case 'comp': 
                     $this->salmi=array(
                         array('1','S','31','','G'),
-                        array('1','S','61','','G'),
-                        array('1','S','132','','G')
+                        array('2','S','61','','G'),
+                        array('3','S','132','','G')
                     );
                 break;
             }
