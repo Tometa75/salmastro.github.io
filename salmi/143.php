@@ -51,7 +51,7 @@ $this->closure['load']=function() {
                 array('','+',"Stendi dall'alto la tua mano,"),
                 array('','*',"scampami e salvami dalle grandi acque,"),
                 array('','2',"dalla mano degli stranieri."),
-                array('','*',"La loro bocca di ce menzogne"),
+                array('','*',"La loro bocca dice menzogne"),
                 array('','2',"e alzando la destra giurano il falso.")
             ),
             array(
