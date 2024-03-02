@@ -58,7 +58,7 @@ $this->closure['load']=function() {
                 array('','*',"nessun prodotto daranno le viti,"),
                 array('','2',"cesserà il raccolto dell'olivo,"),
                 array('','+',"i campi non daranno più cibo,"),
-                array('','*',"i greggi spariranno degli ovili"),
+                array('','*',"i greggi spariranno dagli ovili"),
                 array('','2',"e le stalle rimarranno senza buoi.")
             ),
             array(
