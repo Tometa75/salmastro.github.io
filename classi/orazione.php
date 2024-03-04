@@ -2903,8 +2903,10 @@ class Orazione {
 
         }
         //###############################
-
-
+		//se è compieta l'orazione non subisce variazioni in base alla ricorrenza
+		if ($this->actual['ora']=='comp' || $this->actual['ora']=='comp1' || $this->actual['ora']=='comp2') return;
+		//###############################
+	
         if ($this->actual['tempo']=='O') {
 
             //presentazione del Signore
