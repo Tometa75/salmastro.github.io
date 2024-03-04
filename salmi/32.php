@@ -62,7 +62,7 @@ $this->closure['load']=function() {
                 array('','*',"Beata la nazione il cui Dio è il Signore,"),
                 array('','2',"il popolo che si è scelto come erede."),
                 array('','*',"Il Signore guarda dal cielo,"),
-                array('','2',"egli verde tutti gli uomini.")
+                array('','2',"egli vede tutti gli uomini.")
             ),
             array(
                 array('','*',"Dal luogo della sua dimora"),

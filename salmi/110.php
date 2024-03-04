@@ -42,7 +42,7 @@ $this->closure['load']=function() {
                 array('','*',"Egli dà il cibo a chi lo teme,"),
                 array('','2',"si ricorda sempre della sua alleanza."),
                 array('','*',"Mostrò al suo popolo la potenza delle sue opere,"),
-                array('','2',"egli diede l'eredità delle genti.")
+                array('','2',"gli diede l'eredità delle genti.")
             ),
             array(
                 array('','*',"Le opere delle sue mani sono verità e giustizia,"),

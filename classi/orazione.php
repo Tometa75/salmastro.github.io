@@ -2904,7 +2904,10 @@ class Orazione {
         }
         //###############################
 		//se è compieta l'orazione non subisce variazioni in base alla ricorrenza
-		if ($this->actual['ora']=='comp' || $this->actual['ora']=='comp1' || $this->actual['ora']=='comp2') return;
+		if ($this->actual['ora']=='comp' || $this->actual['ora']=='comp1' || $this->actual['ora']=='comp2') {
+			$this->apply();
+			return;
+		}
 		//###############################
 	
         if ($this->actual['tempo']=='O') {
@@ -3101,7 +3104,12 @@ class Orazione {
         
         //----------------------------------------------------------------------------
 
-        if ($this->actual['proprio']!='') {
+        $this->apply();
+    }
+	
+	function apply() {
+		
+		if ($this->actual['proprio']!='') {
             if (isset($this->proprio[$this->actual['proprio']])) {
                 foreach ($this->proprio[$this->actual['proprio']] as $k=>$t) {
                     $this->info['testo']->addBlock($t);
@@ -3117,7 +3125,8 @@ class Orazione {
         }
 
         $this->info['testo']->addBlock(array(array('','2',"Amen.")));
-    }
+		
+	}
 
     function draw() {
 
