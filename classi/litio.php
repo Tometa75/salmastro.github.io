@@ -347,7 +347,7 @@ class Litio {
 
         echo '</div>';
         
-        echo '<div class="salTestoContainer" style="" >';
+        echo '<div id="salTestoContainer" class="salTestoContainer" style="" >';
 
             echo '<div id="salTesto" style="" >';
                 //echo __DIR__;

@@ -87,7 +87,7 @@ const salmastro=class {
             "data": { "param": param },
             "type": "POST",
             "success": function(ret) {
-                $('#salTesto').html(ret);   
+                $('#salTesto').html(ret);
             },
             "error": function(ret) {
                 console.log(ret);

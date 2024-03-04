@@ -21,6 +21,9 @@ foreach($m as $k=>$mese) {
 $anno=substr($param['today'],0,4);
 $tag="";
 
+$count=0;
+$point=0;
+
 foreach ($res as $k=>$sett) {
     foreach ($sett as $ks=>$ad) {
         foreach ($ad as $kd=>$d) {
@@ -28,6 +31,9 @@ foreach ($res as $k=>$sett) {
             if ($d['tag']<=$tag) continue;
 
             $tag=$d['tag'];
+			
+			$count++;
+			if ($d['tag']==$param['today']) $point=$count;
 
             $map=$cal->buildMap($tag);
 
@@ -89,5 +95,12 @@ foreach ($res as $k=>$sett) {
         }
     }
 }
+
+echo '<script type="text/javascript" >';
+	echo 'var h=document.getElementById("salTestoContainer").scrollHeight;';
+	echo 'var pc='.(round(($point/$count)*100)).'-1;';
+	echo 'document.getElementById("salTestoContainer").scrollTop=parseInt(h*(pc/100));';
+	//echo "alert(h+' '+parseInt(h*(pc/100)));";
+echo '</script>';
 
 ?>
