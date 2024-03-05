@@ -52,7 +52,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Se dico: « Almeno l'oscurità mi copra"),
-                array('','2',"e introno a me sia la notte »;"),
+                array('','2',"e intorno a me sia la notte »;"),
                 array('','+',"nemmeno le tenebre per te sono oscure,"),
                 array('','*',"e la notte è chiara come il giorno;"),
                 array('','2',"per te le tenebre sono come luce.")
