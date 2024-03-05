@@ -53,3 +53,8 @@ Starting "Liturgical Calendar"
 15.02.2024
 BETA TESTING - EDITING
 
+18.02.2024 (0.9.1)
+information regarding the vigils has been entered in the top right box
+
+05.03.2024 (0.9.2)
+now the liturgical calendar scrolls to the actual day setted in the navigator
