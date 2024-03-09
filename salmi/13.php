@@ -20,7 +20,7 @@ $this->closure['load']=function() {
                 array('','*',"Sono corrotti, fanno cose abominevoli:"),
                 array('','2',"nessuno più agisce bene."),
                 array('','+',"Il signore dal cielo si china sugli uomini"),
-                array('','*',"per vedere se esita un saggio:"),
+                array('','*',"per vedere se esista un saggio:"),
                 array('','2',"se c'è uno che cerchi Dio.")
             ),
             array(

@@ -95,6 +95,10 @@ class Salmo {
         $this->antifona[0]=$a;
         $this->antifona[1]=$this->antifona[0];
     }
+	
+	function setAntifonaIndex($i,$a) {
+		$this->antifona[$i]=$a;
+	}
 
     function TPAntifona() {
         //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
