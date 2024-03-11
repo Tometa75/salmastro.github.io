@@ -4990,13 +4990,16 @@ class Salmodia {
 	                                "Questa",
 	                                "è la casa del Signore, saldamente edificata, costruita sulla roccia."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Questa",
 	                                "è la casa del Signore, saldamente edificata, costruita sulla roccia."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5083,13 +5086,16 @@ class Salmodia {
 	                                "Una fonte",
 	                                "di giardino sei tu, sorgente d'acqua viva che sgorga dal libano."
                             	));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Una fonte",
 	                                "di giardino sei tu, sorgente d'acqua viva che sgorga dal libano."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5206,13 +5212,16 @@ class Salmodia {
 	                                "Perseverate,",
 	                                "e salverete la vostra vita."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Perseverate,",
 	                                "e salverete la vostra vita."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5329,13 +5338,16 @@ class Salmodia {
 	                                "Chi semina",
 	                                "nelle lacrime, mieterà con giubilo."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Chi semina",
 	                                "nelle lacrime, mieterà con giubilo."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5452,13 +5464,16 @@ class Salmodia {
 	                                "Chi semina",
 	                                "nelle lacrime, mieterà con giubilo."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Chi semina",
 	                                "nelle lacrime, mieterà con giubilo."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5515,13 +5530,16 @@ class Salmodia {
 	                                "Noi siamo",
 	                                "collaboratori di Dio nella sua Chiesa: voi il campo di Dio, l'edificio di Dio."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Noi siamo",
 	                                "collaboratori di Dio nella sua Chiesa: voi il campo di Dio, l'edificio di Dio."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5578,13 +5596,16 @@ class Salmodia {
 	                                "Noi siamo",
 	                                "collaboratori di Dio nella sua Chiesa: voi il campo di Dio, l'edificio di Dio."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Noi siamo",
 	                                "collaboratori di Dio nella sua Chiesa: voi il campo di Dio, l'edificio di Dio."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5671,13 +5692,16 @@ class Salmodia {
 	                                "Coloro",
 	                                "che ricevono la parola di Dio in un cuore ben disposto, portano frutto con perseveranza."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Coloro",
 	                                "che ricevono la parola di Dio in un cuore ben disposto, portano frutto con perseveranza."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5764,13 +5788,16 @@ class Salmodia {
 	                                "Risplende",
 	                                "di bellezza la gloriosa schiera delle vergini."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Risplende",
 	                                "di bellezza la gloriosa schiera delle vergini."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -5887,13 +5914,16 @@ class Salmodia {
 	                                "Nessuno",
 	                                "ha mai udito né visto le meraviglie che hai preparato per chi confida in te, Signore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Nessuno",
 	                                "ha mai udito né visto le meraviglie che hai preparato per chi confida in te, Signore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -6010,13 +6040,16 @@ class Salmodia {
 	                                "Nessuno",
 	                                "ha mai udito né visto le meraviglie che hai preparato per chi confida in te, Signore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Nessuno",
 	                                "ha mai udito né visto le meraviglie che hai preparato per chi confida in te, Signore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -6103,13 +6136,16 @@ class Salmodia {
 	                                "Il mio gregge",
 	                                "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Il mio gregge",
 	                                "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -6196,13 +6232,16 @@ class Salmodia {
 	                                "Il mio gregge",
 	                                "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Il mio gregge",
 	                                "riconosce la mia voce: e io, il Signore, conosco tutte le mie pecore."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();
@@ -6289,13 +6328,16 @@ class Salmodia {
 	                                "Salvami,",
 	                                "o Dio, nel tuo nome: con la tua forza vieni a liberarmi."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(1,array("",""));
 							}
-							if ($s[0]==3) {
+							elseif ($s[0]==3) {
 	                            $this->res[$k]->setAntifonaIndex(1,array(
 	                                "Salvami,",
 	                                "o Dio, nel tuo nome: con la tua forza vieni a liberarmi."
 	                            ));
+								$this->res[$k]->setAntifonaIndex(0,array("",""));
 							}
+							else $this->res[$k]->setAntifona(array("",""));
                         }
 
                         if ($this->actual['tempo']=='P') $this->res[$k]->TPAntifona();

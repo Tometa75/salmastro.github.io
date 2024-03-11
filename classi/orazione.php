@@ -1148,7 +1148,7 @@ class Orazione {
         ),
         "QU4"=>array(
             array(
-                array('','',"O Padre, che per mezzo del tuo Figlio opero mirabilmente la nostra redenzione, concedi al popolo cristiano di affrettarsi con fede viva e generoso impegno verso la Pasqua ormai vicina."),
+                array('','',"O Padre, che per mezzo del tuo Figlio operi mirabilmente la nostra redenzione, concedi al popolo cristiano di affrettarsi con fede viva e generoso impegno verso la Pasqua ormai vicina."),
                 array('ending')
             )
         ),

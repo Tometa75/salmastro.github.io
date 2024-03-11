@@ -58,3 +58,6 @@ information regarding the vigils has been entered in the top right box
 
 05.03.2024 (0.9.2)
 now the liturgical calendar scrolls to the actual day setted in the navigator
+
+11.03.2024 (0.9.3)
+fixed ninth hour's antiphon

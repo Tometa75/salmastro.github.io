@@ -35,6 +35,18 @@ class Salmo {
 
         //definito in CLOSURE
         $this->load();
+		
+		////////////////////////////////////////
+		if ($this->actual['ora']=='nona') {
+			if ($s[0]==1) {
+				$this->setAntifonaIndex(1,array("",""));
+			}
+			elseif ($s[0]==3) {
+				$this->setAntifonaIndex(0,array("",""));
+			}
+			else $this->setAntifona(array("",""));
+        }
+		///////////////////////////////////////
 
         $this->res=new Saltesto();
         //se esiste la propietà '2' all'indice '1' allora diventa '2c'
@@ -102,8 +114,10 @@ class Salmo {
 
     function TPAntifona() {
         //la funzione dà per scontato che l'antifona iniziale e finale siano uguali
-        $this->antifona[0][1]=$this->antifona[0][1].' Alleluia.';
-        $this->antifona[1]=$this->antifona[0]; 
+		if ($this->antifona[0][1]!="") {
+        	$this->antifona[0][1]=$this->antifona[0][1].' Alleluia.';
+        	$this->antifona[1]=$this->antifona[0];
+		}
     }
 
     function getAntifona() {
@@ -125,6 +139,8 @@ class Salmo {
         $index=($flag)?0:1;
 
         if ($this->error) return;
+		
+		if ($this->antifona[$index][0]=="") return;
 
         echo '<div style="position:relative;margin-top:5px;margin-bottom:10px;font-size:1.1em;" >';
             echo '<div class="salAntifona" >'.$this->pos.' ant.</div>';
