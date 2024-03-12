@@ -3133,7 +3133,7 @@ class Invocazioni {
                                 array('','',"Fa' che viviamo la Quaresima nell'ascolto costante della tua parola,"),
                                 array('-','',"per celebrare degnamente il Cristo nostra Pasqua."),
                                 array('','',"Il tuo Spirito sia il nostro maestro,"),
-                                array('-','',"Perché possiamo aiutare i dubbiosi e gli erranti a seguire le via della verità."),
+                                array('-','',"Perché possiamo aiutare i dubbiosi e gli erranti a seguire la via della verità."),
                                 array('','',"Donaci di penetrare più profondamente il mistero di Cristo,"),
                                 array('-','',"e di esprimerlo più chiaramente nella vita."),
                                 array('','',"Purifica e rinnova la tua Chiesa in questi giorni di grazia,"),
