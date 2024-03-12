@@ -3181,7 +3181,7 @@ class Invocazioni {
                                 array('-','',"perché non abbiano sete in eterno."),
                                 array('','',"Illumina con il tuo Spirito gli umanisti, gli scienziati e gli artisti,"),
                                 array('-','',"perché collaborino a rendere gli uomini più aperti alla luce del Vangelo."),
-                                array('','',"Metti una salutare inquietudine in color che si sono allontanati da te per colpa propria o per gli scandali altrui,"),
+                                array('','',"Metti una salutare inquietudine in coloro che si sono allontanati da te per colpa propria o per gli scandali altrui,"),
                                 array('-','',"perché ritornino a te e rimangano sempre nel tuo amore."),
                                 array('','',"Apri ai nostri morti le braccia della tua misericordia,"),
                                 array('-','',"perché si allietino con Maria e tutti i santi nella gioia del Paradiso.")
