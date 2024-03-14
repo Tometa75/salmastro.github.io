@@ -78,7 +78,7 @@ class Beata {
                     array('','',"il Signore è con te."),
                     array('','',"Tu sei benedetta fra le donne"),
                     array('','',"e benedetto è il frutto del tuo seno, Gesù."),
-                    array('','',"Santa Maria, Madre i Dio,"),
+                    array('','',"Santa Maria, Madre di Dio,"),
                     array('','',"prega per noi peccatori,"),
                     array('','',"adesso e nell'ora della nostra morte."),
                     array('','',"Amen.")
