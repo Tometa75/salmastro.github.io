@@ -50,7 +50,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"Eppure tu abiti la santa dimora,"),
-                array('','2',"tuò lode di Israele."),
+                array('','2',"tu, lode di Israele."),
                 array('','*',"In te hanno sperato i nostri padri,"),
                 array('','2',"hanno sperato e tu gli hai liberati;"),
                 array('','*',"a te gridarono e furono salvati,"),
@@ -141,7 +141,7 @@ $this->closure['load']=function() {
             ),
             array(
                 array('','*',"E io vivrò per lui,"),
-                array('','2',"lo servirà òa mia discendenza."),
+                array('','2',"lo servirà la mia discendenza."),
                 array('','*',"Si palerà del Signore alla generazione che viene;"),
                 array('','2',"annunzieranno la sua giustizia;"),
                 array('','*',"al popolo che nascerà diranno:"),
