@@ -50,7 +50,7 @@ class Cantico {
                 $this->testoBase=array(
                     array(
                         array('','*',"Benedetto il Signore Dio d'Israele,"),
-                        array('','2',"perché ha visitato e redento i suo popolo"),
+                        array('','2',"perché ha visitato e redento il suo popolo"),
                         array('','*',"e ha suscitato per noi una salvezza potente"),
                         array('','2',"nella casa di Davide, suo servo,")
                     ),
